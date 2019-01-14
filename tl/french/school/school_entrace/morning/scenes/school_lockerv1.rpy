@@ -10,11 +10,10 @@ translate french empty_envelope_pen_usev1_label_d9e82080:
 translate french empty_envelope_pen_usev1_label_899812af:
 
     # MC "(Okay.. Let’s write it, just as we planned, Judy.)"
-    MC "(Ok.. Écrivons, comme nous l'avions prévu, avec Judy.)""
+    MC "(Ok.. Écrivons, comme nous l'avions prévu, avec Judy.)"
 
 # game/scripts/school/school_entrace/morning/scenes/school_lockerv1.rpy:43
 translate french empty_envelope_pen_usev1_label_c016af63:
 
     # MC "That's my pens."
     MC "Ce sont mes stylos."
-

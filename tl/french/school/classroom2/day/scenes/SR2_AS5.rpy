@@ -64,7 +64,7 @@ translate french SR2_AS5_label_d83f5200:
 translate french SR2_AS5_label_2111355e:
 
     # MC "Does that say ‘Zodiac Signs’?"
-    MC "C'est écrit "Signes du zodiaque" ?"
+    MC "C'est écrit ‘Signes du zodiaque’ ?"
 
 # game/scripts/school/classroom2/day/scenes/SR2_AS5.rpy:48
 translate french SR2_AS5_label_d0d312b8:
