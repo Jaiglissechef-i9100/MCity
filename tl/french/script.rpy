@@ -21,4 +21,3 @@ translate french strings:
     # script.rpy:647
     old "Back."
     new "Retour."
-

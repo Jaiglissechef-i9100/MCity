@@ -1,0 +1,25 @@
+﻿# TODO: Translation updated at 2018-12-15 12:23
+
+# game/scripts/beach/Beach_Shop/Inside/Shop_beach_inside.rpy:24
+translate french b_shop_inside_a52516c7:
+
+    # MC "It's closed now."
+    MC "C'est fermé maintenant."
+
+# game/scripts/beach/Beach_Shop/Inside/Shop_beach_inside.rpy:96
+translate french beach_buy_B2_f98bef31:
+
+    # MC "I don't have enough money."
+    MC "Je n'ai pas assez d'argent."
+
+# game/scripts/beach/Beach_Shop/Inside/Shop_beach_inside.rpy:110
+translate french beach_buy_B3_f98bef31:
+
+    # MC "I don't have enough money."
+    MC "Je n'ai pas assez d'argent."
+
+# game/scripts/beach/Beach_Shop/Inside/Shop_beach_inside.rpy:124
+translate french beach_buy_B4_f98bef31:
+
+    # MC "I don't have enough money."
+    MC "Je n'ai pas assez d'argent."
