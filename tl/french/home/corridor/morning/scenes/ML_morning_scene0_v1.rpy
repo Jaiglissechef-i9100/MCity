@@ -4,7 +4,7 @@
 translate french ML_morning_scene0_v1_label_de5563f1:
 
     # MC "(Huh, that’s unusual. That’s Mom’s office suit.)"
-    MC "(Hein, c'est inhabituel. C'est le costume de bureau de maman.)"
+    MC "(Hein, c'est inhabituel. C'est le costume de bureau de Maman.)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:19
 translate french ML_morning_scene0_v1_label_844fcadf:
@@ -16,13 +16,13 @@ translate french ML_morning_scene0_v1_label_844fcadf:
 translate french ML_morning_scene0_v1_label_03247729:
 
     # MC "(She’s doesn’t normally dress and leave, for AT LEAST another hour.)"
-    MC "(Elle ne s'habille pas et ne part pas normalement, pour AU MOINS une heure de plus.)"
+    MC "(Elle ne s'habille pas et ne part pas normalement, avant AU MOINS une heure.)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:23
 translate french ML_morning_scene0_v1_label_e6701694:
 
     # MC "(Her legs DO look really good in it though…)"
-    MC "(Ses jambes ont l'air vraiment bien dedans…)"
+    MC "(Ses jambes ont l'air vraiment belle en faite…)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:24
 translate french ML_morning_scene0_v1_label_79b3ab91:
