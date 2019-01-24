@@ -5,4 +5,3 @@ translate french strings:
     # options.rpy:15
     old "Milfy City"
     new "Milfy City"
-

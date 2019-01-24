@@ -104,7 +104,7 @@ translate french strings:
 
     # 00action_file.rpy:47
     old "{#month}December"
-    new "{#month}Decembre"
+    new "{#month}Décembre"
 
     # 00action_file.rpy:63
     old "{#month_short}Jan"
@@ -324,11 +324,11 @@ translate french strings:
 
     # 00gui.rpy:376
     old "Are you sure you want to end the replay?"
-    new "Tu es sûr de vouloir arrêter la rediffusion ?"
+    new "Êtes-vous sûr de vouloir arrêter la rediffusion ?"
 
     # 00gui.rpy:377
     old "Are you sure you want to begin skipping?"
-    new "Tu es sûr de vouloir commencer à sauter ?"
+    new "Êtes-vous sûr de vouloir commencer à sauter ?"
 
     # 00gui.rpy:378
     old "Are you sure you want to skip to the next choice?"
@@ -560,15 +560,15 @@ translate french strings:
 
     # _compat\gamemenu.rpym:198
     old "Empty Slot."
-    new "Empty Slot."
+    new "Slot Vide."
 
     # _compat\gamemenu.rpym:355
     old "Previous"
-    new "Previous"
+    new "Précédent"
 
     # _compat\gamemenu.rpym:362
     old "Next"
-    new "Next"
+    new "Suivant"
 
     # _compat\preferences.rpym:428
     old "Joystick Mapping"
@@ -1049,4 +1049,3 @@ translate french strings:
     # _errorhandling.rpym:670
     old "Copies the errors.txt file to the clipboard."
     new "Copies the errors.txt file to the clipboard."
-

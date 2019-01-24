@@ -16,7 +16,7 @@ translate french strings:
 
     # screens.rpy:310
     old "History"
-    new "Histoire"
+    new "Historique"
 
     # screens.rpy:311
     old "Skip"
@@ -92,7 +92,7 @@ translate french strings:
 
     # screens.rpy:765
     old "{#file_time}%A, %B %d %Y, %H:%M"
-    new "{#file_time}%A, %B %d %Y, %H:%M"
+    new "{#file_time}%d/%m/%Y, %H:%M"
 
     # screens.rpy:765
     old "empty slot"
@@ -120,7 +120,7 @@ translate french strings:
 
     # screens.rpy:853
     old "Window"
-    new "Fenêtre"
+    new "Fenêtré"
 
     # screens.rpy:854
     old "Fullscreen"
