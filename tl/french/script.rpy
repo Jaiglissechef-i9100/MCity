@@ -2,6 +2,15 @@
 
 translate french strings:
 
+    old "Students"
+    new "Étudiants"
+    old "Auntie"
+    new "Tatie"
+    old "Dad"
+    new "Papa"
+    old "Headmaster"
+    new "Directeur"
+
     # script.rpy:647
     old "Take a nap."
     new "Faire une sieste."

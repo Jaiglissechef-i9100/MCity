@@ -312,15 +312,15 @@ translate french strings:
 
     # 00gui.rpy:373
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Le chargement perdra les progrès non sauvegardés. Vous êtes sûr de vouloir faire ça ?"
+    new "Le chargement perdra les progrès non sauvegardés.\nVous êtes sûr de vouloir faire ça ?"
 
     # 00gui.rpy:374
     old "Are you sure you want to quit?"
-    new "Vous êtes sûr de vouloir arrêter ?"
+    new "Êtes-vous sûr de vouloir quitter ?"
 
     # 00gui.rpy:375
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Vous êtes sûr de vouloir retourner au menu principal ? Cela va perdre la progression non sauvegardée."
+    new "Êtes-vous sûr de vouloir retourner au menu principal ?\nCela va perdre la progression non sauvegardée."
 
     # 00gui.rpy:376
     old "Are you sure you want to end the replay?"
