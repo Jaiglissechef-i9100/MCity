@@ -112,7 +112,7 @@ translate french MLR3_beach_cliff_d50abb55:
 translate french MLR3_beach_cliff_721d64c4:
 
     # MC "(Damn, I’ve got butterflies in my stomach now…)"
-    MC "(Merde, j'ai le trac maintenant...)"
+    MC "(Merde, j'ai des chatouillements dans l'estomac maintenant…)"
 
 # game/scripts/beach/Beach_Event/MLR3_beach_cliff.rpy:79
 translate french MLR3_beach_cliff_08b7d206:
