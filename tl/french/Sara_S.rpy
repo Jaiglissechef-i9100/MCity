@@ -5,4 +5,3 @@ translate french money_less10_951364de:
 
     # MC "+10$"
     MC "+10$"
-

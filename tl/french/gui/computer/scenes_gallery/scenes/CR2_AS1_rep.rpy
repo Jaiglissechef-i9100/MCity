@@ -250,13 +250,13 @@ translate french CR2_AS1_rep_059b2b2f:
 translate french CR2_AS1_rep_9f9ff80a:
 
     # Caroline "That’s it. I can feel your cock pulsing between my breasts. Cum for me!"
-    Caroline "C'est ça. Je sens ta bite palpiter entre mes seins. Éjacule pour moi !"
+    Caroline "C'est ça. Je sens ta bite palpiter entre mes seins. Sperme pour moi !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR2_AS1_rep.rpy:94
 translate french CR2_AS1_rep_c8b2505e:
 
     # Caroline "Cum for your Caro- Cum for me!"
-    Caroline "Du sperme pour ta Caro- Éjacule pour moi !"
+    Caroline "Du sperme pour ta Caro- Sperme pour moi !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR2_AS1_rep.rpy:95
 translate french CR2_AS1_rep_4934c7dd:

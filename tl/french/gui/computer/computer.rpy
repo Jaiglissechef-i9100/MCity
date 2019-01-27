@@ -16,8 +16,8 @@ translate french strings:
 
     # scripts\gui\computer\computer.rpy:20
     old "Use Computer."
-    new "Utiliser l'ordinateur."
+    new "Utiliser l'ordinateur"
 
     # scripts\gui\computer\computer.rpy:20
     old "Play Computer Games."
-    new "Jouer à des jeux vidéo."
+    new "Jouer à des jeux vidéo"

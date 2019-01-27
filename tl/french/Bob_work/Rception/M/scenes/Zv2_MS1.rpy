@@ -274,7 +274,7 @@ translate french strings:
 
     # scripts\Bob_work\Rception\M\scenes\Zv2_MS1.rpy:92
     old "Bend down and peek up her skirt."
-    new "Penchez-vous et regardez sa jupe."
+    new "Penchez-vous et regardez sous sa jupe."
 
     # scripts\Bob_work\Rception\M\scenes\Zv2_MS1.rpy:92
     old "It’s not worth the risk. Just play it safe."

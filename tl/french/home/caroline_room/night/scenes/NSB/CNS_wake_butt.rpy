@@ -256,13 +256,13 @@ translate french CNS_wake_butt_label_a30851a1:
 translate french CNS_wake_butt_label_26896338:
 
     # Caroline "That’s it… cum for your big sister. Cum for me!"
-    Caroline "C'est ça… jouit pour ta grande sœur. Jouit pour moi !"
+    Caroline "C'est ça… du sperme pour ta grande sœur. Jouit pour moi !"
 
 # game/scripts/home/caroline_room/night/scenes/NSB/CNS_wake_butt.rpy:113
 translate french CNS_wake_butt_label_2b0d68f3:
 
     # Caroline "That’s it… cum. Cum for me!"
-    Caroline "C'est ça… jouit. Jouit pour moi !"
+    Caroline "C'est ça… du sperme. Jouit pour moi !"
 
 # game/scripts/home/caroline_room/night/scenes/NSB/CNS_wake_butt.rpy:116
 translate french CNS_wake_butt_label_ae07a893:

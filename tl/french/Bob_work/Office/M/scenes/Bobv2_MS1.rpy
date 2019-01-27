@@ -604,28 +604,28 @@ translate french strings:
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}I sorted the documents. Could you pay me?{/color}"
-    new "{color=#00ff00}J'ai trié les documents. Pourrais-tu me payer{/color} ?"
+    new "{color=#00ff00}J'ai trié les documents. Pourrais-tu me payer ?{/color}"
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}Do you have any work for me?{/color}"
-    new "{color=#00ff00}Tu as du travail pour moi{/color} ?"
+    new "{color=#00ff00}Tu as du travail pour moi ?{/color}"
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}Could you give me the key card for your office?{/color}"
-    new "{color=#00ff00}Pourrais-tu me donner la carte d'accès de ton bureau{/color} ?"
+    new "{color=#00ff00}Pourrais-tu me donner la carte d'accès de ton bureau ?{/color}"
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}Ask about company name.{/color}"
-    new "{color=#00ff00}Renseignez-vous sur le nom de l'entreprise.{/color}"
+    new "{color=#00ff00}Renseignez-vous sur le nom de l'entreprise{/color}"
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "Ask Dad if he knows about Zuri’s twin sister. "
-    new "Demande à papa s'il sait pour la sœur jumelle de Zuri. "
+    new "Demandez à Papa s'il sait pour la sœur jumelle de Zuri."
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}Ask Dad how work is going.{/color}"
-    new "{color=#00ff00}Demande à papa comment va le travail.{/color}"
+    new "{color=#00ff00}Demandez à Papa comment va le travail.{/color}"
 
     # scripts\Bob_work\Office\M\scenes\Bobv2_MS1.rpy:77
     old "{color=#00ff00}{color=#00ff00}Ask Bob how work is going.{/color}"
-    new "{color=#00ff00}Demande à Bob comment va le travail.{/color}"
+    new "{color=#00ff00}Demandez à Bob comment va le travail.{/color}"

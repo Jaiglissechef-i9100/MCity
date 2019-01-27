@@ -401,4 +401,3 @@ translate french MLR3_AS2_59143b5c:
 
     # MC "I know, [Mom_name]. I love you too."
     MC "Je sais, [Mom_name]. Je t'aime aussi."
-

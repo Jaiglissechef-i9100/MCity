@@ -250,7 +250,7 @@ translate french CR2_AS1_label_059b2b2f:
 translate french CR2_AS1_label_9f9ff80a:
 
     # Caroline "That’s it. I can feel your cock pulsing between my breasts. Cum for me!"
-    Caroline "C'est ça. Je sens ta bite palpiter entre mes seins. Éjacule pour moi !"
+    Caroline "C'est ça. Je sens ta bite palpiter entre mes seins. Jouit pour moi !"
 
 # game/scripts/cloth_shop/room1/scenes/CR2_AS1.rpy:110
 translate french CR2_AS1_label_c8b2505e:

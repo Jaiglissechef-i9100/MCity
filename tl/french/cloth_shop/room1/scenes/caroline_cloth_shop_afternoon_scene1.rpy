@@ -118,7 +118,7 @@ translate french caroline_cloth_shop_afternoon_scene1_label_c145bc3d:
 translate french caroline_cloth_shop_afternoon_scene1_label_9095325f:
 
     # MC "Not yet."
-    MC "Pas encore. Pas encore."
+    MC "Pas encore."
 
 # game/scripts/cloth_shop/room1/scenes/caroline_cloth_shop_afternoon_scene1.rpy:61
 translate french caroline_cloth_shop_afternoon_scene1_label_0ba04a8c:

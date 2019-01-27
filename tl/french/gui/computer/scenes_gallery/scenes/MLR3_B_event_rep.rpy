@@ -1156,7 +1156,7 @@ translate french MLR3_b_house_Bed2_rep_ea869f25:
 translate french MLR3_b_house_Bed2_rep_17998c3b:
 
     # Mom "That’s it, baby! That’s it! Cum for me!"
-    Mom "C'est ça, bébé ! C'est ça ! Du sperme pour moi !"
+    Mom "C'est ça, bébé ! C'est ça ! Sperme pour moi !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_B_event_rep.rpy:470
 translate french MLR3_b_house_Bed2_rep_27aedeaa:
