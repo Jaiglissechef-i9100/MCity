@@ -280,7 +280,7 @@ translate french sis_nerdy_scene3_1_v1_7fff3578:
 translate french sis_nerdy_scene3_1_v1_641ade1e:
 
     # Sara "(Just the thought alone is getting me all wet.)"
-    Sara ("Rien que l'idée me mouille complètement.)"
+    Sara "(Rien que l'idée me mouille complètement.)"
 
 translate french strings:
 

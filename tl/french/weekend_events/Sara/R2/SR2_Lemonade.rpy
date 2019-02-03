@@ -428,4 +428,4 @@ translate french strings:
 
     # scripts\weekend_events\Sara\R2\SR2_Lemonade.rpy:82
     old "Compliment her eyes."
-    new "Complimente ses yeux.
+    new "Complimente ses yeux."
