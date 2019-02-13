@@ -82,7 +82,7 @@ translate french caroline_room_morning_scene1_label_4f47e339:
 translate french caroline_room_morning_scene1_label_f3e94662:
 
     # Caroline "Don’t sweat it - you’re my [player_name]. It’s not like you’re one of those, creepy guys from college, who’s just trying to get in my pants."
-    Caroline "Ne t'en fais pas - tu es mon [player_name]. C'est pas comme si t'étais un de ces mecs flippants de la fac, qui essaye juste d'entrer dans mon pantalon."
+    Caroline "Ne t'en fais pas - tu es mon [player_name]. C'est pas comme si t'étais un de ces mecs flippants de la fac, qui essaye juste de me sauter."
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene1.rpy:41
 translate french caroline_room_morning_scene1_label_a61094ff:

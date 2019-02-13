@@ -748,7 +748,7 @@ translate french after_menu_MLR2_ES3_continue_label_5d02c4b9:
 translate french after_menu_MLR2_ES3_continue_label_66dc0fbb:
 
     # Mom "But, yes, I suppose “fruity” works too."
-    Mom "Mais, oui, je suppose que "fruité" marche aussi."
+    Mom "Mais, oui, je suppose que “fruité” marche aussi."
 
 # game/scripts/home/garage/evening/scenes/MLR2_ES3_label.rpy:479
 translate french after_menu_MLR2_ES3_continue_label_260ac126:
@@ -970,7 +970,7 @@ translate french MLR2_ES3_footjob_label_9bc6f517:
 translate french MLR2_ES3_footjob_label_daeb6b1f:
 
     # MC "(She’s got a twisted definition of “simple things in life.)"
-    MC "(Elle a une définition tordue de "choses simples dans la vie".)"
+    MC "(Elle a une définition tordue de “choses simples dans la vie.)"
 
 # game/scripts/home/garage/evening/scenes/MLR2_ES3_label.rpy:581
 translate french MLR2_ES3_footjob_label_a7d1081f:

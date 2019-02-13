@@ -376,7 +376,7 @@ translate french Li_MAS3_menu_a96e19f5:
 translate french Li_MAS3_menu_dc1be64d:
 
     # Yazmin "Don’t take it to heart. Your mother is NOT a bad person. People are complex individuals. And trying to fit them into narrow categories of ‘good’ and ‘bad’..."
-    Yazmin "Ne le prends pas à cœur. Ta mère n'est PAS une mauvaise personne. Les gens sont des individus complexes. Et en essayant de les classer dans les catégories étroites de " bon " et de " mauvais "...."
+    Yazmin "Ne le prends pas à cœur. Ta mère n'est PAS une mauvaise personne. Les gens sont des individus complexes. Et en essayant de les classer dans les catégories étroites de ‘bon’ et de ‘mauvais’..."
 
 # game/scripts/A_home/Inside/Office/M/scenes/Li_MAS3.rpy:253
 translate french Li_MAS3_menu_3bdfea10:
@@ -412,7 +412,7 @@ translate french Li_MAS3_menu_2380f5ee:
 translate french Li_MAS3_menu_bd639ee0:
 
     # Yazmin "It’s a loooong story. Linda hasn’t always had the friendliest of relationships with gay people - like Liza. She didn’t approve of our “lifestyle”."
-    Yazmin "C'est une longue histoire. Linda n'a pas toujours eu les relations les plus amicales avec les homosexuels - comme Liza. Elle n'approuvait pas notre "style de vie"."
+    Yazmin "C'est une longue histoire. Linda n'a pas toujours eu les relations les plus amicales avec les homosexuels - comme Liza. Elle n'approuvait pas notre “style de vie”."
 
 # game/scripts/A_home/Inside/Office/M/scenes/Li_MAS3.rpy:273
 translate french Li_MAS3_menu_c5f448fc:
@@ -442,7 +442,7 @@ translate french Li_MAS3_menu_a96e19f5_1:
 translate french Li_MAS3_menu_92031ebd:
 
     # Yazmin "Don’t take it to heart. Linda is NOT a bad person. People are complex individuals. And trying to fit them into narrow categories of ‘good’ and ‘bad’..."
-    Yazmin "Ne le prends pas à cœur. Linda n'est PAS une mauvaise personne. Les gens sont des individus complexes. Et en essayant de les classer dans les catégories étroites de " bon " et de " mauvais "...."
+    Yazmin "Ne le prends pas à cœur. Linda n'est PAS une mauvaise personne. Les gens sont des individus complexes. Et en essayant de les classer dans les catégories étroites de ‘bon’ et de ‘mauvais’..."
 
 # game/scripts/A_home/Inside/Office/M/scenes/Li_MAS3.rpy:284
 translate french Li_MAS3_menu_4d2dada9:

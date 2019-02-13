@@ -448,7 +448,7 @@ translate french CR3_AS8_O3_con2_63a6fa6e:
 translate french CR3_AS8_O3_con2_af4fb758:
 
     # Caroline "Well... maybe ‘little’ wasn’t the right adjective to use."
-    Caroline "Eh bien... peut-être que "petit" n'était pas le bon adjectif à utiliser."
+    Caroline "Eh bien... peut-être que ‘petit’ n'était pas le bon adjectif à utiliser."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS8_O3.rpy:232
 translate french CR3_AS8_O3_con2_56ebbc34:

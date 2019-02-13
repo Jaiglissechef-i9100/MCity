@@ -16,19 +16,19 @@ translate french LiR1_NS1_label_b39ef889:
 translate french LiR1_NS1_label_6f13d62f:
 
     # MC "(Looks like it’s my lucky day! I’ve caught the two of them, just before they were about to start!)"
-    MC "(On dirait que c'est mon jour de chance ! Je les ai attrapés tous les deux, juste avant qu'ils ne commencent !)"
+    MC "(On dirait que c'est mon jour de chance ! Je les ai attrapés toutes les deux, juste avant qu'elles ne commencent !)"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:53
 translate french LiR1_NS1_label_6ab3912e:
 
     # MC "(Yazmin is certainly - dressed for the occasion. She might have smaller breasts than [Liza2_name], but she’s certainly making up for it - downstairs - tonight!)"
-    MC "(Yazmin est certainement - habillé pour l'occasion. Elle a peut-être des seins plus petits que[Liza2_name], mais elle se rattrape certainement - en bas - ce soir !)"
+    MC "(Yazmin est certainement - habillée pour l'occasion. Elle a peut-être des seins plus petits que [Liza2_name], mais elle se rattrape certainement - en bas - ce soir !)"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:59
 translate french LiR1_NS1_label_77951ae8:
 
     # MC "(I wonder what they’re talking about... if I lean in closer, I might be able to hear some of their conversation.)"
-    MC "(Je me demande de quoi ils parlent... si je me penche de plus près, je pourrais peut-être entendre une partie de leur conversation.)"
+    MC "(Je me demande de quoi elles parlent... si je me penche de plus près, je pourrais peut-être entendre une partie de leur conversation.)"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:60
 translate french LiR1_NS1_label_42461026:
@@ -46,7 +46,7 @@ translate french LiR1_NS1_label_eabec9d0:
 translate french LiR1_NS1_label_84e542be:
 
     # Yazmin "Oh c’mon! You must enjoy it - even just a little bit!"
-    Yazmin "Oh allez ! Vous devez l'apprécier - même un tout petit peu !"
+    Yazmin "Oh allez ! tu dois l'apprécier - même un tout petit peu !"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:66
 translate french LiR1_NS1_label_c15d56a1:
@@ -58,7 +58,7 @@ translate french LiR1_NS1_label_c15d56a1:
 translate french LiR1_NS1_label_29b52e00:
 
     # Liza2 "Yeah, well... it’s not as enjoyable as the times, when you use your fingers... or even your tongue."
-    Liza2 "Ouais, eh bien.... ce n'est pas aussi agréable que l'époque où tu utilises tes doigts.... ou même ta langue."
+    Liza2 "Ouai, eh bien... ce n'est pas aussi agréable que l'époque où tu utilisais tes doigts... ou même ta langue."
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:71
 translate french LiR1_NS1_label_04e76e6a:
@@ -82,7 +82,7 @@ translate french LiR1_NS1_label_35687b2b:
 translate french LiR1_NS1_label_242d3ca4:
 
     # Liza2 "I assume you want me to do the ‘blowjob fantasy’ for you again."
-    Liza2 "Je suppose que tu veux que je te refaise la ‘fellation fantastique’."
+    Liza2 "Je suppose que tu veux que je te refasse ce ‘cunnilingus fantastique’."
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:78
 translate french LiR1_NS1_label_4bde68b3:
@@ -94,7 +94,7 @@ translate french LiR1_NS1_label_4bde68b3:
 translate french LiR1_NS1_label_5db9263e:
 
     # Liza2 "(Sigh) I don’t understand what YOU get out of this. You can’t feel ANYTHING, when I’m sucking on that pink plastic."
-    Liza2 "Je ne comprends pas ce que VOUS tirez de tout ça. Tu ne sens rien quand je suce ce plastique rose."
+    Liza2 "(*Soupir*) Je ne comprends pas ce que TU tire de tout ça. Tu ne sens rien quand je suce ce plastique rose."
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:83
 translate french LiR1_NS1_label_13679ab1:

@@ -16,13 +16,13 @@ translate french SR2_NS3_label_c697914f:
 translate french SR2_NS3_label_793b268c:
 
     # Sara "I hope you’re not scared of heights, by the way. We ARE going to be climbing ALL the way up onto the garage roof."
-    Sara "J'espère que vous n'avez pas le vertige, au fait. Nous allons grimper TOUTE la montée sur le toit du garage."
+    Sara "J'espère que tu n'as pas le vertige, au fait. Nous allons grimper TOUTE la surface jusqu'au toit du garage."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:83
 translate french SR2_NS3_label_8d8a0955:
 
     # MC "Pfft! That’s nothing! I’ll be able to help you up, there."
-    MC "Pfft ! Ce n'est rien du tout ! Je pourrai vous aider à vous relever."
+    MC "Pfft ! Ce n'est rien du tout ! Je pourrai t'aider à te relever."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:84
 translate french SR2_NS3_label_38b9c673:
@@ -34,13 +34,13 @@ translate french SR2_NS3_label_38b9c673:
 translate french SR2_NS3_label_41a51c9b:
 
     # MC "Just be careful not to be too loud - we don’t want to wake Mom and Dad."
-    MC "Faites attention de ne pas faire trop de bruit - nous ne voulons pas réveiller maman et [Dad_name]."
+    MC "Fais attention de ne pas faire trop de bruit - nous ne voulons pas réveiller maman et [Dad_name]."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:88
 translate french SR2_NS3_label_63403d86:
 
     # MC "Just be careful not to be too loud - we don’t want to wake Linda and Bob."
-    MC "Faites attention de ne pas faire trop de bruit - nous ne voulons pas réveiller Linda et Bob."
+    MC "Fais attention de ne pas faire trop de bruit - nous ne voulons pas réveiller Linda et Bob."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:92
 translate french SR2_NS3_label_2b1fdfe1:
@@ -112,7 +112,7 @@ translate french SR2_NS3_label_f4e21001:
 translate french SR2_NS3_label_18f6863d:
 
     # Sara "I love you, [player_name]. Much more than a friend really should..."
-    Sara "Je t'aime, [player_name]. Beaucoup plus qu'un ami ne devrait vraiment...."
+    Sara "Je t'aime, [player_name]. Beaucoup plus qu'une ami ne devrait vraiment..."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:115
 translate french SR2_NS3_label_932f985a:
@@ -136,7 +136,7 @@ translate french SR2_NS3_label_9869fa2c:
 translate french SR2_NS3_label_4fe1b1f8:
 
     # Sara "Hehe… Sorry about the frumpy jumper. I figured it was going to be cold."
-    Sara "Hehe.... Désolé pour le sauteur. J'ai pensé qu'il allait faire froid."
+    Sara "Hehe… Désolée pour le pull-over minable. J'ai pensé qu'il allait faire froid."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:122
 translate french SR2_NS3_label_ceb91264:
@@ -160,13 +160,13 @@ translate french SR2_NS3_label_4989233b:
 translate french SR2_NS3_label_4bf2cda1:
 
     # Sara "Yeah, I did."
-    Sara "Oui, je l'ai fait."
+    Sara "Ouai, je te l'ai dit."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:132
 translate french SR2_NS3_label_4ab31891:
 
     # MC "And yet, you decided not to wear any leggings?"
-    MC "Et pourtant, vous avez décidé de ne pas porter de leggings ?"
+    MC "Et pourtant, tu as décidé de ne pas porter de leggings ?"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:133
 translate french SR2_NS3_label_f776c494:
@@ -244,7 +244,8 @@ translate french SR2_NS3_label_8389fb52:
 translate french SR2_NS3_label_e2a7a388:
 
     # Sara "(I’ll have to break it soon, or we’ll get distracted and miss the best part of the night sky!)"
-    Sara "(Je vais devoir le casser bientôt, ou nous allons être distraits et rater la meilleure partie du ciel nocturne !)"
+    Sara "(Je vais devoir arrêter, ou on va se laisser distraire et rater la meilleure partie du ciel nocturne !)
+"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:164
 translate french SR2_NS3_label_5d08f88f:
@@ -298,7 +299,7 @@ translate french SR2_NS3_label_09ee9127:
 translate french SR2_NS3_label_d3278f17:
 
     # Sara "I don’t think I’ll be able to get up onto the roof without your help. Can you give me a boost?"
-    Sara "Je ne pense pas pouvoir monter sur le toit sans votre aide. Tu peux me donner un coup de pouce ?"
+    Sara "Je ne pense pas pouvoir monter sur le toit sans ton aide. Tu peux me donner un coup de main ?"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:186
 translate french SR2_NS3_label_f4fbb764:
@@ -442,7 +443,7 @@ translate french SR2_NS3_label_cf37c3e3:
 translate french SR2_NS3_label_ad5def86:
 
     # Sara "There’s so many… you couldn’t even begin to count them…"
-    Sara "Il y en a tellement... vous ne pouviez même pas commencer à les compter..."
+    Sara "Il y en a tellement... tu ne pouvais même pas commencer à les compter...."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:238
 translate french SR2_NS3_label_cc6cfc8a:
@@ -538,7 +539,7 @@ translate french SR2_NS3_label_de7fabb3:
 translate french SR2_NS3_label_e35fcf3f:
 
     # Sara "Please... I’ve seen how other girls in class look at you. Even after you made a fool of yourself in front of Celia, they still think you’re hot."
-    Sara "S'il vous plaît.... J'ai vu comment les autres filles de la classe te regardent. Même après t'être ridiculisé devant Celia, ils te trouvent toujours sexy."
+    Sara "S'il te plaît.... J'ai vu comment les autres filles de la classe te regardent. Même après t'être ridiculisé devant Celia, elles te trouvent toujours sexy."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:266
 translate french SR2_NS3_label_8d35a363:
@@ -550,7 +551,7 @@ translate french SR2_NS3_label_8d35a363:
 translate french SR2_NS3_label_bf8ceaed:
 
     # Sara "I want to go further with you tonight. Could… we try anal?"
-    Sara "Je veux aller plus loin avec vous ce soir. On peut essayer l'anal ?"
+    Sara "Je veux aller plus loin avec toi ce soir. On peut essayer l'anal ?"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:268
 translate french SR2_NS3_label_7b02e252:
@@ -574,19 +575,19 @@ translate french SR2_NS3_label_1eebefd9:
 translate french SR2_NS3_label_ef240946:
 
     # Sara "Y-You won’t hurt me."
-    Sara "Vous ne me ferez pas de mal."
+    Sara "Tu ne me ferez pas de mal."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:275
 translate french SR2_NS3_label_f5a15549:
 
     # MC "You don’t know that for sure."
-    MC "Vous n'en êtes pas sûr."
+    MC "Tu n'en es pas sûr."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:276
 translate french SR2_NS3_label_841041d6:
 
     # Sara "(Gulp) P-Please don’t try to talk me out of it."
-    Sara "Je vous en prie, n'essayez pas de m'en dissuader."
+    Sara "Je t'en prie, n'essaye pas de m'en dissuader."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:280
 translate french SR2_NS3_label_1c5ec41c:
@@ -646,7 +647,7 @@ translate french SR2_NS3_label_0fa5e445:
 translate french SR2_NS3_label_94a7d704:
 
     # MC "If you're sure."
-    MC "Si vous êtes sûr."
+    MC "Si tu en es sûr."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:299
 translate french SR2_NS3_label_4d3a1d77:
@@ -694,13 +695,13 @@ translate french SR2_NS3_label_d140435d:
 translate french SR2_NS3_label_3ba68db5:
 
     # Sara "Umm… [player_name], do you think anyone will be able to see us up here?"
-    Sara "[player_name], pensez-vous que quelqu'un pourra nous voir là-haut ?"
+    Sara "[player_name], pense-tu que quelqu'un pourra nous voir là-haut ?"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:313
 translate french SR2_NS3_label_4708fe05:
 
     # MC "Nah, absolutely not. It’s too dark - plus we’re not near a main street. Do you know anyone who walks around looking at the roofs of houses?"
-    MC "Non, absolument pas. Il fait trop sombre - en plus, on n'est pas près d'une rue principale. Connaissez-vous quelqu'un qui se promène en regardant les toits des maisons ?"
+    MC "Non, absolument pas. Il fait trop sombre - en plus, on n'est pas près d'une rue principale. Connais-tu quelqu'un qui se promène en regardant les toits des maisons ?"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:317
 translate french SR2_NS3_label_4d4b93ef:
@@ -1174,7 +1175,7 @@ translate french SR2_NS3_continue_6b854c1a:
 translate french SR2_NS3_continue_8a365d6d:
 
     # Sara "But I WANT to do it for you."
-    Sara "Mais je VEUX le faire pour vous."
+    Sara "Mais je VEUX le faire pour toi."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:482
 translate french SR2_NS3_continue_75e0f11b:
@@ -1198,7 +1199,7 @@ translate french SR2_NS3_continue_a7d1081f:
 translate french SR2_NS3_continue_65a61302:
 
     # MC "(Sara doesn't need to put herself through trials like this to make me happy. She should know by now that I’m already happy with her.)"
-    MC "(Sara n'a pas besoin de se soumettre à de telles épreuves pour me rendre heureuse. Elle devrait savoir maintenant que je suis déjà heureuse avec elle.)"
+    MC "(Sara n'a pas besoin de se soumettre à de telles épreuves pour me rendre heureux. Elle devrait savoir maintenant que je suis déjà heureux avec elle.)"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:492
 translate french SR2_NS3_continue_cfc51d7c:
