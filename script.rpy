@@ -1,4 +1,3 @@
-
 image entrace1_morning = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_morning = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
 image corridor_morning = "/images/home/corridor/morning/Coridor_Morning.jpg"
@@ -27,7 +26,6 @@ image teacher_room1_morning = "/images/school/teacher_room1/morning/teacher_room
 image therapist_room_morning = "/images/school/therapist_room/morning/therapist_room_morning.jpg"
 image headmaster_room_morning = "/images/school/headmaster_room/morning/headmaster_room_morning.jpg"
 image main_menu = Movie(channel="main_menu", play="gui/menu_bacground.webm", loop = True)
-
 
 image entrace1_day = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_day = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
@@ -58,7 +56,6 @@ image therapist_room_day = "/images/school/therapist_room/morning/therapist_room
 image headmaster_room_day = "/images/school/headmaster_room/morning/headmaster_room_morning.jpg"
 image ml_work_day = "/images/ml_work/day/ML_work_mornig_scene.jpg"
 image ml_work_room1_day = "/images/ml_work/room1/Room1.jpg"
-
 
 image entrace1_evening = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_evening = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
@@ -116,7 +113,6 @@ default time_skip = 1
 default can_map = True
 default day_time = 1
 
-
 default sara_door_open = True
 
 default corridor1_door_to_teacher_room2_open = False
@@ -124,7 +120,6 @@ default corridor1_door_to_teacher_room2_open = False
 default Sara_unread_alert = True
 default Caroline_unread_alert = True
 default Linda_unread_alert = True
-
 
 default Sara_points = 1
 default Sara_max = 5
@@ -159,7 +154,6 @@ define Dwayne = Character("[Dwayne_name]", color="#FF99CC")
 define Headmaster = Character("[Headmaster_name]", color="#ace600")
 define Cindy = Character("[Cindy_name]", color="#ff80bf")
 image workinprogress2 = "/images/game_gui/icons/workinprogress.png"
-
 
 style frame_gui1:
     padding gui.frame_borders.padding
@@ -246,7 +240,6 @@ default sms_Caroline7 = Sms("sCaroline" , simage="images/phone_sms/caroline/4_sm
 default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext= __("You've asked about a date while we were at that nightclub... Let's go tomorrow!"))
 default sms_Caroline9 = Sms("sCaroline" , simage="images/phone_sms/caroline/5_small.jpg", sphoto="images/phone_sms/caroline/5.jpg", sphoto1=True,)
 
-
 default celia_toilet_cabin_scene4_visit = 1
 default celia_in_camweb_contacts = False
 default celia_webcam_introdution_v1 = 1
@@ -267,19 +260,16 @@ default sara_webcam_online = True
 
 default live_camera_instaled = False
 
-
 default dildo_buy = False
 default sexy_cloth_buy = False
 default vibrator_buy = False
 default lube_buy = False
-
 
 default b1_binoculars_buy = False
 default b2_camera1_buy = False
 default b3_controller_buy = False
 default b4_spy_camera_buy = False
 default b5_web_cam_software_buy = False
-
 
 default aunt_house_unlocked = False
 default ml_work_unloacked = False
@@ -296,9 +286,6 @@ default night_club_unlocked = False
 default Bob_workplace_unlocked = False
 default Z_home_unlocked = False
 default J_home_unlocked = False
-
-
-
 
 default drawer_sis_nerdy = 0
 default sis_nerdy_scene4_v1 = 0
@@ -344,10 +331,8 @@ default caroline_can_room_morning_scenes = True
 default caroline_room_morning_scene4 = True
 default caroline_mc_room_moenig_scene5 = False
 
-
 default Judy_scene1_v1 = 0
 default can_envelope_from_Judy_v1 = 0
-
 
 default sis_nerdy_school_scene1_v1 = 1
 default sis_nerdy_school_scene1_v1_talk = 1
@@ -380,8 +365,6 @@ default caroline_after_cosplay_outfit5 = False
 default unlock_caroline_closth_shop_afternoon_scene3 = False
 default caroline_closth_shop_afternoon_scene3 = True
 
-
-
 default sis_nerdy_evening_scene1_v1 = 1
 default can_sis_nerdy_evening_scene1_v1 = True
 default sis_nerdy_evening_scene2_v1 = 0
@@ -401,8 +384,6 @@ default caroline_mc_room_evening_scene3 = False
 default caroline_mc_room_can_evening_scene3 = False
 default caroline_room_evening_scene4 = False
 
-
-
 default sis_nerdy_night_sleeping1_v1 = 1
 default can_sis_nerdy_night_sleeping1_v1 = True
 default can1_mc_sara_night_scene1_v1 = False
@@ -419,7 +400,6 @@ default ml_mc_room_night_scene3_visit = 1
 
 default caroline_room_night_scene1 = True
 default caroline_room_can_night_scene1 = True
-
 
 default Neighboor_spy_mc_room = True
 default take_nap = False
@@ -454,7 +434,6 @@ default can_hide_windows = False
 default in_bed_menu = False
 default SR2_ML = False
 
-
 default can_sms1_from_sara = 0
 default can_sms2_from_sara = 0
 default can1_sms2_from_sara = False
@@ -465,7 +444,6 @@ default sms5_sara = False
 default sms6_sara = False
 default sms7_sara = False
 
-
 default can_sms1_from_ml = False
 default can_sms2_from_ml = False
 default can_sms3_from_ml = False
@@ -474,16 +452,12 @@ default sms4_ml = False
 default sms1_fromZuri = False
 default sms2_fromZuri = False
 
-
 default sms1_fromC = False
 default sms2_fromC = False
 default sms3_fromC = False
 
-
-
 default SR2_swimming_card = True
 default SR2_weekend_swimming_pool = False
-
 
 default ml_workR2_AS1 = True
 default can_ml_workR2 = True
@@ -497,19 +471,15 @@ default MLR2_ES2 = False
 default can_MLR2_ES2 = True
 default MLR2_ES3 = False
 
-
 default MLR2_NS1 = True
 default MLR2_NS2 = False
 default MLR2_Sleep = True
-
 
 default Bob_v2_scenes = False
 default Zv2_first_meet = True
 
 default Bob_v3_scenes = False
 default Zv3_scenes = False
-
-
 
 default CR2_MS1 = True
 default can_CR2_MS1 = True
@@ -555,60 +525,28 @@ init python:
     style.choice_button1_button_text.size = 25
     Mom1_name = "Mom"
 
-
 label start:
     python:
         style.choice_button1_button_text.color = "#333333"
-
-
 
     $ inventory.add_contact(cLinda)
     $ inventory.add_contact(cSara)
     $ inventory.add_contact(cCaroline)
 
-
-
-
-
-
-
-
-
     $ sis_nerdy_in_room = True
     $ sis_nerdy_scene1_v1= 1
     $ after_sis_nerdy_scene1_v1 = 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 label begin:
-
 
     jump intro
     jump begin3
-
-
 
 label begin3:
     show screen week_day_viewer
     show screen time_skip_button
     show screen day_time_viewer
     call screen map_button
-
 
 label day_time_changer:
     if renpy.loadable("patch.rpy"):
@@ -642,7 +580,6 @@ label day_time_changer:
         if ml_mc_room_night_scene3 == True and ml_points == 2 and MLR2_Sleep == False:
             $ renpy.show("ml_mc_room_night_sleeping_p1", layer="screens")
         show screen mc_room_night_notclickable
-
 
     menu:
         "Take a nap." if day_time <4:
@@ -773,8 +710,6 @@ label day_time_changer:
                 $ renpy.hide("mc_sleep_night", layer="screens")
                 $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
                 jump mc_room_morning1
-
-
 
             $ can_ml_work_day_scene1 = True
             $ can_school_intercom = True
@@ -922,7 +857,6 @@ label day_time_changer:
                 $ LiR1_MAS8 = True
             $ can2_LiR1_NS = True
 
-
             $ CR3_MS2_can3 = True
             if CR3_MS2_can == True and CR3_deal_aff == True:
                 $ CR3_MS1 = False
@@ -936,7 +870,6 @@ label day_time_changer:
                 $ CR3_MS1_q5 = True
                 $ CR3_MS1_q6 = True
                 $ CR3_MS1_can = False
-
 
             if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
                 $ can1_celia_school_morning_scene2v1 = False
@@ -962,7 +895,6 @@ label day_time_changer:
             $ CR3_MS1_talked = False
             if CR3_ES1_can == False:
                 $ CR3_ES1 = False
-
 
             if MLR3_MS1_can == False:
                 $ MLR3_MS1 = False
@@ -1152,17 +1084,6 @@ label day_time_changer:
             hide screen bed_images
             jump weekend_event_menu_label
 
-
-
-
-
-
-
-
-
-
-
-
         "Skip weekend." if week_day >= 5:
             hide screen bed_images
             $ in_bed_menu = False
@@ -1255,8 +1176,6 @@ label day_time_changer:
             $ can_SR2_MS2 = True
             $ SR2_bath = False
 
-
-
             $ LiR1_poll_minigame_can = True
             $ can_LiR1_NS = True
             $ can_LiR1_NS3 = True
@@ -1326,7 +1245,6 @@ label day_time_changer:
                 $ CR3_MS1_q6 = True
                 $ CR3_MS1_can = False
 
-
             if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
                 $ can1_celia_school_morning_scene2v1 = False
                 $ celia_school_morning_scene1v1 = 1
@@ -1351,7 +1269,6 @@ label day_time_changer:
             $ CR3_MS1_talked = False
             if CR3_ES1_can == False:
                 $ CR3_ES1 = False
-
 
             if MLR3_MS1_can == False:
                 $ MLR3_MS1 = False
@@ -1435,7 +1352,6 @@ label day_time_changer:
             $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
             jump mc_room_morning1
 
-
 screen displayTextScreen:
     key "hide_windows" action NullAction()
     zorder 100
@@ -1447,7 +1363,6 @@ screen displayTextScreen:
         frame:
             style "frame_gui1"
             text "{size=+6}[displayText]{/size}"
-
 
 init python:
 
@@ -1479,7 +1394,6 @@ init python:
 
     config.underlay = [ new_keymap ]
 
-
 label hide_interface:
 
     if renpy.context()._menu:
@@ -1498,7 +1412,6 @@ label hide_interface:
 
     return
 
-
 label hide_interface2:
 
     if renpy.context()._menu:
@@ -1516,4 +1429,3 @@ label hide_interface2:
             _windows_hidden = False
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
