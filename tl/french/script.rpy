@@ -221,4 +221,4 @@ translate french strings:
 
     # script.rpy:647
     old "Back."
-    new "En arrière."
+    new "Retour."

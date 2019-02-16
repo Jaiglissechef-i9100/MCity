@@ -130,13 +130,13 @@ translate french intro_88a09564:
 translate french intro_2b350597:
 
     # Judy "You’re in class 7C, is that right?"
-    Judy "Vous êtes en classe 7C, c'est ça ?"
+    Judy "Vous êtes en Premiére S, c'est ça ?"
 
 # game/scripts/intro.rpy:130
 translate french intro_53147761:
 
     # MC "Yeah, 7C."
-    MC "Ouai, 7C."
+    MC "Ouai, 1ére S."
 
 # game/scripts/intro.rpy:131
 translate french intro_bea634b1:
@@ -148,7 +148,7 @@ translate french intro_bea634b1:
 translate french intro_c2117d46:
 
     # Judy "And the person living with, is… Linda?"
-    Judy "Et la personne qui vit avec, c'est… Linda ?"
+    Judy "Et la personne qui vit avec vous, c'est… Linda ?"
 
 # game/scripts/intro.rpy:139
 translate french intro_e3062a36:
@@ -322,7 +322,7 @@ translate french q1_a1_intro_14220640:
 translate french q1_a1_intro_bd737393:
 
     # Judy "My full name is Judy Hannigan. I’m a qualified therapist. I graduated from the University of Wisconsin four years ago. I’ve been working in this school ever since."
-    Judy "Mon nom complet est Judy Hannigan. Je suis une thérapeute qualifiée. J'ai obtenue mon diplôme de l'Université du Wisconsin il y a quatre ans. Je travaille dans cette école depuis."
+    Judy "Mon nom complet est Judy Hannigan. Je suis une thérapeute qualifiée. J'ai obtenue mon diplôme de l'Université du Wisconsin il y a quatre ans. Depuis je travaille dans cette école."
 
 # game/scripts/intro.rpy:200
 translate french q1_a2_intro_ddb19203:
@@ -1240,7 +1240,7 @@ translate french after_choice1_intro_c5ab4cae:
 translate french after_choice1_intro_4ad3f89d:
 
     # MC "No, this was my older friend, Caroline."
-    MC "Non, c'était ma amie plus agées, Caroline."
+    MC "Non, c'était mon amie plus agées, Caroline."
 
 # game/scripts/intro.rpy:522
 translate french after_choice1_intro_29acaa4a:
@@ -1312,7 +1312,7 @@ translate french after_choice1_intro_c9836c56:
 translate french after_choice1_intro_a490522b:
 
     # MC "I can’t be bothered leaving the house…"
-    MC "Je ne peux pas envie de quitter la maison…"
+    MC "Je ne peux pas. Pas envie de quitter la maison…"
 
 # game/scripts/intro.rpy:547
 translate french after_choice1_intro_e5937aef:
@@ -1756,13 +1756,13 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_eba547ed:
 translate french after_conditional_mom_kiss_cheek_lips_intro_b794746d:
 
     # MC "What?! Are you asking me if I’m attracted to my mother?"
-    MC "Quoi ?! Vous me demandzs si je suis attiré par ma mère ?"
+    MC "Quoi ?! Vous me demandez si je suis attiré par ma mère ?"
 
 # game/scripts/intro.rpy:696
 translate french after_conditional_mom_kiss_cheek_lips_intro_7cce1bfd:
 
     # MC "What?! Are you asking me if I’m attracted to Linda?"
-    MC "Quoi ?! Tu me demandes si je suis attiré par Linda ?"
+    MC "Quoi ?! Vous me demandez si je suis attiré par Linda ?"
 
 # game/scripts/intro.rpy:697
 translate french after_conditional_mom_kiss_cheek_lips_intro_1f1074da:

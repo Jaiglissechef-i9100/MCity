@@ -34,7 +34,7 @@ translate french sis_nerdy_school_scene2_v1_label_eb8e78da:
 translate french sis_nerdy_school_scene2_v1_label_69b5804b:
 
     # Sara "No! It’s… [player_name]"
-    Sara "Non ! C'est… [nom_du_joueur]"
+    Sara "Non ! C'est… [player_name]"
 
 # game/scripts/school/school_entrace/day/scenes/sara_school_scene2_v1.rpy:28
 translate french sis_nerdy_school_scene2_v1_label_490eec29:

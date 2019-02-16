@@ -298,7 +298,7 @@ translate french after_sis_nerdy_school_scene3_v1_choice_5c96457e:
 translate french after_sis_nerdy_school_scene3_v1_choice_af3d04a8:
 
     # Lily "Okay, you’re first, [player_name]. Whoever the bottle points at - you’ve got to kiss them."
-    Lily "Ok, tu es le premier, [nom_du_joueur]. Celui que la bouteille montre du doigt - il faut l'embrasser."
+    Lily "Ok, tu es le premier, [player_name]. Celui que la bouteille montre du doigt - il faut l'embrasser."
 
 # game/scripts/school/school_entrace/day/scenes/sara_school_scene3_v1.rpy:204
 translate french after_sis_nerdy_school_scene3_v1_choice_70423bd9:

@@ -58,7 +58,7 @@ translate french celia_password_correct_v1_2b87fce9:
 translate french celia_password_correct_v1_763df95f:
 
     # MC "(No way! Is Mrs. Celia SELLING grades?!)"
-    MC "(Pas question ! Est-ce que Mme Celia VENDE des notes ?!!)"
+    MC "(Pas question ! Est-ce que Mme Celia VEND des notes ?!!)"
 
 # game/scripts/school/teacher_room1/day/celia_laptop/celia_laptopv1.rpy:41
 translate french celia_password_correct_v1_53a6153d:
