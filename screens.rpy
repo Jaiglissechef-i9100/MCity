@@ -13,7 +13,6 @@ init -1 style hyperlink_text:
 init -1 style gui_text:
     properties gui.text_properties("interface")
 
-
 init -1 style button:
     properties gui.button_properties("button")
 
@@ -336,6 +335,25 @@ init -501 screen main_menu() tag menu:
             idle Transform("images/game_gui/phone/Log Idle.png", zoom=.6)
             hover Transform("images/game_gui/phone/Log Hover.png", zoom=.6)
             action ShowMenu("Log_scr")
+        imagebutton:
+            xpos 1775
+            ypos 790
+            focus_mask True
+            idle Transform("images/game_gui/flag/us_idle.png", zoom=.5)
+            hover Transform("images/game_gui/flag/us_hover.png", zoom=.5)
+            action Language(None)
+
+        imagebutton:
+            xpos 1775
+            ypos 920
+            idle Transform("images/game_gui/flag/fr_idle.png", zoom=.5)
+            hover Transform("images/game_gui/flag/fr_hover.png", zoom=.5)
+            action Language("french")
+
+        imagebutton:
+            xpos 1812
+            ypos 1051
+            idle Transform("images/game_gui/flag/version.png", zoom=.6)
 
 init -1 style main_menu_frame is empty
 init -1 style main_menu_vbox is vbox
@@ -520,8 +538,6 @@ init -501 screen about() tag menu:
                 text "Koneser\n" xalign 0.5
                 text "{b}Writer:{/b}\n" xalign 0.5
                 text "Onyxdime - Onyxdime@gmail.com\n" xalign 0.5
-                text "{b}Translate:{/b}\n" xalign 0.5
-                text "French by gelstatset\n" xalign 0.5
                 text "{b}Music:{/b}\n" xalign 0.5
                 text "Kevin MacLeod {a=https://www.incompetech.com/}(incompetech.com){/a}" xalign 0.5
                 text "Licensed under Creative Commons: By Attribution 3.0 License " xalign 0.5
@@ -555,7 +571,7 @@ init -501 screen load() tag menu:
 
 init -501 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    default page_name_value = FilePageNameInputValue(pattern=__("Page {}"), auto=__("Automatic saves"), quick=__("Quick saves"))
 
     use game_menu(title):
 
