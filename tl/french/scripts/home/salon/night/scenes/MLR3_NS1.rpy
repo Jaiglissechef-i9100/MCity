@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/salon/night/scenes/MLR3_NS1.rpy:19
 translate french MLR3_NS1_a4d1c8fd:
@@ -172,7 +172,7 @@ translate french MLR3_NS1_54d149c3:
 translate french MLR3_NS1_85415c61:
 
     # MC "(Uh oh… It looks like she’s woken up [Dad_name]!)"
-    MC "(Uh oh… On dirait qu'elle a réveillée [Dad_name] !)!"
+    MC "(Uh oh… On dirait qu'elle a réveillée [Dad_name] !)"
 
 # game/scripts/home/salon/night/scenes/MLR3_NS1.rpy:87
 translate french MLR3_NS1_5128b5e8:

@@ -1,10 +1,10 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/cloth_shop/room1/scenes/cloth_shop_stealing_key.rpy:13
 translate french cloth_shop_stealing_key_label_d43c9b95:
 
     # MC "Hmm.. Let’s check.."
-    MC "Hmm... Vérifions..."
+    MC "Hmm.. Vérifions.."
 
 # game/scripts/cloth_shop/room1/scenes/cloth_shop_stealing_key.rpy:14
 translate french cloth_shop_stealing_key_label_f642e9cc:
@@ -16,7 +16,7 @@ translate french cloth_shop_stealing_key_label_f642e9cc:
 translate french cloth_shop_stealing_key_label_5422bdef:
 
     # MC "Okay... I'm in. Where could she hide her spare key..?"
-    MC "Ok... J'y suis. Où pourrait-elle cacher sa clé de rechange.. ?"
+    MC "Ok... J'y suis. Où pourrait-elle cacher sa clé de rechange..?"
 
 # game/scripts/cloth_shop/room1/scenes/cloth_shop_stealing_key.rpy:17
 translate french cloth_shop_stealing_key_label_02f2277c:
@@ -28,7 +28,7 @@ translate french cloth_shop_stealing_key_label_02f2277c:
 translate french cloth_shop_stealing_key_label_d317cec3:
 
     # MC "Please.. Be here.."
-    MC "S'il te plaît... Sois ici..."
+    MC "S'il te plaît.. Sois ici.."
 
 # game/scripts/cloth_shop/room1/scenes/cloth_shop_stealing_key.rpy:21
 translate french cloth_shop_stealing_key_label_088b155d:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:89
 translate french ml_mc_room_night_scene3_v1_label_507d034a:
@@ -22,13 +22,13 @@ translate french ml_mc_room_night_scene3_v1_label_e0634cbb:
 translate french ml_mc_room_night_scene3_v1_label_d1ea4eab:
 
     # MC "Wh-What if Dad catches you?"
-    MC "E-Et si Papa nosu attrapes ?"
+    MC "E-Et si Papa nous attrapes ?"
 
 # game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:95
 translate french ml_mc_room_night_scene3_v1_label_714c1743:
 
     # MC "Wh-What if Bob catches you?"
-    MC "E-Et si Bob nous attrape ?"
+    MC "E-Et si Bob nous attrapes ?"
 
 # game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:98
 translate french ml_mc_room_night_scene3_v1_label_37c0c30f:
@@ -342,1105 +342,1105 @@ translate french ml_mc_room_night_scene3_v1_label_ca2fe969:
     # Mom "Would you prefer it, if I sucked your cock with my mouth?"
     Mom "Ou tu préférerais que je te suce la bite avec ma bouche ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:228
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:226
 translate french ML_NS_1_77602cfa:
 
     # MC "I want to feel your lips, wrapped around my dick, tonight."
     MC "Je veux sentir tes lèvres, enroulées autour de ma bite, ce soir."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:229
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:227
 translate french ML_NS_1_a3a50e28:
 
     # Mom "Mmm… I like THAT choice."
     Mom "Mmm… J'aime CE choix."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:232
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:230
 translate french ML_NS_1_2eee58de:
 
     # Mom "You just lie back and relax."
     Mom "Allonge-toi et détends-toi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:233
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:231
 translate french ML_NS_1_3df0bc88:
 
     # Mom "Let me work my magic, and blow your mind."
     Mom "Laisse-moi exercer ma magie, et éblouir ton esprit."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:234
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:232
 translate french ML_NS_1_19ab962c:
 
     # Mom "Although, I highly doubt, you’ll last very long."
     Mom "Bien que, je doute fort que tu puisses tenir très longtemps."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:238
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:236
 translate french ML_NS_1_59acbc47:
 
     # MC "You seem a bit overconfident, Mom!"
     MC "Tu as l'air un peu trop sûre de toi, Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:240
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:238
 translate french ML_NS_1_a3b83a1e:
 
     # MC "You seem a bit overconfident, Linda!"
     MC "Tu as l'air un peu trop sûre de toi, Linda !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:241
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:239
 translate french ML_NS_1_b76f02fa:
 
     # MC "I highly doubt, that you’re THAT good."
     MC "Je doute fort que tu sois si bonne que ça."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:245
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:243
 translate french ML_NS_1_51c5fdf8:
 
     # Mom "Let’s just see, shall we?"
     Mom "Laisse-moi voir, veux-tu ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:248
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:246
 translate french ML_NS_1_7e724d89:
 
     # Mom "(Sniff!) Ahh…"
-    Mom "(*Sniff* !) Ahh…"
+    Mom "(Sniff !) Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:249
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:247
 translate french ML_NS_1_09f67e23:
 
     # Mom "(God, he smells incredible! I would love to take my time, sucking him slowly, and dragging out his orgasm.)"
     Mom "(Mon Dieu, il sent incroyablement bon ! J'adorerais prendre mon temps, le sucer lentement, et prolonger son orgasme.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:250
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:248
 translate french ML_NS_1_755fa872:
 
     # Mom "(But since he doesn’t believe I could make him cum THAT quickly, I’m just going to have to go all-out.)"
     Mom "(Mais puisqu'il ne croit pas que je puisse le faire jouir rapidement, je vais devoir tout faire pour y arriver.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:254
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:252
 translate french ML_NS_1_891bbd6f:
 
     # Mom "(There’ll be other opportunities to go slowly. Tonight, I’m gonna blow my boy’s mind.)"
     Mom "(Il y aura d'autres occasions d'aller lentement. Ce soir, je vais époustoufler mon fils.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:256
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:254
 translate french ML_NS_1_78d928e1:
 
     # Mom "(There’ll be other opportunities to go slowly. Tonight, I’m gonna blow this boy’s mind.)"
     Mom "(Il y aura d'autres occasions d'aller lentement. Ce soir, je vais l'époustoufler.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:257
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:255
 translate french ML_NS_1_1120fb41:
 
     # MC "Ahh…"
     MC "Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:258
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:256
 translate french ML_NS_1_14f99d3b:
 
     # Mom "(Sounds like he’s already moaning - and I haven’t even reached the tip yet.)"
     Mom "(On dirait qu'il gémit déjà - et je n'ai même pas encore atteint le bout.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:261
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:259
 translate french ML_NS_1_abbfe561:
 
     # MC "(Damn, she wasn’t lying when she said she was good with her tongue, at work.)"
     MC "(Merde, elle ne mentait pas quand elle a dit qu'elle était douée avec sa langue.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:265
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:263
 translate french ML_NS_1_e2b820a7:
 
     # MC "(She’s wrapping and flicking her tongue across my cock, so well!)"
     MC "(Elle enveloppe et donne un petit coup de langue sur ma bite, tellement bien !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:268
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:266
 translate french ML_NS_1_771b5eea:
 
     # MC "Ooohh…"
     MC "Ooohh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:272
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:270
 translate french ML_NS_1_63b552c8:
 
     # MC "(I can feel her hot breath, cascading over my glans.)"
     MC "(Je peux sentir son souffle chaud, ruisselant sur mon gland.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:273
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:271
 translate french ML_NS_1_c3928df8:
 
     # MC "(She’s about to put it in her mouth, any second now!)"
     MC "(Elle est sur le point de la mettre dans sa bouche, d'une seconde à l'autre !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:276
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:274
 translate french ML_NS_1_09638205:
 
     # Mom "(Suck Suck.)"
-    Mom "(*Suce suce.*)"
+    Mom "(Suce suce.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:277
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:275
 translate french ML_NS_1_1120fb41_1:
 
     # MC "Ahh…"
     MC "Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:278
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:276
 translate french ML_NS_1_286ec1f0:
 
     # MC "(Wow! It’s so hot and wet in her mouth!)"
     MC "(Wow ! Il fait si chaud et humide dans sa bouche !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:281
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:279
 translate french ML_NS_1_7d14ebec:
 
     # Mom "(Suck Suck Suck)"
-    Mom "(*Suce Suce Suce*)"
+    Mom "(Suce Suce Suce)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:282
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:280
 translate french ML_NS_1_b432b3d8:
 
     # MC "Mmmm! Ohhh!"
     MC "Mmmm ! Ohhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:283
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:281
 translate french ML_NS_1_7198271c:
 
     # Mom "(Hehe... It doesn't sound like he’s gonna last, terribly long!)"
     Mom "(Hehe... On dirait qu'il ne va pas durer, terriblement longtemps !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:286
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:284
 translate french ML_NS_1_4ee305fb:
 
     # Mom "(Shluuurrp)"
     Mom "(Shluuurrp)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:290
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:288
 translate french ML_NS_1_8921cf63:
 
     # MC "Ahhh!"
     MC "Ahhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:291
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:289
 translate french ML_NS_1_faf8883b:
 
     # Mom "(Mmm! His, thick cock, feels so good in my mouth!)"
     Mom "(Mmm ! Sa grosse bite, fait tellement de bien dans ma bouche !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:295
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:293
 translate french ML_NS_1_ab130611:
 
     # Mom "(I hope he wants to finish inside, so I can taste his cum.)"
     Mom "(J'espère qu'il veut finir à l'intérieur, pour que je puisse goûter son sperme.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:298
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:296
 translate french ML_NS_1_8dfd3148:
 
     # Mom "(Suck. Shlurp. Suuuuck)"
     Mom "(Suce. Shlurp. Suuuuce)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:299
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:297
 translate french ML_NS_1_ed62d1e4:
 
     # MC "Ah! Fuck! Ahhh!"
     MC "Ah ! Putain ! Ahhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:306
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:304
 translate french ML_NS_1_4f5d4b33:
 
     # MC "Ugh! I’m gonna cum!"
     MC "Ugh ! Je vais jouir !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:307
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:305
 translate french ML_NS_1_f6c198c8:
 
     # MC "Don’t stop sucking! Ahh!"
     MC "N'arrête pas de sucer ! Ahh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:311
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:309
 translate french ML_NS_1_27490442:
 
     # Mom "(Yes! He wants to cum inside!)"
     Mom "(Oui ! Il veut jouir à l'intérieur !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:314
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:312
 translate french ML_NS_1_5789c71d:
 
     # MC "Oooh! Ahhhhhhh!"
     MC "Oooh ! Ahhhhhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:315
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:313
 translate french ML_NS_1_179b22db:
 
     # Mom "(Gulp! Gulp!)"
-    Mom "(*Avale ! Avale !*)"
+    Mom "(Avale ! Avale !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:316
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:314
 translate french ML_NS_1_2848f1c6:
 
     # Mom "Mmm…"
     Mom "Mmm…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:325
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:323
 translate french ML_NS_1_90891065:
 
     # Mom "Aaahhh…"
     Mom "Aaahhh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:326
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:324
 translate french ML_NS_1_a53ca69d:
 
     # Mom "(Wow! He came so much! I had to swallow a little bit.)"
     Mom "(Wow ! Il a tellement giclé fort! J'ai dû en avaler un peu.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:328
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:326
 translate french ML_NS_1_bb1d5a66:
 
     # MC "That was amazing, Mom... "
     MC "C'était incroyable, Maman..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:330
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:328
 translate french ML_NS_1_f7f63283:
 
     # MC "That was amazing, Linda... "
     MC "C'était incroyable, Linda..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:333
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:331
 translate french ML_NS_1_168ae694:
 
     # Mom "(Gulp!)"
     Mom "(Avale !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:334
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:332
 translate french ML_NS_1_34398479:
 
     # Mom "(It tastes quite salty - not bad though!)"
     Mom "(C'est assez salé - mais pas mauvais !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:335
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:333
 translate french ML_NS_1_5345d619:
 
     # MC "(Wow! She just swallowed it all!)"
     MC "(Wow ! Elle a tout avalé !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:339
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:337
 translate french ML_NS_1_fd9aff8b:
 
     # MC "That was incredible, Mom! Thank you!"
     MC "C'était incroyable, Maman ! Je te remercie !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:341
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:339
 translate french ML_NS_1_a13b824d:
 
     # MC "That was incredible, Linda! Thank you!"
     MC "C'était incroyable, Linda ! Je te remercie !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:342
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:340
 translate french ML_NS_1_932be97b:
 
     # Mom "I did warn you that you wouldn’t last long, against one of my blowjobs."
     Mom "Je t'avais prévenu que tu ne tiendrais pas longtemps, contre une de mes pipes."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:343
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:341
 translate french ML_NS_1_70822b7a:
 
     # MC "Haha! I should have listened."
     MC "Haha ! J'aurais dû écouter."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:345
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:343
 translate french ML_NS_1_0c130ca1:
 
     # Mom "Okay, I better get back to bed, before your father finds me missing."
     Mom "Ok, je ferais mieux de retourner au lit, avant que ton père ne me déclare porté disparu."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:347
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:345
 translate french ML_NS_1_6ae54606:
 
     # Mom "Okay, I better get back to bed, before Bob finds me missing."
     Mom "Ok, je ferais mieux de retourner au lit, avant que Bob ne me déclare porté disparu."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:348
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:346
 translate french ML_NS_1_51e72689:
 
     # Mom "See you tomorrow."
     Mom "On se voit demain."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:350
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:348
 translate french ML_NS_1_8a149e07:
 
     # MC "See you tomorrow, Mom."
     MC "À demain, Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:352
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:350
 translate french ML_NS_1_afd82f0f:
 
     # MC "See you tomorrow, Linda."
     MC "A demain, Linda."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:358
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:355
 translate french ML_NS_1_2ed72faa:
 
     # MC "I’m gonna cum! Ahh!"
     MC "Je vais jouir ! Ahh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:362
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:359
 translate french ML_NS_1_3d26c017:
 
     # MC "Can I do it on your face?"
     MC "Je peux le faire sur ton visage ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:364
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:361
 translate french ML_NS_1_e45d5ede:
 
     # Mom "(I would have preferred him, to cum in my mouth - but whatever makes my boy happier.)"
     Mom "(J'aurais préférée qu'il éjacule dans ma bouche - mais peu importe c'est ce qui rend mon garçon plus heureux)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:366
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:363
 translate french ML_NS_1_0ab8353d:
 
     # Mom "(I would have preferred him, to cum in my mouth - but whatever makes this boy happier.)"
     Mom "(J'aurais préférée qu'il éjacule dans ma bouche - mais peu importe c'est ce qui rend ce garçon plus heureux)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:374
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:371
 translate french ML_NS_1_5b2b3224:
 
     # MC "Oh fuck! Yes! Ahhh!"
     MC "Oh putain ! Oui ! Ahhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:375
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:372
 translate french ML_NS_1_d0b78f7e:
 
     # Mom "(Mmm... feeling his warm sticky cum, over my face, isn’t as bad as I imagined it would be.)"
     Mom "(Mmm... sentir son sperme chaud et collant, sur mon visage, n'est pas aussi mauvais que je l'imaginais.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:376
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:373
 translate french ML_NS_1_0a7d39db:
 
     # MC "Ah… Phew…"
     MC "Ah… Pfiou…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:377
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:374
 translate french ML_NS_1_1e1213d3:
 
     # Mom "Did you enjoy that, Sweetie?"
     Mom "Ça t'a plu, chéri ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:378
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:375
 translate french ML_NS_1_ee0e32f7:
 
     # MC "Y-Yeah... That was amazing…"
     MC "O-Ouai... C'était incroyable…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:379
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:376
 translate french ML_NS_1_932be97b_1:
 
     # Mom "I did warn you that you wouldn’t last long, against one of my blowjobs."
     Mom "Je t'avais prévenu que tu ne tiendrais pas longtemps, contre une de mes pipes."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:380
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:377
 translate french ML_NS_1_70822b7a_1:
 
     # MC "Haha! I should have listened."
     MC "Haha ! J'aurais dû écouter."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:382
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:379
 translate french ML_NS_1_0c130ca1_1:
 
     # Mom "Okay, I better get back to bed, before your father finds me missing."
     Mom "Ok, je ferais mieux de retourner au lit, avant que ton père ne me déclare porté disparu."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:384
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:381
 translate french ML_NS_1_6ae54606_1:
 
     # Mom "Okay, I better get back to bed, before Bob finds me missing."
     Mom "Ok, je ferais mieux de retourner au lit, avant que Bob ne me déclare porté disparu."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:385
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:382
 translate french ML_NS_1_51e72689_1:
 
     # Mom "See you tomorrow."
     Mom "On se voit demain."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:387
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:384
 translate french ML_NS_1_8a149e07_1:
 
     # MC "See you tomorrow, Mom."
     MC "À demain, Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:389
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:386
 translate french ML_NS_1_afd82f0f_1:
 
     # MC "See you tomorrow, Linda."
     MC "A demain, Linda."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:396
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:393
 translate french ML_NS_6_62135f75:
 
     # MC "C-Could you use your feet tonight, Mom?"
     MC "Tu peux utiliser tes pieds ce soir, Maman ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:398
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:395
 translate french ML_NS_6_24136ecd:
 
     # MC "C-Could you use your feet tonight, Linda?"
     MC "T-Tu peux utiliser tes pieds ce soir, Linda ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:399
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:396
 translate french ML_NS_6_11e2fd2e:
 
     # Mom "Feet? I didn’t expect t-tha..."
     Mom "Pieds ? Je ne m'attendais pas à ce que..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:400
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:397
 translate french ML_NS_6_793b41d3:
 
     # Mom "...Of course, Sweetie. Just sit back, against me and relax."
     Mom "...Bien sûr, chéri. Assieds-toi contre moi et détends-toi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:402
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:399
 translate french ML_NS_6_a9b3a965:
 
     # Mom "Let mommy take care of the rest."
     Mom "Laisse maman s'occuper du reste."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:404
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:401
 translate french ML_NS_6_18cb6299:
 
     # Mom "Let me take care of the rest."
     Mom "Laisse-moi m'occuper du reste."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:409
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:405
 translate french ML_NS_6_e0dd4a62:
 
     # Mom "Are you comfortable?"
-    Mom "Tu es à l'aise ? ?"
+    Mom "Tu es à l'aise ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:410
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:406
 translate french ML_NS_6_e15546d2:
 
     # MC "Y-Yeah, I am."
     MC "O-Ouai, je le suis."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:411
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:407
 translate french ML_NS_6_95dd68f8:
 
     # Mom "Good. I’ll start now. I hope you enjoy this."
     Mom "Bien. Je vais commencer. J'espère que ça te plaira."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:414
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:410
 translate french ML_NS_6_1120fb41:
 
     # MC "Ahh…"
     MC "Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:417
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:413
 translate french ML_NS_6_5264e88c:
 
     # Mom "You really like my feet, don’t you, [player_name]?"
     Mom "Tu aimes vraiment mes pieds, n'est-ce pas ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:419
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:415
 translate french ML_NS_6_e28ac1d9:
 
     # MC "Y-Yeah, Mom."
     MC "Oh oui, Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:421
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:417
 translate french ML_NS_6_96f7d6d4:
 
     # MC "Y-Yeah, Linda."
     MC "Oh oui, Linda."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:422
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:418
 translate french ML_NS_6_4f430af0:
 
     # Mom "Haha! I guessed that."
     Mom "Haha ! Je m'en doutais."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:425
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:421
 translate french ML_NS_6_3cac95d9:
 
     # Mom "Would you like me to go faster?"
     Mom "Tu veux que j'aille plus vite ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:427
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:423
 translate french ML_NS_6_f9dcaec6:
 
     # MC "Just, whatever you think is best, Mom."
     MC "Juste, comme tu penses être le mieux, Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:429
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:425
 translate french ML_NS_6_53494b6a:
 
     # MC "Just, whatever you think is best, Linda."
     MC "Juste, comme tu penses être le mieux, Linda."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:432
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:428
 translate french ML_NS_6_d887f077:
 
     # Mom "You’ve got such a sexy cock. I could play with it for hours."
     Mom "Tu as une bite si sexy. Je pourrais jouer avec pendant des heures."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:433
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:429
 translate french ML_NS_6_f02c929a:
 
     # Mom "I’ll let you fuck my pussy someday. I can’t wait to feel you inside me."
     Mom "Je te laisserai baiser ma chatte un jour. J'ai hâte de te sentir en moi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:434
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:430
 translate french ML_NS_6_bd56844e:
 
     # Mom "You’ve gotten me so wet, just by sitting naked beside me."
     Mom "Tu m'as tellement mouillée, juste en t'asseyant nue à côté de moi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:437
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:433
 translate french ML_NS_6_8d36417d:
 
     # MC "Ahh!"
     MC "Ahh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:439
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:435
 translate french ML_NS_6_f619a957:
 
     # MC "(I can feel Mom’s hot breath in my ear. She has such a seductive voice when she whispers.)"
     MC "(Je sens le souffle chaud de Maman dans mon oreille. Elle a une voix si séduisante quand elle chuchote.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:441
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:437
 translate french ML_NS_6_9b30a341:
 
     # MC "(I can feel Linda’s hot breath in my ear. She has such a seductive voice when she whispers.)"
     MC "(Je sens le souffle chaud de Linda dans mon oreille. Elle a une voix si séduisante quand elle chuchote.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:442
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:438
 translate french ML_NS_6_1852aad6:
 
     # Mom "(Alright, I’ve been doing this for a few minutes now. Time to up my game.)"
     Mom "(Ça fait quelques minutes que je fais ça. C'est l'heure d'améliorer mon jeu.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:445
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:441
 translate french ML_NS_6_442a4d38:
 
     # Mom "(Let’s see how he likes it when I lick his neck.)"
     Mom "(Voyons comment il aime quand je lui lèche le cou.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:446
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:442
 translate french ML_NS_6_7e7de820:
 
     # MC "Ooohh!"
     MC "Ooohh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:447
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:443
 translate french ML_NS_6_dfc013ac:
 
     # Mom "(Mmm... he shivered! I think he’s rather sensitive there.)"
     Mom "(Mmm... il a tremblé ! Je pense qu'il est plutôt sensible ici.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:451
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:447
 translate french ML_NS_6_fb8bc6a6:
 
     # MC "Oh! Oh, Mom!"
     MC "Oh ! Oh, Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:452
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:448
 translate french ML_NS_6_a49ee00c:
 
     # Mom "Are you enjoying, my feet, massaging your cock, Sweetie?"
     Mom "Tu aimes, que mes pieds, te masse la bite, chéri ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:453
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:449
 translate french ML_NS_6_d95d9258:
 
     # MC "Y-Yes, Mom! Ahh…"
     MC "O-Oui, Maman ! Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:455
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:451
 translate french ML_NS_6_29e94765:
 
     # MC "Oh! Oh, Linda!"
     MC "Oh ! Oh, Linda !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:456
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:452
 translate french ML_NS_6_a49ee00c_1:
 
     # Mom "Are you enjoying, my feet, massaging your cock, Sweetie?"
     Mom "Tu aimes, que mes pieds, te masse la bite, chéri ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:457
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:453
 translate french ML_NS_6_60c3cfda:
 
     # MC "Y-Yes, Linda! Ahh…"
     MC "O-Oui, Linda ! Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:461
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:457
 translate french ML_NS_6_d0bee6f8:
 
     # Mom "I want you to be a good boy, and cum for Mommy."
     Mom "Je veux que tu sois un bon garçon, et que tu éjacules pour Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:463
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:459
 translate french ML_NS_6_33a888e5:
 
     # Mom "Will you do that for me?"
     Mom "Tu peux faire ça pour moi ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:464
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:460
 translate french ML_NS_6_974472b5:
 
     # MC "Y-Yes, Mom!"
     MC "O-Oui, Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:466
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:462
 translate french ML_NS_6_15f1d2b0:
 
     # Mom "I want you to be a good boy, and cum for me."
     Mom "Je veux que tu sois un bon garçon, et éjacule pour moi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:468
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:464
 translate french ML_NS_6_33a888e5_1:
 
     # Mom "Will you do that for me?"
     Mom "Tu peux faire ça pour moi ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:469
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:465
 translate french ML_NS_6_5a51f42e:
 
     # MC "Y-Yes, Linda!"
     MC "O-Oui, Linda !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:472
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:468
 translate french ML_NS_6_79ea0e66:
 
     # Mom "Be a good boy, and cum all over my feet."
     Mom "Sois un bon garçon, et éjacule sur mes pieds."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:473
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:469
 translate french ML_NS_6_cd69d752:
 
     # Mom "I want to feel your sticky, warm cum, between my toes."
     Mom "Je veux sentir ton sperme chaud et collant entre mes orteils."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:474
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:470
 translate french ML_NS_6_db207a33:
 
     # MC "Ah! Ahhh! Ohhh!"
     MC "Ah ! Ahhh ! Ohhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:477
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:473
 translate french ML_NS_6_d4de55d2:
 
     # MC "Fuck! I’m cumming! Ahh! Uggghhh!"
     MC "Putain de merde ! Je suis en train de jouir ! Ahh ! Ugghhh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:480
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:476
 translate french ML_NS_6_2924f52b:
 
     # Mom "That’s it! Cum for Mommy!"
     Mom "C'est ça ! Jouis pour Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:482
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:478
 translate french ML_NS_6_dddb6f0a:
 
     # Mom "That’s it! Cum for me!"
     Mom "C'est ça ! Jouis pour moi !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:484
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:480
 translate french ML_NS_6_c3cd3372:
 
     # Mom "(It feels so good, making him cum. Hopefully he’ll want to repay the favour some day.)"
     Mom "(C'est si bon de le faire jouir. J'espère qu'un jour il voudra me rendre la pareille.)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:492
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:488
 translate french ML_NS_6_c25538c0:
 
     # Mom "Wow… You came sooo much!"
     Mom "Wow… Tu as fini si fort !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:493
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:489
 translate french ML_NS_6_58d41d54:
 
     # MC "(Gasp! Pant!)"
-    MC "(*Avale Halète* !)"
+    MC "(Avale Halète !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:494
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:490
 translate french ML_NS_6_0d38bf41:
 
     # Mom "Aww... are you out of breath. Let’s lie down together, for a while."
     Mom "Aww... tu es essoufflé. Allongeons-nous ensemble, un moment."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:498
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:494
 translate french ML_NS_6_dcb908f9:
 
     # MC "Th-Thank you, Mom…"
     MC "Me-Merci, Maman..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:499
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:495
 translate french ML_NS_6_79aa00ce:
 
     # Mom "Shush... Just relax and catch your breath."
     Mom "Chut... détends-toi et reprends ton souffle."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:500
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:496
 translate french ML_NS_6_f435dd42:
 
     # Mom "I’ll cuddle you for a while, then head back into my own room."
     Mom "Je vais te câliner un moment, puis je retourne dans ma chambre."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:501
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:497
 translate french ML_NS_6_e8536d63:
 
     # MC "(Pant) You’re incredible, Mom..."
-    MC "(*Halète*) Tu es incroyable, Maman..."
+    MC "(Halète) Tu es incroyable, Maman..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:503
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:499
 translate french ML_NS_6_12161f5c:
 
     # MC "Th-Thank you, Linda…"
     MC "Me-Merci, Linda…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:504
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:500
 translate french ML_NS_6_79aa00ce_1:
 
     # Mom "Shush... Just relax and catch your breath."
     Mom "Chut... détends-toi et reprends ton souffle"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:505
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:501
 translate french ML_NS_6_f435dd42_1:
 
     # Mom "I’ll cuddle you for a while, then head back into my own room."
     Mom "Je vais te câliner un moment, puis je retourne dans ma chambre."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:506
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:502
 translate french ML_NS_6_bc5c4cef:
 
     # MC "(Pant) You’re incredible, Linda..."
-    MC "(*Halète*) Tu es incroyable, Linda..."
+    MC "(Halète) Tu es incroyable, Linda..."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:507
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:503
 translate french ML_NS_6_d6782d89:
 
     # Mom "Shush - I know."
     Mom "Chut - Je sais."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:508
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:504
 translate french ML_NS_6_0839e2e8:
 
     # Mom "Sweet dreams, [player_name]."
     Mom "Faites de beaux rêves,[player_name] ."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:515
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:511
 translate french ML_NS_2_488b154b:
 
     # MC "This time, I think I’d like to try a boobjob with you."
     MC "Cette fois, j'aimerais essayer entre les seins avec toi."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:516
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:512
 translate french ML_NS_2_a836da08:
 
     # Mom "Oh really? Do you think you could handle that?"
     Mom "Oh vraiment ? Tu penses que tu pourrais gérer ça ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:517
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:513
 translate french ML_NS_2_e40ae654:
 
     # MC "Sure, why not?"
     MC "Bien sûr, pourquoi pas ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:521
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:517
 translate french ML_NS_2_225b2f7f:
 
     # Mom "Okay, big boy. If you’re so sure."
     Mom "Ok, mon grand. Si tu es si sûr"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:522
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:518
 translate french ML_NS_2_021e23e1:
 
     # Mom "Go ahead and lie down on the bed. Then let me work my magic."
     Mom "Vas-y, allonge-toi sur le lit. Et laisse faire ma magie."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:523
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:519
 translate french ML_NS_2_1868b745:
 
     # MC "Actually - this time I want to be on top."
     MC "En fait - cette fois, je veux être au top."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:524
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:520
 translate french ML_NS_2_943268d5:
 
     # Mom "Let’s see how you fare with that."
     Mom "Voyons comment tu t'en sors avec ça."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:528
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:524
 translate french ML_NS_2_1a8adc78:
 
     # Mom "So, is this the kind of position you were thinking of?"
     Mom "Alors, c'est le genre de position à laquelle tu pensais ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:529
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:525
 translate french ML_NS_2_078daaae:
 
     # MC "Yeah, this is perfect."
     MC "Ouai, c'est parfait."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:530
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:526
 translate french ML_NS_2_46fd6830:
 
     # Mom "Okay, I’ll hold my tits together for you. Then, you can thrust your hips and move your cock between them."
     Mom "Ok, je vais tenir mes seins serrés pour toi. Ensuite, tu peux pousser tes hanches et bouger ta bite entre eux."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:534
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:530
 translate french ML_NS_2_56172ec3:
 
     # MC "Mmm! That’s so good!"
     MC "Mmm ! C'est tellement bon !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:537
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:533
 translate french ML_NS_2_c4e444d2:
 
     # MC "Your breasts are amazing, Mom!"
     MC "Tes seins sont incroyables, Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:539
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:535
 translate french ML_NS_2_ac130dd4:
 
     # MC "Your breasts are amazing, Linda!"
     MC "Tes seins sont incroyables, Linda !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:540
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:536
 translate french ML_NS_2_546f7f52:
 
     # Mom "Hehe! I know"
     Mom "Hehe ! Je sais "
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:544
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:540
 translate french ML_NS_2_a78283a4:
 
     # MC "Ah… Ah…"
     MC "Ah… Ah…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:545
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:541
 translate french ML_NS_2_d1cacfd0:
 
     # MC "(I can feel her soft breasts, massaging every single inch of my cock! This is awesome!)"
     MC "(Je peux sentir ses seins doux, massant chaque centimètre de ma bite ! C'est génial !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:547
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:543
 translate french ML_NS_2_43c2d7b7:
 
     # Mom "(It looks like my boy is REALLY enjoying this!)"
     Mom "(On dirait que mon garçon est VRAIMENT en train d'apprécier !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:549
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:545
 translate french ML_NS_2_2cdeb0bb:
 
     # Mom "(It looks like the [player_name] is really is really enjoying thi!)"
     Mom "(On dirait que [player_name] est VRAIMENT en train d'apprécier !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:552
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:548
 translate french ML_NS_2_d1fb3b19:
 
     # MC "Ohh…"
     MC "Ohh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:553
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:549
 translate french ML_NS_2_34f91aa8:
 
     # Mom "I hope you don’t cum too quickly on me, now!"
     Mom "J'espère que tu ne vas pas jouir trop vite sur moi !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:555
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:551
 translate french ML_NS_2_2637457a:
 
     # MC "I won’t! Ah…"
     MC "Je ne le ferai pas ! Ah…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:559
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:555
 translate french ML_NS_2_63809f5a:
 
     # Mom "So, how are you enjoying being on top?"
     Mom "Alors, ça te plaît d'être sur moi ?"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:561
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:557
 translate french ML_NS_2_174d6041:
 
     # MC "Mmm! It’s great, Mom!"
     MC "Mmm ! C'est super, Maman !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:563
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:559
 translate french ML_NS_2_1b8daeb1:
 
     # MC "Mmm! it’s great, Linda!"
     MC "Mmm ! C'est génial, Linda !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:564
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:560
 translate french ML_NS_2_a23d967e:
 
     # Mom "Good to hear. I usually prefer being on top, myself. But I can always do bottom, for a change."
     Mom "C'est bon à entendre. D'habitude, je préfère être au dessus, moi-même. Mais je peux être en dessous, pour changer."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:568
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:564
 translate french ML_NS_2_47523c1c:
 
     # Mom "If you want, you can push your hips forward a bit more and I can try sucking the tip of your cock, while you tit-fuck me."
     Mom "Si tu veux, tu peux pousser tes hanches un peu plus en avant et je peux essayer de sucer le bout de ta bite, pendant que tu me baises les seins."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:569
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:565
 translate french ML_NS_2_79692f42:
 
     # MC "Cool!"
     MC "Cool !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:570
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:566
 translate french ML_NS_2_7d3e7089:
 
     # Mom "Okay, bring your dick a bit closer to my mouth."
     Mom "Ok, Rapproche ta bite un peu plus près de ma bouche."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:574
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:570
 translate french ML_NS_2_f1020faf:
 
     # Mom "Good... Just another inch or two!"
     Mom "Bien... Encore un centimètre ou deux !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:575
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:571
 translate french ML_NS_2_0bbfe921:
 
     # MC "(This is gonna feel incredible!)"
     MC "(Ça va être incroyable !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:579
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:575
 translate french ML_NS_2_ae1f3bdf:
 
     # Mom "Shlurrrrp!"
     Mom "Shlurrrrp !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:580
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:576
 translate french ML_NS_2_2c44c509:
 
     # MC "Ohhh! Fuck…"
     MC "Ohhh ! Putain…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:581
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:577
 translate french ML_NS_2_5758dbfd:
 
     # Mom "(Suck Suck)"
-    Mom "(*Suce Suce*)"
+    Mom "(Suce Suce)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:585
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:581
 translate french ML_NS_2_7d14ebec:
 
     # Mom "(Suck Suck Suck)"
-    Mom "(*Suce Suce*)"
+    Mom "(Suce Suce)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:587
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:583
 translate french ML_NS_2_15db8ec9:
 
     # MC "Ugh!"
     MC "Ugh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:588
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:584
 translate french ML_NS_2_808db81a:
 
     # MC "(She’s pursing her lips and suckling so hard!)"
     MC "(Elle serre ses lèvres si fort !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:589
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:585
 translate french ML_NS_2_b04f0590:
 
     # MC "(It feels like she’s trying to drain the semen from my balls!)"
     MC "(J'ai l'impression qu'elle essaye de drainer le sperme de mes couilles !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:594
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:590
 translate french ML_NS_2_9f80f5b9:
 
     # MC "Shit! Mom, I’m cumming!"
     MC "Merde ! Maman, je suis en train de jouir !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:596
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:592
 translate french ML_NS_2_f04bde31:
 
     # MC "Shit! Linda, I’m cumming!"
     MC "Merde ! Linda, je suis en train de jouir !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:598
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:594
 translate french ML_NS_2_28baa1c9:
 
     # Mom "Mmm!"
     Mom "Mmm !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:599
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:595
 translate french ML_NS_2_1ee4d013:
 
     # MC "Ahh! Hnnnng! Ugh!"
     MC "Ahh ! Hnnng ! Ugh !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:600
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:596
 translate french ML_NS_2_caa07143:
 
     # Mom "(Suck Shlurrrrp!)"
-    Mom "(*Suce Shlurrrrrrp* !)"
+    Mom "(Suce Shlurrrrrrp !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:601
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:597
 translate french ML_NS_2_25b637a3:
 
     # MC "AHHHHHH!"
     MC "AHHHHHH !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:604
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:600
 translate french ML_NS_2_40ed899f:
 
     # MC "Wow… (Pant)"
-    MC "Wow… (*Halète*)"
+    MC "Wow… (Halète)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:605
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:601
 translate french ML_NS_2_fb9f3f4d:
 
     # Mom "Ahh…"
     Mom "Ahh…"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:609
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:605
 translate french ML_NS_2_168ae694:
 
     # Mom "(Gulp!)"
     Mom "(Avale !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:610
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:606
 translate french ML_NS_2_a23a104f:
 
     # MC "(Wow! She swallowed it all!)"
     MC "(Wow ! Elle a tout avalé !)"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:611
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:607
 translate french ML_NS_2_5f359eb2:
 
     # MC "You must really like the taste of cum!"
     MC "Tu dois vraiment aimer le goût du sperme !"
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:615
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:611
 translate french ML_NS_2_9a7df899:
 
     # Mom "Only yours, Dear."
     Mom "Seulement le tien, mon chéri."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:617
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:613
 translate french ML_NS_2_ae18b23b:
 
     # Mom "There’s something intensely erotic about swallowing your son’s cum."
     Mom "Il y a quelque chose d'intensément érotique à avaler le sperme de son fils."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:618
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:614
 translate french ML_NS_2_99e35e67:
 
     # MC "I love you, Mom."
     MC "Je t'aime, Maman."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:620
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:616
 translate french ML_NS_2_deb1a8dc:
 
     # Mom "There’s something intensely erotic about swallowing a young man’s cum."
     Mom "Il y a quelque chose d'intensément érotique à avaler le sperme d'un jeune homme."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:621
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:617
 translate french ML_NS_2_e517d6c7:
 
     # MC "I love you, Linda."
     MC "Je t'aime, Linda."
 
-# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:622
+# game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:618
 translate french ML_NS_2_2b4de539:
 
     # Mom "I love you too."
@@ -1448,11 +1448,11 @@ translate french ML_NS_2_2b4de539:
 
 translate french strings:
 
-    # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:301
+    # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:299
     old "Cum inside her mouth."
     new "Spermer dans sa bouche."
 
-    # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:301
+    # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:299
     old "Pull out and cum on her face."
     new "Se retirer et éjaculer sur son visage."
 

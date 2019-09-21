@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/evening/scenes/caroline_room_evening_scene4.rpy:15
 translate french caroline_room_evening_scene4_label_08728b1a:
@@ -190,7 +190,7 @@ translate french caroline_room_evening_scene4_label_e7530942:
 translate french caroline_room_evening_scene4_label_e9751c7e:
 
     # Caroline "(Sigh) Give me some time alone, to think."
-    Caroline "(*Soupi*) Donne-moi un peu de temps pour réfléchir."
+    Caroline "(Soupir) Donne-moi un peu de temps pour réfléchir."
 
 # game/scripts/home/caroline_room/evening/scenes/caroline_room_evening_scene4.rpy:70
 translate french caroline_room_evening_scene4_label_4cdeb901:

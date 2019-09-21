@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene3.rpy:13
 translate french caroline_room_morning_scene3_label_08728b1a:
@@ -52,13 +52,13 @@ translate french caroline_room_morning_scene3_label_80b512fd:
 translate french caroline_room_morning_scene3_label_1401c7e4:
 
     # Caroline "I know. (Sniff) I’m sorry, Mom."
-    Caroline "Je sais. (*Sniff*) Je suis désolée, Maman."
+    Caroline "Je sais. (Sniff) Je suis désolée, Maman."
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene3.rpy:36
 translate french caroline_room_morning_scene3_label_b89e5d47:
 
     # Caroline "I know. (Sniff) I’m sorry, Linda."
-    Caroline "Je sais. (*Sniff*) Je suis désolée, Linda."
+    Caroline "Je sais. (Sniff) Je suis désolée, Linda."
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene3.rpy:37
 translate french caroline_room_morning_scene3_label_4f2e41fb:
@@ -119,3 +119,12 @@ translate french caroline_room_morning_scene3_label_cdd10225:
 
     # Caroline "Just pop by my shop, in the afternoon. I’ll have everything ready. Then we can begin."
     Caroline "Passe à mon magasin, dans l'après-midi. Je vais tout préparer. Alors nous pourrons commencer."
+
+# TODO: Translation updated at 2019-08-16 07:26
+
+# game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene3.rpy:22
+translate french caroline_room_morning_scene3_label_99096ff1:
+
+    # MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever seen!)"
+    MC "(Ce n'est pas du tout son genre. Elle est généralement l'une des personnes les plus heureuses et les plus optimistes que j'aie jamais vues !)"
+

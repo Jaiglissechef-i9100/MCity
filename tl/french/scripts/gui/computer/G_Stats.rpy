@@ -1,4 +1,4 @@
-# TODO: Translation updated at 2019-02-07 23:24
+# TODO: Translation updated at 2019-02-17 07:11
 
 translate french strings:
 
@@ -65,3 +65,14 @@ translate french strings:
     # script.rpy:330
     old "{color=#66ff66}While sleeping{/color}"
     new "{color=#66ff66}En dormant{/color}"
+
+    # script.rpy:389
+    old "Visited: [yaz_stats_visited]"
+    new "Visités : [yaz_stats_visited]"# TODO: Translation updated at 2019-08-16 07:26
+
+translate french strings:
+
+    # scripts\gui\computer\G_Stats.rpy:385
+    old "Relation points: {size=-3}[Y_points]/[Y_max]{/size}"
+    new "Relation points: {size=-3}[Y_points]/[Y_max]{/size}"
+

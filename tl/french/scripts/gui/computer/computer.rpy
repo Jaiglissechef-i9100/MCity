@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/gui/computer/computer.rpy:46
 translate french computer_menu_cc018785:
@@ -16,8 +16,24 @@ translate french strings:
 
     # scripts\gui\computer\computer.rpy:20
     old "Use Computer."
-    new "Utiliser l'ordinateur"
+    new "Utiliser l'ordinateur."
 
     # scripts\gui\computer\computer.rpy:20
     old "Play Computer Games."
-    new "Jouer à des jeux vidéo"
+    new "Jouer à des jeux vidéo."
+
+    # scripts\gui\computer\computer.rpy:143
+    old "Gallery"
+    new "Gallerie"
+
+    # scripts\gui\computer\computer.rpy:166
+    old "Turn Off"
+    new "Éteindre"
+
+    # scripts\gui\computer\computer.rpy:177
+    old "Rock Paper Scissors"
+    new "Pierre Feuille Ciseaux"
+
+    # scripts\gui\computer\computer.rpy:203
+    old "Statistics"
+    new "Statistiques"

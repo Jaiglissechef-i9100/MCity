@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom1/morning/scenes/macy_scene1.rpy:19
 translate french macy_scene1_label_b76b7eea:

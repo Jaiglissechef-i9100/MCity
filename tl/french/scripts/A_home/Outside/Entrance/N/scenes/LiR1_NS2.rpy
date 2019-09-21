@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS2.rpy:33
 translate french LiR1_NS2_label_fc5e4b05:
@@ -154,7 +154,7 @@ translate french LiR1_NS2_label_35b96ddc:
 translate french LiR1_NS2_label_bd549119:
 
     # MC "(Damn! The sound of them - eating each other out - is getting me rock-hard!)"
-    MC "(Merde ! Le bruit qu'elle font - se dévorant l'un l'autre - me rend dur comme le roc !)"
+    MC "(Merde ! Le bruit qu'elle font - se dévorant l'une l'autre - me rend dur comme le roc !)"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS2.rpy:87
 translate french LiR1_NS2_label_37456724:
@@ -238,7 +238,7 @@ translate french LiR1_NS2_label_59fcc119:
 translate french LiR1_NS2_label_c9210647:
 
     # MC "(I wonder how it feels for lesbians to rub their pussies together. It looks like they’re both REALLY enjoying it!)"
-    MC "(Je me demande ce que ça fait pour les lesbiennes de se frotter la chatte ensemble. On dirait qu'ils s'amusent VRAIMENT toutes les deux !)"
+    MC "(Je me demande ce que ça fait pour les lesbiennes de se frotter la chatte ensemble. On dirait qu'elles s'amusent VRAIMENT toutes les deux !)"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS2.rpy:113
 translate french LiR1_NS2_label_0966b6e6:

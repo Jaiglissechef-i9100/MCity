@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_morning_scene6_v1.rpy:45
 translate french ml_bedroom_morning_scene6_v1_label_80eabd6f:
@@ -687,4 +687,3 @@ translate french strings:
     # scripts\home\ml_and_f_bedroom\morning\scenes\ml_bedroom_morning_scene6_v1.rpy:188
     old "Start with Linda’s Hips, and work up her body."
     new "Commence par les hanches de Linda, et travaille son corps."
-

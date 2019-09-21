@@ -1,108 +1,108 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:16
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:15
 translate french Zv2_MS1_daymeet_label_84b68a82:
 
     # Zuri "Hello, and welcome to Bayside Business Consultants. My name is Zuri. How can I help you?"
     Zuri "Bonjour et bienvenue chez Bayside Business Consultants. Je m'appelle Zuri. En quoi puis-je vous aider ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:21
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:20
 translate french Zv2_MS1_daymeet_label_5502d6c2:
 
     # MC "(Wow! That must be Dad’s secretary! She’s REALLY hot!)"
     MC "(Ça doit être la secrétaire de Papa ! Elle est VRAIMENT sexy !)"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:22
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:21
 translate french Zv2_MS1_daymeet_label_78dae213:
 
     # MC "Hi, Zuri. My name is [player_name]. I was coming to visit my dad."
     MC "Bonjour, Zuri. Je m'appelle [player_name]. Je venais voir mon père."
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:23
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:22
 translate french Zv2_MS1_daymeet_label_83af3485:
 
     # Zuri "And who is your dad?"
     Zuri "Et qui est votre père ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:25
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:24
 translate french Zv2_MS1_daymeet_label_02db6997:
 
     # MC "(Wow! That must be Bob’s secretary! She’s REALLY hot!)"
     MC "(Ça doit être la secrétaire de Bob ! Elle est VRAIMENT sexy !)"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:26
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:25
 translate french Zv2_MS1_daymeet_label_f5fb0ffb:
 
     # MC "Hi, Zuri. My name is [player_name]. I was coming to visit Bob."
     MC "Bonjour, Zuri. Je m'appelle [player_name]. Je venais voir Bob."
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:27
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:26
 translate french Zv2_MS1_daymeet_label_85943b84:
 
     # Zuri "And who is Bob?"
     Zuri "Et qui est Bob ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:28
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:27
 translate french Zv2_MS1_daymeet_label_e16c8a4a:
 
     # MC "Uhh… The one who runs this company?"
     MC "Euh… Celui qui dirige cette société ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:32
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:31
 translate french Zv2_MS1_daymeet_label_27b87d8c:
 
     # Zuri "Ahahaha! How funny!"
     Zuri "Ahahaha ! Comme c'est drôle !"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:33
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:32
 translate french Zv2_MS1_daymeet_label_704c04fc:
 
     # Zuri "Let me guess - you’re with one of those online prank videos, aren’t you?"
     Zuri "Laissez-moi deviner - vous faites une de ces vidéos prank en ligne, n'est-ce pas ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:34
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:33
 translate french Zv2_MS1_daymeet_label_e79ed82a:
 
     # MC "Huh?"
     MC "Hein ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:35
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:34
 translate french Zv2_MS1_daymeet_label_9de63d65:
 
     # Zuri "You’ve got a secret camera and you’re going to humiliate the boss and put it online?"
     Zuri "Vous avez une caméra cachée et vous allez humilier le patron et la mettre en ligne ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:37
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:36
 translate french Zv2_MS1_daymeet_label_c8bd7ced:
 
     # MC "No- What?! I AM actually his son."
     MC "Non- Quoi ?! JE SUIS en fait son fils."
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:39
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:38
 translate french Zv2_MS1_daymeet_label_cafefe8c:
 
     # MC "No- What?! I AM actually his tennant."
     MC "Non- Quoi ?! JE SUIS, je suis son locataire."
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:43
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:42
 translate french Zv2_MS1_daymeet_label_578f2027:
 
     # Zuri "Really?"
     Zuri "Vraiment ?"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:44
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:43
 translate french Zv2_MS1_daymeet_label_3d2bc4b3:
 
     # MC "Yes!"
     MC "Oui !"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:45
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:44
 translate french Zv2_MS1_daymeet_label_3488a648:
 
     # Zuri "Oh! Sorry! My bad!"
-    Zuri "Oh ! Désolée ! C'est ma faute !"
+    Zuri "Oh ! Désolée !"
 
-# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:46
+# game/scripts/Bob_work/Rception/D/scenes/Zv2_MS1_daymeet.rpy:45
 translate french Zv2_MS1_daymeet_label_a34806e7:
 
     # Zuri "I'm sorry but he's not in the office at the moment. He's only there in the mornings. Please come back tomorrow."

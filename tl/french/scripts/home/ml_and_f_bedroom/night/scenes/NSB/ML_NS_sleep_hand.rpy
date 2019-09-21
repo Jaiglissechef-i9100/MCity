@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/ml_and_f_bedroom/night/scenes/NSB/ML_NS_sleep_hand.rpy:21
 translate french ML_NS_sleep_hand_label_ffbfdcb3:

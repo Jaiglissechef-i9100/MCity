@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:35
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_6442be0a:
@@ -154,7 +154,7 @@ translate french ml_ml_and_f_bedroom_night_scene_v1_label_ac3e98d4:
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_b5001179:
 
     # Mom "(Yawn!)"
-    Mom "(*Bâille* !)"
+    Mom "(Bâille !)"
 
 # game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:87
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_f616bad9:
@@ -174,97 +174,97 @@ translate french ml_ml_and_f_bedroom_night_scene_v1_label_894f1c69:
     # MC "(Anyway, I better sneak away now, before I get caught!)"
     MC "(Quoi qu'il en soit, je ferais mieux de m'éclipser maintenant, avant de me faire prendre !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:102
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:103
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_0cad8849:
 
     # MC "(I wonder if Mom’s gonna be reading again.)"
     MC "(Je me demande si Maman va encore lire.)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:104
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:105
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_ce913223:
 
     # MC "(I wonder if Linda’s gonna be reading again.)"
     MC "(Je me demande si Linda va encore lire.)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:105
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:106
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_51f2ff6d:
 
     # MC "(At the very least, I’ll get a good peek at her tits!)"
     MC "(Au moins, je jetterai un bon coup d'oeil à ses seins !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:109
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:110
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_b69f304c:
 
     # MC "(Damn! Fuck this door! Someone needs to oil those hinges!)"
     MC "(Merde ! Putain de porte ! Quelqu'un doit huiler ces charnières !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:112
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:113
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_dd2c2de6:
 
     # Dad "Ooooh God! Ooooh yeah! That’s it!"
     Dad "Ooooh Mon Dieu ! Ooooh ouai ! C'est ça !"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:113
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:114
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_d3059485:
 
     # Dad "Take my cock! Ahh!"
     Dad "Prends ma bite ! Ahh !"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:114
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:115
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_ac9d39e3:
 
     # Mom "(Snoooooorrreee)"
-    Mom "(*Ronnnnnnffflle*)"
+    Mom "(Ronnnnnnffflle)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:115
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:116
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_009c1e53:
 
     # MC "(Is she… asleep?)"
     MC "(Est-elle… endormie ?)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:119
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:120
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_f29ea89d:
 
     # MC "(Holy crap! Mom’s ACTUALLY fallen asleep during sex!)"
     MC "(Merde ! Maman s'est endormie PENDANT l'amour !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:121
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:122
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_21180b2b:
 
     # MC "(Holy crap! Linda’s ACTUALLY fallen asleep during sex!)"
     MC "(Merde ! Linda s'est endormie PENDANT l'amour !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:122
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:123
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_2abfded5:
 
     # MC "(And she hasn’t even gotten fully undressed either.)"
     MC "(Et elle ne s'est même pas complètement déshabillée non plus.)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:123
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:124
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_f4180339:
 
     # MC "(Gee… I didn’t know she had such a terrible sex life.)"
     MC "(Mince… Je ne savais pas qu'elle avait une vie sexuelle si horrible.)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:124
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:125
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_2b2a3c7e:
 
     # Dad "Ahh! I’m cumming!"
     Dad "Ahh ! Je suis en train de jouir !"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:126
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:127
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_55a34240:
 
     # MC "(Uh oh! I better leg it out of here before Dad finishes!)"
     MC "(Je ferais mieux de partir d'ici avant que Papa ait fini !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:128
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:129
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_379468e9:
 
     # MC "(Uh oh! I better leg it out of here before Bob finishes!)"
     MC "(Je ferais mieux de partir d'ici avant que Bob ait fini !)"
 
-# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:141
+# game/scripts/home/salon/night/scenes/ml_ml_and_f_bedroom_night_scene_v1.rpy:142
 translate french ml_ml_and_f_bedroom_night_scene_v1_label_2fbbe588:
 
     # MC "It's too risky. I should leave them alone."

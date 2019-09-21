@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom2/day/scenes/Table_day_Classroom_v1_label.rpy:15
 translate french Table_day_Classroom_exams_v1_label_33d5fe4c:
@@ -11,3 +11,9 @@ translate french Table_day_Classroom_books_v1_label_14f78008:
 
     # MC "Just some random books."
     MC "Juste quelques livres sans importance."
+
+translate french strings:
+
+    # scripts\school\classroom2\day\scenes\Table_day_Classroom_v1_label.rpy:45
+    old "Exams"
+    new "Examens"

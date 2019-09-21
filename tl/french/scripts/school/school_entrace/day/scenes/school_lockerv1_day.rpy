@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/school_entrace/day/scenes/school_lockerv1_day.rpy:20
 translate french empty_envelope_pen_day_usev1_label_d9e82080:
@@ -17,3 +17,9 @@ translate french empty_envelope_pen_day_usev1_label_c016af63:
 
     # MC "That's my pens."
     MC "Ce sont mes stylos."
+
+translate french strings:
+
+    # scripts\school\school_entrace\day\scenes\school_lockerv1_day.rpy:74
+    old "Pens"
+    new "Stylos"

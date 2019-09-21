@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:21
 translate french sister_nerdy_scene4_v11_8f14b359:
@@ -138,19 +138,19 @@ translate french sister_nerdy_scene4_v11_8b716537:
     # MC "(She’ll need to be quieter than that, if she doesn’t want Linda to hear her!)"
     MC "(Elle aura besoin d'être plus silencieuse que ça, si elle ne veut pas que Linda l'entende !)"
 
-# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:121
+# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:119
 translate french sister_nerdy_scene4_v1_l_door_locked_8f14b359:
 
     # MC "I already know who's there."
     MC "Je sais déjà qui est là."
 
-# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:124
+# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:122
 translate french sister_nerdy_scene4_v1_l_door_locked_20b11cc3:
 
     # MC "It’s locked! I wonder who is there…?"
     MC "C'est fermé à clé ! Je me demande qui est là… ?"
 
-# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:125
+# game/scripts/home/kitchen/morning/scenes/sara_scene4_v1.rpy:123
 translate french sister_nerdy_scene4_v1_l_door_locked_b6fb1a40:
 
     # MC "If I only had some spy camera I could use it to see through the door!"

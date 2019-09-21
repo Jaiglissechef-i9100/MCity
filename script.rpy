@@ -128,7 +128,7 @@ default Celia_max = 5
 default Caroline_points = 1
 default Caroline_max = 5
 default ml_points = 1
-default ml_max = 5
+default ml_max = 7
 
 define config.layers = [ 'master', 'transient', 'screens', 'overlay' ]
 define Lily = Character("Lily", color="#FF99CC")
@@ -523,7 +523,7 @@ init python:
     style.choice_button1_button_text.color = "#333333"
     style.choice_button1_button_text.xalign = 0.5
     style.choice_button1_button_text.size = 25
-    Mom1_name = "Mom"
+    Mom1_name = __("Mom")
 
 label start:
     python:
@@ -550,8 +550,8 @@ label begin3:
 
 label day_time_changer:
     if renpy.loadable("patch.rpy"):
-        $ Mom_name = "Mom"
-        $ Dad_name = "Dad"
+        $ Mom_name = __("Mom")
+        $ Dad_name = __("Dad")
     if not renpy.loadable("patch.rpy"):
         $ Mom_name = "Linda"
         $ Dad_name = "Bob"
@@ -1229,7 +1229,6 @@ label day_time_changer:
                 $ LiR1_MAS2 = False
                 $ LiR1_MAS8 = True
             $ can2_LiR1_NS = True
-
 
             $ CR3_MS2_can3 = True
             if CR3_MS2_can == True and CR3_deal_aff == True:

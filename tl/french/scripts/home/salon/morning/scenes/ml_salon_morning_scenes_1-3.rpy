@@ -1,282 +1,282 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:49
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:48
 translate french ml_morning_salon_scenes1to3_v1_label_5996bfc6:
 
     # MC "I should go wash the dishes."
     MC "Je devrais aller faire la vaisselle."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:54
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:53
 translate french ml_morning_salon_scenes1to3_v1_label_08728b1a:
 
     # MC "I've already talked to her."
     MC "Je lui ai déjà parlé."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:61
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:60
 translate french ml_morning_salon_scenes1to3_v1_label_b43447e8:
 
     # Television "...are in a high speed pursuit with three masked men."
     Television "...sont en poursuite à grande vitesse après trois hommes masqués."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:62
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:61
 translate french ml_morning_salon_scenes1to3_v1_label_4b36e152:
 
     # Television "The vehicle was stolen from a local bank parking lot."
     Television "Le véhicule a été volé sur le parking d'une banque locale."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:65
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:64
 translate french ml_morning_salon_scenes1to3_v1_label_44769379:
 
     # MC "(Looks like Mom’s watching the morning news.)"
     MC "(On dirait que Maman regarde les infos du matin.)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:67
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:66
 translate french ml_morning_salon_scenes1to3_v1_label_3f82340c:
 
     # MC "Morning, Mom!"
     MC "Bonjour, Maman !"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:69
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:68
 translate french ml_morning_salon_scenes1to3_v1_label_0877c9d6:
 
     # MC "(Looks like Linda’s watching the morning news.)"
     MC "(On dirait que Linda regarde les infos du matin.)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:72
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:71
 translate french ml_morning_salon_scenes1to3_v1_label_35e122b6:
 
     # MC "Morning, Linda!"
     MC "Bonjour, Linda !"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:73
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:72
 translate french ml_morning_salon_scenes1to3_v1_label_411ebead:
 
     # Mom "Good morning, [player_name]. Where are you off to?"
     Mom "Bonjour, [player_name]. Où vas-tu comme ça ?"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:74
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:73
 translate french ml_morning_salon_scenes1to3_v1_label_53d0f962:
 
     # MC "It’s a school day, remember?"
-    MC "C'est un jour d'école, tu te souviens ?"
+    MC "C'est un jour où y a école, tu te souviens ?"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:75
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:74
 translate french ml_morning_salon_scenes1to3_v1_label_b81b520b:
 
     # Mom "Oh! Right."
     Mom "Oh ! C'est vrai."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:76
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:75
 translate french ml_morning_salon_scenes1to3_v1_label_55c1c17b:
 
     # Mom "You’ve still got some time. Come and sit beside me for a while."
     Mom "Tu as encore du temps. Viens t'asseoir à côté de moi un moment."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:77
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:76
 translate french ml_morning_salon_scenes1to3_v1_label_4be45c59:
 
     # MC "Uh, okay."
     MC "Euh, ok."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:80
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:79
 translate french ml_morning_salon_scenes1to3_v1_label_a88c46c3:
 
     # MC "I’ve only got a few minutes - I can’t stay too long, or I’ll-"
     MC "Je n'ai que quelques minutes - je ne peux pas rester trop longtemps."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:81
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:80
 translate french ml_morning_salon_scenes1to3_v1_label_aab722c4:
 
     # Mom "I know - you’ll be late for class."
     Mom "Je sais - tu vas être en retard en cours."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:82
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:81
 translate french ml_morning_salon_scenes1to3_v1_label_f08c44f1:
 
     # Mom "I’m going to teach you a very important lesson right now. One that you should have learnt YEARS ago."
-    Mom "Je vais te donner une leçon très importante. Tu aurai dû l'apprendre il y a des années."
+    Mom "Je vais te donner une leçon très importante. Tu aurai dû l'apprendre il y a des ANNÉES."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:84
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:83
 translate french ml_morning_salon_scenes1to3_v1_label_348332f2:
 
     # Mom "Never let your work get in the way of, quality family time."
     Mom "Ne laisse jamais ton travail t'empêcher de passer du temps en famille."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:86
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:85
 translate french ml_morning_salon_scenes1to3_v1_label_049c087f:
 
     # Mom "Never let your work get in the way of, quality friendships."
     Mom "Ne laisse jamais ton travail t'empêcher d'avoir de bonnes relations d'amitié."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:90
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:89
 translate french ml_morning_salon_scenes1to3_v1_label_fd3cf093:
 
     # Mom "Even if that means, just a few minutes in front of the TV with your son, before he goes to school."
     Mom "Même si cela signifie, juste quelques minutes devant la télé avec mon fils, avant qu'il aille à l'école."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:92
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:91
 translate french ml_morning_salon_scenes1to3_v1_label_1fccbf30:
 
     # Mom "Even if that means, just a few minutes in front of the TV with me, before you go to school."
     Mom "Même si cela signifie, juste quelques minutes devant la télé avec moi, avant que tu ailles à l'école."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:93
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:92
 translate french ml_morning_salon_scenes1to3_v1_label_8ef9e400:
 
     # MC "Uh… Okay. I’ll remember that."
     MC "Euh… ok. Je m'en souviendrai."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:94
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:93
 translate french ml_morning_salon_scenes1to3_v1_label_02c76c1a:
 
     # Mom "Please do. Your own children will thank you for it someday."
     Mom "S'il te plaît, fais-le. Tes propres enfants t'en remercieront un jour."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:98
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:97
 translate french ml_morning_salon_scenes1to3_v1_label_b3a5e795:
 
     # MC "(Holy shit! Mom’s not wearing a bra!)"
     MC "(Putain de merde ! Maman ne porte pas de soutien-gorge !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:100
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:99
 translate french ml_morning_salon_scenes1to3_v1_label_b875055d:
 
     # MC "(Holy shit! Linda’s not wearing a bra!)"
     MC "(Putain de merde ! Linda ne porte pas de soutien-gorge !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:101
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:100
 translate french ml_morning_salon_scenes1to3_v1_label_53082c17:
 
     # MC "(Why isn’t she wearing one?!)"
     MC "(Pourquoi n'en porte-t-elle pas ?!)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:102
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:101
 translate french ml_morning_salon_scenes1to3_v1_label_e832bb1b:
 
     # MC "(She’s leaning so close that I can almost feel her left nipple!)"
     MC "(Elle se penche si près que je peux presque sentir son mamelon gauche !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:103
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:102
 translate french ml_morning_salon_scenes1to3_v1_label_e07ee20a:
 
     # Mom "...and I’ll never make that mistake again."
     Mom "...et je ne referai plus jamais cette erreur."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:106
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:105
 translate french ml_morning_salon_scenes1to3_v1_label_08ec63cc:
 
     # Mom "Are you listening, [player_name]?"
     Mom "Tu m'écoutes, [player_name] ?"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:107
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:106
 translate french ml_morning_salon_scenes1to3_v1_label_3751b1e2:
 
     # MC "Huh?! Oh! Y-Yeah!"
     MC "Hein ?! Oh ! Ou-Ouai !"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:108
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:107
 translate french ml_morning_salon_scenes1to3_v1_label_4f7fada2:
 
     # Mom "Here, let me give you a kiss, before you rush off to class."
     Mom "Laisse-moi t'embrasser avant que tu te précipites en cours."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:111
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:110
 translate french ml_morning_salon_scenes1to3_v1_label_ab7ca112:
 
     # MC "(Uh oh… Is she going to-)"
     MC "(Uh oh… Est-ce qu'elle va-)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:112
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:111
 translate french ml_morning_salon_scenes1to3_v1_label_b9370c6d:
 
     # MC "(Oh, it’s just on the cheek. My heart started racing there!)"
     MC "(Oh, c'est juste sur la joue. Mon coeur s'est mis à battre la chamade !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:114
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:113
 translate french ml_morning_salon_scenes1to3_v1_label_195ff4f9:
 
     # MC "(Maybe I am over analyzing things? Perhaps that kiss before, was her being a loving mother?)"
     MC "(Peut-être que j'ai trop analysé les choses ? Peut-être que le baiser de tout à l'heure, était-il d'une mère aimante ?)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:116
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:115
 translate french ml_morning_salon_scenes1to3_v1_label_cbfda419:
 
     # MC "(Maybe I am over analyzing things? Perhaps that kiss before, was her being a loving friend?)"
     MC "(Peut-être que j'ai trop analysé les choses ? Peut-être que le baiser de tout à l'heure, était-il d'une amie aimante ?)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:117
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:116
 translate french ml_morning_salon_scenes1to3_v1_label_f97e6f7f:
 
     # MC "(I’ve got to stop replaying it in my mind.)"
     MC "(Je dois arrêter de le revivre dans ma tête.)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:120
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:119
 translate french ml_morning_salon_scenes1to3_v1_label_6bddd499:
 
     # MC "(Huh?! She’s turning my head! This ISN’T a peck on the cheek!)"
     MC "(Hein ?! Elle tourne ma tête ! Ce n'est pas une bise sur la joue !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:121
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:120
 translate french ml_morning_salon_scenes1to3_v1_label_11281868:
 
     # MC "(What should I do?!)"
     MC "(Que dois-je faire ?!)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:123
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:122
 translate french ml_morning_salon_scenes1to3_v1_label_ed28ebe3:
 
     # MC "(I can’t kiss her back like this - she’s my mother! It’s FAR too intimate!)"
     MC "(Je ne peux pas l'embrasser comme ça - c'est ma mère ! C'est TROP intime !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:125
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:124
 translate french ml_morning_salon_scenes1to3_v1_label_931a2f56:
 
     # MC "(I can’t kiss her back like this - she’s my friend! It’s FAR too intimate!)"
     MC "(Je ne peux pas l'embrasser comme ça - c'est mon amie ! C'est TROP intime !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:127
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:126
 translate french ml_morning_salon_scenes1to3_v1_label_2848f1c6:
 
     # Mom "Mmm…"
     Mom "Mmm…"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:128
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:127
 translate french ml_morning_salon_scenes1to3_v1_label_1943d626:
 
     # MC "(She’s biting my lower lip!)"
     MC "(Elle me mord la lèvre inférieure !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:129
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:128
 translate french ml_morning_salon_scenes1to3_v1_label_183b850d:
 
     # MC "(That’s it - any chances of this just being a regular kiss are out the window.)"
     MC "(C'est ça - toutes les chances que ce ne soit qu'un simple baiser sont perdues.)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:132
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:131
 translate french ml_morning_salon_scenes1to3_v1_label_bac03fc8:
 
     # Mom "(Oh fuck! I almost did it again!)"
     Mom "(Oh merde ! J'ai faillie recommencer !)"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:133
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:132
 translate french ml_morning_salon_scenes1to3_v1_label_4d143afb:
 
     # Mom "I- um… I have to rush to work now. See you tonight!"
     Mom "Je- um… Je dois me dépêcher d'aller travailler. On se voit ce soir !"
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:135
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:134
 translate french ml_morning_salon_scenes1to3_v1_label_722592bf:
 
     # MC "Uh… S-See you later, Mom…"
     MC "Euh… O-On se voit plus tard, Maman..."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:137
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:136
 translate french ml_morning_salon_scenes1to3_v1_label_8a83d5d3:
 
     # MC "Uh… S-See you later, Linda…"
     MC "Euh… O-On se voit plus tard, Linda..."
 
-# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:138
+# game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:137
 translate french ml_morning_salon_scenes1to3_v1_label_bba7cab1:
 
     # Mom "(Maybe I got lucky, and I broke off the kiss off before he got suspicious?)"
@@ -286,7 +286,7 @@ translate french ml_morning_salon_scenes1to3_v1_label_bba7cab1:
 translate french ml_morning_salon_scenes1to3_v1_label_eb740dfa:
 
     # Mom "Morning, [player_name]."
-    Mom "Bonjour, [player_name]. ."
+    Mom "Bonjour, [player_name]."
 
 # game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:150
 translate french ml_morning_salon_scenes1to3_v1_label_8a7dc386:
@@ -1303,4 +1303,3 @@ translate french strings:
     # scripts\home\salon\morning\scenes\ml_salon_morning_scenes_1-3.rpy:198
     old "No, I’d rather be single for a while."
     new "Non, je préfère être célibataire un moment."
-

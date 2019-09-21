@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-01-13 06:09
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/doors_closed.rpy:8
 translate french sis_nerdy_door_locked_e32dadb6:

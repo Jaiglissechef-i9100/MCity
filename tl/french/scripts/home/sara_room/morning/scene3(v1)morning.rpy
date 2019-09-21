@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:25
 translate french scene3_v1drawer_aa25adcd:
@@ -124,7 +124,7 @@ translate french sis_nerdy_scene3_1_v1_7be6f05c:
 translate french sis_nerdy_scene3_1_v1_ec2b2428:
 
     # MC "(Haha! Nailed it! Now she thinks I was just putting away the laundry!)"
-    MC "(Elle croit que je rangeais juste le linge.)"
+    MC "(Haha ! Elle croit que je rangeais juste le linge.)"
 
 # game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:76
 translate french sis_nerdy_scene3_1_v1_171a8a42:
@@ -162,121 +162,121 @@ translate french sis_nerdy_scene3_1_v1_7b0be7cc:
     # Sara "(I wonder if I could surprise him with them.)"
     Sara "(Je me demande si je pourrais le surprendre avec elle.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:89
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:88
 translate french sis_nerdy_scene3_1_v1_8810bc97:
 
     # MC "(I just have to tell her that I came into her room and found her panties lying on the floor.)"
     MC "(Je dois juste lui dire que je suis venu dans sa chambre et que j'ai trouvé sa culotte sur le sol.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:90
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:89
 translate french sis_nerdy_scene3_1_v1_175b8a87:
 
     # MC "(You can do this, [player_name]. Practice in your head, then turn around, and confidently explain what happened.)"
     MC "(Tu peux le faire, [player_name]. Entraîne-toi dans ta tête, puis retourne-toi et explique avec assurance ce qui s'est passé.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:91
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:90
 translate french sis_nerdy_scene3_1_v1_8ee8cac0:
 
     # MC "(Sara, I came into your room, saw your panties laying on the floor, and picked them up.)"
     MC "(Sara, je suis entré dans ta chambre, j'ai vu ta culotte sur le sol et je les ramassée.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:92
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:91
 translate french sis_nerdy_scene3_1_v1_b6484a1c:
 
     # Sara "[player_name]?"
     Sara "[player_name] ?"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:93
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:92
 translate french sis_nerdy_scene3_1_v1_203cbb5f:
 
     # MC "(Sara, I came into your room, saw your panties laying on the floor.)"
     MC "(Sara, je suis entré dans ta chambre, j'ai vu ta culotte par terre.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:94
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:93
 translate french sis_nerdy_scene3_1_v1_ae7609a7:
 
     # Sara "[player_name]! What the heck are you doing?!"
     Sara "[player_name] ! Qu'est-ce que tu fous ?!"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:95
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:94
 translate french sis_nerdy_scene3_1_v1_e789097e:
 
     # MC "(Sara, I came into your room, saw your panties laying on the-)"
     MC "(Sara, je suis venu dans ta chambre, j'ai vu ta culotte sur le-)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:96
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:95
 translate french sis_nerdy_scene3_1_v1_269680d0:
 
     # Sara "[player_name]! Answer me!"
     Sara "[player_name] ! Réponds-moi !"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:99
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:98
 translate french sis_nerdy_scene3_1_v1_1ecdb2a3:
 
     # MC "S-Sara, I lay in your room and came in your panties!"
     MC "S-Sara, je me suis allongé dans ta chambre et je suis venu dans ta culotte !"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:100
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:99
 translate french sis_nerdy_scene3_1_v1_aa1722d2:
 
     # Sara "WHAT?!"
     Sara "QUOI ?!"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:101
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:100
 translate french sis_nerdy_scene3_1_v1_3fa2d3eb:
 
     # MC "N-No! I came in your panties - I mean, I came on your floor!"
     MC "N-Non ! Je suis venu dans ta culotte - Je veux dire, je suis venu à ton étage !"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:102
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:101
 translate french sis_nerdy_scene3_1_v1_0ae11476:
 
     # Sara "Wh-What?! Eww!"
     Sara "Qu-Quoi ?! Eww !"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:103
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:102
 translate french sis_nerdy_scene3_1_v1_d4fd9591:
 
     # MC "(Oh fuck! I’m screwing this up! I need to take a deep breath and start again.)"
-    MC "(Oh merde ! Je fous tout en l'air ! J'ai besoin de prendre une grande respiration et de recommencer.)"
+    MC "(Oh merde ! Je fous tout en l'air ! J'ai besoin de prendre une grande respiration et recommencer.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:104
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:103
 translate french sis_nerdy_scene3_1_v1_6f67a962:
 
     # MC "I came into your… room. I saw your panties lying on the floor. Then I picked them up to put back in the drawer."
     MC "Je suis venu dans ta… chambre. J'ai vu ta culotte par terre. Puis je les ramassé pour la remettre dans le tiroir."
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:105
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:104
 translate french sis_nerdy_scene3_1_v1_109ea359:
 
     # MC "Here, take them back!"
     MC "Tiens, reprends-la !"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:108
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:107
 translate french sis_nerdy_scene3_1_v1_a4813b6b:
 
     # MC "(Jesus Christ! That was almost as bad as my experience with Mrs. Celia!)"
     MC "(Bon sang ! C'était presque aussi mauvais que mon expérience avec Mme Celia !)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:109
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:108
 translate french sis_nerdy_scene3_1_v1_556b5fa3:
 
     # MC "(Why can’t I just socialise with people properly!)"
     MC "(Pourquoi je ne peux pas juste socialiser avec les gens correctement !)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:112
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:111
 translate french sis_nerdy_scene3_1_v1_060a3087:
 
     # Sara "(Hehe! It was REALLY funny seeing [player_name] get flustered like that.)"
     Sara "(Hehe ! C'était VRAIMENT drôle de voir [player_name] s'énerver comme ça.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:113
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:112
 translate french sis_nerdy_scene3_1_v1_7fff3578:
 
     # Sara "(I gotta admit though - the thought of him using my panties and cumming in them is really hot.)"
     Sara "(Je dois admettre - que l'idée qu'il utilise ma culotte et qu'il éjacule dedans est vraiment sexy.)"
 
-# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:114
+# game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:113
 translate french sis_nerdy_scene3_1_v1_641ade1e:
 
     # Sara "(Just the thought alone is getting me all wet.)"

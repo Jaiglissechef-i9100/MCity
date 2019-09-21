@@ -1,42 +1,42 @@
-﻿# TODO: Translation updated at 2019-01-13 06:09
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/pool_minigame.rpy:49
+# game/scripts/pool_minigame.rpy:39
 translate french pool_minigame_not_selected_d90c358b:
 
     # MC "Cleaning stuff has to be selected."
     MC "Les produits de nettoyage doivent être sélectionnés."
 
-# game/scripts/pool_minigame.rpy:51
+# game/scripts/pool_minigame.rpy:41
 translate french pool_minigame_not_selected_5ca6d4a7:
 
     # MC "It's too late for cleaning the pool."
     MC "C'est trop tard pour nettoyer la piscine."
 
-# game/scripts/pool_minigame.rpy:67
+# game/scripts/pool_minigame.rpy:57
 translate french pool_minigame_start0_45794311:
 
     # MC "I should start cleaning the pool tomorrow."
     MC "Je devrais commencer à nettoyer la piscine demain."
 
-# game/scripts/pool_minigame.rpy:76
+# game/scripts/pool_minigame.rpy:66
 translate french pool_minigame_start0_5ca6d4a7:
 
     # MC "It's too late for cleaning the pool."
     MC "C'est trop tard pour nettoyer la piscine."
 
-# game/scripts/pool_minigame.rpy:91
+# game/scripts/pool_minigame.rpy:81
 translate french pool_minigame_start0_d50cb19f:
 
     # MC "That's enough for today. I'm exhausted."
     MC "C'est assez pour aujourd'hui. Je suis épuisé."
 
-# game/scripts/pool_minigame.rpy:144
+# game/scripts/pool_minigame.rpy:133
 translate french pool_minigame_end_62efe744:
 
     # MC "Okay, that's enough for today. I'm exhausted. {color=#00ff00}(+15$){/color}"
     MC "Ok, ça suffit pour aujourd'hui. Je suis épuisé. {color=#00ff00}(+15$){/color}"
 
-# game/scripts/pool_minigame.rpy:150
+# game/scripts/pool_minigame.rpy:139
 translate french pool_minigame_end_d926d814:
 
     # MC "I've finally finished cleaning it. I should go and tell them. {color=#00ff00}(+15$){/color}"

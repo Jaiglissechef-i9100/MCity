@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:22
 translate french celia_school_morning_scene1v1_label_8332369a:
@@ -34,7 +34,7 @@ translate french celia_school_morning_scene1v1_label_e9e2c34f:
 translate french celia_school_morning_scene1v1_label_ca864794:
 
     # Classmates "Ahahahaha!"
-    Classmates "Ahahahahah !"
+    Classmates "Ahahahaha !"
 
 # game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:32
 translate french celia_school_morning_scene1v1_label_3970d803:
@@ -100,7 +100,7 @@ translate french celia_school_morning_scene1v1_label_05f2fc00:
 translate french celia_school_morning_scene1v1_label_0880e9ed:
 
     # Brunette_Girl "Oh, my God! That’s soooo cringeworthy!"
-    Brunette_Girl "Oh, mon Dieu ! C'est vraiment embarassant !"
+    Brunette_Girl "Oh, mon Dieu ! C'est siiii embarassant !"
 
 # game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:61
 translate french celia_school_morning_scene1v1_label_302eba24:
@@ -114,49 +114,49 @@ translate french celia_school_morning_scene1v1_label_11e918d4:
     # MC "(I promise you, I’ll get my revenge on you, bitch!)"
     MC "(Je te promets, je me vengerai de toi, salope !)"
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:77
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:76
 translate french celia_school_morning_scene1v1_label_6d516aa9:
 
     # MC "Hey, Mrs. Celia..."
     MC "Bonjour, Mme Celia..."
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:78
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:77
 translate french celia_school_morning_scene1v1_label_fe6d3740:
 
     # Celia "If you have any questions... just... just ask one of your classmates."
-    Celia "Si tu as des questions... pose-les à l'un de tes camarades de classe."
+    Celia "Si tu as des questions... pose... pose-les à l'un de tes camarades de classe."
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:81
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:80
 translate french celia_school_morning_scene1v1_label_73b358d3:
 
     # MC "Are you sure?"
     MC "T'es sûr de toi ?"
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:82
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:81
 translate french celia_school_morning_scene1v1_label_670b39ca:
 
     # Celia "Yeah. Just... get back to your class."
     Celia "Ouai. Retourne dans ta classe."
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:83
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:82
 translate french celia_school_morning_scene1v1_label_4124c8a5:
 
     # MC "Huh? Okay."
     MC "Hein ? Ok."
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:84
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:83
 translate french celia_school_morning_scene1v1_label_69a58161:
 
     # MC "(She’s acting less aggressive than before!)"
     MC "(Elle agit moins agressive qu'avant !)"
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:85
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:84
 translate french celia_school_morning_scene1v1_label_4eca0137:
 
     # MC "(I guess my blackmail strategy is working very well.)"
     MC "(Je suppose que ma stratégie de chantage fonctionne très bien.)"
 
-# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:99
+# game/scripts/school/classroom2/morning/scenes/celia_school_morning_scene1_1a_v1.rpy:97
 translate french celia_school_morning_scene1v1_label_5cf04798:
 
     # MC "I don’t want to talk to that... bitch."

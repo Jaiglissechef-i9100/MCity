@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS3.rpy:29
 translate french CR3_NS3_label_1f5797fd:
@@ -346,7 +346,7 @@ translate french CR3_NS3_label_cf9e5184:
 translate french CR3_NS3_label_7395b02b:
 
     # Caroline "(And who could possibly benefit from me not having...)"
-    Caroline "(Et qui pourrait bénéficier du fait que je n'ai pas...)"
+    Caroline "(Et qui pourrait bénéficier du fait que je n'ai plus...)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS3.rpy:171
 translate french CR3_NS3_label_551f58fb:

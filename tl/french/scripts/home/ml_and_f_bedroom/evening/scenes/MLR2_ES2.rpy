@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:23
 translate french MLR2_ES2_label_764ce0ef:
@@ -132,79 +132,79 @@ translate french MLR2_ES2_label_5a0a1fec:
     # Mom "Uh huh. Now’s not a great time."
     Mom "Uh huh. Ce n'est pas le bon moment."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:74
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:73
 translate french MLR2_ES2_label_b58f8c8d:
 
     # MC "(Judy? I wonder if it’s the same Judy that’s my therapist.)"
     MC "(Judy ? Je me demande si c'est la même Judy que ma thérapeute.)"
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:75
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:74
 translate french MLR2_ES2_label_9ffdafd0:
 
     # Mom "Yes, of course. The deal is still on."
     Mom "Oui, bien sûr. Le marché est toujours en cours."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:76
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:75
 translate french MLR2_ES2_label_6a781b9b:
 
     # "…."
     "…."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:77
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:76
 translate french MLR2_ES2_label_e45a5597:
 
     # Mom "Sure, we can meet up again for a coffee soon."
     Mom "Bien sûr, on peut se revoir pour un café bientôt."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:81
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:80
 translate french MLR2_ES2_label_881ca091:
 
     # Mom "How about you? Is the book coming along well?"
     Mom "Et toi, comment vas-tu ? Le livre avance bien ?"
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:82
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:81
 translate french MLR2_ES2_label_5f9b772e:
 
     # "...."
     "...."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:83
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:82
 translate french MLR2_ES2_label_e1e975c8:
 
     # Mom "Writer’s block? I’m sorry to hear that."
     Mom "La page blanche ? Je suis désolée d'entendre ça."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:84
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:83
 translate french MLR2_ES2_label_ce617998_1:
 
     # "…"
     "…"
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:88
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:87
 translate french MLR2_ES2_label_0df8c300:
 
     # Mom "Of course. I did promise I would help you."
     Mom "Bien sûr. J'ai promis de t'aider."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:89
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:88
 translate french MLR2_ES2_label_ce29aa64:
 
     # Mom "Don’t you worry, Judy. I’ll give you some ideas, as soon as I can."
     Mom "Ne t'inquiète pas, Judy. Je te donnerai quelques idées, dès que possible."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:90
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:89
 translate french MLR2_ES2_label_5f9b772e_1:
 
     # "...."
     "...."
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:91
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:90
 translate french MLR2_ES2_label_653e5e7a:
 
     # Mom "Chat later!"
     Mom "On discutera plus tard !"
 
-# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:92
+# game/scripts/home/ml_and_f_bedroom/evening/scenes/MLR2_ES2.rpy:91
 translate french MLR2_ES2_label_6080456f:
 
     # MC "(Crap, she’s almost finished. I better go, so she doesn’t think I’ve been eavesdropping on her!)"

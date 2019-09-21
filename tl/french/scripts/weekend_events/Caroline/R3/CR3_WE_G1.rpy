@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE_G1.rpy:21
 translate french CR3_WE_G1_label_28497d09:
@@ -100,7 +100,7 @@ translate french CR3_WE_G1_label_abdecc55:
 translate french CR3_WE_G1_label_32568b39:
 
     # Juliett "Hey - keep your chin up. I didn’t say ‘no’ - just not tonight."
-    Juliett "Hé - gardez la tête haut. Je n'ai pas dit ‘non’, mais pas ce soir."
+    Juliett "Hé - gardez la tête haute. Je n'ai pas dit ‘non’ - mais pas ce soir."
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE_G1.rpy:62
 translate french CR3_WE_G1_label_6c83180d:

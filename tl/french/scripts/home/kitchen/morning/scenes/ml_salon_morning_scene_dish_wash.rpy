@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:17
 translate french ml_salon_morning_scene_dish_wash_label_b1a57606:
@@ -138,25 +138,25 @@ translate french ml_salon_morning_scene_dish_wash_label_7f53a311:
     # Mom "(Shit! I’m getting far too involved in these fantasies again.)"
     Mom "(Merde ! Je m'implique encore trop dans ces fantasmes.)"
 
-# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:61
+# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:60
 translate french ml_salon_morning_scene_dish_wash_label_cef576d6:
 
     # Mom "You better go to school! Hurry up! Get a move on!"
     Mom "Tu ferais mieux d'aller à l'école ! Dépêche-toi ! On se bouge !"
 
-# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:62
+# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:61
 translate french ml_salon_morning_scene_dish_wash_label_3f8ee3a1:
 
     # MC "Yeah, I’ll just dry the plates-"
     MC "Ouai, je vais juste sécher les assiettes."
 
-# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:63
+# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:62
 translate french ml_salon_morning_scene_dish_wash_label_c86e7379:
 
     # Mom "No time! Chop chop!"
     Mom "Pas le temps ! Et que ça saute !"
 
-# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:64
+# game/scripts/home/kitchen/morning/scenes/ml_salon_morning_scene_dish_wash.rpy:63
 translate french ml_salon_morning_scene_dish_wash_label_e956b2c2:
 
     # MC "Okay, I’m going! (Geez, what got into her?)"

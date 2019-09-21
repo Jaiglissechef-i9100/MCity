@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/school_entrace/day/scenes/SR2_AS1.rpy:11
 translate french SR2_AS1_label_451a26f1:
@@ -160,4 +160,4 @@ translate french SR2_AS1_label_3afa826a:
 translate french SR2_AS1_label_e0e14fa9:
 
     # Sara "(Gulp) Thanks, [player_name]."
-    Sara "(*Avale*) Merci, [player_name]."
+    Sara "(Avale) Merci, [player_name]."

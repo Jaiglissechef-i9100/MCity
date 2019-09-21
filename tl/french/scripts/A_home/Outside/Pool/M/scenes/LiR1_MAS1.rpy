@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS1.rpy:23
 translate french LiR1_MAS1_label_38bdb0ba:
@@ -136,7 +136,7 @@ translate french LiR1_MAS1_label_3602d35b:
 translate french LiR1_MAS1_label_a00a9cd1:
 
     # Yazmin "(Damn, this little guy would look so hot, cleaning our pool. No shirt, no pants - just a tight pair of y-fronts. God... Thinking about this, makes me so wet!)"
-    Yazmin "(Merde, ce petit gars aurait l'air si sexy, à nettoyer notre piscine. Pas de chemise, pas de pantalon, juste un boxer serrés. Mon Dieu... Rien que d'y oenser, ça me rend si mouillé !)"
+    Yazmin "(Merde, ce petit gars aurait l'air si sexy, à nettoyer notre piscine. Sans chemise, sans pantalon - juste un boxer serrés. Mon Dieu... Rien que d'y penser, ça me rend si mouillée !)"
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS1.rpy:68
 translate french LiR1_MAS1_label_787c8a3f:
@@ -178,22 +178,23 @@ translate french LiR1_MAS1_label_785de004:
 translate french LiR1_MAS1_label_52265188:
 
     # Yazmin "(I wonder how large his package is - down there... Now that [player_name] will be cleaning our pool, we might have him over more regularly. Perhaps I’ll get a chance to see his cock?)"
-    Yazmin "(Je me demande quelle est la taille de son paquet - en bas...) Maintenant que [player_name] va nettoyer notre piscine, nous pourrions l'inviter plus régulièrement. J'aurai peut-être l'occasion de voir sa bite ?)"
+    Yazmin "(Je me demande quelle est la taille de son paquet - en bas... Maintenant que [player_name] va nettoyer notre piscine, nous pourrions l'inviter plus régulièrement. J'aurai peut-être l'occasion de voir sa bite ?)"
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS1.rpy:84
 translate french LiR1_MAS1_label_bc2d6f58:
 
     # Yazmin "Just pop around the front. I’ll grab your auntie and open the door, after putting something - more appropriate - on."
-    Yazmin "Passe par devant. Je vais cherché ta tante et j'ouvrirai la porte, après avoir mis quelque chose de - plus approprié."
+    Yazmin "Passe par devant. Je vais cherchée ta tatie et j'ouvrirai la porte, après avoir mis quelque chose - de plus approprié."
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS1.rpy:86
 translate french LiR1_MAS1_label_cac742c7:
 
     # Yazmin "Just pop around the front. I’ll grab Liza and open the door, after putting something - more appropriate - on."
-    Yazmin "Passe par devant. Je chercherai Liza et j'ouvrirai la porte, après avoir mis quelque chose de plus approprié."
+    Yazmin "Passe par devant. Je chercherai Liza et j'ouvrirai la porte, après avoir mis quelque chose - de plus approprié."
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS1.rpy:87
 translate french LiR1_MAS1_label_46f3a3c9:
 
     # MC "Cool. I’ll see you in a few minutes!"
     MC "Cool. Je te vois dans quelques minutes !"
+

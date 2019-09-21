@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/cloth_shop/room1/cloth_shop_room1_day.rpy:13
 translate french cloth_shop_label_29b80ed4:

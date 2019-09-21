@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/morning/scenes/CR2_MS2.rpy:11
 translate french CR2_MS2_label_08728b1a:

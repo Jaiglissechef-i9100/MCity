@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_school_morning_scene1bv1_label.rpy:17
 translate french celia_school_morning_scene1bv1_label_52e92182:
@@ -100,7 +100,7 @@ translate french celia_school_morning_scene1bv1_label_0702a081:
 translate french celia_school_morning_scene1bv1_label_510e1f87:
 
     # Celia "Excellent! Please, take this. It’s my address. I want you to come over."
-    Celia "Excellent ! S'il te plaît, prenez ça. C'est mon adresse. Je veux que tu viennes."
+    Celia "Excellent ! S'il te plaît, prend ça. C'est mon adresse. Je veux que tu viennes."
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_school_morning_scene1bv1_label.rpy:42
 translate french celia_school_morning_scene1bv1_label_a917954b:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS3_O1.rpy:28
 translate french CR3_AS3_O1_018a7330:
@@ -154,7 +154,7 @@ translate french CR3_AS3_O1_4d1418b6:
 translate french CR3_AS3_O1_5291e4c6:
 
     # MC "(Whispered) I’m sorry..."
-    MC "<Chuchote> Je suis désolé...."
+    MC "<Chuchotant> Je suis désolé..."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS3_O1.rpy:75
 translate french CR3_AS3_O1_347429bd:
@@ -166,19 +166,19 @@ translate french CR3_AS3_O1_347429bd:
 translate french CR3_AS3_O1_bf07c1cf:
 
     # MC "(Whispered) I said I’m sorry. I know this - deal thing - didn’t work out for you. I kept asking about it and pushing it. I should have just let it go."
-    MC "<Chuchote> J'ai dit que j'étais désolé. Je sais - que ce marché - n'a pas fonctionner pour toi. Je n'arrêtais pas de poser des questions à ce sujet et d'insister. J'aurais dû laisser tomber."
+    MC "<Chuchotant> J'ai dit que j'étais désolé. Je sais - que ce marché - n'a pas fonctionner pour toi. Je n'arrêtais pas de poser des questions à ce sujet et d'insister. J'aurais dû laisser tomber."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS3_O1.rpy:80
 translate french CR3_AS3_O1_288afdb3:
 
     # MC "(Whispered) You’re my sister, and I would never want to hurt you or drive you away. I’m gonna miss what we had - every single day - for the rest of my life, but that would - pale in comparison - to the pain of losing you as a sister."
-    MC "<Chuchote> Tu es ma sœur, et je ne voudrais jamais te blesser ou te chasser. Ce que nous avons vécu - tous les jours - va me manquer pour le reste de ma vie, mais ce serait - pâle en comparaison - la douleur de te perdre en tant que sœur."
+    MC "<Chuchotant> Tu es ma sœur, et je ne voudrais jamais te blesser ou te chasser. Ce que nous avons vécu - tous les jours - va me manquer pour le reste de ma vie, mais ce serait - pâle en comparaison - la douleur de te perdre en tant que sœur."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS3_O1.rpy:82
 translate french CR3_AS3_O1_bbc5b0cf:
 
     # MC "(Whispered) You’re my friend, and I would never want to hurt you or drive you away. I’m gonna miss what we had - every single day - for the rest of my life, but that would - pale in comparison - to the pain of losing you as a friend."
-    MC "<Chuchote> Tu es mon ami, et je ne voudrais jamais te blesser ou te chasser. Ce que nous avons vécu - tous les jours - va me manquer pour le reste de ma vie, mais ce serait - pâle en comparaison - la douleur de te perdre en tant qu'amie."
+    MC "<Chuchotant> Tu es mon amie, et je ne voudrais jamais te blesser ou te chasser. Ce que nous avons vécu - tous les jours - va me manquer pour le reste de ma vie, mais ce serait - pâle en comparaison - la douleur de te perdre en tant qu'amie."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS3_O1.rpy:83
 translate french CR3_AS3_O1_8743b633:

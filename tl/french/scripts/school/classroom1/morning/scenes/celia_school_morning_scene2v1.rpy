@@ -1,10 +1,10 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:25
 translate french celia_school_morning_scene2v1_label_3422556a:
 
     # Celia "Quiet, class! We’re continuing with advanced calculus today. Please open your textbooks to page 276."
-    Celia "Silence, la classe ! Nous continuons le calcul avancé aujourd'hui. Veuillez ouvrir vos manuels à la page 276."
+    Celia "Silence, tout le monde ! Nous continuons le calcul avancé aujourd'hui. Veuillez ouvrir vos manuels à la page 276."
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:26
 translate french celia_school_morning_scene2v1_label_07d4b189:
@@ -16,7 +16,7 @@ translate french celia_school_morning_scene2v1_label_07d4b189:
 translate french celia_school_morning_scene2v1_label_fe004f5a:
 
     # Celia "(It was bad enough that he forbade me from wearing panties!)"
-    Celia "(C'était déjà assez dur qu'il m'ait interdit de porter des culottes !)"
+    Celia "(C'était déjà assez dur qu'il m'ait interdit de porter une culotte !)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:30
 translate french celia_school_morning_scene2v1_label_94af9d83:
@@ -40,7 +40,7 @@ translate french celia_school_morning_scene2v1_label_9ef5954a:
 translate french celia_school_morning_scene2v1_label_3dc4dc31:
 
     # MC "(Yawn!)"
-    MC "(*Bâille !*)"
+    MC "(Bâille !)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:36
 translate french celia_school_morning_scene2v1_label_f15bd146:
@@ -76,7 +76,7 @@ translate french celia_school_morning_scene2v1_label_16ed2d4b:
 translate french celia_school_morning_scene2v1_label_93d5b260:
 
     # Celia "(Oh God… it’s starting…)"
-    Celia "(Oh mon Dieu… ça commence...)"
+    Celia "(Oh mon Dieu… ça commence…)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:51
 translate french celia_school_morning_scene2v1_label_b6b518b1:
@@ -130,13 +130,13 @@ translate french celia_school_morning_scene2v1_label_beeeb9fa:
 translate french celia_school_morning_scene2v1_label_8e72209d:
 
     # Celia "(Holy… shit…)"
-    Celia "(Putain… merde…)"
+    Celia "(Putain… de… merde…)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:80
 translate french celia_school_morning_scene2v1_label_b9356127:
 
     # Celia "(Pant! Gasp!)"
-    Celia "(*Souffle !* *Halète !*)"
+    Celia "(Halète ! Avale !)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:81
 translate french celia_school_morning_scene2v1_label_59288e5e:
@@ -148,7 +148,7 @@ translate french celia_school_morning_scene2v1_label_59288e5e:
 translate french celia_school_morning_scene2v1_label_5961c88c:
 
     # Celia "(Whispered) Oh, my God…"
-    Celia "<Chuchote> Oh, mon Dieu…"
+    Celia "<Chuchotant> Oh, mon Dieu…"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:90
 translate french celia_school_morning_scene2v1_label_1bd5bafc:
@@ -172,7 +172,7 @@ translate french celia_school_morning_scene2v1_label_f827f725:
 translate french celia_school_morning_scene2v1_label_1b2cbf9a:
 
     # Celia "Noooh! I-I’m fine. J-Just fooohhhcus on your work."
-    Celia "Noooh ! J-Je vais bien. J-Juste connnhhhcentrez-vous sur votre travail."
+    Celia "Noooh ! J-Je vais bien. J-Juste connncentrez-vous sur vohhhtre travail."
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:94
 translate french celia_school_morning_scene2v1_label_7ebcf3bc:
@@ -184,7 +184,7 @@ translate french celia_school_morning_scene2v1_label_7ebcf3bc:
 translate french celia_school_morning_scene2v1_label_f9b04c91:
 
     # MC "(Time for the grand finale!)"
-    MC "(C'est l'heure de la grande finale !)"
+    MC "(C'est l'heure du grand final !)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:98
 translate french celia_school_morning_scene2v1_label_ea53de2a:
@@ -232,7 +232,7 @@ translate french celia_school_morning_scene2v1_label_dc17c881:
 translate french celia_school_morning_scene2v1_label_5cca3efa:
 
     # Celia "(Pant… Gasp…)"
-    Celia "(*Souffle…* *Halète…*)"
+    Celia "(Souffle… Halète…)"
 
 # game/scripts/school/classroom1/morning/scenes/celia_school_morning_scene2v1.rpy:121
 translate french celia_school_morning_scene2v1_label_ccbfe593:

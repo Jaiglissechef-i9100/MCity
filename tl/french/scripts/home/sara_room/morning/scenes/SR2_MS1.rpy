@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS1.rpy:21
 translate french SR2_MS1_label_1f31f55f:
@@ -118,7 +118,7 @@ translate french SR2_MS1_label_562beff2:
 translate french SR2_MS1_label_30d7d108:
 
     # Sara "(Sigh) You’re right."
-    Sara "(*Soupir*) Tu as raison."
+    Sara "(Soupir) Tu as raison."
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS1.rpy:59
 translate french SR2_MS1_label_a5d2fc1d:
@@ -130,7 +130,7 @@ translate french SR2_MS1_label_a5d2fc1d:
 translate french SR2_MS1_label_448d25c5:
 
     # Sara "Okay… (YAWN!) See you there, [player_name]."
-    Sara "Ok.... (*BAILLE !*) On se voit là-bas, [player_name]."
+    Sara "Ok.... (BAILLE !) On se voit là-bas, [player_name]."
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS1.rpy:64
 translate french SR2_MS1_label_1708a83e:
@@ -184,13 +184,13 @@ translate french SR2_MS1_label_ed208059:
 translate french SR2_MS1_label_144511c8:
 
     # Sara "(Yawn!) Y-Yeah, Mom! I’m almost ready…"
-    Sara "(*Baille!*) Ou-Ouai, Maman ! Je suis presque prête…"
+    Sara "(Baille !) Ou-Ouai, Maman ! Je suis presque prête…"
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS1.rpy:82
 translate french SR2_MS1_label_cf8b8986:
 
     # Sara "(Yawn!) Y-Yeah, Linda! I’m almost ready…"
-    Sara "(*Baille!*) Ou-Ouai, Linda ! Je suis presque prête…"
+    Sara "(Baille !) Ou-Ouai, Linda ! Je suis presque prête…"
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS1.rpy:83
 translate french SR2_MS1_label_c21b8af8:
@@ -208,4 +208,4 @@ translate french SR2_MS1_label_d9a46118:
 translate french SR2_MS1_label_950f1abd:
 
     # MC "(I hope these all-nighters she’s pulling, don’t impact her grades too much…)"
-    MC "(J'espère que ces nuits blanches qu'elle passe, n'ont pas trop d'impact sur ses notese…)"
+    MC "(J'espère que ces nuits blanches qu'elle passe, n'ont pas trop d'impact sur ses notes…)"

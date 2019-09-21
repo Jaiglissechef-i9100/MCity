@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom2/morning/scenes/Table_morning_Classroom_v1.rpy:9
 translate french Table_morning_Classroom_v1_label_cc075195:

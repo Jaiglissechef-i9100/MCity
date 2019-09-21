@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_kiss_v1.rpy:7
 translate french celia_toilet_kiss_v1_62613eaf:
@@ -16,7 +16,7 @@ translate french celia_toilet_kiss_v1_7439b6ce:
 translate french celia_toilet_kiss_v1_a1ffbc56:
 
     # Celia "(Sigh...)"
-    Celia "(*soupir...*)"
+    Celia "(soupir...)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_kiss_v1.rpy:12
 translate french celia_toilet_kiss_v1_c3671491:
@@ -166,7 +166,7 @@ translate french celia_toilet_kiss_v1_4bfe4b46:
 translate french celia_toilet_kiss_v1_02951fce:
 
     # Celia "(Gah! This little pervert is lifting my skirt. But if I try to stop him, I might cause that blackmailing bastard to release the picture.)"
-    Celia "(Gah ! Ce petit pervers soulève ma jupe. Mais si j'essaie de l'arrêter, je risquerai ce salaud maître-chanteur libère la photo.)"
+    Celia "(Gah ! Ce petit pervers soulève ma jupe. Mais si j'essaie de l'arrêter, je risquerai ce salaud maître-chanteur publie la photo.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_kiss_v1.rpy:53
 translate french celia_toilet_kiss_v1_b2f2893c:

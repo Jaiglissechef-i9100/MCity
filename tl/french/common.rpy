@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 translate french strings:
 
@@ -260,7 +260,7 @@ translate french strings:
 
     # 00director.rpy:1636
     old "Cancel"
-    new "Cancel"
+    new "Annuler"
 
     # 00director.rpy:1639
     old "Remove"
@@ -724,7 +724,7 @@ translate french strings:
 
     # _layout\classic_load_save.rpym:179
     old "q"
-    new "q"
+    new "r"
 
     # 00iap.rpy:217
     old "Contacting App Store\nPlease Wait..."
@@ -978,10 +978,6 @@ translate french strings:
     old "Back (B)"
     new "Back (B)"
 
-    # _errorhandling.rpym:531
-    old "Open"
-    new "Open"
-
     # _errorhandling.rpym:533
     old "Opens the traceback.txt file in a text editor."
     new "Opens the traceback.txt file in a text editor."
@@ -1048,4 +1044,31 @@ translate french strings:
 
     # _errorhandling.rpym:670
     old "Copies the errors.txt file to the clipboard."
-    new "Copies the errors.txt file to the clipboard."
+    new "Copies the errors.txt file to the clipboard."# TODO: Translation updated at 2019-08-16 07:26
+
+translate french strings:
+
+    # _errorhandling.rpym:540
+    old "Copy BBCode"
+    new "Copy BBCode"
+
+    # _errorhandling.rpym:542
+    old "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+    new "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+
+    # _errorhandling.rpym:544
+    old "Copy Markdown"
+    new "Copy Markdown"
+
+    # _errorhandling.rpym:546
+    old "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+    new "Copies the traceback.txt file to the clipboard as Markdown for Discord."
+
+    # _errorhandling.rpym:681
+    old "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+    new "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/."
+
+    # _errorhandling.rpym:685
+    old "Copies the errors.txt file to the clipboard as Markdown for Discord."
+    new "Copies the errors.txt file to the clipboard as Markdown for Discord."
+

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:6
 translate french celia_morning_laptopv1_label_722e2c67:
@@ -22,7 +22,7 @@ translate french celia_morning_laptopv1_label_308eb198:
 translate french celia_morning_password_correct_v1_1d95c49f:
 
     # MC "(Let’s see… grades? Emails? Course content guides?)"
-    MC "(Voyons…  les notes ? les courriels ? les guides du contenu des cours ?)"
+    MC "(Voyons… les notes ? les courriels ? les guides du contenu des cours ?)"
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:23
 translate french celia_morning_password_correct_v1_72e4cd9a:
@@ -46,19 +46,19 @@ translate french celia_morning_password_correct_v1_9c6f3a54:
 translate french celia_morning_password_correct_v1_07eeb610:
 
     # MC "(Wait… Hold up! This isn’t a grades recording folder!)"
-    MC "(Attendez… Attendez ! Ce n'est pas un dossier d'enregistrement de notes !)"
+    MC "(Attend un peu… Ce n'est pas un dossier d'enregistrement de notes !)"
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:29
 translate french celia_morning_password_correct_v1_2b87fce9:
 
     # MC "(Maddox $2000? England $4400?)"
-    MC "(Maddox $2000? Angleterre $4400?)"
+    MC "(Maddox $2000 ? Angleterre $4400 ?)"
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:30
 translate french celia_morning_password_correct_v1_763df95f:
 
     # MC "(No way! Is Mrs. Celia SELLING grades?!)"
-    MC "(Pas question ! Est-ce que Mme Celia VENDE des notes ?!!)"
+    MC "(Pas question ! Est-ce que Mme Celia VEND des notes ?!!)"
 
 # game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:33
 translate french celia_morning_password_correct_v1_53a6153d:
@@ -78,14 +78,14 @@ translate french celia_morning_password_correct_v1_5c9fb9f1:
     # MC "(I better take a photo quickly.)"
     MC "(Je ferais mieux de prendre une photo rapidement.)"
 
-# game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:40
+# game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:39
 translate french celia_morning_password_correct_v1_5566ecd9:
 
     # MC "(And… there we go. I’ll need to come up with a solid plan, but at least I have all the evidence I’ll ever need.)"
     MC "(Et… nous y voilà. J'aurai besoin d'un plan solide, mais au moins j'ai toutes les preuves dont j'avais besoin.)"
 
-# game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:43
+# game/scripts/school/teacher_room1/morning/scenes/celia_morning_laptop.rpy:42
 translate french celia_morning_password_correct_v1_172719b9:
 
     # MC "(Watch out, Mrs. Celia, because I’m coming for you!)"
-    MC "(Attention, Mme Celia, parce que je vais venir à toi !)"
+    MC "(Attention, Mme Celia, parce que je vais venir a toi !)"

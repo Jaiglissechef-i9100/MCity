@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/Bob_work/Office/M/bob_safe.rpy:40
+# game/scripts/Bob_work/Office/M/bob_safe.rpy:39
 translate french bob_safeopen_label_cabb541c:
 
     # MC "The safe is locked. I need a code."
@@ -12,14 +12,14 @@ translate french bob_safeopen_label_843dc291:
     # MC "Ah! Good! The code works. It’s now open."
     MC "Ah ! Cool ! Le code fonctionne. C'est maintenant ouvert."
 
-# game/scripts/Bob_work/Office/M/bob_safe.rpy:96
+# game/scripts/Bob_work/Office/M/bob_safe.rpy:95
 translate french bob_safeopenmoney_label_d8293799:
 
     # MC "Nice! +[money]$"
     MC "Cool ! +[money]$"
 
-# game/scripts/Bob_work/Office/M/bob_safe.rpy:106
+# game/scripts/Bob_work/Office/M/bob_safe.rpy:103
 translate french bob_safeopennote_label_2ef841bc:
 
-    # MC "Hmm.. .Some notes.. There’s is also a second company name! Nice."
+    # MC "Hmm.. Some notes.. There’s is also a second company name! Nice."
     MC "Hmm.. Quelques notes.. Il y a aussi un deuxième nom d'entreprise ! Cool."

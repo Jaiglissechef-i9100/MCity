@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/weekend_events/Sara/R2/SR2_Lemonade.rpy:14
 translate french SR2_Lemonade_label_258fa26c:
@@ -172,7 +172,7 @@ translate french lemonade_menu_8abe9292:
 translate french lemonade_menu_f54a78f0:
 
     # MC "You’re sweet, kind, and very very caring. I wouldn’t change you for the world."
-    MC "Tu es charmant, gentil et très attentionnée. Je ne te changerais pas pour totu l'or du monde."
+    MC "Tu es charmant, gentil et très attentionnée. Je ne te changerais pas pour tout l'or du monde."
 
 # game/scripts/weekend_events/Sara/R2/SR2_Lemonade.rpy:88
 translate french lemonade_menu_57896ac5:
@@ -214,7 +214,7 @@ translate french lemonade_menu_9a8c4029:
 translate french lemonade_menu_b7ecc4ca:
 
     # MC "Other guys LOVE small tits though; and yours are fucking adorable."
-    MC "D'autres mecs ADIRENT les petits seins; et les tiens sont adorables."
+    MC "D'autres mecs ADORENT les petits seins; et les tiens sont adorables."
 
 # game/scripts/weekend_events/Sara/R2/SR2_Lemonade.rpy:107
 translate french lemonade_menu_021c0ac5:

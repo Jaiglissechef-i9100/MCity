@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿#TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:23
 translate french CR3_MS2_label_a64ce99b:
@@ -162,37 +162,37 @@ translate french CR3_MS2_label_81a8f0b0:
     # Caroline "-I know exactly what it was. There’s no need to rehash it. Can’t we just bury this, and move on?"
     Caroline "-Je sais exactement ce que c'était. Il n'y a pas besoin de le rabâcher. On ne peut pas enterrer ça et passer à autre chose ?"
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:75
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:74
 translate french CR3_MS2_label_37baebf2:
 
     # MC "How can you expect me to just, bury and forget, after everything that we did together?"
     MC "Comment veux-tu que j'enterre et oublie, après tout ce qu'on a fait ensemble ?"
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:76
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:75
 translate french CR3_MS2_label_a64ce99b_1:
 
     # Caroline "One... Two... Three..."
     Caroline "Un... Deux... Trois..."
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:77
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:76
 translate french CR3_MS2_label_b82866b3:
 
     # MC "(Dammit...! She’s stretching again.)"
     MC "(Merde... ! Elle s'étire encore.)"
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:81
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:80
 translate french CR3_MS2_label_c76deef3:
 
     # Caroline "Okay, [player_name] - Gotta go! There ain’t no way I’m getting into those outfits, if I don’t get started today!"
     Caroline "Ok, [player_name] - Je dois y aller ! Je n'entrerai pas dans ces tenues si je ne m'y mets pas aujourd'hui !"
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:82
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:81
 translate french CR3_MS2_label_453bbeb3:
 
     # MC "*Sigh* See you later, Caroline."
     MC "*Soupir* À plus tard, Caroline."
 
-# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:83
+# game/scripts/home/entrace1/M/scenes/CR3_MS2.rpy:82
 translate french CR3_MS2_label_718361c3:
 
     # MC "(What has gotten into her? Why has she had, such a sudden change of heart, about our deal.)"

@@ -1,10 +1,10 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:31
 translate french SR2_swimming_card_label_86ddbbda:
 
     # MC "(Snooore…)"
-    MC "(*Rooonfle*…)"
+    MC "(Rooonfle…)"
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:33
 translate french SR2_swimming_card_label_6ce92b2e:
@@ -28,7 +28,7 @@ translate french SR2_swimming_card_label_b6484a1c:
 translate french SR2_swimming_card_label_3dc4dc31:
 
     # MC "(Yawn!)"
-    MC "(*Bâille* !)"
+    MC "(Bâille !)"
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:41
 translate french SR2_swimming_card_label_7f208eaa:
@@ -82,13 +82,13 @@ translate french SR2_swimming_card_label_9241df70:
 translate french SR2_swimming_card_label_8d48efa1:
 
     # MC "(Sigh) What do you want me for, then? Did Mom tell you to get me out of bed?"
-    MC "(*Soupir*) Qu'est-ce que tu me veux, alors ? Maman t'a dit de me sortir du lit ?"
+    MC "(Soupir) Qu'est-ce que tu me veux, alors ? Maman t'a dit de me sortir du lit ?"
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:59
 translate french SR2_swimming_card_label_e45d46d4:
 
     # MC "(Sigh) What do you want me for, then? Did Linda tell you to get me out of bed?"
-    MC "(*Soupir*) Qu'est-ce que tu me veux, alors ? Linda t'a dit de me sortir du lit ?"
+    MC "(Soupir) Qu'est-ce que tu me veux, alors ? Linda t'a dit de me sortir du lit ?"
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:62
 translate french SR2_swimming_card_label_9fb48996:
@@ -136,7 +136,7 @@ translate french SR2_swimming_card_label_170657d7:
 translate french SR2_swimming_card_label_6afa03e6:
 
     # "(RATTLE RATTLE)"
-    "(*CLIQUETIS* *CLIQUETIS*)"
+    "(CLIQUETIS CLIQUETIS)"
 
 # game/scripts/home/mc_room/morning/scenes/SR2_swimming_card_label.rpy:79
 translate french SR2_swimming_card_label_44af9a05:

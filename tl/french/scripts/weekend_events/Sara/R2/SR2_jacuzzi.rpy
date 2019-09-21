@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:50
 translate french SR2_jacuzzi_label_e620ea7d:
@@ -228,91 +228,91 @@ translate french SR2_jacuzzi_scene_label_c719a38b:
     # MC "(Yup! Looks like I found the right spot there!)"
     MC "(Yep, On dirait que j'ai trouvé le bon endroit !)"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:166
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:167
 translate french SR2_jacuzzi_scene_label_de8a21b6:
 
     # Sara "[player_name], I want you to… It’s embarrassing... Nevermind."
-    Sara "[player_name], je veux que tu… C'est embarrassant… C'est pas la peine."
+    Sara "[player_name], je veux que tu… C'est embarrassant... Peu importe."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:167
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:168
 translate french SR2_jacuzzi_scene_label_d7d08108:
 
     # MC "Go ahead. I promise I won’t laugh."
     MC "Vas-y. Je promets de ne pas rire."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:168
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:169
 translate french SR2_jacuzzi_scene_label_96c91be5:
 
     # Sara "Can you… pinch my nipples?"
     Sara "Tu peux… me pincer les tétons ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:169
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:170
 translate french SR2_jacuzzi_scene_label_de052a1d:
 
     # MC "Sure! Sit up for me."
     MC "Bien sûr ! Assieds-toi devant moi."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:173
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:174
 translate french SR2_jacuzzi_scene_label_5e9bd2ae:
 
     # MC "How’s that?"
     MC "Qu'est-ce que tu en dis ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:174
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:175
 translate french SR2_jacuzzi_scene_label_773914e8:
 
     # Sara "Ah… it’s g-good…"
     Sara "Ah… c'est b-bon…"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:175
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:176
 translate french SR2_jacuzzi_scene_label_ea0e61b6:
 
     # Sara "Ooh…"
     Sara "Ooh…"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:179
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:180
 translate french SR2_jacuzzi_scene_label_db624372:
 
     # MC "Should I keep going?"
     MC "Dois-je continuer ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:180
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:181
 translate french SR2_jacuzzi_scene_label_726e13a1:
 
     # Sara "Yeah, don’t s-stop."
     Sara "Ouai, ne t'arrête pas."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:181
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:182
 translate french SR2_jacuzzi_scene_label_ea03dc0b:
 
     # MC "Harder?"
     MC "Plus fort ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:182
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:183
 translate french SR2_jacuzzi_scene_label_bf1ec5c2:
 
     # Sara "Could… you use your whole hand?"
     Sara "Tu pourrais… utiliser toute ta main ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:186
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:187
 translate french SR2_jacuzzi_scene_label_365afdc9:
 
     # MC "Like this?"
     MC "Comme ça ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:187
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:188
 translate french SR2_jacuzzi_scene_label_ccf1b96c:
 
     # Sara "Oooh yeah… That’s amazing…"
     Sara "Oooh ouai… C'est incroyable…"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:188
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:189
 translate french SR2_jacuzzi_scene_label_90010a49:
 
     # MC "See, smaller breasts like yours are MUCH more sensitive."
     MC "Tu vois, les petits seins comme les tiens sont BEAUCOUP plus sensibles."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:189
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:190
 translate french SR2_jacuzzi_scene_label_a4477f65:
 
     # Sara "Mmm… I’m glad they’re smaller now."
@@ -418,7 +418,7 @@ translate french after_menu_SR2_jacuzzi_scene_label_274c8a80:
 translate french after_menu_SR2_jacuzzi_scene_label_480dffe8:
 
     # MC "Ugh! Mmm…. Ah…."
-    MC "Ugh ! MmmDOES. AhDOES."
+    MC "Ugh ! Mmm…. Ah…."
 
 # game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:234
 translate french after_menu_SR2_jacuzzi_scene_label_440fabd2:
@@ -804,55 +804,55 @@ translate french after_menu_SR2_jacuzzi_scene_label_b287caa5_1:
     # Sara "Yuck! (I almost got it in my eye!)"
     Sara "Beurk ! (Je l'ai presque dans l'œil !)"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:396
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:395
 translate french after_menu2_SR2_jacuzzi_scene_label_2063a91c:
 
     # MC "Well? How was this date?"
     MC "Eh bien ? Comment était ce rendez-vous ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:397
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:396
 translate french after_menu2_SR2_jacuzzi_scene_label_538ed21d:
 
     # Sara "The BEST so far!"
     Sara "Le MEILLEUR jusqu'à présent !"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:398
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:397
 translate french after_menu2_SR2_jacuzzi_scene_label_eed88a2a:
 
     # MC "Really?"
     MC "Vraiment ?"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:399
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:398
 translate french after_menu2_SR2_jacuzzi_scene_label_6b33cacf:
 
     # Sara "Yeah, [player_name]. I was kinda hoping to get intimate with you again sooner."
     Sara "Ouai, [player_name]. J'espérais être intime avec toi plus tôt."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:403
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:402
 translate french after_menu2_SR2_jacuzzi_scene_label_504177bf:
 
     # Sara "I really do love you."
     Sara "Je t'aime vraiment."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:404
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:403
 translate french after_menu2_SR2_jacuzzi_scene_label_8d49f324:
 
     # Sara "But I want more than just words… I need an intimate physical relationship with you. Like what we just did today."
     Sara "Mais je veux plus que des mots… J'ai besoin d'une relation physique intime avec toi. Comme ce qu'on vient de faire aujourd'hui."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:405
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:404
 translate french after_menu2_SR2_jacuzzi_scene_label_11e301aa:
 
     # MC "Let me think about it and I’ll see if I can think of ways we can safely be intimate, without others noticing."
     MC "Laissez-moi y réfléchir et je vais voir si je peux trouver des façons d'être intimes en toute sécurité, sans que les autres ne s'en aperçoivent."
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:406
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:405
 translate french after_menu2_SR2_jacuzzi_scene_label_1a79ce5e:
 
     # Sara "Thanks, [player_name]. You’re the best!"
     Sara "Merci, [player_name]. Tu es le meilleur !"
 
-# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:407
+# game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:406
 translate french after_menu2_SR2_jacuzzi_scene_label_02102ed4:
 
     # MC "I love you, Sara."
@@ -862,11 +862,11 @@ translate french strings:
 
     # scripts\weekend_events\Sara\R2\SR2_jacuzzi.rpy:141
     old "Touch her ass."
-    new "Touchez son cul."
+    new "Toucher son cul."
 
     # scripts\weekend_events\Sara\R2\SR2_jacuzzi.rpy:141
     old "Wait for her move."
-    new "Attendez qu'elle bouge."
+    new "Attendre qu'elle bouge."
 
     # scripts\weekend_events\Sara\R2\SR2_jacuzzi.rpy:297
     old "Blow your hot load deep inside your younger sister’s mouth."
@@ -883,4 +883,3 @@ translate french strings:
     # scripts\weekend_events\Sara\R2\SR2_jacuzzi.rpy:297
     old "Spray your seed over Sara’s pretty face."
     new "Vaporisez votre sperme sur le joli visage de Sara."
-

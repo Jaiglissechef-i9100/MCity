@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:41
 translate french mc_sara_night_scene1_v1_label_44af9a05:
@@ -354,98 +354,99 @@ translate french mc_sara_night_scene1_v1_label_5eff4550:
     # MC "(Huh?! Women are strange…)"
     MC "(Hein ?!! Les femmes sont étranges…)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:156
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:155
 translate french mc_sara_night_scene1_v1_label_1884f4cd:
 
     # Sara "Because I think I like you… more than a brother..."
     Sara "Parce que je crois que je t'aime… plus qu'un frère..."
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:158
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:157
 translate french mc_sara_night_scene1_v1_label_c304749f:
 
     # Sara "Because I think I like you… more than a friend..."
     Sara "Parce que je crois que je t'aime… plus qu'un ami..."
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:159
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:158
 translate french mc_sara_night_scene1_v1_label_8fd95885_1:
 
     # MC "…"
     MC "…"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:160
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:159
 translate french mc_sara_night_scene1_v1_label_e81b9a7c_1:
 
     # Sara "(Please say yes…)"
     Sara "(STP dit oui…)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:161
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:160
 translate french mc_sara_night_scene1_v1_label_8fd95885_2:
 
     # MC "…"
     MC "…"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:162
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:161
 translate french mc_sara_night_scene1_v1_label_eaf6fb03:
 
     # Sara "(Please, [player_name]… say anything...)"
     Sara "(S'il te plaît, [player_name]… dis quelque chose...)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:163
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:162
 translate french mc_sara_night_scene1_v1_label_8fd95885_3:
 
     # MC "…"
     MC "…"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:167
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:166
 translate french mc_sara_night_scene1_v1_label_13ca058f:
 
     # Sara "N-Nevermind! I- Forget I asked you about it!"
-    Sara "N-Nevermind ! Oublie que je t'en ai parlé !"
+    Sara "N-N'y pense plus ! Oublie que je t'en ai parlé !"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:169
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:168
 translate french mc_sara_night_scene1_v1_label_58732214_1:
 
     # Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your brother!)"
     Sara "(Stupide, Sara ! Comment pourrait-il aimer une vierge intello comme toi ?! Et c'est ton frère !)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:171
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:170
 translate french mc_sara_night_scene1_v1_label_153e4e7c:
 
     # Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your friend!)"
     Sara "(Stupide, Sara ! Comment pourrait-il aimer une vierge intello comme toi ?! Et c'est ton ami !)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:172
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:171
 translate french mc_sara_night_scene1_v1_label_e7bf0527:
 
     # Sara "(You shouldn’t have put him in that position! You could ruin your relationship with him!)"
     Sara "(Tu n'aurais pas dû le mettre dans cette position ! Tu pourrais ruiner ta relation avec lui !)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:173
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:172
 translate french mc_sara_night_scene1_v1_label_71418457:
 
     # MC "Are you okay, Sara?"
     MC "Ça va, Sara ?"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:174
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:173
 translate french mc_sara_night_scene1_v1_label_e6b63ba6:
 
     # Sara "J-Just go to sleep, you b-big dumbo!"
     Sara "J-Juste rendors-toi, espèce de gr-gros dumbo !"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:182
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:181
 translate french after_mc_sara_night_scene1_v1_choice_ce52e32d:
 
     # MC "(YAWN!)"
-    MC "(*BAILLE* !)"
+    MC "(BAILLE !)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:183
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:182
 translate french after_mc_sara_night_scene1_v1_choice_5cdd4861:
 
     # MC "(Looks like Sara left during the night. I wonder when she snuck out. I’ll probably see her around school today anyway.)"
     MC "(On dirait que Sara est partie pendant la nuit. Je me demande quand elle est sortie en douce. Je la verrai probablement à l'école aujourd'hui de toute façon.)"
 
-# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:184
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:183
 translate french after_mc_sara_night_scene1_v1_choice_813b79bf:
 
     # MC "(I’ve never seen her that emotional before.)"
     MC "(Je ne l'ai jamais vue aussi émotive.)"
+

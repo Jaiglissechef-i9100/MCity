@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_coffe.rpy:26
 translate french MLR3_b_house_coffe_4f9bd81e:
@@ -10,7 +10,7 @@ translate french MLR3_b_house_coffe_4f9bd81e:
 translate french MLR3_b_house_coffe_fb9f3f4d:
 
     # Mom "Ahh…"
-    Mom "Ahh...."
+    Mom "Ahh…"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_coffe.rpy:28
 translate french MLR3_b_house_coffe_3ca9ee29:
@@ -172,7 +172,7 @@ translate french MLR3_b_house_coffe_6481e7f7:
 translate french MLR3_b_house_coffe_ff7ca128:
 
     # Mom "Enjoying the hot water flowing over my naked voluptuous body."
-    Mom "Profitant de l'eau chaude qui coule sur mon corps nu et voluptueux."
+    Mom "Profitant de l'eau chaude qui coule sur mon corps nue et voluptueux."
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_coffe.rpy:85
 translate french MLR3_b_house_coffe_2e4621d3:
@@ -190,7 +190,7 @@ translate french MLR3_b_house_coffe_c58c0cef:
 translate french MLR3_b_house_coffe_df6e5f18:
 
     # MC "(Huh, that was weird… why was [Mom_name] being so descriptive about her shower? Is she just trying to turn me on again?)"
-    MC "(Euh, c'était bizarre... pourquoi [Mom_name] était-elle si descriptive au sujet de sa douche ? Est-ce qu'elle essaie juste de m'exciter à nouveau ?)"
+    MC "(Euh, c'était bizarre… pourquoi [Mom_name] était-elle si descriptive au sujet de sa douche ? Est-ce qu'elle essaie juste de m'exciter à nouveau ?)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_coffe.rpy:94
 translate french MLR3_b_house_coffe_a96e8fad:

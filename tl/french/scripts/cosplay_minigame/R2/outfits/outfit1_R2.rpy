@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/cosplay_minigame/R2/outfits/outfit1_R2.rpy:14
 translate french outfit1_R2_label_e4b5d049:
@@ -48,13 +48,13 @@ translate french outfit1_R2_rotate1_42b8aad3:
     # Caroline "Sure."
     Caroline "Bien sûr."
 
-# game/scripts/cosplay_minigame/R2/outfits/outfit1_R2.rpy:213
+# game/scripts/cosplay_minigame/R2/outfits/outfit1_R2.rpy:206
 translate french outfit1_R2_rotate2_19f9ee76:
 
     # MC "Can you turn around?"
     MC "Tu peux te retourner ?"
 
-# game/scripts/cosplay_minigame/R2/outfits/outfit1_R2.rpy:214
+# game/scripts/cosplay_minigame/R2/outfits/outfit1_R2.rpy:207
 translate french outfit1_R2_rotate2_42b8aad3:
 
     # Caroline "Sure."

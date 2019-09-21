@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-01-13 06:09
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/intro.rpy:79
 translate french intro_efe69313:
@@ -262,7 +262,7 @@ translate french intro_ee2f74cc:
 translate french intro_a1a29a27:
 
     # Judy "What happened to you was embarrassing. Tremendously so. I can’t even begin to imagine how you must feel right now."
-    Judy "Ce qui vous êtes arrivé était embarrassant. Énormément, oui. Je ne peux même pas imaginer ce que vous devez ressentir en ce moment."
+    Judy "Ce qui vous es arrivé était embarrassant. Énormément, oui. Je ne peux même pas imaginer ce que vous devez ressentir en ce moment."
 
 # game/scripts/intro.rpy:170
 translate french intro_56d722c3:
@@ -280,7 +280,7 @@ translate french intro_45e8005a:
 translate french intro_db07d2e5:
 
     # MC "(Sigh)"
-    MC "(*soupir*)"
+    MC "(soupir)"
 
 # game/scripts/intro.rpy:174
 translate french intro_2442786b:
@@ -334,7 +334,7 @@ translate french q1_a2_intro_ddb19203:
 translate french q1_a2_intro_dba02aa1:
 
     # Judy "Some people can be out of therapy in three or four sessions. Other people take… much longer. What matters is that you are making progress. Don’t view your treatment as a race - think of it as a journey."
-    Judy "Certaines personnes peuvent interrompre leur thérapie en trois ou quatre séances. D'autres personnes prennent… beaucoup plus de temps. Ce qui compte, c'est que vous progressiez. Ne considérez pas votre traitement comme une course - mais comme un voyage."
+    Judy "Certaines personnes peuvent interrompre leur thérapie en trois ou quatre séances. D'autres prendront… beaucoup plus de temps. Ce qui compte, c'est de progressé.\nNe considérez pas votre traitement comme une course - mais comme un voyage."
 
 # game/scripts/intro.rpy:202
 translate french q1_a2_intro_47901d35:
@@ -364,7 +364,7 @@ translate french after_q1_intro_ad9381bb:
 translate french after_q1_intro_f62b502d:
 
     # MC "(Yawn) Five more minutes, Sara…"
-    MC "(*Baille*) Encore cinq minutes, Sara…"
+    MC "(Baille) Encore cinq minutes, Sara…"
 
 # game/scripts/intro.rpy:216
 translate french after_q1_intro_6047ca06:
@@ -376,7 +376,7 @@ translate french after_q1_intro_6047ca06:
 translate french after_q1_intro_4775dfea:
 
     # MC "(Sigh) Fine! I’m awake…"
-    MC "(*Soupir*) Bien ! Je suis réveillé…"
+    MC "(Soupir) Bien ! Je suis réveillé…"
 
 # game/scripts/intro.rpy:220
 translate french after_q1_intro_b5bfb578:
@@ -556,7 +556,7 @@ translate french q2_intro_1ca92687:
 translate french q2_intro_5d276310:
 
     # Judy "Do you enjoy these things yourself?"
-    Judy "Est-ce que tu aimes ces choses toi-même ?"
+    Judy "Est-ce que vous aimez ces choses vous-même ?"
 
 # game/scripts/intro.rpy:271
 translate french q2_intro_bdf35f0f:
@@ -598,7 +598,7 @@ translate french q2_intro_b79f5867:
 translate french q2_intro_66cc2dd8:
 
     # Judy "Hmm... In my profession, we would call that ‘introverted’. Basically, she finds time in smaller groups more rewarding."
-    Judy "Hmm.... Dans ma profession, nous appellerions cela de l'‘introverti’. Fondamentalement, elle trouve le temps en petits groupes plus gratifiant."
+    Judy "Hmm... Dans ma profession, nous appellerions cela de ‘l'introversion’. Fondamentalement, elle trouve le temps en petits groupes plus gratifiant."
 
 # game/scripts/intro.rpy:292
 translate french q2_intro_ce2e3812:
@@ -682,7 +682,7 @@ translate french after_q2_intro_9f8416a5:
 translate french after_q2_intro_84ec5e5b:
 
     # Judy "How often do you fantasise about having sex with Sara?"
-    Judy "Combien de fois fantasmez-vous de coucher avec Sara ?"
+    Judy "Combien de fois avez-vous fantasmé de coucher avec Sara ?"
 
 # game/scripts/intro.rpy:325
 translate french after_q2_intro_73ec56eb:
@@ -694,7 +694,7 @@ translate french after_q2_intro_73ec56eb:
 translate french after_q2_intro_f47f6223:
 
     # MC "(I must have wanked to that mental image for a solid week!)"
-    MC "(J'ai dû me branler sur cette image mentale pendant une semaine !)"
+    MC "(J'ai dû me branler sur cette image mentale pendant au moin une semaine !)"
 
 # game/scripts/intro.rpy:327
 translate french after_q2_intro_5b1fa79c:
@@ -718,13 +718,13 @@ translate french after_q2_intro_e5b7aef2:
 translate french after_q2_intro_169eccf7:
 
     # MC "(Sigh) Fine. I guess I’ve… maybe… fantasised about my sisters, a couple of times."
-    MC "(*Soupir*) Bien. Je suppose que j'ai... peut-être... fantasmé sur mes soeurs, quelques fois."
+    MC "(Soupir) Bien. Je suppose que j'ai... peut-être... fantasmé sur mes soeurs, quelques fois."
 
 # game/scripts/intro.rpy:335
 translate french after_q2_intro_9344e4e9:
 
     # MC "(Sigh) Fine. I guess I’ve… maybe… fantasised about Sara, a couple of times."
-    MC "(*Soupir*) Bien. Je suppose que j'ai… peut-être… fantasmé sur Sara, quelques fois."
+    MC "(Soupir) Bien. Je suppose que j'ai… peut-être… fantasmé sur Sara, quelques fois."
 
 # game/scripts/intro.rpy:336
 translate french after_q2_intro_7ea8f131:
@@ -886,7 +886,7 @@ translate french choice1_intro_6c4ac12d:
 translate french choice1_intro_babe1dc8:
 
     # Mom "It will...."
-    Mom "Ce sera...."
+    Mom "Ça le sera...."
 
 # game/scripts/intro.rpy:398
 translate french choice1_intro_af320563:
@@ -904,7 +904,7 @@ translate french choice1_intro_e213044f:
 translate french choice1_intro_1f809e41:
 
     # MC "(Mwah)"
-    MC "(*Mwah*)"
+    MC "(Mwah)"
 
 # game/scripts/intro.rpy:403
 translate french choice1_intro_2848f1c6:
@@ -970,7 +970,7 @@ translate french choice1_intro_2b88f39e:
 translate french choice1_intro_1f809e41_1:
 
     # MC "(Mwah)"
-    MC "(*Mwah*)"
+    MC "(Mwah)"
 
 # game/scripts/intro.rpy:430
 translate french choice1_intro_2848f1c6_1:
@@ -1006,7 +1006,7 @@ translate french after_choice1_intro_de15a1de:
 translate french after_choice1_intro_760a2a7d:
 
     # Mom "(Ooh… I’m starting to get wet, just thinking about making out with him.)"
-    Mom "(Ooh… Je commence à mouiller, je pense juste à sortir avec lui.)"
+    Mom "(Ooh… Je commence à mouiller, juste en pensant à sortir avec lui.)"
 
 # game/scripts/intro.rpy:451
 translate french after_choice1_intro_6437994d:
@@ -1030,13 +1030,13 @@ translate french after_choice1_intro_424bcb89:
 translate french after_choice1_intro_293d86da:
 
     # Judy "We’ll come back to talk about HER later. For now though, please tell me about the incident."
-    Judy "Nous reviendrons pour parler d'ELLE plus tard. Pour l'instant, parlez-moi de l'incident."
+    Judy "Nous reparleront d'ELLE plus tard. Pour l'instant, parlez-moi de l'incident."
 
 # game/scripts/intro.rpy:456
 translate french after_choice1_intro_63866744:
 
     # MC "(Gulp)"
-    MC "(*Avale*)"
+    MC "(Avale)"
 
 # game/scripts/intro.rpy:457
 translate french after_choice1_intro_9571d75f:
@@ -1060,7 +1060,7 @@ translate french after_choice1_intro_c8402a58:
 translate french after_choice1_intro_361f1ade:
 
     # MC "Mrs. Celi- Celia, I was wondering if you would like to go… to Beniza’s Pizza with me, and… (gulp) c-catch a movie afterwards?"
-    MC "Mme Celi- Celia, je me demandais si vous aimeriez aller… à la Beniza's Pizza avec moi, et… (*avale*) regarder un film après ?"
+    MC "Mme Celi- Celia, je me demandais si vous aimeriez aller… à la Beniza's Pizza avec moi, et… (avale) regarder un film après ?"
 
 # game/scripts/intro.rpy:469
 translate french after_choice1_intro_02170ad5:
@@ -1432,7 +1432,7 @@ translate french after_choice1_intro_97f08cb1:
 translate french after_choice1_intro_2839b143:
 
     # "(Knock Knock)"
-    "(*Toc* *Toc*)"
+    "(Toc Toc)"
 
 # game/scripts/intro.rpy:590
 translate french after_choice1_intro_06f0dc98:
@@ -1462,13 +1462,13 @@ translate french after_choice1_intro_6d6cd9b5:
 translate french after_choice1_intro_117caff7:
 
     # MC "Just a bit…"
-    MC "Juste un peuSweetpea"
+    MC "Juste un peu…"
 
 # game/scripts/intro.rpy:597
 translate french after_choice1_intro_ef42b901:
 
     # Mom "(Sigh)"
-    Mom "(*Soupir*)"
+    Mom "(Soupir)"
 
 # game/scripts/intro.rpy:600
 translate french after_choice1_intro_d2cff770:
@@ -1534,13 +1534,13 @@ translate french after_choice1_intro_b79a06e5:
 translate french after_choice1_intro_cb4daba1:
 
     # MC "(Sigh) You have to say that - You’re my mom."
-    MC "(*Soupir*) Tu dois dire ça - Tu es ma mère."
+    MC "(Soupir) Tu dois dire ça - Tu es ma mère."
 
 # game/scripts/intro.rpy:619
 translate french after_choice1_intro_2aa43941:
 
     # MC "(Sigh) You have to say that."
-    MC "(*Soupir*) Tu dois dire ça."
+    MC "(Soupir) Tu dois dire ça."
 
 # game/scripts/intro.rpy:620
 translate french after_choice1_intro_91e80b55:
@@ -1582,7 +1582,7 @@ translate french after_choice1_intro_9c3f9e0f:
 translate french after_choice1_intro_ce026135:
 
     # MC "(What the heck, Mom?!)"
-    MC "(Qu'est-ce que c'est que ce bordel, maman ?!)"
+    MC "(Qu'est-ce que c'est que ce bordel, Maman ?!)"
 
 # game/scripts/intro.rpy:634
 translate french after_choice1_intro_8e61b6f9:
@@ -1702,13 +1702,13 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_0a3d9db9:
 translate french after_conditional_mom_kiss_cheek_lips_intro_5b2d91ff:
 
     # MC "So yeah, that was pretty much what happened."
-    MC "Donc oui, c'est à peu près ce qui s'est passé."
+    MC "Donc voilà, c'est à peu près ce qui s'est passé."
 
 # game/scripts/intro.rpy:680
 translate french after_conditional_mom_kiss_cheek_lips_intro_9261d339:
 
     # Judy "Hmm... When did the headmaster find out about the incident with Mrs. Celia?"
-    Judy "Hmm... Quand le directeur a-t-il appris l'incident avec Mme Celia ?"
+    Judy "Hmm... A quel moment le directeur a-t-il appris l'incident avec Mme Celia ?"
 
 # game/scripts/intro.rpy:681
 translate french after_conditional_mom_kiss_cheek_lips_intro_f68b4d59:
@@ -1732,7 +1732,7 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_39079c64:
 translate french after_conditional_mom_kiss_cheek_lips_intro_cc1cfed3:
 
     # Judy "You are clearly - (ahem) - WERE clearly attracted to Mrs. Celia. I was wondering - does this attraction apply to other women, of a similar age?"
-    Judy "Vous êtes clairement - (*ahem*) - ÉTAIENT clairement attirés par Mme Celia. Je me demandais - si cette attirance s'appliquait à d'autres femmes du même âge ?"
+    Judy "Vous êtes clairement - (ahem) - ÉTAIENT clairement attirés par Mme Celia. Je me demandais - si cette attirance s'appliquait à d'autres femmes du même âge ?"
 
 # game/scripts/intro.rpy:687
 translate french after_conditional_mom_kiss_cheek_lips_intro_07f06643:
@@ -1846,7 +1846,7 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_83dc9344:
 translate french after_conditional_mom_kiss_cheek_lips_intro_29fec51f:
 
     # Judy "You seem like a good-natured boy. Obviously, you want what’s best for your friends, right? You want them to be happy?"
-    Judy "Vous avez l'air d'un garçon accommodant. De toute évidence, vous voulez ce qu'il y a de mieux pour vos amis, non ? vous voulez qu'ils soient heureux ?"
+    Judy "Vous avez l'air d'un garçon accommodant. De toute évidence, vous voulez ce qu'il y a de mieux pour vos amis, non ? Vous voulez qu'ils soient heureux ?"
 
 # game/scripts/intro.rpy:724
 translate french after_conditional_mom_kiss_cheek_lips_intro_977d3bfe:
@@ -1882,7 +1882,7 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_a5c9e07c:
 translate french after_conditional_mom_kiss_cheek_lips_intro_a857037c:
 
     # Judy "So, let me rephrase. If you had the opportunity to fuck your mother, would you take it? "
-    Judy "Alors, laissez-moi reformuler. Si vous aviez l'opportunité de baiser vous mère, vous la saisiriez ?"
+    Judy "Alors, laissez-moi reformuler. Si vous aviez l'opportunité de baiser votre mère, vous la saisiriez ?"
 
 # game/scripts/intro.rpy:734
 translate french after_conditional_mom_kiss_cheek_lips_intro_d2862dc4:
@@ -1942,7 +1942,7 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_093df17e:
 translate french after_conditional_mom_kiss_cheek_lips_intro_7881bdb7:
 
     # Judy "I’m sure you’ll recognise, something noteworthy, when it happens."
-    Judy "Je suis sûr que vous reconnaîtrez cet chose de notable, quand ça arrivera."
+    Judy "Je suis sure que vous reconnaîtrez cet chose, quand ça arrivera."
 
 # game/scripts/intro.rpy:753
 translate french after_conditional_mom_kiss_cheek_lips_intro_b16a53d8:
@@ -1954,7 +1954,7 @@ translate french after_conditional_mom_kiss_cheek_lips_intro_b16a53d8:
 translate french after_conditional_mom_kiss_cheek_lips_intro_3dc4dc31:
 
     # MC "(Yawn!)"
-    MC "(*Baille!*)"
+    MC "(Baille !)"
 
 # game/scripts/intro.rpy:762
 translate french after_conditional_mom_kiss_cheek_lips_intro_b96cf836:
@@ -2006,28 +2006,28 @@ translate french strings:
 
     # scripts\intro.rpy:267
     old "Tell her about Sara’s hobbies."
-    new "Parlez-lui des passe-temps de Sara."
+    new "Lui parler des passe-temps de Sara."
 
     # scripts\intro.rpy:267
     old "Tell her about Sara’s school life."
-    new "Parlez-lui de la vie scolaire de Sara."
+    new "Lui parler de la vie scolaire de Sara."
 
     # scripts\intro.rpy:267
     old "Tell her about Sara’s social life."
-    new "Parlez-lui de la vie sociale de Sara."
+    new "Lui parler de la vie sociale de Sara."
 
     # scripts\intro.rpy:378
     old "Kiss Mom on the cheek."
-    new "Embrassez Maman sur la joue."
+    new "Embrasser Maman sur la joue."
 
     # scripts\intro.rpy:378
     old "Kiss Mom on the lips."
-    new "Embrassez Maman sur les lèvres."
+    new "Embrasser Maman sur les lèvres."
 
     # scripts\intro.rpy:378
     old "Kiss Linda on the cheek."
-    new "Embrassez Linda sur la joue."
+    new "Embrasser Linda sur la joue."
 
     # scripts\intro.rpy:378
     old "Kiss Linda on the lips."
-    new "Embrassez Linda sur les lèvres."
+    new "Embrasser Linda sur les lèvres."

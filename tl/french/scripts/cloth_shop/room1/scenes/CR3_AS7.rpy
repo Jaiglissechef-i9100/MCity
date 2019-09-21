@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS7.rpy:11
 translate french CR3_AS7_label_f7b5731f:

@@ -1,48 +1,48 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:32
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:33
 translate french Zv2_ES2_label_bf13bc86:
 
     # MC "Well, I did exactly what you asked for. I got you the company name."
-    MC "J'ai fait exactement ce que tu m'as demandé. Je t'ai eu le nom de la société."
+    MC "Bien, j'ai fait exactement ce que tu m'as demandé. Je t'ai eu le nom de la société."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:33
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:34
 translate french Zv2_ES2_label_85f6f72c:
 
     # Zuri "And you did excellently. We have already begun buying up shares, in order to assume a voting majority within the company."
     Zuri "Et tu l'as très bien fait. Nous avons déjà commencé à racheter des actions, afin d'assumer la majorité des droits de vote au sein de l'entreprise."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:34
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:35
 translate french Zv2_ES2_label_17d91eb8:
 
     # Suri "And we couldn’t have done it without your help."
     Suri "Et nous n'aurions pas pu le faire sans ton aide."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:35
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:36
 translate french Zv2_ES2_label_2bb60735:
 
     # MC "Well… What’s the reward you have in mind?"
     MC "Eh bien… Quelle est la récompense que vous avez en tête ?"
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:36
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:37
 translate french Zv2_ES2_label_b0b7253e:
 
     # Zuri "Follow me. "
     Zuri "Suis-moi."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:44
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:45
 translate french Zv2_ES2_label_23e120ea:
 
     # Zuri "Suri is all yours tonight, [player_name]. Go ahead and play with her breasts."
     Zuri "Suri est toute à toi ce soir, [player_name]. Vas-y, joue avec ses seins."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:46
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:47
 translate french Zv2_ES2_label_68d8b31b:
 
     # Suri "You can do whatever you want with my tits, [player_name]."
     Suri "Tu peux faire ce que tu veux de mes seins, [player_name]."
 
-# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:47
+# game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:48
 translate french Zv2_ES2_label_5f5f47a3:
 
     # MC "(This is gonna be awesome!)"
@@ -220,7 +220,7 @@ translate french Zv2_ES2_menu_f3c848b7:
 translate french Zv2_ES2_menu_af852406:
 
     # Zuri "(Sigh) That’s very true."
-    Zuri "(*Soupir*) C'est tout à fait vrai."
+    Zuri "(Soupir) C'est tout à fait vrai."
 
 # game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:122
 translate french Zv2_ES2_menu_92951942:
@@ -262,7 +262,7 @@ translate french Zv2_ES2_menu_faad3775:
 translate french Zv2_ES2_menu_3c7e36d5:
 
     # MC "(Suck suck!)"
-    MC "(*Suce*, *suce* !)"
+    MC "(Suce suce !)"
 
 # game/scripts/Zuri_home/home/E/scenes/Zv2_ES2.rpy:141
 translate french Zv2_ES2_menu_0530c523:

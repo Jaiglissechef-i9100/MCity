@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:70
 translate french MLR3_AS3_746f9efb:
@@ -28,13 +28,13 @@ translate french MLR3_AS3_1b7efb81:
 translate french MLR3_AS3_57ce1dbf:
 
     # MC "(Fuck… This could be worse than I expected. I wonder what the hell is going on?)"
-    MC "(Putain... Ça pourrait être pire que ce à quoi je m'attendais. Je me demande ce qui se passe ?)"
+    MC "(Putain… Ça pourrait être pire que ce à quoi je m'attendais. Je me demande ce qui se passe ?)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:78
 translate french MLR3_AS3_88176837:
 
     # MC "Y-Yeah, no problem, [Mom_name]."
-    MC "Ouais, pas de problème, [Mom_name]."
+    MC "Ou-Ouais, pas de problème, [Mom_name]."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:82
 translate french MLR3_AS3_0fd9d703:
@@ -52,19 +52,19 @@ translate french MLR3_AS3_274d29b3:
 translate french MLR3_AS3_48603f74:
 
     # Mom "I think so… maybe. Sorry, that’s why I had to do this in your room. I needed to guarantee that we had some privacy."
-    Mom "Je pense que oui... peut-être. Désolé, c'est pour ça que je devais faire ça dans ta chambre. J'avais besoin de garantir que nous ayons un peu d'intimité."
+    Mom "Je crois… peut-être. Désolée, c'est pour ça que je devais faire ça dans ta chambre. J'avais besoin de garantir que nous ayons un peu d'intimité."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:88
 translate french MLR3_AS3_ce1e8bc5:
 
     # Mom "Listen, [player_name]… You know that I really care about you. Don’t you?"
-    Mom "Ecoute, [player_name]… Tu sais que je tiens vraiment à toi. Tu ne crois pas ?"
+    Mom "Ecoute, [player_name]… Tu sais que je tiens vraiment à toi. N'est-ce pas ?"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:89
 translate french MLR3_AS3_1621bd5f:
 
     # MC "Yeah, of course I know that, [Mom_name]."
-    MC "Oui, bien sûr que je le sais, [Mom_name]."
+    MC "Ouai, bien sûr que je le sais, [Mom_name]."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:91
 translate french MLR3_AS3_391eaaab:
@@ -82,13 +82,13 @@ translate french MLR3_AS3_0710c035:
 translate french MLR3_AS3_571fb0a8:
 
     # Mom "I just wanted to say… sorry."
-    Mom "Je voulais juste te dire... désolé."
+    Mom "Je voulais juste te dire… désolée."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:98
 translate french MLR3_AS3_65d0e1e7:
 
     # MC "Sorry? What for, [Mom_name]? You’ve done nothing wrong."
-    MC "Pardon ? Pour quoi faire, [Mom_name]? Tu n'as rien fait de mal."
+    MC "Pardon ? Pour quoi, [Mom_name]? Tu n'as rien fait de mal."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:99
 translate french MLR3_AS3_cebe88b7:
@@ -112,13 +112,13 @@ translate french MLR3_AS3_9eb50674:
 translate french MLR3_AS3_03e7f56e:
 
     # Mom "I get so turned on when I’m around you. I just want to screw you silly, each time I get close to you…"
-    Mom "Je suis tellement excité quand je suis avec toi. Je veux juste te baiser bêtement, à chaque fois que je me rapproche de toi...."
+    Mom "Je suis tellement excitée quand je suis avec toi. Je veux juste te baiser sauvagement, à chaque fois que je me rapproche de toi…"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:108
 translate french MLR3_AS3_9a4a02e0:
 
     # Mom "...but we never get to go on romantic dates or anything, because of the nature of our relationship."
-    Mom "mais on n'a jamais de rendez-vous romantiques, à cause de la nature de notre relation."
+    Mom "...mais on n'a jamais de rendez-vous romantiques, à cause de la nature de notre relation."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:109
 translate french MLR3_AS3_2570a8c7:
@@ -130,25 +130,25 @@ translate french MLR3_AS3_2570a8c7:
 translate french MLR3_AS3_eea7e310:
 
     # Mom "Yeah, and where else?"
-    Mom "Oui, et où d'autre ?"
+    Mom "Ouai, et où d'autre ?"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:114
 translate french MLR3_AS3_8927e40e:
 
     # MC "Umm… The beach house?"
-    MC "Umm... La maison sur la plage ?"
+    MC "Umm… La maison sur la plage ?"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:115
 translate french MLR3_AS3_8c095b98:
 
     # Mom "Two dates, [player_name]. I’ve made you cum, more times than we’ve gone out somewhere together - romantically."
-    Mom "Deux rencards, [player_name]. e t'ai fait jouir, plus de fois qu'on n'est sortis ensemble - romantiquement."
+    Mom "Deux rencards, [player_name]. Je t'ai fait jouir, plus de fois qu'on n'est sortis ensemble - romantiquement."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:116
 translate french MLR3_AS3_619bfe0a:
 
     # Mom "I’ve come to the realisation, that I’m using you like a sex toy."
-    Mom "Je me suis rendu compte que je t'utilise comme un jouet sexuel."
+    Mom "Je me suis rendue compte que je t'utilise comme un jouet sexuel."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:120
 translate french MLR3_AS3_d727638a:
@@ -166,7 +166,7 @@ translate french MLR3_AS3_366460bd:
 translate french MLR3_AS3_4b86f00d:
 
     # Mom "I don’t want to leave you feeling like I’m using you… because, if you feel that way, I know you’ll end up leaving me."
-    Mom "Je ne veux pas que tu aies l'impression que je me sers de toi... parce que, si tu te sens comme ça, je sais que tu vas finir par me quitter."
+    Mom "Je ne veux pas que tu aies l'impression que je me sers de toi… parce que, si tu te sens comme ça, je sais que tu vas finir par me quitter."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:129
 translate french MLR3_AS3_33a0b673:
@@ -250,19 +250,19 @@ translate french MLR3_AS3_c18ebfad:
 translate french MLR3_AS3_a68a3737:
 
     # MC "Yeah, you see those two red folders to the right? That’s what I’m working on right now."
-    MC "Ouais, tu vois ces deux dossiers rouges à droite ? C'est ce sur quoi je travaille en ce moment."
+    MC "Ouai, tu vois ces deux dossiers rouges à droite ? C'est ce sur quoi je travaille en ce moment."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:158
 translate french MLR3_AS3_1dbd582d:
 
     # Mom "Yuck… this takes me back to my days in school."
-    Mom "Beurk... ça me ramène à l'époque où j'étais à l'école."
+    Mom "Beurk… ça me ramène à l'époque où j'étais à l'école."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:159
 translate french MLR3_AS3_46a68f33:
 
     # Mom "I used to hate revising. During the exam period my mom would ALWAYS yap at me: “Why aren’t you studying?! Why can’t you be more like Liza?!”"
-    Mom "Avant, je détestais réviser. Pendant la période des examens, ma mère me jacassait TOUJOURS dessus : “Pourquoi tu n'étudies pas ?! Pourquoi ne peux-tu pas être plus comme Liza ?”"
+    Mom "Avant, je détestais réviser. Pendant la période des examens, ma mère me jacassait TOUJOURS dessus : “Pourquoi tu n'étudies pas ?! Pourquoi ne peux-tu pas être un peu plus comme Liza ?”"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:160
 translate french MLR3_AS3_48c1555d:
@@ -274,13 +274,13 @@ translate french MLR3_AS3_48c1555d:
 translate french MLR3_AS3_03813993:
 
     # Mom "Meanwhile, I procrastinated and delayed…"
-    Mom "Pendant ce temps, j'ai reporté et retardé..."
+    Mom "Pendant ce temps, je reportais et retardais…"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:165
 translate french MLR3_AS3_6144db2f:
 
     # Mom "At the end of the day, Liza got the better grades - but I got the better job. Grades aren’t everything, [player_name]."
-    Mom "À la fin de la journée, Liza a obtenu les meilleures notes, mais j'ai obtenu le meilleur emploi. Les notes ne sont pas tout, [player_name]."
+    Mom "À la fin de la journée, Liza a obtenue les meilleures notes - mais j'ai obtenu le meilleur emploi. Les notes ne sont pas tout, [player_name]."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:166
 translate french MLR3_AS3_eed88a2a:
@@ -292,13 +292,13 @@ translate french MLR3_AS3_eed88a2a:
 translate french MLR3_AS3_a816c3c8:
 
     # Mom "Sure, they’re important, but there are lots of other things that can affect your chances of success in life."
-    Mom "Bien sûr, ils sont importants, mais il y a beaucoup d'autres choses qui peuvent affecter tes chances de succès dans la vie."
+    Mom "Bien sûr, elles sont importants, mais il y a beaucoup d'autres choses qui peuvent affecter tes chances de succès dans la vie."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:171
 translate french MLR3_AS3_473ca45e:
 
     # Mom "Confidence, maturity, emotional intelligence, and empathy - to name a few."
-    Mom "Confiance, maturité, intelligence émotionnelle et empathie, pour n'en nommer que quelques-uns."
+    Mom "Confiance, maturité, intelligence émotionnelle et empathie, pour n'en nommer - que quelques-uns."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:172
 translate french MLR3_AS3_9c503f94:
@@ -328,7 +328,7 @@ translate french MLR3_AS3_dee96b05:
 translate french MLR3_AS3_d48b6df5:
 
     # MC "(Hmm… Let’s see if I can spice things up here. Should I grab her ass or her breasts?)"
-    MC "(Hmm... Voyons si je peux pimenter les choses. Dois-je attraper son cul ou ses seins ?)"
+    MC "(Hmm… Voyons si je peux pimenter les choses. Dois-je attraper son cul ou ses seins ?)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:187
 translate french MLR3_AS3_249202f0:
@@ -376,7 +376,7 @@ translate french MLR3_AS3_62f55e35:
 translate french MLR3_AS3_51725754:
 
     # Mom "My my… someone is horny!"
-    Mom "Mon mon... quelqu'un est excité !"
+    Mom "Mon mon… quelqu'un est excité !"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:207
 translate french MLR3_AS3_f810502e:
@@ -384,115 +384,115 @@ translate french MLR3_AS3_f810502e:
     # MC "Sorry, [Mom_name]. I couldn’t hold myself back. Your tits are awesome!"
     MC "Désolé, [Mom_name]. Je ne pouvais pas me retenir. Tes seins sont incroyables !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:212
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:213
 translate french MLR3_AS3_con2_9343346c:
 
     # Mom "Well, if you’re horny, that’s a problem - and Mommy is going to have to do something about that!"
-    Mom "Eh bien, si tu es excitée, c'est un problème - et maman va devoir faire quelque chose à ce sujet !"
+    Mom "Eh bien, si tu es excité, c'est un problème - et Maman va devoir faire quelque chose à ce sujet !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:214
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:215
 translate french MLR3_AS3_con2_684c5ad3:
 
     # Mom "Well, if you’re horny, that’s a problem - I have to do something about that!"
     Mom "Eh bien, si tu es excité, c'est un problème - je dois faire quelque chose à ce sujet !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:215
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:216
 translate french MLR3_AS3_con2_0ae744c2:
 
     # MC "Mmm… what are you suggesting?"
-    MC "Mmm... qu'est-ce que tu suggères ?"
+    MC "Mmm… qu'est-ce que tu suggères ?"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:216
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:217
 translate french MLR3_AS3_con2_63edf347:
 
     # Mom "I’m thinking that you deserve a good sloppy blowjob."
     Mom "Je pense que tu mérites une bonne pipe ."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:220
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:221
 translate french MLR3_AS3_con2_231ce836:
 
     # MC "Mmm, I like the sound of that!"
-    MC "Mmm, j'aime bien entendre ça !"
+    MC "Mmm, j'aime entendre ça !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:222
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:223
 translate french MLR3_AS3_con2_00938f05:
 
     # Mom "I think your father is out right now, so we have a little bit of privacy."
     Mom "Je pense que ton père est sorti en ce moment, donc on a un peu d'intimité."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:224
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:225
 translate french MLR3_AS3_con2_b43e0c2c:
 
     # Mom "I think Bob is out right now, so we have a little bit of privacy."
     Mom "Je pense que Bob est sorti en ce moment, donc on a un peu d'intimité."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:225
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:226
 translate french MLR3_AS3_con2_a03abdff:
 
     # MC "That’s a relief."
     MC "Quel soulagement !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:227
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:228
 translate french MLR3_AS3_con2_1f633602:
 
     # Mom "Go ahead and pull your pants down. Just lie back and relax. Let Mommy take care of all the work."
-    Mom "Vas-y, baisse ton pantalon. Allonge-toi et détends-toi. Laisse maman s'occuper de tout le travail."
+    Mom "Vas-y, baisse ton pantalon. Allonge-toi et détends-toi. Laisse Maman s'occuper de tout le travail."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:229
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:230
 translate french MLR3_AS3_con2_87ba7b94:
 
     # Mom "Go ahead and pull your pants down. Just lie back and relax. Let me take care of all the work."
     Mom "Vas-y, baisse ton pantalon. Allonge-toi et détends-toi. Laissez-moi m'occuper de tout le travail."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:233
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:234
 translate french MLR3_AS3_con2_e2f9e62d:
 
     # MC "Mmm…"
     MC "Mmm…"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:234
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:235
 translate french MLR3_AS3_con2_5db0f1ae:
 
     # Mom "I shouldn’t be surprised that you’re already hard. You’ve got such a nice cock, you know that?"
-    Mom "Je ne devrais pas être surpris que tu sois déjà dur. T'as une si belle bite, tu sais ça ?"
+    Mom "Je ne devrais pas être surprise que tu sois déjà dur. T'as une si belle bite, tu sais ça ?"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:235
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:236
 translate french MLR3_AS3_con2_7cc461cf:
 
     # Mom "It’s so long and thick."
     Mom "C'est si long et si épais."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:239
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:240
 translate french MLR3_AS3_con2_f1e73f4a:
 
     # Mom "*Suck Suck*"
     Mom "*Suce Suce*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:240
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:241
 translate french MLR3_AS3_con2_78521e0d:
 
     # Mom "(God, I miss the feeling of this, plunging into my pussy.)"
-    Mom "(Mon Dieu, ça me manque de ne pas sentir cette sensation, de mouiller dans ma chatte)."
+    Mom "(Mon Dieu, ça me manque de ne pas sentir cette sensation, plonger dans ma chatte)."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:241
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:242
 translate french MLR3_AS3_con2_27cbefc6:
 
     # MC "Ohh… Fuck…"
-    MC "Ohh… Merde…"
+    MC "Ohh… Putain…"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:245
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:246
 translate french MLR3_AS3_con2_a5868d30:
 
     # Mom "*Shlurp*"
     Mom "*Shlurp*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:247
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:248
 translate french MLR3_AS3_con2_fd4cf3d9:
 
     # MC "Ugh… fuck, this is good."
     MC "Ugh… putain, c'est bon."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:248
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:249
 translate french MLR3_AS3_con2_539bc65f:
 
     # Mom "*SUCK SUCK*"
@@ -508,7 +508,7 @@ translate french MLR3_AS3_con2_3a0f3c6b:
 translate french MLR3_AS3_con2_70599eb9:
 
     # MC "Ah… Yes, just like that, [Mom_name]. Don’t stop!"
-    MC "Ah... Oui, juste comme ça, [Mom_name]. Ne t'arrête pas !"
+    MC "Ah… Oui, juste comme ça, [Mom_name]. Ne t'arrête pas !"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:255
 translate french MLR3_AS3_con2_41a8a9c0:
@@ -532,7 +532,7 @@ translate french MLR3_AS3_con2_509c6612:
 translate french MLR3_AS3_con2_78a0f0db:
 
     # MC "(She’s rolling her tongue around the tip. Fuck… this is indescribable.)"
-    MC "(Elle roule sa langue autour du bout. Putain... c'est indescriptible.)"
+    MC "(Elle roule sa langue autour du bout. Putain… c'est indescriptible.)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:266
 translate french MLR3_AS3_con2_585db196:
@@ -544,13 +544,13 @@ translate french MLR3_AS3_con2_585db196:
 translate french MLR3_AS3_con2_ba4991a2:
 
     # MC "Oh yeah, that sounds great!"
-    MC "Oh ouais, ça a l'air génial !"
+    MC "Oh ouai, ça serait génial !"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:268
 translate french MLR3_AS3_con2_322324ad:
 
     # Mom "Okay, here we go. I might gag a bit, but don’t worry about that - just relax and enjoy this."
-    Mom "D'accord, c'est parti. Je me étoufferai peut-être un peu, mais ne t'inquiète pas pour ça - détends-toi et profite du plaisir que ça te procure."
+    Mom "Ok, c'est parti. Je m'étoufferai peut-être un peu, mais ne t'inquiète pas pour ça - détends-toi et profite du plaisir que ça te procure."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:272
 translate french MLR3_AS3_con2_2fd0aebf:
@@ -562,13 +562,13 @@ translate french MLR3_AS3_con2_2fd0aebf:
 translate french MLR3_AS3_con2_82fa6ad1:
 
     # MC "(Damn, I wish she would just pull her pants off right now and ride me.)"
-    MC "J'aimerais qu'elle enlève son pantalon et qu'elle me monte."
+    MC "(J'aimerais qu'elle enlève son pantalon et qu'elle me monte.)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:277
 translate french MLR3_AS3_con2_f1e73f4a_1:
 
     # Mom "*Suck Suck*"
-    Mom "*Suck Suck*"
+    Mom "*Suce Suce*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:278
 translate french MLR3_AS3_con2_f1aeb42d:
@@ -580,7 +580,7 @@ translate french MLR3_AS3_con2_f1aeb42d:
 translate french MLR3_AS3_con2_c240ab14:
 
     # MC "(Fuck me, this is heavenly.)"
-    MC "(Baise-moi, c'est paradisiaque.)"
+    MC "(Putain, c'est paradisiaque.)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:283
 translate french MLR3_AS3_con2_f21b6d9e:
@@ -592,7 +592,7 @@ translate french MLR3_AS3_con2_f21b6d9e:
 translate french MLR3_AS3_con2_5fd9db6d:
 
     # Mom "*GAG* *COUGH*"
-    Mom "*GAG* *COUGH*"
+    Mom "*GAG* *TOUSSE*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:285
 translate french MLR3_AS3_con2_d208fa1a:
@@ -604,7 +604,7 @@ translate french MLR3_AS3_con2_d208fa1a:
 translate french MLR3_AS3_con2_f1e73f4a_2:
 
     # Mom "*Suck Suck*"
-    Mom "*Suck Suck*"
+    Mom "*Suce Suce*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:290
 translate french MLR3_AS3_con2_432dc5d3:
@@ -616,19 +616,19 @@ translate french MLR3_AS3_con2_432dc5d3:
 translate french MLR3_AS3_con2_c1d3b7fe:
 
     # MC "I want you to go deeper! Mmm!"
-    MC "e veux que tu ailles plus loin ! Mmm !"
+    MC "Je veux que tu ailles plus loin ! Mmm !"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:295
 translate french MLR3_AS3_con2_8c2fda06:
 
     # MC "Ah… Yes… just like that."
-    MC "Ah... Oui... juste comme ça."
+    MC "Ah… Oui… juste comme ça."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:297
 translate french MLR3_AS3_con2_539bc65f_1:
 
     # Mom "*SUCK SUCK*"
-    Mom "*SUCK SUCK*"
+    Mom "*SUCE SUCE*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:298
 translate french MLR3_AS3_con2_666ad2b6:
@@ -640,7 +640,7 @@ translate french MLR3_AS3_con2_666ad2b6:
 translate french MLR3_AS3_con2_01d26843:
 
     # Mom "*GAG!* *SPLUTTER*"
-    Mom "*GAG!* *HURRR*"
+    Mom "*GAG!* *POSTILLONE*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:304
 translate french MLR3_AS3_con2_cfcb85df:
@@ -670,26 +670,25 @@ translate french MLR3_AS3_con2_161c4629:
 translate french MLR3_AS3_con2_ceb4c203:
 
     # MC "(I wonder if she’d mind me stripping some off her? Probably not!)"
-    MC "(Je me demande si ça ne la dérangerait pas que je lui en enlève un) ? Probablement pas !)"
+    MC "(Je me demande si ça ne la dérangerait pas que je lui en enlève certains ? Probablement pas !)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:315
 translate french MLR3_AS3_con2_3fc030ac:
 
     # MC "(Let’s go for her trousers - it’ll be easier to take those off without interrupting her blowjob.)"
-    MC "(Allons lui enlever son pantalon - ce sera plus facile de le faire sans interrompre sa pipe).
-"
+    MC "(Allons lui enlever son pantalon - ce sera plus facile de le faire sans interrompre sa pipe)."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:316
 translate french MLR3_AS3_con2_acab59e5:
 
     # MC "(If I go for her shirt, then she’s gonna have stop while I pull it over her head.)"
-    MC "(Si je lui prends sa chemise, elle va devoir s'arrêter pendant que je la mets sur sa tête.)"
+    MC "(Si je lui prends son haut, elle va devoir s'arrêter quand il faudra passer sa tête.)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:317
 translate french MLR3_AS3_con2_f1e73f4a_3:
 
     # Mom "*Suck Suck*"
-    Mom "*Suck Suck*"
+    Mom "*Suce Suce*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:321
 translate french MLR3_AS3_con2_3ab8f52a:
@@ -713,7 +712,7 @@ translate french MLR3_AS3_con2_2a46b40b:
 translate french MLR3_AS3_con2_f61ca0f8:
 
     # Mom "*Suck Suck* Hmm?"
-    Mom "*Suck Suck* Hmm?"
+    Mom "*Suce Suce* Hmm?"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:328
 translate french MLR3_AS3_con2_839a9fa5:
@@ -724,7 +723,7 @@ translate french MLR3_AS3_con2_839a9fa5:
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:329
 translate french MLR3_AS3_con2_091bb623:
 
-    # MC "Mmm, you’re not wearing any panties, [Mom_name]!"
+    # MC "Mmm, you’re not wearing any panites, [Mom_name]!"
     MC "Mmm, tu ne portes pas de culotte, [Mom_name]!"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:333
@@ -737,7 +736,7 @@ translate french MLR3_AS3_con2_cf921134:
 translate french MLR3_AS3_con2_539bc65f_2:
 
     # Mom "*SUCK SUCK*"
-    Mom "*SUCK SUCK*"
+    Mom "*SUCE SUCE*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:335
 translate french MLR3_AS3_con2_b1d5f49f:
@@ -749,7 +748,7 @@ translate french MLR3_AS3_con2_b1d5f49f:
 translate french MLR3_AS3_con2_d4c6e479:
 
     # MC "I’d love to plunge my cock deep into you right now. Just throw you down on the bed, or up against the wall, and take you from behind."
-    MC "J'adorerais te fourrer ma bite au fond de toi maintenant. Il suffit de te jeter sur le lit, ou contre le mur, et de te prendre par derrière."
+    MC "J'adorerais fourrer ma bite au fond de toi maintenant. Il suffirait de te jeter sur le lit, ou contre le mur, et te prendre par derrière."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:340
 translate french MLR3_AS3_con2_e36985a2:
@@ -761,7 +760,7 @@ translate french MLR3_AS3_con2_e36985a2:
 translate french MLR3_AS3_con2_c80169ce:
 
     # Mom "(You have NO IDEA how much I want that too!)"
-    Mom "(Tu n'as AUCUNE IDÉE de combien je le veux aussi!)"
+    Mom "(Tu n'as AUCUNE IDÉE à quel point je le veux aussi!)"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:345
 translate french MLR3_AS3_con2_597a0286:
@@ -779,7 +778,7 @@ translate french MLR3_AS3_con2_15545bb3:
 translate french MLR3_AS3_con2_9946f970:
 
     # MC "Yeah, not far off it."
-    MC "Ouais, pas très loin."
+    MC "Ouai, pas très loin."
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:348
 translate french MLR3_AS3_con2_2c6b50d8:
@@ -791,7 +790,7 @@ translate french MLR3_AS3_con2_2c6b50d8:
 translate french MLR3_AS3_con2_913c8148:
 
     # Mom "*Suck Suck Suck*"
-    Mom "*Suck Suck Suck*"
+    Mom "*Suce Suce Suce*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:353
 translate french MLR3_AS3_con2_eeb4f723:
@@ -805,201 +804,200 @@ translate french MLR3_AS3_con2_d68c043e:
     # MC "(She’s sped up now! I’m not gonna last long, if she keeps up this pace!)"
     MC "(Elle a accéléré maintenant ! Je ne vais pas tenir longtemps, si elle continue comme ça !)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:359
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:358
 translate french MLR3_AS3_con2_b136258c:
 
     # Mom "*GAG* *SHLUUURRRRP*"
     Mom "*Mmm* *SHLUUURRRRP*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:360
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:359
 translate french MLR3_AS3_con2_485274a8:
 
     # MC "OHHH! FUCK! Yessss!"
-    MC "OHHH! Putain! Ouiii!"
+    MC "OHHH! Putain! Ouuuui!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:361
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:360
 translate french MLR3_AS3_con2_f617a09e:
 
     # MC "I’m cumming, [Mom_name]! I’m cumming!"
     MC "Je suis en train de jouir, [Mom_name]! Je suis en train de jouir!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:365
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:364
 translate french MLR3_AS3_con2_73230853:
 
     # MC "Hnnnnggg! Ugh! Ahh…"
     MC "Hnnnnggg! Ugh! Ahh…"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:373
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:372
 translate french MLR3_AS3_con2_d0fd4ec9:
 
     # MC "(Fuck, it feels so good, blowing my load in her mouth. It reminds me of how amazing it felt, to cum in her tight pussy!)"
     MC "(Putain, ça fait tellement de bien de se décharger dans sa bouche. Ça me rappelle à quel point c'était génial de jouir dans sa chatte serrée !)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:374
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:373
 translate french MLR3_AS3_con2_c103d2c0:
 
     # Mom "Mmm! (It tastes so good…)"
-    Mom "Mmm! (C'est si bon...)"
+    Mom "Mmm! (C'est si bon…)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:375
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:374
 translate french MLR3_AS3_con2_e90bae89:
 
     # Mom "*Gulp*"
-    Mom "*Gulp*"
+    Mom "*Avale*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:380
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:378
 translate french MLR3_AS3_con2_fb9f3f4d:
 
     # Mom "Ahh…"
     Mom "Ahh…"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:381
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:379
 translate french MLR3_AS3_con2_b1098dea:
 
     # MC "Fuck...That was amazing. Thanks, [Mom_name]."
     MC "Putain... C'était incroyable. Merci, [Mom_name]."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:382
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:380
 translate french MLR3_AS3_con2_e90bae89_1:
 
     # Mom "*Gulp*"
-    Mom "*Gulp*"
+    Mom "*Avale*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:389
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:387
 translate french MLR3_AS3_con2_3dc7ea3c:
 
     # "*Creeeaak*"
-    "*Crakk*"
+    "*Craaaaakk*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:390
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:388
 translate french MLR3_AS3_con2_c8e27c2a:
 
     # MC "Footsteps?!"
     MC "Des bruits de pas ?!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:392
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:390
 translate french MLR3_AS3_con2_2fc8014a:
 
     # Mom "Shit! Your dad isn’t supposed to be home yet - pull your pants up!"
     Mom "Merde ! Ton père n'est pas censé être rentré - remonte ton pantalon !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:394
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:392
 translate french MLR3_AS3_con2_ac19ac1e:
 
     # Mom "Shit! Bob isn’t supposed to be home yet - pull your pants up!"
     Mom "Merde ! Bob n'est pas censé être rentré - remonte ton pantalon !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:397
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:395
 translate french MLR3_AS3_con2_7d8e4bdb:
 
     # MC "(Fuck fuck fuck!)"
-    MC "(Putain de merde de merde !)"
+    MC "(Putain putain putain !)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:398
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:396
 translate french MLR3_AS3_con2_c771ee54:
 
     # Mom "(Shit! Fucking shit!)"
     Mom "(Merde ! Putain de merde !)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:399
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:397
 translate french MLR3_AS3_con2_48c1e588:
 
     # "*Creak*"
-    "*Crakk*"
+    "*Craakk*"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:403
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:401
 translate french MLR3_AS3_con2_a890ede8:
 
     # Caroline "Hey, [player_name]! I’ve run out of white paper. Can I steal some of yours?"
-    Caroline "Hé, [player_name]! Je n'ai plus feuille blanche. Je peux voler les tiennes ?"
+    Caroline "Hé, [player_name]! Je n'ai plus de feuille blanche. Je peux voler les tiennes ?"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:404
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:402
 translate french MLR3_AS3_con2_b00bfb03:
 
     # MC "Y-Yeah, s-sure!"
-    MC "Ouais, ouais, c'est sûr !"
+    MC "Ou-Ouai, b-bien sûr !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:405
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:403
 translate french MLR3_AS3_con2_1bfa031c:
 
     # Caroline "Is everything okay? You seem nervous."
     Caroline "Est-ce que tout va bien ? Tu sembles nerveux."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:409
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:407
 translate french MLR3_AS3_con2_55fc35b9:
 
     # MC "Uh… Y-Yeah, the paper is over there, on my desk."
-    MC "Euh... Oui, les feuilles sont là-bas, sur mon bureau."
+    MC "Euh… Ou-Ouai, les feuilles sont là-bas, sur mon bureau."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:410
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:408
 translate french MLR3_AS3_con2_528440d7:
 
     # Caroline "No problem. Hi, [Mom_name]!"
     Caroline "Pas de problème. Salut, [Mom_name]!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:411
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:409
 translate french MLR3_AS3_con2_aa9cbd72:
 
     # Mom "Mmm hmm!"
     Mom "Mmm hmm!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:415
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:413
 translate french MLR3_AS3_con2_d62cf188:
 
     # Mom "(Shit, I’ve still got some of [player_name]’s cum in my mouth!)"
-    Mom "(Merde, j'ai encore du sperme de [player_name]dans ma bouche !)"
+    Mom "(Merde, j'ai encore du sperme de [player_name] dans ma bouche !)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:416
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:414
 translate french MLR3_AS3_con2_158a3312:
 
     # Mom "(Please, please, please, don’t notice…)"
-    Mom "(S'il te plaît, s'il te plaît, s'il te plaît, ne le remarque pas...)"
+    Mom "(S'il te plaît, s'il te plaît, s'il te plaît, ne le remarque pas…)"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:417
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:415
 translate french MLR3_AS3_con2_9d75ed85:
 
     # Caroline "Anyway, sorry for interrupting you two. I won’t be a minute!"
-    Caroline "Bref, désolé de vous avoir interrompus. J'en ai pour une minute !"
+    Caroline "Bref, désolée de vous avoir interrompus. J'en ai pour une minute !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:421
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:419
 translate french MLR3_AS3_con2_8c81a365:
 
     # Caroline "Do you mind if I steal a pen as well? I think mine’s about to run dry on me."
     Caroline "Ça te dérange si je vole aussi un stylo ? Je crois que le mien est sur le point de me lâcher."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:422
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:420
 translate french MLR3_AS3_con2_385cbf91:
 
     # MC "Yeah, go ahead."
-    MC "Oui, vas-y, vas-y."
+    MC "Ouai, vas-y."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:423
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:421
 translate french MLR3_AS3_con2_3eeaf32f:
 
     # MC "(Thank God we both got our pants back on in time. We came THIS CLOSE, to blowing the gig!)"
-    MC "(Dieu merci, nous avons tous les deux remis nos pantalons à temps. Nous sommes arrivés à finir à temps )"
+    MC "(Dieu merci, nous avons tous les deux remis nos pantalons à temps. On l'a échappé belle ! )"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:427
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:425
 translate french MLR3_AS3_con2_b67eda21:
 
     # Mom "I’m gonna go and prepare dinner. I’ll see you both later on."
     Mom "Je vais aller préparer le dîner. Je vous verrai tous les deux plus tard."
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:428
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:426
 translate french MLR3_AS3_con2_be7fb864:
 
     # Caroline "Bye, [Mom_name]!"
     Caroline "Bye, [Mom_name]!"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:429
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:427
 translate french MLR3_AS3_con2_903560e8:
 
     # MC "S-See ya, later!"
     MC "A-A plus tard !"
 
-# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:430
+# game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:428
 translate french MLR3_AS3_con2_080b4309:
 
     # MC "(Phew… That was FAR too close!)"
-    MC "(Pfiou… C'était vraiment pas passé loin !)"
-
+    MC "(Pfiou… C'était vraiment PAS passé loin !)"

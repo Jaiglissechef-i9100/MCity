@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene1.rpy:15
 translate french caroline_room_morning_scene1_label_08728b1a:
@@ -70,7 +70,7 @@ translate french caroline_room_morning_scene1_label_ee717312:
 translate french caroline_room_morning_scene1_label_6ff38454:
 
     # MC "S-Sorry! I didn’t know you were changing! I should have knocked!"
-    MC "D-Désolé ! Je ne savais pas que tu changeais ! J'aurais dû frapper !"
+    MC "D-Désolé ! Je ne savais pas que tu te changeais ! J'aurais dû frapper !"
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene1.rpy:39
 translate french caroline_room_morning_scene1_label_4f47e339:
@@ -94,7 +94,7 @@ translate french caroline_room_morning_scene1_label_a61094ff:
 translate french caroline_room_morning_scene1_label_7946d612:
 
     # MC "(I thought her ass was good, but her breasts might even be better!)"
-    MC "(Je pensais que son cul était beau, mais ses seins pourraient être encore mieux !)"
+    MC "(Je savais que son cul était beau, mais ses seins sont encore mieux !)"
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene1.rpy:43
 translate french caroline_room_morning_scene1_label_2ce5db06:

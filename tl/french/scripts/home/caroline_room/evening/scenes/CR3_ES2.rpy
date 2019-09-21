@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/evening/scenes/CR3_ES2.rpy:25
 translate french CR3_ES2_label_08728b1a:
@@ -130,13 +130,13 @@ translate french CR3_ES2_label_499a59e8:
 translate french CR3_ES2_label_234e7bb3:
 
     # Caroline "(Whispered) You really have no idea, how lucky a guy you are."
-    Caroline "<Chuchute> Tu n'as vraiment aucune idée de la chance que tu as."
+    Caroline "<Chuchotant> Tu n'as vraiment aucune idée de la chance que tu as."
 
 # game/scripts/home/caroline_room/evening/scenes/CR3_ES2.rpy:81
 translate french CR3_ES2_label_69995ae8:
 
     # Caroline "(Whispered) My ex would LITERALLY kill to have what you have with me."
-    Caroline "<Chuchote> Mon ex tuerait LITTÉRALEMENT pour avoir ce que tu as avec moi."
+    Caroline "<Chuchotant> Mon ex tuerait LITTÉRALEMENT pour avoir ce que tu as avec moi."
 
 # game/scripts/home/caroline_room/evening/scenes/CR3_ES2.rpy:82
 translate french CR3_ES2_label_b19f16fa:

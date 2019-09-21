@@ -1,16 +1,16 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:17
 translate french ML_morning_scene0_v1_label_de5563f1:
 
     # MC "(Huh, that’s unusual. That’s Mom’s office suit.)"
-    MC "(Hein, c'est inhabituel. C'est le costume de bureau de Maman.)"
+    MC "(Hein, c'est inhabituel. C'est la tenue de bureau de Maman.)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:19
 translate french ML_morning_scene0_v1_label_844fcadf:
 
     # MC "(Huh, that’s unusual. That’s Linda’s office suit.)"
-    MC "(Hein, c'est inhabituel. C'est le costume de bureau de Linda.)"
+    MC "(Hein, c'est inhabituel. C'est la tenue de bureau de Linda.)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:20
 translate french ML_morning_scene0_v1_label_03247729:
@@ -22,19 +22,19 @@ translate french ML_morning_scene0_v1_label_03247729:
 translate french ML_morning_scene0_v1_label_e6701694:
 
     # MC "(Her legs DO look really good in it though…)"
-    MC "(Ses jambes ont l'air vraiment belle en faite…)"
+    MC "(Ses jambes SONT vraiment belle en faite…)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:24
 translate french ML_morning_scene0_v1_label_79b3ab91:
 
     # MC "(Wait - what am I thinking?!)"
-    MC "(Attendez - à quoi je pense ?!)"
+    MC "(Attend - à quoi je pense ?!)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:25
 translate french ML_morning_scene0_v1_label_764a1127:
 
     # MC "(Ever since she kissed me on the mouth the other morning, these lewd thoughts about her have kept creeping into my mind.)"
-    MC "(Depuis qu'elle m'a embrassé sur la bouche l'autre matin, ces pensées lubriques à son sujet n'ont cessé de me trotter dans la tête.)"
+    MC "(Depuis qu'elle m'a embrassée sur la bouche l'autre matin, ces pensées lubriques à son sujet n'ont cessé de me trotter dans la tête.)"
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:26
 translate french ML_morning_scene0_v1_label_2583ac39:
@@ -88,7 +88,7 @@ translate french ML_morning_scene0_v1_label_c1a0d887:
 translate french ML_morning_scene0_v1_label_9ebf7065:
 
     # Mom "Sorry - you were just so sad there, back then. And I wanted to try and make my boy happy."
-    Mom "Désolée - tu étais si triste, à l'époque. Et je voulais essayer de rendre mon fils heureux."
+    Mom "Désolée - tu étais si triste, ce jour là. Et je voulais essayer de rendre mon fils heureux."
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:43
 translate french ML_morning_scene0_v1_label_d56c0400:
@@ -106,7 +106,7 @@ translate french ML_morning_scene0_v1_label_550bf977:
 translate french ML_morning_scene0_v1_label_79f650e7:
 
     # MC "Y-Yeah, Mom. It’s alright."
-    MC "Ou-Ouai, maman. Ce n'est pas grave."
+    MC "Ou-Ouai, Maman. Ce n'est pas grave."
 
 # game/scripts/home/corridor/morning/scenes/ML_morning_scene0_v1.rpy:48
 translate french ML_morning_scene0_v1_label_c583ae6b:

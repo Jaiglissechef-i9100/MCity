@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/kitchen/morning/scenes/ml_kitchen_morning_scene4_v1.rpy:29
 translate french ml_kitchen_morning_scene4_V1_label_2effc887:
@@ -221,3 +221,9 @@ translate french ml_kitchen_morning_scene4_V1_label_15d5ec2d:
 
     # MC "Thanks!"
     MC "Merci !"
+
+translate french strings:
+
+    # script.rpy:67
+    old "Linda's Friend"
+    new "Amie de Linda"

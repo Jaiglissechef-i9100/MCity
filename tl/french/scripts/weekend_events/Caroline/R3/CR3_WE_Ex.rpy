@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE_Ex.rpy:19
 translate french CR3_WE_Ex_label_e5806e3b:

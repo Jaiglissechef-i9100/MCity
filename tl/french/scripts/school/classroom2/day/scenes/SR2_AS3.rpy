@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom2/day/scenes/SR2_AS3.rpy:11
 translate french SR2_AS3_label_08728b1a:
@@ -100,7 +100,7 @@ translate french SR2_AS3_label_468c3e55:
 translate french SR2_AS3_label_ec1e800d:
 
     # Sara "(Gulp) O-Okay, I’ll be in your bedroom."
-    Sara "(*Avale*)O-Ok, je serai dans ta chambre."
+    Sara "(Avale) O-Ok, je serai dans ta chambre."
 
 # game/scripts/school/classroom2/day/scenes/SR2_AS3.rpy:60
 translate french SR2_AS3_label_a112087b:

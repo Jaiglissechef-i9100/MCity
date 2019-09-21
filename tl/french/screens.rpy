@@ -1,351 +1,355 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 translate french strings:
 
-    # screens.rpy:105
+    # screens.rpy:67
     old "Changelog"
     new "Changelog"
 
-    # screens.rpy:127
+    # screens.rpy:88
     old "Return"
     new "Retour"
 
-    # screens.rpy:309
+    # screens.rpy:230
     old "Back"
-    new "Back"
+    new "Retour"
 
-    # screens.rpy:310
+    # screens.rpy:231
     old "History"
     new "Historique"
 
-    # screens.rpy:311
+    # screens.rpy:232
     old "Skip"
     new "Sauter"
 
-    # screens.rpy:312
+    # screens.rpy:233
     old "Auto"
     new "Auto"
 
-    # screens.rpy:313
+    # screens.rpy:234
     old "Save"
     new "Sauvegarder"
 
-    # screens.rpy:314
+    # screens.rpy:235
     old "Q.Save"
-    new "Sauvegarde.R"
+    new "Sauv.R"
 
-    # screens.rpy:315
+    # screens.rpy:236
     old "Q.Load"
-    new "Chargement.R"
+    new "Charg.R"
 
-    # screens.rpy:316
+    # screens.rpy:237
     old "Prefs"
-    new "Prefs"
+    new "Préfs"
 
-    # screens.rpy:360
+    # screens.rpy:267
     old "Start"
     new "Démarrer"
 
-    # screens.rpy:369
+    # screens.rpy:275
     old "Load"
     new "Charger"
 
-    # screens.rpy:371
+    # screens.rpy:277
     old "Preferences"
     new "Préférences"
 
-    # screens.rpy:376
+    # screens.rpy:281
     old "End Replay"
-    new "Fin de la rediffusion"
+    new "Fin de la relecture"
 
-    # screens.rpy:380
+    # screens.rpy:285
     old "Main Menu"
     new "Menu principal"
 
-    # screens.rpy:382
+    # screens.rpy:287
     old "Credits"
     new "Crédits"
 
-    # screens.rpy:388
+    # screens.rpy:291
     old "Quit"
     new "Quitter"
 
-    # screens.rpy:710
+    # screens.rpy:359
+    old "Translate French by Larry Kubiac and psyko47"
+    new "Traduction Française par Larry Kubiac et psyko47"
+
+    # screens.rpy:568
     old "Save  "
     new "Sauvegarder  "
 
-    # screens.rpy:718
+    # screens.rpy:574
     old "Load  "
     new "Charger  "
 
-    # screens.rpy:723
+    # screens.rpy:578
     old "Page {}"
     new "Page {}"
 
-    # screens.rpy:723
+    # screens.rpy:578
     old "Automatic saves"
     new "Sauvegarde automatique"
 
-    # screens.rpy:723
+    # screens.rpy:578
     old "Quick saves"
     new "Sauvegarde rapide"
 
-    # screens.rpy:765
+    # screens.rpy:616
     old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%d/%m/%Y, %H:%M"
 
-    # screens.rpy:765
+    # screens.rpy:616
     old "empty slot"
     new "Slot vide"
 
-    # screens.rpy:782
+    # screens.rpy:632
     old "<"
     new "<"
 
-    # screens.rpy:785
+    # screens.rpy:635
     old "{#auto_page}A"
     new "{#auto_page}A"
 
-    # screens.rpy:788
+    # screens.rpy:638
     old "{#quick_page}Q"
-    new "{#quick_page}Q"
+    new "{#quick_page}R"
 
-    # screens.rpy:794
+    # screens.rpy:644
     old ">"
     new ">"
 
-    # screens.rpy:852
+    # screens.rpy:692
     old "Display"
     new "Affichage"
 
-    # screens.rpy:853
+    # screens.rpy:693
     old "Window"
-    new "Fenêtré"
+    new "Fenêtre"
 
-    # screens.rpy:854
+    # screens.rpy:694
     old "Fullscreen"
     new "Plein écran"
 
-    # screens.rpy:858
+    # screens.rpy:698
     old "Language"
-    new "Language"
+    new "Langue"
 
-    # screens.rpy:859
+    # screens.rpy:699
     old "English"
     new "Anglais"
 
-    # screens.rpy:860
+    # screens.rpy:700
     old "French"
     new "Français"
 
-    # screens.rpy:864
+    # screens.rpy:704
     old "Rollback Side"
     new "Retour Arr."
 
-    # screens.rpy:865
+    # screens.rpy:705
     old "Disable"
     new "Désactiver"
 
-    # screens.rpy:866
+    # screens.rpy:706
     old "Left"
     new "Gauche"
 
-    # screens.rpy:867
+    # screens.rpy:707
     old "Right"
     new "Droite"
 
-    # screens.rpy:872
+    # screens.rpy:712
     old "Unseen Text"
     new "Texte Invisible"
 
-    # screens.rpy:873
+    # screens.rpy:713
     old "After Choices"
     new "Après Choix"
 
-    # screens.rpy:874
+    # screens.rpy:714
     old "Transitions"
     new "Transitions"
 
-    # screens.rpy:889
+    # screens.rpy:726
     old "Text Speed"
     new "Vitesse du Texte"
 
-    # screens.rpy:893
+    # screens.rpy:730
     old "Auto-Forward Time"
     new "Temps d'avance du texte"
 
-    # screens.rpy:900
+    # screens.rpy:737
     old "Music Volume"
     new "Volume Musique"
 
-    # screens.rpy:907
+    # screens.rpy:744
     old "Sound Volume"
     new "Volume Son"
 
-    # screens.rpy:913
+    # screens.rpy:750
     old "Test"
     new "Test"
 
-    # screens.rpy:921
+    # screens.rpy:755
     old "Mute All"
     new "Tout Muet"
 
-    # screens.rpy:1041
+    # screens.rpy:858
     old "The dialogue history is empty."
-    new "The dialogue history is empty."
+    new "L'historique des dialogues est vide."
 
-    # screens.rpy:1105
+    # screens.rpy:909
     old "Help"
     new "Aide"
 
-    # screens.rpy:1114
+    # screens.rpy:918
     old "Keyboard"
     new "Clavier"
 
-    # screens.rpy:1115
+    # screens.rpy:919
     old "Mouse"
     new "Souris"
 
-    # screens.rpy:1118
+    # screens.rpy:922
     old "Gamepad"
     new "Manette"
 
-    # screens.rpy:1131
+    # screens.rpy:934
     old "Enter"
     new "Entrer"
 
-    # screens.rpy:1132
+    # screens.rpy:935
     old "Advances dialogue and activates the interface."
     new "Fait avancer le dialogue et active l'interface."
 
-    # screens.rpy:1135
+    # screens.rpy:938
     old "Space"
     new "Espace"
 
-    # screens.rpy:1136
+    # screens.rpy:939
     old "Advances dialogue without selecting choices."
     new "Fait avancer le dialogue sans sélectionner de choix."
 
-    # screens.rpy:1139
+    # screens.rpy:942
     old "Arrow Keys"
     new "Touches fléchées"
 
-    # screens.rpy:1140
+    # screens.rpy:943
     old "Navigate the interface."
     new "Naviguez dans l'interface."
 
-    # screens.rpy:1143
+    # screens.rpy:946
     old "Escape"
     new "Echap"
 
-    # screens.rpy:1144
+    # screens.rpy:947
     old "Accesses the game menu."
     new "Accesses the game menu."
 
-    # screens.rpy:1147
+    # screens.rpy:950
     old "Ctrl"
     new "Ctrl"
 
-    # screens.rpy:1148
+    # screens.rpy:951
     old "Skips dialogue while held down."
     new "Saute le dialogue tout en le maintenant enfoncé."
 
-    # screens.rpy:1151
+    # screens.rpy:954
     old "Tab"
     new "Tab"
 
-    # screens.rpy:1152
+    # screens.rpy:955
     old "Toggles dialogue skipping."
     new "Permet d'ignorer les dialogues."
 
-    # screens.rpy:1155
+    # screens.rpy:958
     old "Page Up"
     new "Page Up"
 
-    # screens.rpy:1156
+    # screens.rpy:959
     old "Rolls back to earlier dialogue."
     new "Permet de revenir au dialogue précédent."
 
-    # screens.rpy:1159
+    # screens.rpy:962
     old "Page Down"
     new "Page Down"
 
-    # screens.rpy:1160
+    # screens.rpy:963
     old "Rolls forward to later dialogue."
     new "Permet de revenir au dialogue suivant."
 
-    # screens.rpy:1164
+    # screens.rpy:967
     old "Hides the user interface."
     new "Masque l'interface utilisateur."
 
-    # screens.rpy:1168
+    # screens.rpy:971
     old "Takes a screenshot."
-    new "Faire un screenshot."
+    new "Fait un screenshot."
 
-    # screens.rpy:1172
+    # screens.rpy:975
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
     new "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
 
-    # screens.rpy:1178
+    # screens.rpy:980
     old "Left Click"
     new "Clic Gauche"
 
-    # screens.rpy:1182
+    # screens.rpy:984
     old "Middle Click"
     new "Clic du milieu"
 
-    # screens.rpy:1186
+    # screens.rpy:988
     old "Right Click"
     new "Clic Droit"
 
-    # screens.rpy:1190
+    # screens.rpy:992
     old "Mouse Wheel Up\nClick Rollback Side"
     new "Roulette haut\nClick Rollback Side"
 
-    # screens.rpy:1194
+    # screens.rpy:996
     old "Mouse Wheel Down"
     new "Roulette Bas"
 
-    # screens.rpy:1201
+    # screens.rpy:1002
     old "Right Trigger\nA/Bottom Button"
     new "Right Trigger\nA/Bottom Button"
 
-    # screens.rpy:1205
+    # screens.rpy:1006
     old "Left Trigger\nLeft Shoulder"
     new "Left Trigger\nLeft Shoulder"
 
-    # screens.rpy:1209
+    # screens.rpy:1010
     old "Right Shoulder"
     new "Right Shoulder"
 
-    # screens.rpy:1214
+    # screens.rpy:1015
     old "D-Pad, Sticks"
     new "D-Pad, Sticks"
 
-    # screens.rpy:1218
+    # screens.rpy:1019
     old "Start, Guide"
     new "Start, Guide"
 
-    # screens.rpy:1222
+    # screens.rpy:1023
     old "Y/Top Button"
     new "Y/Top Button"
 
-    # screens.rpy:1225
+    # screens.rpy:1026
     old "Calibrate"
     new "Calibrate"
 
-    # screens.rpy:1290
+    # screens.rpy:1075
     old "Yes"
     new "Oui"
 
-    # screens.rpy:1291
+    # screens.rpy:1076
     old "No"
     new "Non"
 
-    # screens.rpy:1337
+    # screens.rpy:1112
     old "Skipping"
     new "Sauter"
 
-    # screens.rpy:1559
+    # screens.rpy:1298
     old "Menu"
     new "Menu"

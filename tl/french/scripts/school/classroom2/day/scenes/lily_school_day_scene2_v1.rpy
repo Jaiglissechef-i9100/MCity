@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:19
 translate french lily_school_day_scene2_v1_label_57099fa5:
@@ -144,43 +144,43 @@ translate french lily_school_day_scene2_v1_label_f1e184bb:
     # Lily "See ya later, [player_name]."
     Lily "A plus tard, [player_name]."
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:64
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:63
 translate french lily_school_day_scene2_v1_label_819a7153:
 
     # MC "Oh look! It rolled under your side of the table. I think it’ll be easier for you to pick it up."
     MC "Oh regarde ! Il a roulé sous ton côté de la table. Je pense que ce sera plus facile pour toi de le ramasser."
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:65
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:64
 translate french lily_school_day_scene2_v1_label_ecef0d60:
 
     # Lily "Huh?"
     Lily "Hein ?"
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:66
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:65
 translate french lily_school_day_scene2_v1_label_58ab995e:
 
     # MC "Look - it’s just down on your side of the desk."
     MC "Regarde - c'est juste de ton côté du bureau."
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:67
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:66
 translate french lily_school_day_scene2_v1_label_8605213a:
 
     # Lily "(Does he not understand? I’m TRYING to show him my panties!)"
     Lily "(Il ne comprend pas ? J'ESSAIE de lui montrer ma culotte !)"
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:69
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:68
 translate french lily_school_day_scene2_v1_label_2c4b20cc:
 
     # Lily "(Is he seriously this dense?! I’m giving him the PERFECT opportunity! Dozens of guys in this school would KILL to be able to see up my skirt!)"
     Lily "(Est-il sérieusement aussi lent ?! Je lui donne l'occasion PARFAITE ! Des douzaines de gars dans cette école TUERAIENT pour pouvoir voir sous ma jupe !)"
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:70
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:69
 translate french lily_school_day_scene2_v1_label_47bf8605:
 
     # MC "Anyway, I better head on out of here. Things to do! I’ll catch you later, Lily."
     MC "Bref, je ferais mieux de partir d'ici. Choses à faire ! On se voit plus tard, Lily."
 
-# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:71
+# game/scripts/school/classroom2/day/scenes/lily_school_day_scene2_v1.rpy:70
 translate french lily_school_day_scene2_v1_label_a8bd042a:
 
     # Lily "Grr… See you later."

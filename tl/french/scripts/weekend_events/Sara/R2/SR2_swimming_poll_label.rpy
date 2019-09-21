@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/weekend_events/Sara/R2/SR2_swimming_poll_label.rpy:35
 translate french SR2_weekend_swimming_pool_label_bf6b8989:
@@ -101,3 +101,21 @@ translate french SR2_weekend_swimming_pool_label_edde4676:
 
     # MC "Oh yeah, I totally forgot. Sorry."
     MC "Oh ouai, j'avais complètement oublié. Désolé."
+
+translate french strings:
+
+    # scripts\weekend_events\Sara\R2\SR2_swimming_poll_label.rpy:88
+    old "Swim with Sara In The Pool"
+    new "Nagez avec Sara dans la Piscine"
+
+    # scripts\weekend_events\Sara\R2\SR2_swimming_poll_label.rpy:99
+    old "Drink Lemonade"
+    new "Boire de la Limonade"
+
+    # scripts\weekend_events\Sara\R2\SR2_swimming_poll_label.rpy:110
+    old "Lounge Chairs"
+    new "Chaises Longues"
+
+    # scripts\weekend_events\Sara\R2\SR2_swimming_poll_label.rpy:121
+    old "Water Slide"
+    new "Toboggan Aquatique"

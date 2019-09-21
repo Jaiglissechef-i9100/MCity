@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/school/teacher_room1/day/celia_laptop/celia_laptopv1.rpy:13
 translate french celia_day_laptopv1_label_722e2c67:
@@ -46,7 +46,7 @@ translate french celia_password_correct_v1_9c6f3a54:
 translate french celia_password_correct_v1_07eeb610:
 
     # MC "(Wait… Hold up! This isn’t a grades recording folder!)"
-    MC "(Attendez… Attendez ! Ce n'est pas un dossier d'enregistrement de notes !)"
+    MC "(Attend un peu… Ce n'est pas un dossier d'enregistrement de notes !)"
 
 # game/scripts/school/teacher_room1/day/celia_laptop/celia_laptopv1.rpy:37
 translate french celia_password_correct_v1_2b87fce9:

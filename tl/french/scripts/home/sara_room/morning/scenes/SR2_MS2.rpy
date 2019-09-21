@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:19
 translate french SR2_MS2_label_51540a66:
@@ -136,7 +136,7 @@ translate french SR2_MS2_label_ae8d298b:
 translate french SR2_MS2_label_9dddd9ba:
 
     # Sara "(Sniff!)"
-    Sara "(*Sniff* !)"
+    Sara "(Sniff !)"
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:66
 translate french SR2_MS2_label_b116e9fe:
@@ -154,7 +154,7 @@ translate french SR2_MS2_label_2c92e979:
 translate french SR2_MS2_label_b985bdcd:
 
     # Sara "This isn’t fair! (Sob!)"
-    Sara "Ce n'est pas juste ! (*sanglots* !)"
+    Sara "Ce n'est pas juste ! (Sanglots !)"
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:72
 translate french SR2_MS2_label_9eb29cfb:
@@ -184,13 +184,13 @@ translate french SR2_MS2_label_51f5ffae:
 translate french SR2_MS2_label_e8a16427:
 
     # Sara "(Sniff) Y-Yes, Mom."
-    Sara "(*Sniff*) O-Oui, Maman."
+    Sara "(Sniff) O-Oui, Maman."
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:79
 translate french SR2_MS2_label_4b037d84:
 
     # Sara "(Sniff) Y-Yes, Linda."
-    Sara "(*Sniff*) O-Oui, Linda."
+    Sara "(Sniff) O-Oui, Linda."
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:83
 translate french SR2_MS2_label_a858115b:
@@ -258,13 +258,13 @@ translate french SR2_MS2_label_dc7a433f:
     # MC "(Then again, Sara probably should have actually studied for her tests. She did bring most of this on, herself.)"
     MC "(D'un autre côté, Sara aurait probablement dû étudier pour ses tests. C'est elle qui a apportée la plus grande partie de tout ça.)"
 
-# game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:123
+# game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:121
 translate french SR2_grounded_label_08b97e86:
 
     # MC "I can't go in. Mom asked me to not do it."
     MC "Je ne peux pas entrer. Maman m'a demandé de ne pas le faire."
 
-# game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:125
+# game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:123
 translate french SR2_grounded_label_c7bc63a1:
 
     # MC "I can't go in. Linda asked me to not do it."

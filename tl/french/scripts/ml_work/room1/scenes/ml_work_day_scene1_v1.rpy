@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:27
 translate french ml_work_day_scene1_v1_label_10d7ea04:
@@ -166,7 +166,7 @@ translate french ml_work_day_scene1_v1_label_after_minigame_ad3b0fde:
 translate french ml_work_day_scene1_v1_label_after_minigame_f721b634:
 
     # MC "(Gulp.)"
-    MC "(*Avale*)"
+    MC "(Avale.)"
 
 # game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:89
 translate french ml_work_day_scene1_v1_menu_0de30893:
@@ -420,151 +420,151 @@ translate french ml_work_day_scene1_v1_menu_after_5dca8082:
     # MC "It’s a bit too… intense…."
     MC "C'est un peu trop… intense…"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:189
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:190
 translate french ml_work_day_scene1_v1_menu_after2_17627cb5:
 
     # Mom "(Oh, God… What am I doing?)"
     Mom "(Oh, mon Dieu… Qu'est-ce que je fais ?)"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:191
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:192
 translate french ml_work_day_scene1_v1_menu_after2_3851591a:
 
     # Mom "(I can’t believe I’ve sunk this low. What kind of mother tries to rape her own son?!)"
     Mom "(Je n'arrive pas à croire que je sois tombée si bas. Quel genre de mère essaie de violer son propre fils ?!)"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:193
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:194
 translate french ml_work_day_scene1_v1_menu_after2_fda991a3:
 
     # Mom "(I can’t believe I’ve sunk this low... To even try to rape him?!)"
     Mom "(Je n'arrive pas à croire que je sois tombée si bas... Même pour essayer de le violer ?!)"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:194
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:195
 translate french ml_work_day_scene1_v1_menu_after2_077fbd18:
 
     # Mom "I… I’m so sorry."
     Mom "Je… Je suis vraiment désolée."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:196
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:197
 translate french ml_work_day_scene1_v1_menu_after2_f496e6a8:
 
     # MC "Mom, I-"
     MC "Maman, je-"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:198
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:199
 translate french ml_work_day_scene1_v1_menu_after2_b2b1a4a7:
 
     # MC "Linda, I-"
     MC "Linda, je-"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:201
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:202
 translate french ml_work_day_scene1_v1_menu_after2_28d20632:
 
     # Mom "I’m so so sorry, [player_name]."
     Mom "Je suis vraiment désolée, [player_name]."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:203
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:204
 translate french ml_work_day_scene1_v1_menu_after2_d854faa9:
 
     # MC "It’s okay, Mom."
     MC "C'est bon, Maman."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:205
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:206
 translate french ml_work_day_scene1_v1_menu_after2_e3a0c50e:
 
     # MC "It’s okay, Linda."
     MC "C'est bon, Linda."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:206
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:207
 translate french ml_work_day_scene1_v1_menu_after2_2c3aca28:
 
     # Mom "No, it’s not okay."
     Mom "Non, ce n'est pas bon."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:207
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:208
 translate french ml_work_day_scene1_v1_menu_after2_b034ea66:
 
     # Mom "I’ve always felt this way."
     Mom "C'est ce que j'ai toujours ressentie."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:210
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:211
 translate french ml_work_day_scene1_v1_menu_after2_b33a04ce:
 
     # Mom "I’ve been able to contain my emotions for so long."
     Mom "J'ai été capable de contenir mes émotions pendant si longtemps."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:211
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:212
 translate french ml_work_day_scene1_v1_menu_after2_703a5304:
 
     # Mom "I kept it all inside - and sometimes, I allowed myself to fantasise about being with you."
     Mom "J'ai tout gardée à l'intérieur - et parfois, je me suis permis de fantasmer d'être avec toi."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:212
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:213
 translate french ml_work_day_scene1_v1_menu_after2_5cfe49b6:
 
     # Mom "But I always felt SO guilty afterwards."
     Mom "Mais je me suis toujours sentie tellement coupable après."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:213
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:214
 translate french ml_work_day_scene1_v1_menu_after2_a87d5541:
 
     # Mom "It was when you started wanting to date other women, that I finally cracked."
     Mom "C'est quand tu as commencé à vouloir sortir avec d'autres femmes que j'ai craqué."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:214
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:215
 translate french ml_work_day_scene1_v1_menu_after2_9f4e6f98:
 
     # Mom "I… (sniff) I couldn’t stand the thought of you being romantically involved with someone else."
-    Mom "Je… (*Sniff*) Je ne supportais pas l'idée que tu sois amoureuse de quelqu'un d'autre."
+    Mom "Je… (sniff) Je ne supportais pas l'idée que tu sois amoureuse de quelqu'un d'autre."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:218
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:219
 translate french ml_work_day_scene1_v1_menu_after2_82c8f3ad:
 
     # MC "Shush - it’s okay, Mom. Breathe and relax."
     MC "Chut - c'est bon, Maman. Respire et détend-toi."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:220
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:221
 translate french ml_work_day_scene1_v1_menu_after2_cd1966db:
 
     # MC "Shush - it’s okay Linda. Breathe and relax."
     MC "Chut - c'est bon Linda. Respire et détend-toi."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:221
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:222
 translate french ml_work_day_scene1_v1_menu_after2_72893322:
 
     # MC "You know that I lov-"
     MC "Tu sais que j'adore-"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:224
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:225
 translate french ml_work_day_scene1_v1_menu_after2_e8bebcd6:
 
     # Mom "No. No."
     Mom "Non. Non."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:225
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:226
 translate french ml_work_day_scene1_v1_menu_after2_1437d1ec:
 
     # Mom "I don’t want to hear it right now."
     Mom "Je ne veux pas l'entendre maintenant."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:226
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:227
 translate french ml_work_day_scene1_v1_menu_after2_b3f2731a:
 
     # Mom "I’m feeling like a compelte piece of shit, after what I did to you today."
     Mom "Je me sens comme une merde, après ce que je t'ai fait aujourd'hui."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:227
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:228
 translate french ml_work_day_scene1_v1_menu_after2_a1d6b2b0:
 
     # Mom "Just… think about everything I told you and… let me know tomorrow morning. Okay?"
     Mom "Pense à tout ce que je t'ai dit et… dis-le-moi demain matin. D'accord ?"
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:229
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:230
 translate french ml_work_day_scene1_v1_menu_after2_077e8ff5:
 
     # MC "O-Okay, Mom."
     MC "O-Ok, Maman."
 
-# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:231
+# game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:232
 translate french ml_work_day_scene1_v1_menu_after2_1960712d:
 
     # MC "O-Okay, Linda."

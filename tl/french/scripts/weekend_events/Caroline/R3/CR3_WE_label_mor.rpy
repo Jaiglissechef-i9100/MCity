@@ -1,18 +1,18 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:73
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:74
 translate french CR3_WE_label_mor_b66738c1:
 
     # "*Tweet Tweet*"
     "*Cui Cui*"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:75
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:76
 translate french CR3_WE_label_mor_a1f51002:
 
     # MC "Ugh... Bloody birds..."
     MC "Ugh... Putain d'oiseaux..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:76
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:77
 translate french CR3_WE_label_mor_300cfddf:
 
     # MC "*YAWN* It’s about time I get up, anyway."
@@ -150,49 +150,49 @@ translate french CR3_WE_label_mor_ee9921ca:
     # MC "Well, you told me that you love me. Does that count?"
     MC "Tu m'as dit que tu m'aimais. Est-ce que ça compte ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:129
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:128
 translate french CR3_WE_label_mor_cf67231a:
 
     # Caroline "I what?!"
     Caroline "Je quoi ?!"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:130
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:129
 translate french CR3_WE_label_mor_a09e9904:
 
     # Caroline "(FUCK! I knew that drinking with him, was going to be a bad idea! Why did I decide to do it?!)"
     Caroline "(PUTAIN ! Je savais que boire avec lui, ça allait être une mauvaise idée ! Pourquoi ai-je décidée de le faire ?!)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:131
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:130
 translate french CR3_WE_label_mor_56c78407:
 
     # Caroline "D-Did I actually say that?!"
     Caroline "J-J'ai vraiment dit ça ?!"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:132
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:131
 translate french CR3_WE_label_mor_7f9b5e24:
 
     # MC "Multiple times..."
     MC "Plusieurs fois..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:136
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:135
 translate french CR3_WE_label_mor_cb63aeb1:
 
     # Caroline "Haha! It was... a... a joke! I do silly jokes when I’m drunk!"
     Caroline "Haha ! C'était... une... une blague ! Je fais des blagues idiotes quand je suis ivre !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:137
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:136
 translate french CR3_WE_label_mor_118d2ac0:
 
     # MC "It didn’t... sound like a joke."
     MC "Ça ne ressemblait pas... à une blague."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:138
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:137
 translate french CR3_WE_label_mor_e7845b00:
 
     # Caroline "It was a joke! End of story. Let’s not talk about this again..."
     Caroline "C'était une blague ! Fin de l'histoire. Ne reparlons plus de ça..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:139
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:138
 translate french CR3_WE_label_mor_9ba0d270:
 
     # MC "(Wow, she’s engaging in more censorship than the Chinese government, right now! She’s just trying to backtrack, and redefine what happened!)"
@@ -498,591 +498,590 @@ translate french CR3_WE_label_mor_con1_cdab1eae:
     # Caroline "Gah, you’re persistent. You know that?!"
     Caroline "Pff, tu es tenace. Tu le sais ça ?!"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:256
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:255
 translate french CR3_WE_label_mor_con1_dc3a39ac:
 
     # MC "C’mon, Caroline - off with the towel!"
     MC "Allez, Caroline - va mettre une serviette !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:257
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:256
 translate french CR3_WE_label_mor_con1_e27865ca:
 
     # Caroline "Fine. Just give me a second, to unwrap it."
     Caroline "Très bien. Donnez-moi une seconde, pour le défaire."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:261
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:260
 translate french CR3_WE_label_mor_con1_b27f3b66:
 
     # Caroline "Hang on - you’re still wearing your underwear! Our deal states that, both us have to be naked!"
     Caroline "Tiens mais - tu portes toujours tes sous-vêtements ! Notre accord stipule que nous devons être nus tous les deux !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:262
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:261
 translate french CR3_WE_label_mor_con1_3985ceeb:
 
     # Caroline "C’mon - get them off too!"
     Caroline "Allez - enlève-les aussi !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:266
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:265
 translate french CR3_WE_label_mor_con1_526f2ffc:
 
     # MC "*Sigh* You got me there."
     MC "*Soupir* Tu m'as eu là."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:267
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:266
 translate french CR3_WE_label_mor_con1_a0a0505f:
 
     # MC "Fine, I’ll take them off - but you better not welch out of taking that towel off!"
     MC "D'accord, je les enlèverai - mais tu ferais mieux de ne pas te défiler en enlevant cette serviette !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:271
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:270
 translate french CR3_WE_label_mor_con1_5097f161:
 
     # Caroline "*Gulp* Well, here you go."
     Caroline "*Avale* Eh bien, voilà pour toi."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:272
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:271
 translate french CR3_WE_label_mor_con1_5c95b76a:
 
     # MC "(Oh yeah! She’s completely naked! This is awesome!)"
     MC "(Oh ouai ! Elle est complètement nue ! C'est génial !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:273
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:272
 translate french CR3_WE_label_mor_con1_533d22d3:
 
     # MC "(I wonder how far I’ll be able to take things, today.)"
     MC "(Je me demande jusqu'où je pourrai aller aujourd'hui.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:277
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:276
 translate french CR3_WE_label_mor_con1_67056414:
 
     # MC "(She’s got - a smoking hot - body... Hopefully I’ll get to play with it, in a few minutes!)"
     MC "(Elle a - un corps sexy et canon... J'espère pouvoir jouer avec, dans quelques minutes !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:278
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:277
 translate french CR3_WE_label_mor_con1_b38046de:
 
     # Caroline "Well? Are you done leering at me?"
     Caroline "Eh bien ? Tu as fini de me fixer ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:279
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:278
 translate french CR3_WE_label_mor_con1_c8f593b0:
 
     # MC "Just a few more seconds..."
     MC "Encore quelques secondes..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:280
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:279
 translate french CR3_WE_label_mor_con1_53eb20e5:
 
     # MC "Can I grab your tits?"
     MC "Je peux peloter tes seins ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:281
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:280
 translate french CR3_WE_label_mor_con1_5d8aa705:
 
     # Caroline "Yeah, I guess so. Go ahead."
     Caroline "Ouai, je suppose que oui. vas-y."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:285
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:284
 translate french CR3_WE_label_mor_con1_084a83e1:
 
     # MC "Sweet!"
     MC "Super !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:286
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:285
 translate french CR3_WE_label_mor_con1_265da619:
 
     # MC "(This is awesome! Her tits are so firm!)"
     MC "(C'est génial ! Ses seins sont si fermes !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:287
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:286
 translate french CR3_WE_label_mor_con1_df0bd9d5:
 
     # Caroline "Ah..."
     Caroline "Ah..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:291
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:290
 translate french CR3_WE_label_mor_con1_9b189c58:
 
     # MC "(Heh. It sounds like she’s enjoying, me squeezing them, too!)"
     MC "(Euh, on dirait qu'elle adore me voir les serrer aussi !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:292
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:291
 translate french CR3_WE_label_mor_con1_96dbf492:
 
     # MC "(God, these are fucking incredible!)"
     MC "(Putain, c'est incroyable !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:293
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:292
 translate french CR3_WE_label_mor_con1_021b0d61:
 
     # Caroline "Oh..."
     Caroline "Oh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:297
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:296
 translate french CR3_WE_label_mor_con1_7e09c747:
 
     # MC "(Hmm? I wonder if I can convince her to let me, play with her pussy, too.)"
     MC "(Hum ? Je me demande si je peux la convaincre de me laisser jouer avec sa chatte aussi.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:298
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:297
 translate french CR3_WE_label_mor_con1_a062a12b:
 
     # MC "This is great - I really love playing with your tits, but do you think I could try something different?"
     MC "C'est génial - j'adore vraiment jouer avec tes seins, mais tu crois que je pourrais essayer quelque chose de différent ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:299
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:298
 translate french CR3_WE_label_mor_con1_a1c29f25:
 
     # Caroline "Something different? You mean like sucking on them, or something?"
     Caroline "Quelque chose de différent ? Tu veux dire comme les sucer, ou quelque chose comme ça ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:303
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:302
 translate french CR3_WE_label_mor_con1_ef16d5cc:
 
     # MC "(It’s not part of our deal - but here goes nothing!)"
     MC "(Ça ne fait pas partie de notre accord - mais ça ne fait rien !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:304
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:303
 translate french CR3_WE_label_mor_con1_f5b5b3b5:
 
     # MC "I was thinking that, maybe I could pleasure you with my fingers, for a bit."
     MC "Je pensais que je pourrais peut-être te faire plaisir avec mes doigts, pendant un moment."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:308
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:307
 translate french CR3_WE_label_mor_con1_78053e5e:
 
     # Caroline "Ah! No no no!"
     Caroline "Ah ! Non non non !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:309
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:308
 translate french CR3_WE_label_mor_con1_437c4889:
 
     # MC "Aww, c’mon! You’ll really enjoy it! I promise!"
     MC "Aww, allez ! tu vas vraiment apprécier ! Je te le promets !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:310
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:309
 translate french CR3_WE_label_mor_con1_0b152b90:
 
     # Caroline "Haha! No way! Nice try, though!"
     Caroline "Haha ! C'est pas possible ! Bien essayé, cependant !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:315
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:313
 translate french CR3_WE_label_mor_con1_73f45a09:
 
     # MC "Aww... I’m just so horny - and I really wanted to feel, what your pussy was like."
     MC "Aww... Je suis tellement excité - et je voulais vraiment sentir comment était ta chatte."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:316
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:314
 translate french CR3_WE_label_mor_con1_ee8b4859:
 
     # Caroline "Hmm... Okay, I can let you feel it - but I have to be in control, at all times. Okay?"
     Caroline "Hmm.... Ok, je peux te laisser y toucher - mais je dois pouvoir garder le contrôle, à tout moment. Ok ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:317
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:315
 translate french CR3_WE_label_mor_con1_4ff7d0bd:
 
     # MC "Sure! What do you want me to do?"
     MC "Bien sûr ! Qu'est-ce que tu veux que je fasse ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:318
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:316
 translate french CR3_WE_label_mor_con1_3e23b669:
 
     # Caroline "Lie down on your bed. I’ll climb on top of you, and we’ll take things from there."
     Caroline "Allonge-toi sur ton lit. Je vais grimper sur toi, et nous reprendrons les choses à partir de là."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:322
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:320
 translate french CR3_WE_label_mor_con1_e3e54439:
 
     # MC "(Sweet! This is going better than I expected!)"
     MC "(Super ! Ça se passe mieux que ce à quoi je m'attendais !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:323
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:321
 translate french CR3_WE_label_mor_con1_3869caa1:
 
     # MC "(To be honest, it’s even better than getting to finger her!)"
     MC "(Pour être honnête, c'est encore mieux que de la doigter !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:324
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:322
 translate french CR3_WE_label_mor_con1_5878d8ee:
 
     # Caroline "You’ve got - quite the smile - on your face!"
     Caroline "Tu as - un beau sourire - sur le visage !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:325
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:323
 translate french CR3_WE_label_mor_con1_ac0fe6f6:
 
     # MC "How could I not? I’ve got - the world’s most gorgeous woman - lying on top of me."
     MC "Comment ne pourrais-je pas ? J'ai - la plus belle femme du monde - allongée sur moi."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:329
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:327
 translate french CR3_WE_label_mor_con1_343cc01c:
 
     # Caroline "Haha! You and your silver tongue!"
     Caroline "Haha ! Beau parleur !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:330
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:328
 translate french CR3_WE_label_mor_con1_97a6c9e2:
 
     # MC "I’m being serious - you’ve just woken up, you’ve got a hangover, and you’re still - a solid ten."
     MC "Je suis sérieux - tu viens de te réveiller, tu as la gueule de bois, et tu es toujours - un bon dix."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:331
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:329
 translate french CR3_WE_label_mor_con1_854f081f:
 
     # Caroline "Aww... C’mere!"
     Caroline "Aww... Viens là !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:335
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:333
 translate french CR3_WE_label_mor_con1_609432c2:
 
     # Caroline "Mmm!"
     Caroline "Mmm !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:336
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:334
 translate french CR3_WE_label_mor_con1_c9ef9ed5:
 
     # MC "(I can feel her breasts pressing down, into my chest, as she’s making out with me.)"
-    MC "(Je sens ses seins presser ma poitrine, quand elle m'embrasse.)"
+    MC "(Je sens ses seins presser mon torse, quand elle m'embrasse.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:337
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:335
 translate french CR3_WE_label_mor_con1_7208e943:
 
     # MC "(And my cock’s rubbing up against her belly, as she moves!)"
     MC "(Et ma bite se frotte contre son ventre, quand elle bouge !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:341
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:339
 translate french CR3_WE_label_mor_con1_92a12c5e:
 
     # Caroline "(I’m so fucking horny right now... I know I didn’t let him finger me - but I think he’ll enjoy me, rubbing my vulva - back and forth - across his shaft.)"
     Caroline "(Je suis tellement excitée en ce moment... Je sais que je ne l'ai pas laissé me doigter - mais je pense qu'il va apprécier frotter ma vulve - d'avant en arrière - sur son manche.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:342
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:340
 translate french CR3_WE_label_mor_con1_4aaf2bfc:
 
     # MC "(Fuck... It can’t get any better than this!)"
     MC "(Putain... Il n'y a rien de mieux que ça !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:343
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:341
 translate french CR3_WE_label_mor_con1_17a104a2:
 
     # Caroline "Mmm... I bet you’re thinking, that it doesn’t get any better than this."
     Caroline "Mmm... Je parie que tu pense qu'il n'y a rien de mieux que ça."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:347
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:345
 translate french CR3_WE_label_mor_con1_a9cd1df9:
 
     # Caroline "How does that feel?"
     Caroline "Qu'est-ce que ça fait ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:348
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:346
 translate french CR3_WE_label_mor_con1_fb32e779:
 
     # MC "Ohh..."
     MC "Ohh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:349
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:347
 translate french CR3_WE_label_mor_con1_63023fd6:
 
     # Caroline "I’m gonna slide my hips, back and forth, but you have to promise me, you’re not gonna try and put it inside, okay?"
     Caroline "Je vais glisser mes hanches d'avant en arrière, mais tu dois me promettre que tu ne vas pas essayer de la mettre à l'intérieur, ok ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:353
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:351
 translate french CR3_WE_label_mor_con1_e32cadd2:
 
     # MC "Y-Yeah, okay..."
     MC "Ou-Ouai, ok..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:354
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:352
 translate french CR3_WE_label_mor_con1_4bc5d09a:
 
     # Caroline "I’m serious, [player_name]. If your cock goes inside me - and I don’t care if it happens accidentally - then I am OUT of here. Understand?"
     Caroline "Je suis sérieuse, [player_name]. Si ta bite entre en moi - et je m'en fiche si ça arrive accidentellement - alors je SORTIRAIS d'ici. Tu comprends ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:355
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:353
 translate french CR3_WE_label_mor_con1_63ee96b4:
 
     # MC "Yes, I understand! No fucking! I got it."
     MC "Oui, je comprends ! Pas de baise ! J'ai compris."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:359
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:357
 translate french CR3_WE_label_mor_con1_4751f3b3:
 
     # Caroline "Okay, here we go..."
     Caroline "Ok, c'est parti..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:360
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:358
 translate french CR3_WE_label_mor_con1_f4864c18:
 
     # MC "Mmm... Oh..."
     MC "Mmm... Oh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:361
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:359
 translate french CR3_WE_label_mor_con1_16d8653c:
 
     # MC "(I can feel - her hot wetness - sliding along my cock. It feels so good!)"
     MC "(Je peux sentir - sa mouille - glisser le long de ma bite. C'est si bon !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:365
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:363
 translate french CR3_WE_label_mor_con1_dceb847c:
 
     # Caroline "Ah... God..."
     Caroline "Ah... Mon dieu..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:366
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:364
 translate french CR3_WE_label_mor_con1_0c4635ad:
 
     # Caroline "(This is perfect... I can have his dick, rub my clitoris, while I ride him!)"
     Caroline "(C'est parfait... Je peux sentir sa bite, frotter mon clitoris, pendant que je le monte !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:370
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:368
 translate french CR3_WE_label_mor_con1_0a9b1258:
 
     # Caroline "Are you enjoying this?"
     Caroline "Est-ce que ça te plaîs ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:371
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:369
 translate french CR3_WE_label_mor_con1_01253201:
 
     # MC "Oh yeah... I wasn’t aware this was part of our deal though?"
     MC "Oh ouai... Je ne savais pas que ça faisait partie de notre accord ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:372
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:370
 translate french CR3_WE_label_mor_con1_8525d4bb:
 
     # Caroline "Consider it a part of - the new contract - signing bonus. It won’t be happening again - so you better enjoy it!"
     Caroline "Considére-le comme faisant partie - de la prime - à la signature du nouveau contrat. Cela ne se reproduira plus - alors tu ferai mieux d'en profiter !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:376
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:374
 translate french CR3_WE_label_mor_con1_6187e2c0:
 
     # MC "Y-Yeah, I’ll make sure to enjoy, every single second."
     MC "Ou-Ouai, je m'assurerai de profiter de chaque seconde."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:377
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:375
 translate french CR3_WE_label_mor_con1_59a3c231:
 
     # MC "Ah... Fuck... Oh..."
     MC "Ah... Putain... Oh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:378
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:376
 translate french CR3_WE_label_mor_con1_84e09ab8:
 
     # Caroline "Ah!"
     Caroline "Ah !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:379
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:377
 translate french CR3_WE_label_mor_con1_26f965af:
 
     # MC "It sounds like you’re - making the most of it - too, though."
     MC "On dirait que tu - en tire le meilleur parti - toi aussi."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:383
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:381
 translate french CR3_WE_label_mor_con1_beb0a23d:
 
     # Caroline "A-Am not!"
     Caroline "E-Euh non !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:384
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:382
 translate french CR3_WE_label_mor_con1_e708f36e:
 
     # MC "Haha! I HEARD you moaning! You can’t deny that!"
     MC "Haha ! Je T'AI entendu gémir ! Tu ne peux pas le nier !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:385
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:383
 translate french CR3_WE_label_mor_con1_aabca656:
 
     # Caroline "...Gah! Fine, you got me!"
     Caroline "...Arf ! Très bien, tu m'as eu !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:389
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:387
 translate french CR3_WE_label_mor_con1_56981b1a:
 
     # MC "I knew it! Heh!"
     MC "Je le savais ! Heh !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:390
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:388
 translate french CR3_WE_label_mor_con1_2dcbf416:
 
     # Caroline "Mmm... It’s not like I have any say in the matter. When my pussy rubs up against something - warm and hard - I can’t help but, moan a little."
     Caroline "Mmm... Ce n'est pas comme si j'avais mon mot à dire dans cette affaire. Quand ma chatte se frotte contre quelque chose de - chaud et dur - je ne peux m'empêcher de gémir un peu."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:394
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:392
 translate french CR3_WE_label_mor_con1_39b8eb10:
 
     # Caroline "Speaking of which, I can feel your cock throbbing. Ah... Oh..."
     Caroline "En parlant de ça, je sens ta bite palpiter. Ah... Oh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:395
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:393
 translate french CR3_WE_label_mor_con1_f901e457:
 
     # Caroline "Are you about to cum soon, [player_name]?"
     Caroline "Tu vas jouir bientôt, [player_name] ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:396
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:394
 translate french CR3_WE_label_mor_con1_019dcb39:
 
     # MC "I’m getting there... Oh..."
     MC "J'y arrive... Oh..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:400
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:398
 translate french CR3_WE_label_mor_con1_aa141777:
 
     # Caroline "Ah! Mmm!"
     Caroline "Ah ! Mmm !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:401
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:399
 translate french CR3_WE_label_mor_con1_87765e0b:
 
     # Caroline "(Christ, this feels so fucking good! His dick is, right at the entrance to my cunt. One little - slip of my hips - and I could have him inside me.)"
     Caroline "(Putain, ça fait tellement de bien ! Sa bite est à l'entrée de ma chatte. Un petit - glissement des hanches - et je pourrais l'avoir en moi.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:402
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:400
 translate french CR3_WE_label_mor_con1_bab30521:
 
     # Caroline "(I could actually be riding him...)"
     Caroline "(Je pourrais être en train de le monter...)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:406
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:404
 translate french CR3_WE_label_mor_con1_7122ad3b:
 
     # Caroline "(Mmm... I could finally feel [player_name]’s - thick cock - buried, deep inside my pussy.)"
     Caroline "(Mmm... Je sentirais enfin la bite épaisse de [player_name] enfouie, au fond de ma chatte.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:408
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:406
 translate french CR3_WE_label_mor_con1_977b11a3:
 
     # MC "Ah... (What’s Caroline doing? If she’s not careful, my dick could slip inside her!)"
     MC "Ah... (Que fait Caroline ? Si elle ne fait pas attention, ma bite pourrait glisser en elle !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:412
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:410
 translate french CR3_WE_label_mor_con1_1d7b18b1:
 
     # MC "C-Caroline! Careful! It’s almost slipping inside!"
     MC "C-Caroline ! Attention ! Elle est presque en train de glisser à l'intérieur !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:413
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:411
 translate french CR3_WE_label_mor_con1_364ad65e:
 
     # Caroline "Ohh... Mmm..."
     Caroline "Ohh... Mmm..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:414
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:412
 translate french CR3_WE_label_mor_con1_d8dfab69:
 
     # Caroline "(Just another - half inch - and his glans will be inside me.)"
     Caroline "(Juste un autre - un demi-centimètre - et son gland sera à l'intérieur de moi.)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:418
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:416
 translate french CR3_WE_label_mor_con1_5347d363:
 
     # Caroline "(If I just take the tip in, it couldn’t hurt, right?)"
     Caroline "(Si je prends juste le bout, ça ne peut pas faire de mal, non ?)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:419
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:417
 translate french CR3_WE_label_mor_con1_a760b62d:
 
     # MC "Caroline! I’m gonna cum!"
     MC "Caroline ! Je vais jouir !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:420
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:418
 translate french CR3_WE_label_mor_con1_3e245554:
 
     # Caroline "(Fuck! It’s far too dangerous... What was I thinking? If I let the tip inside me, there’s no way I’d be able to resist, him pushing the whole thing in!)"
     Caroline "(Putain ! C'est beaucoup trop dangereux... Qu'est-ce qui m'a pris ? Si je laissais le bout à l'intérieur de moi, je ne pourrais pas résister, c'est lui qui pousserait tout ça à l'intérieur !)"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:424
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:422
 translate french CR3_WE_label_mor_con1_1c8c6ab0:
 
     # MC "Ahh... Oh God... Yes!"
     MC "Ahh... Oh mon Dieu... Oui !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:425
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:423
 translate french CR3_WE_label_mor_con1_f7a40ecb:
 
     # Caroline "That’s it, [player_name]. Cum for me!"
     Caroline "C'est ça, [player_name]. Jouis pour moi !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:426
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:424
 translate french CR3_WE_label_mor_con1_2d76c68d:
 
     # Caroline "Ah! Ah! Oh! Ahhh!"
     Caroline "Ah ! Ah ! Oh ! Ahhh !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:430
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:428
 translate french CR3_WE_label_mor_con1_5ead11f2:
 
     # MC "Hnnnng! Gahhhh!"
     MC "Hnnnng ! Gahhhh !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:431
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:429
 translate french CR3_WE_label_mor_con1_5c9b8fc8:
 
     # Caroline "Ohhhhh, yes! Mmm!"
     Caroline "Ohhhhh, oui ! Mmm !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:442
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:439
 translate french CR3_WE_label_mor_con1_aa608936:
 
     # MC "Ohh... Fuck me..."
     MC "Ohh... Baise-moi..."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:443
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:440
 translate french CR3_WE_label_mor_con1_ddf5fa3d:
 
     # Caroline "Oh wow... That’s A LOT of cum! Somebody must have been REALLY horny!"
     Caroline "Oh wow... C'est BEAUCOUP de sperme ! Quelqu'un devait être VRAIMENT excité !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:444
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:441
 translate french CR3_WE_label_mor_con1_01ea9d0c:
 
     # MC "Hell yeah, I was... *Pant*"
     MC "Putain ouai, je l'étais... *Halète*"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:448
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:445
 translate french CR3_WE_label_mor_con1_3655c25c:
 
     # Caroline "Well, I’ll leave you, to catch your breath and rest up. I need to go and get dressed."
     Caroline "Bien, je vais te laisser, reprendre ton souffle et te reposer. Je dois aller m'habiller."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:449
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:446
 translate french CR3_WE_label_mor_con1_0a977cc4:
 
     # MC "Are you leaving already?"
     MC "Tu pars déjà ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:450
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:447
 translate french CR3_WE_label_mor_con1_1476438a:
 
     # Caroline "Yeah. I’ve got a lot to do today. Sorry!"
     Caroline "Ouai. J'ai beaucoup à faire aujourd'hui. Désolée !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:454
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:451
 translate french CR3_WE_label_mor_con1_6331eb26:
 
     # Caroline "Aww, don’t look so downhearted. We’ve got this new deal now, remember?"
     Caroline "Aww, n'aie pas l'air si abattu. On a un nouveau marché, tu te souviens ?"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:455
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:452
 translate french CR3_WE_label_mor_con1_73a45f25:
 
     # MC "Yeah, you’re right. I was just hoping to cuddle you, for a while."
     MC "Ouai, tu as raison. J'espérais juste te faire un câlin, pendant un moment."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:456
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:453
 translate french CR3_WE_label_mor_con1_09884573:
 
     # Caroline "Haha! There’s NO way I’m cuddling you, when you’re covered in cum!"
     Caroline "Haha ! Il n'y a PAS moyen que je te câline, quand tu es couvert de sperme !"
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:457
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:454
 translate french CR3_WE_label_mor_con1_ae4610af:
 
     # Caroline "I’ll go, and try to finish most of - my business crap - today. Give me a shout, later on."
     Caroline "J'irai, et j'essaierai de finir la plupart de - mes affaires de merde - aujourd'hui. Appelle-moi, plus tard."
 
-# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:458
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:455
 translate french CR3_WE_label_mor_con1_d285cfb3:
 
     # MC "Okay, Caroline. See you then!"
     MC "Ok, Caroline. A tout à l'heure alors !"
-

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene2.rpy:13
 translate french caroline_room_morning_scene2_label_08728b1a:
@@ -40,7 +40,7 @@ translate french caroline_room_morning_scene2_label_ed2ec35b:
 translate french caroline_room_morning_scene2_label_e11db265:
 
     # Caroline "...I just can’t handle it right now."
-    Caroline "...Je ne peux pas géré ça maintenant."
+    Caroline "...Je ne peux pas gérée ça maintenant."
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene2.rpy:28
 translate french caroline_room_morning_scene2_label_07a4d523:
@@ -70,7 +70,7 @@ translate french caroline_room_morning_scene2_label_41e62cab:
 translate french caroline_room_morning_scene2_label_a4eb88de:
 
     # Caroline "I’m sorry, [player_name]. I’m under a LOT of pressure right now."
-    Caroline "Je suis désolée, [player_name]. Je suis un PEU sous pression en ce moùent."
+    Caroline "Je suis désolée, [player_name]. Je suis un PEU sous pression en ce moment."
 
 # game/scripts/home/caroline_room/morning/scenes/caroline_room_morning_scene2.rpy:37
 translate french caroline_room_morning_scene2_label_d1e43cca:

@@ -1,22 +1,22 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:8
 translate french celia_vibrator_classroom_v1_3422556a:
 
     # Celia "Quiet, class! We’re continuing with advanced calculus today. Please open your textbooks to page 276."
-    Celia "Silence, la classe ! Nous continuons le calcul avancé aujourd'hui. Veuillez ouvrir vos manuels à la page 276."
+    Celia "Silence, tout le monde ! Nous continuons le calcul avancé aujourd'hui. Veuillez ouvrir vos manuels à la page 276."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:9
 translate french celia_vibrator_classroom_v1_07d4b189:
 
     # Celia "(I can’t believe, that pervert made me wear this vibrator today.)"
-    Celia "(Je n'arrive pas à croire que ce pervers m'ait fait porter ce vibromasseur aujourd'hui.)"
+    Celia "(Je n'arrive pas à croire que ce pervers m'ait fait porter ce vibro aujourd'hui.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:10
 translate french celia_vibrator_classroom_v1_fe004f5a:
 
     # Celia "(It was bad enough that he forbade me from wearing panties!)"
-    Celia "(C'était déjà assez dur qu'il m'ait interdit de porter des culottes !)"
+    Celia "(C'était déjà assez dur qu'il m'ait interdit de porter une culotte !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:13
 translate french celia_vibrator_classroom_v1_94af9d83:
@@ -40,7 +40,7 @@ translate french celia_vibrator_classroom_v1_9ef5954a:
 translate french celia_vibrator_classroom_v1_3dc4dc31:
 
     # MC "(Yawn!)"
-    MC "(*Bâille* !)"
+    MC "(Bâille !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:19
 translate french celia_vibrator_classroom_v1_f15bd146:
@@ -76,7 +76,7 @@ translate french celia_vibrator_classroom_v1_16ed2d4b:
 translate french celia_vibrator_classroom_v1_93d5b260:
 
     # Celia "(Oh God… it’s starting…)"
-    Celia "(Oh mon Dieu… ça commence...)"
+    Celia "(Oh mon Dieu… ça commence…)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:34
 translate french celia_vibrator_classroom_v1_b6b518b1:
@@ -130,25 +130,25 @@ translate french celia_vibrator_classroom_v1_beeeb9fa:
 translate french celia_vibrator_classroom_v1_8e72209d:
 
     # Celia "(Holy… shit…)"
-    Celia "(Putain… merde…)"
+    Celia "(Putain… de… merde…)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:63
 translate french celia_vibrator_classroom_v1_b9356127:
 
     # Celia "(Pant! Gasp!)"
-    Celia "(*Souffle* ! *Halète* !)"
+    Celia "(Souffle ! Halète !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:64
 translate french celia_vibrator_classroom_v1_59288e5e:
 
     # MC "(Heh... While the class are busy working, I can see that she’s struggling not to climax!)"
-    MC "(Heh... Pendant que la classe est occupée à travailler, je peux voir qu'elle a du mal à ne pas atteindre l'orgasme !)"
+    MC "(Euh... Pendant que la classe est occupée à travailler, je peux voir qu'elle a du mal à ne pas atteindre l'orgasme !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:72
 translate french celia_vibrator_classroom_v1_5961c88c:
 
     # Celia "(Whispered) Oh, my God…"
-    Celia "<Chuchote> Oh, mon Dieu…"
+    Celia "<Chuchotant> Oh, mon Dieu…"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:73
 translate french celia_vibrator_classroom_v1_1bd5bafc:
@@ -172,7 +172,7 @@ translate french celia_vibrator_classroom_v1_f827f725:
 translate french celia_vibrator_classroom_v1_1b2cbf9a:
 
     # Celia "Noooh! I-I’m fine. J-Just fooohhhcus on your work."
-    Celia "Noooh ! J-Je vais bien. J-Juste connnhhhcentrez-vous sur votre travail."
+    Celia "Noooh ! J-Je vais bien. J-Juste connncentrez-vous sur vohhhtre travail."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:77
 translate french celia_vibrator_classroom_v1_7ebcf3bc:
@@ -184,7 +184,7 @@ translate french celia_vibrator_classroom_v1_7ebcf3bc:
 translate french celia_vibrator_classroom_v1_f9b04c91:
 
     # MC "(Time for the grand finale!)"
-    MC "(C'est l'heure de la grande finale !)"
+    MC "(C'est l'heure du grand final !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:81
 translate french celia_vibrator_classroom_v1_ea53de2a:
@@ -232,7 +232,7 @@ translate french celia_vibrator_classroom_v1_dc17c881:
 translate french celia_vibrator_classroom_v1_5cca3efa:
 
     # Celia "(Pant… Gasp…)"
-    Celia "(*Souffle…* *Halète…*)"
+    Celia "(Souffle… Avale…)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_vibrator_classroom_v1.rpy:104
 translate french celia_vibrator_classroom_v1_ccbfe593:

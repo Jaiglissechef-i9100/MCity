@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1.rpy:29
 translate french MLR3_MS1_f0d3f5b9:
@@ -292,7 +292,7 @@ translate french MLR3_MS1_40bfd6c6:
 translate french MLR3_MS1_e79c5354:
 
     # Bob "*Sob* You threw a fucking pillow at me when I came into the room. You looked at me like I DISGUSTED you."
-    Bob "*Sanglote* Tu m'as jeté un putain d'oreiller quand je suis entré dans la chambre. Tu m'as regardé comme si je t'avais DISGUSTÉ."
+    Bob "*Sanglote* Tu m'as jeté un putain d'oreiller quand je suis entré dans la chambre. Tu m'as regardé comme si je t'avais DÉGOUTÉ."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1.rpy:132
 translate french MLR3_MS1_97028554:
@@ -323,3 +323,4 @@ translate french MLR3_MS1_547fe138:
 
     # MC "(Fuck… This is too tough to listen to. I gotta go.)"
     MC "(Putain… C'est trop dur à écouter. Je dois y aller.)"
+

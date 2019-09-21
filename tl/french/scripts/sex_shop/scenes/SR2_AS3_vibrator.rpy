@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:19
 translate french SR2_AS3_vibrator_label_610fed68:
@@ -34,7 +34,7 @@ translate french SR2_AS3_vibrator_label_9095325f:
 translate french SR2_AS3_vibrator_label_08820188:
 
     # MC "(This is probably the best place to get a vibrator for Sara. I’ve no idea which type to get her though.)"
-    MC "(C'est probablement le meilleur endroit pour acheter un vibrateur pour Sara. Je n'ai aucune idée de quoi lui prendre.)"
+    MC "(C'est probablement le meilleur endroit pour acheter un vibro pour Sara. Je n'ai aucune idée de quoi lui prendre.)"
 
 # game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:35
 translate french SR2_AS3_vibrator_label_fefd1542:
@@ -192,74 +192,75 @@ translate french SR2_AS3_vibrator_label_72c0386a:
     # S "Here, hold it!"
     S "Tiens, tiens-le !"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:83
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:82
 translate french SR2_AS3_vibrator_label_1054155e:
 
     # MC "It’s… um… very pink."
     MC "C'est… euh… très rose."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:84
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:83
 translate french SR2_AS3_vibrator_label_ae75d2d2:
 
     # S "Your girlfriend will love it!"
     S "Ta petite amie va adorer !"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:85
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:84
 translate french SR2_AS3_vibrator_label_2ad46268:
 
     # S "It’s also one of the most intense vibrators on the market."
     S "C'est aussi l'un des vibrateurs les plus intenses sur le marché."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:86
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:85
 translate french SR2_AS3_vibrator_label_98da997b:
 
     # MC "Just how powerful IS this thing?"
     MC "Quelle est la puissance de ce truc ?"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:87
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:86
 translate french SR2_AS3_vibrator_label_b7f3b1ed:
 
     # S "Well, if the average vibrator on the market is a five out of then; this thing is an eight or nine."
-    S "Eh bien, si le vibrateur moyen sur le marché est un cinq sur cinq alors; cette chose est un huit ou neuf."
+    S "Eh bien, si le vibro moyen sur le marché est un cinq alors; cette chose est un huit ou neuf."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:91
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:90
 translate french SR2_AS3_vibrator_label_0344e4c7:
 
     # MC "Are you sure I shouldn’t settle for a less powerful one?"
-    MC "Tu es sûr que je ne devrais pas me contenter d'un moins puissant ?"
+    MC "Vous êtes sûre que je ne devrais pas me contenter d'un moins puissant ?"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:92
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:91
 translate french SR2_AS3_vibrator_label_6e7bf2ab:
 
     # S "Trust me, honey. She’ll appreciate, you going big, for her first time."
     S "Crois-moi, chéri. Elle appréciera que tu aies grandi, pour la première fois."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:93
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:92
 translate french SR2_AS3_vibrator_label_65a40199:
 
     # MC "(Gulp) If you’re sure. How much do I owe you?"
-    MC "(*Avale*) Si t'en es sûr. Combien je te dois ?"
+    MC "(Avale) Si t'en es sûr. Combien je te dois ?"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:94
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:93
 translate french SR2_AS3_vibrator_label_7981bc2d:
 
     # S "That’ll be 80$."
     S "Ça fera 80$."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:97
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:96
 translate french SR2_AS3_vibrator_label_5f6999b6_1:
 
     # S "Thank you very much! Come again!"
     S "Merci beaucoup ! Revient nous voir !"
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:102
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:101
 translate french SR2_AS3_vibrator_label_1fd0378c:
 
     # MC "I don't have enough money now."
     MC "Je n'ai pas assez d'argent maintenant."
 
-# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:103
+# game/scripts/sex_shop/scenes/SR2_AS3_vibrator.rpy:102
 translate french SR2_AS3_vibrator_label_603711dd:
 
     # MC "I'll come back later."
     MC "Je reviendrai plus tard."
+

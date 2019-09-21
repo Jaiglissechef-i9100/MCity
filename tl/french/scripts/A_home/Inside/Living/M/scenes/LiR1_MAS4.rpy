@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:36
 translate french LiR1_MAS4_label_ae9c9fa8:
@@ -22,7 +22,7 @@ translate french LiR1_MAS4_label_1cefb823:
 translate french LiR1_MAS4_label_9f44814d:
 
     # MC "(Where the heck has everyone gone? Maybe they’re at work.)"
-    MC "(Où sont-elles tous passés ? Elles sont peut-être au travail.)"
+    MC "(Où sont-elles passées ? Elles sont peut-être au travail.)"
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:44
 translate french LiR1_MAS4_label_91ea4cf9:
@@ -40,7 +40,7 @@ translate french LiR1_MAS4_label_e79ed82a:
 translate french LiR1_MAS4_label_de453ffe:
 
     # MC "(I think I heard a footstep from the bathroom.)"
-    MC "(Je crois que j'ai entendu un pas dans la salle de bain.)"
+    MC "(Je crois que j'ai entendu un bruit de pas dans la salle de bain.)"
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:50
 translate french LiR1_MAS4_label_4f94b6a1:
@@ -172,19 +172,19 @@ translate french LiR1_MAS4_label_fa967fa0:
 translate french LiR1_MAS4_label_bee36e35:
 
     # Yazmin "Yeah, that’s me home! I’m just going upstairs to the bedroom. I’ll see you in fifteen minutes?"
-    Yazmin "Ouai, c'est chez moi ! Je monte juste dans la chambre. Je te vois dans un quart d'heure ?"
+    Yazmin "Ouai, je suis rentrée ! Je monte juste dans la chambre. Je te vois dans un quart d'heure ?"
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:95
 translate french LiR1_MAS4_label_acd0b6b8:
 
     # Liza "Perfect! See you then, darling!"
-    Liza "Parfait ! A bientôt, ma chérie !"
+    Liza "Parfait ! A plus tard, ma chérie !"
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:96
 translate french LiR1_MAS4_label_74464adc:
 
     # Yazmin "(Whispered) Okay, you little perv - follow me upstairs. We’re going to sort this out, right now."
-    Yazmin "<Chuchote> Ok, petit pervers. Suis-moi en haut. On va régler ça tout de suite."
+    Yazmin "<Chuchotant> Ok, petit pervers - suis-moi en haut. On va régler ça tout de suite."
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:97
 translate french LiR1_MAS4_label_010ffd7c:
@@ -346,7 +346,7 @@ translate french LiR1_MAS4_label_b0579874:
 translate french LiR1_MAS4_label_21883848:
 
     # Yazmin "Okay... your cock is, only a little bit bigger than my toy. Hardly noticeable - in the heat of the moment..."
-    Yazmin "Ok... ta bite est juste un peu plus grosse que mon jouet. A peine perceptible - dans le feu de l'action..."
+    Yazmin "Ok... ta bite est juste un peu plus grosse que mon jouet. A peine perceptible - dans la chaleur du moment..."
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:150
 translate french LiR1_MAS4_label_a1a9959b:
@@ -364,7 +364,7 @@ translate french LiR1_MAS4_label_cfb4500e:
 translate french LiR1_MAS4_label_4d517552:
 
     # MC "Hello?"
-    MC "Bonjour ?"
+    MC "Allô ?"
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS4.rpy:153
 translate french LiR1_MAS4_label_256971f9:
@@ -425,3 +425,4 @@ translate french LiR1_MAS4_label_ab781ade:
 
     # MC "(What does she mean, with that - waiting for tonight, though...?)"
     MC "(Qu'est-ce qu'elle veut dire, avec ça - attendre ce soir, cependant...?)"
+

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:22
 translate french MLR3_Linda_MS1_451a26f1:
@@ -90,145 +90,145 @@ translate french MLR3_Linda_MS1_menu_7e7a67a0:
     # "*VROOOOM*"
     "*VROOOOM*"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:81
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:79
 translate french MLR3_Linda_MS1_menu_7fb73cbb:
 
     # MC "It’s good to see [Dad_name] helping more around the house. It gives you a chance to relax and do other things around the house, for a change."
     MC "C'est bon de voir que [Dad_name] aide plus à la maison. Cela te donne l'occasion de te détendre et de faire d'autres choses à la maison, pour changer."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:85
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:83
 translate french MLR3_Linda_MS1_menu_d7c874b7:
 
     # Mom "Mmm, that’s true."
     Mom "Mmm, c'est vrai."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:86
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:84
 translate french MLR3_Linda_MS1_menu_a5868d30:
 
     # Mom "*Shlurp*"
     Mom "*Shlurp*"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:92
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:90
 translate french MLR3_Linda_MS1_menu_6b453def:
 
     # Mom "Hey, [player_name], before you go. Do you know what I’d really like to do around the house?"
     Mom "Hé, [player_name], avant de partir. Tu sais ce que j'aimerais vraiment faire à la maison ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:93
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:91
 translate french MLR3_Linda_MS1_menu_7f208eaa:
 
     # MC "Hmm?"
     MC "Hmm ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:97
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:95
 translate french MLR3_Linda_MS1_menu_fad20c0a:
 
     # Mom "You."
     Mom "Toi."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:98
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:96
 translate french MLR3_Linda_MS1_menu_385e69e7:
 
     # MC "(Whispered) [Mom_name]! He’s right over there!"
-    MC "<Chuchote> [Mom_name] ! Il est juste là !"
+    MC "<Chuchotant> [Mom_name] ! Il est juste là !"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:99
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:97
 translate french MLR3_Linda_MS1_menu_7e981aa7:
 
     # Mom "So what? He won’t hear us."
     Mom "Et alors ? Il ne nous entendra pas."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:103
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:101
 translate french MLR3_Linda_MS1_menu_f45325a5:
 
     # Mom "I would love to do you, all over this house."
     Mom "J'adorerais faire ça, partout dans cette maison."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:104
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:102
 translate french MLR3_Linda_MS1_menu_8b93ddc7:
 
     # Mom "In the shower… in the bedroom…"
     Mom "Sous la douche… dans la chambre…"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:105
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:103
 translate french MLR3_Linda_MS1_menu_7f9e70c6:
 
     # Mom "Maybe even on the kitchen table."
     Mom "Peut-être même sur la table de la cuisine."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:106
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:104
 translate french MLR3_Linda_MS1_menu_5ae3b49e:
 
     # Mom "God, if I had a weekend with you, with no one else around, I would fuck you silly."
     Mom "Si j'avais un week-end avec toi, sans personne d'autre, je te baiserais sauvagement."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:107
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:105
 translate french MLR3_Linda_MS1_menu_41b1dfab:
 
     # MC "(Wow! She’s getting VERY brazen lately!)"
     MC "(Wow ! Elle est très effrontée en ce moment !)"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:111
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:109
 translate french MLR3_Linda_MS1_menu_d59fa571:
 
     # Dad "*Phew* Okay, that’s the hoovering almost finished."
     Dad "*Pfiou* Ok, j'ai presque fini l'aspirateur."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:112
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:110
 translate french MLR3_Linda_MS1_menu_c66f5dfd:
 
     # Mom "That’s good to hear, Bob. I think you missed a few spots though."
     Mom "C'est bon à entendre, Bob. Je crois que tu as loupé quelques endroits."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:115
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:113
 translate french MLR3_Linda_MS1_menu_d6850d86:
 
     # Mom "..."
     Mom "..."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:125
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:123
 translate french MLR3_Linda_MS1_menu_d772f687:
 
     # MC "How did you and [Dad_name] first meet?"
     MC "Comment toi et [Dad_name] vous vous êtes rencontrés la première fois ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:126
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:124
 translate french MLR3_Linda_MS1_menu_533c1db8:
 
     # Mom "Oh wow… I haven’t thought about that in a LONG time…"
     Mom "Oh wow… Je n'y avais pas pensé depuis LONGTEMPS…"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:127
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:125
 translate french MLR3_Linda_MS1_menu_62b2f194:
 
     # Mom "God… it must have been… Venice, I think?"
     Mom "Mon Dieu… ça devait être… Venise, je crois ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:131
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:129
 translate french MLR3_Linda_MS1_menu_438ef25c:
 
     # Mom "I think we were on a business trip to Venice together. I don’t remember when we first spoke to each other though."
     Mom "Je crois qu'on était en voyage d'affaires à Venise ensemble. Je ne me souviens pas quand on s'est parlé pour la première fois."
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:132
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:130
 translate french MLR3_Linda_MS1_menu_e562bd1d:
 
     # MC "Huh, it sounds quite nice! Did you go on the gondolas together?"
     MC "Euh, ça a l'air sympa ! Vous êtes allés sur les gondoles ensemble ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:133
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:131
 translate french MLR3_Linda_MS1_menu_27f77ddc:
 
     # Mom "Wait - there were no gondolas. Maybe it wasn’t Venice?"
     Mom "Attend - il n'y avait pas de gondoles. Ce n'était peut-être pas Venise ?"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:137
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:135
 translate french MLR3_Linda_MS1_menu_4c200517:
 
     # MC "(She doesn’t seem to remember this very well. Or maybe she just doesn’t care enough to?)"
     MC "(Elle ne semble pas s'en souvenir très bien. Ou peut-être qu'elle ne s'en soucie pas assez ?)"
 
-# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:138
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:136
 translate french MLR3_Linda_MS1_menu_d6850d86_1:
 
     # Mom "..."

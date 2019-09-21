@@ -1,36 +1,36 @@
-﻿# TODO: Translation updated at 2018-12-15 12:23
+﻿# TODO: Translation updated at 2019-02-17 07:11
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:115
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:116
 translate french bob_deskbooks_label_803f3ff2:
 
     # MC "Those are Dad’s books."
     MC "Ce sont les livres de Papa."
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:117
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:118
 translate french bob_deskbooks_label_671d45ce:
 
     # MC "Those are Bob’s books."
     MC "Ce sont les livres de Bob."
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:118
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:119
 translate french bob_deskbooks_label_891d99b4:
 
     # MC "I guess he has a lot of free time in here."
     MC "Je suppose qu'il a beaucoup de temps libre ici."
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:126
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:127
 translate french bob_desklaptop_label_179e1438:
 
     # MC "Dad’s laptop. I don't need to use it right now."
     MC "L'ordinateur portable de Papa. Je n'ai pas besoin de l'utiliser maintenant."
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:128
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:129
 translate french bob_desklaptop_label_5de5ac43:
 
     # MC "Bob’s laptop. I don't need to use it right now."
     MC "L'ordinateur portable de Bob. Je n'ai pas besoin de l'utiliser maintenant."
 
-# game/scripts/Bob_work/Office/M/bob_desk.rpy:135
+# game/scripts/Bob_work/Office/M/bob_desk.rpy:136
 translate french bob_deskpapers_label_322266ed:
 
     # MC "Meh.. Just papers. Some boring work stuff."
@@ -77,3 +77,29 @@ translate french bob_deskminigame_label_5af86300:
 
     # MC "Tomorrow there will probably be more work."
     MC "Demain, il y aura probablement plus de travail."
+
+translate french strings:
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:18
+    old "Books"
+    new "Livres"
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:29
+    old "Laptop"
+    new "Portable"
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:40
+    old "Papers"
+    new "Papiers"
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:52
+    old "Reports"
+    new "Rapports"
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:64
+    old "Put Book"
+    new "Poser le Livre"
+
+    # scripts\Bob_work\Office\M\bob_desk.rpy:99
+    old "Safe"
+    new "Coffre-fort"
