@@ -1,6 +1,3 @@
-
-
-
 label LiR1_NS2_rep:
 
     hide screen week_day_viewer

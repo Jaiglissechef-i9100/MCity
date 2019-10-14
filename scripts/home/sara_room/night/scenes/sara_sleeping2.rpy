@@ -1,7 +1,6 @@
 image sara_room_night_sleeping2_p1 = "images/home/sara_room/night/scenes/sleeping2/1.jpg"
 image sara_room_night_sleeping2_p2 = "images/home/sara_room/night/scenes/sleeping2/2.jpg"
 
-
 image sara_room_night_sleeping2_pussyp1 = "images/home/sara_room/night/scenes/sleeping2/Pussy/1.jpg"
 image sara_room_night_sleeping2_pussyp2 = "images/home/sara_room/night/scenes/sleeping2/Pussy/2.jpg"
 image sara_room_night_sleeping2_pussyp3 = "images/home/sara_room/night/scenes/sleeping2/Pussy/3.jpg"
@@ -40,7 +39,6 @@ image sara_room_night_sleeping2_Hand4 = "images/home/sara_room/night/scenes/slee
 image sara_room_night_sleeping2_Hand5 = "images/home/sara_room/night/scenes/sleeping2/Hand/5.jpg"
 image sara_room_night_sleeping2_Hand3anim = Movie(play="videos/Sara-NightS2-1.webm", loop = True )
 image sara_room_night_sleeping2_Hand4anim = Movie(play="videos/Sara-NightS2-2.webm", loop = True )
-
 
 image sara_room_night_sleeping2_WakeUp1 = "images/home/sara_room/night/scenes/sleeping2/WakeUp/1.jpg"
 image sara_room_night_sleeping2_WakeUp2 = "images/home/sara_room/night/scenes/sleeping2/WakeUp/2.jpg"
@@ -112,8 +110,6 @@ label sara_room_night_sleeping2_label:
     $ Sara_stats_visited +=1
     $ inv_page = 0
     call screen S_NS_scr
-
-
 
 label S_NS_wake:
     $ can_sis_nerdy_night_sleeping1_v1 = False

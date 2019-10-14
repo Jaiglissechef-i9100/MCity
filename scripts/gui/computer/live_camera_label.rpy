@@ -2,7 +2,6 @@ image live_camera_deskop = "images/game_gui/pc/LiveCamera/LiveCameraDeskop.png"
 image Celia_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Celia_Invitation.png"
 image Sara_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Sara_Invitation.png"
 
-
 label live_camera_label:
     scene main_deskop
     show live_camera_deskop
@@ -14,8 +13,6 @@ label live_camera_label:
         show screen live_camera_screen
         call screen sara_invitation_screen
     call screen live_camera_screen
-
-
 
 screen live_camera_screen:
     key "hide_windows" action NullAction()
@@ -80,16 +77,6 @@ screen live_camera_screen:
             action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("SR2_ES1_label")]
             unhovered Hide("displayTextScreen")
 
-
-
-
-
-
-
-
-
-
-
 screen celia_invitation_screen:
     key "hide_windows" action NullAction()
     zorder 102
@@ -102,7 +89,6 @@ screen celia_invitation_screen:
         idle "images/game_gui/pc/LiveCamera/accept_button.png"
         hover "images/game_gui/pc/LiveCamera/accept_button_hover.png"
         action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Hide("celia_invitation_screen"),SetVariable("celia_invitation_webcam", 3),SetVariable("celia_in_camweb_contacts", True),Jump("live_camera_label")]
-
 
 screen sara_invitation_screen:
     key "hide_windows" action NullAction()

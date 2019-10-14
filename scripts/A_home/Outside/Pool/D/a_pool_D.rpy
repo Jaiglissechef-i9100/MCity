@@ -1,4 +1,3 @@
-
 label a_pool_D1:
     hide screen displayTextScreen
     if a_pool_empty == True:

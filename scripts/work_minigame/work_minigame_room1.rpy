@@ -8,11 +8,13 @@ default rubbish4_colleted = False
 default rubbish5_colleted = False
 default rubbish6_colleted = False
 
-
 label work_minigame_room1_label:
-    scene room1_scene
-    call screen work_minigame_room1_items1
-
+    menu:
+        "Play":
+            scene room1_scene
+            call screen work_minigame_room1_items1
+        "Fuck minigame":
+            jump ml_work_day_scene1_v1_label_after_minigame
 
 screen work_minigame_room1_items1:
     key "hide_windows" action NullAction()
@@ -143,7 +145,6 @@ label rubbish6_colleted_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room1_label
-
 
 label work_minigame_room1_items2_label:
     $ rubbish_colleted_counter = 0
@@ -292,7 +293,6 @@ label rubbish6_colleted_items2_label:
     $ rubbish_colleted_counter += 1
     jump work_minigame_room1_items2_label1
 
-
 label work_minigame_room1_items3_label:
     $ rubbish_colleted_counter = 0
     $ rubbish1_colleted = False
@@ -438,7 +438,6 @@ label rubbish6_colleted_items3_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room1_items3_label1
-
 
 label work_minigame_room1_done_label:
     $ rubbish_colleted_counter = 0

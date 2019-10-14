@@ -3,8 +3,6 @@ default Sara_name_patched = "Sister"
 default Caroline_name_patched = "Sister"
 default Bob_name_patched = "Dad"
 
-
-
 default b0_patched = "Brother"
 default b1_patched = "brother"
 default b2_patched = "Bro"

@@ -14,7 +14,6 @@ label bob_car_locked_label:
     $ clickable = True
     jump bob_car_label
 
-
 screen bob_car_scr:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -24,17 +23,16 @@ screen bob_car_scr:
         idle "images/Bob_work/outside/M/CarInside/B1.png"
         hover "images/Bob_work/outside/M/CarInside/B1_hover.png"
         if bob_carkeys.selected:
-            hovered Show("displayTextScreen", displayText = "Open Car")
+            hovered Show("displayTextScreen", displayText = __("Open Car"))
             if clickable == True:
                 activate_sound "sfx/car_open.wav"
                 action [Hide("displayTextScreen"),Jump("bob_car_label2")]
                 unhovered Hide("displayTextScreen")
         else:
-            hovered Show("displayTextScreen", displayText = "Car Door")
+            hovered Show("displayTextScreen", displayText = __("Car Door"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("bob_car_locked_label")]
                 unhovered Hide("displayTextScreen")
-
 
     if clickable == True:
         imagebutton:
@@ -50,7 +48,6 @@ label bob_car_label2:
     scene bob_car_bg2
     call screen bob_car_scr2
 
-
 screen bob_car_scr2:
     key "hide_windows" action NullAction()
     if bob_carbook_s == 1:
@@ -61,9 +58,10 @@ screen bob_car_scr2:
             idle "images/Bob_work/outside/M/CarInside/B2.png"
             hover "images/Bob_work/outside/M/CarInside/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Book")
+                hovered Show("displayTextScreen", displayText = __("Book"))
                 action [Hide("displayTextScreen"),Jump("bob_carbook")]
                 unhovered Hide("displayTextScreen")
+
     if bob_carmoney == True:
         imagebutton:
             xpos 630
@@ -72,7 +70,7 @@ screen bob_car_scr2:
             idle "images/Bob_work/outside/M/CarInside/B3.png"
             hover "images/Bob_work/outside/M/CarInside/B3_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Money")
+                hovered Show("displayTextScreen", displayText = __("Money"))
                 action [Hide("displayTextScreen"),Jump("bob_carmoney")]
                 unhovered Hide("displayTextScreen")
 
@@ -96,7 +94,6 @@ screen bob_car_scr2:
             hover "images/game_gui/goback_button_hover.png"
             activate_sound "sfx/car_close.wav"
             action [Hide("bob_car_scr2"), Jump("bob_work_outside_morning1")]
-
 
 label bob_carbook:
     show screen bob_car_scr2

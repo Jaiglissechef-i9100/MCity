@@ -17,6 +17,6 @@ screen changing_room_day:
         focus_mask True
         idle "images/school/changing_room/morning/door1_morning_idle.png"
         hover "images/school/changing_room/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "GYM")
+        hovered Show("displayTextScreen", displayText = __("GYM"))
         clicked Jump("gym_day1")
         unhovered Hide("displayTextScreen")

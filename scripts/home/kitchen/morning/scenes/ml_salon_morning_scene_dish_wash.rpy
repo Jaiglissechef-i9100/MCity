@@ -56,7 +56,6 @@ label ml_salon_morning_scene_dish_wash_label:
     Mom "(I’d love to just, lie naked beside him and cuddle him all night-)"
     Mom "(Shit! I’m getting far too involved in these fantasies again.)"
 
-
     scene black
     Mom "You better go to school! Hurry up! Get a move on!"
     MC "Yeah, I’ll just dry the plates-"

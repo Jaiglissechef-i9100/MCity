@@ -18,11 +18,13 @@ label caroline_room_morning_scene3_label:
     scene caroline_room_morning_scene3_p1 with dissolve
     $ can_hide_windows = True
     MC "(Huh? What’s wrong with Caroline?)"
-    MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever met!)"
     if renpy.loadable("patch.rpy"):
+        MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever seen!)"
         MC "(Even Mom’s gotten involved - this must be serious.)"
     if not renpy.loadable("patch.rpy"):
+        MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever met!)"
         MC "(Even Linda’s gotten involved - this must be serious.)"
+
 
     scene caroline_room_morning_scene3_p2
     Mom "Listen, I can afford to help out with the mortgage for a couple more months."

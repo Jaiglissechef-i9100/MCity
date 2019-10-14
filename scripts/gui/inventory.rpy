@@ -25,8 +25,6 @@ init python:
             self.note=note
             self.note_image=note_image
 
-
-
     class Contact(store.object):
         def __init__(self, name, image_idle="", image_hover="" ):
             self.name = name
@@ -49,19 +47,14 @@ init python:
                     store.active_item = None
             renpy.restart_interaction()
 
-
     class Inventory(store.object):
         def __init__(self, money=0):
             self.money = money
             self.items = []
             self.contact = []
         
-        
-        
-        
         def add(self, item): 
             self.items.append(item)
-        
         
         def drop(self, item):
             self.items.remove(item)
@@ -73,8 +66,6 @@ init python:
         def add_contact(self, contact):
             self.contact.append(contact)
             renpy.restart_interaction()
-        
-        
         
         def buy(self, item):
             if self.money >= item.cost:
@@ -107,8 +98,6 @@ init python:
         
         def get_selected(self):
             return self.object.selected
-
-
 
     class addItem(Action):
         

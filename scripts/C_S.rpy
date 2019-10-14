@@ -1,4 +1,3 @@
-
 define Charles = Character("[Charles_name]", color="#33cccc")
 default Charles_name = "Charles"
 define Juliett = Character("[Juliett_name]", color="#ff9966")
@@ -67,15 +66,11 @@ default CR3_ES1_q3 = True
 default CR3_ES1_q4 = True
 default CR3_ES1_q5 = True
 
-
-
 default CR3_weekend_event = False
 default CR3_G1 = False
 default CR3_G2 = False
 default CR3_Ex = False
 default CR3_WE = 0
-
-
 
 default C_NS_locked = False
 default can_add_C_NS_wake_licking_loc = False

@@ -1,5 +1,3 @@
-
-
 screen b_house_bedroom_M_scr:
 
     add "images/Beach/Beach_House/Bedroom/M/map.jpg"
@@ -12,7 +10,7 @@ screen b_house_bedroom_M_scr:
         hover "images/Beach/Beach_House/Bedroom/M/B1_hover.png"
         if clickable == True:
             action [Play("sound", "sfx/door_open.mp3"),Jump("b_house_living_M1")]
-            hovered Show("displayTextScreen", displayText = "Living Room")
+            hovered Show("displayTextScreen", displayText = __("Living Room"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -23,7 +21,7 @@ screen b_house_bedroom_M_scr:
         hover "images/Beach/Beach_House/Bedroom/M/B2_hover.png"
         if clickable == True:
             action [Play("sound", "sfx/door_open.mp3"),Jump("b_house_bath_M1")]
-            hovered Show("displayTextScreen", displayText = "Bathroom")
+            hovered Show("displayTextScreen", displayText = __("Bathroom"))
             unhovered Hide("displayTextScreen")
 
     if not "img37_sec_card" in gallery_photos.storage:

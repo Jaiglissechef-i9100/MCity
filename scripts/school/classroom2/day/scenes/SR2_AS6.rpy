@@ -1,6 +1,3 @@
-
-
-
 label SR2_AS6_label:
     if can_SR2_AS6 == False:
         $ clickable = False
@@ -22,7 +19,6 @@ label SR2_AS6_label:
         hide screen map_button
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
-
 
         scene SR2_AS3_p1 with dissolve
 

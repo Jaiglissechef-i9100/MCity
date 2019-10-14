@@ -7,9 +7,10 @@ screen garage_day:
         idle "images/home/garage/morning/Garage_door_exit_idle.png"
         hover "images/home/garage/morning/Garage_door_exit_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Entrance")
+            hovered Show("displayTextScreen", displayText = __("Entrance"))
             action [Play ("sound", "sfx/garage door.mp3"),Jump("entrance2_day1")]
             unhovered Hide("displayTextScreen")
+
     if not "img1_garage_card" in gallery_photos.storage:
         imagebutton:
             xpos 1130
@@ -18,7 +19,7 @@ screen garage_day:
             idle "images/secret_gallery/Bonus/Garage SecretCard.png"
             hover "images/secret_gallery/Bonus/Garage SecretCard_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Secret Photo")
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img1_garage_card"), Jump("garage_card")]
                 unhovered Hide("displayTextScreen")
 

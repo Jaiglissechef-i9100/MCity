@@ -1,7 +1,3 @@
-
-
-
-
 label CR2_AS1_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
@@ -24,7 +20,6 @@ label CR2_AS1_rep:
     Caroline "I guess they do appear, rather provocative, in this tight top."
     MC "So, can you?"
     Caroline "Hmm… "
-
 
     scene CR2_AS1_p3
 
@@ -53,7 +48,6 @@ label CR2_AS1_rep:
     MC "Mmm…"
     scene CR2_AS1_p6anim
     Caroline "You enjoy that? Does it feel good?"
-
 
     scene CR2_AS1_p7
 

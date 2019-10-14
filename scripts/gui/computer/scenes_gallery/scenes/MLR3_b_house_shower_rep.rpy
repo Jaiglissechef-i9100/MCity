@@ -1,5 +1,3 @@
-
-
 label MLR3_b_house_shower_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -10,7 +8,6 @@ label MLR3_b_house_shower_rep:
     $ can_hide_windows = True
     scene black
     $ renpy.pause(2,hard= True)
-
 
     scene MLR3_b_house_shower_p1 with dissolve
 
@@ -206,7 +203,6 @@ label MLR3_b_house_shower_rep:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene MLR3_b_house_shower_p32 with dissolve
-
 
     MC "*Pant Pant*"
     Mom "*Gasp*"

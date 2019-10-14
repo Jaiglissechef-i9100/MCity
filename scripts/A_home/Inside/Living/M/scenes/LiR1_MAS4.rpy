@@ -28,6 +28,10 @@ label LiR1_MAS4_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
     scene black
     $ renpy.pause (1, hard = True)
     scene LiR1_MAS4_p1 with dissolve
@@ -168,7 +172,6 @@ label LiR1_MAS4_label:
     Yazmin "Eh... For now. I might need to borrow you again, in the future. But for the meantime, I have everything I need."
     MC "Okay. See you later, then... I guess."
     MC "(What does she mean, with that - waiting for tonight, though...?)"
-
 
     $ LiR1_NS1 = True
     $ LiR1_climbing = True

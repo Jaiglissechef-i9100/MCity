@@ -22,7 +22,6 @@ image LiR1_NS3_yaz_feet_p12 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Ya
 image LiR1_NS3_yaz_feet_p12a = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Foot/12a.jpg"
 image LiR1_NS3_yaz_feet_p13 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Foot/13.jpg"
 
-
 image LiR1_NS3_yaz_ass_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/1.jpg"
 image LiR1_NS3_yaz_ass_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/2.jpg"
 image LiR1_NS3_yaz_ass_p3 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/3.jpg"
@@ -33,7 +32,6 @@ image LiR1_NS3_yaz_ass_p7 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazm
 image LiR1_NS3_yaz_ass_p8 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/8.jpg"
 image LiR1_NS3_yaz_ass_p9 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/9.jpg"
 image LiR1_NS3_yaz_ass_p10 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Ass/10.jpg"
-
 
 image LiR1_NS3_yaz_mouth_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Mouth/1.jpg"
 image LiR1_NS3_yaz_mouth_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Mouth/2.jpg"
@@ -54,7 +52,7 @@ image LiR1_NS3_yaz_mouth_p15 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Y
 
 label LiR1_NS3_label:
     if renpy.loadable("patch.rpy"):
-        $ Liza2_name = "Auntie"
+        $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
 
@@ -74,7 +72,6 @@ label LiR1_NS3_label:
         hide screen time_skip_button
         hide screen day_time_viewer
         hide screen map_button
-
 
         scene LiR1_NS3_p1 with dissolve
 
@@ -217,7 +214,6 @@ label Yaz_NS_B_feet:
     MC "Ah... Oh..."
     MC "(I’m not gonna last much longer. I’ll have to try and keep my voice down, when I cum.)"
 
-
     scene LiR1_NS3_yaz_feet_p11
 
     MC "Hnnng.... Ugh.... ah...."
@@ -235,7 +231,6 @@ label Yaz_NS_B_feet:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS3_yaz_feet_p12a with dissolve
-
 
     MC "Ugh! Ahhh...."
     MC "(Phew... That was great!)"
@@ -339,7 +334,6 @@ label Yaz_NS_B_mouth:
     MC "(It sounds like she’s still sleeping... I think I’ve gotten away with it, so far. Let’s hope my luck keeps up!)"
     MC "(Okay... Now for the moment of truth... Hopefully she won’t bite down! I suppose - losing a finger - is better than losing your dick, though!)"
 
-
     scene LiR1_NS3_yaz_mouth_p6
 
     MC "Phew..."
@@ -361,7 +355,6 @@ label Yaz_NS_B_mouth:
     MC "(Okay, that’s my cock out. Time for the main event!)"
     MC "(My heart’s racing, right now... It’s gonna feel amazing, if I, somehow - pull this off - though.)"
     MC "(I’ll have to try and not laugh, the next time I’m speaking with her. She won’t ever know, that she’s sucked my cock, while she was asleep! Haha!)"
-
 
     scene LiR1_NS3_yaz_mouth_p10
 

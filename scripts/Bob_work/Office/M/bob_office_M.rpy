@@ -9,7 +9,6 @@ label bob_office_M1:
     if day_time == 2:
         jump bob_office_D1
 
-
 label bob_office_M2:
     hide screen displayTextScreen
     scene bob_office_bg
@@ -21,8 +20,6 @@ label bob_office_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_office_M_scr
-
-
 
 label office_leave:
     if day_time == 1:

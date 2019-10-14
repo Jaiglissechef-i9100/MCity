@@ -146,7 +146,6 @@ label MLR3_beach_event:
     show screen car_move_beach_notclickable
     call screen car_move_beach
 
-
 screen car_move_beach_notclickable:
     key "hide_windows" action NullAction()
     zorder 103
@@ -157,16 +156,13 @@ screen car_move_beach_notclickable:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
     timer 9 action [Jump("MLR3_beach_event2")]
+
 screen car_move_beach:
     modal True
-
 
     button action NullAction()
 
     add "images/Beach/MLR3_beach_event/car_map.png" at carbeach
-
-
-
 
 transform carbeach:
 

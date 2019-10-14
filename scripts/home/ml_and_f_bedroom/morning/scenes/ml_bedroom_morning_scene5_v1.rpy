@@ -28,6 +28,7 @@ image ml_bedroom_morning_scene5_v1_p27 = "/images/home/ml_and_f_bedroom/morning/
 
 image ml_bedroom_morning_scene5_v1_p20anim = Movie(play="videos/Linda-MorningS5-1.webm", loop = True )
 image ml_bedroom_morning_scene5_v1_p21anim = Movie(play="videos/Linda-MorningS5-2.webm", loop = True )
+
 label ml_bedroom_morning_scene5_v1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
@@ -192,6 +193,7 @@ label ml_bedroom_morning_scene5_v1_label2_menu:
                 jump ml_bedroom_morning_scene5_v1_label2_menu_after
             else:
                 jump ml_bedroom_morning_scene5_v1_label2_menu
+
 label ml_bedroom_morning_scene5_v1_label2_menu_after:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music1", loop=True, fadein = 2)

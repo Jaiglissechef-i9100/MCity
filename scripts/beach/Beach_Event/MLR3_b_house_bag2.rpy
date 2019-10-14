@@ -68,7 +68,6 @@ label MLR3_b_house_bag:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     jump b_house_bedroom_M1
 
-
 label MLR3_b_house_bag2:
     scene b_house_bedroom_N_map
     hide screen week_day_viewer
@@ -329,8 +328,6 @@ label MLR3_b_house_bag2:
             MC "If he really needs help, he can speak to Caroline or Sara. They’re both at home."
             Mom "Thanks, Sweetie."
             jump MLR3_b_house_bag3
-
-
 
 label MLR3_b_house_bag3:
     scene MLR3_beach_house_p43

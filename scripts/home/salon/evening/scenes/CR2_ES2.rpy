@@ -13,7 +13,6 @@ image CR2_ES2_p12 = "images/home/salon/evening/scenes/CR2_ES2/12.jpg"
 image CR2_ES2_p13 = "images/home/salon/evening/scenes/CR2_ES2/13.jpg"
 image CR2_ES2_p14 = "images/home/salon/evening/scenes/CR2_ES2/14.jpg"
 
-
 default can1_CR2_MS2 = False
 default CR2_ES2_day = 1
 default CR2_ES2_q1 = True
@@ -141,7 +140,6 @@ label CR2_ES2_menu:
             $ violetV2_scene = True
             $ can1_CR2_MS2 = True
             jump CR2_ES2_menu
-
 
         "I didn’t know you liked coffee." if CR2_ES2_q1 == True:
             scene CR2_ES2_p5
@@ -275,7 +273,6 @@ label CR2_ES2_menu:
         "Have you spoken to Linda or Bob about this robbery yet?" if CR2_ES2_q6 == True and not renpy.loadable("patch.rpy"):
             jump CR2_ES2_bobtalk
 
-
         "Are you feeling any better today?" if CR2_ES2_q7 == True:
             scene CR2_ES2_p12
 
@@ -297,9 +294,7 @@ label CR2_ES2_menu:
             jump CR2_ES2_menu
         "Bye.":
 
-
             jump CR2_ES2_bye
-
 
 label CR2_ES2_bye:
     if CR2_ES2_day == 1:
@@ -341,7 +336,6 @@ label CR2_ES2_bye:
         $ can_CR2_ES2 = False
         $ can_hide_windows = False
         jump salon_morning1
-
 
 label CR2_ES2_bobtalk:
     scene CR2_ES2_p12

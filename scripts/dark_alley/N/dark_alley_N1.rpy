@@ -1,5 +1,3 @@
-
-
 label dark_alley_N1:
     hide screen displayTextScreen
     scene dark_alley_Nbg

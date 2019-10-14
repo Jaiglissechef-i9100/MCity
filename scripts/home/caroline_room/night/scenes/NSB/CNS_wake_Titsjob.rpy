@@ -13,7 +13,6 @@ image CR2_NS_Titsjob_p10 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjo
 image CR2_NS_Titsjob_p11 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjob/11.jpg"
 image CR2_NS_Titsjob_p12 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjob/12.jpg"
 
-
 label CNS_wake_Titsjob_label:
     scene CR2_NS_Titsjob_p1
 
@@ -106,7 +105,6 @@ label CNS_wake_Titsjob_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR2_NS_Titsjob_p12 with dissolve
-
 
     MC "Wow…"
     Caroline "Well? Best titjob you’ve ever had?"

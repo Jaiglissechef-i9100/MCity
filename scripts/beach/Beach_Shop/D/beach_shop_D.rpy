@@ -1,10 +1,7 @@
-
-
 label beach_shop_D1:
 
     hide screen displayTextScreen
     hide screen map
-
 
     show screen week_day_viewer
     show screen time_skip_button

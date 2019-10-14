@@ -23,7 +23,7 @@ screen a_home_outside_E_scr:
 
             else:
                 action [Play ("sound", "sfx/door_open.mp3"),Jump("a_living_M1")]
-            hovered Show("displayTextScreen", displayText = "Enter House")
+            hovered Show("displayTextScreen", displayText = __("Enter House"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -37,7 +37,7 @@ screen a_home_outside_E_scr:
             idle "/images/a_home/outside/Entrance/E/B2a.png"
             hover "/images/a_home/outside/Entrance/E/B2a_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Pool")
+            hovered Show("displayTextScreen", displayText = __("Pool"))
             action [Hide("displayTextScreen"),Jump("a_pool_M1")]
             unhovered Hide("displayTextScreen")
 

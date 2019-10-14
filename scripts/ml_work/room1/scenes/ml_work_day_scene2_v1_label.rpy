@@ -26,6 +26,7 @@ image ml_work_day_scene2_v1_p6anim2 = Movie(play="videos/Linda-AfternoonS2-2.web
 image ml_work_day_scene2_v1_p15anim = Movie(play="videos/Linda-AfternoonS2-4.webm", loop = True )
 image ml_work_day_scene2_v1_p17anim = Movie(play="videos/Linda-AfternoonS2-3.webm", loop = True )
 image ml_work_day_scene2_v1_p18anim = Movie(play="videos/Linda-AfternoonS2-5.webm", loop = True )
+
 label ml_work_day_scene2_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button

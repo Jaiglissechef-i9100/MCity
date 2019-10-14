@@ -38,6 +38,7 @@ label ml_room_fj_v1:
             MC "You said that you’ve always felt this way. If I’d known, then I would have been able to understand, why you were acting the way you were."
             MC "Everything would have made sense."
             jump ml_bedroom_morning_scene6_v1_label_after_ch1r
+
 label ml_bedroom_morning_scene6_v1_label_after_ch1r:
 
     scene ml_bedroom_morning_scene6_v1_p3
@@ -187,6 +188,7 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
         "Start with Linda’s Hips, and work up her body" if not renpy.loadable("patch.rpy"):
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
+
 label ml_bedroom_morning_scene6_v1_label_after_ch21r:
     scene ml_bedroom_morning_scene6_v1_p20
     if renpy.loadable("patch.rpy"):

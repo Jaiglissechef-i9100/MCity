@@ -1,6 +1,3 @@
-
-
-
 label LiR1_NS5_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -284,7 +281,6 @@ label LiR1_NS5_rep:
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS5_p41a with dissolve
 
-
     MC "Hnnnngggg.... Ugh... Ah..."
     MC "*Pant* Wow..."
     Yazmin "Fuuuck.... That was goood..."
@@ -468,7 +464,6 @@ label LiR1_NS5_rep:
     Yazmin "It’s a shame you’re only into women. You’re wasting a REAL talent here!"
     MC "Ah... Ohh..."
 
-
     scene LiR1_NS5_p71
 
     Liza2 "*SHLURP*"
@@ -493,7 +488,6 @@ label LiR1_NS5_rep:
     MC "AHHH! I’M CUMMING! HNNG!"
     Liza2 "*SUCK SUCK*"
     Liza2 "*GASP!*"
-
 
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)

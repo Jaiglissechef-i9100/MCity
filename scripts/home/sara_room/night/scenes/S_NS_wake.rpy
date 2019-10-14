@@ -1,4 +1,3 @@
-
 label SR2_NSwake_label:
     MC "(I don’t know what I’m so worried about! I’ve already caught Sara, trying to take pictures of my cock while I’m asleep.)"
     MC "(What’s the worst that could happen?)"
@@ -30,8 +29,6 @@ label SR2_NSwake_label:
     Sara "(I guess it WAS pretty fun.)"
     $ renpy.block_rollback()
     call screen S_NS_wake_scr
-
-
 
 label SNS_wake_5:
     scene sara_room_night_sleeping2_WakeUp2

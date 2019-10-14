@@ -1,11 +1,6 @@
-
-
-
 label beach_up_M1:
 
-
     $ in_map = False
-
 
     if day_time == 1:
         jump beach_up_M2

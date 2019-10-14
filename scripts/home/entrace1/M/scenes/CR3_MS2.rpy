@@ -69,7 +69,6 @@ label CR3_MS2_label:
     MC "...You were never my girlfriend. It was just a-"
     Caroline "-I know exactly what it was. There’s no need to rehash it. Can’t we just bury this, and move on?"
 
-
     scene CR3_MS2_p9
 
     MC "How can you expect me to just, bury and forget, after everything that we did together?"

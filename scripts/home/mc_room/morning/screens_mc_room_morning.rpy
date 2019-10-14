@@ -6,7 +6,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/door1_morning_idle1.png"
         hover "images/home/mc_room/morning/door1_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = "Corridor")
+        hovered Show("displayTextScreen", displayText = __("Corridor"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_morning1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/bed_morning_idle1.png"
         hover "images/home/mc_room/morning/bed_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = "Bed")
+        hovered Show("displayTextScreen", displayText = __("Bed"))
         clicked Jump("day_time_changer")
         unhovered Hide("displayTextScreen")
 
@@ -25,7 +25,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
-        hovered Show("displayTextScreen", displayText = "Computer")
+        hovered Show("displayTextScreen", displayText = __("Computer"))
         action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("computer_menu")]
         unhovered Hide("displayTextScreen")
 
@@ -37,7 +37,7 @@ screen mc_room_morning:
             idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
             hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
             action [Hide("displayTextScreen"), addgimage("img4_mc_room_card"),Jump("mc_room_card")]
-            hovered Show("displayTextScreen", displayText = "Secret Card")
+            hovered Show("displayTextScreen", displayText = __("Secret Card"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -46,7 +46,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/s_gallery.png"
         hover "images/home/mc_room/morning/s_gallery_hover.png"
-        hovered Show("displayTextScreen", displayText = "Secret Gallery")
+        hovered Show("displayTextScreen", displayText = __("Secret Gallery"))
         action [Hide("displayTextScreen"), Show("secret_gallery"),]
         unhovered Hide("displayTextScreen")
 
@@ -57,7 +57,7 @@ screen mc_room_morning:
             focus_mask True
             idle "images/home/mc_room/morning/window_morning.png"
             hover "images/home/mc_room/morning/window_morning_hover.png"
-            hovered Show("displayTextScreen", displayText = "Window")
+            hovered Show("displayTextScreen", displayText = __("Window"))
             action [Hide("displayTextScreen"), Jump("neighboor_spy_v1_label"),]
             unhovered Hide("displayTextScreen")
 
@@ -71,6 +71,7 @@ screen mc_room_morning:
             hovered Show("displayTextScreen", displayText = "Caroline")
             action [Hide("displayTextScreen"), Jump("CR2_MS3_label"),]
             unhovered Hide("displayTextScreen")
+
     if Caroline_points == 2 and CR2_MS3a == True and can1_CR2_MS2 == True:
         imagebutton:
             xpos 867
@@ -89,7 +90,7 @@ screen mc_room_morning:
             focus_mask True
             idle "images/home/mc_room/morning/b1.png"
             hover "images/home/mc_room/morning/b1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Money")
+            hovered Show("displayTextScreen", displayText = __("Money"))
             action [Hide("displayTextScreen"), Jump("money_less10"),]
             unhovered Hide("displayTextScreen")
 
@@ -128,7 +129,6 @@ screen mc_room_morning_notclickable:
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
 
-
     if not "img4_mc_room_card" in gallery_photos.storage:
         imagebutton:
             xpos 23
@@ -136,7 +136,6 @@ screen mc_room_morning_notclickable:
             focus_mask True
             idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
             hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-
 
     imagebutton:
         xpos 1493

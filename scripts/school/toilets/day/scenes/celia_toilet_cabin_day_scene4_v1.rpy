@@ -2,7 +2,6 @@ image celia_toilet_cabin_day_scene4_v1_p1 = "images/school/toilets/day/scenes/ce
 image celia_toilet_cabin_day_scene4_v1_p2 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/2.jpg"
 image celia_toilet_cabin_day_scene4_v1_p3 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/3.jpg"
 
-
 image celia_toilet_cabin_day_scene4_Blowjob_v1_p4 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Blowjob/4.jpg"
 image celia_toilet_cabin_day_scene4_Blowjob_v1_p5 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Blowjob/5.jpg"
 image celia_toilet_cabin_day_scene4_Blowjob_v1_p6 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Blowjob/6.jpg"
@@ -21,7 +20,6 @@ image celia_toilet_cabin_day_scene4_Blowjob_v1_p18a = "images/school/toilets/day
 image celia_toilet_cabin_day_scene4_Blowjob_v1_p18b = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Blowjob/18b.jpg"
 image celia_toilet_cabin_day_scene4_Blowjob_v1_p7anim = Movie(play="videos/Celia-Afternoon-Blowjob1.webm", loop = True )
 
-
 image celia_toilet_cabin_day_scene4_anal_v1_p4 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Anal/4.jpg"
 image celia_toilet_cabin_day_scene4_anal_v1_p5 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Anal/5.jpg"
 image celia_toilet_cabin_day_scene4_anal_v1_p6 = "images/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1/Anal/6.jpg"
@@ -39,7 +37,6 @@ image celia_toilet_cabin_day_scene4_anal_v1_p9anim = Movie(play="videos/Celia-Af
 image celia_toilet_cabin_day_scene4_anal_v1_p9anim2 = Movie(play="videos/Celia-AfternoonS4-Anal2.webm", loop = True )
 image celia_toilet_cabin_day_scene4_anal_v1_p12anim = Movie(play="videos/Celia-AfternoonS4-Anal3.webm", loop = True )
 image celia_toilet_cabin_day_scene4_anal_v1_p12anim2 = Movie(play="videos/Celia-AfternoonS4-Anal4.webm", loop = True )
-
 
 label celia_toilet_cabin_day_scene4_v1_label:
     hide screen week_day_viewer
@@ -250,9 +247,6 @@ label celia_toilet_cabin_day_scene4_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump toilets_day1
-
-
-
 
 label celia_toilet_cabin_day_scene4__blowjob_v1_label:
     scene black

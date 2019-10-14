@@ -1,5 +1,3 @@
-
-
 image Vv2_AS1_p1 = "/images/dark_alley/D/scenes/Vv2_AS1/1.jpg"
 image Vv2_AS1_p2 = "/images/dark_alley/D/scenes/Vv2_AS1/2.jpg"
 image Vv2_AS1_p3 = "/images/dark_alley/D/scenes/Vv2_AS1/3.jpg"
@@ -26,9 +24,11 @@ image Vv2_AS1_p12 = "/images/dark_alley/D/scenes/Vv2_AS1/12.jpg"
 image Vv2_AS1_p13 = "/images/dark_alley/D/scenes/Vv2_AS1/13.jpg"
 image Vv2_AS1_p14 = "/images/dark_alley/D/scenes/Vv2_AS1/14.jpg"
 image Vv2_AS1_p15 = "/images/dark_alley/D/scenes/Vv2_AS1/15.jpg"
+
 default V_points = 1
 default Dwayne_name = "Dwayne"
 default player_name1 = "{color=#3366FF}[player_name]{/color}"
+
 label Vv2_AS1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Secrets_of_the_Schoolyard.mp3', channel="music1", loop=True, fadein = 2)
@@ -45,7 +45,6 @@ label Vv2_AS1_label:
     MC "(I’ll hang back and watch what’s going on first…)"
 
     scene Vv2_AS1_p2
-
 
     Violet "I-I’m sorry, Dwayne."
     Dwayne "Sorry’s not gunna cut it, is it?"
@@ -100,6 +99,7 @@ label Vv2_AS1_label:
                     jump Vv2_AS1_q1
         "Stay out of it! This guy would murder you!":
 
+
             scene Vv2_AS1_p7a
 
             "*THUD*"
@@ -117,9 +117,6 @@ label Vv2_AS1_label:
             $ renpy.music.stop(channel="music1", fadeout=1)
             $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
             jump Vv2_AS1_continue
-
-
-
 
 label Vv2_AS1_q1:
     scene Vv2_AS1_p8c
@@ -168,12 +165,10 @@ label Vv2_AS1_q1:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
 
-
     MC "Oh God… Violet…"
     MC "(Is she alright?! I have to go and check…)"
     MC "(I hope that asshole hasn’t hurt her!)"
     jump Vv2_AS1_continue
-
 
 label Vv2_AS1_continue:
 

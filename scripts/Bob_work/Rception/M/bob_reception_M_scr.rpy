@@ -1,6 +1,3 @@
-
-
-
 screen bob_reception_M_scr:
     add "/images/Bob_work/reception/M/reception_M.jpg"
     key "hide_windows" action NullAction()
@@ -11,7 +8,7 @@ screen bob_reception_M_scr:
         idle "images/Bob_work/reception/M/B1.png"
         hover "images/Bob_work/reception/M/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Office")
+            hovered Show("displayTextScreen", displayText = __("Office"))
             if Zv2_first_meet == True:
                 action [Hide("displayTextScreen"),Jump("Zv2_MS1_label")]
             if zuri_magentcard in inventory.items:
@@ -19,6 +16,7 @@ screen bob_reception_M_scr:
             else:
                 action [Hide("displayTextScreen"),Play ("sound", "sfx/door_locked.mp3"),Jump("bob_officelocked")]
             unhovered Hide("displayTextScreen")
+
     if Zv2_first_meet == True:
         imagebutton:
             xpos 169
@@ -42,6 +40,7 @@ screen bob_reception_M_scr:
                 hovered Show("displayTextScreen", displayText = "Zuri")
                 action [Hide("displayTextScreen"),Jump("Zv2_MS2_label")]
                 unhovered Hide("displayTextScreen")
+
     imagebutton:
         xpos 1075
         ypos 28
@@ -49,7 +48,7 @@ screen bob_reception_M_scr:
         idle "images/Bob_work/reception/M/B2.png"
         hover "images/Bob_work/reception/M/B2_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Painting")
+            hovered Show("displayTextScreen", displayText = __("Painting"))
             action [Hide("displayTextScreen"),Jump("bob_paintingreception_label")]
             unhovered Hide("displayTextScreen")
 

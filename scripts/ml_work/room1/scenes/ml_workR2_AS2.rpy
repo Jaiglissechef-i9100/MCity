@@ -1,4 +1,3 @@
-
 default can_ml_workR2_AS2_talk = True
 default can_ml_workR2_AS2 = False
 
@@ -31,6 +30,7 @@ label ml_workR2_AS2_label:
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         jump ml_work_room1_day1
+
     if can_ml_workR2_AS2 == False and can_ml_workR2_AS2_talk == False:
         Mom "I'm sorry, Sweetie. I don't have any work for you today."
         MC "That's fine."
@@ -47,7 +47,6 @@ label ml_workR2_AS2_label:
         $ can_hide_windows = False
         jump ml_work_room1_day1
     else:
-
 
         Mom "Hey, Sweetie. Do you mind cleaning the office again for me?"
         MC "Sure, no sweat."
@@ -70,7 +69,6 @@ label after_ml_workR2_AS2_label:
     $ can_hide_windows = True
     $ inventory.earn(25)
     $ renpy.pause(3, hard = True)
-
 
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p3 with dissolve

@@ -11,13 +11,10 @@ image LiR1_MAS2_p10 = "images/a_home/Inside/Living/M/Scenes/LiR1_MAS2/10.jpg"
 image LiR1_MAS2_p11 = "images/a_home/Inside/Living/M/Scenes/LiR1_MAS2/11.jpg"
 image LiR1_MAS2_p12 = "images/a_home/Inside/Living/M/Scenes/LiR1_MAS2/12.jpg"
 
-
 label Li_MAS2_label:
     if renpy.loadable("patch.rpy"):
-        $ Linda_name = "Mom"
-        $ Liza2_name = "Auntie"
+        $ Liza2_name = __("Auntie")
     else:
-        $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -37,20 +34,20 @@ label Li_MAS2_label:
     if Li_MAS2_menu_visit <2:
         scene LiR1_MAS2_p2
 
-
         Liza2 "What’s new with you, then? Anything exciting or interesting, happening in your life?"
         MC "(Almost everything is too private or lewd for me to tell her! I better change the conversation topic, before I let something slip about my current romantic entanglements, or that cringeworthy kerfuffle with my teacher!)"
         MC "Err... nothing much."
 
-
-
-    if renpy.loadable("patch.rpy"):
-        $ Mom_name = "Mom"
-    else:
-        $ Mom_name = "Linda"
     jump Li_MAS2_menu
 
 label Li_MAS2_menu:
+    if renpy.loadable("patch.rpy"):
+        $ Mom_name = __("Mom")
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Mom_name = "Linda"
+        $ Liza2_name = "Liza"
+
     scene LiR1_MAS2_p2
     menu:
         "How long have you and Yazmin been married?" if Li_MAS2_q1 == True:
@@ -115,7 +112,6 @@ label Li_MAS2_menu:
             Liza2 "(Honestly? She pushed me, up against the wall and started making out with me, before she’d even asked my name.)"
             Liza2 "(I was wearing these really tight leggings, and she STILL somehow managed, to slip her hand inside them. God... she had me soaking my panties, for almost an hour.)"
 
-
             scene LiR1_MAS2_p6
 
             Liza2 "Err... She asked me out for coffee, and we went to the local Barstucks, for our first date."
@@ -126,7 +122,6 @@ label Li_MAS2_menu:
                 $ can_LiR1_MAS2 = False
             $ Li_MAS2_q3 = False
             jump Li_MAS2_menu
-
 
         "How did [Mom_name] react, when she found out you were a lesbian?" if Li_MAS2_q4 == True:
 
@@ -197,7 +192,6 @@ label Li_MAS2_menu:
                 $ can_LiR1_MAS2 = False
             $ Li_MAS2_q6 = False
             jump Li_MAS2_menu
-
 
         "What’s REALLY going on, between you and [Mom_name]? You hardly ever visit each other." if Li_MAS2_q7 == True:
 

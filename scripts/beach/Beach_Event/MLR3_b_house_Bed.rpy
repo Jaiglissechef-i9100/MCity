@@ -194,7 +194,6 @@ label MLR3_b_house_Bed:
 
     MC "And those stockings and panties are gorgeous too!"
 
-
     $ renpy.movie_cutscene("videos/05 Linda Beach 1.webm")
     scene MLR3_b_house_Bed_p3aa
     Mom "I hope you like them. I picked them up, especially for you. I thought that these were the most erotic ones in the store."
@@ -317,7 +316,6 @@ label MLR3_b_house_Bed:
     menu:
         "Let’s begin with a blowjob.":
             scene MLR3_b_house_Blow_p1
-
 
             MC "Can we start with a blowjob?"
             Mom "Of course, Sweetie."
@@ -496,7 +494,6 @@ label MLR3_b_house_Bed2:
     scene MLR3_b_house_Bed_p29
 
     MC "Mmm! (Oh fuck! I can feel her vulva wrapping around the tip of my cock.)"
-
 
     $ renpy.movie_cutscene("videos/05 Linda Beach 18.webm")
     scene MLR3_b_house_Bed_p29a
@@ -937,7 +934,6 @@ label MLR3_b_house_Bed2:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR3_b_house_Bed_p87
-
 
     MC "Oh wow… I’m exhausted."
     Mom "You did good to keep up with me, for a full two rounds."

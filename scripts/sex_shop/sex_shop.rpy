@@ -39,7 +39,6 @@ label sex_shop_evening_label:
     show screen new_message_incoming1
     call screen sex_shop_evening_screen
 
-
 screen sex_shop_evening_screen:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -50,7 +49,7 @@ screen sex_shop_evening_screen:
         hover "images/sex_shop/sex_shop_lady_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("sex_shop_table_label")]
-            hovered Show("displayTextScreen", displayText = "Saleswoman")
+            hovered Show("displayTextScreen", displayText = __("Saleswoman"))
             unhovered Hide("displayTextScreen")
 
     if not "img5_sex_shop_card" in gallery_photos.storage:
@@ -62,6 +61,7 @@ screen sex_shop_evening_screen:
             hover "images/secret_gallery/Bonus/SexShop Card_hover.png"
             action [Hide("displayTextScreen"), addgimage("img5_sex_shop_card") ,SetVariable("clickable", False),Show("card_found_alert")]
             unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0
@@ -81,9 +81,8 @@ screen sex_shop_evening_screen:
             hover "images/sex_shop/sex_shop_lady_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("SR2_AS3_vibrator_label")]
-                hovered Show("displayTextScreen", displayText = "Saleswoman")
+                hovered Show("displayTextScreen", displayText = __("Saleswoman"))
                 unhovered Hide("displayTextScreen")
-
 
 label sex_shop_table_label:
     if sex_shop_visit == 1:
@@ -98,10 +97,10 @@ label sex_shop_table_label:
         scene sex_shop_table
         call screen sex_shop_table_screen
 
-
 label sex_shop_table_label1:
     scene sex_shop_table
     call screen sex_shop_table_screen
+
 screen sex_shop_table_screen:
     key "hide_windows" action NullAction()
     if dildo_buy == False:
@@ -113,7 +112,7 @@ screen sex_shop_table_screen:
             hover "images/sex_shop/DildoB1Hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("dildo_buy_label")]
-                hovered Show("displayTextScreen", displayText = "Dildo")
+                hovered Show("displayTextScreen", displayText = __("Dildo"))
                 unhovered Hide("displayTextScreen")
 
     if sexy_cloth_buy == False:
@@ -124,7 +123,7 @@ screen sex_shop_table_screen:
             hover "images/sex_shop/SexyClothB2_Hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("sexy_cloth_buy_label")]
-                hovered Show("displayTextScreen", displayText = "Sexy Cloth")
+                hovered Show("displayTextScreen", displayText = __("Sexy Cloth"))
                 unhovered Hide("displayTextScreen")
 
     if vibrator_buy == False:
@@ -136,8 +135,9 @@ screen sex_shop_table_screen:
             hover "images/sex_shop/VibratorB3_Hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("vibrator_buy_label")]
-                hovered Show("displayTextScreen", displayText = "Vibrator")
+                hovered Show("displayTextScreen", displayText = __("Vibrator"))
                 unhovered Hide("displayTextScreen")
+
     if lube_buy == False:
         imagebutton:
             xpos 200
@@ -147,7 +147,7 @@ screen sex_shop_table_screen:
             hover "images/sex_shop/B4_Hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("lube_buy_label")]
-                hovered Show("displayTextScreen", displayText = "Lube")
+                hovered Show("displayTextScreen", displayText = __("Lube"))
                 unhovered Hide("displayTextScreen")
 
     if clickable == True:
@@ -158,10 +158,6 @@ screen sex_shop_table_screen:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Hide("displayTextScreen"),Jump("sex_shop_evening_label")]
-
-
-
-
 
 screen sex_shop_buy_screen:
     key "hide_windows" action NullAction()

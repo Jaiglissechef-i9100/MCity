@@ -66,7 +66,6 @@ label MLR2_ES2_label:
     "…"
     Mom "Uh huh. Now’s not a great time."
 
-
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
     scene MLR2_ES2_p7

@@ -2,7 +2,6 @@ screen b_house_bath_N_scr:
 
     add "images/Beach/Beach_House/Bathroom/N/map.jpg"
 
-
     if clickable == True:
         imagebutton:
             xpos 0

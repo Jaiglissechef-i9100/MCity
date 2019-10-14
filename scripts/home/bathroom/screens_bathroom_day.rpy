@@ -18,6 +18,7 @@ screen bathroom_day:
         action [Hide("displayTextScreen"),Jump("bath_event_label")]
         hovered Show("displayTextScreen", displayText = "Bath")
         unhovered Hide("displayTextScreen")
+
 screen bathroom_day_notclickable:
     key "hide_windows" action NullAction()
     imagebutton:

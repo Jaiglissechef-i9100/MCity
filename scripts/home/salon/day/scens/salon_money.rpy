@@ -1,6 +1,3 @@
-
-
-
 label salon_money_label:
     if day_time == 1:
         show screen salon_morning_notclickable

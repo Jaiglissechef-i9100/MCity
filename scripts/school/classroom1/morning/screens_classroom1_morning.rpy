@@ -7,7 +7,7 @@ screen classroom1_morning:
         idle "images/school/classroom1/morning/door1_morning_idle.png"
         hover "images/school/classroom1/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "School Corridor")
+            hovered Show("displayTextScreen", displayText = __("School Corridor"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_morning1")]
             unhovered Hide("displayTextScreen")
 
@@ -21,6 +21,7 @@ screen classroom1_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"), addgimage("img8_mc_classroom_card") ,SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
+
     if celia_school_morning_scene2v1 == 1:
         imagebutton:
             xpos 1322
@@ -32,6 +33,7 @@ screen classroom1_morning:
                 hovered Show("displayTextScreen", displayText = "Celia")
                 action [Hide("displayTextScreen"),Jump("celia_school_morning_scene2v1_label")]
                 unhovered Hide("displayTextScreen")
+
     if macy_classroom1_morning_scene1 == True:
         imagebutton:
             xpos 333
@@ -50,10 +52,9 @@ screen classroom1_morning:
         idle "images/school/classroom1/morning/deskb1.png"
         hover "images/school/classroom1/morning/deskb1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Desk")
+            hovered Show("displayTextScreen", displayText = __("Desk"))
             action [Hide("displayTextScreen"),Jump("Deskb1_label")]
             unhovered Hide("displayTextScreen")
-
 
 screen classroom1_morning_notclickable:
     key "hide_windows" action NullAction()
@@ -62,7 +63,6 @@ screen classroom1_morning_notclickable:
         ypos 162
         focus_mask True
         idle "images/school/classroom1/morning/door1_morning_idle.png"
-
 
     if not "img8_mc_classroom_card" in gallery_photos.storage:
         imagebutton:

@@ -2,7 +2,6 @@ image caroline_mc_room_evening_scene2_p1 = "images/home/mc_room/evening/scenes/c
 image caroline_mc_room_evening_scene2_p2 = "images/home/mc_room/evening/scenes/caroline_mc_room_evening_scene2/2.jpg"
 image caroline_mc_room_evening_scene2_p3 = "images/home/mc_room/evening/scenes/caroline_mc_room_evening_scene2/3.jpg"
 
-
 label caroline_mc_room_evening_scene2_label:
     hide screen week_day_viewer
     hide screen time_skip_button

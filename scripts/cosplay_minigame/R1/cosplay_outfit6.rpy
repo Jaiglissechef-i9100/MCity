@@ -68,7 +68,6 @@ screen outfit6_screen1:
         hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/RotateHover.png"
         action [Hide("displayTextScreen"), Jump("outfit6_rotate1"),]
 
-
 label outfit6_down1:
     scene cosplay_outfit6_p2a
     $ renpy.pause()
@@ -109,8 +108,6 @@ label outfit6_rotate1:
     MC "Can you turn around?"
     Caroline "Sure."
     jump cosplay_outfit6_label2
-
-
 
 label cosplay_outfit6_label2:
     scene cosplay_outfit6_p3 with dissolve

@@ -17,5 +17,5 @@ screen caroline_room_day:
             hover "/images/home/caroline_room/day/CR3_AS7a_B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CR3_AS7a_label")]
-                hovered Show("displayTextScreen", displayText = "Caroline's Bed")
+                hovered Show("displayTextScreen", displayText = __("Caroline's Bed"))
                 unhovered Hide("displayTextScreen")

@@ -56,7 +56,6 @@ label CR2_AS3_label:
     MC "(Huh?! Is she crying?)"
     MC "Caroline? Are you okay?"
 
-
     scene CR2_AS3_p2
 
     MC "(Jesus Christ! She’s crying her eyes out!)"
@@ -150,7 +149,6 @@ label CR2_AS3a_label:
         Caroline "I still have no money and I don’t know where to begin fixing things..."
 
         scene CR2_AS3a_p4
-
 
         MC "It’s okay, Caroline. I’ll be with you, every step of the way."
         Caroline "You don’t need to do this. I know this is a job for you, but I… I’m not even paying you in cash."

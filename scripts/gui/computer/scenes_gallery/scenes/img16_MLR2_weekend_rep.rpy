@@ -1,6 +1,3 @@
-
-
-
 label MLR2_weekend_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     hide screen mc_room_day_notclickable
@@ -20,6 +17,12 @@ label MLR2_weekend_rep:
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR2_weekend_p1 with dissolve
     $ can_hide_windows = True
+    if renpy.loadable("patch.rpy"):
+        $ Mom_name = __("Mom")
+        $ Dad_name = __("Dad")
+    if not renpy.loadable("patch.rpy"):
+        $ Mom_name = "Linda"
+        $ Dad_name = "Bob"
     Mom "Good evening, Dear. Nice to see you finally made it."
     MC "You started drinking without me?"
     Mom "Just a little bit. Hehe...! I was too excited, to contain myself any longer."
@@ -182,7 +185,6 @@ label MLR2_weekend_rep:
     $ can_hide_windows = False
     call screen MLR2_weekend_scr_rep
 
-
 screen MLR2_weekend_scr_rep:
     key "hide_windows" action NullAction()
     add "images/Weekend_Events/ML/R2/23.jpg"
@@ -240,7 +242,6 @@ screen MLR2_weekend_scr_rep:
         idle "images/Weekend_Events/ML/R2/BodySpot/wine.png"
 
     text "{size=+20}{color=#00ff00}[MLR2_wine_counter]/3{/color}{/size}" xpos 1680 ypos 1000
-
 
 label MLR2_weekend_feet_label_rep:
     hide screen MLR2_weekend_scr_rep
@@ -638,9 +639,7 @@ label MLR2_weekend_end_label_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.pause(4, hard = True)
 
-
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
-
 
     scene MLR2_weekend_p53
 

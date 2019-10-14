@@ -1,6 +1,3 @@
-
-
-
 label SR2_ES1_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -33,7 +30,6 @@ label SR2_ES1_rep:
         MC "What's everything you have to do before Mom ungrounds you?"
     else:
         MC "What's everything you have to do before Linda ungrounds you?"
-
 
     scene SR2_ES1_p4
 
@@ -108,7 +104,6 @@ label SR2_ES1_rep:
     $ menu_q1 = True
     $ menu_q2 = True
     jump SR2_ES1_menu_rep
-
 
 label SR2_ES1_menu_rep:
     scene SR2_ES1_p13
@@ -224,8 +219,6 @@ label SR2_ES1_menu_rep:
                 jump SR2_ES1_continue_rep
             else:
                 jump SR2_ES1_menu_rep
-
-
 
 label SR2_ES1_continue_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)

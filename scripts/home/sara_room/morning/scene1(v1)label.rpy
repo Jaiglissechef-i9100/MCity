@@ -4,7 +4,6 @@ image scene1_v1p3 = "images/home/sara_room/morning/Scene1_v1/3.jpg"
 image scene1_v1p4 = "images/home/sara_room/morning/Scene1_v1/4.jpg"
 image after_sis_nerdy_scene1_v1p1 = "images/home/sara_room/morning/Scene1_v1/after_sara_scene1.png"
 
-
 label scene1_v1:
     $ renpy.music.stop(channel="music2", fadeout=2)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
@@ -102,6 +101,7 @@ label next_day_after_sis_nerdy_scene1_v1:
     $ scene1_v1q1a2 = True
     $ scene1_v1q1a3 = True
     jump scene1_v1q1
+
 label scene1_v1q1:
     scene scene1_v1p4
     menu:

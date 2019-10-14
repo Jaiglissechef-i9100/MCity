@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 label bob_entrance_D1:
     hide screen displayTextScreen
     scene bob_entrance_bg

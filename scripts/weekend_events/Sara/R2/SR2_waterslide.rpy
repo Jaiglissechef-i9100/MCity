@@ -52,7 +52,6 @@ label SR2_waterslide_label:
         menu:
             "Offer to climb up first.":
 
-
                 MC "Would you prefer it if I climbed up first?"
                 Sara "Honestly? Yeah."
                 MC "No problem. I’ll start climbing the ladder now."
@@ -74,11 +73,9 @@ label SR2_waterslide_label:
                 jump SR2_after_waterslide_menu
             "Tell Sara to start climbing, and that you’ll be right behind her.":
 
-
                 MC "Go ahead - start climbing. I’ll be right behind you, to catch you if you fall."
 
                 scene SR2_weekend_waterslide_p3a
-
 
                 Sara "Thanks, [player_name]."
                 Sara "I’ve been here so many times with friends, but I’ve never actually been in the deep part of the pool."
@@ -121,7 +118,6 @@ label SR2_after_waterslide_menu:
     Sara "(I love the feeling of his warm hands wrapped around my belly.)"
     Sara "(I just wish I could cuddle him like that every night.)"
     MC "Ready to go?"
-
 
     scene SR2_weekend_waterslide_p8
 

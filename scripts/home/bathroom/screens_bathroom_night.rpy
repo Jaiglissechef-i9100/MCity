@@ -7,7 +7,7 @@ screen bathroom_night:
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("kitchen_night1")]
-        hovered Show("displayTextScreen", displayText = "Kitchen")
+        hovered Show("displayTextScreen", displayText = __("Kitchen"))
         unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 393
@@ -16,7 +16,7 @@ screen bathroom_night:
         idle "images/home/bathroom/morning/scenes/bath_event/bath_night_b2.png"
         hover "images/home/bathroom/morning/scenes/bath_event/bath_night_b2_hover.png"
         action [Hide("displayTextScreen"),Jump("bath_event_label")]
-        hovered Show("displayTextScreen", displayText = "Bath")
+        hovered Show("displayTextScreen", displayText = __("Bath"))
         unhovered Hide("displayTextScreen")
 
 screen bathroom_night_notclickable:

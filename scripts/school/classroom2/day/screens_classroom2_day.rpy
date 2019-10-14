@@ -7,7 +7,7 @@ screen classroom2_day:
         idle "images/school/classroom2/morning/door1_morning_idle.png"
         hover "images/school/classroom2/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "School Corridor")
+            hovered Show("displayTextScreen", displayText = __("School Corridor"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_day1")]
             unhovered Hide("displayTextScreen")
 
@@ -31,7 +31,7 @@ screen classroom2_day:
                 idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
                 hover "images/school/classroom2/day/scenes/Table_Classroom_v1/desk_hover.png"
                 if clickable == True:
-                    hovered Show("displayTextScreen", displayText = "Desk")
+                    hovered Show("displayTextScreen", displayText = __("Desk"))
                     action [Hide("displayTextScreen"),Jump("Table_day_Classroom_v1_label")]
                     unhovered Hide("displayTextScreen")
 
@@ -71,6 +71,7 @@ screen classroom2_day:
                 hovered Show("displayTextScreen", displayText = "Lily")
                 clicked [Hide("displayTextScreen"), Jump("lily_school_scene_nothing_label")]
                 unhovered Hide("displayTextScreen")
+
         if celia_school_morning_scene1bv1 == 0:
             imagebutton:
                 xpos 977
@@ -79,7 +80,7 @@ screen classroom2_day:
                 idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
                 hover "images/school/classroom2/day/scenes/Table_Classroom_v1/desk_hover.png"
                 if clickable == True:
-                    hovered Show("displayTextScreen", displayText = "Desk")
+                    hovered Show("displayTextScreen", displayText = __("Desk"))
                     action [Hide("displayTextScreen"),Jump("Table_day_Classroom_v1_label")]
                     unhovered Hide("displayTextScreen")
 
@@ -103,9 +104,10 @@ screen classroom2_day:
             idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
             hover "images/school/classroom2/day/scenes/Table_Classroom_v1/desk_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Desk")
+                hovered Show("displayTextScreen", displayText = __("Desk"))
                 action [Hide("displayTextScreen"),Jump("Table_day_Classroom_v1_label")]
                 unhovered Hide("displayTextScreen")
+
     if SR2_AS2 == True and Sara_points == 2:
         imagebutton:
             xpos 1356
@@ -117,6 +119,7 @@ screen classroom2_day:
                 hovered Show("displayTextScreen", displayText = "Sara")
                 action [Hide("displayTextScreen"),Jump("SR2_AS2_label")]
                 unhovered Hide("displayTextScreen")
+
     if SR2_AS3 == True and Sara_points == 2:
         imagebutton:
             xpos 1356
@@ -128,6 +131,7 @@ screen classroom2_day:
                 hovered Show("displayTextScreen", displayText = "Sara")
                 action [Hide("displayTextScreen"),Jump("SR2_AS3_label")]
                 unhovered Hide("displayTextScreen")
+
     if SR2_AS4 == True and Sara_points == 2:
         imagebutton:
             xpos 1356
@@ -185,6 +189,7 @@ screen classroom2_day:
                 hovered Show("displayTextScreen", displayText = "Sara")
                 action [Hide("displayTextScreen"),Jump("SR2_AS6_label")]
                 unhovered Hide("displayTextScreen")
+
 screen classroom2_day_notclickable:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -193,7 +198,6 @@ screen classroom2_day_notclickable:
         focus_mask True
         idle "images/school/classroom2/morning/door1_morning_idle.png"
 
-
     if lily_school_day_scene1_v1 == 1 and can_lily_scene == True:
         imagebutton:
             xpos 436
@@ -201,14 +205,12 @@ screen classroom2_day_notclickable:
             focus_mask True
             idle "images/school/classroom2/day/scenes/Lily_school_day_scene1_v1/Lily.png"
 
-
         if celia_school_morning_scene1bv1 == 0:
             imagebutton:
                 xpos 977
                 ypos 423
                 focus_mask True
                 idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
-
 
     if lily_school_day_scene2_v1 == 1 and can_lily_scene == True:
         imagebutton:
@@ -217,15 +219,12 @@ screen classroom2_day_notclickable:
             focus_mask True
             idle "images/school/classroom2/day/scenes/Lily_school_day_scene1_v1/Lily.png"
 
-
-
         if celia_school_morning_scene1bv1 == 0:
             imagebutton:
                 xpos 977
                 ypos 423
                 focus_mask True
                 idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
-
 
     if lily_school_day_scene1_v1 == 3 and lily_school_day_scene2_v1 == 0 and can_lily_scene == True:
 
@@ -242,14 +241,12 @@ screen classroom2_day_notclickable:
                 focus_mask True
                 idle "images/school/classroom2/day/scenes/Table_Classroom_v1/desk.png"
 
-
     if lily_work_in_progress_v1 == 1 and can_lily_scene == True:
         imagebutton:
             xpos 436
             ypos 320
             focus_mask True
             idle "images/school/classroom2/day/scenes/Lily_school_day_scene1_v1/Lily.png"
-
 
     if celia_school_morning_scene1bv1 == 0:
         imagebutton:

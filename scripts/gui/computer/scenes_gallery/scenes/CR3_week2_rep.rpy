@@ -1,6 +1,3 @@
-
-
-
 label CR3_week2_rep:
 
     hide screen week_day_viewer
@@ -18,7 +15,6 @@ label CR3_week2_rep:
 
     MC "Ugh... Bloody birds..."
     MC "*YAWN* It’s about time I get up, anyway."
-
 
     scene CR3_WE_mor_p2
 
@@ -193,7 +189,6 @@ label CR3_WE_label_mor_con1_rep:
 
     MC "You’ve seen me naked LOADS of times. It seems fair to me, that I should get to see you in the nude today."
     Caroline "Gah, you’re persistent. You know that?!"
-
 
     scene CR3_WE_mor_p26
 
@@ -381,7 +376,6 @@ label CR3_WE_label_mor_con1_rep:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_WE_mor_p55a with dissolve
-
 
     MC "Ohh... Fuck me..."
     Caroline "Oh wow... That’s A LOT of cum! Somebody must have been REALLY horny!"

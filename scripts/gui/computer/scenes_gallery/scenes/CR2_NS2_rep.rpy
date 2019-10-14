@@ -1,6 +1,3 @@
-
-
-
 label CR2_NS2_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     hide screen week_day_viewer
@@ -37,7 +34,6 @@ label CR2_NS2_rep:
     Caroline "Don’t look so worried. Nothing seriously bad has happened."
     MC "Oh, thank God."
     MC "You had me scared there!"
-
 
     scene CR2_NS2_p5
 
@@ -321,7 +317,6 @@ label CR2_NS2_continue1_rep:
             scene CR2_NS2_back_p9anim
             MC "MMM! Oh…"
 
-
             scene CR2_NS2_back_p8
 
             MC "I’m good, Caroline. Your ass feels amazing!"
@@ -372,7 +367,6 @@ label CR2_NS2_continue1_rep:
             scene CR2_NS2_front_p3anim
             Caroline "(I love the sensation of his cock, grinding against my panties.)"
             Caroline "(It’s brushing, perfectly against my clitoris!)"
-
 
             scene CR2_NS2_front_p4
 
@@ -510,7 +504,6 @@ label CR2_NS2_continue2_rep:
 
     scene CR2_NS2_p40
 
-
     Caroline "Aha! There you are!"
     Caroline "(How on Earth did you get THAT far under the bed?)"
     Caroline "(It must have rolled, after I threw it under, last time.)"
@@ -544,7 +537,6 @@ label CR2_NS2_continue2_rep:
     Caroline "(Am I seriously getting off, to the thought of [player_name] fucking me?)"
     Caroline "(That’s sick and wrong… isn’t it?)"
     Caroline "(What’s wrong with me!?)"
-
 
     scene CR2_NS2_p45
 

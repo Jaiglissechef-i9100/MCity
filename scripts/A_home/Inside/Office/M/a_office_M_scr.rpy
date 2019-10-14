@@ -41,7 +41,7 @@ screen a_office_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Li_key_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Auntie's Key")
+                hovered Show("displayTextScreen", displayText = __("Auntie's Key"))
             else:
-                hovered Show("displayTextScreen", displayText = "Liza's Key")
+                hovered Show("displayTextScreen", displayText = __("Liza's Key"))
             unhovered Hide("displayTextScreen")

@@ -1,7 +1,5 @@
 image a_garage_bg_M = "/images/a_home/outside/Garage/M/1.jpg"
 
-
-
 label a_garage_M1:
     $ in_map = False
 

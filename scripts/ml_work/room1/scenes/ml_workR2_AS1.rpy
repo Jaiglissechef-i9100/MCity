@@ -8,7 +8,6 @@ image ml_workR2_AS1_p7 = "/images/ml_work/room1/scenes/ml_workR2_AS1/7.jpg"
 image ml_workR2_AS1_p8 = "/images/ml_work/room1/scenes/ml_workR2_AS1/8.jpg"
 image ml_workR2_AS1_p9 = "/images/ml_work/room1/scenes/ml_workR2_AS1/9.jpg"
 
-
 label ml_workR2_AS1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -35,14 +34,12 @@ label ml_workR2_AS1_label:
     $ can_hide_windows = False
     jump work_minigame_R2_room1_label
 
-
 label after_ml_workR2_AS1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     scene black
     $ can_hide_windows = True
     $ inventory.earn(25)
     $ renpy.pause(3, hard = True)
-
 
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p3 with dissolve

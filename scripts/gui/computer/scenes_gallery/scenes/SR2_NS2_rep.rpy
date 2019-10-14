@@ -1,5 +1,3 @@
-
-
 label SR2_NS2_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -49,7 +47,6 @@ label SR2_NS2_rep:
     MC "(Fuck, she’s onto me!)"
     MC "Y-Yeah! I thought it would be… um… sexier this way!"
 
-
     scene SR2_NS2_p7
 
     Sara "Aww, that’s sweet. Hehe…"
@@ -67,12 +64,10 @@ label SR2_NS2_rep:
             MC "You give REALLY good blowjobs. Could I maybe get you to give me another one?"
             Sara "Sure, [player_name]! Lie back on the bed!"
 
-
             scene SR2_NS2_blow_p1
             Sara "I’m gonna try even harder this time!"
             MC "(This is gonna be great!)"
             Sara "I hope you’re ready!"
-
 
             scene SR2_NS2_blow_p2
 

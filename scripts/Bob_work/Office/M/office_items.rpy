@@ -10,9 +10,6 @@ default bob_carkeys_put = True
 
 default can_safe_note = False
 
-
-
-
 label bob_statue_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -25,12 +22,9 @@ label bob_statue_label:
     $ can_hide_windows = False
     jump bob_office_M1
 
-
-
 label bob_fireplace_label:
     scene bob_fireplace_p1
     call screen bob_fireplace_scr
-
 
 screen bob_fireplace_scr:
     key "hide_windows" action NullAction()
@@ -41,7 +35,7 @@ screen bob_fireplace_scr:
         idle "images/Bob_work/office/M/Fireplace/B1.png"
         hover "images/Bob_work/office/M/Fireplace/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Head Statue")
+            hovered Show("displayTextScreen", displayText = __("Head Statue"))
             action [Hide("displayTextScreen"),Jump("bob_headstatue_label")]
             unhovered Hide("displayTextScreen")
 
@@ -52,9 +46,10 @@ screen bob_fireplace_scr:
         idle "images/Bob_work/office/M/Fireplace/B2.png"
         hover "images/Bob_work/office/M/Fireplace/B2_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Painting")
+            hovered Show("displayTextScreen", displayText = __("Painting"))
             action [Hide("displayTextScreen"),Jump("bob_painting_label")]
             unhovered Hide("displayTextScreen")
+
     imagebutton:
         xpos 1537
         ypos 547
@@ -65,6 +60,7 @@ screen bob_fireplace_scr:
             hovered Show("displayTextScreen", displayText = "Statue")
             action [Hide("displayTextScreen"),Jump("bob_statue1_label")]
             unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0
@@ -73,6 +69,7 @@ screen bob_fireplace_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
+
 label bob_headstatue_label:
     show screen bob_fireplace_scr
     $ clickable = False
@@ -100,12 +97,9 @@ label bob_statue1_label:
     $ clickable = True
     jump bob_fireplace_label
 
-
-
 label bob_tableR_label:
     scene bob_tableR_p1
     call screen bob_tableR_scr
-
 
 screen bob_tableR_scr:
     key "hide_windows" action NullAction()
@@ -116,7 +110,7 @@ screen bob_tableR_scr:
         idle "images/Bob_work/office/M/tableR/B1.png"
         hover "images/Bob_work/office/M/tableR/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Open")
+            hovered Show("displayTextScreen", displayText = __("Open"))
             action [Play ("sound", "sfx/drawer_op.wav"),Hide("displayTextScreen"),Jump("bob_tableRopen_label")]
             unhovered Hide("displayTextScreen")
 
@@ -128,7 +122,6 @@ screen bob_tableR_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
-
 
 label bob_tableRopen_label:
     $ renpy.pause(0.2,hard= True)
@@ -146,7 +139,6 @@ screen bob_tableRopen_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
 
-
 label bob_tableL_label:
     scene bob_tableL_p1
     call screen bob_tableL_scr
@@ -160,7 +152,7 @@ screen bob_tableL_scr:
         idle "images/Bob_work/office/M/tableL/B1.png"
         hover "images/Bob_work/office/M/tableL/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Open")
+            hovered Show("displayTextScreen", displayText = __("Open"))
             action [Play ("sound", "sfx/drawer_op.wav"),Hide("displayTextScreen"),Jump("bob_tableLopen_label")]
             unhovered Hide("displayTextScreen")
 
@@ -189,9 +181,10 @@ screen bob_tableLopen_scr:
             idle "images/Bob_work/office/M/tableL/B2.png"
             hover "images/Bob_work/office/M/tableL/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Safe Note")
+                hovered Show("displayTextScreen", displayText = __("Safe Note"))
                 action [Hide("displayTextScreen"),Jump("bob_safenote_label")]
                 unhovered Hide("displayTextScreen")
+
     if bob_safenote in inventory.items and bob_safenote.selected and day_time == 2 and Zv2_MS2_companyname == 2 and can_safe_note == True:
         imagebutton:
             xpos 850
@@ -200,9 +193,10 @@ screen bob_tableLopen_scr:
             idle "images/Bob_work/office/M/tableL/B3.png"
             hover "images/Bob_work/office/M/tableL/B3_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Put Safe Note")
+                hovered Show("displayTextScreen", displayText = __("Put Safe Note"))
                 action [Hide("displayTextScreen"),Jump("bob_safenoteput_label")]
                 unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0
@@ -211,7 +205,6 @@ screen bob_tableLopen_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
-
 
 label bob_safenote_label:
     $ clickable = False
@@ -244,9 +237,10 @@ screen bob_redstatue_scr:
         idle "images/Bob_work/office/M/B10.png"
         hover "images/Bob_work/office/M/B10_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Red Statue")
+            hovered Show("displayTextScreen", displayText = __("Red Statue"))
             action [Hide("displayTextScreen"),Jump("bob_redstatue2_label")]
             unhovered Hide("displayTextScreen")
+
     if bob_carkeys_take == False and day_time == 1 and Bob_in_work == True:
         imagebutton:
             xpos 1024
@@ -255,9 +249,10 @@ screen bob_redstatue_scr:
             idle "images/Bob_work/office/M/B1.png"
             hover "images/Bob_work/office/M/B1_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Car Keys")
+                hovered Show("displayTextScreen", displayText = __("Car Keys"))
                 action [Hide("displayTextScreen"),Jump("bob_carkeys_label")]
                 unhovered Hide("displayTextScreen")
+
     if bob_carkeys_put == False and bob_carkeys.selected:
         imagebutton:
             xpos 1024
@@ -266,9 +261,10 @@ screen bob_redstatue_scr:
             idle "images/Bob_work/office/M/B2.png"
             hover "images/Bob_work/office/M/B1.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Put Car Keys")
+                hovered Show("displayTextScreen", displayText = __("Put Car Keys"))
                 action [Hide("displayTextScreen"),Jump("bob_carkeys_put_label")]
                 unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0
@@ -277,7 +273,6 @@ screen bob_redstatue_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
-
 
 label bob_redstatue2_label:
     $ clickable = False

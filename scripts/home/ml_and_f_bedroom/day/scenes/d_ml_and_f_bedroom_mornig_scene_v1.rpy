@@ -15,6 +15,7 @@ screen d_ml_and_f_bedroom_mornig_scene_v1_screen:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("d_ml_and_f_bedroom_mornig_scene_v1_screen"), Hide("parents_bedroom_day_notclickable"), Jump("parents_bedroom_morning1")]
+
 label d_ml_and_f_bedroom_mornig_scene_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -37,6 +38,8 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
     $ renpy.music.play('/sfx/Aces High.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = True
     if d_ml_and_f_bedroom_mornig_scene_visit == 1 and d__can_ml_and_f_bedroom_mornig_scene == True:
+        if renpy.loadable("patch.rpy"):
+            $ Dad_name = __("Dad")
         if not renpy.loadable("patch.rpy"):
             $ Dad_name = "Bob"
         scene d_ml_and_f_bedroom_mornig_scene_v1_p1 with dissolve
@@ -57,7 +60,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
 
         menu:
             "{color=#00ff00}Can you give me some money?{/color}":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
                 if renpy.loadable("patch.rpy"):
@@ -82,7 +84,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 jump parents_bedroom_morning1
             "How are things at work?":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
                 MC "How are things at work?"
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p6
@@ -97,7 +98,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 $ can_hide_windows = False
                 jump parents_bedroom_morning1
             "Have you got anything fun planned?":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
                 MC "Have you got anything fun planned for today, then?"
@@ -140,7 +140,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 jump parents_bedroom_morning1
             "{color=#00ff00}Can I borrow some more money?{/color}":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p3
                 if renpy.loadable("patch.rpy"):
                     MC "Could I borrow some more money, Dad?"
@@ -165,7 +164,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 $ can_hide_windows = False
                 jump parents_bedroom_morning1
             "How was that fly fishing lecture?":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p3
                 MC "So, how was the fly fishing lecture?"
@@ -195,7 +193,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
         Dad "What can I do for you?"
         menu:
             "{color=#00ff00}Could I borrow some more money?{/color}":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p2
                 MC "Could I borrow some more money?"

@@ -18,7 +18,7 @@ screen parents_bedroom_day:
             hover "/images/home/ml_and_f_bedroom/morning/money_b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_money_label")]
-            hovered Show("displayTextScreen", displayText = "Money")
+            hovered Show("displayTextScreen", displayText = __("Money"))
             unhovered Hide("displayTextScreen")
 
     if d_ml_and_f_bedroom_mornig_scene == True and Bob_workplace_unlocked == False:
@@ -31,7 +31,7 @@ screen parents_bedroom_day:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("d_ml_and_f_bedroom_mornig_scene_v1_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Dad")
+                hovered Show("displayTextScreen", displayText = __("Dad"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
@@ -46,7 +46,7 @@ screen parents_bedroom_day:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("B2_AS1_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Dad")
+                hovered Show("displayTextScreen", displayText = __("Dad"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
@@ -61,7 +61,7 @@ screen parents_bedroom_day:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Bob_AS1")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Dad")
+                hovered Show("displayTextScreen", displayText = __("Dad"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
@@ -77,11 +77,10 @@ screen parents_bedroom_day:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Bob_AS1")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Dad")
+                hovered Show("displayTextScreen", displayText = __("Dad"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
-
 
 screen parents_bedroom_day_notclickable:
     key "hide_windows" action NullAction()

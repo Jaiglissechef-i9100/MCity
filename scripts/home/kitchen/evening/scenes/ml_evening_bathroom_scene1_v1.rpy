@@ -14,7 +14,6 @@ screen ml_evening_bathroom_scene_v1_screen:
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("ml_evening_bathroom_scene_v1_screen"),Jump("kitchen_evening1")]
 
-
 label ml_evening_bathroom_scene_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button

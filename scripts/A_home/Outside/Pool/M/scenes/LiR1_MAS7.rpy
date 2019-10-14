@@ -96,9 +96,7 @@ label LiR1_MAS7_label:
         Yazmin "Relax - and drink with me. Some champagne, will help take your mind off things."
         MC "(It sounds like [Liza2_name] is having a - pretty intense discussion - about her wife’s line of work...)"
 
-
         scene LiR1_MAS7_p4
-
 
         Liza "You’d tell me... right?"
         Yazmin "Tell you what, Honey?"
@@ -134,7 +132,6 @@ label LiR1_MAS7_label:
 
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
-
 
         MC "Hey guys! Hope I’m not bothering you!"
         Liza "Oh! Hi there, [player_name]! Were you... uh... standing there long?"
@@ -234,7 +231,6 @@ label LiR1_MAS7_label_con1:
         Liza2 "Oh! Yeah, I got the one on my right hand, when Liza and I took a holiday to Switzerland."
     MC "You two went to Switzerland?!"
 
-
     scene LiR1_MAS7_p20
 
     Liza2 "And Austria, and France, and Czechoslovakia!"
@@ -284,7 +280,6 @@ label LiR1_MAS7_label_con1:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music2", loop=True, fadein = 2)
 
-
     Liza2 "We also took a holiday to - The Great Barrier Reef - in Australia."
     Yazmin "*Suck Suck*"
     MC "Mmm... Uh huh..."
@@ -305,7 +300,6 @@ label LiR1_MAS7_label_con1:
     Liza2 "Yeah... I guess it is. I can’t really think of a use for - such a skill - in our small pool, though."
 
     scene LiR1_MAS7_p30
-
 
     MC "Hnnngg.... N-Neither can I..."
     MC "(Fuck! She’s taking my cock - so deep - into her mouth!)"
@@ -381,14 +375,12 @@ label LiR1_MAS7_label_con1:
     $ renpy.pause(0.7, hard = True)
     scene LiR1_MAS7_p40 with dissolve
 
-
     Yazmin "(Finally made him cum! He lasted much longer than - most guys - I’ve met!)"
     Yazmin "(I better swallow it, or [player_name] will have to clean the whole pool, again.)"
     Yazmin "*Gulp Gulp*"
     MC "Phew... Holy fuck... (That was incredible...)"
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
-
 
     scene LiR1_MAS7_p41
 

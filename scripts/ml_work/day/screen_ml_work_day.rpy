@@ -9,9 +9,9 @@ screen ml_work_day:
         action [Play ("sound", "sfx/door_open.mp3"),Jump("ml_work_room1_day1")]
         if clickable == True:
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Mom's Office")
+                hovered Show("displayTextScreen", displayText = __("Mom's Office"))
             if not renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Linda's Office")
+                hovered Show("displayTextScreen", displayText = __("Linda's Office"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:

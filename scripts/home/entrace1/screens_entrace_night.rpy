@@ -6,7 +6,7 @@ screen entrace1_night:
         focus_mask True
         idle "images/home/entrace1/night/Entrance_door_night_idle.png"
         hover "images/home/entrace1/night/Entrance_door_night_hover.png"
-        hovered Show("displayTextScreen", displayText = "Enter House")
+        hovered Show("displayTextScreen", displayText = __("Enter House"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_night1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen entrace1_night:
         focus_mask True
         idle "images/home/entrace1/night/entrance_path_night_idle.png"
         hover "images/home/entrace1/night/entrance_path_night_hover.png"
-        hovered Show("displayTextScreen", displayText = "Entrance")
+        hovered Show("displayTextScreen", displayText = __("Entrance"))
         action [Jump("entrance2_night1")]
         unhovered Hide("displayTextScreen")
 
@@ -27,7 +27,7 @@ screen entrace1_night:
             idle "images/secret_gallery/Bonus/EntranceHouse SecretCard.png"
             hover "images/secret_gallery/Bonus/EntranceHouse SecretCard_hover.png"
             action [Hide("displayTextScreen"), addgimage("img3_home_entrance_card") ,Jump("home_entrance_card")]
-            hovered Show("displayTextScreen", displayText = "Secret Card")
+            hovered Show("displayTextScreen", displayText = __("Secret Card"))
             unhovered Hide("displayTextScreen")
 
     if CR2_NS2 == True and Caroline_points == 2:

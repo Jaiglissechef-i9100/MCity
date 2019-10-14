@@ -46,7 +46,6 @@ image CR3_AS8_O3_p42a = "images/cloth_shop/room1/day/scenes/CR3_AS8_O3/42a.jpg"
 image CR3_AS8_O3_p43 = "images/cloth_shop/room1/day/scenes/CR3_AS8_O3/43.jpg"
 image CR3_AS8_O3_p44 = "images/cloth_shop/room1/day/scenes/CR3_AS8_O3/44.jpg"
 
-
 label CR3_AS8_O3:
 
     $ outfit_start = 3
@@ -73,7 +72,6 @@ label CR3_AS8_O3:
         Caroline "Yes?"
         MC "What did you say this outfit was supposed to be again?"
         Caroline "It’s a superhero costume!"
-
 
         scene CR3_AS8_O3_p3
 
@@ -134,7 +132,6 @@ label CR3_AS8_O3:
         $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump outfit_R3_start
-
 
 label CR3_AS8_O3_con2:
     scene black
@@ -347,7 +344,6 @@ label CR3_AS8_O3_con2:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_AS8_O3_p42a with dissolve
-
 
     MC "*Pant Pant* Wow..."
     MC "Fuck... That was amazing, Caroline..."

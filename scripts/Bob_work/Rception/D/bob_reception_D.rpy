@@ -1,7 +1,3 @@
-
-
-
-
 label bob_reception_day1:
     hide screen displayTextScreen
     scene bob_reception_morning

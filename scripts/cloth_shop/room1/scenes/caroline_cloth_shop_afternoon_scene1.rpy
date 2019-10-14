@@ -26,7 +26,6 @@ label caroline_cloth_shop_afternoon_scene1_label:
         Caroline "One - I’m going to order in a new range of cosplay outfits."
         Caroline "Two - I’m going to market these by modelling them and putting the pictures online."
 
-
         scene caroline_cloth_shop_afternoon_scene1_p3
 
         Caroline "Which leads me into point three - I’m starting an online store too!"
@@ -48,12 +47,14 @@ label caroline_cloth_shop_afternoon_scene1_label:
         $ caroline_cloth_shop_have_camera = 2
         $ can_hide_windows = False
         jump cloth_shop_open_label
+
     if caroline_cloth_shop_afternoon_scene1 == False and not camera1 in inventory.items:
         scene caroline_cloth_shop_afternoon_scene1_p1 with dissolve
         Caroline "Hey, [player_name]. Did you manage to get any camera?"
         MC "Not yet."
         $ can_hide_windows = False
         jump cloth_shop_open_label
+
     if camera1 in inventory.items and caroline_cloth_shop_have_camera == 2:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)

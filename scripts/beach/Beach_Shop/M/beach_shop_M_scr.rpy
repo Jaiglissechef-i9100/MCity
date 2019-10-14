@@ -11,7 +11,7 @@ screen beach_shop_M_scr:
         hover "images/Beach/Beach_Shop/M/B1_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("b_shop_inside")]
-        hovered Show("displayTextScreen", displayText = "Beach Shop")
+        hovered Show("displayTextScreen", displayText = __("Beach Shop"))
         unhovered Hide("displayTextScreen")
 
     if not "img38_sec_card" in gallery_photos.storage:
@@ -45,8 +45,9 @@ screen beach_shop_M_scr:
             hover "images/Beach/Beach_Shop/M/B5_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
-            hovered Show("displayTextScreen", displayText = "Propose a Drink")
+            hovered Show("displayTextScreen", displayText = __("Propose a Drink"))
             unhovered Hide("displayTextScreen")
+
     if MLR3_beach_drink == True and not drink in inventory.items and beach_buy_B2_talk == True:
         imagebutton:
             xpos 0
@@ -57,10 +58,11 @@ screen beach_shop_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Mom")
+                hovered Show("displayTextScreen", displayText = __("Mom"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
+
     if MLR3_beach_drink == True and drink in inventory.items and beach_buy_B2_talk == True:
         imagebutton:
             xpos 0
@@ -71,7 +73,7 @@ screen beach_shop_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Mom")
+                hovered Show("displayTextScreen", displayText = __("Mom"))
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
@@ -85,5 +87,5 @@ screen beach_shop_M_scr:
             hover "images/Beach/Beach_Shop/M/B5_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
-            hovered Show("displayTextScreen", displayText = "Propose a Drink")
+            hovered Show("displayTextScreen", displayText = __("Propose a Drink"))
             unhovered Hide("displayTextScreen")
