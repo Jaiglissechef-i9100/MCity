@@ -1,5 +1,6 @@
 default can_aunt_house_unlocked = False
 
+
 default a_pool_empty = True
 
 default from_a_pool = False
@@ -11,10 +12,11 @@ define Liza = Character("[Liza_name]", color="#66CC33")
 define Liza2 = Character("[Liza2_name]", color="#66CC33")
 define Yazmin = Character("[Yazmin_name]", color="#cc00ff")
 
+
 default Li_points = 1
 default Li_max = 3
 default Y_points = 1
-default Y_max = 3
+
 
 default LiR1_MAS1 = True
 default Li_door_locked = True
@@ -52,6 +54,7 @@ default Li_MAS3_q9 = False
 default LiR1_MAS4 = False
 default LiR1_MAS4can3 = False
 
+
 default LiR1_MAS5 = False
 default LiR1_MAS5_can1 = False
 default LiR1_MAS5_can2 = False
@@ -67,6 +70,7 @@ default LiR1_MAS8 = False
 default LiR1_MAS8_can1 = False
 
 default LiR1_MAS9 = False
+
 
 default LiR1_NS1 = False
 default LiR1_NS2 = False

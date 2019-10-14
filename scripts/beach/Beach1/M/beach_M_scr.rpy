@@ -1,3 +1,4 @@
+
 screen beach_M_scr:
 
     add "images/Beach/Beach1/M/map.jpg"
@@ -36,7 +37,7 @@ screen beach_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_event3")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
@@ -54,5 +55,5 @@ screen beach_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_money")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Bag"))
+                hovered Show("displayTextScreen", displayText = "Bag")
             unhovered Hide("displayTextScreen")

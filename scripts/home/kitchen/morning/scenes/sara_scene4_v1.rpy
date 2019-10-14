@@ -3,11 +3,11 @@ image scene4_v1p2 = "images/home/kitchen/morning/scenes/sara_scene4_v1/2.jpg"
 image scene4_v1p3 = "images/home/kitchen/morning/scenes/sara_scene4_v1/3.jpg"
 image scene4_v1p3a = "images/home/kitchen/morning/scenes/sara_scene4_v1/3a.jpg"
 image scene4_v1p4 = "images/home/kitchen/morning/scenes/sara_scene4_v1/4.jpg"
-
 default first_visit_sister_nerdy_scene4_v1 = 1
 default second_visit_sister_nerdy_scene4_v1 = 0
 default third_visit_sister_nerdy_scene4_v1 = 0
 default fourth_visit_sister_nerdy_scene4_v1 = 0
+
 
 label sister_nerdy_scene4_v11:
 
@@ -108,6 +108,8 @@ label sister_nerdy_scene4_v11:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music1", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump kitchen_morning1
+
+
 
 label sister_nerdy_scene4_v1_l_door_locked:
     hide screen week_day_viewer

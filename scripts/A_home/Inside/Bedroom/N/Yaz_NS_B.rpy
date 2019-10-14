@@ -1,11 +1,17 @@
-default Yaz_NS_feet = nsb(__("Play with her feet."),image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "Yaz_NS_B_feet", number = 6  )
-default Yaz_NS_ass = nsb(__("Play with Yazmin’s ass."),image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "Yaz_NS_B_ass", number = 4 )
-default Yaz_NS_mouth = nsb(__("Let’s see if I can get Yazmin to suck my cock!"),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Yaz_NS_B_mouth", number = 1 )
 
-default Yaz_NS_Turn_bush = nsb(__("Play with her bush."),image_idle = "images/NS_B/Thighs.png", image_hover = "images/NS_B/Thighs_hover.png", l_jump = "Yaz_NS_B_turn_bush", number = 4  )
-default Yaz_NS_Turn_tits = nsb(__("Play with her tits."),image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "Yaz_NS_B_turn_tits", number = 2  )
+
+
+
+default Yaz_NS_feet = nsb("Play with her feet.",image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "Yaz_NS_B_feet", number = 6  )
+default Yaz_NS_ass = nsb("Play with Yazmin’s ass.",image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "Yaz_NS_B_ass", number = 4 )
+default Yaz_NS_mouth = nsb("Let’s see if I can get Yazmin to suck my cock!",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Yaz_NS_B_mouth", number = 1 )
+
+default Yaz_NS_Turn_bush = nsb("Play with her bush.",image_idle = "images/NS_B/Thighs.png", image_hover = "images/NS_B/Thighs_hover.png", l_jump = "Yaz_NS_B_turn_bush", number = 4  )
+default Yaz_NS_Turn_tits = nsb("Play with her tits.",image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "Yaz_NS_B_turn_tits", number = 2  )
 screen Yaz_NS_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
+
+
 
     $ new_nsb_in_wake = False
     $ x = 44
@@ -44,6 +50,7 @@ screen Yaz_NS_scr:
         $ i += 1
     if len(nsb_box.yaz_nsb_s)>9:
 
+
         imagebutton:
             xpos 55
             ypos 902
@@ -69,6 +76,7 @@ screen Yaz_NS_scr:
         action [SetVariable("inv_page", 0),Hide("Yaz_NS_scr"), Jump("LiR1_NS3_menu")]
         hovered Play ("sound", "sfx/click2.wav")
 
+
     imagebutton:
         xpos 1752
         ypos 940
@@ -79,6 +87,8 @@ screen Yaz_NS_scr:
         hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=940, tt_xpos=1471, displayText2 = "Turn her.",)]
         unhovered Hide("displayTextNS_B")
 
+
+
     for nsb in nsb_box.yaz_nsb_turn:
         if nsb.played == False:
             $ new_nsb_in_wake = True
@@ -87,8 +97,11 @@ screen Yaz_NS_scr:
     if new_nsb_in_wake == True:
         add "images/NS_B/New.png" xpos 1747 ypos 935
 
+
 screen Yaz_NS_Turn_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
+
+
 
     $ new_nsb_in_wake = False
     $ x = 44
@@ -126,6 +139,7 @@ screen Yaz_NS_Turn_scr:
                 add "images/NS_B/Locked_slot.png" xpos x ypos y
         $ i += 1
     if len(nsb_box.yaz_nsb_turn)>9:
+
 
         imagebutton:
             xpos 55

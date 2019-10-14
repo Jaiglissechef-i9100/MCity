@@ -157,6 +157,7 @@ label LiR1_NS5_label:
     Yazmin "Okay - let’s get you ready for the show."
     MC "Do you want me to strip off now?"
 
+
     scene LiR1_NS5_p11
     if renpy.loadable("patch.rpy"):
         Yazmin "Hold on, a second. I just want to give my favourite nephew a hug, before we do this."
@@ -368,6 +369,7 @@ label LiR1_NS5_label:
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS5_p41a with dissolve
 
+
     MC "Hnnnngggg.... Ugh... Ah..."
     MC "*Pant* Wow..."
     Yazmin "Fuuuck.... That was goood..."
@@ -551,6 +553,7 @@ label LiR1_NS5_label:
     Yazmin "It’s a shame you’re only into women. You’re wasting a REAL talent here!"
     MC "Ah... Ohh..."
 
+
     scene LiR1_NS5_p71
 
     Liza2 "*SHLURP*"
@@ -575,6 +578,7 @@ label LiR1_NS5_label:
     MC "AHHH! I’M CUMMING! HNNG!"
     Liza2 "*SUCK SUCK*"
     Liza2 "*GASP!*"
+
 
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
@@ -607,7 +611,6 @@ label LiR1_NS5_label:
 
     $ LiR1_NS5 = False
     $ Li_points += 1
-    $ Y_points += 1
     $ LiR1_climbing = True
 
     $ renpy.music.stop(channel="music1", fadeout=1)

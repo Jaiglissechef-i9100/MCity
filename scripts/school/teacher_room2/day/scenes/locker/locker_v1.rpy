@@ -1,9 +1,7 @@
 image locker_b1v1_p1 = "images/school/teacher_room2/day/locker/RenPy2.jpg"
 image locker_b1v1_p2 = "images/school/teacher_room2/day/locker/RenPy3.jpg"
-
 default money_from_lockerv1 = True
 default put_envelopev1 = False
-
 label locker_v1_label:
     scene locker_b1v1_p1
     call screen locker_b1v1_screen
@@ -36,7 +34,6 @@ label put_envelopev1_label:
     $ envolpe_event = False
     $ day_time += 1
     jump map_label
-
 label empty_envelopev1_label:
     $ lockerv1_open_morning_screen_notclickable = True
     show screen lockerv1_open_morning_screen
@@ -61,7 +58,6 @@ label put_sexy_cloth_label:
     MC "Okay. I should go far away from here. She can’t even suspect me on this."
     $ day_time += 1
     jump map_label
-
 label put_vibrator_label:
     scene locker_b1v1_p1
     $ inventory.drop(vibrator)
@@ -80,7 +76,7 @@ screen locker_b1v1_screen:
         idle "images/school/teacher_room2/day/locker/locker_door.png"
         hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
         action [Play ("sound", "sfx/metal_drawer_open.mp3"),Hide("displayTextScreen"),Jump("lockerv1_open_label")]
-        hovered Show("displayTextScreen", displayText = __("Open"))
+        hovered Show("displayTextScreen", displayText = "Open")
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -99,7 +95,7 @@ screen locker_b1v1_screen:
             idle "images/school/teacher_room2/day/locker/locker_door.png"
             hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
             action [Play ("sound", "sfx/metal_drawer_open.mp3"),Hide("displayTextScreen"),Jump("put_dildov1_label")]
-            hovered Show("displayTextScreen", displayText = __("Put Dildo"))
+            hovered Show("displayTextScreen", displayText = "Put Dildo")
             unhovered Hide("displayTextScreen")
 
     if sexy_cloth.selected and sexy_cloth in inventory.items and celia_webcam_menuv1 == True:
@@ -110,9 +106,8 @@ screen locker_b1v1_screen:
             idle "images/school/teacher_room2/day/locker/locker_door.png"
             hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
             action [Play ("sound", "sfx/metal_drawer_open.mp3"),Hide("displayTextScreen"),Jump("put_sexy_cloth_label")]
-            hovered Show("displayTextScreen", displayText = __("Put Sexy Cloth"))
+            hovered Show("displayTextScreen", displayText = "Put Sexy Cloth")
             unhovered Hide("displayTextScreen")
-
     if vibrator.selected and vibrator in inventory.items and celia_webcam_menuv1 == True:
         imagebutton:
             xpos 0
@@ -121,9 +116,8 @@ screen locker_b1v1_screen:
             idle "images/school/teacher_room2/day/locker/locker_door.png"
             hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
             action [Play ("sound", "sfx/metal_drawer_open.mp3"),Hide("displayTextScreen"),Jump("put_vibrator_label")]
-            hovered Show("displayTextScreen", displayText = __("Put Vibrator"))
+            hovered Show("displayTextScreen", displayText = "Put Vibrator")
             unhovered Hide("displayTextScreen")
-
 screen lockerv1_open_screen:
     key "hide_windows" action NullAction()
     if money_from_lockerv1 == True:
@@ -135,9 +129,8 @@ screen lockerv1_open_screen:
             if lockerv1_open_morning_screen_notclickable == False:
                 hover "images/school/teacher_room2/day/locker/Money20$_hover.png"
                 action [Hide("displayTextScreen"),Jump("money_from_lockerv1_label")]
-                hovered Show("displayTextScreen", displayText = __("Money(20$)"))
+                hovered Show("displayTextScreen", displayText = "Money(20$)")
                 unhovered Hide("displayTextScreen")
-
     if celia_note not in inventory.items and can_take_celianote == True:
         imagebutton:
             xpos 0
@@ -147,7 +140,7 @@ screen lockerv1_open_screen:
             hover "images/school/teacher_room2/day/locker/celia_note_b1_hover.png"
             if lockerv1_open_morning_screen_notclickable == False:
                 action [Hide("displayTextScreen"),Jump("celianote_from_lockerv1_label")]
-                hovered Show("displayTextScreen", displayText = __("Celia’s Note"))
+                hovered Show("displayTextScreen", displayText = "Celia’s Note")
                 unhovered Hide("displayTextScreen")
 
     if envelope in inventory.items and envelope.selected and put_envelopev1 == False and lockerv1_open_morning_screen_notclickable == False:
@@ -158,9 +151,8 @@ screen lockerv1_open_screen:
             idle "images/school/teacher_room2/day/locker/envelope_b3.png"
             hover "images/school/teacher_room2/day/locker/envelope_b3.png"
             action [Hide("displayTextScreen"),SetVariable("put_envelopev1", True),Jump("put_envelopev1_label")]
-            hovered Show("displayTextScreen", displayText = __("Put Envelope"))
+            hovered Show("displayTextScreen", displayText = "Put Envelope")
             unhovered Hide("displayTextScreen")
-
     if empty_envelope in inventory.items and empty_envelope.selected and put_envelopev1 == False and lockerv1_open_morning_screen_notclickable == False:
         imagebutton:
             xpos 0
@@ -169,7 +161,7 @@ screen lockerv1_open_screen:
             idle "images/school/teacher_room2/day/locker/envelope_b3.png"
             hover "images/school/teacher_room2/day/locker/envelope_b3.png"
             action [Hide("displayTextScreen"),Jump("empty_envelopev1_morning_label")]
-            hovered Show("displayTextScreen", displayText = __("Put Envelope"))
+            hovered Show("displayTextScreen", displayText = "Put Envelope")
             unhovered Hide("displayTextScreen")
 
     if put_envelopev1 == True and  envolpe_event == True:
@@ -179,7 +171,6 @@ screen lockerv1_open_screen:
             focus_mask True
             idle "images/school/teacher_room2/day/locker/envelope_b2.png"
             hover "images/school/teacher_room2/day/locker/envelope_b2.png"
-
     if lockerv1_open_morning_screen_notclickable == False:
         imagebutton:
             xpos 0

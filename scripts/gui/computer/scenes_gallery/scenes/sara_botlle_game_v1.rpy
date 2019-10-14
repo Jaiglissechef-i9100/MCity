@@ -150,6 +150,7 @@ label after_sis_nerdy_school_scene3_v1_choice1r:
     scene bottle_spin1
     $ renpy.pause (2.26, hard=True)
 
+
     scene sis_nerdy_school_scene3_v1_p21
     Lily "Yay! Me again!"
     Lily "Hope you’re ready for round two!"

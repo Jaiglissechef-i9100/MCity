@@ -1,3 +1,6 @@
+
+
+
 screen card_found_alert:
     key "hide_windows" action NullAction()
     zorder 106
@@ -8,7 +11,6 @@ screen card_found_alert:
         idle "images/secret_gallery/Bonus/alert.png"
         hover "images/secret_gallery/Bonus/alert.png"
         action [SetVariable("clickable", True),Hide("card_found_alert")]
-
 label garage_card:
     show screen map_button
     show screen card_found_alert with dissolve
@@ -77,6 +79,7 @@ label sex_shop_card:
     show screen sex_shop_evening_screen
     jump sex_shop_evening_label
 
+
 label exit_school_corridor_card:
     show screen card_found_alert with dissolve
     if day_time == 1:
@@ -85,6 +88,7 @@ label exit_school_corridor_card:
     if day_time == 2:
         show screen school_entrance_day
         jump school_entrance_day1
+
 
 label school_corridor1_card:
     show screen card_found_alert with dissolve
@@ -126,6 +130,7 @@ label img12_sec_card_label:
     show screen card_found_alert with dissolve
     show screen bob_car_scr2
     jump bob_car_label2
+
 
 label img13_sec_card_label:
     if day_time == 2:

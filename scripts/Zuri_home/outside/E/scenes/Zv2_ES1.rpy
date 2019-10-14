@@ -19,9 +19,11 @@ image Z_ES1_p18 = "images/Zuri_home/outside/E/scenes/Z_ES1/18.jpg"
 image Z_ES1_p19 = "images/Zuri_home/outside/E/scenes/Z_ES1/19.jpg"
 image Z_ES1_p20 = "images/Zuri_home/outside/E/scenes/Z_ES1/20.jpg"
 
+
+
+
 default Suri_name = "Suri"
 default can_Zv2_ES1 = True
-
 label Z_ES1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -44,6 +46,8 @@ label Z_ES1_label:
     $ Zuri_name = "???"
     Zuri "COOOOOMMMIINNGGGGGGGG!"
     $ Zuri_name = "Zuri"
+
+
 
     scene Z_ES1_p2
 
@@ -84,6 +88,9 @@ label Z_ES1_label:
     $ can_Zv2_ES1 = False
     $ can_hide_windows = False
     jump zuri_home_E_label2
+
+
+
 
 label Z_ES1_q2_label:
     hide screen week_day_viewer

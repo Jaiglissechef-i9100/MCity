@@ -150,6 +150,7 @@ label mc_sara_night_scene1_v1_label:
             jump after_mc_sara_night_scene1_v1_choice
         "Stay silent.":
 
+
             scene mc_sara_night_scene1_v1_p17
             if renpy.loadable("patch.rpy"):
                 Sara "Because I think I like you… more than a brother..."
@@ -190,6 +191,7 @@ label after_mc_sara_night_scene1_v1_choice:
     $ can2_sis_nerdy_school_scene3_v1 = True
     $ sis_nerdy_school_scene3_v1 = 1
     $ can_lily_scene = False
+
 
     $ can_ml_work_day_scene1 = True
     $ can_school_intercom = True
@@ -329,6 +331,7 @@ label after_mc_sara_night_scene1_v1_choice:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
         $ CR3_MS2 = True
@@ -341,6 +344,7 @@ label after_mc_sara_night_scene1_v1_choice:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False

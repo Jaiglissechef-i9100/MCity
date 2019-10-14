@@ -1,3 +1,6 @@
+
+
+
 screen zuri_homeoutside_M_scr:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -7,7 +10,7 @@ screen zuri_homeoutside_M_scr:
         idle "images/Zuri_home/outside/M/B1.png"
         hover "images/Zuri_home/outside/M/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Doors"))
+            hovered Show("displayTextScreen", displayText = "Doors")
             action [Hide("displayTextScreen"),Jump("Z_home_door_M_label")]
             unhovered Hide("displayTextScreen")
 
@@ -22,6 +25,8 @@ screen zuri_homeoutside_M_scr:
                 action [Hide("displayTextScreen"),addgimage("img19_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
+
+
 screen Z_home_door_M_scr:
     key "hide_windows" action NullAction()
     if clickable == True:
@@ -32,7 +37,7 @@ screen Z_home_door_M_scr:
             idle "images/Zuri_home/outside/M/B2.png"
             hover "images/Zuri_home/outside/M/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Enter Zuri's Home"))
+                hovered Show("displayTextScreen", displayText = "Enter Zuri's Home")
                 action [Hide("displayTextScreen"),Jump("Z_home_doorlocked_M_label")]
                 unhovered Hide("displayTextScreen")
 

@@ -1,6 +1,7 @@
 image a_home_outside_bg_M = "/images/a_home/outside/Entrance/M/1.jpg"
 image a_home_outside_bg2_M = "/images/a_home/outside/Entrance/M/2.jpg"
 
+
 label a_home_outside_M1:
     $ Linda_name = Mom_name
     $ in_map = False
@@ -25,6 +26,7 @@ label a_home_outside_M2:
         scene a_home_outside_bg_M
     else:
         scene a_home_outside_bg2_M
+
 
     $ can_map = True
 

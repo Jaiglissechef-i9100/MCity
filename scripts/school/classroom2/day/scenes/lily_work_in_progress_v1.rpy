@@ -1,5 +1,4 @@
 image lily_work_in_progress_v1_p1 = "images/school/classroom2/day/scenes/Lily_school_day_scene1_v1/renpy.png"
-
 label lily_work_in_progress_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button

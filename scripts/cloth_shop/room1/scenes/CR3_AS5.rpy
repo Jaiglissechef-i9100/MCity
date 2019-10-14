@@ -8,7 +8,9 @@ image CR3_AS5_p7 = "images/cloth_shop/room1/day/scenes/CR3_AS5/7.jpg"
 image CR3_AS5_p8 = "images/cloth_shop/room1/day/scenes/CR3_AS5/8.jpg"
 image CR3_AS5_p9 = "images/cloth_shop/room1/day/scenes/CR3_AS5/9.jpg"
 
+
 label CR3_AS5_label:
+
 
     hide screen map_button
 
@@ -37,6 +39,8 @@ label CR3_AS5_label:
     hide screen day_time_viewer
     if CR3_AS5_can == 2:
 
+
+
         scene CR3_AS5_p1 with dissolve
 
         Caroline "Thanks for coming to see me, [player_name]. I wanted to talk with you."
@@ -62,6 +66,7 @@ label CR3_AS5_label:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump cloth_shop_open_label
+
 
     if CR3_AS5_can >= 6:
         scene CR3_AS5_p2 with dissolve

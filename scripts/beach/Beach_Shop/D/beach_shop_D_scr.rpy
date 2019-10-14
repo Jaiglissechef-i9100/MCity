@@ -1,3 +1,5 @@
+
+
 screen beach_shop_D_scr:
     add "images/Beach/Beach_Shop/M/map.jpg"
 
@@ -9,7 +11,7 @@ screen beach_shop_D_scr:
         hover "images/Beach/Beach_Shop/M/B1_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("b_shop_inside")]
-            hovered Show("displayTextScreen", displayText = __("Beach Shop"))
+            hovered Show("displayTextScreen", displayText = "Beach Shop")
             unhovered Hide("displayTextScreen")
 
     if not "img38_sec_card" in gallery_photos.storage:

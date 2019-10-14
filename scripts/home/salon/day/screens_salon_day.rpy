@@ -6,7 +6,7 @@ screen salon_day:
         focus_mask True
         idle "images/home/salon/morning/door1_morning_idle.png"
         hover "images/home/salon/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Corridor"))
+        hovered Show("displayTextScreen", displayText = "Corridor")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_day1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen salon_day:
         focus_mask True
         idle "images/home/salon/morning/door2_morning_idle.png"
         hover "images/home/salon/morning/door2_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Kitchen"))
+        hovered Show("displayTextScreen", displayText = "Kitchen")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("kitchen_day1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -25,9 +25,9 @@ screen salon_day:
         idle "images/home/salon/morning/door3_morning_idle.png"
         hover "images/home/salon/morning/door3_morning_hover.png"
         if renpy.loadable("patch.rpy"):
-            hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
+            hovered Show("displayTextScreen", displayText = "Parent's Bedroom")
         if not renpy.loadable("patch.rpy"):
-            hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
+            hovered Show("displayTextScreen", displayText = "Main Bedroom")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("parents_bedroom_day1")]
         unhovered Hide("displayTextScreen")
 
@@ -38,7 +38,7 @@ screen salon_day:
             focus_mask True
             idle "images/home/salon/morning/Money Salon Morning.png"
             hover "images/home/salon/morning/Money Salon Morning_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Money"))
+            hovered Show("displayTextScreen", displayText = "Money")
             action [Hide("displayTextScreen"),Jump("salon_money_label")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -47,7 +47,7 @@ screen salon_day:
         focus_mask True
         idle "images/home/salon/morning/paint_b1.png"
         hover "images/home/salon/morning/paint_b1_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Painting"))
+        hovered Show("displayTextScreen", displayText = "Painting")
         action [Hide("displayTextScreen"),Jump("salon_paint_label")]
         unhovered Hide("displayTextScreen")
 

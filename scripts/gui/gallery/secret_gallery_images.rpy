@@ -1,3 +1,6 @@
+
+
+
 image img1_garage_card = MaxScale("images/secret_gallery/Bonus/10.jpg")
 image img2_garage_entrance_card = MaxScale("images/secret_gallery/Bonus/11.jpg")
 image img3_home_entrance_card = MaxScale("images/secret_gallery/Bonus/3.jpg")
@@ -24,6 +27,7 @@ image img22_sec_card = MaxScale("images/secret_gallery/Bonus/22.jpg")
 image img23_sec_card = MaxScale("images/secret_gallery/Bonus/23.jpg")
 image img24_sec_card = MaxScale("images/secret_gallery/Bonus/24.jpg")
 image img25_sec_card = MaxScale("images/secret_gallery/Bonus/25.jpg")
+
 
 image img26_sec_card = MaxScale("images/secret_gallery/Bonus/26.jpg")
 image img27_sec_card = MaxScale("images/secret_gallery/Bonus/27.jpg")

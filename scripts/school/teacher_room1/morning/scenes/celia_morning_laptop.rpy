@@ -34,6 +34,7 @@ label celia_morning_password_correct_v1:
     MC "(She won’t be picking on me anymore, now that I have this!)"
     MC "(I better take a photo quickly.)"
 
+
     scene celia_laptopv1_p4
     $ renpy.sound.play("sfx/photo_take.wav")
     MC "(And… there we go. I’ll need to come up with a solid plan, but at least I have all the evidence I’ll ever need.)"

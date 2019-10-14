@@ -6,6 +6,8 @@ image judy_scene1_v1_p5 = "images/school/therapist_room/morning/scenes/judy_scen
 image judy_scene1_v1_p6 = "images/school/therapist_room/morning/scenes/judy_scene1_v1/6.jpg"
 image judy_scene1_v1_p7 = "images/school/therapist_room/morning/scenes/judy_scene1_v1/7.jpg"
 
+
+
 image judy_MLask_p1 = "images/school/therapist_room/morning/scenes/judy_ML_ask/1.jpg"
 image judy_MLask_p2 = "images/school/therapist_room/morning/scenes/judy_ML_ask/2.jpg"
 image judy_MLask_p3 = "images/school/therapist_room/morning/scenes/judy_ML_ask/3.jpg"
@@ -34,7 +36,10 @@ label judy_menu_v1_label:
             jump judy_lindadeal
         "Cancel":
 
+
+
             jump therapist_room_morning1
+
 
 label judy_morning_scene1_v1_label:
     hide screen week_day_viewer
@@ -85,6 +90,7 @@ label judy_morning_scene1_v1_label:
     $ can_envelope_from_Judy_v1 = 1
     $ can_hide_windows = False
     jump therapist_room_morning1
+
 
 label judy_lindadeal:
     hide screen week_day_viewer

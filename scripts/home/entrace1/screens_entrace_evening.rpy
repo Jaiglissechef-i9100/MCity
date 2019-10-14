@@ -6,7 +6,7 @@ screen entrace1_evening:
         focus_mask True
         idle "images/home/entrace1/morning/Entrance_door_morning_idle.png"
         hover "images/home/entrace1/morning/Entrance_door_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Enter House"))
+        hovered Show("displayTextScreen", displayText = "Enter House")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_evening1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen entrace1_evening:
         focus_mask True
         idle "images/home/entrace1/morning/entrance_path_morning_idle.png"
         hover "images/home/entrace1/morning/entrance_path_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Entrance"))
+        hovered Show("displayTextScreen", displayText = "Entrance")
         action [Jump("entrance2_evening1")]
         unhovered Hide("displayTextScreen")
 

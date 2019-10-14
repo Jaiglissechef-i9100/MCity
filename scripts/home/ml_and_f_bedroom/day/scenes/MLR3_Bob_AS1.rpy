@@ -27,6 +27,7 @@ image MLR3_Bob_Trip_AS1_p7 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_
 image MLR3_Bob_Trip_AS1_p8 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_AS1/Trip/8.jpg"
 image MLR3_Bob_Trip_AS1_p9 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_AS1/Trip/9.jpg"
 
+
 label MLR3_Bob_AS1:
     hide screen displayTextScreen
     hide screen map_button
@@ -191,7 +192,6 @@ label MLR3_Bob_AS1:
                     jump MLR3_Bob_AS1_menu3
         if MLR3_Bob_AS1 > 4:
             jump MLR3_Bob_AS1_menu
-
 label MLR3_Bob_AS1_menu3:
     scene MLR3_Bob_AS1_p15
 
@@ -229,7 +229,6 @@ label MLR3_Bob_AS1_menu3:
 
             $ MLR3_Bob_AS1_answer += 1
             jump MLR3_Bob_AS1_menu
-
 label MLR3_Bob_AS1_menu2:
     scene MLR3_Bob_AS1_p18
     Dad "So, what kinda hair colour do you go for in women?"
@@ -268,7 +267,6 @@ label MLR3_Bob_AS1_menu2:
             else:
                 Dad "Ahh, same as me. That’s one of the many reasons I fell for Linda!"
             jump MLR3_Bob_AS1_menu
-
 label MLR3_Bob_AS1_menu:
     if MLR3_Bob_AS1_q1 == False and MLR3_Bob_AS1_q2 == False and MLR3_Bob_AS1_q3 == False and MLR3_Bob_AS1_q4 == False and MLR3_Bob_AS1_q5 == False and MLR3_Bob_AS1_q6 == False:
         $ MLR3_Bob_AS1_answer += 1
@@ -509,6 +507,7 @@ label MLR3_Bob_AS1_menu:
 
             jump MLR3_Bob_AS1_menu
         "Bye.":
+
 
             if MLR3_Bob_AS1_answer > 0:
                 $ MLR3_Bob_AS1 += 1

@@ -1,3 +1,4 @@
+
 image entrace1_morning = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_morning = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
 image corridor_morning = "/images/home/corridor/morning/Coridor_Morning.jpg"
@@ -26,6 +27,7 @@ image teacher_room1_morning = "/images/school/teacher_room1/morning/teacher_room
 image therapist_room_morning = "/images/school/therapist_room/morning/therapist_room_morning.jpg"
 image headmaster_room_morning = "/images/school/headmaster_room/morning/headmaster_room_morning.jpg"
 image main_menu = Movie(channel="main_menu", play="gui/menu_bacground.webm", loop = True)
+
 
 image entrace1_day = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_day = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
@@ -56,6 +58,7 @@ image therapist_room_day = "/images/school/therapist_room/morning/therapist_room
 image headmaster_room_day = "/images/school/headmaster_room/morning/headmaster_room_morning.jpg"
 image ml_work_day = "/images/ml_work/day/ML_work_mornig_scene.jpg"
 image ml_work_room1_day = "/images/ml_work/room1/Room1.jpg"
+
 
 image entrace1_evening = "/images/home/entrace1/morning/Entrance_morning.jpg"
 image entrance2_evening = "/images/home/entrance2/morning/Entrance2_Morning.jpg"
@@ -113,6 +116,7 @@ default time_skip = 1
 default can_map = True
 default day_time = 1
 
+
 default sara_door_open = True
 
 default corridor1_door_to_teacher_room2_open = False
@@ -121,6 +125,7 @@ default Sara_unread_alert = True
 default Caroline_unread_alert = True
 default Linda_unread_alert = True
 
+
 default Sara_points = 1
 default Sara_max = 5
 default Celia_points = 1
@@ -128,7 +133,7 @@ default Celia_max = 5
 default Caroline_points = 1
 default Caroline_max = 5
 default ml_points = 1
-default ml_max = 7
+default ml_max = 5
 
 define config.layers = [ 'master', 'transient', 'screens', 'overlay' ]
 define Lily = Character("Lily", color="#FF99CC")
@@ -155,6 +160,7 @@ define Headmaster = Character("[Headmaster_name]", color="#ace600")
 define Cindy = Character("[Cindy_name]", color="#ff80bf")
 image workinprogress2 = "/images/game_gui/icons/workinprogress.png"
 
+
 style frame_gui1:
     padding gui.frame_borders.padding
     background Frame("gui/frame1.png", 25, 25)
@@ -169,76 +175,77 @@ default cSara = Contact("Sara",image_idle="images/game_gui/Phone/relations/Sara.
 default cCaroline = Contact("Caroline",image_idle="images/game_gui/Phone/relations/Caroline.png", image_hover="images/game_gui/Phone/relations/CarolineHover.png")
 default cZuri = Contact("Zuri",image_idle="images/game_gui/Phone/relations/Zuri.png", image_hover="images/game_gui/Phone/relations/ZuriHover.png")
 
-default camera = Item(__("Spy Camera"), image="images/inventory_items/spy_camera_item.png", hover_i="images/inventory_items/spy_camera_item_hover.png", cost = 55)
-default camera1 = Item(__("Camera"), image="images/inventory_items/camera_item.png", hover_i="images/inventory_items/camera_item_hover.png", cost = 80)
-default broken_gamepad = Item(__("Cheap Controller"), image="images/inventory_items/controller_item.png", hover_i="images/inventory_items/controller_item_hover.png", cost = 5)
-default celia_key = Item(__("Teacher’s Break Room Key"), image="images/inventory_items/celia_key.png", hover_i="images/inventory_items/celia_key_hover.png")
-default celia_note = Item(__("Celia’s Note"), image="images/inventory_items/celia_note.png", hover_i="images/inventory_items/celia_note_hover.png", note=True, note_image="images/inventory_items/celia_note_image.png")
-default empty_envelope = Item(__("Empty Envelope"), image="images/inventory_items/envelope.png", hover_i="images/inventory_items/envelope_hover.png")
-default envelope = Item(__("Envelope"), image="images/inventory_items/envelope.png", hover_i="images/inventory_items/envelope_hover.png")
-default web_cam_cd = Item(__("WebCam CD"), image="images/inventory_items/web_cam_item.png", hover_i="images/inventory_items/web_cam_item_hover.png", cost = 20)
-default dildo = Item(__("Dildo"), image="images/inventory_items/dildo_item.png", hover_i="images/inventory_items/dildo_item_hover.png", cost = 25)
-default sexy_cloth = Item(__("Sexy Cloth"), image="images/inventory_items/sexy_cloth_item.png", hover_i="images/inventory_items/sexy_cloth_item_hover.png", cost = 70)
-default vibrator = Item(__("Celia's Vibrator"), image="images/inventory_items/vibrator_item.png", hover_i="images/inventory_items/vibrator_item_hover.png", cost = 40)
-default binoculars = Item(__("Binoculars"), image="images/inventory_items/binoculars_item.png", hover_i="images/inventory_items/binoculars_item_hover.png", cost = 100)
-default caroline_spare_key = Item(__("Caroline’s Spare Key"), image="images/inventory_items/caroline_spare_key_item.png", hover_i="images/inventory_items/caroline_spare_key_item_hover.png",)
-default swimming_poll_card = Item(__("Swimming Poll Card"), image="images/inventory_items/swimming_card.png", hover_i="images/inventory_items/swimming_card_hover.png",)
-default red_wine = Item(__("Red Wine"), image="images/inventory_items/red_wine.png", hover_i="images/inventory_items/red_wine_hover.png", cost = 95)
-default white_wine = Item(__("White Wine"), image="images/inventory_items/white_wine.png", hover_i="images/inventory_items/white_wine_hover.png", cost = 80)
-default bob_carkeys = Item(__("Car Keys"), image="images/inventory_items/bob_carkeys.png", hover_i="images/inventory_items/bob_carkeys_hover.png")
-default bob_carbook = Item(__("Book"), image="images/inventory_items/bob_carbook.png", hover_i="images/inventory_items/bob_carbook_hover.png")
-default bob_safenote = Item(__("Safe Note"), image="images/inventory_items/bob_safenote.png", hover_i="images/inventory_items/bob_safenote_hover.png")
-default bob_note = Item(__("Note"), image="images/inventory_items/bob_note.png", hover_i="images/inventory_items/bob_note_hover.png")
-default zuri_magentcard = Item(__("Zuri's Magnet Card"), image="images/inventory_items/Zuri_magnet_card.png", hover_i="images/inventory_items/Zuri_magnet_card_hover.png")
-default SR2_vibrator = Item(__("Sara's Vibrator"), image="images/inventory_items/SR2_vibrator.png", hover_i="images/inventory_items/SR2_vibrator_hover.png", cost = 80)
-default lube = Item(__("Lube"), image="images/inventory_items/lube.png", hover_i="images/inventory_items/lube_hover.png", cost = 50)
-default Li_key1 = Item(__("Liza’s Key"), image="images/inventory_items/Li_key.png", hover_i="images/inventory_items/Li_key_hover.png")
-default Li_clean_stuff = Item(name= __("Cleaning Stuff"), image="images/inventory_items/Li_clean_s.png", hover_i="images/inventory_items/Li_clean_s_hover.png")
-default condom = Item(name= __("Condom"), image="images/inventory_items/Condom.png", hover_i="images/inventory_items/Condom_hover.png")
-default permission = Item(name= __("School Permission"), image="images/inventory_items/permission.png", hover_i="images/inventory_items/permission_hover.png")
-default drink = Item(__("Drinks"), image="images/inventory_items/drink.png", hover_i="images/inventory_items/drink_hover.png", cost = 10)
-default icecream = Item(__("Ice Creams"), image="images/inventory_items/icecream.png", hover_i="images/inventory_items/icecream_hover.png", cost = 8)
-default sunscreen = Item(__("SunScreen"), image="images/inventory_items/sunscreen.png", hover_i="images/inventory_items/sunscreen_hover.png", cost = 20)
+default camera = Item("Spy Camera", image="images/inventory_items/spy_camera_item.png", hover_i="images/inventory_items/spy_camera_item_hover.png", cost = 55)
+default camera1 = Item("Camera", image="images/inventory_items/camera_item.png", hover_i="images/inventory_items/camera_item_hover.png", cost = 80)
+default broken_gamepad = Item("Cheap Controller", image="images/inventory_items/controller_item.png", hover_i="images/inventory_items/controller_item_hover.png", cost = 5)
+default celia_key = Item("Teacher’s Break Room Key", image="images/inventory_items/celia_key.png", hover_i="images/inventory_items/celia_key_hover.png")
+default celia_note = Item("Celia’s Note", image="images/inventory_items/celia_note.png", hover_i="images/inventory_items/celia_note_hover.png", note=True, note_image="images/inventory_items/celia_note_image.png")
+default empty_envelope = Item("Empty Envelope", image="images/inventory_items/envelope.png", hover_i="images/inventory_items/envelope_hover.png")
+default envelope = Item("Envelope", image="images/inventory_items/envelope.png", hover_i="images/inventory_items/envelope_hover.png")
+default web_cam_cd = Item("WebCam CD", image="images/inventory_items/web_cam_item.png", hover_i="images/inventory_items/web_cam_item_hover.png", cost = 20)
+default dildo = Item("Dildo", image="images/inventory_items/dildo_item.png", hover_i="images/inventory_items/dildo_item_hover.png", cost = 25)
+default sexy_cloth = Item("Sexy Cloth", image="images/inventory_items/sexy_cloth_item.png", hover_i="images/inventory_items/sexy_cloth_item_hover.png", cost = 70)
+default vibrator = Item("Celia's Vibrator", image="images/inventory_items/vibrator_item.png", hover_i="images/inventory_items/vibrator_item_hover.png", cost = 40)
+default binoculars = Item("Binoculars", image="images/inventory_items/binoculars_item.png", hover_i="images/inventory_items/binoculars_item_hover.png", cost = 100)
+default caroline_spare_key = Item("Caroline’s Spare Key", image="images/inventory_items/caroline_spare_key_item.png", hover_i="images/inventory_items/caroline_spare_key_item_hover.png",)
+default swimming_poll_card = Item("Swimming Poll Card", image="images/inventory_items/swimming_card.png", hover_i="images/inventory_items/swimming_card_hover.png",)
+default red_wine = Item("Red Wine", image="images/inventory_items/red_wine.png", hover_i="images/inventory_items/red_wine_hover.png", cost = 95)
+default white_wine = Item("White Wine", image="images/inventory_items/white_wine.png", hover_i="images/inventory_items/white_wine_hover.png", cost = 80)
+default bob_carkeys = Item("Car Keys", image="images/inventory_items/bob_carkeys.png", hover_i="images/inventory_items/bob_carkeys_hover.png")
+default bob_carbook = Item("Book", image="images/inventory_items/bob_carbook.png", hover_i="images/inventory_items/bob_carbook_hover.png")
+default bob_safenote = Item("Safe Note", image="images/inventory_items/bob_safenote.png", hover_i="images/inventory_items/bob_safenote_hover.png")
+default bob_note = Item("Note", image="images/inventory_items/bob_note.png", hover_i="images/inventory_items/bob_note_hover.png")
+default zuri_magentcard = Item("Zuri's Magnet Card", image="images/inventory_items/Zuri_magnet_card.png", hover_i="images/inventory_items/Zuri_magnet_card_hover.png")
+default SR2_vibrator = Item("Sara's Vibrator", image="images/inventory_items/SR2_vibrator.png", hover_i="images/inventory_items/SR2_vibrator_hover.png", cost = 80)
+default lube = Item("Lube", image="images/inventory_items/lube.png", hover_i="images/inventory_items/lube_hover.png", cost = 50)
+default Li_key1 = Item("Liza’s Key", image="images/inventory_items/Li_key.png", hover_i="images/inventory_items/Li_key_hover.png")
+default Li_clean_stuff = Item(name= "Cleaning Stuff", image="images/inventory_items/Li_clean_s.png", hover_i="images/inventory_items/Li_clean_s_hover.png")
+default condom = Item(name= "Condom", image="images/inventory_items/Condom.png", hover_i="images/inventory_items/Condom_hover.png")
+default permission = Item(name= "School Permission", image="images/inventory_items/permission.png", hover_i="images/inventory_items/permission_hover.png")
+default drink = Item("Drinks", image="images/inventory_items/drink.png", hover_i="images/inventory_items/drink_hover.png", cost = 10)
+default icecream = Item("Ice Creams", image="images/inventory_items/icecream.png", hover_i="images/inventory_items/icecream_hover.png", cost = 8)
+default sunscreen = Item("SunScreen", image="images/inventory_items/sunscreen.png", hover_i="images/inventory_items/sunscreen_hover.png", cost = 20)
 
-default sms_Linda1 = Sms("sLinda" , sphoto1=False, mtext=__("I’m still thinking about our… time spent together on this couch…"))
+default sms_Linda1 = Sms("sLinda" , sphoto1=False, mtext="I’m still thinking about our… time spent together on this couch…")
 default sms_Linda2 = Sms("sLinda" , simage="images/phone_sms/ml/Photo1_1.jpg", sphoto="images/phone_sms/ml/Photo1.jpg", sphoto1=True,)
-default sms_Linda3 = Sms("sLinda" , sphoto1=False, mtext=__("Our today conversation... Made me very happy.. I hope you feel the same."))
+default sms_Linda3 = Sms("sLinda" , sphoto1=False, mtext="Our today conversation... Made me very happy.. I hope you feel the same.")
 default sms_Linda4 = Sms("sLinda" , simage="images/phone_sms/ml/Photo2_1.jpg", sphoto="images/phone_sms/ml/Photo2.jpg", sphoto1=True,)
-default sms_Linda5 = Sms("sLinda" , sphoto1=False, mtext=__("I masturbated.. I just had to do it on this couch... I just couldn't hold myself and wait for the night."))
+default sms_Linda5 = Sms("sLinda" , sphoto1=False, mtext="I masturbated.. I just had to do it on this couch... I just couldn't hold myself and wait for the night.")
 default sms_Linda6 = Sms("sLinda" , simage="images/phone_sms/ml/Photo3_1.jpg", sphoto="images/phone_sms/ml/Photo3.jpg", sphoto1=True,)
 default sms_Linda7 = Sms("sLinda" , simage="images/phone_sms/ml/4_small.jpg", sphoto="images/phone_sms/ml/4.jpg", sphoto1=True,)
-default sms_Linda8 = Sms("sLinda" , sphoto1=False, mtext=__("Our date tonight was amazing! It’s a shame we can't continue it in my bed.. :( Love you"))
+default sms_Linda8 = Sms("sLinda" , sphoto1=False, mtext="Our date tonight was amazing! It’s a shame we can't continue it in my bed.. :( Love you")
 
-default sms_Sara1 = Sms("sSara" , sphoto1=False, mtext=__("I’ll not let you steal my panties from me… I like them."))
+default sms_Sara1 = Sms("sSara" , sphoto1=False, mtext="I’ll not let you steal my panties from me… I like them.")
 default sms_Sara2 = Sms("sSara" , simage="images/phone_sms/sara/1_M3 Photo1.png", sphoto="images/phone_sms/sara/1_M3 Photo.png", sphoto1=True,)
-default sms_Sara3 = Sms("sSara" , sphoto1=False, mtext=__("I hope you're not still sad that you lost all those matches…? Lily told me to send you this.."))
+default sms_Sara3 = Sms("sSara" , sphoto1=False, mtext="I hope you're not still sad that you lost all those matches…? Lily told me to send you this..")
 default sms_Sara4 = Sms("sSara" , simage="images/phone_sms/sara/2_E2 Photo1.png", sphoto="images/phone_sms/sara/2_E2 Photo.png", sphoto1=True,)
-default sms_Sara5 = Sms("sSara" , sphoto1=False, mtext=__("Today was the best day of my life <3"))
+default sms_Sara5 = Sms("sSara" , sphoto1=False, mtext="Today was the best day of my life <3")
 default sms_Sara6 = Sms("sSara" , simage="images/phone_sms/sara/3_ A3 Photo1.png", sphoto="images/phone_sms/sara/3_ A3 Photo.png", sphoto1=True,)
 default sms_Sara7 = Sms("sSara" , simage="images/phone_sms/sara/4_small.jpg", sphoto="images/phone_sms/sara/4.jpg", sphoto1=True,)
-default sms_Sara8 = Sms("sSara" , sphoto1=False, mtext=__("I think I'm gonna start to learn how to swim! Cheer me on <3"))
+default sms_Sara8 = Sms("sSara" , sphoto1=False, mtext="I think I'm gonna start to learn how to swim! Cheer me on <3")
 default sms_Sara9 = Sms("sSara" , simage="images/phone_sms/sara/5_small.jpg", sphoto="images/phone_sms/sara/5.jpg", sphoto1=True,)
-default sms_Sara10 = Sms("sSara" , sphoto1=False, mtext=__("Look... I'm practicing as I promised... "))
+default sms_Sara10 = Sms("sSara" , sphoto1=False, mtext="Look... I'm practicing as I promised... ")
 default sms_Sara11 = Sms("sSara" , simage="images/phone_sms/sara/6_small.jpg", sphoto="images/phone_sms/sara/6.jpg", sphoto1=True,)
-default sms_Sara12 = Sms("sSara" , sphoto1=False, mtext=__("I'm so sorry... She surprised me! Please, don't be angry at me... :("))
+default sms_Sara12 = Sms("sSara" , sphoto1=False, mtext="I'm so sorry... She surprised me! Please, don't be angry at me... :(")
 default sms_Sara13 = Sms("sSara" , simage="images/phone_sms/sara/7_small.jpg", sphoto="images/phone_sms/sara/7.jpg", sphoto1=True,)
-default sms_Sara14 = Sms("sSara" , sphoto1=False, mtext=__("My ass still hurts... kinda... I hope you loved it <3"))
+default sms_Sara14 = Sms("sSara" , sphoto1=False, mtext="My ass still hurts... kinda... I hope you loved it <3")
 
-default sms_Zuri1 = Sms("sZuri" , sphoto1=False, mtext=__("Zuri here. Come to our place in the evening..."))
+default sms_Zuri1 = Sms("sZuri" , sphoto1=False, mtext="Zuri here. Come to our place in the evening...")
 default sms_Zuri2 = Sms("sZuri" , simage="images/phone_sms/zuri/Lie_small.jpg", sphoto="images/phone_sms/zuri/Lie.jpg", sphoto1=True,)
-default sms_Zuri3 = Sms("sZuri" , sphoto1=False, mtext=__("Zuri here! Just look at Suri's ass! Completely defenseless… Come to our place in the evening..."))
+default sms_Zuri3 = Sms("sZuri" , sphoto1=False, mtext="Zuri here! Just look at Suri's ass! Completely defenseless… Come to our place in the evening...")
 default sms_Zuri4 = Sms("sZuri" , simage="images/phone_sms/zuri/Truth_small.jpg", sphoto="images/phone_sms/zuri/Truth.jpg", sphoto1=True,)
 
 default sms_Caroline1 = Sms("sCaroline" , simage="images/phone_sms/caroline/1_small.jpg", sphoto="images/phone_sms/caroline/1.jpg", sphoto1=True,)
-default sms_Caroline2 = Sms("sCaroline" , sphoto1=False, mtext=__("YOU GOT CUM ON THE PANTIES THAT ARE SUPPOSED TO BE SOLD! YOU IDIOT! Just kidding <3"))
+default sms_Caroline2 = Sms("sCaroline" , sphoto1=False, mtext="YOU GOT CUM ON THE PANTIES THAT ARE SUPPOSED TO BE SOLD! YOU IDIOT! Just kidding <3")
 default sms_Caroline3 = Sms("sCaroline" , simage="images/phone_sms/caroline/2_small.jpg", sphoto="images/phone_sms/caroline/2.jpg", sphoto1=True,)
-default sms_Caroline4 = Sms("sCaroline" , sphoto1=False, mtext= __("Wh-y would ansyone want to roobed my shosp?  ;( Tht life is not fair.."))
+default sms_Caroline4 = Sms("sCaroline" , sphoto1=False, mtext= "Wh-y would ansyone want to roobed my shosp?  ;( Tht life is not fair..")
 default sms_Caroline5 = Sms("sCaroline" , simage="images/phone_sms/caroline/3_small.jpg", sphoto="images/phone_sms/caroline/3.jpg", sphoto1=True,)
-default sms_Caroline6 = Sms("sCaroline" , sphoto1=False, mtext= __("Thanks for helping me with money. It means a lot to me. Kisses :* :* Just don't jerk off to my pic haha :P"))
-default sms_Caroline8 = Sms("sCaroline" , sphoto1=False, mtext= __("You're stupid..."))
+default sms_Caroline6 = Sms("sCaroline" , sphoto1=False, mtext= "Thanks for helping me with money. It means a lot to me. Kisses :* :* Just don't jerk off to my pic haha :P")
+default sms_Caroline8 = Sms("sCaroline" , sphoto1=False, mtext= "You're stupid...")
 default sms_Caroline7 = Sms("sCaroline" , simage="images/phone_sms/caroline/4_small.jpg", sphoto="images/phone_sms/caroline/4.jpg", sphoto1=True,)
-default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext= __("You've asked about a date while we were at that nightclub... Let's go tomorrow!"))
+default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext= "You've asked about a date while we were at that nightclub... Let's go tomorrow!")
 default sms_Caroline9 = Sms("sCaroline" , simage="images/phone_sms/caroline/5_small.jpg", sphoto="images/phone_sms/caroline/5.jpg", sphoto1=True,)
+
 
 default celia_toilet_cabin_scene4_visit = 1
 default celia_in_camweb_contacts = False
@@ -260,16 +267,19 @@ default sara_webcam_online = True
 
 default live_camera_instaled = False
 
+
 default dildo_buy = False
 default sexy_cloth_buy = False
 default vibrator_buy = False
 default lube_buy = False
+
 
 default b1_binoculars_buy = False
 default b2_camera1_buy = False
 default b3_controller_buy = False
 default b4_spy_camera_buy = False
 default b5_web_cam_software_buy = False
+
 
 default aunt_house_unlocked = False
 default ml_work_unloacked = False
@@ -286,6 +296,9 @@ default night_club_unlocked = False
 default Bob_workplace_unlocked = False
 default Z_home_unlocked = False
 default J_home_unlocked = False
+
+
+
 
 default drawer_sis_nerdy = 0
 default sis_nerdy_scene4_v1 = 0
@@ -331,8 +344,10 @@ default caroline_can_room_morning_scenes = True
 default caroline_room_morning_scene4 = True
 default caroline_mc_room_moenig_scene5 = False
 
+
 default Judy_scene1_v1 = 0
 default can_envelope_from_Judy_v1 = 0
+
 
 default sis_nerdy_school_scene1_v1 = 1
 default sis_nerdy_school_scene1_v1_talk = 1
@@ -365,6 +380,8 @@ default caroline_after_cosplay_outfit5 = False
 default unlock_caroline_closth_shop_afternoon_scene3 = False
 default caroline_closth_shop_afternoon_scene3 = True
 
+
+
 default sis_nerdy_evening_scene1_v1 = 1
 default can_sis_nerdy_evening_scene1_v1 = True
 default sis_nerdy_evening_scene2_v1 = 0
@@ -384,6 +401,8 @@ default caroline_mc_room_evening_scene3 = False
 default caroline_mc_room_can_evening_scene3 = False
 default caroline_room_evening_scene4 = False
 
+
+
 default sis_nerdy_night_sleeping1_v1 = 1
 default can_sis_nerdy_night_sleeping1_v1 = True
 default can1_mc_sara_night_scene1_v1 = False
@@ -400,6 +419,7 @@ default ml_mc_room_night_scene3_visit = 1
 
 default caroline_room_night_scene1 = True
 default caroline_room_can_night_scene1 = True
+
 
 default Neighboor_spy_mc_room = True
 default take_nap = False
@@ -434,6 +454,7 @@ default can_hide_windows = False
 default in_bed_menu = False
 default SR2_ML = False
 
+
 default can_sms1_from_sara = 0
 default can_sms2_from_sara = 0
 default can1_sms2_from_sara = False
@@ -444,6 +465,7 @@ default sms5_sara = False
 default sms6_sara = False
 default sms7_sara = False
 
+
 default can_sms1_from_ml = False
 default can_sms2_from_ml = False
 default can_sms3_from_ml = False
@@ -452,12 +474,16 @@ default sms4_ml = False
 default sms1_fromZuri = False
 default sms2_fromZuri = False
 
+
 default sms1_fromC = False
 default sms2_fromC = False
 default sms3_fromC = False
 
+
+
 default SR2_swimming_card = True
 default SR2_weekend_swimming_pool = False
+
 
 default ml_workR2_AS1 = True
 default can_ml_workR2 = True
@@ -471,15 +497,19 @@ default MLR2_ES2 = False
 default can_MLR2_ES2 = True
 default MLR2_ES3 = False
 
+
 default MLR2_NS1 = True
 default MLR2_NS2 = False
 default MLR2_Sleep = True
+
 
 default Bob_v2_scenes = False
 default Zv2_first_meet = True
 
 default Bob_v3_scenes = False
 default Zv3_scenes = False
+
+
 
 default CR2_MS1 = True
 default can_CR2_MS1 = True
@@ -523,24 +553,55 @@ init python:
     style.choice_button1_button_text.color = "#333333"
     style.choice_button1_button_text.xalign = 0.5
     style.choice_button1_button_text.size = 25
-    Mom1_name = __("Mom")
+    Mom1_name = "Mom"
+
 
 label start:
     python:
         style.choice_button1_button_text.color = "#333333"
 
+
+
     $ inventory.add_contact(cLinda)
     $ inventory.add_contact(cSara)
     $ inventory.add_contact(cCaroline)
+
+
+
+
+
+
+
+
 
     $ sis_nerdy_in_room = True
     $ sis_nerdy_scene1_v1= 1
     $ after_sis_nerdy_scene1_v1 = 1
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 label begin:
+
 
     jump intro
     jump begin3
+
+
 
 label begin3:
     show screen week_day_viewer
@@ -548,10 +609,11 @@ label begin3:
     show screen day_time_viewer
     call screen map_button
 
+
 label day_time_changer:
     if renpy.loadable("patch.rpy"):
-        $ Mom_name = __("Mom")
-        $ Dad_name = __("Dad")
+        $ Mom_name = "Mom"
+        $ Dad_name = "Dad"
     if not renpy.loadable("patch.rpy"):
         $ Mom_name = "Linda"
         $ Dad_name = "Bob"
@@ -580,6 +642,7 @@ label day_time_changer:
         if ml_mc_room_night_scene3 == True and ml_points == 2 and MLR2_Sleep == False:
             $ renpy.show("ml_mc_room_night_sleeping_p1", layer="screens")
         show screen mc_room_night_notclickable
+
 
     menu:
         "Take a nap." if day_time <4:
@@ -710,6 +773,8 @@ label day_time_changer:
                 $ renpy.hide("mc_sleep_night", layer="screens")
                 $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
                 jump mc_room_morning1
+
+
 
             $ can_ml_work_day_scene1 = True
             $ can_school_intercom = True
@@ -857,6 +922,7 @@ label day_time_changer:
                 $ LiR1_MAS8 = True
             $ can2_LiR1_NS = True
 
+
             $ CR3_MS2_can3 = True
             if CR3_MS2_can == True and CR3_deal_aff == True:
                 $ CR3_MS1 = False
@@ -870,6 +936,7 @@ label day_time_changer:
                 $ CR3_MS1_q5 = True
                 $ CR3_MS1_q6 = True
                 $ CR3_MS1_can = False
+
 
             if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
                 $ can1_celia_school_morning_scene2v1 = False
@@ -895,6 +962,7 @@ label day_time_changer:
             $ CR3_MS1_talked = False
             if CR3_ES1_can == False:
                 $ CR3_ES1 = False
+
 
             if MLR3_MS1_can == False:
                 $ MLR3_MS1 = False
@@ -1084,6 +1152,17 @@ label day_time_changer:
             hide screen bed_images
             jump weekend_event_menu_label
 
+
+
+
+
+
+
+
+
+
+
+
         "Skip weekend." if week_day >= 5:
             hide screen bed_images
             $ in_bed_menu = False
@@ -1176,6 +1255,8 @@ label day_time_changer:
             $ can_SR2_MS2 = True
             $ SR2_bath = False
 
+
+
             $ LiR1_poll_minigame_can = True
             $ can_LiR1_NS = True
             $ can_LiR1_NS3 = True
@@ -1230,6 +1311,7 @@ label day_time_changer:
                 $ LiR1_MAS8 = True
             $ can2_LiR1_NS = True
 
+
             $ CR3_MS2_can3 = True
             if CR3_MS2_can == True and CR3_deal_aff == True:
                 $ CR3_MS1 = False
@@ -1243,6 +1325,7 @@ label day_time_changer:
                 $ CR3_MS1_q5 = True
                 $ CR3_MS1_q6 = True
                 $ CR3_MS1_can = False
+
 
             if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
                 $ can1_celia_school_morning_scene2v1 = False
@@ -1268,6 +1351,7 @@ label day_time_changer:
             $ CR3_MS1_talked = False
             if CR3_ES1_can == False:
                 $ CR3_ES1 = False
+
 
             if MLR3_MS1_can == False:
                 $ MLR3_MS1 = False
@@ -1351,6 +1435,7 @@ label day_time_changer:
             $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
             jump mc_room_morning1
 
+
 screen displayTextScreen:
     key "hide_windows" action NullAction()
     zorder 100
@@ -1362,6 +1447,7 @@ screen displayTextScreen:
         frame:
             style "frame_gui1"
             text "{size=+6}[displayText]{/size}"
+
 
 init python:
 
@@ -1393,6 +1479,7 @@ init python:
 
     config.underlay = [ new_keymap ]
 
+
 label hide_interface:
 
     if renpy.context()._menu:
@@ -1410,6 +1497,7 @@ label hide_interface:
             _windows_hidden = False
 
     return
+
 
 label hide_interface2:
 

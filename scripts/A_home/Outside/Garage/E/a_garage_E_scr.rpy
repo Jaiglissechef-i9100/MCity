@@ -1,6 +1,8 @@
 screen a_garage_E_scr:
     key "hide_windows" action NullAction()
 
+
+
     if not Li_clean_stuff in inventory.items:
         imagebutton:
             xpos 0
@@ -9,7 +11,7 @@ screen a_garage_E_scr:
             idle "/images/a_home/outside/Garage/M/Li_cs_B1.png"
             hover "/images/a_home/outside/Garage/M/Li_cs_B1_hover.png"
             if clickable == True and LiR1_poll_minigame == True:
-                hovered Show("displayTextScreen", displayText = __("Cleaning Stuff"))
+                hovered Show("displayTextScreen", displayText = "Cleaning Stuff")
                 action [Hide("displayTextScreen"),addItem(Li_clean_stuff)]
                 unhovered Hide("displayTextScreen")
     if not "img28_sec_card" in gallery_photos.storage:

@@ -13,7 +13,6 @@ image bath_event_pZuri = "images/home/bathroom/morning/scenes/bath_event/Zuri.jp
 image white = "#FFFFFF"
 
 default zuri_bath_event_unlock = False
-
 transform pandown2:
     crop (0, 0, 1920, 2160)
     linear 4 crop (0, 1080, 1920, 1080)

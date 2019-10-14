@@ -11,7 +11,6 @@ default B2_AS1_q1 = True
 default B2_AS1_q2 = True
 default can_B2_AS1_day = True
 default bob_payment_money = 0
-
 label B2_AS1_label:
     if B2_AS1_day == 4:
         if money_from_bob > 0:
@@ -34,6 +33,7 @@ label B2_AS1_label:
             show screen parents_bedroom_day_notclickable
             Dad "Not now, [player_name]."
             jump parents_bedroom_morning1
+
 
     if can_B2_AS1_day == False:
         if money_from_bob > 0:
@@ -166,6 +166,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
+
         "You look very relaxed!" if B2_AS1_day == 2 and B2_AS1_q1 == True and can_B2_AS1_day == True:
 
             scene B2_AS1_p2
@@ -246,6 +247,9 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
+
+
+
         "Is everything okay between you and Mom? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and renpy.loadable("patch.rpy"):
             scene B2_AS1_p1
 
@@ -257,6 +261,7 @@ label B2_AS1_menu_label:
             MC "I’m just curious. The two of you just seem a little more… distant than usual."
             Dad "When you’ve been in a marriage as long as we have, you’ll learn that there are peaks and troughs."
             Dad "Your mother is a complex woman - one of the many reasons I fell in love with her."
+
 
             scene B2_AS1_p3
 
@@ -282,6 +287,7 @@ label B2_AS1_menu_label:
             MC "I’m just curious. The two of you just seem a little more… distant than usual."
             Dad "When you’ve been in a relationship as long as we have, you’ll learn that there are peaks and troughs."
             Dad "Linda is a complex woman - one of the many reasons I fell in love with her."
+
 
             scene B2_AS1_p3
 
@@ -353,6 +359,7 @@ label B2_AS1_menu_label:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump parents_bedroom_morning1
+
 
 label B2_AS1_payment:
     if money_from_bob > 0:

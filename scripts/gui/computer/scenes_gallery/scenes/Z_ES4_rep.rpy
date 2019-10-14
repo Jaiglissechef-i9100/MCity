@@ -1,3 +1,5 @@
+
+
 label Z_ES4_rep:
     scene Zv2_ES4_truth_p1 with dissolve
     hide screen week_day_viewer
@@ -8,6 +10,7 @@ label Z_ES4_rep:
     window hide
     menu:
         "{color=#ff8000}Truth.{/color}":
+
 
             $ renpy.music.stop(channel="music2", fadeout=1)
             $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
@@ -232,7 +235,6 @@ label Z_ES4_rep:
                     Zuri "Nice shooting. There’s A LOT there…"
                     jump Zv2_ES4_truth_aftermenu_rep
         "{color=#ff8000}Lie.{/color}":
-
             $ renpy.music.stop(channel="music2", fadeout=1)
             $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music1", loop=True, fadein = 2)
             hide screen week_day_viewer
@@ -240,6 +242,7 @@ label Z_ES4_rep:
             hide screen day_time_viewer
             hide screen map_button
             scene Zv2_ES4_lie_p1 with dissolve
+
 
             MC "(Huh? Where is everyone?)"
             MC "Zuri? Suri?"
@@ -290,6 +293,7 @@ label Z_ES4_rep:
 
             Zuri "OOOOHHHH!"
             MC "Jesus Christ!"
+
 
             scene Zv2_ES4_lie_p9
 

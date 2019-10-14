@@ -1,3 +1,6 @@
+
+
+
 label CR3_AS8_rep:
 
     hide screen week_day_viewer
@@ -213,6 +216,7 @@ label CR3_AS8_rep:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_AS8_O3_p42a with dissolve
+
 
     MC "*Pant Pant* Wow..."
     MC "Fuck... That was amazing, Caroline..."

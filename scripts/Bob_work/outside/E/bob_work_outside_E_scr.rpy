@@ -1,3 +1,7 @@
+
+
+
+
 screen bob_work_outside_E_scr:
     key "hide_windows" action NullAction()
     imagebutton:

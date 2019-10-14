@@ -1,3 +1,5 @@
+
+
 label SR2_NS3_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -83,6 +85,7 @@ label SR2_NS3_rep:
     else:
         MC "(I hope none of my roommates wake up and look out their windows right now… It’d give Bob a heart attack!)"
 
+
     scene SR2_NS3_p11
 
     Sara "Mmm…"
@@ -100,6 +103,7 @@ label SR2_NS3_rep:
     MC "Hmm?"
     Sara "That’s EXACTLY how I want to be kissed when we meet. It’s just perfect."
     MC "I’ll try and remember to do that more often for you, then."
+
 
     scene SR2_NS3_p14
 
@@ -270,6 +274,7 @@ label SR2_NS3_rep:
     MC "I… don’t know, Sara. Sorry, I’ve never had a dick in my ass before."
     Sara "Just… go slow, okay?"
 
+
     scene SR2_NS3_p39
 
     MC "Try to relax, Sara. I’ll take things very slowly. And if you want me to stop, for any reason, just say."
@@ -385,6 +390,7 @@ label SR2_NS3_rep:
             Sara "I’m sorry you didn’t get to cum."
             MC "It’s okay, Sara. I wasn’t going to have any fun if you were in pain."
             jump SR2_NS3_continue_rep
+
 
 label SR2_NS3_continue_rep:
     scene SR2_NS3_p51

@@ -7,6 +7,7 @@ image cosplay_outfit4_p3a = "images/cosplay_minigame/4/3a.jpg"
 image cosplay_outfit4_p3b = "images/cosplay_minigame/4/3b.jpg"
 image cosplay_outfit4_p3c = "images/cosplay_minigame/4/3c.jpg"
 
+
 label cosplay_outfit4_label:
     hide screen cloth_shop_open_screen_notclickable
     scene cosplay_outfit4_p1 with dissolve
@@ -72,6 +73,7 @@ screen outfit4_screen1:
         hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/RotateHover.png"
         action [Hide("displayTextScreen"), Jump("outfit4_rotate1"),]
 
+
 label outfit4_down1:
     scene cosplay_outfit4_p2a
     $ cosplay_score_add = renpy.random.choice( [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
@@ -112,6 +114,8 @@ label outfit4_rotate1:
     MC "Can you turn around?"
     Caroline "Sure."
     jump cosplay_outfit4_label2
+
+
 
 label cosplay_outfit4_label2:
     scene cosplay_outfit4_p3 with dissolve

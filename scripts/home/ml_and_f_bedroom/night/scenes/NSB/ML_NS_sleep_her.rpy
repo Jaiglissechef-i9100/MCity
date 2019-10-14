@@ -1,3 +1,6 @@
+
+
+
 label ML_NS_sleep_her_label:
     scene ML_NS_wake_p7
 
@@ -150,6 +153,8 @@ label ML_NS_sleep_her_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene ML_NS_wake_p27 with dissolve
+
+
 
     Mom "*Gasp*"
     Mom "(Whispered) Mmm... delicious..."

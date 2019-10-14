@@ -62,6 +62,7 @@ image CR2_NS2_back_p9anim = Movie(play="videos/02 Caroline-NS2-5.webm", loop = T
 image CR2_NS2_back_p10 = "images/home/entrace1/night/scenes/CR2_NS2/Back/10.jpg"
 image CR2_NS2_back_p11 = "images/home/entrace1/night/scenes/CR2_NS2/Back/11.jpg"
 
+
 image CR2_NS2_front_p1 = "images/home/entrace1/night/scenes/CR2_NS2/Front/1.jpg"
 image CR2_NS2_front_p2 = "images/home/entrace1/night/scenes/CR2_NS2/Front/2.jpg"
 image CR2_NS2_front_p3 = "images/home/entrace1/night/scenes/CR2_NS2/Front/3.jpg"
@@ -75,7 +76,6 @@ image CR2_NS2_front_p8 = "images/home/entrace1/night/scenes/CR2_NS2/Front/8.jpg"
 image CR2_NS2_front_p9 = "images/home/entrace1/night/scenes/CR2_NS2/Front/9.jpg"
 image CR2_NS2_front_p10 = "images/home/entrace1/night/scenes/CR2_NS2/Front/10.jpg"
 image CR2_NS2_front_p11 = "images/home/entrace1/night/scenes/CR2_NS2/Front/11.jpg"
-
 label CR2_NS2_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     hide screen week_day_viewer
@@ -112,6 +112,7 @@ label CR2_NS2_label:
     Caroline "Don’t look so worried. Nothing seriously bad has happened."
     MC "Oh, thank God."
     MC "You had me scared there!"
+
 
     scene CR2_NS2_p5
 
@@ -395,6 +396,7 @@ label CR2_NS2_continue1:
             scene CR2_NS2_back_p9anim
             MC "MMM! Oh…"
 
+
             scene CR2_NS2_back_p8
 
             MC "I’m good, Caroline. Your ass feels amazing!"
@@ -445,6 +447,7 @@ label CR2_NS2_continue1:
             scene CR2_NS2_front_p3anim
             Caroline "(I love the sensation of his cock, grinding against my panties.)"
             Caroline "(It’s brushing, perfectly against my clitoris!)"
+
 
             scene CR2_NS2_front_p4
 
@@ -582,6 +585,7 @@ label CR2_NS2_continue2:
 
     scene CR2_NS2_p40
 
+
     Caroline "Aha! There you are!"
     Caroline "(How on Earth did you get THAT far under the bed?)"
     Caroline "(It must have rolled, after I threw it under, last time.)"
@@ -615,6 +619,7 @@ label CR2_NS2_continue2:
     Caroline "(Am I seriously getting off, to the thought of [player_name] fucking me?)"
     Caroline "(That’s sick and wrong… isn’t it?)"
     Caroline "(What’s wrong with me!?)"
+
 
     scene CR2_NS2_p45
 
@@ -716,6 +721,8 @@ label CR2_NS2_continue2:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
+
+
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -770,6 +777,7 @@ label CR2_NS2_continue2:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
         $ CR3_MS2 = True
@@ -782,6 +790,7 @@ label CR2_NS2_continue2:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False

@@ -1,3 +1,5 @@
+
+
 screen relations:
     key "hide_windows" action NullAction()
     key "rollforward" action NullAction()
@@ -42,7 +44,3 @@ screen relations:
             imagebutton xpos 0 ypos -80 focus_mask True idle Transform("images/game_gui/Phone/Relations/Liza.png", zoom=0.58)
             text "{size=-3}[Li_points]/[Li_max]{/size} " xpos 155 ypos -160
             bar range Li_max value Li_points xmaximum 160 ysize 20 ypos -158 xpos 100
-
-            imagebutton xpos 0 ypos -100 focus_mask True idle Transform("images/game_gui/Phone/Relations/Yazmin.png", zoom=0.58)
-            text "{size=-3}[Y_points]/[Y_max]{/size} " xpos 155 ypos -180
-            bar range Y_max value Y_points xmaximum 160 ysize 20 ypos -178 xpos 100

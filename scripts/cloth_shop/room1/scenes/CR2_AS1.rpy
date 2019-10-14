@@ -16,6 +16,7 @@ image CR2_AS1_p12 = "images/cloth_shop/room1/day/scenes/CR2_AS1/12.jpg"
 image CR2_AS1_p13 = "images/cloth_shop/room1/day/scenes/CR2_AS1/13.jpg"
 image CR2_AS1_p14 = "images/cloth_shop/room1/day/scenes/CR2_AS1/14.jpg"
 
+
 label CR2_AS1_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -39,6 +40,7 @@ label CR2_AS1_label:
     Caroline "I guess they do appear, rather provocative, in this tight top."
     MC "So, can you?"
     Caroline "Hmm… "
+
 
     scene CR2_AS1_p3
 
@@ -67,6 +69,7 @@ label CR2_AS1_label:
     MC "Mmm…"
     scene CR2_AS1_p6anim
     Caroline "You enjoy that? Does it feel good?"
+
 
     scene CR2_AS1_p7
 

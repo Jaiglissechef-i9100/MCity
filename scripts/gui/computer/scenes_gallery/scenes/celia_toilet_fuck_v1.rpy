@@ -1,3 +1,5 @@
+
+
 label celia_toilet_fuck_v1:
     hide screen scenes_gallery
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -104,7 +106,6 @@ label celia_toilet_fuck_v1:
                     Celia "Oh yuck! Pass me some toilet paper!"
                     jump celia_toilet_cabin_day_scene4__blowjob_v1_label1
         "I want to fuck your ass, Mrs. Celia.":
-
 
             scene celia_toilet_cabin_day_scene4_anal_v1_p4
             Celia "Hmm... I’d a feeling you’d choose that one."

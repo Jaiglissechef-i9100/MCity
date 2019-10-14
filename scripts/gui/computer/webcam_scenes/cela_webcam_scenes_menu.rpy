@@ -1,5 +1,8 @@
+
+
 image celia_webcam_evening_scene2_v1_p4 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/4.jpg"
 image celia_webcam_evening_scene2_v1_p5 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/5.jpg"
+
 
 image celia_webcam_scenes_open_mouth_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/1OpenMouth/1.jpg"
 image celia_webcam_scenes_open_mouth_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/1OpenMouth/2.jpg"
@@ -22,6 +25,7 @@ image celia_webcam_scenes_open_mouth_dildo_v1_p4 = "images/web_cam_scenes/celia_
 image celia_webcam_scenes_open_mouth_dildo_v1_p5 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/1OpenMouth/Dildo/5.jpg"
 image celia_webcam_scenes_open_mouth_dildo_v1_p6 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/1OpenMouth/Dildo/6.jpg"
 
+
 image celia_webcam_scenes_take_off_your_bra_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/2TakeOffBra/1.jpg"
 image celia_webcam_scenes_take_off_your_bra_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/2TakeOffBra/2.jpg"
 image celia_webcam_scenes_take_off_your_bra_v1_p3 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/2TakeOffBra/3.jpg"
@@ -39,6 +43,7 @@ image celia_webcam_scenes_take_off_your_bra_ShowFromSide_v1_p1 = "images/web_cam
 image celia_webcam_scenes_take_off_your_bra_SqueezeYourNipples_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/2TakeOffBra/SqueezeYourNipples/1.jpg"
 image celia_webcam_scenes_take_off_your_bra_SqueezeYourNipples_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/2TakeOffBra/SqueezeYourNipples/2.jpg"
 
+
 image celia_webcam_scenes_take_off_your_panties_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/3TakeOffPanties/1.jpg"
 image celia_webcam_scenes_take_off_your_panties_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/3TakeOffPanties/2.jpg"
 image celia_webcam_scenes_take_off_your_panties_v1_p3 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/3TakeOffPanties/3.jpg"
@@ -54,6 +59,7 @@ image celia_webcam_scenes_take_off_your_panties_ShowAss_v1_p3 = "images/web_cam_
 image celia_webcam_scenes_take_off_your_panties_SpreadAss_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/3TakeOffPanties/SpreadAss/1.jpg"
 
 image celia_webcam_scenes_take_off_your_panties_SpreadPussy_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/3TakeOffPanties/SpreadPussy/1.jpg"
+
 
 image celia_webcam_scenes_get_nude_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/4GetNude/1.jpg"
 image celia_webcam_scenes_get_nude_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/4GetNude/2.jpg"
@@ -93,13 +99,16 @@ image celia_webcam_scenes_get_nude_VibratorEventON_v1_p3 = "images/web_cam_scene
 image celia_webcam_scenes_get_nude_VibratorEventON_v1_p4 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/4GetNude/VibratorEventON/4.jpg"
 image celia_webcam_scenes_get_nude_VibratorEventON_v1_p5 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/4GetNude/VibratorEventON/5.jpg"
 
+
 image celia_webcam_scenes_get_my_present_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/5DidloReceivedEvent/1.jpg"
 image celia_webcam_scenes_get_my_present_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/5DidloReceivedEvent/2.jpg"
 image celia_webcam_scenes_get_my_present_v1_p3 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/5DidloReceivedEvent/3.jpg"
 
+
 image celia_webcam_scenes_6Orders_v1_p1 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/6Orders/1.jpg"
 image celia_webcam_scenes_6Orders_v1_p2 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/6Orders/2.jpg"
 image celia_webcam_scenes_6Orders_v1_p3 = "images/web_cam_scenes/celia_webcam_evening_scene2_v1/6Orders/3.jpg"
+
 
 label celia_webcam_scenes_menu1:
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -150,6 +159,15 @@ label celia_webcam_scenes_menu1:
 
         "Orders." if can_webcam_scene_orders == 1:
             jump celia_webcam_scenes_orders
+
+
+
+
+
+
+
+
+
 
 label celia_webcam_scenes_open_mouth:
 
@@ -243,6 +261,7 @@ label celia_webcam_scenes_open_mouth_menu:
             jump celia_webcam_scenes_open_mouth_menu
         "That’s all for today.":
 
+
             scene celia_webcam_evening_scene2_v1_p4
             MC "Alright, that’s me satisfied for today. You were a good slave."
             Celia "Fuck you, creep!"
@@ -260,6 +279,8 @@ label celia_webcam_scenes_open_mouth_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
 
             jump mc_room_night1
+
+
 
 label celia_webcam_scenes_showtounge:
     scene celia_webcam_scenes_open_mouth_v1_p2
@@ -315,6 +336,8 @@ label celia_webcam_scenes_showtounge_menu:
             jump celia_webcam_scenes_showtounge_menu
         "Back":
             jump celia_webcam_scenes_open_mouth_menu
+
+
 
 label celia_webcam_scenes_take_off_your_bra:
     scene celia_webcam_evening_scene2_v1_p5
@@ -432,6 +455,8 @@ label celia_webcam_scenes_take_off_your_bra_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             jump mc_room_night1
 
+
+
 label celia_webcam_scenes_take_off_panties:
     scene celia_webcam_evening_scene2_v1_p5
     MC "Let’s turn up the heat today."
@@ -458,6 +483,7 @@ label celia_webcam_scenes_take_off_panties:
     $ celia_webcam_scenes_take_off_your_panties_SpreadAss_choice = True
     $ celia_webcam_scenes_take_off_your_panties_SpreadPussy_choice = True
     jump celia_webcam_scenes_take_off_panties_menu
+
 
 label celia_webcam_scenes_take_off_panties_menu:
     scene celia_webcam_scenes_take_off_your_panties_v1_p3
@@ -541,6 +567,8 @@ label celia_webcam_scenes_take_off_panties_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             jump mc_room_night1
 
+
+
 label celia_webcam_scenes_get_nude:
     scene celia_webcam_evening_scene2_v1_p5
     MC "Change of plans - I want to see you get nude."
@@ -570,6 +598,7 @@ label celia_webcam_scenes_get_nude:
     $ celia_webcam_scenes_get_nude_TryNewCloth_choice = True
     $ celia_webcam_scenes_get_nude_VibratorEventON_choice = True
     jump celia_webcam_scenes_get_nude_menu
+
 
 label celia_webcam_scenes_get_nude_menu:
     scene celia_webcam_scenes_get_nude_v1_p4
@@ -790,6 +819,8 @@ label celia_webcam_scenes_get_nude_menu:
             jump celia_webcam_scenes_get_nude_menu
         "That’s all for today.":
 
+
+
             scene celia_webcam_scenes_get_nude_v1_p4
             MC "Okay, that’s all for today. Go ahead and put your clothes back on."
             MC "I’ll see you again, tomorrow evening."
@@ -804,6 +835,16 @@ label celia_webcam_scenes_get_nude_menu:
             $ celia_webcam_scenes_get_nude_TryNewCloth_choice = True
             $ celia_webcam_scenes_get_nude_VibratorEventON_choice = True
             jump mc_room_night1
+
+
+
+
+
+
+
+
+
+
 
 label celia_webcam_scenes_get_my_present:
     scene celia_webcam_evening_scene2_v1_p5
@@ -829,6 +870,8 @@ label celia_webcam_scenes_get_my_present:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     jump mc_room_night1
+
+
 
 label celia_webcam_scenes_orders:
     scene celia_webcam_evening_scene2_v1_p5

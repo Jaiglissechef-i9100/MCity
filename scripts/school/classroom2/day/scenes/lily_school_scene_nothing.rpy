@@ -1,3 +1,6 @@
+
+
+
 label lily_school_scene_nothing_label:
     hide screen week_day_viewer
     hide screen time_skip_button

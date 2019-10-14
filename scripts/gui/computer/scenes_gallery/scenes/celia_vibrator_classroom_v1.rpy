@@ -2,13 +2,6 @@ label celia_vibrator_classroom_v1:
     hide screen scenes_gallery
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
-    if renpy.loadable("patch.rpy"):
-        $ Blonde_Girl = __("Blonde Girl")
-        $ Ginger_Guy = __("Ginger Guy")
-
-    if not renpy.loadable("patch.rpy"):
-        $ Blonde_Girl = __("Blonde Girl")
-        $ Ginger_Guy = __("Ginger Guy")
 
     scene celia_school_morning_scene2v1_p1 with dissolve
     $ can_hide_windows = True

@@ -7,7 +7,7 @@ screen garage_night:
         idle "images/home/garage/morning/Garage_door_exit_idle.png"
         hover "images/home/garage/morning/Garage_door_exit_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Entrance"))
+            hovered Show("displayTextScreen", displayText = "Entrance")
             action [Play ("sound", "sfx/garage door.mp3"),Jump("entrance2_night1")]
             unhovered Hide("displayTextScreen")
 
@@ -19,7 +19,7 @@ screen garage_night:
             idle "images/secret_gallery/Bonus/Garage SecretCard.png"
             hover "images/secret_gallery/Bonus/Garage SecretCard_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                hovered Show("displayTextScreen", displayText = "Secret Photo")
                 action [Hide("displayTextScreen"),addgimage("img1_garage_card"), Jump("garage_card")]
                 unhovered Hide("displayTextScreen")
 

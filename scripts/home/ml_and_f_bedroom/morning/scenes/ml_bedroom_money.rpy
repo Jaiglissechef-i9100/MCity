@@ -1,3 +1,5 @@
+
+
 label ml_bedroom_morning_money_label:
     if day_time == 1:
         show screen parents_bedroom_morning_notclickable

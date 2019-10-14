@@ -1,3 +1,6 @@
+
+
+
 label LiR1_MS9_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -12,6 +15,7 @@ label LiR1_MS9_rep:
     Liza2 "Ahh..."
     MC "(Jesus Christ! [Liza2_name] is having a bath! Did Yazmin send me in here as a joke?!)"
     MC "(I better back off before she sees me!)"
+
 
     scene LiR1_MAS9_p2
 
@@ -41,6 +45,7 @@ label LiR1_MS9_rep:
     Liza2 "I’m almost entirely homosexual, but I want to see if it can elicit the same response in me."
     MC "D-Do you want me to-"
     Liza2 "Yes. Take your cock out, [player_name]."
+
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music2", loop=True, fadein = 2)
@@ -142,6 +147,7 @@ label LiR1_MS9_rep:
     scene LiR1_MAS9_p21
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
+
 
     Liza2 "Yuck! Ugh!"
     MC "Are you alright?!"

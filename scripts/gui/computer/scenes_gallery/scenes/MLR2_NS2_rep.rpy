@@ -1,3 +1,6 @@
+
+
+
 label MLR2_NS2_rep:
     scene MLR2_NS2_p1 with dissolve
     $ can_hide_windows = True
@@ -209,6 +212,7 @@ label MLR2_NS2_rep:
     Mom "Deeper! Harder!"
     Dad "(Snoooore…)"
     MC "(She’s pulling my head in, right now!)"
+
 
     scene MLR2_NS2_p26a
 

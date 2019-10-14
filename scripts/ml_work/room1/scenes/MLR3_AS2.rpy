@@ -21,7 +21,6 @@ label MLR3_AS2:
         hide screen ml_work_room1_day
         $ clickable = True
         jump ml_work_room1_day1
-
     if MLR3_AS2_event == 1:
         hide screen week_day_viewer
         hide screen time_skip_button
@@ -44,7 +43,6 @@ label MLR3_AS2:
         $ can_hide_windows = False
 
         jump ML_workR3
-
     if MLR3_AS2_event == 2:
         $ can_hide_windows = True
         $ renpy.music.stop(channel="music2", fadeout=1)

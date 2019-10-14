@@ -13,6 +13,7 @@ label caroline_ass_cosplay_v1:
     Caroline "(Again?! I guess it must be his age.)"
     Caroline "..."
 
+
     scene caroline_cloth_shop_afternoon_scene3_p3
     Caroline "(And he REALLY needs to buy himself a proper belt.)"
     Caroline "(He can’t just have his dick pop out, every time he gets turned on!)"
@@ -49,6 +50,7 @@ label caroline_ass_cosplay_v1:
     Caroline "Sit down and stay the Hell away from me, you pervert!"
     MC "Caroline, I SWEAR - I didn’t mean to get an erection!"
     MC "I can’t control them!"
+
 
     scene caroline_cloth_shop_afternoon_scene3_p8
     Caroline "Bullshit! You’re just a horny little creep."
@@ -104,6 +106,7 @@ label caroline_ass_cosplay_v1:
     scene caroline_cloth_shop_afternoon_scene3_p14anim
     MC "This is sooo good, Caroline…"
     Caroline "(And I’ve started making him happy… I’d only blueball him if I stopped now.)"
+
 
     scene caroline_cloth_shop_afternoon_scene3_p15
     MC "Mmm! Yes…"

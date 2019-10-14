@@ -18,6 +18,7 @@ screen C_end_content_scr:
         action [SetVariable("C_SMS5",False), SetVariable("C_end_content",False), Hide ("C_end_content_scr")]
     timer 2.26 action [Hide ("new_message_incoming1_NC"),Hide("new_message_incoming1")]
 
+
 screen S_end_content_scr:
     key "game_menu" action NullAction()
     modal True
@@ -46,6 +47,7 @@ screen ML_end_content_scr:
         idle "images/cosplay_minigame/R3/Outfit_Close.png"
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [SetVariable("ML_end_content",False), Hide ("ML_end_content_scr")]
+
 
 screen Li_end_content_scr:
     key "game_menu" action NullAction()

@@ -19,7 +19,6 @@ screen caroline_room_evening:
             action [Hide("displayTextScreen"),Jump("caroline_room_evening_scene4_label")]
             hovered Show("displayTextScreen", displayText = "Caroline")
             unhovered Hide("displayTextScreen")
-
     if caroline_room_evening_scene4 == 3 and Caroline_points == 1:
         imagebutton:
             xpos 1167
@@ -30,7 +29,6 @@ screen caroline_room_evening:
             action [Hide("displayTextScreen"),Jump("caroline_room_evening_scene4_label")]
             hovered Show("displayTextScreen", displayText = "Caroline")
             unhovered Hide("displayTextScreen")
-
     if Caroline_points == 3 and CR3_ES2 == True:
         imagebutton:
             xpos 1150
@@ -45,6 +43,7 @@ screen caroline_room_evening:
 
 screen caroline_room_evening_not_clickable:
     key "hide_windows" action NullAction()
+
 
     if caroline_room_evening_scene4 == True:
         imagebutton:

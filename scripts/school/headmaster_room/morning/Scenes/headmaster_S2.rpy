@@ -19,7 +19,6 @@ image headmaster_S2_p18 = "images/school/headmaster_room/morning/S2/18.jpg"
 image headmaster_S2_p19 = "images/school/headmaster_room/morning/S2/19.jpg"
 image headmaster_S2_p20 = "images/school/headmaster_room/morning/S2/20.jpg"
 image headmaster_S2_p21 = "images/school/headmaster_room/morning/S2/21.jpg"
-
 label headmaster_S2:
     if headmaster_door_locked == True:
         hide screen map_button
@@ -32,10 +31,6 @@ label headmaster_S2:
         $ clickable = True
         hide screen school_corridor3_morning
         hide screen school_corridor3_day
-        if renpy.loadable("patch.rpy"):
-            $ Headmaster_name = __("Headmaster")
-        if not renpy.loadable("patch.rpy"):
-            $ Headmaster_name = __("Headmaster")
         jump school_corridor3_morning1
     else:
         $ can_hide_windows = True

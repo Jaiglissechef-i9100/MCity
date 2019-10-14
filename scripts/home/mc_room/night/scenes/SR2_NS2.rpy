@@ -29,6 +29,8 @@ image SR2_NS2_p28 = "images/home/mc_room/night/scenes/SR2_NS2/28.jpg"
 image SR2_NS2_p29 = "images/home/mc_room/night/scenes/SR2_NS2/29.jpg"
 image SR2_NS2_p30 = "images/home/mc_room/night/scenes/SR2_NS2/30.jpg"
 
+
+
 image SR2_NS2_blow_p1 = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/1.jpg"
 image SR2_NS2_blow_p2 = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/2.jpg"
 image SR2_NS2_blow_p3 = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/3.jpg"
@@ -60,6 +62,8 @@ image SR2_NS2_blow_p23 = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/23.jp
 image SR2_NS2_blow_p24 = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/24.jpg"
 image SR2_NS2_blow_p24a = "images/home/mc_room/night/scenes/SR2_NS2/Blowjob/24a.jpg"
 
+
+
 image SR2_NS2_foot_p1 = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/1.jpg"
 image SR2_NS2_foot_p2 = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/2.jpg"
 image SR2_NS2_foot_p2anim = Movie(play="videos/03 Sara-NS2-8.webm", loop = True )
@@ -82,6 +86,8 @@ image SR2_NS2_foot_p15 = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/15.jp
 image SR2_NS2_foot_p16 = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/16.jpg"
 image SR2_NS2_foot_p16a = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/16a.jpg"
 image SR2_NS2_foot_p17 = "images/home/mc_room/night/scenes/SR2_NS2/Footjob/17.jpg"
+
+
 
 label SR2_NS2_label:
     hide screen week_day_viewer
@@ -132,6 +138,7 @@ label SR2_NS2_label:
     MC "(Fuck, she’s onto me!)"
     MC "Y-Yeah! I thought it would be… um… sexier this way!"
 
+
     scene SR2_NS2_p7
 
     Sara "Aww, that’s sweet. Hehe…"
@@ -154,6 +161,7 @@ label SR2_NS2_label:
             Sara "I’m gonna try even harder this time!"
             MC "(This is gonna be great!)"
             Sara "I hope you’re ready!"
+
 
             scene SR2_NS2_blow_p2
 

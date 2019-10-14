@@ -37,7 +37,6 @@ image MLR3_b_house_shower_p31 = "images/Beach/MLR3_beach_event/House/Shower/31.j
 image MLR3_b_house_shower_p32 = "images/Beach/MLR3_beach_event/House/Shower/32.jpg"
 image MLR3_b_house_shower_p33 = "images/Beach/MLR3_beach_event/House/Shower/33.jpg"
 image MLR3_b_house_shower_p34 = "images/Beach/MLR3_beach_event/House/Shower/34.jpg"
-
 label MLR3_b_house_shower_label:
     hide screen week_day_viewer
     hide screen time_skip_button

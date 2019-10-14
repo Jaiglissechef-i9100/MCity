@@ -9,6 +9,7 @@ image CR3_AS4_O2_p8 = "images/cloth_shop/room1/day/scenes/CR3_AS4_O2/8.jpg"
 image CR3_AS4_O2_p9 = "images/cloth_shop/room1/day/scenes/CR3_AS4_O2/9.jpg"
 image CR3_AS4_O2_p10 = "images/cloth_shop/room1/day/scenes/CR3_AS4_O2/10.jpg"
 
+
 label CR3_AS4_O2:
     $ outfit_start = 2
     hide screen week_day_viewer

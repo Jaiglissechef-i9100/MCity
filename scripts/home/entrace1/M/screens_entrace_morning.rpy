@@ -6,7 +6,7 @@ screen entrace1_morning:
         focus_mask True
         idle "images/home/entrace1/morning/Entrance_door_morning_idle.png"
         hover "images/home/entrace1/morning/Entrance_door_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Enter House"))
+        hovered Show("displayTextScreen", displayText = "Enter House")
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_morning1")]
             unhovered Hide("displayTextScreen")
@@ -16,7 +16,7 @@ screen entrace1_morning:
         focus_mask True
         idle "images/home/entrace1/morning/entrance_path_morning_idle.png"
         hover "images/home/entrace1/morning/entrance_path_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Entrance"))
+        hovered Show("displayTextScreen", displayText = "Entrance")
         if clickable == True:
             action [Jump("entrance2_morning1")]
             unhovered Hide("displayTextScreen")
@@ -30,7 +30,7 @@ screen entrace1_morning:
             hover "images/secret_gallery/Bonus/EntranceHouse SecretCard_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"), addgimage("img3_home_entrance_card") ,Jump("home_entrance_card")]
-                hovered Show("displayTextScreen", displayText = __("Secret Card"))
+                hovered Show("displayTextScreen", displayText = "Secret Card")
                 unhovered Hide("displayTextScreen")
 
     if CR3_MS2 == True and Caroline_points == 3 and CR3_deal_aff == True and CR3_MS2_can3 == True:

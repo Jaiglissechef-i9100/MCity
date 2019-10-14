@@ -1,3 +1,5 @@
+
+
 image Zv2_ES3a_p6 = "images/Zuri_home/home/E/scenes/Zv2_ES3a/6.jpg"
 image Zv2_ES3a_p6anim = Movie(play="videos/02 Zuri-1.webm", loop = True )
 image Zv2_ES3a_p7 = "images/Zuri_home/home/E/scenes/Zv2_ES3a/7.jpg"
@@ -12,10 +14,10 @@ image Zv2_ES3a_p13 = "images/Zuri_home/home/E/scenes/Zv2_ES3a/13.jpg"
 image Zv2_ES3a_p14 = "images/Zuri_home/home/E/scenes/Zv2_ES3a/14.jpg"
 image Zv2_ES3a_p15 = "images/Zuri_home/home/E/scenes/Zv2_ES3a/15.jpg"
 
+
 default Zv2_ES3a = False
 default Zv2_ES4 = False
 default Zv2_ES4_counter = 0
-
 label Zv2_ES3a_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -39,6 +41,8 @@ label Zv2_ES3a_label:
     Suri "Yeah, you really came through, kid. You’re gonna make us super rich!"
     MC "I get another reward now, right?"
     Suri "Hehe... You do. I believe we promised you a blowjob."
+
+
 
     scene Zv2_ES3lick_p1
     Suri "Mmm, I can’t wait to suck on his cock. It looked sooo delicious, last time we did it!"

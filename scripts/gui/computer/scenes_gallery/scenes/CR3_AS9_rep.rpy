@@ -1,3 +1,6 @@
+
+
+
 label CR3_AS9_rep:
 
     hide screen week_day_viewer
@@ -10,15 +13,18 @@ label CR3_AS9_rep:
 
     scene CR3_AS9_O4_p22 with dissolve
 
+
     Violet "Well, that went better than I thought it would! That ugly pink dressing gown ain’t have as bad when it’s got violet lying on top of it!"
     Violet "Anyway, I gotta dash guys - everyone is waiting for me at the party."
     Violet "See ya later!"
+
 
     scene CR3_AS9_O4_p23
 
     MC "Well… That’s her gone now. Finally, there’s some privacy for just you and me."
     Caroline "Mmm, there definitely is."
     MC "And didn’t you mention something about us fooling around after she left?"
+
 
     scene CR3_AS9_O4_p24
 
@@ -118,6 +124,7 @@ label CR3_AS9_rep:
             Caroline "(I mean, how much bigger can his cock swell?)"
             Caroline "Mmm..."
 
+
             scene CR3_AS9_O4_hand_p6
 
             Caroline "You’re really enjoying this, aren’t you?"
@@ -143,6 +150,7 @@ label CR3_AS9_rep:
 
             scene CR3_AS9_O4_hand_p9
 
+
             Caroline "What would [Linda_name] say if I told her you were getting wanked off by me?"
             Caroline "Hmm? She’d probably be furious."
             if renpy.loadable("patch.rpy"):
@@ -150,6 +158,7 @@ label CR3_AS9_rep:
             else:
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of an older woman rubbing your cock."
             scene CR3_AS9_O4_hand_p10
+
 
             Caroline "(Damn… I’ve turned myself on with all that dirty talk… That wasn’t part of the plan!)"
             Caroline "(Goddamnit… I’ve SOAKED these panties!)"
@@ -224,6 +233,7 @@ label CR3_AS9_rep:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene CR3_AS9_O4_hand_p20a with dissolve
+
 
             MC "*Pant Pant*"
             Caroline "(Wow… So much cum! He must have been saving that up for days!)"
@@ -318,9 +328,11 @@ label CR3_AS9_rep:
 
             scene CR3_AS9_O4_foot_p13
 
+
             MC "Ah… (I don’t think she wants me to reply. She’s probably just enjoying monologuing while she teases me!)"
             Caroline "Whenever you’re about to cum, you’re gonna have to tell me."
             Caroline "I know you REALLY want to shoot your cum all over my feet - but this outfit is expensive and I don’t want white stains on it the first time I’m wearing it!)"
+
 
             scene CR3_AS9_O4_foot_p14
 
@@ -373,6 +385,7 @@ label CR3_AS9_rep:
             Caroline "Hehe. You enjoyed that, didn’t you? You’re such a little slut for feet."
             Caroline "I’ll keep that in mind if I ever need to get you off quickly."
             jump CR3_AS9_O4_con3_rep
+
 
 label CR3_AS9_O4_con3_rep:
     scene CR3_AS9_O4_p35
@@ -461,6 +474,7 @@ label CR3_AS9_O4_con3_rep:
     Caroline "(How does he know where to touch?!)"
     Caroline "(His tongue is so hot and flexible… God… It’s like my dildo on steroids!)"
 
+
     scene CR3_AS9_O4_p50
 
     MC "*Lick Shlurp*"
@@ -495,6 +509,7 @@ label CR3_AS9_O4_con3_rep:
     Caroline "*Pant* Wow…"
     MC "Heh, I’m glad you enjoyed that. I’ll let you get changed now."
     Caroline "Huh? What makes you think we’re finished?"
+
 
     scene CR3_AS9_O4_p56
 
@@ -576,6 +591,7 @@ label CR3_AS9_O4_con3_rep:
     MC "Hehe, so - what was that you were saying about me not being able to make you cum?"
     Caroline "*Ahem*"
     MC "I think I counted… twice?"
+
 
     scene CR3_AS9_O4_p70
 

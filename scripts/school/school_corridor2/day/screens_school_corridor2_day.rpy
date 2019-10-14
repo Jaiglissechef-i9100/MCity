@@ -7,7 +7,7 @@ screen school_corridor2_day:
         idle "images/school/school_corridor2/morning/door1_morning_idle.png"
         hover "images/school/school_corridor2/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Door(Closed)"))
+            hovered Show("displayTextScreen", displayText = "Door(Closed)")
             action [Play ("sound", "sfx/door_locked.mp3"),Jump("school_corridor2_morning1")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -17,7 +17,7 @@ screen school_corridor2_day:
         idle "images/school/school_corridor2/morning/door2_morning_idle.png"
         hover "images/school/school_corridor2/morning/door2_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Teacher’s Office"))
+            hovered Show("displayTextScreen", displayText = "Teacher’s Office")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("teacher_room1_day1")]
             unhovered Hide("displayTextScreen")
     if clickable == True:
@@ -28,6 +28,7 @@ screen school_corridor2_day:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             clicked Jump("school_corridor1_day1")
+
 
     if not "img9_school_corrior2_card" in gallery_photos.storage:
         imagebutton:

@@ -7,9 +7,8 @@ screen cloth_shop_room2_screen:
         idle "images/cloth_shop/room2/day/door_b1.png"
         hover "images/cloth_shop/room2/day/door_b1_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("cloth_shop_room3_label")]
-        hovered Show("displayTextScreen", displayText = __("Door"))
+        hovered Show("displayTextScreen", displayText = "Door")
         unhovered Hide("displayTextScreen")
-
     imagebutton:
         xpos 0
         ypos 0
@@ -17,7 +16,6 @@ screen cloth_shop_room2_screen:
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("cloth_shop_open_label")]
-
     if cloth_shop_window_unlock == False:
         imagebutton:
             xpos 1276
@@ -26,7 +24,7 @@ screen cloth_shop_room2_screen:
             idle "images/cloth_shop/room2/day/window_b2.png"
             hover "images/cloth_shop/room2/day/window_b2_hover.png"
             action [Hide("displayTextScreen"),Jump("cloth_shop_window_unlock_label")]
-            hovered Show("displayTextScreen", displayText = __("Window"))
+            hovered Show("displayTextScreen", displayText = "Window")
             unhovered Hide("displayTextScreen")
 
 screen cloth_shop_room2_screen_notclickable:
@@ -50,6 +48,10 @@ screen cloth_shop_room2_screen_notclickable:
             focus_mask True
             idle "images/cloth_shop/room2/day/window_b2.png"
 
+
+
+
+
 screen cloth_shop_room2_robbery_screen:
     key "hide_windows" action NullAction()
     if cloth_shop_window_unlock == False and CR2_AS3_clean_after == True:
@@ -63,7 +65,6 @@ screen cloth_shop_room2_robbery_screen:
                 action [Hide("displayTextScreen"),Jump("cloth_shop_window_unlock_label")]
                 hovered Show("displayTextScreen", displayText = "Window")
                 unhovered Hide("displayTextScreen")
-
     imagebutton:
         xpos 377
         ypos 187
@@ -72,7 +73,7 @@ screen cloth_shop_room2_robbery_screen:
         hover "images/cloth_shop/room2/day/door_b1_hover.png"
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("cloth_shop_room3_label")]
-            hovered Show("displayTextScreen", displayText = __("Door"))
+            hovered Show("displayTextScreen", displayText = "Door")
             unhovered Hide("displayTextScreen")
 
     if CR2_AS3_clean7 == False:
@@ -102,7 +103,6 @@ screen cloth_shop_room2_robbery_screen:
             hover "images/cloth_shop/room1/day/scenes/CR2_AS3/Cleaning2/A1_hover.png"
             if clickable == True and CR2_AS3_clean == True:
                 action [Play ("sound", "sfx/metalic.wav"),SetVariable("CR2_AS3_clean5", True),Jump("CR2_AS3_clean_counter_label2")]
-
     if CR2_AS3_clean5 == True:
         imagebutton:
             xpos 708
@@ -127,6 +127,8 @@ screen cloth_shop_room2_robbery_screen:
             focus_mask True
             idle "images/cloth_shop/room1/day/scenes/CR2_AS3/Cleaning2/B2.png"
             hover "images/cloth_shop/room1/day/scenes/CR2_AS3/Cleaning2/B2.png"
+
+
 
     if CR2_AS5 == True and Caroline_points == 2:
         imagebutton:

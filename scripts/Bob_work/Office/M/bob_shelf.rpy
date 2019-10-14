@@ -1,3 +1,4 @@
+
 image bob_shelf_p1 = "/images/Bob_work/office/M/shelf/Shelf1.jpg"
 image bob_shelf_p2 = "/images/Bob_work/office/M/shelf/Shelf2.jpg"
 image bob_shelf_p3 = "/images/Bob_work/office/M/shelf/Shelf3.jpg"
@@ -14,6 +15,7 @@ label bob_shelf_label:
     scene bob_shelf_p1
     call screen bob_shelf_scr
 
+
 screen bob_shelf_scr:
     key "hide_windows" action NullAction()
     if bob_carbook.selected:
@@ -28,7 +30,6 @@ screen bob_shelf_scr:
             if clickable == True and day_time ==1:
                 action [Hide("displayTextScreen"),Jump("bob_shelfopen_label")]
                 unhovered Hide("displayTextScreen")
-
     if shelf_putbook == True:
         imagebutton:
             xpos 948
@@ -46,6 +47,9 @@ screen bob_shelf_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
 
+
+
+
 label bob_shelfopen_label:
     if day_time==1:
         $ clickable = False
@@ -53,7 +57,6 @@ label bob_shelfopen_label:
         MC "I can't do it when someone is in the room."
         $ clickable = True
         jump bob_shelf_label
-
     if day_time==2:
         scene bob_shelf_p1
         $ shelf_putbook = True
@@ -69,6 +72,7 @@ label bob_shelfopen_label:
         else:
             jump bob_secret_room_label
 
+
 label bob_secret_room_label:
     show screen week_day_viewer
     show screen time_skip_button
@@ -77,7 +81,6 @@ label bob_secret_room_label:
     show screen new_message_incoming1
     scene bob_shelf_p3
     call screen bob_secret_room_scr
-
 label bob_secret_room_leave_label:
     $ inventory.add(bob_carbook)
     $ shelf_putbook = False
@@ -93,6 +96,7 @@ screen bob_secret_room_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_secret_room_leave_label")]
+
 
 label bob_secret_room_scene:
     $ renpy.music.stop(channel="music2", fadeout=1)

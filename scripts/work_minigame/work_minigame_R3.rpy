@@ -1,5 +1,4 @@
 init python:
-
     class Rubbish(store.object):
         
         def __init__(self, image="", hover_i="", r_xpos = 0, r_ypos = 0 ):
@@ -7,7 +6,6 @@ init python:
             self.hover_i=hover_i
             self.r_xpos = r_xpos
             self.r_ypos = r_ypos
-
     class droprubb(Action):
         
         def __init__(self, rubbish):
@@ -47,6 +45,7 @@ default Rubb_r1_15 = Rubbish(image="images/Work_Minigame/room1/Items3/Item3.png"
 default Rubb_r1_16 = Rubbish(image="images/Work_Minigame/room1/Items3/Item4.png", hover_i="images/Work_Minigame/room1/Items3/Item4_hover.png", r_xpos = 228, r_ypos = 719)
 default Rubb_r1_17 = Rubbish(image="images/Work_Minigame/room1/Items3/Item5.png", hover_i="images/Work_Minigame/room1/Items3/Item5_hover.png", r_xpos = 1759, r_ypos = 465)
 default Rubb_r1_18 = Rubbish(image="images/Work_Minigame/room1/Items3/Item6.png", hover_i="images/Work_Minigame/room1/Items3/Item6_hover.png", r_xpos = 1573, r_ypos = 155)
+
 
 default Rubb_r2_1 = Rubbish(image="images/Work_Minigame/room2/Items1/Item1.png", hover_i="images/Work_Minigame/room2/Items1/Item1_hover.png", r_xpos = 1214, r_ypos = 211)
 default Rubb_r2_2 = Rubbish(image="images/Work_Minigame/room2/Items1/Item2.png", hover_i="images/Work_Minigame/room2/Items1/Item2_hover.png", r_xpos = 1467, r_ypos = 255)
@@ -96,23 +95,21 @@ init -1 python:
     rubbish = None
 
 label ML_workR3:
-    menu:
-        "Play":
-            $ roll_count = 6
-            $ rubb_room_finished = 1
-            $ rubbish_box_r1 = [Rubb_r1_1,Rubb_r1_2,Rubb_r1_3,Rubb_r1_4,Rubb_r1_5,Rubb_r1_6,Rubb_r1_7,Rubb_r1_8,Rubb_r1_9,Rubb_r1_10,Rubb_r1_11,Rubb_r1_12,Rubb_r1_13,Rubb_r1_14,Rubb_r1_15,Rubb_r1_16,Rubb_r1_17,Rubb_r1_18]
+    $ roll_count = 6
+    $ rubb_room_finished = 1
+    $ rubbish_box_r1 = [Rubb_r1_1,Rubb_r1_2,Rubb_r1_3,Rubb_r1_4,Rubb_r1_5,Rubb_r1_6,Rubb_r1_7,Rubb_r1_8,Rubb_r1_9,Rubb_r1_10,Rubb_r1_11,Rubb_r1_12,Rubb_r1_13,Rubb_r1_14,Rubb_r1_15,Rubb_r1_16,Rubb_r1_17,Rubb_r1_18]
 
-            $ rubbish_box_r2 = [Rubb_r2_1,Rubb_r2_2,Rubb_r2_3,Rubb_r2_4,Rubb_r2_5,Rubb_r2_6,Rubb_r2_7,Rubb_r2_8,Rubb_r2_9,Rubb_r2_10,Rubb_r2_11,Rubb_r2_12,Rubb_r2_13,Rubb_r2_14,Rubb_r2_15,Rubb_r2_16,Rubb_r2_17,Rubb_r2_18]
+    $ rubbish_box_r2 = [Rubb_r2_1,Rubb_r2_2,Rubb_r2_3,Rubb_r2_4,Rubb_r2_5,Rubb_r2_6,Rubb_r2_7,Rubb_r2_8,Rubb_r2_9,Rubb_r2_10,Rubb_r2_11,Rubb_r2_12,Rubb_r2_13,Rubb_r2_14,Rubb_r2_15,Rubb_r2_16,Rubb_r2_17,Rubb_r2_18]
 
-            $ rubbish_box_r3 = [Rubb_r3_1,Rubb_r3_2,Rubb_r3_3,Rubb_r3_4,Rubb_r3_5,Rubb_r3_6,Rubb_r3_7,Rubb_r3_8,Rubb_r3_9,Rubb_r3_10,Rubb_r3_11,Rubb_r3_12,Rubb_r3_13,Rubb_r3_14,Rubb_r3_15,Rubb_r3_16,Rubb_r3_17,Rubb_r3_18]
+    $ rubbish_box_r3 = [Rubb_r3_1,Rubb_r3_2,Rubb_r3_3,Rubb_r3_4,Rubb_r3_5,Rubb_r3_6,Rubb_r3_7,Rubb_r3_8,Rubb_r3_9,Rubb_r3_10,Rubb_r3_11,Rubb_r3_12,Rubb_r3_13,Rubb_r3_14,Rubb_r3_15,Rubb_r3_16,Rubb_r3_17,Rubb_r3_18]
 
-            $ rubb_room = [1,2,3]
-            $ rubb_room_roll = renpy.random.choice(rubb_room)
+    $ rubb_room = [1,2,3]
+    $ rubb_room_roll = renpy.random.choice(rubb_room)
 
-            show screen ML_workR3_scr
-            jump ML_workR3_roll
-        "Fuck minigame":
-            jump ML_workR3_finished
+    show screen ML_workR3_scr
+    jump ML_workR3_roll
+
+
 
 label ML_workR3_roll:
     $ rubbish_colleted_counter = 0
@@ -122,11 +119,13 @@ label ML_workR3_roll:
             $ rubb_roll1 = renpy.random.choice(rubbish_box_r1)
             $ rubbish_box.box.append(rubb_roll1)
             $ rubbish_box_r1.remove(rubb_roll1)
+
         if rubb_room_roll == 2:
             scene room2_scene
             $ rubb_roll1 = renpy.random.choice(rubbish_box_r2)
             $ rubbish_box.box.append(rubb_roll1)
             $ rubbish_box_r2.remove(rubb_roll1)
+
         if rubb_room_roll == 3:
             scene room1_R2_scene
             $ rubb_roll1 = renpy.random.choice(rubbish_box_r3)
@@ -135,12 +134,14 @@ label ML_workR3_roll:
 
         $ roll_count -= 1
         jump ML_workR3_roll
-
     if roll_count == 0:
         $ rubb_room = [1,2,3]
         $ rubb_room_roll = renpy.random.choice(rubb_room)
         $ roll_count = 6
         call screen ML_workR3_scr
+
+
+
 
 screen ML_workR3_scr:
     if rubbish_colleted_counter == 0:
@@ -179,6 +180,7 @@ screen ML_workR3_scr:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
+
     if rubbish_colleted_counter == 6 and rubb_room_finished <3:
         imagebutton:
             xpos 1687
@@ -214,6 +216,7 @@ screen ML_workR3_scr:
         $ rubb_x = rubbish.r_xpos
         $ rubb_y = rubbish.r_ypos
         imagebutton focus_mask True idle r_pic hover r_pic_h xpos rubb_x ypos rubb_y action [SetVariable("rubbish_colleted_counter",rubbish_colleted_counter +1), droprubb(rubbish)]
+
 
 label ML_workR3_finished:
     if ml_points == 3:

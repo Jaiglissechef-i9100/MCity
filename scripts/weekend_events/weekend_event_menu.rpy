@@ -1,15 +1,15 @@
+
+
+
 label weekend_event_menu_label:
     $ can_hide_windows = False
     if renpy.loadable("patch.rpy"):
-        $ Mom_name = __("Mom")
+        $ Mom_name = "Mom"
     else:
         $ Mom_name = "Linda"
     menu:
 
-        "Locked: (Sara weekend event.) (Sara is grounded)" if SR2_grounded == True:
-            jump day_time_changer
-
-        "{color=#00ff00}Go with Sara to the swimming pool.{/color}" if SR2_weekend_swimming_pool == True and week_day == 5 and SR2_grounded == False:
+        "{color=#00ff00}Go with Sara to the swimming pool.{/color}" if SR2_weekend_swimming_pool == True and week_day == 5:
             $ SR2_after_waterslide = False
             $ SR2_after_swimming = False
             $ SR2_after_sunbed = False
@@ -40,7 +40,7 @@ label weekend_event_menu_label:
         "{color=#f00}{alpha=0.4} Meet up with Caroline. (Required: 200$){/alpha}{/color} (disabled)" if CR3_weekend_event == True and inventory.money < 200:
             jump day_time_changer
 
-        "{color=#00ff00} Meet up with Caroline. {/color} " if CR3_weekend_event  == True and inventory.money >= 200:
+        "{color=#00ff00} Meet up with Caroline. {/color} " if CR3_weekend_event == True and inventory.money >= 200:
             $ inventory.money -= 200
             $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
             $ renpy.hide("mc_sleep_night_bed", layer="screens")
@@ -48,6 +48,5 @@ label weekend_event_menu_label:
             $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
 
             jump CR3_WE_label
-
         "Back.":
             jump day_time_changer

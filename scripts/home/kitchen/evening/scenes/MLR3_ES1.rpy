@@ -27,6 +27,7 @@ label MLR3_ES1:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
 
+
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -142,6 +143,7 @@ label MLR3_ES1:
     MC "Where do you want this can put, Sara?"
     Sara "Oh! I forgot about that! Umm… just pass it to me. I’ll be using it now, anyway."
     MC "Sure thing."
+
 
     scene MLR3_ES1_p17
     if renpy.loadable("patch.rpy"):

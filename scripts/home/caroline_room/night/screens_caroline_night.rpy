@@ -9,6 +9,7 @@ screen caroline_room_night:
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_night1")]
 
+
     if caroline_room_night_scene1 == True and CR2_NS3 == False and CR2_NS2 == False and CR3_deal_aff == False and C_NS_locked == False:
         imagebutton:
             xpos 1089
@@ -20,7 +21,6 @@ screen caroline_room_night:
                 action [Hide("displayTextScreen"), Jump("caroline_room_night_scene1_label")]
                 hovered Show("displayTextScreen", displayText = "Caroline")
                 unhovered Hide("displayTextScreen")
-
     if CR2_NS3 ==  True and CR3_deal_aff == False:
         imagebutton:
             xpos 1154

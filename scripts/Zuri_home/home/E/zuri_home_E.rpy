@@ -1,7 +1,6 @@
 image Z_ES1_bg = "images/Zuri_home/outside/E/scenes/Z_ES1/bg.jpg"
 
 default zuri_inhome = True
-
 label zuri_home_E_label:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -13,6 +12,7 @@ label zuri_home_E_label:
     show screen new_message_incoming1
     call screen zuri_home_E_scr
 
+
 label zuri_inhome_E_label:
     $ can_hide_windows = False
     $ clickable = False
@@ -20,6 +20,7 @@ label zuri_inhome_E_label:
     Zuri "I'm busy now, [player_name]"
     $ clickable = True
     jump zuri_home_E_label
+
 
 label zuri_home_E_label2:
     show screen week_day_viewer

@@ -1,3 +1,5 @@
+
+
 label MLR3_B_event_rep:
 
     hide screen week_day_viewer
@@ -26,6 +28,7 @@ label MLR3_B_event_rep:
     scene MLR3_b_house_Bed_p3
 
     MC "And those stockings and panties are gorgeous too!"
+
 
     $ renpy.movie_cutscene("videos/05 Linda Beach 1.webm")
     scene MLR3_b_house_Bed_p3aa
@@ -59,6 +62,7 @@ label MLR3_B_event_rep:
     MC "Of course not!"
 
     scene MLR3_b_house_Bed_p8
+
 
     Mom "Hehe, sorry. I just can’t resist teasing you."
     Mom "I can’t wait to feel your cock, buried deep inside me."
@@ -149,6 +153,7 @@ label MLR3_B_event_rep:
     menu:
         "Let’s begin with a blowjob.":
             scene MLR3_b_house_Blow_p1
+
 
             MC "Can we start with a blowjob?"
             Mom "Of course, Sweetie."
@@ -327,6 +332,7 @@ label MLR3_b_house_Bed2_rep:
     scene MLR3_b_house_Bed_p29
 
     MC "Mmm! (Oh fuck! I can feel her vulva wrapping around the tip of my cock.)"
+
 
     $ renpy.movie_cutscene("videos/05 Linda Beach 18.webm")
     scene MLR3_b_house_Bed_p29a
@@ -767,6 +773,7 @@ label MLR3_b_house_Bed2_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR3_b_house_Bed_p87
+
 
     MC "Oh wow… I’m exhausted."
     Mom "You did good to keep up with me, for a full two rounds."

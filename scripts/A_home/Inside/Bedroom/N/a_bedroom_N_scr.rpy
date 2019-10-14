@@ -19,7 +19,7 @@ screen a_bedroom_N_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("LiR1_NS3_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Auntie and Yazmin"))
+                hovered Show("displayTextScreen", displayText = "Auntie and Yazmin")
             else:
-                hovered Show("displayTextScreen", displayText = __("Liza and Yazmin"))
+                hovered Show("displayTextScreen", displayText = "Liza and Yazmin")
             unhovered Hide("displayTextScreen")

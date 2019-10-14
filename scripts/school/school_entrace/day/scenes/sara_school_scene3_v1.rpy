@@ -11,7 +11,6 @@ image sis_nerdy_school_scene3_v1_p10 = "images/school/school_entrance/day/scenes
 image sis_nerdy_school_scene3_v1_p11 = "images/school/school_entrance/day/scenes/sara_scene3_v1/11.jpg"
 image sis_nerdy_school_scene3_v1_p12 = "images/school/school_entrance/day/scenes/sara_scene3_v1/12.jpg"
 image sis_nerdy_school_scene3_v1_p13 = "images/school/school_entrance/day/scenes/sara_scene3_v1/13.jpg"
-
 image bottle_spin1:
     "images/school/school_entrance/day/scenes/sara_scene3_v1/13a.jpg"
     0.15
@@ -44,7 +43,6 @@ image bottle_spin1:
     "images/school/school_entrance/day/scenes/sara_scene3_v1/13e.jpg"
     0.15
     "images/school/school_entrance/day/scenes/sara_scene3_v1/13a.jpg"
-
 image sis_nerdy_school_scene3_v1_p14 = "images/school/school_entrance/day/scenes/sara_scene3_v1/14.jpg"
 image sis_nerdy_school_scene3_v1_p15 = "images/school/school_entrance/day/scenes/sara_scene3_v1/15.jpg"
 image sis_nerdy_school_scene3_v1_p16 = "images/school/school_entrance/day/scenes/sara_scene3_v1/16.jpg"
@@ -261,6 +259,7 @@ label after_sis_nerdy_school_scene3_v1_choice:
 
     scene bottle_spin1
     $ renpy.pause (2.26, hard=True)
+
 
     scene sis_nerdy_school_scene3_v1_p21
     Lily "Yay! Me again!"

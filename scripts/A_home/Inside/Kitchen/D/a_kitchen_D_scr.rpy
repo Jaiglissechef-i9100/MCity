@@ -28,7 +28,7 @@ screen a_kitchen_D_scr:
             focus_mask True
             idle "/images/a_home//Inside/Kitchen/M/B1.png"
             hover "/images/a_home//Inside/Kitchen/M/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Fridge"))
+            hovered Show("displayTextScreen", displayText = "Fridge")
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("fridge_scene_label")]
                 unhovered Hide("displayTextScreen")

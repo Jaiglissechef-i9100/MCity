@@ -1,3 +1,4 @@
+
 label beach_N1:
     hide screen displayTextScreen
     hide screen map

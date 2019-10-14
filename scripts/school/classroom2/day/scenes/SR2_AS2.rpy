@@ -5,6 +5,7 @@ image SR2_AS2_p4 = "images/school/classroom2/day/scenes/SR2_AS2/4.jpg"
 image SR2_AS2_p5 = "images/school/classroom2/day/scenes/SR2_AS2/5.jpg"
 image SR2_AS2_p6 = "images/school/classroom2/day/scenes/SR2_AS2/6.jpg"
 
+
 label SR2_AS2_label:
     if can_SR2_AS2 == False:
         $ clickable = False
@@ -89,6 +90,7 @@ label SR2_AS2_menu:
             else:
                 jump SR2_AS2_menu
 
+
         "Have you tried speaking to Linda about giving you some freedom again?" if menu_q2 == True and not renpy.loadable("patch.rpy"):
             scene SR2_AS2_p1
 
@@ -137,6 +139,7 @@ label SR2_AS2_menu:
                 jump SR2_AS2_cantinue
             else:
                 jump SR2_AS2_menu
+
 
 label SR2_AS2_cantinue:
     scene SR2_AS2_p5

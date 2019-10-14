@@ -5,6 +5,7 @@ image CR2_AS5_p4 = "images/cloth_shop/room1/day/scenes/CR2_AS5/4.jpg"
 image CR2_AS5_p5 = "images/cloth_shop/room1/day/scenes/CR2_AS5/5.jpg"
 image CR2_AS5_p6 = "images/cloth_shop/room1/day/scenes/CR2_AS5/6.jpg"
 
+
 default CR2_AS5_q1 = True
 default CR2_AS5_q2 = True
 default CR2_AS5_q3 = True
@@ -40,6 +41,7 @@ label CR2_AS5_label:
     Caroline "At the current moment, it's not like there's a reason to close it."
     jump CR2_AS5_menu
 
+
 label CR2_AS5_menu:
     scene CR2_AS5_p4
     window hide
@@ -64,12 +66,12 @@ label CR2_AS5_menu:
             else:
                 jump CR2_AS5_menu
 
+
         "What are you doing?" if CR2_AS5_q2 == True:
             scene CR2_AS5_p6
             Caroline "I'm checking all the incoming shipments. "
             Caroline "I have some good news and some bad news for you. Which one do you want to hear first?"
             jump CR2_AS5_menu_g_b
-
 label CR2_AS5_menu_g_b:
 
     window hide

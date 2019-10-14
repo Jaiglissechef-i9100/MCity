@@ -90,6 +90,7 @@ image CR3_NS5_p85 = "images/home/mc_room/night/scenes/CR3_NS5/85.jpg"
 image CR3_NS5_p86 = "images/home/mc_room/night/scenes/CR3_NS5/86.jpg"
 image CR3_NS5_p87 = "images/home/mc_room/night/scenes/CR3_NS5/87.jpg"
 
+
 label CR3_NS5_label:
 
     $ can_hide_windows = True
@@ -166,6 +167,8 @@ label CR3_NS5_label:
     Caroline "Don’t you ‘hey Caroline’ me! Look what I just found in your drawer!"
     MC "Oh shit..."
     Caroline "Yeah, you’re in big shit!"
+
+
 
     scene CR3_NS5_p10
 
@@ -347,6 +350,7 @@ label CR3_NS5_label:
     MC "M-My bed?!"
     Caroline "Of course! You ARE strong enough to carry me over there, right?"
 
+
     scene CR3_NS5_p37
 
     MC "Mmm!"
@@ -484,6 +488,7 @@ label CR3_NS5_label:
     Caroline "*Suck Suck*"
     MC "Oh God… Mmm!"
 
+
     scene CR3_NS5_p60
 
     MC "Ahh…. Hnng! Ugh!"
@@ -611,6 +616,7 @@ label CR3_NS5_label:
 
     scene CR3_NS5_p79
 
+
     Caroline "*Shlurp Suck*"
     MC "Oh… Fuck…"
     MC "(I can’t believe how quickly things turned around. Less than ten minutes ago she was ready to open my bedroom door and walk out of my life forever.)"
@@ -646,6 +652,7 @@ label CR3_NS5_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_NS5_p84 with dissolve
+
 
     Caroline "(Wow! I’m actually surprised he produced a second load! I thought I’d drained his balls dry after that first climax!)"
     MC "(She swallowed all my cum again!)"

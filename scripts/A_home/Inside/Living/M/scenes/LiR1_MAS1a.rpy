@@ -25,13 +25,8 @@ label LiR1_MAS1a_label:
     hide screen day_time_viewer
     hide screen map_button
 
-    if renpy.loadable("patch.rpy"):
-        $ Liza2_name = __("Auntie")
-        $ Liza_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
-        $ Liza_name = "Liza"
 
+    $ Liza_name = "Liza"
     scene black
     $ can_hide_windows = True
     $ renpy.pause (1, hard = True)
@@ -63,15 +58,15 @@ label LiR1_MAS1a_label:
     $ q1 = True
     $ q2 = True
 
+
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = "Auntie"
+    else:
+        $ Liza2_name = "Liza"
+
     jump LiR1_MAS1a_menu
 
 label LiR1_MAS1a_menu:
-    if renpy.loadable("patch.rpy"):
-        $ Liza2_name = __("Auntie")
-        $ Liza_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
-        $ Liza_name = "Liza"
     scene LiR1_MAS1a_p4
 
     menu:
@@ -142,6 +137,7 @@ label LiR1_MAS1a_menu:
             Liza2 "Hmm... In that case, you can start tomorrow. We have all the cleaning stuff you’ll need, in the garage."
             Liza2 "The handyman left it behind, when Yazmin chased him away. He hasn’t shown up to collect it - so I guess it’s ours now."
             MC "Cool! I’ll go and grab that."
+
 
             scene LiR1_MAS1a_p11
 

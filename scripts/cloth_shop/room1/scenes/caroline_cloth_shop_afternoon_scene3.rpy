@@ -24,14 +24,12 @@ image caroline_cloth_shop_afternoon_scene3_p12anim = Movie(play="/videos/Carolin
 image caroline_cloth_shop_afternoon_scene3_p12anim_faster = Movie(play="/videos/Caroline-AfternoonS3-Ass1a.webm", loop = True,)
 image caroline_cloth_shop_afternoon_scene3_p14anim = Movie(play="/videos/Caroline-AfternoonS3-Ass2.webm", loop = True,)
 image caroline_cloth_shop_afternoon_scene3_p18anim = Movie(play="/videos/Caroline-AfternoonS3-Ass3.webm", loop = True,)
-
 label caroline_cloth_shop_afternoon_scene3_label:
     $ can_hide_windows = True
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-
     if unlock_caroline_closth_shop_afternoon_scene3 == False:
         scene caroline_cloth_shop_afternoon_scene3_p1 with dissolve
         Caroline "Okay - that’s me ready to go."
@@ -44,7 +42,6 @@ label caroline_cloth_shop_afternoon_scene3_label:
         Caroline "(That’s.. That’s not my problem anyway…)"
         Caroline "Okay, let’s start."
         jump cosplay_outfit6_label
-
     if unlock_caroline_closth_shop_afternoon_scene3 == True:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
@@ -57,6 +54,7 @@ label caroline_cloth_shop_afternoon_scene3_label:
         Caroline "(Oh, my God… he’s got a boner again!)"
         Caroline "(Again?! I guess it must be his age.)"
         Caroline "..."
+
 
         scene caroline_cloth_shop_afternoon_scene3_p3
         Caroline "(And he REALLY needs to buy himself a proper belt.)"
@@ -98,21 +96,19 @@ label caroline_cloth_shop_afternoon_scene3_label:
         MC "Caroline, I SWEAR - I didn’t mean to get an erection!"
         MC "I can’t control them!"
 
+
         scene caroline_cloth_shop_afternoon_scene3_p8
         Caroline "Bullshit! You’re just a horny little creep."
-
         if renpy.loadable("patch.rpy"):
             Caroline "God… what am I going to tell Dad?"
             MC "NO! Don’t say anything to Dad! PLEASE!"
             Caroline "I’m gonna have to advertise for a new photographer too."
             MC "PLEASE DON’T TELL DAD!"
-
         if not renpy.loadable("patch.rpy"):
             Caroline "God… what am I going to tell Bob?"
             MC "NO! Don’t say anything to Bob! PLEASE!"
             Caroline "I’m gonna have to advertise for a new photographer too."
             MC "PLEASE DON’T TELL Bob!"
-
         Caroline "..."
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music1", loop=True, fadein = 2)
@@ -155,6 +151,7 @@ label caroline_cloth_shop_afternoon_scene3_label:
         scene caroline_cloth_shop_afternoon_scene3_p14anim
         MC "This is sooo good, Caroline…"
         Caroline "(And I’ve started making him happy… I’d only blueball him if I stopped now.)"
+
 
         scene caroline_cloth_shop_afternoon_scene3_p15
         MC "Mmm! Yes…"

@@ -28,6 +28,7 @@ label LiR1_MAS8_label:
 
         scene LiR1_MAS8_p1 with dissolve
 
+
         Yazmin "(Ohh... here comes the star of the show!)"
         MC "(Yazmin’s looking pretty intently at me! I wonder what’s on her mind, after the - last fiasco - when I fucked her, in front of [Liza2_name].)"
 
@@ -58,6 +59,7 @@ label LiR1_MAS8_label:
         else:
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Liza has calmed down."
         MC "Really? She’s not angry at me?"
+
 
         scene LiR1_MAS8_p6
 
