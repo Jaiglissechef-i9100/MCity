@@ -1,6 +1,7 @@
 image MLR2_MS1_p1 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/1.jpg"
 image MLR2_MS1_p2 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/2.jpg"
 
+
 image MLR2_MS1_talk_p1 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/1.jpg"
 image MLR2_MS1_talk_p2 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/2.jpg"
 image MLR2_MS1_talk_p3 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/3.jpg"
@@ -9,6 +10,7 @@ image MLR2_MS1_talk_p5 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/
 image MLR2_MS1_talk_p6 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/6.jpg"
 image MLR2_MS1_talk_p7 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/7.jpg"
 image MLR2_MS1_talk_p8 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Talk/8.jpg"
+
 
 image MLR2_MS1_kiss_p1 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Kiss/1.jpg"
 image MLR2_MS1_kiss_p2 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/Kiss/2.jpg"
@@ -56,7 +58,6 @@ default MLR2_R3_MS1_q6 = False
 default MLR2_R3_MS1_q7 = False
 default MLR2_R3_MS1_q8 = False
 default MLR2_R3_MS1_q9 = False
-
 label MLR2_MS1_label:
     if MLR2_can_MS1 == False:
         show screen parents_bedroom_morning_notclickable
@@ -155,15 +156,19 @@ label MLR2_MS1_menu:
         "{color=#00ff00}Talk about Bob.{/color}" if not renpy.loadable("patch.rpy") and MLR2_MS1_NS1 == True:
             jump MLR2_MS1_Bob_label
 
+
+
         "{color=#00ff00}Talk about Dad.{/color} " if renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
             jump MLR2_MS1_Bob_Trip_label
         "{color=#00ff00}Talk about Bob.{/color} " if not renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
             jump MLR2_MS1_Bob_Trip_label
 
+
         "Talk about Dad. (disabled)" if renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
             jump MLR2_MS1_Bob_Trip_label
         "Talk about Bob. (disabled)" if not renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
             jump MLR2_MS1_Bob_Trip_label
+
 
         "Are you missing our holiday at the beach? I know I am." if MLR2_R3_MS1_q1 == True:
             jump MLR2_R3_MS1_q1
@@ -193,8 +198,8 @@ label MLR2_MS1_menu:
             jump MLR2_MS1_Bob_Trip2_label
         "Bye. ":
 
-            jump MLR2_MS1_Cancel_label
 
+            jump MLR2_MS1_Cancel_label
 label MLR2_MS1_talk_label:
     if MLR2_MS1_talk_count == 1:
         scene MLR2_MS1_talk_p1
@@ -439,7 +444,7 @@ label MLR2_MS1_Bob_label:
         MC "Can we talk about Dad?"
     else:
         MC "Can we talk about Bob?"
-    Mom "Hmm? Sure, what abut him?"
+    Mom "Hmm? Sure, what about him?"
     MC "It’s about the two of you… having sex each night."
 
     scene MLR2_MS1_talk_p4
@@ -449,6 +454,7 @@ label MLR2_MS1_Bob_label:
     window hide
     menu:
         "No, not at all.":
+
 
             scene MLR2_MS1_talk_p4
 
@@ -471,6 +477,7 @@ label MLR2_MS1_Bob_label:
             Mom "We just aren’t connecting like we used to."
             jump after_menu_MLR2_MS1_Bob_label
         "Yeah, it really does.":
+
 
             scene MLR2_MS1_talk_p4
 
@@ -525,6 +532,7 @@ label after_menu_MLR2_MS1_Bob_label:
     $ MLR2_MS1_NS1 = 3
     $ MLR2_NS2 = True
     jump MLR2_MS1_menu
+
 
 label MLR2_MS1_Bob_Trip_label:
     scene MLR2_MS1_Bob_p1
@@ -886,7 +894,6 @@ label MLR2_R3_MS1_q8:
     MC "Anyway, we’ve gotten off topic!"
     $ MLR2_R3_MS1_q8 = False
     jump MLR2_MS1_menu
-
 label MLR2_R3_MS1_q9:
     scene MLR2_MS1_talk_p1
 

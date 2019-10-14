@@ -34,7 +34,7 @@ screen a_pool_N_scr:
             if clickable == True and Li_clean_stuff.selected == False:
                 action [Hide("displayTextScreen"),Jump("pool_minigame_not_selected")]
 
-                hovered Show("displayTextScreen", displayText = __("Start Pool Cleaning"))
+                hovered Show("displayTextScreen", displayText = "Start Pool Cleaning")
                 unhovered Hide("displayTextScreen")
 
     if clickable == True:

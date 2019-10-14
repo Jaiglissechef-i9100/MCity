@@ -1,0 +1,32 @@
+screen Ce_living_E_scr:
+    imagebutton:
+        xpos 847
+        ypos 73
+        focus_mask True
+        idle "/images/Ce_ele/Ce_home/Living/E/B1.png"
+        hover "/images/Ce_ele/Ce_home/Living/E/B1_hover.png"
+        if clickable == True:
+            action Show("Ce_living_E_painting")
+
+        hovered Show("displayTextScreen", displayText = "Painting")
+        unhovered Hide("displayTextScreen")
+
+    if clickable == True:
+        imagebutton:
+            xpos 0
+            ypos 0
+            focus_mask True
+            idle "images/game_gui/goback_button_idle.png"
+            hover "images/game_gui/goback_button_hover.png"
+            action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("Ce_corridor2_M1")]
+
+screen Ce_living_E_painting:
+    zorder 102
+    add "/images/Ce_ele/Ce_home/Living/E/2.jpg"
+    imagebutton:
+        xpos 0
+        ypos 0
+        focus_mask True
+        idle "images/game_gui/goback_button_idle.png"
+        hover "images/game_gui/goback_button_hover.png"
+        action Hide("Ce_living_E_painting")

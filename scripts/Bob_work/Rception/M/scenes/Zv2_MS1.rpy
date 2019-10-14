@@ -6,9 +6,7 @@ image Zv2_MS1_p5 = "images/Bob_work/reception/M/scenes/Zv2_MS1/5.jpg"
 image Zv2_MS1_p6 = "images/Bob_work/reception/M/scenes/Zv2_MS1/6.jpg"
 image Zv2_MS1_p6a = "images/Bob_work/reception/M/scenes/Zv2_MS1/6a.jpg"
 image Zv2_MS1_p7 = "images/Bob_work/reception/M/scenes/Zv2_MS1/7.jpg"
-
 default Zuri_name = "Zuri"
-
 label Zv2_MS1_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -22,6 +20,9 @@ label Zv2_MS1_label:
         $ Zuri_name = "???"
         Zuri "Hello, and welcome to Bayside Business Consultants. My name is Zuri. How can I help you?"
         $ Zuri_name = "Zuri"
+
+
+
 
         scene Zv2_MS1_p2
         if renpy.loadable("patch.rpy"):
@@ -52,7 +53,6 @@ label Zv2_MS1_label:
         Zuri "Oh! Sorry! My bad!"
         $ Zv2_MS1_ask_boob_office = False
         jump Zv2_MS1_label2
-
     if Zv2_MS1_ask_boob_office == False:
         jump Zv2_MS1_label2
 
@@ -68,14 +68,12 @@ label Zv2_MS1_label2:
             Zuri "Please follow me. I’ll take you to Bob's office."
         MC "Thank you."
         jump Zv2_MS1_label3
-
     if Zv2_MS1_ask_boob_office == False:
         scene Zv2_MS1_p4 at pandown3
 
         Zuri "In that case - please follow me. I’ll take you to his office."
         MC "(Finally!)"
         MC "Thank you."
-
 label Zv2_MS1_label3:
     scene Zv2_MS1_p5
 
@@ -104,11 +102,13 @@ label Zv2_MS1_label3:
             jump Zv2_MS1_after_menu
         "It’s not worth the risk. Just play it safe.":
 
+
             scene Zv2_MS1_p6
             if renpy.loadable("patch.rpy"):
                 MC "(I better just play it safe. If she catches me, she’ll likely never let me visit Dad again!)"
             else:
                 MC "(I better just play it safe. If she catches me, she’ll likely never let me visit Bob again!)"
+
 
             if renpy.loadable("patch.rpy"):
                 Zuri "It’s your son, Sir."
@@ -123,7 +123,6 @@ label Zv2_MS1_label3:
             MC "I’ll be mindful of that. Thanks, Zuri."
             Zuri "My pleasure."
             jump Zv2_MS1_after_menu
-
 label Zv2_MS1_after_menu:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

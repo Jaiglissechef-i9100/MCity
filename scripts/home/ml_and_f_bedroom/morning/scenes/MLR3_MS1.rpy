@@ -14,8 +14,8 @@ image MLR3_MS1_p12 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/12.j
 label MLR3_MS1:
     if renpy.loadable("patch.rpy"):
         $ Linda_name = "Linda"
-        $ Liza2_name = __("Auntie")
-        $ Mom_name = __("Mom")
+        $ Liza2_name = "Auntie"
+        $ Mom_name = "Mom"
     else:
         $ Mom_name = "Linda"
         $ Linda_name = "Linda"

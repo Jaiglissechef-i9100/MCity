@@ -103,7 +103,6 @@ label mom_car_v1:
     $ ml_bedroom_morning_scene5_v1_label2_menu_q2 = True
     $ ml_bedroom_morning_scene5_v1_label2_menu_q3 = True
     jump ml_bedroom_morning_scene5_v1_label2_menu1r
-
 label ml_bedroom_morning_scene5_v1_label2_menu1r:
     scene ml_bedroom_morning_scene5_v1_p14
     menu:
@@ -144,7 +143,6 @@ label ml_bedroom_morning_scene5_v1_label2_menu1r:
                 jump ml_bedroom_morning_scene5_v1_label2_menu_after1r
             else:
                 jump ml_bedroom_morning_scene5_v1_label2_menu1r
-
 label ml_bedroom_morning_scene5_v1_label2_menu_after1r:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music1", loop=True, fadein = 2)

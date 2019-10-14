@@ -7,7 +7,7 @@ screen zuri_homeoutside_E_scr:
         idle "images/Zuri_home/outside/E/B1.png"
         hover "images/Zuri_home/outside/E/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Doors"))
+            hovered Show("displayTextScreen", displayText = "Doors")
             action [Hide("displayTextScreen"),Jump("Z_home_door_E_label")]
             unhovered Hide("displayTextScreen")
 
@@ -22,6 +22,9 @@ screen zuri_homeoutside_E_scr:
                 action [Hide("displayTextScreen"),addgimage("img19_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
+
+
+
 screen Z_home_door_E_scr:
     key "hide_windows" action NullAction()
     if clickable == True:
@@ -31,10 +34,9 @@ screen Z_home_door_E_scr:
             focus_mask True
             idle "images/Zuri_home/outside/E/B2.png"
             hover "images/Zuri_home/outside/E/B2_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Enter Zuri's Home"))
+            hovered Show("displayTextScreen", displayText = "Enter Zuri's Home")
             action [Hide("displayTextScreen"),Jump("Z_home_doorknock_E_label")]
             unhovered Hide("displayTextScreen")
-
     if can_Zv2_ES1 == True and Zv2_ES1 == True:
         imagebutton:
             xpos 550
@@ -43,10 +45,9 @@ screen Z_home_door_E_scr:
             idle "images/Zuri_home/outside/E/B2.png"
             hover "images/Zuri_home/outside/E/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Enter Zuri's Home"))
+                hovered Show("displayTextScreen", displayText = "Enter Zuri's Home")
                 action [Hide("displayTextScreen"),Jump("Z_ES1_label")]
                 unhovered Hide("displayTextScreen")
-
     if Zv2_ES4 == True and Zv2_lie_counter > 1:
         imagebutton:
             xpos 550
@@ -55,10 +56,9 @@ screen Z_home_door_E_scr:
             idle "images/Zuri_home/outside/E/B2.png"
             hover "images/Zuri_home/outside/E/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Enter Zuri's Home"))
+                hovered Show("displayTextScreen", displayText = "Enter Zuri's Home")
                 action [Hide("displayTextScreen"),Jump("Zv2_ES4_lie_label")]
                 unhovered Hide("displayTextScreen")
-
     if clickable == True:
         imagebutton:
             xpos 0

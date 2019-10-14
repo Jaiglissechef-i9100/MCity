@@ -8,6 +8,7 @@ init -1 python:
     item = None
     nsb = None
     outfit = None
+    nsb1 = None 
     def item_use():
         item.use()
 
@@ -55,6 +56,8 @@ screen inventory_screen:
             $ pic = item.image
 
             $ pich = item.hover_i
+
+
 
             if item.note==True:
                 imagebutton idle pic hover pich xpos x ypos y action [Hide("display_Item_Name"),  SetVariable("item", item), Show("note_view")] hovered [ Play ("sound", "sfx/click.wav"), Show("display_Item_Name", my_tt_ypos=y, my_tt_xpos=x, displayText1 = [item.name]),] unhovered [Hide("display_Item_Name")] at inv_eff

@@ -1,3 +1,6 @@
+
+
+
 label CR3_NS2_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -37,6 +40,7 @@ label CR3_NS2_rep:
     $ renpy.sound.play("sfx/vibrator_high.mp3")
     "*Buzzz*"
 
+
     scene CR3_NS2_p5
 
     MC "(It sounds like she’s got a vibrating dildo too!)"
@@ -49,6 +53,7 @@ label CR3_NS2_rep:
 
     Caroline "Mmm... (The rain was - pouring down - outside, and we were completely lost... My schoolgirl uniform had been - soaked through - to my skin.)"
     Caroline "([player_name] and I were lucky to find that - abandoned little cottage - in the woods. We built a small fire, but there was no way either of us could sit - in our sodden clothes. We had to strip them off...)"
+
 
     scene CR3_NS2_p7
     $ renpy.sound.play("sfx/vibrator_high.mp3")
@@ -77,6 +82,7 @@ label CR3_NS2_rep:
     Caroline "Ohhhh!"
     Caroline "(Joey keeps stealing glances at my naked body, and I can’t help but notice his cock getting harder. God... it’s so fucking long.)"
     Caroline "(He tells me, we need to conserve our heat, and that we should spoon to keep warm. I’m too naive to resist him, and scurry over into his arms.)"
+
 
     scene CR3_NS2_p10 with dissolve
     $ renpy.sound.play("sfx/vibrator_high.mp3")
@@ -121,6 +127,7 @@ label CR3_NS2_rep:
         Caroline "(Suddenly, I hear footsteps behind me... It’s Simon, an athletic, six foot tall blonde guy who, looks NOTHING like [player_name].)"
     Caroline "(He pounces on me - without even asking, locking his lips with my own, and kissing me so passionately.)"
 
+
     scene CR3_NS2_p15
     $ renpy.sound.play("sfx/vibrator_high.mp3")
     "*Buzz Buzz*"
@@ -144,6 +151,7 @@ label CR3_NS2_rep:
     else:
         Caroline "([player_name] is pushing his cock, deeper into my panties. The fabric is pushing itself, into my pussy. If he doesn’t stop, they’ll tear, and his cock will thrust - so fucking deep inside me.)"
         Caroline "(Dammit! I’m back to thinking about him! But I’m soooo fucking close to cumming...)"
+
 
     scene CR3_NS2_p18
 

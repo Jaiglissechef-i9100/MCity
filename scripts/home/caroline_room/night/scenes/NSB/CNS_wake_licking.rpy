@@ -19,6 +19,8 @@ image CR2_NS_licking_p15 = "images/home/caroline_room/night/scenes/CR2_NS/Lickin
 image CR2_NS_licking_p16 = "images/home/caroline_room/night/scenes/CR2_NS/Licking/16.jpg"
 image CR2_NS_licking_p17 = "images/home/caroline_room/night/scenes/CR2_NS/Licking/17.jpg"
 
+
+
 label CNS_wake_licking_label:
     scene CR2_NS_licking_p1
     MC "How about we switch things up tonight, and I help get YOU off?"
@@ -100,6 +102,7 @@ label CNS_wake_licking_label:
     scene CR2_NS_licking_p13anim with dissolve
     Caroline "Mmm! Ahhh…"
     Caroline "(Dammit, his tongue is sooo close to going inside me… I can’t resist any longer!)"
+
 
     scene CR2_NS_licking_p14
 

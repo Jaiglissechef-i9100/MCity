@@ -47,7 +47,7 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         Dad "Oh! Ahhh!"
         MC "(Apparently not!)"
         if renpy.loadable("patch.rpy"):
-            $ Dad_name = __("Dad")
+            $ Dad_name = "Dad"
         if not renpy.loadable("patch.rpy"):
             $ Dad_name = "Bob"
 
@@ -94,7 +94,6 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         $ ml_bedroom_book_scene = True
         $ can_hide_windows = False
         jump salon_night1
-
     if ml_ml_and_f_bedroom_night_visit_scene_v1 == 2 and ml_can_ml_and_f_bedroom_night_scene_v1 == True:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)

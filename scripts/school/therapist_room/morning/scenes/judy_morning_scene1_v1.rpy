@@ -6,6 +6,8 @@ image judy_scene1_v1_p5 = "images/school/therapist_room/morning/scenes/judy_scen
 image judy_scene1_v1_p6 = "images/school/therapist_room/morning/scenes/judy_scene1_v1/6.jpg"
 image judy_scene1_v1_p7 = "images/school/therapist_room/morning/scenes/judy_scene1_v1/7.jpg"
 
+
+
 image judy_MLask_p1 = "images/school/therapist_room/morning/scenes/judy_ML_ask/1.jpg"
 image judy_MLask_p2 = "images/school/therapist_room/morning/scenes/judy_ML_ask/2.jpg"
 image judy_MLask_p3 = "images/school/therapist_room/morning/scenes/judy_ML_ask/3.jpg"
@@ -23,7 +25,11 @@ label judy_menu_v1_label:
     scene judy_scene1_v1_p7
     $ can_hide_windows = True
     menu:
+        "{color=#00ff00}Ask Judy for help with Celia.{/color}" if CeR2_J_q == True:
+            jump CeR2_J_q_lab
 
+        "{color=#00ff00}Tell Judy what did you figure out about Celia.{/color}" if CeR2_J_q == 3:
+            jump CeR2_J_q_lab2
         "{color=#00ff00}Talk about an exemption from school.{/color}" if judy_q3 == True:
             jump judy_q3_label
         "Talk about Celia being selling grades." if Judy_scene1_v1 == 1:
@@ -34,7 +40,10 @@ label judy_menu_v1_label:
             jump judy_lindadeal
         "Cancel":
 
+
+
             jump therapist_room_morning1
+
 
 label judy_morning_scene1_v1_label:
     hide screen week_day_viewer
@@ -85,6 +94,7 @@ label judy_morning_scene1_v1_label:
     $ can_envelope_from_Judy_v1 = 1
     $ can_hide_windows = False
     jump therapist_room_morning1
+
 
 label judy_lindadeal:
     hide screen week_day_viewer

@@ -15,7 +15,7 @@ screen entrance2_morning:
         focus_mask True
         idle "images/home/entrance2/morning/door1_morning_idle.png"
         hover "images/home/entrance2/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Kitchen"))
+        hovered Show("displayTextScreen", displayText = "Kitchen")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("kitchen_morning1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -26,6 +26,7 @@ screen entrance2_morning:
         hover "images/game_gui/goback_button_hover.png"
         action [Jump("entrace1_morning1")]
 
+
     if not "img2_garage_entrance_card" in gallery_photos.storage:
         imagebutton:
             xpos 53
@@ -34,5 +35,5 @@ screen entrance2_morning:
             idle "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard.png"
             hover "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard_hover.png"
             action [Hide("displayTextScreen"), addgimage("img2_garage_entrance_card") ,Jump("garage_entrance_card")]
-            hovered Show("displayTextScreen", displayText = __("Secret Card"))
+            hovered Show("displayTextScreen", displayText = "Secret Card")
             unhovered Hide("displayTextScreen")

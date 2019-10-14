@@ -1,12 +1,9 @@
 image room2_scene = "images/Work_Minigame/Room2/Room2.jpg"
 
 label work_minigame_room2_label:
-    menu:
-        "Play":
-            scene room2_scene
-            call screen work_minigame_room2_items1
-        "Fuck minigame":
-            jump ml_work_day_scene2_v1_label_after_work
+    scene room2_scene
+    call screen work_minigame_room2_items1
+
 
 screen work_minigame_room2_items1:
     key "hide_windows" action NullAction()
@@ -138,6 +135,7 @@ label rubbish6_colleted_items1_room2_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room2_label
+
 
 label work_minigame_room2_items2_label:
     scene black
@@ -286,6 +284,7 @@ label rubbish6_colleted_items2_room2_label:
     $ rubbish_colleted_counter += 1
     jump work_minigame_room2_items2_label1
 
+
 label work_minigame_room2_items3_label:
     scene black
     $ renpy.pause(3, hard = True)
@@ -431,6 +430,7 @@ label rubbish6_colleted_items3_room2_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room2_items3_label1
+
 
 label work_minigame_room2_done_label:
     $ rubbish_colleted_counter = 0

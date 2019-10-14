@@ -181,7 +181,6 @@ label ml_work_day_scene1_v1_menu_after:
             MC "I don’t know…"
             MC "It’s a bit too… intense…."
             jump ml_work_day_scene1_v1_menu_after2
-
 label ml_work_day_scene1_v1_menu_after2:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)

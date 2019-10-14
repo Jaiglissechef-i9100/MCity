@@ -1,3 +1,4 @@
+
 image items_map = "images/Beach/Beach_Shop/M/1a.jpg"
 default beach_buy_B2 = False
 default beach_buy_B3 = False
@@ -26,17 +27,18 @@ label b_shop_inside:
         hide screen beach_shop_N_scr
         jump beach_shop_M1
 
+
 label beach_shop_items:
     hide screen map_button
     scene items_map
     call screen beach_shop_items_scr
+
 
 screen beach_shop_items_scr:
     vbox xpos 1070 ypos 700 spacing 20:
         frame:
             style "frame_gui1"
             text "$"+str(inventory.money) size 30
-
     if beach_buy_B2 == False:
         imagebutton:
             xpos 686
@@ -46,9 +48,8 @@ screen beach_shop_items_scr:
             hover "images/Beach/Beach_Shop/M/B2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("beach_buy_B2")]
-            hovered Show("displayTextScreen", displayText = __("Drink"))
+            hovered Show("displayTextScreen", displayText = "Drink")
             unhovered Hide("displayTextScreen")
-
     if beach_buy_B3 == False:
         imagebutton:
             xpos 936
@@ -58,7 +59,7 @@ screen beach_shop_items_scr:
             hover "images/Beach/Beach_Shop/M/B3_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("beach_buy_B3")]
-            hovered Show("displayTextScreen", displayText = __("Ice Creams"))
+            hovered Show("displayTextScreen", displayText = "Ice Creams")
             unhovered Hide("displayTextScreen")
 
     if beach_buy_B4 == False:
@@ -70,7 +71,7 @@ screen beach_shop_items_scr:
             hover "images/Beach/Beach_Shop/M/B4_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("beach_buy_B4")]
-            hovered Show("displayTextScreen", displayText = __("SunScreen"))
+            hovered Show("displayTextScreen", displayText = "SunScreen")
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -80,13 +81,11 @@ screen beach_shop_items_scr:
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("beach_shop_M1")]
-        hovered Show("displayTextScreen", displayText = __("Close"))
+        hovered Show("displayTextScreen", displayText = "Close")
         unhovered Hide("displayTextScreen")
-
 label beach_buy_B2:
     show screen beach_shop_items_scr
     $ clickable = False
-
     if inventory.money >= 10:
         $ inventory.buy(drink)
         $ beach_buy_B2 = True
@@ -101,7 +100,6 @@ label beach_buy_B2:
 label beach_buy_B3:
     show screen beach_shop_items_scr
     $ clickable = False
-
     if inventory.money >= 8:
         $ inventory.buy(icecream)
         $ beach_buy_B3 = True

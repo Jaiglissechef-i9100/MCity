@@ -1,3 +1,6 @@
+
+
+
 label CR3_week_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -174,6 +177,7 @@ label CR3_week_rep:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_WE_UseHer_p26a with dissolve
+
 
     MC "Ugh! Aahhhhh!"
     MC "(Wow... I never knew I could cum this much!)"

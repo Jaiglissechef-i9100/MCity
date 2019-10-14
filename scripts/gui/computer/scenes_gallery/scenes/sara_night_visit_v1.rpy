@@ -47,7 +47,7 @@ label sara_night_visit_v1:
 
     scene mc_sara_night_scene1_v1_p8
     Sara "I- I- *Sniff* I’m s-so sorry!"
-    MC "What where you doing?"
+    MC "What are you doing?"
     Sara "I was… I was… *sob* t-trying to take a… picture…"
     MC "Don’t you already have one on your phone?"
 

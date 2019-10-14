@@ -25,7 +25,6 @@ default Zv2_ES1 = False
 default Zv2_lie_counter = 0
 default Zv2_true_counter = 0
 default Zv2_Truth = False
-
 label Zv2_MS2_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -55,6 +54,7 @@ label Zv2_MS2_label:
 
         jump Zv2_MS2_menu
 
+
 label Zv2_MS2_menu:
     scene Zv2_MS2_p1
     window hide
@@ -64,25 +64,30 @@ label Zv2_MS2_menu:
         "How long have you worked for Bob for?" if Zv2_MS2_q1 == True and not renpy.loadable("patch.rpy"):
             jump Zv2_MS2_q1_label
 
+
         "Where did you meet Dad?" if Zv2_MS2_q2 == True and renpy.loadable("patch.rpy"):
             jump Zv2_MS2_q2_label
         "Where did you meet Bob?" if Zv2_MS2_q2 == True and not renpy.loadable("patch.rpy"):
             jump Zv2_MS2_q2_label
+
 
         "What’s it like working for Dad? " if Zv2_MS2_q3 == True and renpy.loadable("patch.rpy"):
             jump Zv2_MS2_q3_label
         "What’s it like working for Bob? " if Zv2_MS2_q3 == True and not renpy.loadable("patch.rpy"):
             jump Zv2_MS2_q3_label
 
+
         "{color=#00ff00}Ask her for magnet card for Dad's office doors.{/color}" if Zv2_MS2_q4 == True and renpy.loadable("patch.rpy"):
             jump Zv2_MS2_magnetcard_label
         "{color=#00ff00}Ask her for magnet card for Bob's office doors.{/color}" if Zv2_MS2_q4 == True and not renpy.loadable("patch.rpy"):
             jump Zv2_MS2_magnetcard_label
 
+
         "{color=#00ff00}Ask her when Dad has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and renpy.loadable("patch.rpy"):
             jump Zv2_MS2_bobtrip_label
         "{color=#00ff00}Ask her when Bob has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and not renpy.loadable("patch.rpy"):
             jump Zv2_MS2_bobtrip_label
+
 
         "Zuri is an unusual name. Where are you from?" if Zv2_MS2_q6 == True:
             jump Zv2_MS2_zuriname_label
@@ -225,6 +230,7 @@ label Zv2_MS2_zuriname_label:
     Zuri "Unusual? What do you mean?"
     MC "I don’t mean in a bad way! It’s really cute actually!"
 
+
     scene Zv2_MS2_p9
 
     Zuri "Aww... you’re sweet. It’s French actually. I was born, just outside Marseille."
@@ -248,7 +254,6 @@ label Zv2_MS2_pay_label:
     Zuri "Let me promise you something - no staff in this company are paid badly. There’s a reason why so few people here leave for other jobs."
     $ Zv2_MS2_q7 = False
     jump Zv2_MS2_menu
-
 label Zv2_MS2_zuriproposition_label:
     scene Zv2_MS2_p1
 
@@ -278,13 +283,13 @@ label Zv2_MS2_zuriproposition_label:
             jump Zv2_MS2_menu
         "No, I’m not gonna help with this.":
 
-
             scene Zv2_MS2_p4
 
             MC "I’ve thought about it… and I’d rather not get involved in this."
             Zuri "I’m sorry to hear that. If you change your mind, please come back and speak to me."
             Zuri "I could REALLY make it worth your while."
             jump Zv2_MS2_menu
+
 
 label Zv2_MS2_companyname1_label:
     if Zv2_MS2_companyname == 1:
@@ -318,7 +323,6 @@ label Zv2_MS2_companyname1_label:
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
 
-
                         MC "The company is called Beerhouse Investments."
                         Zuri "Amazing! Please come over to my house again this evening and I’ll make sure you get your reward."
                         $ Zv2_MS2_companyname = 2
@@ -327,7 +331,6 @@ label Zv2_MS2_companyname1_label:
                         $ Zv2_MS2_q10 = False
                         $ Zv2_lie_counter += 1
                         jump Zv2_MS2_menu
-
     if Zv2_MS2_companyname == 2:
         scene Zv2_MS2_p2
 
@@ -358,7 +361,6 @@ label Zv2_MS2_companyname1_label:
                         $ Zv2_true_counter += 1
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
-
 
                         MC "The company name is… Indian Railway and Infrastructure Investments."
                         Zuri "Brilliant! As before, come over to my place and I’ll make sure you’re properly rewarded."
@@ -423,6 +425,7 @@ label Zv2_MS2_companyname1_label:
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
 
+
                         MC "The final company is… Manchester Aviation and Aeronautics Engineering."
                         Zuri "You’re absolutely amazing! God! I could kiss you right now! Please come over to my house, this evening, and I’ll give you another reward."
                         $ Zv2_MS2_companyname = False
@@ -431,6 +434,8 @@ label Zv2_MS2_companyname1_label:
                         $ Zv2_MS2_q10 = False
                         $ Zv2_lie_counter += 1
                         jump Zv2_MS2_menu
+
+
 
 label Zv2_MS2_cancel_label:
     if Zv2_MS2_q8 == True:

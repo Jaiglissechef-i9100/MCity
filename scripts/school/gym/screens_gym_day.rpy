@@ -7,7 +7,7 @@ screen gym_day:
         idle "images/school/gym/morning/door1_morning_idle.png"
         hover "images/school/gym/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Changing Room"))
+            hovered Show("displayTextScreen", displayText = "Changing Room")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("changing_room_day1")]
             unhovered Hide("displayTextScreen")
 

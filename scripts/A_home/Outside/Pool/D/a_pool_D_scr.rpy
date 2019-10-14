@@ -34,9 +34,8 @@ screen a_pool_D_scr:
             if clickable == True and Li_clean_stuff.selected == False:
                 action [Hide("displayTextScreen"),Jump("pool_minigame_not_selected")]
 
-                hovered Show("displayTextScreen", displayText = __("Start Pool Cleaning"))
+                hovered Show("displayTextScreen", displayText = "Start Pool Cleaning")
                 unhovered Hide("displayTextScreen")
-
     if LiR1_MAS6 == True:
         imagebutton:
             xpos 750
@@ -46,7 +45,7 @@ screen a_pool_D_scr:
             hover "/images/a_home/outside/Pool/M/B2_hover.png"
             if clickable == True:
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = __("Auntie"))
+                    hovered Show("displayTextScreen", displayText = "Auntie")
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS6_label")]
@@ -61,7 +60,7 @@ screen a_pool_D_scr:
             hover "/images/a_home/outside/Pool/M/B3_hover.png"
             if clickable == True:
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = __("Auntie"))
+                    hovered Show("displayTextScreen", displayText = "Auntie")
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS7_label")]
@@ -79,7 +78,6 @@ screen a_pool_D_scr:
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS8_label")]
                 hovered Show("displayTextScreen", displayText = "Yazmin")
                 unhovered Hide("displayTextScreen")
-
     if clickable == True:
         imagebutton:
             xpos 0

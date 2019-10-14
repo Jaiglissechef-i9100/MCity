@@ -34,7 +34,7 @@ screen Table_day_Classroom_v1:
             focus_mask True
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
-            action [Hide("Table_day_Classroom_v1"),Jump("classroom2_day1")]
+            action [Hide("Table_day_Classroom_v1"),Jump("classroom2_morning1")]
 
     imagebutton:
         xpos 1423
@@ -42,7 +42,7 @@ screen Table_day_Classroom_v1:
         focus_mask True
         idle "images/school/classroom2/day/scenes/Table_Classroom_v1/exams_b1.png"
         hover "images/school/classroom2/day/scenes/Table_Classroom_v1/exams_b1_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Exams"))
+        hovered Show("displayTextScreen", displayText = "Exams")
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("Table_day_Classroom_exams_v1_label")]
             unhovered Hide("displayTextScreen")
@@ -53,11 +53,10 @@ screen Table_day_Classroom_v1:
         focus_mask True
         idle "images/school/classroom2/day/scenes/Table_Classroom_v1/books_b2.png"
         hover "images/school/classroom2/day/scenes/Table_Classroom_v1/books_b2_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Books"))
+        hovered Show("displayTextScreen", displayText = "Books")
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("Table_day_Classroom_books_v1_label")]
             unhovered Hide("displayTextScreen")
-
     if celia_key not in inventory.items and celia_key_take == True:
         imagebutton:
             xpos 515
@@ -65,7 +64,7 @@ screen Table_day_Classroom_v1:
             focus_mask True
             idle "images/school/classroom2/day/scenes/Table_Classroom_v1/Celia_key_b3.png"
             hover "images/school/classroom2/day/scenes/Table_Classroom_v1/Celia_key_b3_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Teacher’s Break Room Key"))
+            hovered Show("displayTextScreen", displayText = "Teacher’s Break Room Key")
             if clickable == True:
                 action [Hide("displayTextScreen"),addItem(celia_key),Jump("Table_day_Classroom_v1_label")]
                 unhovered Hide("displayTextScreen")

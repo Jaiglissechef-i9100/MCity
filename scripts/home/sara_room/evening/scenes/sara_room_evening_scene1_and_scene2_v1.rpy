@@ -21,7 +21,6 @@ image sara_room_evening_scene2_v1_p17 = "images/home/sara_room/evening/scene2_v1
 image sara_room_evening_scene2_v1_p18 = "images/home/sara_room/evening/scene2_v1/18.jpg"
 image sara_room_evening_scene2_v1_p19 = "images/home/sara_room/evening/scene2_v1/19.jpg"
 image sara_room_evening_scene2_v1_p20 = "images/home/sara_room/evening/scene2_v1/20.jpg"
-
 define Console = Character("Console")
 
 label sis_nerdy_evening_scene1_v1_l:
@@ -41,16 +40,15 @@ label sis_nerdy_evening_scene1_v1_l:
         $ can_sis_nerdy_evening_scene1_v1 = False
         $ can_hide_windows = False
         jump sister_nerdy_evening1
-
     if can_sis_nerdy_evening_scene1_v1 == False:
         show sara_room_evening_scene1_v1_after
         $ can_hide_windows = False
         MC "I've already talked to her."
         jump sister_nerdy_evening1
-
     if sis_nerdy_evening_scene2_v1 == 1:
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
+
 
         scene sara_room_evening_scene2_v1_p1 with dissolve
         MC "Hey Sara, you still busy with your league game?"
@@ -164,6 +162,7 @@ label sis_nerdy_evening_scene1_v1_l:
         MC "What the hell, Sara! Did you just take a picture of my dick?"
         Sara "N-No?"
         MC "Yes you did! I can see you taking a photo right now! Delete it!"
+
 
         scene sara_room_evening_scene2_v1_p16
         Sara "You’re gonna have to catch me first! Hehe!"

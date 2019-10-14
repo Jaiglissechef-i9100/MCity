@@ -19,10 +19,12 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_scene5_v1_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
+
+
 
     if ml_bedroom_morning_scene6 == True:
         imagebutton:
@@ -34,7 +36,7 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_scene6_v1_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
@@ -48,7 +50,7 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/money_b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_money_label")]
-            hovered Show("displayTextScreen", displayText = __("Money"))
+            hovered Show("displayTextScreen", displayText = "Money")
             unhovered Hide("displayTextScreen")
 
 
@@ -62,7 +64,7 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR2_MS1_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
@@ -77,10 +79,11 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Bob_MS1")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Dad"))
+                hovered Show("displayTextScreen", displayText = "Dad")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
+
 
     if ml_points == 3 and MLR3_Linda_MS1 == True:
         imagebutton:
@@ -92,10 +95,11 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Linda_MS1")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
+
 
     if ml_points == 3 and MLR3_MS2 == True:
         imagebutton:
@@ -107,7 +111,7 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_MS2")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
@@ -123,10 +127,11 @@ screen parents_bedroom_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_MS3")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
+
 
 screen parents_bedroom_morning_notclickable:
 
@@ -171,14 +176,12 @@ screen parents_bedroom_morning_notclickable:
             ypos 398
             focus_mask True
             idle "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/b2.png"
-
     if ml_points == 3 and MLR3_MS2 == True:
         imagebutton:
             xpos 427
             ypos 206
             focus_mask True
             idle "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2/b1.png"
-
     if ml_points == 3 and MLR3_MS3 == True:
         imagebutton:
             xpos 1128

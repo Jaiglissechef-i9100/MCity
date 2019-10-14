@@ -22,6 +22,7 @@ label bob_receptiondiagram:
         else:
             MC "(Uh oh… Looks like me giving out sensitive company information to Zuri has led to Bob’s profit margins falling!)"
 
+
     if company_profit == 2:
         scene Protif2
         if renpy.loadable("patch.rpy"):

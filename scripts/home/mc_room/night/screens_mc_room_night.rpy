@@ -6,7 +6,7 @@ screen mc_room_night:
         focus_mask True
         idle "images/home/mc_room/night/pc_idle.png"
         hover "images/home/mc_room/night/pc_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Computer"))
+        hovered Show("displayTextScreen", displayText = "Computer")
         action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("computer_menu")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen mc_room_night:
         focus_mask True
         idle "images/home/mc_room/night/door1_night_idle1.png"
         hover "images/home/mc_room/night/door1_night_hover1.png"
-        hovered Show("displayTextScreen", displayText = __("Corridor"))
+        hovered Show("displayTextScreen", displayText = "Corridor")
         clicked [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_night1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -24,10 +24,9 @@ screen mc_room_night:
         focus_mask True
         idle "images/home/mc_room/night/bed_night_idle1.png"
         hover "images/home/mc_room/night/bed_night_hover1.png"
-        hovered Show("displayTextScreen", displayText = __("Bed"))
+        hovered Show("displayTextScreen", displayText = "Bed")
         clicked Jump("day_time_changer")
         unhovered Hide("displayTextScreen")
-
     if mc_sara_night_scene1_v1 == 1 and can1_mc_sara_night_scene1_v1 == True and can2_mc_sara_night_scene1_v1 == True and Sara_points == 1:
         imagebutton:
             xpos 26
@@ -35,7 +34,7 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/bed_night_idle1.png"
             hover "images/home/mc_room/night/bed_night_hover1.png"
-            hovered Show("displayTextScreen", displayText = __("Bed"))
+            hovered Show("displayTextScreen", displayText = "Bed")
             clicked [Hide("displayTextScreen"), Jump("mc_sara_night_scene1_v1_label")]
             unhovered Hide("displayTextScreen")
 
@@ -46,7 +45,7 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/bed_night_idle1.png"
             hover "images/home/mc_room/night/bed_night_hover1.png"
-            hovered Show("displayTextScreen", displayText = __("Bed"))
+            hovered Show("displayTextScreen", displayText = "Bed")
             clicked [Hide("displayTextScreen"), Show("sms3_from_sara")]
             unhovered Hide("displayTextScreen")
 
@@ -58,7 +57,7 @@ screen mc_room_night:
             idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
             hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
             action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
-            hovered Show("displayTextScreen", displayText = __("Secret Card"))
+            hovered Show("displayTextScreen", displayText = "Secret Card")
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -67,10 +66,9 @@ screen mc_room_night:
         focus_mask True
         idle "images/home/mc_room/night/s_gallery.png"
         hover "images/home/mc_room/night/s_gallery_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Secret Gallery"))
+        hovered Show("displayTextScreen", displayText = "Secret Gallery")
         action [Hide("displayTextScreen"), Show("secret_gallery"),]
         unhovered Hide("displayTextScreen")
-
     if Neighboor_spy_mc_room == True:
         imagebutton:
             xpos 384
@@ -78,10 +76,9 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/window_night.png"
             hover "images/home/mc_room/night/window_night_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Window"))
+            hovered Show("displayTextScreen", displayText = "Window")
             action [Hide("displayTextScreen"), Jump("neighboor_spy_v1_label"),]
             unhovered Hide("displayTextScreen")
-
     if ml_mc_room_night_scene3 == True and ml_points == 1 and SR2_ML == True:
         imagebutton:
             xpos 349
@@ -90,12 +87,11 @@ screen mc_room_night:
             idle "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1.png"
             hover "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1_hover.png"
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             clicked [Hide("displayTextScreen"),Jump("ml_mc_room_night_scene3_v1_label")]
             unhovered Hide("displayTextScreen")
-
     if ml_mc_room_night_scene3 == True and ml_points >= 2 and MLR2_Sleep == False:
         imagebutton:
             xpos 349
@@ -104,7 +100,7 @@ screen mc_room_night:
             idle "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1.png"
             hover "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1_hover.png"
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = __("Mom"))
+                hovered Show("displayTextScreen", displayText = "Mom")
             if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             clicked [Hide("displayTextScreen"),Jump("ml_mc_room_night_scene3_v1_label")]
@@ -143,6 +139,17 @@ screen mc_room_night:
             action [Hide("displayTextScreen"),Jump("SR2_NS4_label")]
             unhovered Hide("displayTextScreen")
 
+    if max_r_points == True:
+        imagebutton:
+            xpos 1860
+            ypos 120
+            focus_mask True
+            idle Transform("images/game_gui/Max_R_Points/7.png", zoom=.4)
+            hover Transform("images/game_gui/Max_R_Points/7a.png", zoom=.4)
+
+            action [Hide("displayTextScreen"), Show("max_r_points_menu_scr"),]
+            unhovered Hide("displayTextScreen")
+
     if inventory.money < 10:
         imagebutton:
             xpos 14
@@ -150,10 +157,9 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/b1.png"
             hover "images/home/mc_room/night/b1_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Money"))
+            hovered Show("displayTextScreen", displayText = "Money")
             action [Hide("displayTextScreen"), Jump("money_less10"),]
             unhovered Hide("displayTextScreen")
-
 screen mc_room_night_notclickable:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -168,12 +174,16 @@ screen mc_room_night_notclickable:
         focus_mask True
         idle "images/home/mc_room/night/door1_night_idle.png"
 
+
+
+
     if not "img4_mc_room_card" in gallery_photos.storage:
         imagebutton:
             xpos 23
             ypos 906
             focus_mask True
             idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+
 
     imagebutton:
         xpos 1493
@@ -235,3 +245,9 @@ screen mc_room_night_notclickable:
             ypos 670
             focus_mask True
             idle "images/home/mc_room/night/b1.png"
+    if max_r_points == True:
+        imagebutton:
+            xpos 1860
+            ypos 120
+            focus_mask True
+            idle Transform("images/game_gui/Max_R_Points/7.png", zoom=.4)

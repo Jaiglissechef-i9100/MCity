@@ -1,3 +1,6 @@
+
+
+
 label Z_ES3_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -135,6 +138,7 @@ label Z_ES3_rep:
                     jump pc_icon_label
                 "Could you give me a footjob?":
 
+
                     MC "I’ll go for the footjob."
                     Zuri "Mmm... Good choice. Go ahead and take your trousers off, then lie back on the bed."
 
@@ -144,12 +148,14 @@ label Z_ES3_rep:
                     Zuri "It REALLY is! I hope he’s going to enjoy us rubbing our feet ALL over it."
                     MC "(Twins rubbing their feet over my cock? It’s my lucky day!)"
 
+
                     scene Zv2_ES3foot_p2
 
                     Suri "And here we go. Hehe! I can feel it twitching beneath my toes!"
                     scene Zv2_ES3foot_p2anim
                     Suri "I think he’s enjoying this!"
                     MC "Mmm! Oh yeah..."
+
 
                     scene Zv2_ES3foot_p3
 
@@ -241,6 +247,8 @@ label Z_ES3_rep:
             Suri "Yeah, you really came through, kid. You’re gonna make us super rich!"
             MC "I get another reward now, right?"
             Suri "Hehe... You do. I believe we promised you a blowjob."
+
+
 
             scene Zv2_ES3lick_p1
             Suri "Mmm, I can’t wait to suck on his cock. It looked sooo delicious, last time we did it!"

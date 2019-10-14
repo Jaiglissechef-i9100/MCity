@@ -8,11 +8,11 @@ screen garage_evening:
         hover "images/home/garage/morning/Garage_door_exit_hover.png"
         if clickable == True and MLR2_ES3 == False:
 
-            hovered Show("displayTextScreen", displayText = __("Entrance"))
+            hovered Show("displayTextScreen", displayText = "Entrance")
             action [Play ("sound", "sfx/garage door.mp3"),Jump("entrance2_evening1")]
             unhovered Hide("displayTextScreen")
         if clickable == True and MLR2_ES3 == True:
-            hovered Show("displayTextScreen", displayText = __("Entrance"))
+            hovered Show("displayTextScreen", displayText = "Entrance")
             action [Hide("displayTextScreen"),Jump("MLR2_ES3_cantleave_label")]
             unhovered Hide("displayTextScreen")
 
@@ -24,9 +24,10 @@ screen garage_evening:
             idle "images/secret_gallery/Bonus/Garage SecretCard.png"
             hover "images/secret_gallery/Bonus/Garage SecretCard_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                action [Hide("displayTextScreen"),addgimage("img1_garage_card"), Jump("garage_card")]
-                unhovered Hide("displayTextScreen")
+                if clickable == True:
+
+                    action [Hide("displayTextScreen"),addgimage("img1_garage_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if not "img21_sec_card" in gallery_photos.storage:
         imagebutton:
@@ -58,6 +59,18 @@ screen garage_evening:
             idle "images/home/garage/morning/b1.png"
             hover "images/home/garage/morning/b1_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Car"))
+                hovered Show("displayTextScreen", displayText = "Car")
                 action [Hide("displayTextScreen"),Jump("MLR2_ES3_label")]
+                unhovered Hide("displayTextScreen")
+
+    if crowbar not in inventory.items:
+        imagebutton:
+            xpos 1379
+            ypos 298
+            focus_mask True
+            idle "images/home/garage/morning/b2.png"
+            hover "images/home/garage/morning/b2_hover.png"
+            if clickable == True:
+                hovered Show("displayTextScreen", displayText = "Crowbar")
+                action [Hide("displayTextScreen"),addItem(crowbar)]
                 unhovered Hide("displayTextScreen")

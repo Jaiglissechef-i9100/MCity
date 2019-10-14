@@ -40,7 +40,7 @@ label celia_school_morning_scene1bv1_label:
     MC "Count me in!"
     Celia "Excellent! Please, take this. It’s my address. I want you to come over."
     Celia "I’m usually at home in the evening... No, make it at night."
-    Celia "Mr husband’s away on a business trip, so we’ll sit down and hammer out a solid strategy for catching this prick."
+    Celia "My husband’s away on a business trip, so we’ll sit down and hammer out a solid strategy for catching this prick."
     MC "Cool. See you later on then, Mrs. Celia."
     Celia "Goodbye, [player_name]."
     show relationship_plus

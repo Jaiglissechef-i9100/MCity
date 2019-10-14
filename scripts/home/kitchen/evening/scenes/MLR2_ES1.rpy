@@ -13,6 +13,7 @@ image MLR2_ES1_p7 = "images/home/kitchen/evening/scenes/MLR2_ES1/7.jpg"
 image MLR2_ES1_p8 = "images/home/kitchen/evening/scenes/MLR2_ES1/8.jpg"
 image MLR2_ES1_p9 = "images/home/kitchen/evening/scenes/MLR2_ES1/9.jpg"
 
+
 label MLR2_ES1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Fork_and_Spoon.mp3', channel="music1", loop=True, fadein = 2)
@@ -43,6 +44,7 @@ label MLR2_ES1_label:
         "Wrap your hands around Linda’s waist." if not renpy.loadable("patch.rpy"):
             jump MLR2_ES1_waist
 
+
 label MLR2_ES1_grab_ass:
     scene MLR2_ES1_p2a
 
@@ -70,6 +72,7 @@ label MLR2_ES1_grab_ass:
     Mom "Sorry. That bastard is just, ALWAYS looking for sex when he hasn’t even finished the housework I gave him to do!"
     jump after_menu_MLR2_ES1_label
 
+
 label MLR2_ES1_waist:
     scene MLR2_ES1_p2b
 
@@ -95,6 +98,8 @@ label MLR2_ES1_waist:
     Mom "No, don’t apologise! You didn’t do anything wrong!"
     Mom "Sorry, that bastard is just ALWAYS looking for sex when he hasn’t even finished the housework I gave him to do!"
     jump after_menu_MLR2_ES1_label
+
+
 
 label after_menu_MLR2_ES1_label:
     scene MLR2_ES1_p3

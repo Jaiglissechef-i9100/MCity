@@ -46,7 +46,7 @@ screen Li_car_scr:
             hover "/images/a_home/outside/Garage/M/scenes/Li_Car/B1b_hover.png"
             if clickable == True:
                 activate_sound "sfx/car_door.wav"
-                hovered Show("displayTextScreen", displayText = __("Open"))
+                hovered Show("displayTextScreen", displayText = "Open")
                 action [Hide("Li_car_scr"),Hide("displayTextScreen"),Jump("Li_car_label2")]
                 unhovered Hide("displayTextScreen")
 
@@ -59,7 +59,7 @@ screen Li_car_scr:
             hover "/images/a_home/outside/Garage/M/scenes/Li_Car/B1a_hover.png"
             if clickable == True:
                 activate_sound "sfx/car_door.wav"
-                hovered Show("displayTextScreen", displayText = __("Open"))
+                hovered Show("displayTextScreen", displayText = "Open")
                 action [Hide("Li_car_scr"),Hide("displayTextScreen"),Jump("Li_car_label2")]
                 unhovered Hide("displayTextScreen")
 
@@ -84,7 +84,7 @@ screen Li_car_scr2:
                 idle "/images/a_home/outside/Garage/M/scenes/Li_Car/B2b.png"
                 hover "/images/a_home/outside/Garage/M/scenes/Li_Car/B2b_hover.png"
                 if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Money"))
+                    hovered Show("displayTextScreen", displayText = "Money")
                     action [Hide("displayTextScreen"),Jump("Li_car_label_money")]
                     unhovered Hide("displayTextScreen")
         else:
@@ -96,7 +96,7 @@ screen Li_car_scr2:
                 idle "/images/a_home/outside/Garage/M/scenes/Li_Car/B2a.png"
                 hover "/images/a_home/outside/Garage/M/scenes/Li_Car/B2a_hover.png"
                 if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Money"))
+                    hovered Show("displayTextScreen", displayText = "Money")
                     action [Hide("displayTextScreen"),Jump("Li_car_label_money")]
                     unhovered Hide("displayTextScreen")
     if clickable == True:

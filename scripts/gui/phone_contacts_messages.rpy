@@ -4,11 +4,14 @@ init -2 python:
     import renpy.exports as renpy 
     from operator import attrgetter 
 
+
     sms = None
     con_page = 0
 
 
 default Zuri_unread_alert = True
+
+
 
 screen contact_screen:
     key "hide_windows" action NullAction()
@@ -61,10 +64,17 @@ screen contact_screen:
             if contact.name == "Zuri" and Zuri_unread_alert == False:
                 add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
 
+            if contact.name == "Celia":
+                imagebutton idle c_pic hover c_hover xpos x_c ypos y_c action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable("Contact", Contact), SetVariable("Ce_unread_alert", True),Hide("contact_screen"), Show("m_from_Celia"), ] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
+            if contact.name == "Celia" and Ce_unread_alert == False:
+                add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
+
         $ i_c += 1
         if len(inventory.contact)>1:
             imagebutton idle Transform("images/game_gui/phone/sms/Arrow_Right.png", zoom=.7) hover Transform("images/game_gui/phone/sms/Arrow_Right_Hover.png", zoom=.7) xalign 0.559 yalign 0.69 focus_mask True action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable('con_page', next_con_page), Show("contact_screen")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
             imagebutton idle Transform("images/game_gui/phone/sms/Arrow_Left.png", zoom=.7) hover Transform("images/game_gui/phone/sms/Arrow_Left_Hover.png", zoom=.7) xalign 0.439 yalign 0.69 focus_mask True action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable('con_page', prev_con_page), Show("contact_screen")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
+
+
 
 screen m_from_Linda:
     key "hide_windows" action NullAction()
@@ -437,6 +447,68 @@ screen new_message_incoming1:
         timer 2.25 action [SetVariable("C_SMS5",False),]
         timer 2.26 action [Hide ("new_message_incoming1")]
 
+    if C_SMS6 == True and day_time == 1:
+        imagebutton:
+            xpos 1600
+            ypos 400
+            idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
+            hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
+        if not sms_Caroline11 in sms_box.sms_s:
+
+            timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline12),addSms(sms_Caroline11),Show("new_message_incoming1_NC")]
+        timer 2.25 action [SetVariable("C_SMS6",False),]
+        timer 2.26 action [Hide ("new_message_incoming1")]
+
+    if Ce_sms1 == True and day_time == 4:
+        imagebutton:
+            xpos 1600
+            ypos 400
+            idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
+            hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
+        if not sms_Celia1 in sms_box.sms_s:
+
+            timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia1),addSms(sms_Celia2),Show("new_message_incoming1_NC")]
+        timer 2.25 action [SetVariable("Ce_sms1",False),]
+        timer 2.26 action [Hide ("new_message_incoming1")]
+
+    if Ce_sms2 == True and day_time == 2:
+        imagebutton:
+            xpos 1600
+            ypos 400
+            idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
+            hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
+        if not sms_Celia4 in sms_box.sms_s:
+
+            timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia4),Show("new_message_incoming1_NC")]
+        timer 2.25 action [SetVariable("Ce_sms2",False),]
+        timer 2.26 action [Hide ("new_message_incoming1")]
+
+    if Ce_sms3 == 3:
+        imagebutton:
+            xpos 1600
+            ypos 400
+            idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
+            hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
+        if not sms_Celia5 in sms_box.sms_s:
+
+            timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"),addSms(sms_Celia5),addSms(sms_Celia6),Show("new_message_incoming1_NC"),]
+        timer 2.25 action [SetVariable("Ce_sms3",False),]
+        timer 2.26 action [Hide ("new_message_incoming1"),]
+
+    if Ce_sms4 == True and day_time == 1:
+        imagebutton:
+            xpos 1600
+            ypos 400
+            idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
+            hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
+        if not sms_Celia3 in sms_box.sms_s:
+
+            timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia3),addSms(sms_Celia7),Show("new_message_incoming1_NC")]
+        timer 2.25 action [SetVariable("Ce_sms4",False),]
+        timer 2.26 action [Hide ("new_message_incoming1")]
+
+
+
 screen new_message_incoming1_NC:
 
     key "hide_windows" action NullAction()
@@ -445,7 +517,8 @@ screen new_message_incoming1_NC:
 
     if S_end_content == True and Sara_points == 3:
         on "show" action Show("S_end_content_scr")
-
+    if Ce_end_content == True and Celia_points == 3:
+        on "show" action Show("Ce_end_content_scr")
     zorder 103
     modal True
     timer 2.26 action Hide ("new_message_incoming1_NC")
@@ -455,6 +528,7 @@ screen new_message_incoming1_NC:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action NullAction()
+
 
 transform phone_pickup:
     xpos 1700 ypos 550

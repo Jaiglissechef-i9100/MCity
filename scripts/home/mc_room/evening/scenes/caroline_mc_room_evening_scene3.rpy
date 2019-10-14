@@ -31,7 +31,6 @@ image caroline_mc_room_evening_scene3_p28 = "images/home/mc_room/evening/scenes/
 image caroline_mc_room_evening_scene3_p14anim = Movie(play="videos/Caroline-EveningS3-Violet2.webm", loop = True )
 image caroline_mc_room_evening_scene3_p21anim = Movie(play="videos/Caroline-EveninS3-3.webm", loop = True )
 image caroline_mc_room_evening_scene3_p24anim = Movie(play="videos/Caroline-EveninS3-2.webm", loop = True )
-
 label caroline_mc_room_evening_scene3_label:
     hide screen week_day_viewer
     hide screen time_skip_button

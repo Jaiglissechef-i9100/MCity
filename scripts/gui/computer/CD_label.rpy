@@ -11,6 +11,7 @@ image installing_software:
 
 image CD_deskop = "images/game_gui/pc/cd/CD_deskop.png"
 
+
 label CD_label:
     scene main_deskop
     show screen main_deskop_pcv1
@@ -26,7 +27,6 @@ label WebCam_Software_install_label:
     $ inventory.drop(web_cam_cd)
     $ live_camera_instaled = True
     jump CD_label
-
 screen WebCam_Software_install_screen:
     key "hide_windows" action NullAction()
     modal True
@@ -36,6 +36,7 @@ screen WebCam_Software_install_screen:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
     timer 1.57 action Hide ("WebCam_Software_install_screen")
+
 
 screen CD_screen:
     key "hide_windows" action NullAction()

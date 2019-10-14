@@ -12,7 +12,6 @@ label caroline_salon_evening_scene1_label:
         show screen salon_evening_notclickable
         MC "I've already talked to her."
         jump salon_morning1
-
     if caroline_salon_can_evening_scene1 == True:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)

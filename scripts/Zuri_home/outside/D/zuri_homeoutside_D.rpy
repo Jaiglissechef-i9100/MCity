@@ -1,3 +1,5 @@
+
+
 label zuri_homeoutside_D1:
     $ can_hide_windows = False
     hide screen displayTextScreen

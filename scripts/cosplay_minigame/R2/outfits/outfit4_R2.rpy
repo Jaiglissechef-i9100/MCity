@@ -1,3 +1,4 @@
+
 image outfit4_R2_p1 = "images/cosplay_minigame/R2/4/1.jpg"
 image outfit4_R2_p2a = "images/cosplay_minigame/R2/4/2a.jpg"
 image outfit4_R2_p2b = "images/cosplay_minigame/R2/4/2b.jpg"
@@ -132,6 +133,10 @@ label outfit4_R2_rotate1:
     Caroline "Sure."
     jump outfit4_R2_label2
 
+
+
+
+
 label outfit4_R2_label2:
     scene outfit4_R2_p3 with dissolve
     if cosplay_pic_count == 4:
@@ -145,6 +150,7 @@ label outfit4_R2_label2:
             $ CR2_AS2 = True
         call screen cosplay_menu_score_screen
     call screen outfit4_scr2
+
 
 screen outfit4_scr2:
     imagebutton:
@@ -188,6 +194,8 @@ screen outfit4_scr2:
         idle "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/Rotate.png"
         hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/RotateHover.png"
         action [Hide("displayTextScreen"), Jump("outfit4_R2_rotate2"),]
+
+
 
 label outfit4_R2_down2:
     scene outfit4_R2_p3a

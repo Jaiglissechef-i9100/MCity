@@ -59,10 +59,6 @@ image before_intro3a = "/images/intro/before/3a.jpg"
 image before_intro3b = "/images/intro/before/3b.jpg"
 image before_intro4 = "/images/intro/before/4.jpg"
 define flash = Fade(.25, 0.0, .75, color="#fff")
-
-default Students_name = "Students"
-default Mom_name = "Mom"
-
 define Judy = Character("[Judy_name]", color="#993333")
 define MC = Character("[player_name]", color="#3366FF")
 define Sara = Character("[Sara_name]", color="#00FFCC")
@@ -350,8 +346,6 @@ label after_q2_intro:
     MC "(I think she’s already started walking, ten minutes ago. I shouldn’t have spent so long in the shower!)"
 
     scene intro20
-    if renpy.loadable("patch.rpy"):
-        $ Mom_name = __("Mom")
     if not renpy.loadable("patch.rpy"):
         $ Mom_name = "Linda"
     Mom "Where are you rushing off to?"
@@ -488,10 +482,6 @@ label after_choice1_intro:
     Celia "Hehehehe!"
 
     show intro31 with hpunch
-    if renpy.loadable("patch.rpy"):
-        $ Students_name = __("Students")
-    if not renpy.loadable("patch.rpy"):
-        $ Students_name = __("Students")
     Students "Did he just ask her out?!"
     Students "Oh, my God! He did!"
     Students "I’d be mortified if that happened to me!"

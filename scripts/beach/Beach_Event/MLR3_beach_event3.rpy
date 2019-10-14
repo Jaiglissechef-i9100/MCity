@@ -92,6 +92,7 @@ label MLR3_beach_event3:
             $ can_hide_windows = False
             jump beach_M1
 
+
 label MLR3_beach_ice:
 
     hide screen week_day_viewer
@@ -217,7 +218,6 @@ label MLR3_beach_sun:
     MC "(I love the way her skin glistens in the sunlight.)"
     MC "(Now, where should I start applying the suncream?)"
     jump MLR3_beach_sun_menu
-
 label MLR3_beach_sun_menu:
     scene MLR3_beach_sun_p5
     menu:

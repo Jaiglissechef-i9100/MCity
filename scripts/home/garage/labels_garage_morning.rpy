@@ -11,6 +11,7 @@ label garage_morning1:
 
 label garage_morning2:
     $ can_hide_windows = False
+    $ can_map = False
     hide screen displayTextScreen
     hide screen entrance2_morning
     scene garage_morning

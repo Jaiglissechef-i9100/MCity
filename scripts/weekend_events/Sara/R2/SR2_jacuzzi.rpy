@@ -161,7 +161,6 @@ label SR2_jacuzzi_scene_label:
             jump after_menu_SR2_jacuzzi_scene_label
         "Wait for her move.":
 
-
             scene SR2_weekend_jacuzzi_p4
 
             Sara "[player_name], I want you to… It’s embarrassing... Nevermind."
@@ -189,6 +188,7 @@ label SR2_jacuzzi_scene_label:
             MC "See, smaller breasts like yours are MUCH more sensitive."
             Sara "Mmm… I’m glad they’re smaller now."
             jump after_menu_SR2_jacuzzi_scene_label
+
 
 label after_menu_SR2_jacuzzi_scene_label:
     scene SR2_weekend_jacuzzi_p9
@@ -389,6 +389,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             Sara "Yuck! (I almost got it in my eye!)"
             jump after_menu2_SR2_jacuzzi_scene_label
 
+
 label after_menu2_SR2_jacuzzi_scene_label:
     scene SR2_weekend_jacuzzi_p9
 
@@ -504,6 +505,8 @@ label after_menu2_SR2_jacuzzi_scene_label:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
+
+
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -558,6 +561,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -571,6 +575,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -612,7 +617,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 2:
         $ week_day += 1
         $ day_time = 1
@@ -628,7 +632,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 3:
         $ week_day += 1
         $ day_time = 1
@@ -644,7 +647,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 4:
         $ week_day += 1
         $ day_time = 1
@@ -660,7 +662,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 5:
         $ week_day = 1
         $ day_time = 1
@@ -676,7 +677,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 6:
         $ week_day = 1
         $ day_time = 1
@@ -692,7 +692,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
-
     if week_day == 7:
         $ week_day = 1
         $ day_time = 1

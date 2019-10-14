@@ -1,3 +1,5 @@
+
+
 label Z_ES2_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -24,6 +26,7 @@ label Z_ES2_rep:
 
     Suri "You can do whatever you want with my tits, [player_name]."
     MC "(This is gonna be awesome!)"
+
 
     scene Z_ES2_p3
 

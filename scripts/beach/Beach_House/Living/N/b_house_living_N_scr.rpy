@@ -10,7 +10,7 @@ screen b_house_living_N_scr:
         hover "images/Beach/Beach_House/Living/N/B1_hover.png"
         if clickable == True:
             action [Play("sound", "sfx/door_open.mp3"),Jump("b_house_bedroom_M1")]
-        hovered Show("displayTextScreen", displayText = __("Bedroom"))
+        hovered Show("displayTextScreen", displayText = "Bedroom")
         unhovered Hide("displayTextScreen")
 
     if clickable == True and MLR3_beach_event == False:

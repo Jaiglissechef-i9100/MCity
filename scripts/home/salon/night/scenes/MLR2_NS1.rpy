@@ -11,7 +11,6 @@ image MLR2_NS1_p1a = "images/home/salon/night/scenes/MLR2_NS1/1a.jpg"
 image MLR2_NS1_p2a = "images/home/salon/night/scenes/MLR2_NS1/2a.jpg"
 
 default MLR2_NS1_counter = 1
-
 label MLR2_NS1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Marty_Gots_a_Plan.mp3', channel="music1", loop=True, fadein = 2)
@@ -20,8 +19,8 @@ label MLR2_NS1_label:
     hide screen day_time_viewer
     hide screen map_button
     if renpy.loadable("patch.rpy"):
-        $ Linda_name = __("Mom")
-        $ Liza2_name = __("Auntie")
+        $ Linda_name = "Mom"
+        $ Liza2_name = "Auntie"
     else:
         $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
@@ -71,7 +70,7 @@ label MLR2_NS1_label:
     if MLR2_NS1_counter == 1 and MLR2_Sleep == True:
         scene MLR2_NS1_p1 with dissolve
         if renpy.loadable("patch.rpy"):
-            $ Dad_name = __("Dad")
+            $ Dad_name = "Dad"
         else:
             $ Dad_name = "Bob"
         if renpy.loadable("patch.rpy"):

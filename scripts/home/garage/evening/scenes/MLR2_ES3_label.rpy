@@ -37,8 +37,10 @@ image MLR2_ES3_p28 = "images/home/garage/evening/scenes/MLR2_ES3/28.jpg"
 image MLR2_ES3_p29 = "images/home/garage/evening/scenes/MLR2_ES3/29.jpg"
 image MLR2_ES3_p30 = "images/home/garage/evening/scenes/MLR2_ES3/30.jpg"
 
+
 image resteurant_background = "images/home/garage/evening/scenes/MLR2_ES3/background.jpg"
 image dish_menu_bg = "images/home/garage/evening/scenes/MLR2_ES3/Dish Select/1.jpg"
+
 
 image MLR2_ES3__footjobp1 = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/1.jpg"
 image MLR2_ES3__footjobp2 = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/2.jpg"
@@ -51,6 +53,8 @@ image MLR2_ES3__footjobp7 = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/
 image MLR2_ES3__footjobp8 = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/8.jpg"
 image MLR2_ES3__footjobp8a = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/8a.jpg"
 image MLR2_ES3__footjobp9 = "images/home/garage/evening/scenes/MLR2_ES3/Footjob/9.jpg"
+
+
 
 image MLR2_ES3__blowjobp0 = "images/home/garage/evening/scenes/MLR2_ES3/Blowjob/0.jpg"
 image MLR2_ES3__blowjobp1 = "images/home/garage/evening/scenes/MLR2_ES3/Blowjob/1.jpg"
@@ -116,6 +120,7 @@ label MLR2_ES3_label:
     else:
         MC "(Okay - time to meet Linda in the garage.)"
 
+
     scene black
     $ renpy.sound.play('sfx/door_open.mp3', loop=False)
     $ renpy.pause(3,hard = True)
@@ -134,6 +139,7 @@ label MLR2_ES3_label:
     MC "Wow!"
     Mom "What do you think? Like my dress?"
     MC "Hell yeah! It’s amazing!"
+
 
     scene MLR2_ES3_p3
     if renpy.loadable("patch.rpy"):
@@ -159,6 +165,7 @@ label MLR2_ES3_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     scene black
     $ renpy.pause(3,hard = True)
+
 
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
     scene MLR2_ES3_p6
@@ -191,6 +198,7 @@ label MLR2_ES3_label:
         MC "Alright. Thanks, Linda. Sorry I was so nervous."
     Mom "It’s alright, Sweetie. Just let me lead the way."
 
+
     $ renpy.music.stop(channel="music2", fadeout=1)
     scene black
     $ renpy.pause(3,hard=True)
@@ -218,6 +226,7 @@ label resteurant_label:
     $ can_hide_windows = False
     call screen resteurant_scr
 
+
 screen resteurant_scr:
 
     imagebutton:
@@ -226,9 +235,10 @@ screen resteurant_scr:
         focus_mask True
         idle "images/home/garage/evening/scenes/MLR2_ES3/b2.png"
         hover "images/home/garage/evening/scenes/MLR2_ES3/b2_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Free Table"))
+        hovered Show("displayTextScreen", displayText = "Free Table")
         action [Hide("displayTextScreen"),Jump("resteurant_table_label")]
         unhovered Hide("displayTextScreen")
+
 
 label resteurant_table_label:
     hide screen week_day_viewer
@@ -259,6 +269,7 @@ label dish_menu_label:
     $ can_hide_windows = False
     call screen dish_menu_scr
 
+
 screen dish_menu_scr:
     imagebutton:
         xpos 185
@@ -279,6 +290,7 @@ screen dish_menu_scr:
         action [Hide("displayTextScreen"),Jump("dish2_label")]
         unhovered Hide("displayTextScreen")
 
+
     imagebutton:
         xpos 1144
         ypos 223
@@ -289,6 +301,7 @@ screen dish_menu_scr:
         action [Hide("displayTextScreen"),Jump("dish3_label")]
         unhovered Hide("displayTextScreen")
 
+
     imagebutton:
         xpos 1144
         ypos 628
@@ -298,6 +311,7 @@ screen dish_menu_scr:
 
         action [Hide("displayTextScreen"),Jump("dish4_label")]
         unhovered Hide("displayTextScreen")
+
 
 label dish1_label:
     $ dish_select = 1
@@ -311,6 +325,7 @@ label dish3_label:
 label dish4_label:
     $ dish_select = 4
     jump MLR2_ES3_continue_label
+
 
 label MLR2_ES3_continue_label:
     scene MLR2_ES3_p14
@@ -376,6 +391,8 @@ label MLR2_ES3_continue_label:
             $ renpy.pause(2,hard=True)
             jump after_menu_MLR2_ES3_continue_label
 
+
+
 label after_menu_MLR2_ES3_continue_label:
     if dish_select == 1:
         scene MLR2_ES3_p17a
@@ -437,6 +454,7 @@ label after_menu_MLR2_ES3_continue_label:
         MC "Ahh, I’ll remember that for future."
         Mom "Don’t worry - it’s nice to be pushed out of my comfort zone every now and then."
 
+
     scene MLR2_ES3_p19
 
     Mom "Thank you for joining me tonight, [player_name]."
@@ -494,6 +512,9 @@ label after_menu_MLR2_ES3_continue_label:
 
         "{color=#ff8000}Try to stop Linda from rubbing her feet on your cock.{/color}{color=#00ff00}(Different event.){/color} " if not renpy.loadable("patch.rpy"):
             jump MLR2_ES3_blowjob_label
+
+
+
 
         "{color=#ff8000}Let Mom give you a footjob under the table.{/color} {color=#00ff00}(Different event.){/color}" if renpy.loadable("patch.rpy"):
             jump MLR2_ES3_footjob_label
@@ -598,6 +619,7 @@ label MLR2_ES3_footjob_label:
     Mom "That’s because I’m driving - Safety first, Dear."
     jump MLR2_ES3_end_label
 
+
 label MLR2_ES3_blowjob_label:
 
     scene MLR2_ES3__blowjobp0
@@ -641,10 +663,7 @@ label MLR2_ES3_blowjob_label:
     Mom "Haha! Who said anything about a handjob?"
 
     scene MLR2_ES3__blowjobp4
-    if renpy.loadable("patch.rpy"):
-        $ Waiter = __("Waiter")
-    if not renpy.loadable("patch.rpy"):
-        $ Waiter = __("Waiter")
+
     Mom "(Shlurrrrp!)"
     MC "Ahh!"
     Waiter "Is everything alright, Sir?"
@@ -729,6 +748,7 @@ label MLR2_ES3_blowjob_label:
     Mom "Honestly - that just makes it even hotter for me."
     jump MLR2_ES3_end_label
 
+
 label MLR2_ES3_end_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music1", loop=True, fadein = 2)
@@ -756,6 +776,7 @@ label MLR2_ES3_end_label:
     Mom "No."
     MC "Did- Is this about me not bringing flowers or chocolates? I swear to God, I didn't know if this was supposed to be a date or not."
 
+
     scene MLR2_ES3_p28
 
     Mom "It’s not that."
@@ -765,6 +786,8 @@ label MLR2_ES3_end_label:
         Mom "Bob is at home right now. The date ends as soon as we get home."
     MC "(So it WAS a date!)"
     MC "Hey, that’s okay."
+
+
 
     MC "We’ll have loads more dates together, in the future."
     if renpy.loadable("patch.rpy"):

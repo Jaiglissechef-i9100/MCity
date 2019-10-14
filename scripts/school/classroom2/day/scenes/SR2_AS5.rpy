@@ -6,6 +6,8 @@ image SR2_AS5_p5 = "images/school/classroom2/day/scenes/SR2_AS5/5.jpg"
 image SR2_AS5_p6 = "images/school/classroom2/day/scenes/SR2_AS5/6.jpg"
 image SR2_AS5_p7 = "images/school/classroom2/day/scenes/SR2_AS5/7.jpg"
 
+
+
 label SR2_AS5_label:
     if can_SR2_AS5 == False:
         $ clickable = False

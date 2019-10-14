@@ -12,10 +12,6 @@ label SR2_AS3_vibrator_label:
     hide screen map_button
 
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
-        $ S = __("Saleswoman")
-    if not renpy.loadable("patch.rpy"):
-        $ S = __("Saleswoman")
 
     if SR2_AS3_v_loop == True:
         if inventory.money >= 80:
@@ -80,6 +76,7 @@ label SR2_AS3_vibrator_label:
         MC "(Jesus Christ… That thing’s massive!)"
         MC "I… uh…"
         S "Here, hold it!"
+
 
         scene SR2_AS3_vibrator_p5
 

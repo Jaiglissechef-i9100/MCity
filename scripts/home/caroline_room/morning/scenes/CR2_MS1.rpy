@@ -9,6 +9,7 @@ image CR2_MS1_p5b = "/images/home/caroline_room/morning/scenes/CR2_MS1/5b.jpg"
 image CR2_MS1_p5c = "/images/home/caroline_room/morning/scenes/CR2_MS1/5c.jpg"
 image CR2_MS1_p5d = "/images/home/caroline_room/morning/scenes/CR2_MS1/5d.jpg"
 
+
 label CR2_MS1_label:
     if can_CR2_MS1 == False:
         hide screen map_button
@@ -43,6 +44,7 @@ label CR2_MS1_label:
         MC "What’s the book?"
         Caroline "It’s a romance novel. A girl comes to work in a factory in Detroit, but soon finds herself seduced by the muscular supervisor."
         MC "It sounds like a real piece of literature..."
+
 
         scene CR2_MS1_p4a
 

@@ -28,6 +28,7 @@ image ML_NS_sleep_foot_p24 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/Fo
 image ML_NS_sleep_foot_p24anim = Movie(play="videos/05 Linda NV-4.webm", loop = True )
 image ML_NS_sleep_foot_p24a = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/Footjob/24a.jpg"
 
+
 label ML_NS_sleep_foot_job_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
@@ -114,6 +115,7 @@ label ML_NS_sleep_foot_job_label:
     MC "Ah…"
     Mom "Does that feel good for you?"
 
+
     scene ML_NS_sleep_foot_p14
 
     MC "Uh huh… so good, [Mom_name]."
@@ -192,6 +194,7 @@ label ML_NS_sleep_foot_job_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene ML_NS_sleep_foot_p24a with dissolve
+
 
     MC "*Pant Pant*"
     MC "Wow… that was… *pant* ...amazing."

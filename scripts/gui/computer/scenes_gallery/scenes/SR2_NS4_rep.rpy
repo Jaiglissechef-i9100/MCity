@@ -1,3 +1,5 @@
+
+
 label SR2_NS4_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -75,6 +77,7 @@ label SR2_NS4_rep:
     Sara "(I’m so close to just giving… everything to him right now.)"
     Sara "(Does he even know how good he makes me feel?)"
 
+
     scene SR2_NS4_p9
 
     Sara "Wow… That was amazing!"
@@ -88,6 +91,7 @@ label SR2_NS4_rep:
     Sara "(Damn… My nerves are starting to kick off again. I shouldn’t be so scared about this.)"
     Sara "(I mean, I’ve already done it before! And this time it should be easier - we have the lube, after all.)"
     MC "(I get so hard every time I see her perky tits. They’re unbelievable!)"
+
 
     scene SR2_NS4_p12
 
@@ -243,6 +247,7 @@ label SR2_NS4_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
 
+
     MC "Just like this?"
     Sara "Yeah, that feels a little better already."
     MC "(I can’t wait til I get to fuck her pussy someday. It’s so gorgeous.)"
@@ -361,6 +366,7 @@ label SR2_NS4_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     window hide
     scene black
+
 
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music1", loop=True, fadein = 2)
 

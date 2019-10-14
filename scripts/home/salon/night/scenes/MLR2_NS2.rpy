@@ -41,9 +41,7 @@ image MLR2_NS2_p31 = "images/home/salon/night/scenes/MLR2_NS2/31.jpg"
 image MLR2_NS2_p32 = "images/home/salon/night/scenes/MLR2_NS2/32.jpg"
 image MLR2_NS2_p33 = "images/home/salon/night/scenes/MLR2_NS2/33.jpg"
 image MLR2_NS2_p34 = "images/home/salon/night/scenes/MLR2_NS2/34.jpg"
-
 default can_MLR2_MS1_ES3 = False
-
 label MLR2_NS2_label:
     $ can_hide_windows = True
     scene MLR2_NS2_p1
@@ -257,6 +255,7 @@ label MLR2_NS2_label:
     Dad "(Snoooore…)"
     MC "(She’s pulling my head in, right now!)"
 
+
     scene MLR2_NS2_p26a
 
     Mom "Oh! Oh! Oh!"
@@ -302,6 +301,7 @@ label MLR2_NS2_label:
         MC "(Damn, she’s writhing and thrashing all over the bed! I’m surprised Dad hasn’t woken up!)"
     else:
         MC "(Damn, she’s writhing and thrashing all over the bed! I’m surprised Bob hasn’t woken up!)"
+
 
     scene MLR2_NS2_p31
 

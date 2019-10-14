@@ -1,3 +1,5 @@
+
+
 label cloth_shop_window_unlock_label:
     hide screen map_button
     $ clickable = False
@@ -15,6 +17,5 @@ label cloth_shop_window_unlock_label:
             $ clickable = True
             jump cloth_shop_room2_label
         "No.":
-
             $ clickable = True
             jump cloth_shop_room2_label

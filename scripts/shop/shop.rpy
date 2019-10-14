@@ -1,6 +1,9 @@
 image shop_map = "images/shop/ShopMap.jpg"
 image shop_shelf = "images/shop/ShopShelf.jpg"
 
+
+
+
 label shop_label:
     if day_time == 1:
         hide screen map
@@ -15,7 +18,7 @@ label shop_label:
         MC "Closed. It's open only at the morning and in the afternoon."
         jump map_label
 
-screen shop_closed_screen:
+screen shop_closed_screen():
     key "hide_windows" action NullAction()
     zorder 103
     modal True
@@ -25,6 +28,7 @@ screen shop_closed_screen:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("shop_closed_screen"),Jump("map_label")]
+
 
 label shop_open_label:
     scene shop_map
@@ -36,6 +40,7 @@ label shop_open_label:
     show screen new_message_incoming1
     call screen shop_open_screen
 
+
 screen shop_open_screen:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -45,7 +50,7 @@ screen shop_open_screen:
         idle "images/shop/shelf.png"
         hover "images/shop/shelf_hover.png"
         action [Hide("displayTextScreen"),Jump("shop_shelf_label")]
-        hovered Show("displayTextScreen", displayText = __("Shelf"))
+        hovered Show("displayTextScreen", displayText = "Shelf")
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -55,7 +60,7 @@ screen shop_open_screen:
         idle "images/shop/b6.png"
         hover "images/shop/b6_hover.png"
         action [Hide("displayTextScreen"),Jump("alcohol_shelf_label")]
-        hovered Show("displayTextScreen", displayText = __("Alcohol Shelf"))
+        hovered Show("displayTextScreen", displayText = "Alcohol Shelf")
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -65,8 +70,9 @@ screen shop_open_screen:
         idle "images/shop/shop_door_exit.png"
         hover "images/shop/shop_door_exit_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"), Hide("shop_open_screen"), Hide("map_button"), Jump("map_label")]
-        hovered Show("displayTextScreen", displayText = __("Exit"))
+        hovered Show("displayTextScreen", displayText = "Exit")
         unhovered Hide("displayTextScreen")
+
 
 label shop_shelf_label:
     scene shop_shelf
@@ -93,7 +99,6 @@ screen shop_shelf_screen:
             idle "images/shop/b1_binoculars.png"
             hover "images/shop/b1_binoculars_hover.png"
             action [Hide("displayTextScreen"),Jump("b1_binoculars_buy_label")]
-
     if b2_camera1_buy == False:
         imagebutton:
             xpos 372
@@ -102,7 +107,6 @@ screen shop_shelf_screen:
             idle "images/shop/b2_camera.png"
             hover "images/shop/b2_camera_hover.png"
             action [Hide("displayTextScreen"),Jump("b2_camera_buy_label")]
-
     if b3_controller_buy == False:
         imagebutton:
             xpos 628
@@ -111,7 +115,6 @@ screen shop_shelf_screen:
             idle "images/shop/b3_controller.png"
             hover "images/shop/b3_controller_hover.png"
             action [Hide("displayTextScreen"),Jump("b3_controller_buy_label")]
-
     if b4_spy_camera_buy == False:
         imagebutton:
             xpos 1228
@@ -120,7 +123,6 @@ screen shop_shelf_screen:
             idle "images/shop/b4_spy_camera.png"
             hover "images/shop/b4_spy_camera_hover.png"
             action [Hide("displayTextScreen"),Jump("b4_spy_camera_buy_label")]
-
     imagebutton:
         xpos 600
         ypos 0
@@ -165,6 +167,13 @@ screen shop_shelf_screen_notclickable:
             ypos 198
             focus_mask True
             idle "images/shop/b4_spy_camera.png"
+
+
+
+
+
+
+
 
 label b5_web_cam_software_buy_label:
     show screen shop_shelf_screen_notclickable

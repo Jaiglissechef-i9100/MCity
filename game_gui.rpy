@@ -1,6 +1,8 @@
 image map_day1 = "images/game_gui/map/Map_Day.jpg"
 image map_night1 = "images/game_gui/map/Map_Night.jpg"
 
+default Ce_unread_alert = True
+
 screen map_button:
 
     key "focus_left" action NullAction()
@@ -9,10 +11,15 @@ screen map_button:
     key "focus_down" action NullAction()
     zorder 101
 
+
     if ML_end_content == True and ml_points == 4:
         on "show" action Show("ML_end_content_scr")
     if Li_end_content == True:
         on "show" action Show("Li_end_content_scr")
+    if C_end_content == True and Caroline_points == 5:
+        on "show" action Show("C_end_content_scr")
+
+
     if can_map==True:
         if clickable == True:
             imagebutton:
@@ -34,7 +41,7 @@ screen map_button:
                 focus_mask True
                 idle Transform("images/game_gui/icons/No_Map_Hover.png", zoom=.8)
                 hover Transform("images/game_gui/icons/Map Icon Hover Cant.png", zoom=.8)
-                clicked [Show("map_button"),Show("displayTextScreen", displayText = "Map")]
+                action [Show("map_button"),Show("displayTextScreen", displayText = "Map")]
                 hovered Show("displayTextScreen", displayText = "Map")
                 unhovered Hide("displayTextScreen")
     if can_map==False:
@@ -44,7 +51,7 @@ screen map_button:
             focus_mask True
             idle Transform("images/game_gui/icons/No_Map_Hover.png", zoom=.8)
             hover Transform("images/game_gui/icons/Map Icon Hover Cant.png", zoom=.8)
-            clicked [Show("map_button"),Show("displayTextScreen", displayText = "Map")]
+            action [Show("map_button"),Show("displayTextScreen", displayText = "Map")]
             hovered Show("displayTextScreen", displayText = "Map")
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -53,8 +60,8 @@ screen map_button:
         focus_mask True
         idle Transform("images/game_gui/icons/BackPack_Icon_Idle.png", zoom=.8)
         hover Transform("images/game_gui/icons/BackPack_Icon_Hover.png", zoom=.8)
-        clicked [SetVariable("inv_page", 0),Show("inventory_screen"), Play ("sound", "sfx/zipper.mp3") ]
-        hovered Show("displayTextScreen", displayText = __("Inventory"))
+        action [SetVariable("inv_page", 0),Show("inventory_screen"), Play ("sound", "sfx/zipper.mp3") ]
+        hovered Show("displayTextScreen", displayText = "Inventory")
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -63,7 +70,7 @@ screen map_button:
         focus_mask True
         idle Transform("images/game_gui/icons/Phone_Icon_Idle.png", zoom=.8)
         hover Transform("images/game_gui/icons/Phone_Icon_Hover.png", zoom=.8)
-        clicked [Show("phone_main_screen"), Play ("sound", "sfx/phone_unlock.mp3") ]
+        action [Show("phone_main_screen"), Play ("sound", "sfx/phone_unlock.mp3") ]
         hovered Show("displayTextScreen", displayText = "Phone")
         unhovered Hide("displayTextScreen")
 
@@ -75,9 +82,13 @@ screen map_button:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
     elif Zuri_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
+    elif Ce_unread_alert == False:
+        add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
+
 
 label map_label:
     $ can_hide_windows = False
+    $ clickable = True
     if music_continue == True:
         $ music_continue = False
         $ renpy.music.stop(channel="music1", fadeout=1)
@@ -117,20 +128,23 @@ screen map:
     zorder 102
     if Li_end_content == True:
         on "show" action Show("Li_end_content_scr")
+
     imagebutton:
         xpos 482
         ypos 443
         focus_mask True
         idle "images/game_gui/map/Home_Idle.png"
         hover "images/game_gui/map/Home_Hover.png"
-        clicked [SetVariable("in_map", False), Jump("entrace1_morning1"), Hide("map_button"), ]
+        if clickable == True:
+            action [SetVariable("in_map", False), Jump("entrace1_morning1"), Hide("map_button"), ]
     imagebutton:
         xpos 1403
         ypos 268
         focus_mask True
         idle "images/game_gui/map/School Normal.png"
         hover "images/game_gui/map/School Hover.png"
-        clicked [SetVariable("in_map", False), Jump("school_outside_morning1"), Hide("map_button"),]
+        if clickable == True:
+            action [SetVariable("in_map", False), Jump("school_outside_morning1"), Hide("map_button"),]
     if beach_unlocked == True:
         imagebutton:
             xpos 1716
@@ -138,15 +152,17 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Beach Normal.png"
             hover "images/game_gui/map/Beach Hover.png"
-            clicked [Jump("beach_M1"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Jump("beach_M1"), Hide("displayTextScreen")]
     if celia_house_unlocked == True:
         imagebutton:
-            xpos 1246
-            ypos 538
+            xpos 1230
+            ypos 518
             focus_mask True
             idle "images/game_gui/map/CeliaHouse Normal.png"
             hover "images/game_gui/map/CeliaHouse Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Hide("displayTextScreen"), Jump("Ce_ele_corridor_M1")]
     if church_unlocked == True:
         imagebutton:
             xpos 228
@@ -154,7 +170,8 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Church Normal.png"
             hover "images/game_gui/map/Church Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
     if cinema_unlocked == True:
         imagebutton:
             xpos 1114
@@ -162,7 +179,8 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Cinema Normal.png"
             hover "images/game_gui/map/Cinema Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
     if dark_alley_unlocked == True:
         imagebutton:
             xpos 1363
@@ -170,7 +188,8 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/DarkAlley Normal.png"
             hover "images/game_gui/map/DarkAlley Hover.png"
-            action [SetVariable("in_map", False), Jump("dark_alley_label"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [SetVariable("in_map", False), Jump("dark_alley_label"), Hide("displayTextScreen")]
     if gym_unlocked == True:
         imagebutton:
             xpos 991
@@ -178,7 +197,8 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Gym Normal.png"
             hover "images/game_gui/map/Gym Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
     if hospital_unlocked == True:
         imagebutton:
             xpos 1170
@@ -186,7 +206,8 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Hospital Normal.png"
             hover "images/game_gui/map/Hospital Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
     if ml_work_unloacked == True:
         imagebutton:
             xpos 411
@@ -194,15 +215,17 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/ml_work.png"
             hover "images/game_gui/map/ml_work_hover.png"
-            clicked [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("ml_work_day1")]
+            if clickable == True:
+                action [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("ml_work_day1")]
     if neighboor_unlocked == True:
         imagebutton:
-            xpos 601
-            ypos 444
+            xpos 510
+            ypos 415
             focus_mask True
             idle "images/game_gui/map/Neighbor1 Normal.png"
             hover "images/game_gui/map/Neighbor1 Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action [Jump("Ne_entrance_M1")]
     if night_club_unlocked == True:
         imagebutton:
             xpos 377
@@ -210,14 +233,16 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Nightclub Normal.png"
             hover "images/game_gui/map/Nightclub Hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+            if clickable == True:
+                action Jump("nightclub_menu")
     imagebutton:
         xpos 362
         ypos 446
         focus_mask True
         idle "images/game_gui/map/Shop Normal.png"
         hover "images/game_gui/map/Shop Hover.png"
-        clicked [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("shop_label")]
+        if clickable == True:
+            action [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("shop_label")]
 
     imagebutton:
         xpos 395
@@ -225,8 +250,9 @@ screen map:
         focus_mask True
         idle "images/game_gui/map/SexShop Normal.png"
         hover "images/game_gui/map/SexShop Hover.png"
-        clicked [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("sex_shop_label")]
-        unhovered Hide("displayTextScreen")
+        if clickable == True:
+            action [SetVariable("in_map", False),Hide("displayTextScreen"),Jump("sex_shop_label")]
+
 
     if cosplay_shop_unlocked == True:
         imagebutton:
@@ -235,8 +261,9 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/ClothesShop.png"
             hover "images/game_gui/map/ClothesShop_hover.png"
-            action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("cloth_shop_label")]
-            unhovered Hide("displayTextScreen")
+            if clickable == True:
+                action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("cloth_shop_label")]
+
 
     if Bob_workplace_unlocked == True:
         imagebutton:
@@ -245,8 +272,9 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/BobWorkplaceNormal.png"
             hover "images/game_gui/map/BobWorkplaceHover.png"
-            action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("bob_work_outside_morning1")]
-            unhovered Hide("displayTextScreen")
+            if clickable == True:
+                action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("bob_work_outside_morning1")]
+
     if Z_home_unlocked == True:
         imagebutton:
             xpos 1023
@@ -254,8 +282,9 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/ZuriNormal.png"
             hover "images/game_gui/map/ZuriHover.png"
-            action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("zuri_homeoutside_M1")]
-            unhovered Hide("displayTextScreen")
+            if clickable == True:
+                action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("zuri_homeoutside_M1")]
+
     if aunt_house_unlocked == True:
         imagebutton:
             xpos 1160
@@ -263,8 +292,9 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/au.png"
             hover "images/game_gui/map/au_hover.png"
-            action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("a_home_outside_M1")]
-            unhovered Hide("displayTextScreen")
+            if clickable == True:
+                action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("a_home_outside_M1")]
+
     if J_home_unlocked == True:
         imagebutton:
             xpos 15
@@ -272,8 +302,21 @@ screen map:
             focus_mask True
             idle "images/game_gui/map/Judy.png"
             hover "images/game_gui/map/Judy_hover.png"
-            clicked [Show("screen_work_in_progress"), Hide("displayTextScreen")]
-            unhovered Hide("displayTextScreen")
+            if clickable == True:
+                action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
+
+
+    if Charles_home == True:
+        imagebutton:
+            xpos 100
+            ypos 616
+            focus_mask True
+            idle "images/game_gui/map/charles_idle.png"
+            hover "images/game_gui/map/charles_hover.png"
+            if clickable == True:
+                action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("Charles_outside2_M1")]
+
+
 
 screen day_time_viewer:
 
@@ -289,6 +332,8 @@ screen day_time_viewer:
 
     if day_time==4:
         add Transform("images/game_gui/icons/Hud4-Night.png", zoom=.8)
+
+
 
 screen week_day_viewer:
 
@@ -320,6 +365,9 @@ screen week_day_viewer:
 
         add Transform("images/game_gui/icons/7Sunday.png", zoom=.8)
 
+
+
+
 screen time_skip_button:
 
     zorder 103
@@ -330,8 +378,8 @@ screen time_skip_button:
             focus_mask True
             idle Transform("images/game_gui/icons/Skip_Icon_Idle.png", zoom=.4)
             hover Transform("images/game_gui/icons/Skip_Icon_Hover.png", zoom=.4)
-            clicked [Hide("displayTextScreen"), SetVariable("day_time", day_time + 1, ), Show("time_skip_button"), Jump("map_label")]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            action [Hide("displayTextScreen"), SetVariable("day_time", day_time + 1, ), Show("time_skip_button"), Jump("map_label")]
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     if day_time==4:
         imagebutton:
@@ -340,8 +388,8 @@ screen time_skip_button:
             focus_mask True
             idle Transform("images/game_gui/icons/No_Skip_Icon_Hover.png", zoom=.4)
             hover Transform("images/game_gui/icons/No_Skip_Icon_Idle.png", zoom=.4)
-            clicked [SetVariable("day_time",  4), Show("time_skip_button"), Jump("map_label")]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            action [SetVariable("day_time",  4), Show("time_skip_button"), Jump("map_label")]
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     if in_map==False:
         imagebutton:
@@ -350,8 +398,8 @@ screen time_skip_button:
             focus_mask True
             idle Transform("images/game_gui/icons/No_Skip_Icon_Hover.png", zoom=.4)
             hover Transform("images/game_gui/icons/No_Skip_Icon_Idle.png", zoom=.4)
-            clicked [Show("time_skip_button"),]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            action [Show("time_skip_button"),]
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 400
@@ -359,29 +407,21 @@ screen time_skip_button:
         focus_mask True
         idle Transform("images/game_gui/icons/Help.png", zoom=.4)
         hover Transform("images/game_gui/icons/HelpHover.png", zoom=.4)
-        clicked [Hide("displayTextScreen"), Show ("Info_screen") ]
-        hovered Show("displayTextScreen", displayText = __("Help"))
-        unhovered Hide("displayTextScreen")
-    imagebutton:
-        xpos 460
-        ypos 60
-        focus_mask True
-        idle Transform("images/game_gui/icons/Walk.png", zoom=.4)
-        hover Transform("images/game_gui/icons/WalkHover.png", zoom=.4)
-        clicked [Hide("displayTextScreen"), Show ("Walk_Throught") ]
-        hovered Show("displayTextScreen", displayText = __("Walkthrough"))
+        action [Hide("displayTextScreen"), Show ("Info_screen") ]
+        hovered Show("displayTextScreen", displayText = "Help")
         unhovered Hide("displayTextScreen")
 
 screen screen_work_in_progress:
+
     zorder 104
     imagebutton:
         xpos 0
         ypos 0
         idle "/images/game_gui/icons/workinprogress.png"
         hover "/images/game_gui/icons/workinprogress.png"
-        clicked Hide("screen_work_in_progress")
-
+        action Hide("screen_work_in_progress")
 screen Info_screen:
+
     modal True
     zorder 105
     imagebutton:
@@ -390,4 +430,3 @@ screen Info_screen:
         idle "/images/game_gui/icons/HelpShow.png"
         hover "/images/game_gui/icons/HelpShow.png"
         action Hide("Info_screen")
-

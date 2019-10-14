@@ -8,7 +8,7 @@ screen a_garage_N_scr:
         idle "/images/a_home/outside/Garage/N/B1.png"
         hover "/images/a_home/outside/Garage/N/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Car"))
+            hovered Show("displayTextScreen", displayText = "Car")
             action [Hide("displayTextScreen"),Jump("Li_car_label")]
             unhovered Hide("displayTextScreen")
 
@@ -20,7 +20,7 @@ screen a_garage_N_scr:
             idle "/images/a_home/outside/Garage/N/Li_cs_B1.png"
             hover "/images/a_home/outside/Garage/N/Li_cs_B1_hover.png"
             if clickable == True and LiR1_poll_minigame == True:
-                hovered Show("displayTextScreen", displayText = __("Cleaning Stuff"))
+                hovered Show("displayTextScreen", displayText = "Cleaning Stuff")
                 action [Hide("displayTextScreen"),addItem(Li_clean_stuff)]
                 unhovered Hide("displayTextScreen")
     if not "img28_sec_card" in gallery_photos.storage:

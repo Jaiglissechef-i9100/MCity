@@ -32,6 +32,7 @@ init python:
     gallery_page2 = 0
     closeup_page2 = 0
 
+
     class Scenes_GalleryItem:
         def __init__(self, name, images, thumb, thumb_hover, locked2="lockedthumb"):
             self.name = name
@@ -69,6 +70,8 @@ init python:
         def __call__(self):
             scenes_gallery_photos.storage.append(self.img)
             renpy.restart_interaction()
+
+
 
     scenes_gallery_photos = Scenes_Gallery_photos()
     scenes_gallery_items = []

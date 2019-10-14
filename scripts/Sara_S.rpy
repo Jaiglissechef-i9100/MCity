@@ -1,3 +1,6 @@
+
+
+
 default SR2_MS1 = True
 default SR2_MS2 = False
 default can_SR2_MS2 = False
@@ -26,6 +29,7 @@ default S_N_inbed = True
 default SR2_bath = False
 default can_SR2_bath = True
 
+
 label money_less10:
     if day_time == 1:
         show screen mc_room_morning_notclickable
@@ -42,7 +46,46 @@ label money_less10:
     MC "+10$"
     jump mc_room_morning1
 
+
+
 label sleeping_after_scene:
+
+    if NC_Boss == 1:
+        $ NC_Boss = 2
+    if CR4_NS3 == 3:
+        $ CR4_NS3 = 2
+    if CR4_ES1 == 4:
+        $ CR4_ES1 = 2
+    if CeR2_NS1 == 2:
+        $ CeR2_NS1 = 3
+
+    if CeR2_MS1_day >= 2 and CeR2_MS1_day <4:
+        $ CeR2_MS1_day += 1
+
+    $ CeR2_MS1_talk = False
+    if CeR2_moni == 7:
+        $ CeR2_MS1 = False
+        $ CeR2_MS2 += 1
+        $ CeR2_moni = 8
+    if CeR2_LS >= 1 and CeR2_LS < 3:
+        $ CeR2_LS += 1
+    if CeR2_LS == 3:
+        $ Ce_sms4 = True
+        $ CeR2_LS += 1
+    if Ce_sms3 >=1 and Ce_sms3 <3:
+        $ Ce_sms3 +=1
+        if Ce_sms3 == 3:
+            $ Ce_end_content = True
+    $ Ce_NV = True
+
+    if Ne_MS1 == 2:
+        $ Ne_MS1 = 3
+    if Ne_MS1 == 5:
+        $ Ne_MS1 = 6
+    if Ne_MS2 == 3:
+        $ Ne_MS2 = False
+    $ Ne_ladder = 1
+    $ Ne_NV = True
     $ can_ml_work_day_scene1 = True
     $ can_school_intercom = True
     $ next_day = True
@@ -185,6 +228,7 @@ label sleeping_after_scene:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -198,6 +242,7 @@ label sleeping_after_scene:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -223,6 +268,7 @@ label sleeping_after_scene:
     $ CR3_MS1_talked = False
     if CR3_ES1_can == False:
         $ CR3_ES1 = False
+
 
     if MLR3_MS1_can == False:
         $ MLR3_MS1 = False

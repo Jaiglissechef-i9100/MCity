@@ -1,5 +1,6 @@
 label school_entrance_morning1:
 
+
     if day_time == 1:
         if celia_school_morning_scene1bv1 == 1 and can_school_intercom == True and Celia_points ==1:
             jump school_entrance_intercom_label

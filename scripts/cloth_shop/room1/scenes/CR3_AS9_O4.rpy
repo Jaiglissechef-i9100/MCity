@@ -69,6 +69,8 @@ image CR3_AS9_O4_p68 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/68.jpg"
 image CR3_AS9_O4_p69 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/69.jpg"
 image CR3_AS9_O4_p70 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/70.jpg"
 
+
+
 image CR3_AS9_O4_hand_p1 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/1.jpg"
 image CR3_AS9_O4_hand_p2 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/2.jpg"
 image CR3_AS9_O4_hand_p3 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/3.jpg"
@@ -91,6 +93,7 @@ image CR3_AS9_O4_hand_p18 = Movie(play="videos/04 Caroline-AS9-H4.webm", loop = 
 image CR3_AS9_O4_hand_p19 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/19.jpg"
 image CR3_AS9_O4_hand_p20 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/20.jpg"
 image CR3_AS9_O4_hand_p20a = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/HandJob/20a.jpg"
+
 
 image CR3_AS9_O4_foot_p1 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/FootJob/1.jpg"
 image CR3_AS9_O4_foot_p2 = "images/cloth_shop/room1/day/scenes/CR3_AS9_O4/FootJob/2.jpg"
@@ -278,7 +281,7 @@ label CR3_AS9_O4_con2:
     scene black
     $ renpy.pause(2,hard=True)
     if renpy.loadable("patch.rpy"):
-        $ Linda_name = __("Mom")
+        $ Linda_name = "Mom"
     else:
         $ Linda_name = "Linda"
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -286,15 +289,18 @@ label CR3_AS9_O4_con2:
 
     scene CR3_AS9_O4_p22 with dissolve
 
+
     Violet "Well, that went better than I thought it would! That ugly pink dressing gown ain’t half as bad, when it’s got violet lying on top of it!"
     Violet "Anyway, I gotta dash, guys - everyone is waiting for me at the party."
     Violet "See ya later!"
+
 
     scene CR3_AS9_O4_p23
 
     MC "Well… That’s her gone now. Finally, there’s some privacy, for just you and me."
     Caroline "Mmm, there definitely is."
     MC "And didn’t you mention something about us fooling around after she left?"
+
 
     scene CR3_AS9_O4_p24
 
@@ -394,6 +400,7 @@ label CR3_AS9_O4_con2:
             Caroline "(I mean, how much bigger can his cock swell?)"
             Caroline "Mmm..."
 
+
             scene CR3_AS9_O4_hand_p6
 
             Caroline "You’re really enjoying this, aren’t you?"
@@ -419,6 +426,7 @@ label CR3_AS9_O4_con2:
 
             scene CR3_AS9_O4_hand_p9
 
+
             Caroline "What would [Linda_name] say if I told her you were getting wanked off by me?"
             Caroline "Hmm? She’d probably be furious."
             if renpy.loadable("patch.rpy"):
@@ -426,6 +434,7 @@ label CR3_AS9_O4_con2:
             else:
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of an older woman rubbing your cock."
             scene CR3_AS9_O4_hand_p10
+
 
             Caroline "(Damn… I’ve turned myself on, with all that dirty talk… That wasn’t part of the plan!)"
             Caroline "(Goddamnit… I’ve SOAKED these panties!)"
@@ -500,6 +509,7 @@ label CR3_AS9_O4_con2:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene CR3_AS9_O4_hand_p20a with dissolve
+
 
             MC "*Pant Pant*"
             Caroline "(Wow… So much cum! He must have been saving that up for days!)"
@@ -598,6 +608,7 @@ label CR3_AS9_O4_con2:
             Caroline "Whenever you’re about to cum, you’re gonna have to tell me."
             Caroline "I know you REALLY want to shoot your cum all over my feet - but this outfit is expensive, and I don’t want white stains on it the first time I’m wearing it!)"
 
+
             scene CR3_AS9_O4_foot_p14
 
             MC "Hnng…"
@@ -649,6 +660,7 @@ label CR3_AS9_O4_con2:
             Caroline "Hehe. You enjoyed that, didn’t you? You’re such a little slut for feet."
             Caroline "I’ll keep that in mind if I ever need to get you off quickly."
             jump CR3_AS9_O4_con3
+
 
 label CR3_AS9_O4_con3:
     scene CR3_AS9_O4_p35
@@ -737,6 +749,7 @@ label CR3_AS9_O4_con3:
     Caroline "(How does he know where to touch?!)"
     Caroline "(His tongue is so hot and flexible… God… It’s like my dildo on steroids!)"
 
+
     scene CR3_AS9_O4_p50
 
     MC "*Lick Shlurp*"
@@ -771,6 +784,7 @@ label CR3_AS9_O4_con3:
     Caroline "*Pant* Wow…"
     MC "Heh, I’m glad you enjoyed that. I’ll let you get changed now."
     Caroline "Huh? What makes you think we’re finished?"
+
 
     scene CR3_AS9_O4_p56
 
@@ -853,6 +867,7 @@ label CR3_AS9_O4_con3:
     Caroline "*Ahem*"
     MC "I think I counted… twice?"
 
+
     scene CR3_AS9_O4_p70
 
     Caroline "Shut up."
@@ -865,12 +880,14 @@ label CR3_AS9_O4_con3:
     $ CR3_AS10 = True
     $ C_NS_locked = False
 
+
     $ can_add_C_NS_wake_licking_loc = True
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ New_NSB_U1_can = True
     jump map_label
+
 
 screen New_NSB_U1_scr:
     zorder 106

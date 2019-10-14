@@ -11,6 +11,7 @@ image CR3_NS1_p10 = "images/home/caroline_room/night/scenes/CR3_NS1/10.jpg"
 image CR3_NS1_p11 = "images/home/caroline_room/night/scenes/CR3_NS1/11.jpg"
 image CR3_NS1_p12 = "images/home/caroline_room/night/scenes/CR3_NS1/12.jpg"
 
+
 label CR3_NS1_label:
     $ can_hide_windows = True
     hide screen week_day_viewer

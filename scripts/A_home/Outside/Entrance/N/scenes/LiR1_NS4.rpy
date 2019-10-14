@@ -82,6 +82,7 @@ image LiR1_NS4_p73a = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/73a.jpg"
 image LiR1_NS4_p74 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/74.jpg"
 image LiR1_NS4_p75 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/75.jpg"
 
+
 label LiR1_NS4_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -98,6 +99,7 @@ label LiR1_NS4_label:
     Yazmin "Oh yeah! Right there, baby!"
 
     scene LiR1_NS4_p2
+
 
     MC "(Damn! Yazmin’s holding [Liza2_name]’s face, right against her pussy!)"
 
@@ -208,6 +210,7 @@ label LiR1_NS4_label:
     MC "(Didn’t Yazmin say that there would be three different items that would go in [Liza2_name]’s mouth? I can only see the ice lolly and the dildo on that tray.)"
     MC "(I wonder what else she has in mind.)"
 
+
     scene LiR1_NS4_p19
 
     Liza2 "*Suck Suck*"
@@ -220,7 +223,9 @@ label LiR1_NS4_label:
     Yazmin "I’m pulling the object out now. I’m gonna need your guess."
     Liza2 "(This is a tricky one!)"
 
+
     scene LiR1_NS4_p21
+
 
     Yazmin "Well?"
     Liza2 "Err... I’m not completely sure. I tasted a LOT of different flavours going on. Is it perhaps, one of those multi-coloured lollies?"
@@ -233,7 +238,6 @@ label LiR1_NS4_label:
     Yazmin "(Whispered) Come on in, [player_name]. Be very quiet..."
     scene ClimbingSuccess_p4
     call screen climb_open_win
-
 screen climb_open_win:
     if climb_lvl < 11:
         imagebutton:
@@ -252,7 +256,6 @@ screen climb_open_win:
             idle "images/ClimbingMinigame/A_Up.png"
             hover "images/ClimbingMinigame/A_Up_hover.png"
             action [Hide("climb_open_win"), Jump("LiR1_NS4_label_open_win_done")]
-
 label LiR1_NS4_label_open_win_done:
     MC "Huh? (What does she want with me?)"
     scene ClimbingSuccess_p5
@@ -379,6 +382,7 @@ label LiR1_NS4_label_open_win_done:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/RetroFuture Clean.mp3', channel="music2", loop=True, fadein = 2)
 
+
     Yazmin "Nooooo!"
     MC "Hnnngg! AHHHHHHH!!!!"
     MC "Ugh! Ahhhh! (Dammit! I came so hard!)"
@@ -390,6 +394,7 @@ label LiR1_NS4_label_open_win_done:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS4_p41 with dissolve
+
 
     Liza2 "Ahh... Uh..."
     Liza2 "(What’s this salty taste in my mouth? It’s like... a sticky fluid?)"
@@ -413,6 +418,7 @@ label LiR1_NS4_label_open_win_done:
     Liza2 "(Muffled screams)"
     MC "Shit! I better go!"
     Yazmin "You’re not going anywhere, right now! You helped cause this mess!"
+
 
     scene LiR1_NS4_p45
 
@@ -490,6 +496,7 @@ label LiR1_NS4_label_open_win_done:
     scene LiR1_NS4_p55
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music2", loop=True, fadein = 2)
+
 
     Yazmin "The best way to start, is the cowgirl position. It gives you control over, how deep, you want to - take the dick inside you. And it also gives you a GREAT workout!"
     Liza2 "Uh huh..."
@@ -609,6 +616,7 @@ label LiR1_NS4_label_open_win_done:
             $ renpy.pause(0.7, hard = True)
             scene LiR1_NS4_p71a with dissolve
 
+
             MC "HNNNNGGG! UGH! Aaaahhhhh...."
             Yazmin "Yeeessss... Ohh... *Pant Pant*"
             Yazmin "Fuck... That was good!"
@@ -637,6 +645,7 @@ label LiR1_NS4_label_open_win_done:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene LiR1_NS4_p73a with dissolve
+
 
             MC "Aahhhhhh! Fuck! Ugh!"
             if renpy.loadable("patch.rpy"):

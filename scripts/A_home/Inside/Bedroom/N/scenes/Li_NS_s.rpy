@@ -1,3 +1,4 @@
+
 image Li_NS_B_feet_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Foot/1.jpg"
 image Li_NS_B_feet_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Foot/2.jpg"
 image Li_NS_B_feet_p3 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Foot/3.jpg"
@@ -14,6 +15,7 @@ image Li_NS_B_feet_p10 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Fo
 image Li_NS_B_feet_p11 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Foot/11.jpg"
 image Li_NS_B_feet_p12 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Foot/12.jpg"
 
+
 image Li_NS_B_mouth_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Mouth/1.jpg"
 image Li_NS_B_mouth_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Mouth/2.jpg"
 image Li_NS_B_mouth_p3 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Mouth/3.jpg"
@@ -29,6 +31,7 @@ image Li_NS_B_mouth_p12 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/M
 image Li_NS_B_mouth_p13 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Mouth/13.jpg"
 image Li_NS_B_mouth_p14 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Mouth/14.jpg"
 
+
 image Li_NS_B_pussy_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/1.jpg"
 image Li_NS_B_pussy_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/2.jpg"
 image Li_NS_B_pussy_p3 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/3.jpg"
@@ -38,6 +41,7 @@ image Li_NS_B_pussy_p6 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pu
 image Li_NS_B_pussy_p7 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/7.jpg"
 image Li_NS_B_pussy_p8 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/8.jpg"
 image Li_NS_B_pussy_p9 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/9.jpg"
+
 
 label Li_NS_B_feet:
     scene Li_NS_B_feet_p1 with dissolve
@@ -83,6 +87,7 @@ label Li_NS_B_feet:
     MC "Ohhh yeah..."
     Liza2 "Zzz...."
     MC "(My glans is rubbing, right up between her toes. That’s fucking perfect!)"
+
 
     scene Li_NS_B_feet_p8
 

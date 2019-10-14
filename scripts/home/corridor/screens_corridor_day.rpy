@@ -7,7 +7,7 @@ screen corridor_day:
         idle "images/home/corridor/morning/painting_B1.png"
         hover "images/home/corridor/morning/painting_B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Painting"))
+            hovered Show("displayTextScreen", displayText = "Painting")
             action [Hide("displayTextScreen"),Jump("painting_corridor_label")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -17,7 +17,7 @@ screen corridor_day:
         idle "images/home/corridor/morning/door1_morning_idle.png"
         hover "images/home/corridor/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+            hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("caroline_room_day1")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -27,7 +27,7 @@ screen corridor_day:
         idle "images/home/corridor/morning/door2_morning_idle.png"
         hover "images/home/corridor/morning/door2_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("My Bedroom"))
+            hovered Show("displayTextScreen", displayText = "My Bedroom")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("mc_room_day1")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -37,10 +37,9 @@ screen corridor_day:
         idle "images/home/corridor/morning/door3_morning_idle.png"
         hover "images/home/corridor/morning/door3_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Sara's Bedroom"))
+            hovered Show("displayTextScreen", displayText = "Sara's Bedroom")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("sister_nerdy_day1")]
             unhovered Hide("displayTextScreen")
-
     if SR2_grounded == True:
         imagebutton:
             xpos 1279
@@ -59,7 +58,7 @@ screen corridor_day:
         idle "images/home/corridor/morning/door4_morning_idle.png"
         hover "images/home/corridor/morning/door4_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Living Room"))
+            hovered Show("displayTextScreen", displayText = "Living Room")
             action [Jump("salon_day1")]
             unhovered Hide("displayTextScreen")
 

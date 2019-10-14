@@ -2,6 +2,7 @@ screen beach2_N_scr:
 
     add "images/Beach/Beach2/N/map.jpg"
 
+
     imagebutton:
         at map_arrow_anim
         xpos 1720

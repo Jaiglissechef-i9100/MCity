@@ -32,6 +32,7 @@ init python:
     gallery_page = 0
     closeup_page = 0
 
+
     class GalleryItem:
         def __init__(self, name, images, thumb, thumb_hover, locked="lockedthumb"):
             self.name = name
@@ -69,6 +70,8 @@ init python:
         def __call__(self):
             gallery_photos.storage.append(self.img)
             renpy.restart_interaction()
+
+
 
     gallery_photos = Gallery_photos()
     gallery_items = []
@@ -117,3 +120,42 @@ init python:
     gallery_items.append(GalleryItem("40", ["img40_sec_card"], "thumb40_sec_card", "thumb40_hover_sec_card" ))
     gallery_items.append(GalleryItem("41", ["img41_sec_card"], "thumb41_sec_card", "thumb41_hover_sec_card" ))
     gallery_items.append(GalleryItem("42", ["img42_sec_card"], "thumb42_sec_card", "thumb42_hover_sec_card" ))
+    gallery_items.append(GalleryItem("43", ["img43_sec_card"], "thumb43_sec_card", "thumb43_hover_sec_card" ))
+    gallery_items.append(GalleryItem("44", ["img44_sec_card"], "thumb44_sec_card", "thumb44_hover_sec_card" ))
+    gallery_items.append(GalleryItem("45", ["img45_sec_card"], "thumb45_sec_card", "thumb45_hover_sec_card" ))
+    gallery_items.append(GalleryItem("46", ["img46_sec_card"], "thumb46_sec_card", "thumb46_hover_sec_card" ))
+    gallery_items.append(GalleryItem("47", ["img47_sec_card"], "thumb47_sec_card", "thumb47_hover_sec_card" ))
+    gallery_items.append(GalleryItem("48", ["img48_sec_card"], "thumb48_sec_card", "thumb48_hover_sec_card" ))
+    gallery_items.append(GalleryItem("49", ["img49_sec_card"], "thumb49_sec_card", "thumb49_hover_sec_card" ))
+    gallery_items.append(GalleryItem("50", ["img50_sec_card"], "thumb50_sec_card", "thumb50_hover_sec_card" ))
+    gallery_items.append(GalleryItem("51", ["img51_sec_card"], "thumb51_sec_card", "thumb51_hover_sec_card" ))
+    gallery_items.append(GalleryItem("52", ["img52_sec_card"], "thumb52_sec_card", "thumb52_hover_sec_card" ))
+    gallery_items.append(GalleryItem("53", ["img53_sec_card"], "thumb53_sec_card", "thumb53_hover_sec_card" ))
+    gallery_items.append(GalleryItem("54", ["img54_sec_card"], "thumb54_sec_card", "thumb54_hover_sec_card" ))
+    gallery_items.append(GalleryItem("55", ["img55_sec_card"], "thumb55_sec_card", "thumb55_hover_sec_card" ))
+    gallery_items.append(GalleryItem("56", ["img56_sec_card"], "thumb56_sec_card", "thumb56_hover_sec_card" ))
+    gallery_items.append(GalleryItem("57", ["img57_sec_card"], "thumb57_sec_card", "thumb57_hover_sec_card" ))
+    gallery_items.append(GalleryItem("58", ["img58_sec_card"], "thumb58_sec_card", "thumb58_hover_sec_card" ))
+    gallery_items.append(GalleryItem("59", ["img59_sec_card"], "thumb59_sec_card", "thumb59_hover_sec_card" ))
+    gallery_items.append(GalleryItem("60", ["img60_sec_card"], "thumb60_sec_card", "thumb60_hover_sec_card" ))
+    gallery_items.append(GalleryItem("61", ["img61_sec_card"], "thumb61_sec_card", "thumb61_hover_sec_card" ))
+    gallery_items.append(GalleryItem("62", ["img62_sec_card"], "thumb62_sec_card", "thumb62_hover_sec_card" ))
+    gallery_items.append(GalleryItem("63", ["img63_sec_card"], "thumb63_sec_card", "thumb63_hover_sec_card" ))
+    gallery_items.append(GalleryItem("64", ["img64_sec_card"], "thumb64_sec_card", "thumb64_hover_sec_card" ))
+    gallery_items.append(GalleryItem("65", ["img65_sec_card"], "thumb65_sec_card", "thumb65_hover_sec_card" ))
+    gallery_items.append(GalleryItem("66", ["img66_sec_card"], "thumb66_sec_card", "thumb66_hover_sec_card" ))
+    gallery_items.append(GalleryItem("67", ["img67_sec_card"], "thumb67_sec_card", "thumb67_hover_sec_card" ))
+    gallery_items.append(GalleryItem("68", ["img68_sec_card"], "thumb68_sec_card", "thumb68_hover_sec_card" ))
+    gallery_items.append(GalleryItem("69", ["img69_sec_card"], "thumb69_sec_card", "thumb69_hover_sec_card" ))
+    gallery_items.append(GalleryItem("70", ["img70_sec_card"], "thumb70_sec_card", "thumb70_hover_sec_card" ))
+    gallery_items.append(GalleryItem("71", ["img71_sec_card"], "thumb71_sec_card", "thumb71_hover_sec_card" ))
+    gallery_items.append(GalleryItem("72", ["img72_sec_card"], "thumb72_sec_card", "thumb72_hover_sec_card" ))
+    gallery_items.append(GalleryItem("73", ["img73_sec_card"], "thumb73_sec_card", "thumb73_hover_sec_card" ))
+    gallery_items.append(GalleryItem("74", ["img74_sec_card"], "thumb74_sec_card", "thumb74_hover_sec_card" ))
+    gallery_items.append(GalleryItem("75", ["img75_sec_card"], "thumb75_sec_card", "thumb75_hover_sec_card" ))
+    gallery_items.append(GalleryItem("76", ["img76_sec_card"], "thumb76_sec_card", "thumb76_hover_sec_card" ))
+    gallery_items.append(GalleryItem("77", ["img77_sec_card"], "thumb77_sec_card", "thumb77_hover_sec_card" ))
+    gallery_items.append(GalleryItem("78", ["img78_sec_card"], "thumb78_sec_card", "thumb78_hover_sec_card" ))
+    gallery_items.append(GalleryItem("79", ["img79_sec_card"], "thumb79_sec_card", "thumb79_hover_sec_card" ))
+    gallery_items.append(GalleryItem("80", ["img80_sec_card"], "thumb80_sec_card", "thumb80_hover_sec_card" ))
+    gallery_items.append(GalleryItem("81", ["img81_sec_card"], "thumb81_sec_card", "thumb81_hover_sec_card" ))

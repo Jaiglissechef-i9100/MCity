@@ -1,3 +1,6 @@
+
+
+
 label CR3_NS3_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -6,6 +9,7 @@ label CR3_NS3_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = True
+
 
     scene CR3_NS3_p1 with dissolve
 
@@ -109,7 +113,7 @@ label CR3_NS3_rep:
 
     Caroline "Ah! Ah!"
     Caroline "(I feel him tense up, as he begins to cum in my mouth. The salty taste of his semen, coats my tongue - and my cheeks puff out, I do my best to swallow it all.)"
-    scene CR3_NS3_p15 anim with dissolve
+    scene CR3_NS3_p15anim with dissolve
     Caroline "Mmm..."
 
     scene CR3_NS3_p16

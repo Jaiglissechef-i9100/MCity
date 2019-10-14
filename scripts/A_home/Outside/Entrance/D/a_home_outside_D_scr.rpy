@@ -1,3 +1,4 @@
+
 screen a_home_outside_D_scr:
     key "hide_windows" action NullAction()
 
@@ -22,7 +23,7 @@ screen a_home_outside_D_scr:
                 action [Play ("sound", "sfx/door_open.mp3"),Jump("a_living_M1")]
             else:
                 action [Play ("sound", "sfx/door_locked.mp3"),Hide("displayTextScreen"),Jump("a_living_M1")]
-            hovered Show("displayTextScreen", displayText = __("Enter House"))
+            hovered Show("displayTextScreen", displayText = "Enter House")
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -36,7 +37,7 @@ screen a_home_outside_D_scr:
             idle "/images/a_home/outside/Entrance/M/B2a.png"
             hover "/images/a_home/outside/Entrance/M/B2a_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Pool"))
+            hovered Show("displayTextScreen", displayText = "Pool")
             action [Hide("displayTextScreen"),Jump("a_pool_M1")]
             unhovered Hide("displayTextScreen")
     if LiR1_MAS6 == True:

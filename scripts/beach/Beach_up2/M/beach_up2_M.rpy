@@ -2,7 +2,9 @@ image beach_up2_M_map = "images/Beach/Beach_Up2/M/map.jpg"
 
 label beach_up2_M1:
 
+
     $ in_map = False
+
 
     if day_time == 1:
         jump beach_up2_M2

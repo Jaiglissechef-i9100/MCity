@@ -2,6 +2,7 @@ image sis_nerdy_school_scene1_v1_p1 = "images/school/school_entrance/day/scenes/
 image sis_nerdy_school_scene1_v1_p2 = "images/school/school_entrance/day/scenes/sara_scene1_v1/2.jpg"
 image sis_nerdy_school_scene1_v1_sara = ("images/school/school_entrance/day/scenes/sara_scene1_v1/sara1.png")
 
+
 label sis_nerdy_school_scene1_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -37,6 +38,7 @@ label sis_nerdy_school_scene1_v1_label:
         $ can_sis_nerdy_school_scene1_v1 = False
         $ can_hide_windows = False
         jump school_entrance_day1
+
 
     if sis_nerdy_school_scene1_v1 == 1 and sis_nerdy_school_scene1_v1_talk == 3 and can_sis_nerdy_school_scene1_v1 == True:
 

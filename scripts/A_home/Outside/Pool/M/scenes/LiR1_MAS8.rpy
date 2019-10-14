@@ -28,6 +28,7 @@ label LiR1_MAS8_label:
 
         scene LiR1_MAS8_p1 with dissolve
 
+
         Yazmin "(Ohh... here comes the star of the show!)"
         MC "(Yazmin’s looking pretty intently at me! I wonder what’s on her mind, after the - last fiasco - when I fucked her, in front of [Liza2_name].)"
 
@@ -40,8 +41,8 @@ label LiR1_MAS8_label:
 
         scene LiR1_MAS8_p3
 
-        Yazmin "I seem to recall you, cumming - very... very... hard. And honestly - ...rather quickly - when I was riding you."
-        MC "Shush! [Liza2_name] might hear you! Was she not - super pissed off at you - afterwards?"
+        Yazmin "I seem to recall you, cumming - very... very... hard. And honestly ...rather quickly - when I was riding you."
+        MC "Shush! [Liza2_name] might hear you! Was she not - super pissed off at you, afterwards?"
         Yazmin "No? Why would she be?"
 
         scene LiR1_MAS8_p4
@@ -59,15 +60,16 @@ label LiR1_MAS8_label:
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Liza has calmed down."
         MC "Really? She’s not angry at me?"
 
+
         scene LiR1_MAS8_p6
 
-        Yazmin "I’m - almost certain - she’s not..."
+        Yazmin "I’m almost certain she’s not..."
         MC "Almost certain?"
         Yazmin "I mean, she’s probably still A LITTLE bit pissed at me - for making her suck your cock... But that was- Ugh... fine! I’ll admit it - That was my bad."
 
         scene LiR1_MAS8_p7
 
-        Yazmin "Anyway - half my degree - was in public relations. I’m EXTREMELY good, at swaying people’s opinions."
+        Yazmin "Anyway, half my degree was in public relations. I’m EXTREMELY good, at swaying people’s opinions."
         MC "What are you getting at?"
         if renpy.loadable("patch.rpy"):
             Yazmin "Your aunt is now waiting for you in the bathroom - for round two."

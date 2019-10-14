@@ -59,6 +59,7 @@ label lily_school_day_scene2_v1_label:
             jump after_lily_school_day_scene2_v1_choice
         "Refuse to pick up the pen.":
 
+
             scene lily_school_day_scene2_v1_p3a
             MC "Oh look! It rolled under your side of the table. I think it’ll be easier for you to pick it up."
             Lily "Huh?"

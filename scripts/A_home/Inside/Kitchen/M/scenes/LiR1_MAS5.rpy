@@ -26,12 +26,6 @@ label LiR1_MAS5_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if renpy.loadable("patch.rpy"):
-        $ Mom_name = __("Mom")
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Mom_name = "Linda"
-        $ Liza2_name = "Liza"
 
     scene LiR1_MAS5_p1 with dissolve
 
@@ -82,6 +76,7 @@ label LiR1_MAS5_label:
     MC "Er... sometimes. I don't really want to get between, you guys."
 
     scene LiR1_MAS5_p7
+
 
     if renpy.loadable("patch.rpy"):
         Yazmin "Hmm... of course. But, if your mother picked a place for you to eat - and you didn’t like it - would you be the type to MOAN about it?"

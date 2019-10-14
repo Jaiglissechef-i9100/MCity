@@ -1,9 +1,11 @@
-default S_NS_pussy = nsb(__("Let’s finger her pussy a bit."),image_idle = "images/NS_B/Pussy.png", image_hover = "images/NS_B/Pussy_hover.png", l_jump = "SNS_4", number = 4 )
-default S_NS_thigh = nsb(__("I’ll start by rubbing my cock between her thighs."),image_idle = "images/NS_B/Thigh2.png", image_hover = "images/NS_B/Thigh2_hover.png", l_jump = "SNS_5", number = 5)
-default S_NS_mouth = nsb(__("I’ll put my cock in her mouth while she sleeps."),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "SNS_1", number = 1 )
-default S_NS_hand = nsb(__("I’m gonna make her wank me off while she sleeps."),image_idle = "images/NS_B/Hand2.png", image_hover = "images/NS_B/Hand2_hover.png", l_jump = "SNS_3", number = 3)
 
-default S_NS_wake_thigh = nsb(__("Thighjob."),image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "SNS_wake_5",  number = 5)
+default S_NS_pussy = nsb("Let’s finger her pussy a bit.",image_idle = "images/NS_B/Pussy.png", image_hover = "images/NS_B/Pussy_hover.png", l_jump = "SNS_4", number = 4 )
+default S_NS_thigh = nsb("I’ll start by rubbing my cock between her thighs.",image_idle = "images/NS_B/Thigh2.png", image_hover = "images/NS_B/Thigh2_hover.png", l_jump = "SNS_5", number = 5)
+default S_NS_mouth = nsb("I’ll put my cock in her mouth while she sleeps.",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "SNS_1", number = 1 )
+default S_NS_hand = nsb("I’m gonna make her wank me off while she sleeps.",image_idle = "images/NS_B/Hand2.png", image_hover = "images/NS_B/Hand2_hover.png", l_jump = "SNS_3", number = 3)
+
+default S_NS_wake_thigh = nsb("Thighjob.",image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "SNS_wake_5",  number = 5)
+
 
 screen S_NS_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
@@ -47,6 +49,7 @@ screen S_NS_scr:
         $ i += 1
     if len(nsb_box.s_nsb_s)>9:
 
+
         imagebutton:
             xpos 55
             ypos 902
@@ -71,6 +74,7 @@ screen S_NS_scr:
         hover "images/NS_B/Cancel_hover.png"
         action [SetVariable("inv_page", 0),Hide("S_NS_scr"), Jump("CNS_back")]
         hovered Play ("sound", "sfx/click2.wav")
+
 
     imagebutton:
         xpos 1738
@@ -99,6 +103,7 @@ screen S_NS_scr:
 
     if new_nsb_in_wake == True:
         add "images/NS_B/New.png" xpos 1732 ypos 98
+
 
 screen S_NS_wake_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
@@ -139,6 +144,7 @@ screen S_NS_wake_scr:
                 add "images/NS_B/Locked_slot.png" xpos x ypos y
         $ i += 1
     if len(nsb_box.s_nsb_wake)>9:
+
 
         imagebutton:
             xpos 55

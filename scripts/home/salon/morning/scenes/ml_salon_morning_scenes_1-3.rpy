@@ -27,6 +27,7 @@ image ml_morning_salon_scene3_v1_p13 = "images/home/salon/morning/scenes/ml_morn
 image ml_morning_salon_scene3_v1_p14 = "images/home/salon/morning/scenes/ml_morning_salon_scene3_v1/14.jpg"
 image ml_morning_salon_scene3_v1_p15 = "images/home/salon/morning/scenes/ml_morning_salon_scene3_v1/15.jpg"
 
+
 screen ml_morning_salon_scenes1to3_v1_screen:
     zorder 103
     modal True
@@ -141,7 +142,6 @@ label ml_morning_salon_scenes1to3_v1_label:
         $ ml_can_salon_morning_scene = False
         $ ml_can_salon_morning_scene2 = False
         jump salon_morning1
-
     if ml_salon_morning_visit == 2 and ml_can_salon_morning_scene == True:
 
         scene ml_morning_salon_scene2_v1_p1 with dissolve

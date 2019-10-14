@@ -57,6 +57,7 @@ label SR2_NS1_label:
     Sara "I need to know… Am I your girlfriend now?"
     MC "(It sounds like she wants me to commit myself to her. If I’m fooling around with any other women - this could POTENTIALLY make things awkward…)"
 
+
     menu:
         "You’ll become my girlfriend after we have sex.":
             scene SR2_NS1_p6
@@ -150,6 +151,7 @@ label SR2_NS1_label:
 
             MC "*Mwah*"
             jump SR2_NS1_continue
+
 
 label SR2_NS1_continue:
     scene SR2_NS1_p4
