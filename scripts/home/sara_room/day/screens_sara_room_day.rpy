@@ -16,7 +16,7 @@ screen sister_nerdy_day:
             idle "images/home/sara_room/evening/scene3_v1/sara_gamepad.png"
             hover "images/home/sara_room/evening/scene3_v1/sara_gamepad_hover.png"
             action [Hide("displayTextScreen"),Jump("sis_nerdy_evening_gamepad_change_scene3_v1_label_can")]
-            hovered Show("displayTextScreen", displayText = "Sara's Gamepad")
+            hovered Show("displayTextScreen", displayText = __("Sara's Gamepad"))
             unhovered Hide("displayTextScreen")
 
 screen sister_nerdy_day_notclickable:

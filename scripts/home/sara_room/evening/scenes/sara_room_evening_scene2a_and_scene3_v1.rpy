@@ -17,11 +17,9 @@ image sara_room_evening_scene3_v1_p15 = "images/home/sara_room/evening/scene3_v1
 image sara_room_evening_scene3_v1_p16 = "images/home/sara_room/evening/scene3_v1/16.jpg"
 image sara_room_evening_scene3_v1_p17 = "images/home/sara_room/evening/scene3_v1/17.jpg"
 
-
 transform pandown1:
     crop (0, 1080, 1920, 2160)
     linear 2 crop (0, 0, 1920, 2160)
-
 
 label sis_nerdy_evening_scene2a_v1_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
@@ -74,14 +72,12 @@ label sis_nerdy_evening_scene2a_v1_label:
         MC "Street Brawler works for me."
         Sara "Coolio!"
 
-
         scene sara_room_evening_scene3_v1_p4
         Sara "Hehe - you do know you’re gonna lose again, right?"
         MC "Perhaps."
         Sara "And you know the penalty for losing?"
         MC "I lose a piece of clothing."
         Sara "Yup! Now let’s get started!"
-
 
         $ renpy.music.stop(channel="music2", fadeout=1)
         scene black
@@ -220,7 +216,6 @@ label sis_nerdy_evening_gamepad_change_scene3_v1_label:
         $ can_hide_windows = False
         MC "That’s her controller. What should I do with it to win next time?"
     jump sister_nerdy_evening1
-
 
 label sis_nerdy_evening_gamepad_change_scene3_v1_label_can:
     hide screen week_day_viewer

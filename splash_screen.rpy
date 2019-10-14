@@ -20,3 +20,4 @@ label splashscreen:
     $ persistent.isAndroid = False
     if not renpy.variant("pc"):
         $ persistent.isAndroid = True
+

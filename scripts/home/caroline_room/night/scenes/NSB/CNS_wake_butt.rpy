@@ -18,7 +18,6 @@ image CR2_NS_ButtJob_p15 = "images/home/caroline_room/night/scenes/CR2_NS/ButtJo
 image CR2_NS_ButtJob_p15a = "images/home/caroline_room/night/scenes/CR2_NS/ButtJob/15a.jpg"
 image CR2_NS_ButtJob_p16 = "images/home/caroline_room/night/scenes/CR2_NS/ButtJob/16.jpg"
 
-
 label CNS_wake_butt_label:
 
     scene CR2_NS_ButtJob_p1
@@ -26,7 +25,6 @@ label CNS_wake_butt_label:
     MC "Do you think you could use your butt for a change?"
     Caroline "My butt?"
     MC "Yeah, kinda like what you did with your thighs in your shop when you were wearing the White Princess outfit."
-
 
     scene CR2_NS_ButtJob_p2
 

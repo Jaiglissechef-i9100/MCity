@@ -1,7 +1,3 @@
-
-
-
-
 screen dark_alley_D_scr:
     key "hide_windows" action NullAction()
     if violetV2_scene == True:
@@ -15,6 +11,7 @@ screen dark_alley_D_scr:
                 hovered Show("displayTextScreen", displayText = "Violet")
                 action [Hide("displayTextScreen"),Jump("Vv2_AS1_label")]
                 unhovered Hide("displayTextScreen")
+
     if not "img16_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 1031
@@ -25,6 +22,7 @@ screen dark_alley_D_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),addgimage("img16_sec_card"),SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
+
     if not "img17_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 733
@@ -47,6 +45,7 @@ screen dark_alley_D_scr:
                 hovered Show("displayTextScreen", displayText = "Violet")
                 action [Hide("displayTextScreen"),Jump("CR3_VS_label")]
                 unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0

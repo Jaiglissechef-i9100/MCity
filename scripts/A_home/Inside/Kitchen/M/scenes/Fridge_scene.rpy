@@ -2,7 +2,6 @@ image li_fridge_p1 = "/images/a_home//Inside/Kitchen/M/scenes/Fridge/1.jpg"
 image li_fridge_p2 = "/images/a_home//Inside/Kitchen/M/scenes/Fridge/2.jpg"
 image li_fridge_p3 = "/images/a_home//Inside/Kitchen/M/scenes/Fridge/3.jpg"
 
-
 label fridge_scene_label:
     hide screen map_button
     scene li_fridge_p1
@@ -25,7 +24,7 @@ screen fridge_scene_scr:
             focus_mask True
             idle "/images/a_home//Inside/Kitchen/M/scenes/Fridge/Frigde2.png"
             hover "/images/a_home//Inside/Kitchen/M/scenes/Fridge/Frigde2_hover.png"
-            hovered Show("displayTextScreen", displayText = "Open")
+            hovered Show("displayTextScreen", displayText = __("Open"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Hide("fridge_scene_scr"),Show("fridge_scene_scr2")]
                 unhovered Hide("displayTextScreen")
@@ -39,7 +38,6 @@ screen fridge_scene_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Hide("fridge_scene_scr"),Jump("a_kitchen_M1")]
 
-
 screen fridge_scene_scr2:
     add "/images/a_home//Inside/Kitchen/M/scenes/Fridge/2.jpg"
     imagebutton:
@@ -48,7 +46,7 @@ screen fridge_scene_scr2:
         focus_mask True
         idle "/images/a_home//Inside/Kitchen/M/scenes/Fridge/Frigde3.png"
         hover "/images/a_home//Inside/Kitchen/M/scenes/Fridge/Frigde3_hover.png"
-        hovered Show("displayTextScreen", displayText = "Beer")
+        hovered Show("displayTextScreen", displayText = __("Beer"))
         if clickable == True:
             action [Hide("displayTextScreen"),Hide("fridge_scene_scr2"),Jump("fridge_scene_label2")]
             unhovered Hide("displayTextScreen")

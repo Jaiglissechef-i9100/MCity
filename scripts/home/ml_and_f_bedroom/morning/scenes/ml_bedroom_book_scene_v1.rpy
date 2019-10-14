@@ -19,7 +19,6 @@ label ml_bedroom_book_scene_v1_label:
     MC "(I wonder what could possibly be more interesting than having sex?)"
     MC "(Let’s turn this over…)"
 
-
     if renpy.loadable("patch.rpy"):
         scene ml_bedroom_book_scene_v1_p2
         MC "Dating your… son?"

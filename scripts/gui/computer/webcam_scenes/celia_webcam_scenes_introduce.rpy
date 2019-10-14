@@ -29,14 +29,6 @@ screen celia_webcam_evening_screen1_v1:
         clicked [Jump("celia_webcam_evening_scene1_v1_label2")]
     timer 4.00 action [Hide ("celia_webcam_evening_screen1_v1"),Jump("celia_webcam_evening_scene1_v1_label2")]
 
-
-
-
-
-
-
-
-
 label celia_webcam_scenes:
     if celia_webcam_introdution_v1 == 1:
         $ renpy.music.stop(channel="music2", fadeout=1)
@@ -50,20 +42,9 @@ label celia_webcam_scenes:
         hide screen live_camera_screen
         jump celia_webcam_scenes_menu1
 
-
-
-
-
-
-
-
-
-
 label celia_webcam_evening_scene1_v1_label:
     $ renpy.sound.play('/sfx/phone_call.mp3', loop=False)
     MC "(Okay, I better make sure my webcam is covered up.)"
-
-
 
 label celia_webcam_evening_scene1_v1_label2:
     $ renpy.sound.stop(channel="sound")

@@ -7,7 +7,6 @@ screen secret_gallery:
     $ start = gallery_page * maxperpage
     $ end = min(start + maxperpage - 1, len(gallery_items) - 1)
 
-
     grid maxnumx maxnumy:
         xfill True
         yfill True
@@ -27,7 +26,6 @@ screen secret_gallery:
         for i in range(end - start + 1, maxperpage):
             null
 
-
     grid maxnumx maxnumy:
         xfill True
         yfill True
@@ -40,12 +38,8 @@ screen secret_gallery:
                 $ total = gallery_items[i].num_images()
                 $ partial = gallery_items[i].num_unlocked
 
-
-
         for i in range(end - start + 1, maxperpage):
             null
-
-
 
     if gallery_page > 0:
         textbutton "Previous":
@@ -58,12 +52,11 @@ screen secret_gallery:
             xalign 0.9
             yalign 0.99999
 
-
     textbutton "Return":
         action [Hide("secret_gallery")]
         xalign 0.5
         yalign 0.99999
-    text "{size=+6}Secret Gallery{/size}":
+    text __("{size=+6}Secret Gallery{/size}"):
         xalign 0.5
         yalign 0.0
 screen gallery_closeup(images):

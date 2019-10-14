@@ -13,6 +13,10 @@ label headmaster_S1:
     hide screen map_button
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
+    if renpy.loadable("patch.rpy"):
+        $ Headmaster_name = __("Headmaster")
+    if not renpy.loadable("patch.rpy"):
+        $ Headmaster_name = __("Headmaster")
 
     $ clickable = False
     if day_time == 1:

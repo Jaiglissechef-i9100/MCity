@@ -36,7 +36,6 @@ label Bobv2_MS1_label:
     hide screen time_skip_button
     hide screen day_time_viewer
 
-
     scene Bobv2_MS1_p1 with dissolve
 
     if Bobv2_MS1_first_talk == True:
@@ -69,7 +68,6 @@ label Bobv2_MS1_label:
         Dad "Ah! Nothing important. Same day as always."
 
         jump Bobv2_MS1_menu
-
 
 label Bobv2_MS1_menu:
     scene Bobv2_MS1_p2
@@ -107,8 +105,6 @@ label Bobv2_MS1_menu:
                 else:
                     MC "Thanks, Bob."
                 jump bob_work_money_give
-
-
 
         "{color=#00ff00}Do you have any work for me?{/color}" if Bobv2_MS1_q1 == True:
             scene Bobv2_MS1_p2
@@ -171,6 +167,7 @@ label Bobv2_MS1_menu:
             $ Zv2_MS2 = True
             $ can_Zv2_MS2_q = True
             jump Bobv2_MS1_menu
+
         "{color=#00ff00}Ask about company name.{/color}" if Zv2_MS2_companyname == 4 and Zv2_MS2_companyname_found == 2:
             scene Bobv2_MS1_p1
             if renpy.loadable("patch.rpy"):
@@ -209,11 +206,8 @@ label Bobv2_MS1_menu:
 
             jump Bobv2_MS1_menu
 
-
         "Ask Dad if he knows about Zuri’s twin sister. " if Bobv2_MS1_q4 == True:
             jump Bobv2_MS1_zurisuri_label
-
-
 
         "{color=#00ff00}Ask Dad how work is going.{/color}" if Bobv2_MS1_q5 == True and renpy.loadable("patch.rpy"):
             jump Bobv2_MS1_work_label
@@ -226,15 +220,12 @@ label Bobv2_MS1_menu:
             $ can_hide_windows = False
             jump bob_office_M1
 
-
-
 label Bobv2_MS1_zurisuri_label:
     scene Bobv2_MS1_p1
     if renpy.loadable("patch.rpy"):
         MC "Hey, Dad. Did you know Zuri had a twin sister?"
     else:
         MC "Hey, Bob. Did you know Zuri had a twin sister?"
-
 
     scene Bobv2_MS1_p7
 
@@ -245,7 +236,6 @@ label Bobv2_MS1_zurisuri_label:
     scene Bobv2_MS1_p5
 
     Dad "How did you find out she had a twin?"
-
 
     MC "I… uh… She mentioned it to me in the lobby there."
 

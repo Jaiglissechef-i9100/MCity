@@ -12,7 +12,6 @@ image SR2_ES1_p11 = "images/web_cam_scenes/SR2_ES1/11.jpg"
 image SR2_ES1_p12 = "images/web_cam_scenes/SR2_ES1/12.jpg"
 image SR2_ES1_p13 = "images/web_cam_scenes/SR2_ES1/13.jpg"
 
-
 image SR2_ES1_Bra_p1 = "images/web_cam_scenes/SR2_ES1/Bra/1.jpg"
 image SR2_ES1_Bra_p2 = "images/web_cam_scenes/SR2_ES1/Bra/2.jpg"
 image SR2_ES1_Bra_p3 = "images/web_cam_scenes/SR2_ES1/Bra/3.jpg"
@@ -88,7 +87,6 @@ label SR2_ES1_label:
         else:
             MC "What's everything you have to do before Linda ungrounds you?"
 
-
         scene SR2_ES1_p4
 
         Sara "Aaarrrghhh…."
@@ -162,7 +160,6 @@ label SR2_ES1_label:
         $ menu_q1 = True
         $ menu_q2 = True
         jump SR2_ES1_menu
-
 
 label SR2_ES1_menu:
     scene SR2_ES1_p13
@@ -278,8 +275,6 @@ label SR2_ES1_menu:
                 jump SR2_ES1_continue
             else:
                 jump SR2_ES1_menu
-
-
 
 label SR2_ES1_continue:
     $ renpy.music.stop(channel="music2", fadeout=1)

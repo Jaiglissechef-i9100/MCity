@@ -2,7 +2,6 @@ label beach3_E1:
     hide screen displayTextScreen
     hide screen map
 
-
     show screen week_day_viewer
     show screen time_skip_button
     show screen day_time_viewer

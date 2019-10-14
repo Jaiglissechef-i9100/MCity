@@ -1,5 +1,3 @@
-
-
 label MLR3_AS3_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -10,8 +8,6 @@ label MLR3_AS3_rep:
     $ can_hide_windows = True
     scene black
     $ renpy.pause(2,hard= True)
-
-
 
     scene MLR3_AS3_p1 with dissolve
 
@@ -101,7 +97,6 @@ label MLR3_AS3_rep:
     Mom "Over here?"
     MC "Yeah, you see those two red folders to the right? That’s what I’m working on right now."
 
-
     scene MLR3_AS3_p14
     Mom "Yuck… this takes me back to my days in school."
     Mom "I used to hate revising. During the exam period my mom would ALWAYS yap at me: “Why aren’t you studying?! Why can’t you be more like Liza?!”"
@@ -154,6 +149,7 @@ label MLR3_AS3_rep:
             Mom "My my… someone is horny!"
             MC "Sorry, [Mom_name]. I couldn’t hold myself back. Your tits are awesome!"
             jump MLR3_AS3_con2_rep
+
 label MLR3_AS3_con2_rep:
     scene MLR3_AS3_p20
     if renpy.loadable("patch.rpy"):
@@ -194,7 +190,6 @@ label MLR3_AS3_con2_rep:
     scene MLR3_AS3_p24anim
     MC "Ugh… fuck, this is good."
     Mom "*SUCK SUCK*"
-
 
     scene MLR3_AS3_p27 with dissolve
 
@@ -301,7 +296,6 @@ label MLR3_AS3_con2_rep:
     MC "Mmm! Ahh…"
     MC "(She’s sped up now! I’m not gonna last long, if she keeps up this pace!)"
 
-
     scene MLR3_AS3_p44
 
     Mom "*GAG* *SHLUUURRRRP*"
@@ -323,7 +317,6 @@ label MLR3_AS3_con2_rep:
     Mom "*Gulp*"
 
     scene MLR3_AS3_p46
-
 
     Mom "Ahh…"
     MC "Fuck...That was amazing. Thanks, [Mom_name]."
@@ -376,9 +369,6 @@ label MLR3_AS3_con2_rep:
     Caroline "Bye, [Mom_name]!"
     MC "S-See ya, later!"
     MC "(Phew… That was FAR too close!)"
-
-
-
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

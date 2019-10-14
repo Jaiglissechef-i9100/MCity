@@ -8,10 +8,8 @@ label bob_safe_label:
     scene bob_safe_p1
     call screen bob_safe_scr
 
-
 screen bob_safe_scr:
     key "hide_windows" action NullAction()
-
 
     imagebutton:
         xpos 671
@@ -20,9 +18,10 @@ screen bob_safe_scr:
         idle "images/Bob_work/office/M/safe/B1.png"
         hover "images/Bob_work/office/M/safe/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Safe")
+            hovered Show("displayTextScreen", displayText = __("Safe"))
             action [Hide("displayTextScreen"),Jump("bob_safeopen_label")]
             unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0
@@ -32,14 +31,15 @@ screen bob_safe_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_desk_label")]
 
-
 label bob_safeopen_label:
+
     if bob_safenote not in inventory.items:
         show screen bob_safe_scr
         $ clickable = False
         MC "The safe is locked. I need a code."
         $ clickable = True
         jump bob_safe_label
+
     if bob_safenote  in inventory.items:
         scene bob_safe_p2
         if bob_safe_firsttime_open == False:
@@ -50,6 +50,7 @@ label bob_safeopen_label:
             $ bob_safe_firsttime_open = True
 
         call screen bob_safeopen_scr
+
 screen bob_safeopen_scr:
     key "hide_windows" action NullAction()
 
@@ -61,10 +62,9 @@ screen bob_safeopen_scr:
             idle "images/Bob_work/office/M/safe/B2.png"
             hover "images/Bob_work/office/M/safe/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Money")
+                hovered Show("displayTextScreen", displayText = __("Money"))
                 action [Hide("displayTextScreen"),Jump("bob_safeopenmoney_label")]
                 unhovered Hide("displayTextScreen")
-
 
     imagebutton:
         xpos 850
@@ -86,7 +86,6 @@ screen bob_safeopen_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_desk_label")]
 
-
 label bob_safeopenmoney_label:
     show screen bob_safeopen_scr
     $ clickable = False
@@ -96,8 +95,6 @@ label bob_safeopenmoney_label:
     MC "Nice! +[money]$"
     $ clickable = True
     jump bob_safeopen_label
-
-
 
 label bob_safeopennote_label:
     show screen bob_safeopen_scr

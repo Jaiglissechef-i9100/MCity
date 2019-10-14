@@ -11,6 +11,7 @@ screen therapist_room_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),addgimage("img41_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
             unhovered Hide("displayTextScreen")
+
     if not "img42_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 1677
@@ -29,8 +30,9 @@ screen therapist_room_morning:
         hover "images/school/therapist_room/morning/door1_morning_hover.png"
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor3_morning1")]
-            hovered Show("displayTextScreen", displayText = "Corridor Floor 1")
+            hovered Show("displayTextScreen", displayText = __("Corridor Floor 1"))
             unhovered Hide("displayTextScreen")
+
     if Judy_in_her_Office == True:
         imagebutton:
             xpos 919
@@ -51,5 +53,5 @@ screen therapist_room_morning:
         hover "images/school/therapist_room/morning/scenes/judy_scene1_v1/judy_cupboardv1_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("judy_morning_cupboardv1_label")]
-            hovered Show("displayTextScreen", displayText = "Cupboard")
+            hovered Show("displayTextScreen", displayText = __("Cupboard"))
             unhovered Hide("displayTextScreen")

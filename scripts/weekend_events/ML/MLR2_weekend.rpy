@@ -97,6 +97,12 @@ label MLR2_weekend_label:
     scene black
     $ renpy.pause(3,hard = True)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
+    if renpy.loadable("patch.rpy"):
+        $ Mom_name = __("Mom")
+        $ Dad_name = __("Dad")
+    if not renpy.loadable("patch.rpy"):
+        $ Mom_name = "Linda"
+        $ Dad_name = "Bob"
     scene MLR2_weekend_p1 with dissolve
     $ can_hide_windows = True
     Mom "Good evening, Dear. Nice to see you finally made it."
@@ -264,7 +270,6 @@ label MLR2_weekend_label:
     $ can_hide_windows = False
     call screen MLR2_weekend_scr
 
-
 screen MLR2_weekend_scr:
     key "hide_windows" action NullAction()
     add "images/Weekend_Events/ML/R2/23.jpg"
@@ -275,6 +280,7 @@ screen MLR2_weekend_scr:
             idle "images/Weekend_Events/ML/R2/BodySpot/b1.png"
             hover "images/Weekend_Events/ML/R2/BodySpot/b1_hover.png"
             action [Jump("MLR2_weekend_feet_label")]
+
     if MLR2_weekend_shin == True:
         imagebutton:
             xpos 712
@@ -322,7 +328,6 @@ screen MLR2_weekend_scr:
         idle "images/Weekend_Events/ML/R2/BodySpot/wine.png"
 
     text "{size=+20}{color=#00ff00}[MLR2_wine_counter]/3{/color}{/size}" xpos 1680 ypos 1000
-
 
 label MLR2_weekend_feet_label:
     hide screen MLR2_weekend_scr
@@ -577,7 +582,6 @@ label MLR2_weekend_end_label:
     else:
         MC "Thanks, Linda. That was… really close. Shall we get started on something else.. then?"
 
-
     Mom "(Dammit… I don’t want to stop… It’s just so alluring to suck on.)"
     scene MLR2_weekend_p37anim
     MC "What the hell is she doing"
@@ -720,9 +724,7 @@ label MLR2_weekend_end_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.pause(4, hard = True)
 
-
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
-
 
     scene MLR2_weekend_p53
 
@@ -867,8 +869,6 @@ label MLR2_weekend_end_label:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
-
-
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -979,6 +979,7 @@ label MLR2_weekend_end_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 2:
         $ week_day += 1
         $ day_time = 1
@@ -994,6 +995,7 @@ label MLR2_weekend_end_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 3:
         $ week_day += 1
         $ day_time = 1
@@ -1009,6 +1011,7 @@ label MLR2_weekend_end_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 4:
         $ week_day += 1
         $ day_time = 1
@@ -1024,6 +1027,7 @@ label MLR2_weekend_end_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 5:
         $ week_day = 1
         $ day_time = 1
@@ -1054,6 +1058,7 @@ label MLR2_weekend_end_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 7:
         $ week_day = 1
         $ day_time = 1

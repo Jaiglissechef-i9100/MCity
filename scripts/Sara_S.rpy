@@ -1,6 +1,3 @@
-
-
-
 default SR2_MS1 = True
 default SR2_MS2 = False
 default can_SR2_MS2 = False
@@ -29,7 +26,6 @@ default S_N_inbed = True
 default SR2_bath = False
 default can_SR2_bath = True
 
-
 label money_less10:
     if day_time == 1:
         show screen mc_room_morning_notclickable
@@ -45,8 +41,6 @@ label money_less10:
     $ inventory.earn(10)
     MC "+10$"
     jump mc_room_morning1
-
-
 
 label sleeping_after_scene:
 
@@ -228,7 +222,6 @@ label sleeping_after_scene:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
-
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -242,7 +235,6 @@ label sleeping_after_scene:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
-
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -268,7 +260,6 @@ label sleeping_after_scene:
     $ CR3_MS1_talked = False
     if CR3_ES1_can == False:
         $ CR3_ES1 = False
-
 
     if MLR3_MS1_can == False:
         $ MLR3_MS1 = False

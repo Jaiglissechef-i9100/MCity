@@ -1,7 +1,5 @@
 image bob_entrance_bg = "/images/Bob_work/entrance/M/entrance.jpg"
 
-
-
 label bob_entrance_M1:
     if day_time == 1:
         jump bob_entrance_M2
@@ -20,8 +18,6 @@ label bob_entrance_M1:
         $ clickable = True
         $ can_map = True
         jump bob_work_outside_morning1
-
-
 
 label bob_entrance_M2:
     hide screen displayTextScreen

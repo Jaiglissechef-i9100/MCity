@@ -34,7 +34,10 @@ image ML_NS_wake_p28 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/HerCHoic
 image ML_NS_wake_p29 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/HerCHoice/29.jpg"
 
 label ML_NS_wake_label:
-
+    if renpy.loadable("patch.rpy"):
+        $ Linda_name = __("Mom")
+    else:
+        $ Mom_name = "Linda"
     scene ML_NS_wake_p2
 
     MC "(Whispered) [Linda_name]?"

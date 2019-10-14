@@ -45,7 +45,7 @@ label CR4_MS1_label:
         hide screen map_button
         show screen caroline_room_morning
         $ clickable = False
-        MC "Not now, [player_name]."
+        Caroline "Not now, [player_name]."
         $ clickable = True
         hide screen caroline_room_morning
         jump caroline_room_morning1

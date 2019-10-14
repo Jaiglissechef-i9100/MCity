@@ -60,7 +60,6 @@ label CR3_MS1_label:
 
     jump CR3_MS1_menu
 
-
 label CR3_MS1_menu:
 
     scene CR3_MS1_p2

@@ -1,7 +1,5 @@
 image a_office_bg_M = "/images/a_home/Inside/Office/M/1.jpg"
 
-
-
 label a_office_M1:
 
     if day_time == 1:

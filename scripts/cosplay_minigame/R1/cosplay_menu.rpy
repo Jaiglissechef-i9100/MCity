@@ -1,4 +1,5 @@
 image cosplay_menu_p1 = "images/cosplay_minigame/1/1.jpg"
+
 default cosplay_unlock_switch = 0
 default cosplay_score = 0
 default cosplay_pic_count = 0
@@ -11,6 +12,7 @@ default cosplay_outfit2_first_time = True
 default cosplay_outfit3_first_time = True
 default cosplay_outfit4_first_time = True
 default cosplay_outfit5_first_time = True
+
 label cosplay_menu_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
@@ -87,9 +89,6 @@ screen cosplay_menu_screen:
         idle "images/cosplay_minigame/R3/Outfit_Close.png"
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [Hide ("cosplay_menu_screen"),Jump("cosplay_CR3_close")]
-
-
-
 
 screen cosplay_menu_score_screen:
     modal True

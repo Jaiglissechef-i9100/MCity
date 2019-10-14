@@ -1,13 +1,13 @@
 image room1_R2_scene = "images/Work_Minigame/room1R2/Room.jpg"
 
-
-
-
 label work_minigame_R2_room1_label:
-    scene room1_R2_scene
-    hide screen map_button
-    call screen work_minigame_R2_room1_items1
-
+    menu:
+        "Play":
+            scene room1_R2_scene
+            hide screen map_button
+            call screen work_minigame_R2_room1_items1
+        "Fuck minigame":
+            jump after_ml_workR2_AS1_label
 
 screen work_minigame_R2_room1_items1:
     key "hide_windows" action NullAction()
@@ -47,6 +47,7 @@ screen work_minigame_R2_room1_items1:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
+
     if rubbish1_colleted == False:
         imagebutton:
             xpos 808
@@ -95,6 +96,7 @@ screen work_minigame_R2_room1_items1:
             idle "images/Work_Minigame/room1R2/Items1/Item6.png"
             hover "images/Work_Minigame/room1R2/Items1/Item6_hover.png"
             action [Hide("displayTextScreen"), Jump("rubbish6_R2colleted_label"),]
+
     if rubbish_colleted_counter == 6:
         imagebutton:
             xpos 1687
@@ -138,7 +140,6 @@ label rubbish6_R2colleted_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_R2_room1_label
-
 
 label work_minigame_room1R2_items2_label:
     $ rubbish_colleted_counter = 0
@@ -194,7 +195,6 @@ screen work_minigame_room1R2_items2:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
-
     if rubbish1_colleted == False:
         imagebutton:
             xpos 1143
@@ -243,6 +243,7 @@ screen work_minigame_room1R2_items2:
             idle "images/Work_Minigame/room1R2/Items2/Item6.png"
             hover "images/Work_Minigame/room1R2/Items2/Item6_hover.png"
             action [Hide("displayTextScreen"), Jump("rubbish6_R2colleted_items2_label"),]
+
     if rubbish_colleted_counter == 6:
         imagebutton:
             xpos 1687
@@ -286,7 +287,6 @@ label rubbish6_R2colleted_items2_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room1R2_items2_label1
-
 
 label work_minigame_room1R2_items3_label:
     $ rubbish_colleted_counter = 0

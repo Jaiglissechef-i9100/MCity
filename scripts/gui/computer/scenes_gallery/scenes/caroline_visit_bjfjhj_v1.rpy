@@ -40,7 +40,6 @@ label caroline_visit_bjfjhj_v1:
     Caroline "You have to respect these rules and not try to push me, to do something I’m uncomfortable with. Does that sound fair to you?"
     MC "Sure, I guess so."
 
-
     scene caroline_mc_room_morning_scene5_p7
     Caroline "I’m happy to help you get-off, by using my hands or my butt again. But this comes with two conditions."
     Caroline "The first is, that you start working for free now, when I need photo sessions done."
@@ -122,8 +121,6 @@ label caroline_visit_bjfjhj_v1:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             jump pc_icon_label
         "Could you maybe use your feet instead?":
-
-
 
             scene caroline_mc_room_morning_scene5_hand_footp7
             MC "Could you try using your feet instead?"

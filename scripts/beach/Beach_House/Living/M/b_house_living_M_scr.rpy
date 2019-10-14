@@ -10,7 +10,7 @@ screen b_house_living_M_scr:
         hover "images/Beach/Beach_House/Living/M/B1_hover.png"
         if clickable == True:
             action [Play("sound", "sfx/door_open.mp3"),Jump("b_house_bedroom_M1")]
-        hovered Show("displayTextScreen", displayText = "Bedroom")
+        hovered Show("displayTextScreen", displayText = __("Bedroom"))
         unhovered Hide("displayTextScreen")
 
     if clickable == True and MLR3_beach_event == False:
@@ -44,7 +44,7 @@ screen b_house_living_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_coffe"),]
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Mom")
+                    hovered Show("displayTextScreen", displayText = __("Mom"))
                 if not renpy.loadable("patch.rpy"):
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")
@@ -59,7 +59,7 @@ screen b_house_living_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_leaving"),]
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Mom")
+                    hovered Show("displayTextScreen", displayText = __("Mom"))
                 if not renpy.loadable("patch.rpy"):
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")

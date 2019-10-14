@@ -1,6 +1,3 @@
-
-
-
 label bob_office_D1:
     hide screen displayTextScreen
     scene bob_office_bg

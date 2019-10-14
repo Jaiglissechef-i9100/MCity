@@ -61,7 +61,6 @@ label SR2_weekend_swimming_pool_label:
     $ can_hide_windows = False
     jump swimming_poll_label
 
-
 label swimming_poll_label:
     hide screen displayTextScreen
     scene SR2_weekend_swimming_pool_background
@@ -86,7 +85,7 @@ screen swimming_poll_scr:
         idle "images/Weekend_Events/Sara/R2/Map/b1.png"
         hover "images/Weekend_Events/Sara/R2/Map/b1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Swim with Sara In The Pool")
+            hovered Show("displayTextScreen", displayText = __("Swim with Sara In The Pool"))
             action [Hide("displayTextScreen"),Jump("SR2_swimming_label")]
             unhovered Hide("displayTextScreen")
 
@@ -97,7 +96,7 @@ screen swimming_poll_scr:
         idle "images/Weekend_Events/Sara/R2/Map/b2.png"
         hover "images/Weekend_Events/Sara/R2/Map/b2_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Drink Lemonade")
+            hovered Show("displayTextScreen", displayText = __("Drink Lemonade"))
             action [Hide("displayTextScreen"),Jump("SR2_Lemonade_label")]
             unhovered Hide("displayTextScreen")
 
@@ -108,7 +107,7 @@ screen swimming_poll_scr:
         idle "images/Weekend_Events/Sara/R2/Map/b3.png"
         hover "images/Weekend_Events/Sara/R2/Map/b3_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Lounge Chairs")
+            hovered Show("displayTextScreen", displayText = __("Lounge Chairs"))
             action [Hide("displayTextScreen"),Jump("SR2_SunBed_label")]
             unhovered Hide("displayTextScreen")
 
@@ -119,7 +118,7 @@ screen swimming_poll_scr:
         idle "images/Weekend_Events/Sara/R2/Map/b4.png"
         hover "images/Weekend_Events/Sara/R2/Map/b4_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Water Slide")
+            hovered Show("displayTextScreen", displayText = __("Water Slide"))
             action [Hide("displayTextScreen"),Jump("SR2_waterslide_label")]
             unhovered Hide("displayTextScreen")
 

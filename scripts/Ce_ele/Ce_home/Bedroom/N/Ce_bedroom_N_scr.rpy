@@ -8,6 +8,7 @@ screen Ce_bedroom_N_scr:
             idle "images/secret_gallery/Bonus/B52a.png"
             hover "images/secret_gallery/Bonus/B52a_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img52_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -19,6 +20,7 @@ screen Ce_bedroom_N_scr:
             idle "images/secret_gallery/Bonus/B53c.png"
             hover "images/secret_gallery/Bonus/B53c_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img53_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
     if not "img54_sec_card" in gallery_photos.storage:
@@ -29,6 +31,7 @@ screen Ce_bedroom_N_scr:
             idle "images/secret_gallery/Bonus/B54c.png"
             hover "images/secret_gallery/Bonus/B54c_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img54_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
     if not "img55_sec_card" in gallery_photos.storage:
@@ -39,6 +42,7 @@ screen Ce_bedroom_N_scr:
             idle "images/secret_gallery/Bonus/B55c.png"
             hover "images/secret_gallery/Bonus/B55c_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img55_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 

@@ -106,8 +106,6 @@ label SR2_MS2_label:
     $ day_time = 1
     jump corridor_morning1
 
-
-
 label SR2_grounded_label:
     $ clickable = False
 

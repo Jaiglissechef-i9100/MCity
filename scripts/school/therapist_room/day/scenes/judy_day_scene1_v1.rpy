@@ -8,7 +8,6 @@ label judy_day_menu_v1_label:
         "Cancel":
             jump therapist_room_morning1
 
-
 label judy_day_scene1_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button

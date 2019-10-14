@@ -9,7 +9,7 @@ screen a_office_M_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Jump("a_living_M1")]
-    if LiR1_MAS3 == True and Li_points == 1:
+    if LiR1_MAS3 == True and Li_points == 1 and Y_points == 1:
         add "/images/a_home/Inside/Office/M/B3.png" xpos 1210 ypos 338
         imagebutton:
             xpos 969
@@ -41,7 +41,7 @@ screen a_office_M_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Li_key_label")]
             if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Auntie's Key")
+                hovered Show("displayTextScreen", displayText = __("Auntie's Key"))
             else:
-                hovered Show("displayTextScreen", displayText = "Liza's Key")
+                hovered Show("displayTextScreen", displayText = __("Liza's Key"))
             unhovered Hide("displayTextScreen")

@@ -8,6 +8,7 @@ label entrance2_morning1:
         jump entrance2_evening1
     if day_time == 4:
         jump entrance2_night1
+
 label entrance2_morning2:
     $ can_hide_windows = False
     hide screen displayTextScreen

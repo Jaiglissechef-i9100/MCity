@@ -50,7 +50,6 @@ label CNS_wake_kissing_label:
     else:
         Caroline "(I know he’s my close friend and that it’s wrong, but there’s just something different when I kiss him. It’s not like any of the other guys I’ve been with before.)"
 
-
     scene CNS_wake_kissing_p6
 
     Caroline "Mmm!"
@@ -63,7 +62,6 @@ label CNS_wake_kissing_label:
     MC "Mmm!"
     Caroline "(But those butterflies never came back after the first kiss, and the sex was emotionless.)"
     Caroline "(There’s something different about the time I spend with, [player_name].)"
-
 
     scene CNS_wake_kissing_p8
 

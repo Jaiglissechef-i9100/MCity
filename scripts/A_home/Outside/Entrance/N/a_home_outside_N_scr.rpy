@@ -1,4 +1,3 @@
-
 default LiR1_climbing = False
 screen a_home_outside_N_scr:
     key "hide_windows" action NullAction()
@@ -25,7 +24,7 @@ screen a_home_outside_N_scr:
                 action [Hide("displayTextScreen"),Jump("a_living_M1_locked")]
             else:
                 action [Play ("sound", "sfx/door_locked.mp3"),Hide("displayTextScreen"),Jump("a_living_M1_locked")]
-            hovered Show("displayTextScreen", displayText = "Enter House")
+            hovered Show("displayTextScreen", displayText = __("Enter House"))
         unhovered Hide("displayTextScreen")
     if LiR1_NS5 == True:
         imagebutton:
@@ -36,7 +35,7 @@ screen a_home_outside_N_scr:
             hover "/images/a_home/outside/Entrance/N/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("LiR1_NS5_label")]
-            hovered Show("displayTextScreen", displayText = "Enter House")
+            hovered Show("displayTextScreen", displayText = __("Enter House"))
             unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 1077
@@ -49,7 +48,7 @@ screen a_home_outside_N_scr:
             idle "/images/a_home/outside/Entrance/N/B2a.png"
             hover "/images/a_home/outside/Entrance/N/B2a_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Pool")
+            hovered Show("displayTextScreen", displayText = __("Pool"))
             action [Hide("displayTextScreen"),Jump("a_pool_M1")]
             unhovered Hide("displayTextScreen")
 
@@ -84,5 +83,5 @@ screen a_home_outside_N_scr:
             if clickable == True:
 
                 action [Hide("displayTextScreen"),Jump("Climbing_start0")]
-            hovered Show("displayTextScreen", displayText = "Climb")
+            hovered Show("displayTextScreen", displayText = __("Climb"))
             unhovered Hide("displayTextScreen")

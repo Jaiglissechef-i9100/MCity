@@ -1,6 +1,3 @@
-
-
-
 label CR3_AS10_label:
     if CR3_AS10_can == False:
         hide screen map_button

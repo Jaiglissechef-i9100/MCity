@@ -17,6 +17,13 @@ label celia_school_morning_scene2v1_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
+    if renpy.loadable("patch.rpy"):
+        $ Blonde_Girl = __("Blonde Girl")
+        $ Ginger_Guy = __("Ginger Guy")
+
+    if not renpy.loadable("patch.rpy"):
+        $ Blonde_Girl = __("Blonde Girl")
+        $ Ginger_Guy = __("Ginger Guy")
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
 

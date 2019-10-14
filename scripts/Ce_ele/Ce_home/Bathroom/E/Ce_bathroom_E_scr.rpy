@@ -8,6 +8,7 @@ screen Ce_bathroom_E_scr:
             idle "images/secret_gallery/Bonus/B49b.png"
             hover "images/secret_gallery/Bonus/B49b_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img49_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -19,6 +20,7 @@ screen Ce_bathroom_E_scr:
             idle "images/secret_gallery/Bonus/B50b.png"
             hover "images/secret_gallery/Bonus/B50b_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img50_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -30,6 +32,7 @@ screen Ce_bathroom_E_scr:
             idle "images/secret_gallery/Bonus/B51b.png"
             hover "images/secret_gallery/Bonus/B51b_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img51_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 

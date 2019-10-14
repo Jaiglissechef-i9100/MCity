@@ -3,7 +3,6 @@ image bob_work_outside_day = "/images/Bob_work/outside/D/outside_day.jpg"
 image bob_work_outside_evening = "/images/Bob_work/outside/E/outside_evening.jpg"
 image bob_work_outside_night = "/images/Bob_work/outside/N/outside_night.jpg"
 
-
 label bob_work_outside_morning1:
     $ in_map = False
     if day_time == 1:
@@ -26,8 +25,6 @@ label bob_work_outside_morning2:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_work_outside_M_scr
-
-
 
 label leave_cant:
 

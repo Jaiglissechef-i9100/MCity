@@ -87,9 +87,6 @@ label computer_menu:
         "Back.":
             jump mc_room_morning1
 
-
-
-
 label pc_icon_label:
     $ can_hide_windows = False
     if music_continue == False:
@@ -107,13 +104,14 @@ label name_change:
     show screen main_deskop_pcv1
     $ clickable = False
     $ player_name_old = player_name
-    $ player_name = renpy.input("Enter your new name.")
+    $ player_name = renpy.input(__("Enter your new name."))
     $ player_name = player_name.strip()
     if player_name == "":
         $ player_name = player_name_old
     $ clickable = True
     hide screen main_deskop_pcv1
     jump pc_icon_label
+
 screen main_deskop_pcv1:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -142,7 +140,7 @@ screen main_deskop_pcv1:
         focus_mask True
         idle "images/game_gui/pc/Gallery.png"
         hover "images/game_gui/pc/Gallery_Hover.png"
-        hovered Show("displayTextScreen", displayText = "Gallery")
+        hovered Show("displayTextScreen", displayText = __("Gallery"))
         if clickable == True:
             action [Hide("displayTextScreen"),Play ("sound", "sfx/mouse_click.mp3"),Jump("gallery_label")]
             unhovered Hide("displayTextScreen")
@@ -165,7 +163,7 @@ screen main_deskop_pcv1:
         focus_mask True
         idle "images/game_gui/pc/TurnOFF.png"
         hover "images/game_gui/pc/TurnOFF_Hover.png"
-        hovered Show("displayTextScreen", displayText = "Turn Off")
+        hovered Show("displayTextScreen", displayText = __("Turn Off"))
         if clickable == True:
             action [Play ("sound", "sfx/mouse_click.mp3"),Jump("turn_off_label")]
             unhovered Hide("displayTextScreen")
@@ -176,7 +174,7 @@ screen main_deskop_pcv1:
         focus_mask True
         idle Transform("images/RPS_minigame/PCIcon Normal.png", zoom=.89)
         hover Transform("images/RPS_minigame/PCIcon Hover.png", zoom=.89)
-        hovered Show("displayTextScreen", displayText = "Rock Paper Scissors")
+        hovered Show("displayTextScreen", displayText = __("Rock Paper Scissors"))
         if clickable == True:
             action [Play ("sound", "sfx/mouse_click.mp3"),Hide("main_deskop_pcv1"),Hide("displayTextScreen"),Jump("rps_money_select_label")]
             unhovered Hide("displayTextScreen")
@@ -194,7 +192,7 @@ screen main_deskop_pcv1:
     textbutton (player_name):
         if clickable == True:
             action Jump("name_change")
-        xpos 90 ypos 1027
+        xpos 90 ypos 1027 hovered ShowTransient("displayTextScreen", displayText = __("Change your name")) unhovered Hide("displayTextScreen")
 
     imagebutton:
         xpos 20
@@ -202,7 +200,7 @@ screen main_deskop_pcv1:
         focus_mask True
         idle "images/game_gui/pc/Stats.png"
         hover "images/game_gui/pc/Stats_hover.png"
-        hovered Show("displayTextScreen", displayText = "Statistics")
+        hovered Show("displayTextScreen", displayText = __("Statistics"))
         if clickable == True:
             action [Hide("displayTextScreen"),Play ("sound", "sfx/mouse_click.mp3"),Jump("G_Stats_label")]
             unhovered Hide("displayTextScreen")

@@ -1,4 +1,5 @@
 image judy_cupboardv1_p1 = "images/school/therapist_room/morning/scenes/judy_scene1_v1/cupboard1a.jpg"
+
 label judy_day_cupboardv1_label:
     hide screen map_button
     scene judy_cupboardv1_p1
@@ -12,9 +13,6 @@ label judy_day_empty_envelopev1_label:
     MC "I think I have a few in my locker in the school corridor."
     jump judy_day_cupboardv1_label
 
-
-
-
 screen judy_day_cupboardv1_screen:
     key "hide_windows" action NullAction()
     if can_envelope_from_Judy_v1 == 1:
@@ -25,7 +23,7 @@ screen judy_day_cupboardv1_screen:
             idle "images/school/therapist_room/morning/scenes/judy_scene1_v1/judy_envelopeb1_v1.png"
             hover "images/school/therapist_room/morning/scenes/judy_scene1_v1/judy_envelopeb1_v1_hover.png"
             action [Hide("displayTextScreen"),Jump("judy_day_empty_envelopev1_label")]
-            hovered Show("displayTextScreen", displayText = "Empty Envelope")
+            hovered Show("displayTextScreen", displayText = __("Empty Envelope"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:

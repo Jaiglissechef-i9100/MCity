@@ -1,5 +1,3 @@
-
-
 image Zv2_ES4_lie_p1 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/1.jpg"
 image Zv2_ES4_lie_p2 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/2.jpg"
 image Zv2_ES4_lie_p3 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/3.jpg"
@@ -48,6 +46,7 @@ image Zv2_ES4_truth_p28 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Truth/28.jpg"
 image Zv2_ES4_truth_p28a = "images/Zuri_home/home/E/scenes/Zv2_ES4/Truth/28a.jpg"
 
 default Z_points = 1
+
 label Zv2_ES4_label:
     if Zv2_true_counter > 1:
         jump Zv2_ES4_truth_label
@@ -184,7 +183,6 @@ label Zv2_ES4_truth_label:
     Suri "Oh c’mon! You came out thirty minutes before me!"
     Zuri "Still technically older!"
 
-
     scene Zv2_ES4_truth_p19
 
     Zuri "So, which of us would you like to ram your hard cock into first?"
@@ -293,7 +291,6 @@ label Zv2_ES4_truth_aftermenu:
     Zuri "Thank you again, for everything. You’ve made us both a shit-ton of money."
     Suri "We’ll be sure to come to you again if we can use your help."
 
-
     "This is the end of content for this character. (Unless Patrons decide otherwise.)"
 
     $ Z_points = 2
@@ -305,7 +302,6 @@ label Zv2_ES4_truth_aftermenu:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
-
 
 label Zv2_ES4_lie_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -367,7 +363,6 @@ label Zv2_ES4_lie_label:
     Zuri "OOOOHHHH!"
     MC "Jesus Christ!"
 
-
     scene Zv2_ES4_lie_p9
 
     MC "Oh fuck… Oh fuck… She’s dead…"
@@ -399,9 +394,7 @@ label Zv2_ES4_lie_label:
     MC "…"
     MC "(Why do I feel like an asshole…)"
 
-
     "This is the end of content for this character. (Unless Patrons decide otherwise.)"
-
 
     $ Zv2_ES4 = False
     $ day_time = 4

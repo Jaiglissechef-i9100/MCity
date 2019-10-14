@@ -72,7 +72,7 @@ label CR4_ES1_label:
         scene CR4_ES1_p3
         MC "Nothing much, I just dropped by to say hi."
         Caroline "Well, ‘hi’ then. Hehe!"
-        if Li_points >= 2 and CR4_ES1_q4 == False:
+        if Li_points >= 2 and Y_points >= 2 and CR4_ES1_q4 == False:
             $ CR4_ES1_q4 = True
         if SR2_grounded == True and  CR4_ES1_q2 == False:
             $ CR4_ES1_q2 = True

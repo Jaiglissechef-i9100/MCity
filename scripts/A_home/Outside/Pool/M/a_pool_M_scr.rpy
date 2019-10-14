@@ -1,4 +1,3 @@
-
 screen a_pool_M_scr:
     key "hide_windows" action NullAction()
     if not "img33_sec_card" in gallery_photos.storage:
@@ -35,7 +34,7 @@ screen a_pool_M_scr:
             if clickable == True and Li_clean_stuff.selected == False:
                 action [Hide("displayTextScreen"),Jump("pool_minigame_not_selected")]
 
-                hovered Show("displayTextScreen", displayText = "Start Pool Cleaning")
+                hovered Show("displayTextScreen", displayText = __("Start Pool Cleaning"))
                 unhovered Hide("displayTextScreen")
 
     if LiR1_MAS6 == True:
@@ -47,7 +46,7 @@ screen a_pool_M_scr:
             hover "/images/a_home/outside/Pool/M/B2_hover.png"
             if clickable == True:
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Auntie")
+                    hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS6_label")]
@@ -62,7 +61,7 @@ screen a_pool_M_scr:
             hover "/images/a_home/outside/Pool/M/B3_hover.png"
             if clickable == True:
                 if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Auntie")
+                    hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS7_label")]

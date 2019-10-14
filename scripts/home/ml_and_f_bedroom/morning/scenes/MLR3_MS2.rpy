@@ -9,7 +9,6 @@ image MLR3_MS2_p8 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2/8.jpg
 image MLR3_MS2_p9 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2/9.jpg"
 image MLR3_MS2_p10 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2/10.jpg"
 
-
 label MLR3_MS2:
     hide screen displayTextScreen
     hide screen map_button

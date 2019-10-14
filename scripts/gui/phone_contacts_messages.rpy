@@ -4,14 +4,11 @@ init -2 python:
     import renpy.exports as renpy 
     from operator import attrgetter 
 
-
     sms = None
     con_page = 0
 
 
 default Zuri_unread_alert = True
-
-
 
 screen contact_screen:
     key "hide_windows" action NullAction()
@@ -73,8 +70,6 @@ screen contact_screen:
         if len(inventory.contact)>1:
             imagebutton idle Transform("images/game_gui/phone/sms/Arrow_Right.png", zoom=.7) hover Transform("images/game_gui/phone/sms/Arrow_Right_Hover.png", zoom=.7) xalign 0.559 yalign 0.69 focus_mask True action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable('con_page', next_con_page), Show("contact_screen")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
             imagebutton idle Transform("images/game_gui/phone/sms/Arrow_Left.png", zoom=.7) hover Transform("images/game_gui/phone/sms/Arrow_Left_Hover.png", zoom=.7) xalign 0.439 yalign 0.69 focus_mask True action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable('con_page', prev_con_page), Show("contact_screen")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
-
-
 
 screen m_from_Linda:
     key "hide_windows" action NullAction()
@@ -507,8 +502,6 @@ screen new_message_incoming1:
         timer 2.25 action [SetVariable("Ce_sms4",False),]
         timer 2.26 action [Hide ("new_message_incoming1")]
 
-
-
 screen new_message_incoming1_NC:
 
     key "hide_windows" action NullAction()
@@ -530,7 +523,6 @@ screen new_message_incoming1_NC:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action NullAction()
-
 
 transform phone_pickup:
     xpos 1700 ypos 550

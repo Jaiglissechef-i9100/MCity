@@ -35,7 +35,6 @@ label SR2_AS4_label:
         Sara "I’d never felt, more at peace, in my life."
         MC "Aww, that’s so sweet. I loved cuddling you at night too."
 
-
         $ menu_q1 = True
         $ menu_q2 = True
         $ menu_q3 = True
@@ -43,7 +42,6 @@ label SR2_AS4_label:
         $ menu_q5 = True
         $ menu_ask = 0
         jump SR2_AS4_menu
-
 
 label SR2_AS4_menu:
     scene SR2_AS4_p5
@@ -156,7 +154,6 @@ label SR2_AS4_menu:
 
         "Skip questions." if menu_ask >= 2:
             jump SR2_AS4_continue
-
 
 label SR2_AS4_continue:
     scene SR2_AS4_p5

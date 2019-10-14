@@ -1,8 +1,5 @@
-
-
 screen beach_D_scr:
     add "images/Beach/Beach1/M/map.jpg"
-
 
     imagebutton:
         at map_arrow_anim

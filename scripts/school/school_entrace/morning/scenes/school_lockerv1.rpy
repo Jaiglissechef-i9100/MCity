@@ -43,6 +43,7 @@ label empty_envelope_pen_usev1_label:
         MC "That's my pens."
         hide screen school_open_lockerv1_morning_screen
         jump school_open_lockerv1_morning_label
+
 screen school_lockerv1_morning_screen1:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -52,7 +53,7 @@ screen school_lockerv1_morning_screen1:
         idle "images/school/school_entrance/morning/locker/door_lockerv1.png"
         if b_clickable == True:
             hover "images/school/school_entrance/morning/locker/door_lockerv1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Open")
+            hovered Show("displayTextScreen", displayText = __("Open"))
             action [Hide("displayTextScreen"),Jump("school_open_lockerv1_morning_label")]
             unhovered Hide("displayTextScreen")
     if b_clickable == True:
@@ -64,7 +65,6 @@ screen school_lockerv1_morning_screen1:
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("school_entrance_morning1")]
 
-
 screen school_open_lockerv1_morning_screen:
     key "hide_windows" action NullAction()
     if can_empty_envelope_school_lockerv1 == 1 and empty_envelope.selected and empty_envelope in inventory.items:
@@ -75,7 +75,7 @@ screen school_open_lockerv1_morning_screen:
             idle "images/school/school_entrance/morning/locker/penv1.png"
             if b_clickable == True:
                 hover "images/school/school_entrance/morning/locker/penv1_hover.png"
-                hovered Show("displayTextScreen", displayText = "Pens")
+                hovered Show("displayTextScreen", displayText = __("Pens"))
                 action [Hide("displayTextScreen"),Jump("empty_envelope_pen_usev1_label")]
                 unhovered Hide("displayTextScreen")
     else:
@@ -86,7 +86,7 @@ screen school_open_lockerv1_morning_screen:
             idle "images/school/school_entrance/morning/locker/penv1.png"
             if b_clickable == True:
                 hover "images/school/school_entrance/morning/locker/penv1_hover.png"
-                hovered Show("displayTextScreen", displayText = "Pens")
+                hovered Show("displayTextScreen", displayText = __("Pens"))
                 action [Hide("displayTextScreen"),Jump("empty_envelope_pen_usev1_label")]
                 unhovered Hide("displayTextScreen")
     if b_clickable == True:

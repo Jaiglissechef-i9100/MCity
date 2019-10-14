@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿################################################################################
 ## Initialization
 ################################################################################
@@ -356,6 +357,7 @@ define gui.nvl_spacing = 15
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
+
 define gui.nvl_name_xpos = 645
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 225

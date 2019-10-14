@@ -1,6 +1,3 @@
-
-
-
 image img1_sara_evening_pad_lose = MaxScale2("images/secret_gallery/Scenes/1.png")
 image img2_sara_evening_pad_win = MaxScale2("images/secret_gallery/Scenes/2.png")
 image img3_sara_night_visit_v1 = MaxScale2("images/secret_gallery/Scenes/3.png")
@@ -66,9 +63,6 @@ image img62_Ci_S1_rep = MaxScale2("images/secret_gallery/Scenes/62.png")
 
 image secret_gallery_background = "images/secret_gallery/Bonus/Black.jpg"
 image lockedthumb = MinScale2("images/secret_gallery/Bonus/locked.png", maxthumbx2, maxthumby2)
-
-
-
 
 image thumb1_idle_sara_evening_pad_lose = MinScale2("images/secret_gallery/Scenes/1.png", maxthumbx2, maxthumby2)
 image thumb2_idle_sara_evening_pad_win = MinScale2("images/secret_gallery/Scenes/2.png", maxthumbx2, maxthumby2)

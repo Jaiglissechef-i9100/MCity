@@ -1,106 +1,77 @@
+init offset = -1
 
-
-
-
-
-
-
-
-
-
-
-init -1 style default:
+style default:
+    outlines [ (absolute(1.5), "#000", absolute(0), absolute(0)) ]
     properties gui.text_properties()
     language gui.language
 
-init -1 style input:
+style input:
     properties gui.text_properties("input", accent=True)
     adjust_spacing False
 
-init -1 style hyperlink_text:
+style hyperlink_text:
     properties gui.text_properties("hyperlink", accent=True)
     hover_underline True
+    italic True
 
-init -1 style gui_text:
+style gui_text:
     properties gui.text_properties("interface")
 
-
-init -1 style button:
+style button:
     properties gui.button_properties("button")
 
-init -1 style button_text is gui_text:
+style button_text is gui_text:
     properties gui.text_properties("button")
     yalign 0.5
 
-
-init -1 style label_text is gui_text:
+style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
 
-init -1 style prompt_text is gui_text:
+style prompt_text is gui_text:
     properties gui.text_properties("prompt")
 
-
-init -1 style bar:
+style bar:
     ysize gui.bar_size
     left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
     right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
 
-init -1 style vbar:
+style vbar:
     xsize gui.bar_size
     top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
     bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
 
-init -1 style scrollbar:
+style scrollbar:
     ysize gui.scrollbar_size
     base_bar Frame("gui/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
-init -1 style vscrollbar:
+style vscrollbar:
+    yoffset 1
+    xoffset -90
+    ysize 855
     xsize gui.scrollbar_size
     base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
-init -1 style slider:
+style slider:
     ysize gui.slider_size
     base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
     thumb "gui/slider/horizontal_[prefix_]thumb.png"
 
-init -1 style vslider:
+style vslider:
     xsize gui.slider_size
     base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
     thumb "gui/slider/vertical_[prefix_]thumb.png"
 
-
-init -1 style frame:
+style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
+screen Log_scr():
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-init -501 screen Log_scr() tag menu:
-
+    tag menu
 
     add "main_menu"
-
-
-
 
     use game_menu(_("Changelog"), scroll="viewport"):
 
@@ -130,12 +101,12 @@ init -501 screen Log_scr() tag menu:
                 text "{color=#ffff66}{b}O.4{/b}{/color}" xalign 0.5
                 text "{color=#66ff66}{b}Added:{/b}{/color}\n- 93 New Animations!\n- +1200 New Images!\n- Relation up to 4 with Caroline \n- Relation up to 2 with Liza(Kitchen Guest)\n- Weekend event with Caroline\n- One new scene with Linda at night\n- New UI available at night along with “Wake Up’ option.\n- Many new night scenes - Be sure to check them out! With the story progression more and more become available!\n- Night scenes with Liza/Yazmin - Find the key in their house!\n- Two new minigames\n- New SMS's\n- New secret pictures\n- One new character\n- New places - Liza’s house and Nightclub."
 
-
     textbutton _("Return"):
         style "return_button"
 
         action Return()
-init -501 screen say(who, what):
+
+screen say(who, what):
 
     style_prefix "say"
 
@@ -145,7 +116,6 @@ init -501 screen say(who, what):
         if who is not None:
 
             window:
-                id "namebox"
                 style "namebox"
                 text who id "who"
 
@@ -153,27 +123,18 @@ init -501 screen say(who, what):
 
         use quick_menu
 
-
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
 
+style window is default
+style say_label is default
+style say_dialogue is default
+style say_thought is say_dialogue
 
+style namebox is default
+style namebox_label is say_label
 
-
-
-init -1 python:
-    config.character_id_prefixes.append('namebox')
-
-init -1 style window is default
-init -1 style say_label is default
-init -1 style say_dialogue is default
-init -1 style say_thought is say_dialogue
-
-init -1 style namebox is default
-init -1 style namebox_label is say_label
-
-
-init -1 style window:
+style window:
 
     xalign 0
     xfill True
@@ -181,10 +142,9 @@ init -1 style window:
     ysize gui.textbox_height
     focus_mask False
 
-
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
-init -1 style namebox:
+style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
     xsize gui.namebox_width
@@ -194,30 +154,22 @@ init -1 style namebox:
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
-init -1 style say_label:
+style say_label:
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign 0.5
+    yoffset -10
+    outlines [(2, "#000000", 1, 1)]
 
-init -1 style say_dialogue:
+style say_dialogue:
     properties gui.text_properties("dialogue")
 
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
+    outlines [(2, "#000000", 1, 1)]
 
-
-
-
-
-
-
-
-
-
-
-
-init -501 screen input(prompt):
+screen input(prompt):
 
     vbox:
         xalign 0.5
@@ -238,26 +190,17 @@ init -501 screen input(prompt):
             xmaximum 500
             input id "input" at center
 
-init -1 style input_prompt is default
+style input_prompt is default
 
-init -1 style input_prompt:
+style input_prompt:
     xalign gui.dialogue_text_xalign
     properties gui.text_properties("input_prompt")
 
-init -1 style input:
+style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
 
-
-
-
-
-
-
-
-
-
-init -501 screen choice(items):
+screen choice(items):
 
     zorder 103
     style_prefix "choice"
@@ -272,37 +215,31 @@ init -501 screen choice(items):
             else:
                 textbutton i.caption
 
+define config.narrator_menu = True
 
+style choice_vbox is vbox
+style choice_button is button
+style choice_button_text is button_text1
 
-
-define -1 config.narrator_menu = True
-
-
-init -1 style choice_vbox is vbox
-init -1 style choice_button is button
-init -1 style choice_button_text is button_text1
-
-init -1 style choice_vbox:
+style choice_vbox:
     xalign 0.5
     ypos 405
+    yalign 0.5
     yanchor 0.5
 
-    spacing gui.choice_spacing
+    #spacing gui.choice_spacing
+    spacing 5
 
-init -1 style choice_button is default:
+style choice_button is default:
     properties gui.button_properties("choice_button")
 
-init -1 style choice_button_text is default:
+style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
+    outlines [(2, "#000000", 1, 1)]
+    hover_outlines [(2, "#0c3483", 1, 1)]
+    hover_color "#ecf0f8"
 
-
-
-
-
-
-
-init -501 screen quick_menu():
-
+screen quick_menu():
 
     zorder 100
 
@@ -314,6 +251,7 @@ init -501 screen quick_menu():
             xalign 0.5
             yalign 1.0
 
+            textbutton _("Hide") action HideInterface()
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
@@ -323,35 +261,25 @@ init -501 screen quick_menu():
             textbutton _("Q.Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
-
-
-
-init -1 python:
+init python:
     config.overlay_screens.append("quick_menu")
 
-default -1 quick_menu = False
+default quick_menu = True
 
-init -1 style quick_button is default
-init -1 style quick_button_text is button_text
+style quick_button is default
+style quick_button_text is button_text
 
-init -1 style quick_button:
+style quick_button:
     properties gui.button_properties("quick_button")
 
-init -1 style quick_button_text:
+style quick_button_text:
     properties gui.button_text_properties("quick_button")
+    outlines [(2, "#000000", 1, 1)]
+    hover_outlines [(2, "#0c3483", 1, 1)]
+    hover_color "#ecf0f8"
+    selected_color "#ffffff"
 
-
-
-
-
-
-
-
-
-
-
-init -501 screen navigation():
-
+screen navigation():
 
     style_prefix "main_menu"
     side "c":
@@ -360,15 +288,15 @@ init -501 screen navigation():
         yalign 0.75
         vbox:
 
-            spacing 25
+            spacing 23
             xsize 400
 
             if main_menu:
 
                 textbutton _("Start") action Start() xalign 0.5
 
-
             else:
+                textbutton _("Back to Game") action Return() xalign 0.5
 
                 textbutton _("History") action ShowMenu("history") xalign 0.5
 
@@ -378,7 +306,6 @@ init -501 screen navigation():
 
             textbutton _("Preferences") action ShowMenu("preferences") xalign 0.5
 
-
             if _in_replay:
 
                 textbutton _("End Replay") action EndReplay(confirm=True) xalign 0.5
@@ -387,48 +314,34 @@ init -501 screen navigation():
 
                 textbutton _("Main Menu") action MainMenu() xalign 0.5
 
-            textbutton _("Credits") action ShowMenu("about") xalign 0.5
+            if main_menu:
+                textbutton _("Credits") action ShowMenu("about") xalign 0.5
 
             if renpy.variant("pc"):
-
-
 
                 textbutton _("Quit") action Quit(confirm=not main_menu) xalign 0.5
 
     textbutton ("{color=#c6d9ec}{size=-8}[config.version]{/size}{/color}") xalign 0.04 yalign 0.92
 
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
 
-init -1 style navigation_button is gui_button
-init -1 style navigation_button_text is gui_button_text
-
-init -1 style navigation_button:
+style navigation_button:
     size_group "navigation"
     properties gui.button_properties("navigation_button")
 
-init -1 style navigation_button_text:
+style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
 
+screen main_menu():
 
-
-
-
-
-
-
-init -501 screen main_menu() tag menu:
-
-
-
+    tag menu
 
     style_prefix "main_menu"
 
     add "main_menu"
 
-
     frame
-
-
-
 
     use navigation
 
@@ -455,47 +368,61 @@ init -501 screen main_menu() tag menu:
             hover Transform("images/game_gui/phone/Log Hover.png", zoom=.6)
             action ShowMenu("Log_scr")
 
+        imagebutton:
+            xpos 1775
+            ypos 790
+            focus_mask True
+            idle Transform("images/game_gui/flag/us_idle.png", zoom=.5)
+            hover Transform("images/game_gui/flag/us_hover.png", zoom=.5)
+            action Language(None)
 
+        imagebutton:
+            xpos 1775
+            ypos 920
+            focus_mask True
+            idle Transform("images/game_gui/flag/fr_idle.png", zoom=.5)
+            hover Transform("images/game_gui/flag/fr_hover.png", zoom=.5)
+            action Language("french")
 
-init -1 style main_menu_frame is empty
-init -1 style main_menu_vbox is vbox
-init -1 style main_menu_text is gui_text
-init -1 style main_menu_title is main_menu_text
-init -1 style main_menu_version is main_menu_text
+        imagebutton:
+            xpos 1812
+            ypos 1051
+            focus_mask True
+            idle Transform("images/game_gui/flag/version_idle.png", zoom=.6)
+            hover Transform("images/game_gui/flag/version_hover.png", zoom=.6)
+            hovered Show("displayTextScreen", displayText = __("Translate French by Larry Kubiac and psyko47"))
+            action NullAction()
+            unhovered Hide("displayTextScreen")
 
-init -1 style main_menu_frame:
+style main_menu_frame is empty
+style main_menu_vbox is vbox
+style main_menu_text is gui_text
+style main_menu_title is main_menu_text
+style main_menu_version is main_menu_text
+
+style main_menu_frame:
     xsize 420
     yfill True
 
     background "gui/overlay/main_menu.png"
 
-init -1 style main_menu_vbox:
+style main_menu_vbox:
     xalign 1.0
     xoffset -30
     xmaximum 1200
     yalign 1.0
     yoffset -30
 
-init -1 style main_menu_text:
+style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
 
-init -1 style main_menu_title:
+style main_menu_title:
     properties gui.text_properties("title")
 
-init -1 style main_menu_version:
+style main_menu_version:
     properties gui.text_properties("version")
 
-
-
-
-
-
-
-
-
-
-
-init -501 screen game_menu(title, scroll=None, yinitial=0.0):
+screen game_menu(title, scroll=None, yinitial=0.0):
 
     style_prefix "game_menu"
 
@@ -508,7 +435,6 @@ init -501 screen game_menu(title, scroll=None, yinitial=0.0):
         style "game_menu_outer_frame"
 
         has hbox
-
 
         frame:
             style "game_menu_navigation_frame"
@@ -548,7 +474,6 @@ init -501 screen game_menu(title, scroll=None, yinitial=0.0):
                     yinitial yinitial
                     ymaximum 700
 
-
                     mousewheel True
                     draggable True
 
@@ -572,78 +497,66 @@ init -501 screen game_menu(title, scroll=None, yinitial=0.0):
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
 
+style game_menu_outer_frame is empty
+style game_menu_navigation_frame is empty
+style game_menu_content_frame is empty
+style game_menu_viewport is gui_viewport
+style game_menu_side is gui_side
+style game_menu_scrollbar is gui_vscrollbar
 
-init -1 style game_menu_outer_frame is empty
-init -1 style game_menu_navigation_frame is empty
-init -1 style game_menu_content_frame is empty
-init -1 style game_menu_viewport is gui_viewport
-init -1 style game_menu_side is gui_side
-init -1 style game_menu_scrollbar is gui_vscrollbar
+style game_menu_label is gui_label
+style game_menu_label_text is gui_label_text
 
-init -1 style game_menu_label is gui_label
-init -1 style game_menu_label_text is gui_label_text
+style return_button is navigation_button
+style return_button_text is navigation_button_text
 
-init -1 style return_button is navigation_button
-init -1 style return_button_text is navigation_button_text
-
-init -1 style game_menu_outer_frame:
+style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
     background "gui/overlay/game_menu.png"
 
-init -1 style game_menu_navigation_frame:
+style game_menu_navigation_frame:
     xsize 420
     yfill True
 
-
-init -1 style game_menu_content_frame:
+style game_menu_content_frame:
     left_margin 60
     right_margin 30
     top_margin 15
 
-init -1 style game_menu_viewport:
+style game_menu_viewport:
     ypos -50
     xpos 170
     xsize 1350
     ymaximum 800
 
-init -1 style game_menu_vscrollbar:
+style game_menu_vscrollbar:
     unscrollable gui.unscrollable
 
-init -1 style game_menu_side:
+style game_menu_side:
     spacing 15
 
-init -1 style game_menu_label:
+style game_menu_label:
     xalign 0.65
     ypos -50
     ysize 180
 
-init -1 style game_menu_label_text:
+style game_menu_label_text:
     size gui.title_text_size
     color gui.accent_color
     yalign 0.5
 
-init -1 style return_button:
-    xpos 550
+style return_button:
+    xpos 650
     yalign 0.95
     yoffset -45
 
+screen about():
 
-
-
-
-
-
-
-
-init -501 screen about() tag menu:
-
+    tag menu
 
     add "main_menu"
-
-
-
 
     use game_menu(_("Credits"), scroll="viewport"):
 
@@ -660,10 +573,6 @@ init -501 screen about() tag menu:
                     spacing 3
                     xsize 1100
 
-
-
-
-
                 text "{b}Developer:{/b}\n" xalign 0.5
                 text "ICSTOR\n" xalign 0.5
                 text "{b}Programmer:{/b}\n" xalign 0.5
@@ -676,69 +585,44 @@ init -501 screen about() tag menu:
                 text "{a=http://creativecommons.org/licenses/by/3.0//}http://creativecommons.org/licenses/by/3.0\n{/a}" xalign 0.5
                 text "{b}Special thanks for all my Patrons!{/b}" xalign 0.5
 
-
-
-
-
-
                 if gui.about:
                     text "[gui.about!t]\n"
 
+define gui.about = ""
 
+style about_label is gui_label
+style about_label_text is label_text
 
+style about_text is gui_text
 
-
-define -1 gui.about = ""
-
-
-init -1 style about_label is gui_label
-init -1 style about_label_text is label_text
-
-
-init -1 style about_text is gui_text
-
-init -1 style about_label_text:
+style about_label_text:
     size gui.label_text_size
 
+screen save():
 
-
-
-
-
-
-
-
-
-
-
-init -501 screen save() tag menu:
-
+    tag menu
 
     add "main_menu"
 
     use file_slots(_("Save  "))
 
+screen load():
 
-init -501 screen load() tag menu:
-
+    tag menu
 
     add "main_menu"
 
     use file_slots(_("Load  "))
 
+screen file_slots(title):
 
-init -501 screen file_slots(title):
-
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    default page_name_value = FilePageNameInputValue(pattern=__("Page {}"), auto=__("Automatic saves"), quick=__("Quick saves"))
 
     use game_menu(title):
 
         fixed:
 
-
-
             order_reverse True
-
 
             button:
                 style "page_label"
@@ -750,7 +634,6 @@ init -501 screen file_slots(title):
                 input:
                     style "page_label_text"
                     value page_name_value
-
 
             grid gui.file_slot_cols gui.file_slot_rows:
                 style_prefix "slot"
@@ -774,11 +657,20 @@ init -501 screen file_slots(title):
                         text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
                             style "slot_time_text"
 
+                        if FileLoadable(slot):
+                            imagebutton:
+                                idle Transform("gui/button/button_delete_idle.png", zoom=.8)
+                                hover Transform("gui/button/button_delete_hover.png", zoom=.8)
+
+                                action FileDelete(slot)
+                                yoffset -25
+                                xalign 1.0
+
+
                         text FileSaveName(slot):
                             style "slot_name_text"
 
                         key "save_delete" action FileDelete(slot)
-
 
             hbox:
                 style_prefix "page"
@@ -802,48 +694,40 @@ init -501 screen file_slots(title):
 
                 textbutton _(">") action FilePageNext()
 
+style page_label is gui_label
+style page_label_text is gui_label_text
+style page_button is gui_button
+style page_button_text is gui_button_text
 
-init -1 style page_label is gui_label
-init -1 style page_label_text is gui_label_text
-init -1 style page_button is gui_button
-init -1 style page_button_text is gui_button_text
+style slot_button is gui_button
+style slot_button_text is gui_button_text
+style slot_time_text is slot_button_text
+style slot_name_text is slot_button_text
 
-init -1 style slot_button is gui_button
-init -1 style slot_button_text is gui_button_text
-init -1 style slot_time_text is slot_button_text
-init -1 style slot_name_text is slot_button_text
-
-init -1 style page_label:
+style page_label:
     xpadding 75
     ypadding 5
 
-init -1 style page_label_text:
+style page_label_text:
     text_align 0.5
     layout "subtitle"
     hover_color gui.hover_color
 
-init -1 style page_button:
+style page_button:
     properties gui.button_properties("page_button") ypos -50
 
-init -1 style page_button_text:
+style page_button_text:
     properties gui.button_text_properties("page_button")
 
-init -1 style slot_button:
+style slot_button:
     properties gui.button_properties("slot_button")
 
-init -1 style slot_button_text:
+style slot_button_text:
     properties gui.button_text_properties("slot_button")
 
+screen preferences():
 
-
-
-
-
-
-
-
-init -501 screen preferences() tag menu:
-
+    tag menu
 
     add "main_menu"
 
@@ -861,6 +745,12 @@ init -501 screen preferences() tag menu:
                         label _("Display")
                         textbutton _("Window") action Preference("display", "window")
                         textbutton _("Fullscreen") action Preference("display", "fullscreen")
+
+                vbox:
+                    style_prefix "radio"
+                    label _("Language")
+                    textbutton _("English") action Language(None)
+                    textbutton _("French") action Language("french")
 
                 vbox:
                     style_prefix "radio"
@@ -912,9 +802,6 @@ init -501 screen preferences() tag menu:
                             if config.sample_sound:
                                 textbutton _("Test") action Play("sound", config.sample_sound)
 
-
-
-
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
@@ -922,93 +809,81 @@ init -501 screen preferences() tag menu:
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
+style pref_label is gui_label
+style pref_label_text is gui_label_text
+style pref_vbox is vbox
 
-init -1 style pref_label is gui_label
-init -1 style pref_label_text is gui_label_text
-init -1 style pref_vbox is vbox
+style radio_label is pref_label
+style radio_label_text is pref_label_text
+style radio_button is gui_button
+style radio_button_text is gui_button_text
+style radio_vbox is pref_vbox
 
-init -1 style radio_label is pref_label
-init -1 style radio_label_text is pref_label_text
-init -1 style radio_button is gui_button
-init -1 style radio_button_text is gui_button_text
-init -1 style radio_vbox is pref_vbox
+style check_label is pref_label
+style check_label_text is pref_label_text
+style check_button is gui_button
+style check_button_text is gui_button_text
+style check_vbox is pref_vbox
 
-init -1 style check_label is pref_label
-init -1 style check_label_text is pref_label_text
-init -1 style check_button is gui_button
-init -1 style check_button_text is gui_button_text
-init -1 style check_vbox is pref_vbox
+style slider_label is pref_label
+style slider_label_text is pref_label_text
+style slider_slider is gui_slider
+style slider_button is gui_button
+style slider_button_text is gui_button_text
+style slider_pref_vbox is pref_vbox
 
-init -1 style slider_label is pref_label
-init -1 style slider_label_text is pref_label_text
-init -1 style slider_slider is gui_slider
-init -1 style slider_button is gui_button
-init -1 style slider_button_text is gui_button_text
-init -1 style slider_pref_vbox is pref_vbox
+style mute_all_button is check_button
+style mute_all_button_text is check_button_text
 
-init -1 style mute_all_button is check_button
-init -1 style mute_all_button_text is check_button_text
-
-init -1 style pref_label:
+style pref_label:
     top_margin gui.pref_spacing
     bottom_margin 3
 
-init -1 style pref_label_text:
+style pref_label_text:
     yalign 1.4
 
+style pref_vbox:
+    xsize 300
 
-init -1 style pref_vbox:
-    xsize 400
-
-
-init -1 style radio_vbox:
+style radio_vbox:
     spacing gui.pref_button_spacing
 
-init -1 style radio_button:
+style radio_button:
     properties gui.button_properties("radio_button")
     foreground "gui/button/check_[prefix_]foreground.png"
 
-init -1 style radio_button_text:
+style radio_button_text:
     properties gui.button_text_properties("radio_button")
 
-init -1 style check_vbox:
+style check_vbox:
     spacing gui.pref_button_spacing
 
-init -1 style check_button:
+style check_button:
     properties gui.button_properties("check_button")
     foreground "gui/button/check_[prefix_]foreground.png"
 
-init -1 style check_button_text:
+style check_button_text:
     properties gui.button_text_properties("check_button")
 
-init -1 style slider_slider:
+style slider_slider:
     xsize 450
 
-init -1 style slider_button:
+style slider_button:
     properties gui.button_properties("slider_button")
     yalign 0.5
     left_margin 15
 
-init -1 style slider_button_text:
+style slider_button_text:
     properties gui.button_text_properties("slider_button")
 
-init -1 style slider_vbox:
+style slider_vbox:
     xsize 675
 
+screen history():
 
-
-
-
-
-
-
-
-
-init -501 screen history() tag menu:
-
+    tag menu
 
     add "main_menu"
-
 
     predict False
 
@@ -1020,7 +895,6 @@ init -501 screen history() tag menu:
 
             window:
 
-
                 has fixed:
                     yfit True
 
@@ -1028,8 +902,6 @@ init -501 screen history() tag menu:
 
                     label h.who:
                         style "history_name"
-
-
 
                         if "color" in h.who_args:
                             text_color h.who_args["color"]
@@ -1040,39 +912,35 @@ init -501 screen history() tag menu:
         if not _history_list:
             label _("The dialogue history is empty.")
 
+define gui.history_allow_tags = set()
 
+style history_window is empty
 
+style history_name is gui_label
+style history_name_text is gui_label_text
+style history_text is gui_text
 
-define -1 gui.history_allow_tags = set()
+style history_text is gui_text
 
+style history_label is gui_label
+style history_label_text is gui_label_text
 
-init -1 style history_window is empty
-
-init -1 style history_name is gui_label
-init -1 style history_name_text is gui_label_text
-init -1 style history_text is gui_text
-
-init -1 style history_text is gui_text
-
-init -1 style history_label is gui_label
-init -1 style history_label_text is gui_label_text
-
-init -1 style history_window:
+style history_window:
     xfill True
     ysize gui.history_height
     ypos 100
 
-init -1 style history_name:
+style history_name:
     xpos gui.history_name_xpos
     xanchor gui.history_name_xalign
     ypos gui.history_name_ypos
     xsize gui.history_name_width
 
-init -1 style history_name_text:
+style history_name_text:
     min_width gui.history_name_width
     text_align gui.history_name_xalign
 
-init -1 style history_text:
+style history_text:
     xpos gui.history_text_xpos
     ypos gui.history_text_ypos
     xanchor gui.history_text_xalign
@@ -1081,22 +949,15 @@ init -1 style history_text:
     text_align gui.history_text_xalign
     layout ("subtitle" if gui.history_text_xalign else "tex")
 
-init -1 style history_label:
+style history_label:
     xfill True
 
-init -1 style history_label_text:
+style history_label_text:
     xalign 0.5
 
+screen help():
 
-
-
-
-
-
-
-init -501 screen help() tag menu:
-
-
+    tag menu
 
     add "main_menu"
 
@@ -1124,8 +985,7 @@ init -501 screen help() tag menu:
             elif device == "gamepad":
                 use gamepad_help
 
-
-init -501 screen keyboard_help():
+screen keyboard_help():
 
     hbox:
         label _("Enter")
@@ -1171,8 +1031,7 @@ init -501 screen keyboard_help():
         label "V"
         text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
 
-
-init -501 screen mouse_help():
+screen mouse_help():
 
     hbox:
         label _("Left Click")
@@ -1194,8 +1053,7 @@ init -501 screen mouse_help():
         label _("Mouse Wheel Down")
         text _("Rolls forward to later dialogue.")
 
-
-init -501 screen gamepad_help():
+screen gamepad_help():
 
     hbox:
         label _("Right Trigger\nA/Bottom Button")
@@ -1224,45 +1082,29 @@ init -501 screen gamepad_help():
 
     textbutton _("Calibrate") action GamepadCalibrate()
 
+style help_button is gui_button
+style help_button_text is gui_button_text
+style help_label is gui_label
+style help_label_text is gui_label_text
+style help_text is gui_text
 
-init -1 style help_button is gui_button
-init -1 style help_button_text is gui_button_text
-init -1 style help_label is gui_label
-init -1 style help_label_text is gui_label_text
-init -1 style help_text is gui_text
-
-init -1 style help_button:
+style help_button:
     properties gui.button_properties("help_button")
     xmargin 12
 
-init -1 style help_button_text:
+style help_button_text:
     properties gui.button_text_properties("help_button")
 
-init -1 style help_label:
+style help_label:
     xsize 375
     right_padding 30
 
-init -1 style help_label_text:
+style help_label_text:
     size gui.text_size
     xalign 1.0
     text_align 1.0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-init -501 screen confirm(message, yes_action, no_action):
-
+screen confirm(message, yes_action, no_action):
 
     modal True
 
@@ -1290,41 +1132,31 @@ init -501 screen confirm(message, yes_action, no_action):
             textbutton _("Yes") action yes_action
             textbutton _("No") action no_action
 
-
     key "game_menu" action no_action
 
+style confirm_frame is gui_frame
+style confirm_prompt is gui_prompt
+style confirm_prompt_text is gui_prompt_text
+style confirm_button is gui_medium_button
+style confirm_button_text is gui_medium_button_text
 
-init -1 style confirm_frame is gui_frame
-init -1 style confirm_prompt is gui_prompt
-init -1 style confirm_prompt_text is gui_prompt_text
-init -1 style confirm_button is gui_medium_button
-init -1 style confirm_button_text is gui_medium_button_text
-
-init -1 style confirm_frame:
+style confirm_frame:
     background Frame([ "gui/confirm_frame.png", "gui/frame1.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
     padding gui.confirm_frame_borders.padding
     xalign .5
     yalign .5
 
-init -1 style confirm_prompt_text:
+style confirm_prompt_text:
     text_align 0.5
     layout "subtitle"
 
-init -1 style confirm_button:
+style confirm_button:
     properties gui.button_properties("confirm_button")
 
-init -1 style confirm_button_text:
+style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
 
-
-
-
-
-
-
-
-
-init -501 screen skip_indicator():
+screen skip_indicator():
 
     zorder 100
     style_prefix "skip"
@@ -1340,8 +1172,6 @@ init -501 screen skip_indicator():
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.4, 1.0) style "skip_triangle"
 
-
-
 transform delayed_blink(delay, cycle):
     alpha .5
 
@@ -1354,33 +1184,23 @@ transform delayed_blink(delay, cycle):
         pause (cycle - .4)
         repeat
 
+style skip_frame is empty
+style skip_text is gui_text
+style skip_triangle is skip_text
 
-init -1 style skip_frame is empty
-init -1 style skip_text is gui_text
-init -1 style skip_triangle is skip_text
-
-init -1 style skip_frame:
+style skip_frame:
     ypos gui.skip_ypos
     background Frame("gui/skip.png", gui.skip_frame_borders, tile=gui.frame_tile)
     padding gui.skip_frame_borders.padding
 
-init -1 style skip_text:
+style skip_text:
     size gui.notify_text_size
 
-init -1 style skip_triangle:
-
+style skip_triangle:
 
     font "DejaVuSans.ttf"
 
-
-
-
-
-
-
-
-
-init -501 screen notify(message):
+screen notify(message):
 
     zorder 100
     style_prefix "notify"
@@ -1390,7 +1210,6 @@ init -501 screen notify(message):
 
     timer 3.25 action Hide('notify')
 
-
 transform notify_appear:
     on show:
         alpha 0
@@ -1398,35 +1217,25 @@ transform notify_appear:
     on hide:
         linear .5 alpha 0.0
 
+style notify_frame is empty
+style notify_text is gui_text
 
-init -1 style notify_frame is empty
-init -1 style notify_text is gui_text
-
-init -1 style notify_frame:
+style notify_frame:
     ypos gui.notify_ypos
 
     background Frame("gui/notify.png", gui.notify_frame_borders, tile=gui.frame_tile)
     padding gui.notify_frame_borders.padding
 
-init -1 style notify_text:
+style notify_text:
     properties gui.text_properties("notify")
 
-
-
-
-
-
-
-
-
-init -501 screen nvl(dialogue, items=None):
+screen nvl(dialogue, items=None):
 
     window:
         style "nvl_window"
 
         has vbox:
             spacing gui.nvl_spacing
-
 
         if gui.nvl_height:
 
@@ -1441,7 +1250,6 @@ init -501 screen nvl(dialogue, items=None):
             use nvl_dialogue(dialogue)
 
 
-
         for i in items:
 
             textbutton i.caption:
@@ -1450,8 +1258,7 @@ init -501 screen nvl(dialogue, items=None):
 
     add SideImage() xalign 0.0 yalign 1.0
 
-
-init -501 screen nvl_dialogue(dialogue):
+screen nvl_dialogue(dialogue):
 
     for d in dialogue:
 
@@ -1469,32 +1276,29 @@ init -501 screen nvl_dialogue(dialogue):
             text d.what:
                 id d.what_id
 
+define config.nvl_list_length = gui.nvl_list_length
 
+style nvl_window is default
+style nvl_entry is default
 
+style nvl_label is say_label
+style nvl_dialogue is say_dialogue
 
-define -1 config.nvl_list_length = gui.nvl_list_length
+style nvl_button is button
+style nvl_button_text is button_text
 
-init -1 style nvl_window is default
-init -1 style nvl_entry is default
-
-init -1 style nvl_label is say_label
-init -1 style nvl_dialogue is say_dialogue
-
-init -1 style nvl_button is button
-init -1 style nvl_button_text is button_text
-
-init -1 style nvl_window:
+style nvl_window:
     xfill True
     yfill True
 
     background "gui/nvl.png"
     padding gui.nvl_borders.padding
 
-init -1 style nvl_entry:
+style nvl_entry:
     xfill True
     ysize gui.nvl_height
 
-init -1 style nvl_label:
+style nvl_label:
     xpos gui.nvl_name_xpos
     xanchor gui.nvl_name_xalign
     ypos gui.nvl_name_ypos
@@ -1503,7 +1307,7 @@ init -1 style nvl_label:
     min_width gui.nvl_name_width
     text_align gui.nvl_name_xalign
 
-init -1 style nvl_dialogue:
+style nvl_dialogue:
     xpos gui.nvl_text_xpos
     xanchor gui.nvl_text_xalign
     ypos gui.nvl_text_ypos
@@ -1512,7 +1316,7 @@ init -1 style nvl_dialogue:
     text_align gui.nvl_text_xalign
     layout ("subtitle" if gui.nvl_text_xalign else "tex")
 
-init -1 style nvl_thought:
+style nvl_thought:
     xpos gui.nvl_thought_xpos
     xanchor gui.nvl_thought_xalign
     ypos gui.nvl_thought_ypos
@@ -1521,27 +1325,19 @@ init -1 style nvl_thought:
     text_align gui.nvl_thought_xalign
     layout ("subtitle" if gui.nvl_text_xalign else "tex")
 
-init -1 style nvl_button:
+style nvl_button:
     properties gui.button_properties("nvl_button")
     xpos gui.nvl_button_xpos
     xanchor gui.nvl_button_xalign
 
-init -1 style nvl_button_text:
+style nvl_button_text:
     properties gui.button_text_properties("nvl_button")
 
-
-
-
-
-
-
-init -1 style pref_vbox:
+style pref_vbox:
     variant "medium"
     xsize 675
 
-
-
-init -501 screen quick_menu():
+screen quick_menu():
 
     variant "touch"
 
@@ -1553,88 +1349,88 @@ init -501 screen quick_menu():
         xalign 0.5
         yalign 1.0
 
+        textbutton _("Hide") action HideInterface()
         textbutton _("Back") action Rollback()
         textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
         textbutton _("Auto") action Preference("auto-forward", "toggle")
         textbutton _("Menu") action ShowMenu()
 
-
-init -1 style window:
+style window:
     variant "small"
     background "gui/phone/textbox.png"
 
-init -1 style radio_button:
+style radio_button:
     variant "small"
     foreground "gui/phone/button/check_[prefix_]foreground.png"
 
-init -1 style check_button:
+style check_button:
     variant "small"
     foreground "gui/phone/button/check_[prefix_]foreground.png"
 
-init -1 style nvl_window:
+style nvl_window:
     variant "small"
     background "gui/phone/nvl.png"
 
-init -1 style main_menu_frame:
+style main_menu_frame:
     variant "small"
     background "gui/phone/overlay/main_menu.png"
 
-init -1 style game_menu_outer_frame:
+style game_menu_outer_frame:
     variant "small"
     background "gui/phone/overlay/game_menu.png"
 
-init -1 style game_menu_navigation_frame:
+style game_menu_navigation_frame:
     variant "small"
     xsize 510
 
-init -1 style game_menu_content_frame:
+style game_menu_content_frame:
     variant "small"
     top_margin 0
 
-init -1 style pref_vbox:
+style pref_vbox:
     variant "small"
     xsize 600
 
-init -1 style bar:
+style bar:
     variant "small"
     ysize gui.bar_size
     left_bar Frame("gui/phone/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
     right_bar Frame("gui/phone/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
 
-init -1 style vbar:
+style vbar:
     variant "small"
     xsize gui.bar_size
     top_bar Frame("gui/phone/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
     bottom_bar Frame("gui/phone/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
 
-init -1 style scrollbar:
+style scrollbar:
     variant "small"
     ysize gui.scrollbar_size
     base_bar Frame("gui/phone/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/phone/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
-init -1 style vscrollbar:
+style vscrollbar:
     variant "small"
     xsize gui.scrollbar_size
     base_bar Frame("gui/phone/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/phone/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
-init -1 style slider:
+style slider:
     variant "small"
     ysize gui.slider_size
     base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
     thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
 
-init -1 style vslider:
+style vslider:
     variant "small"
     xsize gui.slider_size
     base_bar Frame("gui/phone/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
     thumb "gui/phone/slider/vertical_[prefix_]thumb.png"
 
-init -1 style slider_pref_vbox:
+style slider_pref_vbox:
     variant "small"
     xsize None
 
-init -1 style slider_pref_slider:
+style slider_pref_slider:
     variant "small"
     xsize 900

@@ -7,7 +7,7 @@ screen garage_night:
         idle "images/home/garage/morning/Garage_door_exit_idle.png"
         hover "images/home/garage/morning/Garage_door_exit_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Entrance")
+            hovered Show("displayTextScreen", displayText = __("Entrance"))
             action [Play ("sound", "sfx/garage door.mp3"),Jump("entrance2_night1")]
             unhovered Hide("displayTextScreen")
 
@@ -19,10 +19,9 @@ screen garage_night:
             idle "images/secret_gallery/Bonus/Garage SecretCard.png"
             hover "images/secret_gallery/Bonus/Garage SecretCard_hover.png"
             if clickable == True:
-                if clickable == True:
-
-                    action [Hide("displayTextScreen"),addgimage("img1_garage_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                action [Hide("displayTextScreen"),addgimage("img1_garage_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
 
     if not "img21_sec_card" in gallery_photos.storage:
         imagebutton:
@@ -32,6 +31,7 @@ screen garage_night:
             idle "images/secret_gallery/Bonus/B21.png"
             hover "images/secret_gallery/Bonus/B21_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img21_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -43,6 +43,7 @@ screen garage_night:
             idle "images/secret_gallery/Bonus/B22.png"
             hover "images/secret_gallery/Bonus/B22_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img22_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -54,6 +55,6 @@ screen garage_night:
             idle "images/home/garage/morning/b2.png"
             hover "images/home/garage/morning/b2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Crowbar")
+                hovered Show("displayTextScreen", displayText = __("Crowbar"))
                 action [Hide("displayTextScreen"),addItem(crowbar)]
                 unhovered Hide("displayTextScreen")

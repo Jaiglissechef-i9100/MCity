@@ -7,11 +7,10 @@ image CR3_MS0_p5 = "images/home/mc_room/morning/scenes/CR3_MS0/5.jpg"
 image CR3_MS0_p6 = "images/home/mc_room/morning/scenes/CR3_MS0/6.jpg"
 image CR3_MS0_p7 = "images/home/mc_room/morning/scenes/CR3_MS0/7.jpg"
 
-
 label CR3_MS0_label:
     if renpy.loadable("patch.rpy"):
-        $ Linda_name = "Mom"
-        $ Liza2_name = "Auntie"
+        $ Linda_name = __("Mom")
+        $ Liza2_name = __("Auntie")
     else:
         $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
@@ -41,7 +40,6 @@ label CR3_MS0_label:
     else:
         Caroline "I’ll hold my hands up and acknowledge, that - I played my part - in causing this chaos, so I have a responsibility, to try and stop it. There's a big gap between our ages - and in addition, we live under the same roof!"
 
-
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
     menu:
@@ -64,7 +62,6 @@ label CR3_MS0_label:
             Caroline "Not anymore, [player_name]."
             MC "I thought we could be - more than just a deal! You can’t just tear that away from me!"
             jump CR3_MS0_continue
-
 
 label CR3_MS0_continue:
     scene CR3_MS0_p4

@@ -1,8 +1,5 @@
-
-
 screen dark_alley_N_scr:
     key "hide_windows" action NullAction()
-
 
     if not "img16_sec_card" in gallery_photos.storage:
         imagebutton:

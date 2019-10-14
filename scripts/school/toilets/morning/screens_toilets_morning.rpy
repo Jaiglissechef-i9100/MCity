@@ -6,7 +6,7 @@ screen toilets_morning:
         focus_mask True
         idle "images/school/toilets/morning/door1_morning_idle.png"
         hover "images/school/toilets/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "Toilet's Cabin")
+        hovered Show("displayTextScreen", displayText = __("Toilet's Cabin"))
         action [Play ("sound", "sfx/toilet cabin.mp3"),Jump("toilet_cabin_morning1")]
         unhovered Hide("displayTextScreen")
     imagebutton:

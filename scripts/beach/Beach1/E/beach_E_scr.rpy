@@ -1,7 +1,6 @@
 screen beach_E_scr:
     add "images/Beach/Beach1/E/map.jpg"
 
-
     imagebutton:
         at map_arrow_anim
         xpos 10

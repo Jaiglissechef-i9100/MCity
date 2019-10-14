@@ -1,5 +1,3 @@
-
-
 label MLR3_NS2_rep:
 
     hide screen week_day_viewer
@@ -230,7 +228,6 @@ label MLR3_NS2_rep:
     scene MLR3_NS2_p35anim
     Mom "That’s the spot, baby! Right there!"
     MC "Hnng… Fuck, I’m so close to cumming!"
-
 
     scene MLR3_NS2_p36
 
@@ -564,7 +561,6 @@ label MLR3_NS2_con2_rep:
             MC "Yeah, hurry on back. We’ll see each other another night, [Mom_name]."
             MC "I love you."
             Mom "I love you too."
-
 
             $ renpy.music.stop(channel="music1", fadeout=1)
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

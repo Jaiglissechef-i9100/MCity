@@ -6,7 +6,7 @@ screen school_outside_morning:
         focus_mask True
         idle "images/school/school_outside/morning/door1_morning_idle.png"
         hover "images/school/school_outside/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "School")
+        hovered Show("displayTextScreen", displayText = __("School"))
         action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("school_entrance_morning1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,6 +15,6 @@ screen school_outside_morning:
         focus_mask True
         idle "images/school/school_outside/morning/door2_morning_idle.png"
         hover "images/school/school_outside/morning/door2_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "To GYM")
+        hovered Show("displayTextScreen", displayText = __("To GYM"))
         clicked Jump("gym_morning1")
         unhovered Hide("displayTextScreen")

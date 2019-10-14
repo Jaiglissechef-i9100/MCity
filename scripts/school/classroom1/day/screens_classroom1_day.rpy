@@ -7,10 +7,9 @@ screen classroom1_day:
         idle "images/school/classroom1/morning/door1_morning_idle.png"
         hover "images/school/classroom1/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "School Corridor")
+            hovered Show("displayTextScreen", displayText = __("School Corridor"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_day1")]
             unhovered Hide("displayTextScreen")
-
 
     if not "img8_mc_classroom_card" in gallery_photos.storage:
         imagebutton:

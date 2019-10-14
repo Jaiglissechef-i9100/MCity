@@ -6,7 +6,7 @@ screen school_outside_night:
         focus_mask True
         idle "images/school/school_outside/night/door1_night_idle.png"
         hover "images/school/school_outside/night/door1_night_hover.png"
-        hovered Show("displayTextScreen", displayText = "School(Closed)")
+        hovered Show("displayTextScreen", displayText = __("School(Closed)"))
         action [Play ("sound", "sfx/door_locked.mp3"),Jump("school_outside_morning1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,6 +15,6 @@ screen school_outside_night:
         focus_mask True
         idle "images/school/school_outside/night/door2_night_idle.png"
         hover "images/school/school_outside/night/door2_night_hover.png"
-        hovered Show("displayTextScreen", displayText = "To GYM(Closed)")
+        hovered Show("displayTextScreen", displayText = __("To GYM(Closed)"))
         action [Jump("school_outside_morning1")]
         unhovered Hide("displayTextScreen")

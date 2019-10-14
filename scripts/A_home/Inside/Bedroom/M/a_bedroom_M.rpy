@@ -1,7 +1,5 @@
 image a_bedroom_bg_M = "/images/a_home/Inside/Bedroom/M/1.jpg"
 
-
-
 label a_bedroom_M1:
 
     if day_time == 1:

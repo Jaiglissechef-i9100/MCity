@@ -32,6 +32,12 @@ label ml_kitchen_morning_scene4_V1_label:
     $ renpy.music.play('/sfx/Malt Shop Bop.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_kitchen_morning_scene4_v1_p1 at pandown1
     $ can_hide_windows = True
+    if renpy.loadable("patch.rpy"):
+        $ Linda_name = __("Mom")
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Mom_name = "Linda"
+        $ Liza2_name = "Liza"
     $ renpy.pause(2)
     if renpy.loadable("patch.rpy"):
         MC "(Huh, looks like Auntie is visiting today!)"
@@ -55,9 +61,10 @@ label ml_kitchen_morning_scene4_V1_label:
 
     if renpy.loadable("patch.rpy"):
         MC "Hi, Mom! Hi, Auntie!"
+        $ Liza2_name = __("Auntie")
     if not renpy.loadable("patch.rpy"):
         MC "Hi."
-        $ Auntie_name = "Linda's Friend"
+        $ Auntie_name = __("Linda's Friend")
     Auntie "Hi, [player_name]."
     Mom "C’mere and let me kiss you."
 

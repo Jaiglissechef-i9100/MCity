@@ -5,11 +5,8 @@ label bob_desk_label:
     scene bob_desk_p1
     call screen bob_desk_scr
 
-
 screen bob_desk_scr:
     key "hide_windows" action NullAction()
-
-
 
     imagebutton:
         xpos 0
@@ -18,7 +15,7 @@ screen bob_desk_scr:
         idle "images/Bob_work/office/M/desk/B1.png"
         hover "images/Bob_work/office/M/desk/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Books")
+            hovered Show("displayTextScreen", displayText = __("Books"))
             action [Hide("displayTextScreen"),Jump("bob_deskbooks_label")]
             unhovered Hide("displayTextScreen")
 
@@ -29,7 +26,7 @@ screen bob_desk_scr:
         idle "images/Bob_work/office/M/desk/B2.png"
         hover "images/Bob_work/office/M/desk/B2_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Laptop")
+            hovered Show("displayTextScreen", displayText = __("Laptop"))
             action [Hide("displayTextScreen"),Jump("bob_desklaptop_label")]
             unhovered Hide("displayTextScreen")
 
@@ -40,9 +37,10 @@ screen bob_desk_scr:
         idle "images/Bob_work/office/M/desk/B3.png"
         hover "images/Bob_work/office/M/desk/B3_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Papers")
+            hovered Show("displayTextScreen", displayText = __("Papers"))
             action [Hide("displayTextScreen"),Jump("bob_deskpapers_label")]
             unhovered Hide("displayTextScreen")
+
     if day_time == 2 and Zv2_MS2_companyname == 1:
         imagebutton:
             xpos 782
@@ -51,7 +49,7 @@ screen bob_desk_scr:
             idle "images/Bob_work/office/M/desk/B4.png"
             hover "images/Bob_work/office/M/desk/B4_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Reports")
+                hovered Show("displayTextScreen", displayText = __("Reports"))
                 action [Hide("displayTextScreen"),Jump("bob_deskraports_label")]
                 unhovered Hide("displayTextScreen")
 
@@ -63,7 +61,7 @@ screen bob_desk_scr:
             idle "images/Bob_work/office/M/desk/B5.png"
             hover "images/Bob_work/office/M/desk/B6.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Put Book")
+                hovered Show("displayTextScreen", displayText = __("Put Book"))
                 action [Hide("displayTextScreen"),Jump("bob_deskcarbookput_label")]
                 unhovered Hide("displayTextScreen")
 
@@ -75,9 +73,10 @@ screen bob_desk_scr:
             idle "images/Bob_work/office/M/desk/B6.png"
             hover "images/Bob_work/office/M/desk/B6_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Book")
+                hovered Show("displayTextScreen", displayText = __("Book"))
                 action [Hide("displayTextScreen"),Jump("bob_deskcarbook_label")]
                 unhovered Hide("displayTextScreen")
+
     if Bob_work_minigame == True:
         imagebutton:
             xpos 786
@@ -89,6 +88,7 @@ screen bob_desk_scr:
                 hovered Show("displayTextScreen", displayText = "Documents")
                 action [Hide("displayTextScreen"),Jump("bob_deskminigame_label")]
                 unhovered Hide("displayTextScreen")
+
     imagebutton:
         xpos 119
         ypos 998
@@ -96,7 +96,7 @@ screen bob_desk_scr:
         idle "images/Bob_work/office/M/desk/B7.png"
         hover "images/Bob_work/office/M/desk/B7_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Safe")
+            hovered Show("displayTextScreen", displayText = __("Safe"))
             action [Hide("displayTextScreen"),Jump("bob_safe_label")]
             unhovered Hide("displayTextScreen")
 
@@ -108,6 +108,7 @@ screen bob_desk_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("bob_office_M1")]
+
 label bob_deskbooks_label:
     show screen bob_desk_scr
     $ clickable = False
@@ -135,7 +136,6 @@ label bob_deskpapers_label:
     MC "Meh.. Just papers. Some boring work stuff."
     $ clickable = True
     jump bob_desk_label
-
 
 label bob_deskraports_label:
 

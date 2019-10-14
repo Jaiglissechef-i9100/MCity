@@ -1,7 +1,6 @@
 screen headmaster_room_morning:
     key "hide_windows" action NullAction()
 
-
     if not "img20_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 1905
@@ -23,6 +22,7 @@ screen headmaster_room_morning:
             if clickable == True:
                 action [Hide("displayTextScreen"),addgimage("img40_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
             unhovered Hide("displayTextScreen")
+
     if headmaster_door_locked == False:
         imagebutton:
             xpos 860
@@ -30,9 +30,6 @@ screen headmaster_room_morning:
             focus_mask True
             idle "images/school/headmaster_room/morning/headmaster_S1/B1.png"
             hover "images/school/headmaster_room/morning/headmaster_S1/B1_hover.png"
-
-
-
 
     if clickable == True:
         imagebutton:

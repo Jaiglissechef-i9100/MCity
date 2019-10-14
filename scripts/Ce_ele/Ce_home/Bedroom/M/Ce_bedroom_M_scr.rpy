@@ -8,6 +8,7 @@ screen Ce_bedroom_M_scr:
             idle "images/secret_gallery/Bonus/B52a.png"
             hover "images/secret_gallery/Bonus/B52a_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img52_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 
@@ -19,8 +20,10 @@ screen Ce_bedroom_M_scr:
             idle "images/secret_gallery/Bonus/B53a.png"
             hover "images/secret_gallery/Bonus/B53a_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img53_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
+
     if not "img54_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 1354
@@ -29,8 +32,10 @@ screen Ce_bedroom_M_scr:
             idle "images/secret_gallery/Bonus/B54a.png"
             hover "images/secret_gallery/Bonus/B54a_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img54_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
+
     if not "img55_sec_card" in gallery_photos.storage:
         imagebutton:
             xpos 1885
@@ -39,6 +44,7 @@ screen Ce_bedroom_M_scr:
             idle "images/secret_gallery/Bonus/B55a.png"
             hover "images/secret_gallery/Bonus/B55a_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img55_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
 

@@ -62,8 +62,6 @@ image SR2_NS4_p53 = "images/home/mc_room/night/scenes/SR2_NS4/53.jpg"
 image SR2_NS4_p54a = "images/home/mc_room/night/scenes/SR2_NS4/54a.jpg"
 image SR2_NS4_p54b = "images/home/mc_room/night/scenes/SR2_NS4/54b.jpg"
 
-
-
 label SR2_NS4_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -141,7 +139,6 @@ label SR2_NS4_label:
     Sara "(I’m so close to just giving… everything to him right now.)"
     Sara "(Does he even know how good he makes me feel?)"
 
-
     scene SR2_NS4_p9
 
     Sara "Wow… That was amazing!"
@@ -155,7 +152,6 @@ label SR2_NS4_label:
     Sara "(Damn… My nerves are starting to kick off again. I shouldn’t be so scared about this.)"
     Sara "(I mean, I’ve already done it before! And this time it should be easier - we have the lube, after all.)"
     MC "(I get so hard every time I see her perky tits. They’re unbelievable!)"
-
 
     scene SR2_NS4_p12
 
@@ -431,7 +427,6 @@ label SR2_NS4_label:
     window hide
     scene black
 
-
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music1", loop=True, fadein = 2)
 
     scene SR2_NS4_p51
@@ -491,7 +486,6 @@ label SR2_NS4_label:
     hide workinprogress2
     $ renpy.pause(3.0, hard=True)
     $ S_end_content = True
-
 
     $ Sara_points += 1
     $ renpy.music.stop(channel="music1", fadeout=1)

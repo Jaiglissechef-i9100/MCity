@@ -50,7 +50,6 @@ label Li_MAS3_menu:
             scene LiR1_MAS3_p3
             MC "Have you always been a fashion model?"
 
-
             scene LiR1_MAS3_p5
 
             Yazmin "Hmm... Not always. I started in my early twenties - after college."
@@ -144,12 +143,10 @@ label Li_MAS3_menu:
 
             MC "I don’t see you and Auntie Liza coming up to visit us, very often. Why is that?"
 
-
             scene LiR1_MAS3_p7
 
             Yazmin "Ooh, that’s a touchy subject. Honestly, I’m not comfortable talking about this. It’s something you’d need to take up with your auntie."
             Yazmin "Let’s just say... your mother isn’t my biggest fan."
-
 
             MC "(Yikes... It sounds like I’ve touched a nerve here!)"
 
@@ -190,13 +187,11 @@ label Li_MAS3_menu:
             Yazmin "Ahahaha! It SHOULD! But there are some crazy stories I could tell you!"
             MC "Go on! Tell me some!"
 
-
             scene LiR1_MAS3_p4
 
             Yazmin "There are a lot of designers and companies out there, who try to get girls like me, to model for free."
             Yazmin "“How would you like to be the new face of our exclusive line of dresses? We can’t pay you right now, but think of the exposure you’ll get, for your portfolio!”"
             MC "Really?!"
-
 
             scene LiR1_MAS3_p2
 

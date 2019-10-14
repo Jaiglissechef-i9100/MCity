@@ -1,6 +1,3 @@
-
-
-
 label a_office_D1:
     hide screen displayTextScreen
     scene a_office_bg_M

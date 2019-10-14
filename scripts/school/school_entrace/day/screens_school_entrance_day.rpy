@@ -7,7 +7,7 @@ screen school_entrance_day:
         idle "images/school/school_entrance/morning/door1_morning_idle.png"
         hover "images/school/school_entrance/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Exit School")
+            hovered Show("displayTextScreen", displayText = __("Exit School"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_outside_day1")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -17,7 +17,7 @@ screen school_entrance_day:
         idle "images/school/school_entrance/morning/door2_morning_idle.png"
         hover "images/school/school_entrance/morning/door2_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "School Corridor")
+            hovered Show("displayTextScreen", displayText = __("School Corridor"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_day1")]
             unhovered Hide("displayTextScreen")
 
@@ -65,7 +65,7 @@ screen school_entrance_day:
             idle "images/school/school_entrance/day/scenes/sara_scene2_v1/Lily_Sara.png"
             hover "images/school/school_entrance/day/scenes/sara_scene2_v1/Lily_Sara_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Sara and Lily")
+                hovered Show("displayTextScreen", displayText = __("Sara and Lily"))
                 action [Hide("displayTextScreen"),Jump("sis_nerdy_school_scene2_v1_label")]
                 unhovered Hide("displayTextScreen")
 
@@ -77,9 +77,10 @@ screen school_entrance_day:
             idle "images/school/school_entrance/day/scenes/sara_scene3_v1/Lily_Sara.png"
             hover "images/school/school_entrance/day/scenes/sara_scene3_v1/Lily_Sara_Hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Sara and Lily")
+                hovered Show("displayTextScreen", displayText = __("Sara and Lily"))
                 action [Hide("displayTextScreen"),Jump("sis_nerdy_school_scene3_v1_label")]
                 unhovered Hide("displayTextScreen")
+
     if SR2_AS1 == True and Sara_points == 2:
         imagebutton:
             xpos 809
@@ -99,7 +100,7 @@ screen school_entrance_day:
         idle "images/school/school_entrance/morning/school_entrance_locker_morning.png"
         hover "images/school/school_entrance/morning/school_entrance_locker_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Locker")
+            hovered Show("displayTextScreen", displayText = __("Locker"))
             action [Hide("displayTextScreen"),Jump("school_lockerv1_day_label")]
             unhovered Hide("displayTextScreen")
 
@@ -181,6 +182,7 @@ screen school_entrance_day_notclickable:
             ypos 285
             focus_mask True
             idle "images/school/school_entrance/day/scenes/sara_scene3_v1/Lily_Sara.png"
+
     if SR2_AS1 == True and Sara_points == 2:
         imagebutton:
             xpos 809
@@ -192,7 +194,6 @@ screen school_entrance_day_notclickable:
         ypos 232
         focus_mask True
         idle "images/school/school_entrance/morning/school_entrance_locker_morning.png"
-
 
     if not "img6_exit_school_corridor_card" in gallery_photos.storage:
         imagebutton:

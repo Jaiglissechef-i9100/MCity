@@ -6,7 +6,6 @@ image MLR3_b_house_leaving_p5 = "images/Beach/MLR3_beach_event/House/Leaving/5.j
 image MLR3_b_house_leaving_p6 = "images/Beach/MLR3_beach_event/House/Leaving/6.jpg"
 image MLR3_b_house_leaving_p7 = "images/Beach/MLR3_beach_event/House/Leaving/7.jpg"
 
-
 label MLR3_b_house_leaving:
     hide screen week_day_viewer
     hide screen time_skip_button

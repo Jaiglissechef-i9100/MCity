@@ -1,4 +1,3 @@
-
 screen bob_entrance_D_scr:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -8,12 +7,9 @@ screen bob_entrance_D_scr:
         idle "images/Bob_work/entrance/M/B1.png"
         hover "images/Bob_work/entrance/M/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Reception")
+            hovered Show("displayTextScreen", displayText = __("Reception"))
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("bob_reception_morning1")]
             unhovered Hide("displayTextScreen")
-
-
-
 
     imagebutton:
         xpos 6
@@ -29,7 +25,7 @@ screen bob_entrance_D_scr:
             idle "images/Bob_work/entrance/M/B4.png"
             hover "images/Bob_work/entrance/M/B4_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Company Diagram")
+            hovered Show("displayTextScreen", displayText = __("Company Diagram"))
             action [Hide("displayTextScreen"),Jump("bob_receptiondiagram")]
             unhovered Hide("displayTextScreen")
 
@@ -43,6 +39,7 @@ screen bob_entrance_D_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),addgimage("img13_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
+
     if clickable == True:
         imagebutton:
             xpos 0

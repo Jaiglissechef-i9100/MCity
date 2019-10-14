@@ -1,6 +1,7 @@
 image SR2_bath_p1 = "images/home/kitchen/morning/scenes/SR2_bath/1.jpg"
 image SR2_bath_p2 = "images/home/kitchen/morning/scenes/SR2_bath/2.jpg"
 image SR2_bath_p3 = "images/home/kitchen/morning/scenes/SR2_bath/3.jpg"
+
 label SR2_bath_label:
 
     hide screen week_day_viewer

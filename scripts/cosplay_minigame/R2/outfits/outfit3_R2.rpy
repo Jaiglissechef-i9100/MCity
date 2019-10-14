@@ -1,6 +1,3 @@
-
-
-
 image outfit3_R2_p1 = "images/cosplay_minigame/R2/3/1.jpg"
 image outfit3_R2_p2a = "images/cosplay_minigame/R2/3/2a.jpg"
 image outfit3_R2_p2b = "images/cosplay_minigame/R2/3/2b.jpg"
@@ -24,7 +21,6 @@ label outfit3_R2_label:
         MC "Huh?"
         Caroline "I said, are you ready to start taking pictures?"
         MC "Oh! Yeah! I was just… uh… waiting for the camera to load."
-
 
         window hide
         $ outfit3_R2_1stTime = False
@@ -126,10 +122,6 @@ label outfit3_R2_rotate1:
     Caroline "Sure."
     jump outfit3_R2_label2
 
-
-
-
-
 label outfit3_R2_label2:
     scene outfit3_R2_p3 with dissolve
     if cosplay_pic_count == 4:
@@ -143,7 +135,6 @@ label outfit3_R2_label2:
             $ CR2_AS1 = True
         call screen cosplay_menu_score_screen
     call screen outfit3_scr2
-
 
 screen outfit3_scr2:
     imagebutton:
@@ -187,8 +178,6 @@ screen outfit3_scr2:
         idle "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/Rotate.png"
         hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/RotateHover.png"
         action [Hide("displayTextScreen"), Jump("outfit3_R2_rotate2"),]
-
-
 
 label outfit3_R2_down2:
     scene outfit3_R2_p3a
