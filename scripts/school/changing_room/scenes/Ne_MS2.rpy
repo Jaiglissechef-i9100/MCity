@@ -163,9 +163,9 @@ label Ne_MS2_lab:
         Isla "This is perfect! When can we start?"
         MC "When suits you?"
         if renpy.loadable("patch.rpy"):
-            Isla "Come over evening. My mum will be out!"
+            Isla "Come over in the evening. My mum will be out!"
         else:
-            Isla "Come over evening. Sidra will be out!"
+            Isla "Come over in the evening. Sidra will be out!"
         scene Ne_MS2a_p14
         MC "Great, I’ll see you then, Isla."
         Isla "Thank you so much, [player_name]!"
@@ -203,9 +203,9 @@ label Ne_MS2_lab:
         MC "Whoa, hold on. This isn’t your fault!"
         Isla "Wh-What do you mean?!"
         if renpy.loadable("patch.rpy"):
-            MC "I heard your mom on the phone to Celia after you left."
+            MC "I heard your mom on the phone with Celia after you left."
         else:
-            MC "I heard Sidra on the phone to Celia after you left."
+            MC "I heard Sidra on the phone with Celia after you left."
         Isla "My teacher, Celia?"
         MC "Yeah! She teaches Literature and Mathematics, doesn’t she?"
         Isla "I’m in her maths class…"

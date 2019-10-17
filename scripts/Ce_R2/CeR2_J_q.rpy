@@ -248,7 +248,7 @@ label CeR2_J_q_lab2:
 
     scene CeR2_J_q2_p12
     Judy "It’s a powerful sedative. It should knock Mrs. Celia out for a full hour, at the very least."
-    Judy "Slip it in one of her drinks. One she consumes it wait for it to take full effect."
+    Judy "Slip it in once of her drinks. One she consumes it wait for it to take full effect."
     MC "Uh huh."
 
     scene CeR2_J_q2_p13

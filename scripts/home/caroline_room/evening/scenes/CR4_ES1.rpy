@@ -306,7 +306,10 @@ label CR4_ES1_menu:
             scene CR4_ES1_kiss_p12
             Caroline "How about I go even lower now?"
             Caroline "Would you like me to wrap my lips around your hard cock?"
-            MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our parents home!)"
+            if renpy.loadable("patch.rpy"):
+                MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our parents home!)"
+            else:
+                MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our roommates home!)"
             Caroline "I would suck it so hard… just like this!"
 
             scene CR4_ES1_kiss_p13

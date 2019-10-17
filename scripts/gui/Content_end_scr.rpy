@@ -15,7 +15,10 @@ screen C_end_content_scr:
         ypos 239
         idle "images/cosplay_minigame/R3/Outfit_Close.png"
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
-        action [SetVariable("C_SMS5",False), SetVariable("C_end_content",False), Hide ("C_end_content_scr")]
+        if Caroline_points == 3:
+            action [SetVariable("C_SMS5",False), SetVariable("C_end_content",False), Hide ("C_end_content_scr")]
+        else:
+            action [SetVariable("C_end_content",False), Hide ("C_end_content_scr")]
     timer 2.26 action [Hide ("new_message_incoming1_NC"),Hide("new_message_incoming1")]
 
 screen Ce_end_content_scr:

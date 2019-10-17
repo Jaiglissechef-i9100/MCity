@@ -76,7 +76,7 @@ label CR4_AS1_label:
 
         MC "Oh yeah?"
         Caroline "So, do you remember where we had our first kiss?"
-        MC "(That was the time we made our by the lake in the park!)"
+        MC "(That was the time we made out by the lake in the park!)"
         MC "Yeah, that was-"
 
         scene CR4_AS1_p7

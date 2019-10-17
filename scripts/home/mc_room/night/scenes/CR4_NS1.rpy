@@ -339,7 +339,7 @@ label CR4_NS1_label:
     scene CR4_NS1_p10
 
     MC "(Huh, something seems to be worrying her. I wonder if she wants to talk about it.)"
-    MC "Can you tell me what;s going on? If there’s a problem I can help fix it. You know I will. Think back to when you needed money for your shop - I ALWAYS had your back."
+    MC "Can you tell me what's going on? If there’s a problem I can help fix it. You know I will. Think back to when you needed money for your shop - I ALWAYS had your back."
     MC "And I always will."
 
     scene CR4_NS1_p11
@@ -462,7 +462,7 @@ label CR4_NS1_label:
 
     MC "Ahh… Yes! Ohhh!"
     Caroline "*Suck Suck*"
-    Caroline "(He’s quivering now, I love the way her can’t resist my mouth pleasuring him down there.)"
+    Caroline "(He’s quivering now, I love the way he can’t resist my mouth pleasuring him down there.)"
 
     scene CR4_NS1_p30
 
@@ -1236,7 +1236,7 @@ label CR4_MS2_label:
     scene CR4_MS2_p22
 
     Caroline "Awk, you’re too sweet. Thanks again, [player_name]. I’ll see you later on by the store."
-    MC "Brill, I’ll see you then."
+    MC "Excellent, I’ll see you then."
 
     $ CR4_NS1 = False
     $ CR4_AS2 = 1

@@ -146,7 +146,7 @@ label CeR2_NS1_lab:
         scene CeR2_NS1_p9
         Celia "Haha, I was just pulling your leg. Thanks for helping me out with this one. You’re a lifesaver."
         MC "(Are those boobs even real?!)"
-        MC "(She must have had at least at least a couple of boobjobs to increase their size! They’re just too perfect!)"
+        MC "(She must have had at least a couple of boobjobs to increase their size! They’re just too perfect!)"
 
         scene CeR2_NS1_p10
         Celia "Cat got your tongue?"

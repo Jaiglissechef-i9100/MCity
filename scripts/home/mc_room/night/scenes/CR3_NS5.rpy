@@ -677,13 +677,16 @@ label CR3_NS5_label:
     MC "Haha, I understand. See you tomorrow, Caroline."
     Caroline "Sleep tight, [player_name]."
 
-
+    $ Caroline_points = 4
+    show relationship_plus
+    $ renpy.pause(3.0, hard=True)
+    hide relationship_plus
     $ C_NS_locked = False
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
-
+    $ CR3_NS5 = False
     $ take_nap = False
     if not sms_Caroline9 in sms_box.sms_s:
         $ C_SMS5 = True

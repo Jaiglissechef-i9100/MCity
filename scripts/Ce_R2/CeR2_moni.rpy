@@ -20,7 +20,7 @@ label CeR2_moni_lab:
         if day_time == 1:
             show screen moni_M_scr
         $ clickable = False
-        MC "I've aleready talked to him."
+        MC "I've already talked to him."
         $ clickable = True
         hide screen moni_D_scr
         hide screen moni_M_scr

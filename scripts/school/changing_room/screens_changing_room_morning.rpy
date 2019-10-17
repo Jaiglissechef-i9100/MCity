@@ -32,5 +32,6 @@ screen changing_room_morning:
         idle "images/school/changing_room/morning/door1_morning_idle.png"
         hover "images/school/changing_room/morning/door1_morning_hover.png"
         hovered Show("displayTextScreen", displayText = "GYM")
-        clicked Jump("gym_morning1")
-        unhovered Hide("displayTextScreen")
+        if clickable == True:
+            action Jump("gym_morning1")
+            unhovered Hide("displayTextScreen")

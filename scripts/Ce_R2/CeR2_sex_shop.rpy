@@ -89,7 +89,7 @@ label CeR2_sex_shop_lab:
         S "Where the fuck did you just fucking stick me, you little bitch? I’ll have you know I graduated top of my class in the sex toy tests, as well as being involved in numerous human rights violations, and I have over 300 confirmed orgasms."
         MC "Is this seriously how they are trying to advertise their product?"
         S "Shush, I’m not done yet."
-        S "I am trained in anal warfare and I’m the top dildo in the entire US armed forces. You are nothing to me but just another hole. I will fuck you with force the likes of which has never been seen ebfore on this Earth, mark my fucking words."
+        S "I am trained in anal warfare and I’m the top dildo in the entire US armed forces. You are nothing to me but just another hole. I will fuck you with force the likes of which has never been seen before on this Earth, mark my fucking words."
         S "You think you can get away with only window shopping and not purchasing me? Think again, fucker. "
         S "As we speak I am being shipped across stores all over the USA, and your holes are being traced so you better prepare for the cumming storm, faggot. The storm that destroys that pretty little thing you call a pussy."
         MC "Are we almost there?"
@@ -98,7 +98,7 @@ label CeR2_sex_shop_lab:
         S "Not only am I extensively trained in vaginal sex, but I also have access to the entire Karma Sutra and I will use it to its full extent to wipe your sexy ass off the bed, you dumb slut."
         MC "(How the fuck is this a sales pitch?!)"
         S "If only you could have known what unholy retribution your “clever” request to ask for an electrostimulation dildo was about to bring down upon your pussy, maybe you would have held your fucking tongue."
-        S "But you couldn’t, you didn’t, and now you’re paying the price, you fucking whore. I will make you make you cum buckets, and you will drown in it. You’re gonna cum, kiddo."
+        S "But you couldn’t, you didn’t, and now you’re paying the price, you fucking whore. I will make you cum buckets, and you will drown in it. You’re gonna cum, kiddo."
 
         scene CeR2_sex_shop_p9
         S "So, what do you think?"

@@ -200,7 +200,7 @@ label CR4_NS3_menu:
 
             scene CR4_NS3_doggy_p14
             Caroline "How’s that? Is my ass high enough?"
-            MC "Perfect height. I’ll be able to fuck you now problem."
+            MC "Perfect height. I’ll be able to fuck you no problem."
 
             scene CR4_NS3_doggy_p15
             Caroline "So, which hole do you want to fuck tonight? My pussy? Or my ass?"
@@ -567,7 +567,7 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_cow_pussy_p4
                     MC "Mmm! It’s so good, Caroline."
-                    Caroline "Do you want me to stop moving my hips?"
+                    Caroline "Do you want me to start moving my hips?"
                     MC "Yeah!"
 
                     scene CR4_NS3_cow_pussy_p5

@@ -229,7 +229,7 @@ label CeR2_LS_lab:
     scene CeR2_LS_p19
     Celia "Now think about how I fucking felt!"
     Celia "Imagine being forced to strip naked on webcam for some fucking creep!"
-    Celia "Imagine now knowing if naked pictures of you were going to show up online!"
+    Celia "Imagine not knowing if naked pictures of you were going to show up online!"
     scene CeR2_LS_p20
     Celia "This might feel bad; but trust me, it pales in comparison to what you did to me."
     Celia "Now, take me back over to my couch."
@@ -298,7 +298,7 @@ label CeR2_LS_lab:
     Celia "Good. Drink up. I have a lot of other activities planned for today. Gustav isn’t back, so I have you all to myself."
     scene CeR2_LS_p39
     Celia "*Glug Glug*"
-    MC "(Drink up, btich.)"
+    MC "(Drink up, bitch.)"
     MC "Haha…"
     scene CeR2_LS_p40
     Celia "Is something funny?"
@@ -307,7 +307,7 @@ label CeR2_LS_lab:
     scene CeR2_LS_p41
     MC "Oh God, not at all."
     Celia "Hmm…"
-    Celia " If you thought crawling around on your hands and knees was bad, just wait til tonight. I’m going to have you doing far worse things."
+    Celia "If you thought crawling around on your hands and knees was bad, just wait till tonight. I’m going to have you doing far worse things."
     scene CeR2_LS_p42
     MC "And if I refuse?"
     Celia "Do I seriously have to keep reminding you of the consequences?"

@@ -379,7 +379,7 @@ label CeR2_NS2_boxing_lab:
     Celia "(Okay, time to cool off with a shower.)"
 
     scene CeR2_NS2_boxing_p27
-    Celia "(And then we’ll see what progress has been made catching out blackmailer.)"
+    Celia "(And then we’ll see what progress has been made catching our blackmailer.)"
     Celia "*Pant*"
     Celia "(Jeez, I really went all out there. My thighs are gonna burn like hell tomorrow.)"
 
@@ -508,7 +508,8 @@ label CeR2_NS2_bath_lab:
         MC "(And I’d play with those massive tits she has while I’m doing it.)"
 
         scene CeR2_NS2_bath_p8
-        MC "(I’d make that bitch cum so hard that she would wish she’d never turned my down.)"
+
+        MC "(I’d make that bitch cum so hard that she would wish she’d never turned me down.)"
         MC "(She would be screaming my name as she climaxed again and again.)"
 
         scene CeR2_NS2_bath_p9
@@ -541,7 +542,7 @@ label CeR2_NS2_bath_lab:
 
         scene CeR2_NS2_bath_p16
         MC "(Shit, time to abort!)"
-        MC "(I don’t think she say me yet, I won’t risk it though.)"
+        MC "(I don’t think she saw me yet, I won’t risk it though.)"
 
         scene CeR2_NS2_bath_p17
         "*Creak*"
@@ -658,7 +659,7 @@ label CeR2_NS2_talking_lab:
     $ renpy.music.play('/sfx/Rhinoceros.mp3', channel="music2", loop=True, fadein = 2)
     scene CeR2_NS2_talking_p18
     Celia "Totally… absurd…"
-    MC "Well, if it isn’t too much trouble I’ll just head on now. It’s getting late and I’ve already distrubed you."
+    MC "Well, if it isn’t too much trouble I’ll just head out now. It’s getting late and I’ve already distrubed you."
 
     scene CeR2_NS2_talking_p19
     Celia "You’re not going anywhere you duplicitous piece of shit!"

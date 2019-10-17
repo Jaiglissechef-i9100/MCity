@@ -969,7 +969,7 @@ label celia_webcam_scenes_orders:
             Celia "Ugh! That’s fucking disgusting!"
 
             scene CeR2_ES1_p6
-            MC "Watch your language. Need I remind you that failure to cooperate will lead to your secrets being released to the Principal, and to the police."
+            MC "Watch your language. Do I need to remind you that failure to cooperate will lead to your secrets being released to the Principal, and to the police."
             Celia "Grr…"
             MC "Good. Now, I shall send someone to meet you there."
 

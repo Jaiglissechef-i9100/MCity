@@ -91,7 +91,7 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p9
     Celia "(There isn’t even a fucking coat hanger in these stalls.)"
-    Celia "(My dress will have to go on the floor - I’m sure as shit not leaving on that filthy toilet.)"
+    Celia "My dress will have to go on the floor - I'm sure as shit not leaving it on that filthy toilet."
 
     scene CeR2_AS2_p10
     Celia "(Okay… let’s get this over with.)"
@@ -227,7 +227,7 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p38
     Celia "Ugh, this is going to take me forever to properly clean out!"
-    Celia "You better not hope I’m pregnant!"
+    Celia "You better hope I don't get pregnant!"
 
     scene CeR2_AS2_p39
     Celia "(Black trainers. I’ll try and remember this brand.)"

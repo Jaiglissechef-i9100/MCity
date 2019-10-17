@@ -217,7 +217,7 @@ default drink = Item("Drinks", image="images/inventory_items/drink.png", hover_i
 default icecream = Item("Ice Creams", image="images/inventory_items/icecream.png", hover_i="images/inventory_items/icecream_hover.png", cost = 8)
 default sunscreen = Item("SunScreen", image="images/inventory_items/sunscreen.png", hover_i="images/inventory_items/sunscreen_hover.png", cost = 20)
 default crowbar = Item("Crowbar", image="images/inventory_items/crowbar.png", hover_i="images/inventory_items/crowbar_hover.png")
-default warehouse_key = Item("Warehouser Key", image="images/inventory_items/warehouse_key.png", hover_i="images/inventory_items/warehouse_key_hover.png")
+default warehouse_key = Item("Warehouse Key", image="images/inventory_items/warehouse_key.png", hover_i="images/inventory_items/warehouse_key_hover.png")
 default cindy_box = Item("Cindy's Box", image="images/inventory_items/Cindy_box.png", hover_i="images/inventory_items/cindy_box_hover.png")
 default sexroom_key = Item("Sexroom Key", image="images/inventory_items/sexroom_key.png", hover_i="images/inventory_items/sexroom_key_hover.png")
 default C_necklace = Item("Carilne's Necklace", image="images/inventory_items/C_necklace.png", hover_i="images/inventory_items/C_necklace_hover.png")
@@ -1524,6 +1524,21 @@ label day_time_changer:
                 jump mc_sara_night_scene1_v1_label
             if Sara_points == 2 and SR2_swimming_card == True:
                 jump SR2_swimming_card_label
+            if CR3_NS5 == True and Caroline_points == 3:
+                $ day_time = 4
+                $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
+                $ renpy.hide("mc_sleep_night_bed", layer="screens")
+                $ renpy.hide("mc_sleep_night", layer="screens")
+                $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
+                $ renpy.hide("mc_sleep_morning", layer="screens")
+                $ renpy.hide("mc_sleep_day", layer="screens")
+                $ renpy.hide("mc_sleep_evening", layer="screens")
+                $ renpy.hide("mc_sleep_night", layer="screens")
+                hide screen mc_room_night_notclickable
+                hide screen mc_room_day_notclickable
+                hide screen mc_room_morning_notclickable
+                hide screen mc_room_evening_notclickable
+                jump CR3_NS5_label
             $ renpy.hide("ml_mc_room_night_sleeping_p1", layer="screens")
             $ renpy.hide("mc_sleep_night_bed", layer="screens")
             $ renpy.hide("mc_sleep_night", layer="screens")

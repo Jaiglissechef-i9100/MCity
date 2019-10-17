@@ -17,7 +17,8 @@ default Ch_last_scene = False
 label CR4_Boss_necklace:
     if NC_Boss != 2:
         jump boss_office_N
-
+    if NC_Boss == 1:
+        jump boss_office_N
     if NC_Boss == 2:
         $ can_hide_windows = True
         hide screen week_day_viewer

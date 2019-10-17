@@ -443,7 +443,7 @@ screen new_message_incoming1:
             hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
         if not sms_Caroline9 in sms_box.sms_s:
 
-            timer 0.003 action [SetVariable("Caroline_unread_alert", False),SetVariable("C_end_content", True),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline9),addSms(sms_Caroline10),Show("new_message_incoming1_NC")]
+            timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline9),addSms(sms_Caroline10),Show("new_message_incoming1_NC")]
         timer 2.25 action [SetVariable("C_SMS5",False),]
         timer 2.26 action [Hide ("new_message_incoming1")]
 
@@ -512,6 +512,8 @@ screen new_message_incoming1:
 screen new_message_incoming1_NC:
 
     key "hide_windows" action NullAction()
+    if C_end_content == True and Caroline_points == 3:
+        on "show" action Show("C_end_content_scr")
     if C_end_content == True and Caroline_points == 4:
         on "show" action Show("C_end_content_scr")
 

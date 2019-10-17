@@ -47,7 +47,7 @@ label Ne_NV_lab:
         scene Ne_NV_p1 with dissolve
         Sidra "Zzz…"
         Isla "*Snore*"
-        MC "(Okay, that’s me in. Time to get these bedsheets out of the way!)"
+        MC "(Okay, that's it I'm in. Time to get these bedsheets out of the way!)"
         scene Ne_NV_p2
         MC "(I wonder if they’re sleeping naked under this thing.)"
         MC "(It would certainly make my life a LOT easier if they are!)"
@@ -160,7 +160,7 @@ screen Ne_NV_Isla_scr:
             focus_mask True
             idle "images/NS_B/NextL.png"
             hover "images/NS_B/NextL_hover.png"
-            action [SetVariable('inv_page', prev_inv_page), Show("Ce_NV_scr")]
+            action [SetVariable('inv_page', prev_inv_page), Show("Ne_NV_Isla_scr")]
             hovered Play ("sound", "sfx/click2.wav")
         imagebutton:
             xpos 328
@@ -168,7 +168,7 @@ screen Ne_NV_Isla_scr:
             focus_mask True
             idle "images/NS_B/NextR.png"
             hover "images/NS_B/NextR_hover.png"
-            action [SetVariable('inv_page', next_inv_page), Show("Ce_NV_scr")]
+            action [SetVariable('inv_page', next_inv_page), Show("Ne_NV_Isla_scr")]
             hovered Play ("sound", "sfx/click2.wav")
     imagebutton:
         xpos 191
@@ -176,7 +176,7 @@ screen Ne_NV_Isla_scr:
         focus_mask True
         idle "images/NS_B/Cancel.png"
         hover "images/NS_B/Cancel_hover.png"
-        action [SetVariable("inv_page", 0),Hide("Ce_NV_scr"), Jump("Ce_NV_back")]
+        action [SetVariable("inv_page", 0),Hide("Ne_NV_Isla_scr"), Jump("Ne_NV_back1")]
         hovered Play ("sound", "sfx/click2.wav")
 
 

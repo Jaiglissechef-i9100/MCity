@@ -240,7 +240,7 @@ label CR4_sceurity_lab:
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
 
         scene CR4_sceurity2_p27
-        Headmaster "That silly girl… if she’d only waited she would give gotten those joints anyway. I was going to give them to her for her birthday."
+        Headmaster "That silly girl… if she'd only waited she would have gotten those joints anyway. I was going to give them to her, for her birthday."
         Cindy "What?! Are you SERIOUS?! I went through all that effort for nothing!?"
         MC "Err…"
 

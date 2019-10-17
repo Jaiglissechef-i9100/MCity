@@ -89,7 +89,7 @@ label CR4_MS1_label:
         scene CR4_MS1_p6
 
         Caroline "No, now is fine."
-        Caroline "(Crap - I was so busy that I completely forgot to organise anything!)"
+        Caroline "(Crap - I was so busy that I completely forgot to organize anything!)"
         MC "(Damn, she is so fucking hot!)"
         Caroline "Listen, I just need a little bit longer to finish planning our date. Are you free to meet up this afternoon?"
 
