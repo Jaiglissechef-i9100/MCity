@@ -26,6 +26,10 @@ image LiR1_NS3_turn_tits_p11 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Y
 image LiR1_NS3_turn_tits_p11a = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Tits/11a.jpg"
 
 label Yaz_NS_turn_label:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
     $ renpy.block_rollback()
     scene LiR1_NS3_turn_p1 with dissolve
     MC "(Okay - I have to be extremely careful, right now... This is probably, one of the riskiest things, I’ll ever do in my life...)"

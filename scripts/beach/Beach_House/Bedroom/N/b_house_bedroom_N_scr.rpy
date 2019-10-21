@@ -14,15 +14,28 @@ screen b_house_bedroom_N_scr:
         unhovered Hide("displayTextScreen")
 
     if not "img37_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1299
-            ypos 85
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B37b.png"
-            hover "images/secret_gallery/Bonus/B37b_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img37_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1299
+                ypos 85
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B37b.png"
+                hover "images/secret_gallery/Bonus/B37b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img37_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1299
+                ypos 85
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img37_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if MLR3_b_house_wait > 1:
         imagebutton:

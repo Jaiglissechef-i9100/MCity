@@ -326,7 +326,7 @@ screen cosplay_R3_score_screen:
         text "{size=+25}{color=#00ff00}[cosplay_score]${/size}" xpos 1000 ypos 510
     else:
         text "{size=+25}{color=#00ff00}0${/size}" xpos 1000 ypos 510
-        text "{color=#00ff00}(Deal with Caroline is active.)" xpos 780 ypos 600
+        text __("{color=#00ff00}(Deal with Caroline is active.)") xpos 780 ypos 600
     imagebutton:
         xpos 1679
         ypos 0

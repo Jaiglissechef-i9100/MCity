@@ -1,5 +1,3 @@
-
-
 label Ne_entrance_M1:
     $ in_map = False
     $ can_map = True

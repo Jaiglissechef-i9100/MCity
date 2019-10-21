@@ -145,7 +145,7 @@ screen resteurant_scr_rep:
         focus_mask True
         idle "images/home/garage/evening/scenes/MLR2_ES3/b2.png"
         hover "images/home/garage/evening/scenes/MLR2_ES3/b2_hover.png"
-        hovered Show("displayTextScreen", displayText = "Free Table")
+        hovered Show("displayTextScreen", displayText = __("Free Table"))
         action [Hide("displayTextScreen"),Jump("resteurant_table_label_rep")]
         unhovered Hide("displayTextScreen")
 

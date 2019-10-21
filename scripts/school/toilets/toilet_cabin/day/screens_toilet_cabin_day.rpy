@@ -7,7 +7,7 @@ screen toilet_cabin_day:
             focus_mask True
             idle "images/CeR2/AS1/B1.png"
             hover "images/CeR2/AS1/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Gloryhole")
+            hovered Show("displayTextScreen", displayText = __("Gloryhole"))
             if clickable == True:
                 if CeR2_AS1 == 2:
                     action [Hide("displayTextScreen"),Jump("CeR2_AS1_lab")]

@@ -40,6 +40,10 @@ image Li_NS_B_pussy_p8 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pu
 image Li_NS_B_pussy_p9 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/9.jpg"
 
 label Li_NS_B_feet:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
     scene Li_NS_B_feet_p1 with dissolve
 
     MC "(I think I’ll begin by, playing with [Liza2_name]’s feet tonight. They look gorgeous!)"

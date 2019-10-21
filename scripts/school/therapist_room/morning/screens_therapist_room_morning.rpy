@@ -2,26 +2,52 @@ screen therapist_room_morning:
     key "hide_windows" action NullAction()
 
     if not "img41_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 211
-            ypos 271
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B41a.png"
-            hover "images/secret_gallery/Bonus/B41a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img41_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 211
+                ypos 271
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B41a.png"
+                hover "images/secret_gallery/Bonus/B41a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img41_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 211
+                ypos 271
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img41_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if not "img42_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1677
-            ypos 632
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B42a.png"
-            hover "images/secret_gallery/Bonus/B42a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img42_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1677
+                ypos 632
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B42a.png"
+                hover "images/secret_gallery/Bonus/B42a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img42_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1677
+                ypos 632
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img42_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 0
         ypos 0

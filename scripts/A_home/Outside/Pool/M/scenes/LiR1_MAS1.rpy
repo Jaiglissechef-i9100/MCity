@@ -9,6 +9,7 @@ image LiR1_MAS1_p8 = "images/a_home/Outside/Pool/M/Scenes/LiR1_MAS1/8.jpg"
 image LiR1_MAS1_p9 = "images/a_home/Outside/Pool/M/Scenes/LiR1_MAS1/9.jpg"
 
 label LiR1_MAS1_label:
+
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music1", loop=True, fadein = 2)

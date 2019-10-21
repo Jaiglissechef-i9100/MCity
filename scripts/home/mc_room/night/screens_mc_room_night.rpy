@@ -51,16 +51,26 @@ screen mc_room_night:
             unhovered Hide("displayTextScreen")
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-            action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
-            hovered Show("displayTextScreen", displayText = __("Secret Card"))
-            unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+                hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 1493
         ypos 319
@@ -180,11 +190,18 @@ screen mc_room_night_notclickable:
         idle "images/home/mc_room/night/door1_night_idle.png"
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
 
     imagebutton:
         xpos 1493

@@ -6,7 +6,7 @@ label work_minigame_R2_room1_label:
             scene room1_R2_scene
             hide screen map_button
             call screen work_minigame_R2_room1_items1
-        "Fuck minigame":
+        "{image=cheat_code}":
             jump after_ml_workR2_AS1_label
 
 screen work_minigame_R2_room1_items1:

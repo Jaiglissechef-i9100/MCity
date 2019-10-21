@@ -32,6 +32,11 @@ image LiR1_MAS6_p31 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS6/31.jpg"
 image LiR1_MAS6_p32 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS6/32.jpg"
 
 label LiR1_MAS6_label:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
+
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)

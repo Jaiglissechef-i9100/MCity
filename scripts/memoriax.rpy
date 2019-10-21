@@ -326,7 +326,7 @@ label memoriax_game:
                         renpy.jump ("memoriax_game_win")
 
                 jump memoriax_game_loop
-        "Fuck minigame":
+        "{image=cheat_code}":
             $ memo_w += 1
             $ renpy.music.stop(channel='memoriax_m', fadeout=None)
             $ renpy.sound.play("sfx/win_sound.wav")

@@ -11,7 +11,7 @@ screen Ce_ele_corridor_N_scr:
         if clickable == True:
             action [Play ("sound", "sfx/door_locked.mp3"), Jump("Ce_ele_corridor_M1")]
 
-        hovered Show("displayTextScreen", displayText = "Apartment 51")
+        hovered Show("displayTextScreen", displayText = __("Apartment 51"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -24,7 +24,7 @@ screen Ce_ele_corridor_N_scr:
         if clickable == True:
             action [Play ("sound", "sfx/door_locked.mp3"), Jump("Ce_ele_corridor_M1")]
 
-        hovered Show("displayTextScreen", displayText = "Apartment 52")
+        hovered Show("displayTextScreen", displayText = __("Apartment 52"))
         unhovered Hide("displayTextScreen")
 
 
@@ -46,41 +46,79 @@ screen Ce_ele_corridor_N_scr:
             if CeR2_NS3 == True  and Celia_points == 2:
                 action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("CeR2_NS3_lab")]
 
-        hovered Show("displayTextScreen", displayText = "Apartment 53")
+        hovered Show("displayTextScreen", displayText = __("Apartment 53"))
         unhovered Hide("displayTextScreen")
 
     if not "img46_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1197
-            ypos 37
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B46c.png"
-            hover "images/secret_gallery/Bonus/B46c_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img46_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 1197
+                ypos 37
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B46c.png"
+                hover "images/secret_gallery/Bonus/B46c_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img46_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1197
+                ypos 37
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img46_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if not "img47_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1701
-            ypos 325
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B47c.png"
-            hover "images/secret_gallery/Bonus/B47c_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img47_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 1701
+                ypos 325
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B47c.png"
+                hover "images/secret_gallery/Bonus/B47c_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img47_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1701
+                ypos 325
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img47_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if not "img48_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 942
-            ypos 259
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B48c.png"
-            hover "images/secret_gallery/Bonus/B48c_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img48_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 942
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B48c.png"
+                hover "images/secret_gallery/Bonus/B48c_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img48_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 942
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img48_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+
 
     if clickable == True:
         imagebutton:

@@ -13,15 +13,28 @@ screen beach2_N_scr:
             action Jump("beach_M1")
             unhovered Hide("displayTextScreen")
     if not "img39_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 498
-            ypos 408
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B39b.png"
-            hover "images/secret_gallery/Bonus/B39b_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img39_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 498
+                ypos 408
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B39b.png"
+                hover "images/secret_gallery/Bonus/B39b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img39_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 498
+                ypos 408
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img39_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     imagebutton:
         at map_arrow_anim
         xpos 10

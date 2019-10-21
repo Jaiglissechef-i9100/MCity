@@ -152,7 +152,7 @@ label bob_deskwork_label:
                     jump bob_game_win
 
                 jump bob_game_loop
-        "Fuck minigame":
+        "{image=cheat_code}":
             jump bob_game_win
 
 label bob_game_lose:

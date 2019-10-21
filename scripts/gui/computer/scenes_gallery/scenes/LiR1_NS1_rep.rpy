@@ -1,4 +1,9 @@
 label LiR1_NS1_rep:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
+
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer

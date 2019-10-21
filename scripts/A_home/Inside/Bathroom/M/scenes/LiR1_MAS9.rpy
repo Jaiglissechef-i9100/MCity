@@ -24,6 +24,10 @@ image LiR1_MAS9_p23 = "/images/a_home/Inside/Bathroom/M/scenes/LiR1_MAS9/23.jpg"
 image LiR1_MAS9_p24 = "/images/a_home/Inside/Bathroom/M/scenes/LiR1_MAS9/24.jpg"
 
 label LiR1_MAS9_label:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
 
     hide screen displayTextScreen
     $ can_hide_windows = True

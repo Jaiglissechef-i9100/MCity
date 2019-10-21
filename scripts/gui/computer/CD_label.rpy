@@ -56,6 +56,6 @@ screen CD_screen:
             focus_mask True
             idle "images/game_gui/pc/cd/WebCam_Software.png"
             hover "images/game_gui/pc/cd/WebCam_Software_Hover.png"
-            hovered Show("displayTextScreen", displayText = "WebCam Software")
+            hovered Show("displayTextScreen", displayText = __("WebCam Software"))
             action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("WebCam_Software_install_label")]
             unhovered Hide("displayTextScreen")

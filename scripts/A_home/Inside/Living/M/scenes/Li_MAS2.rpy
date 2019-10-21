@@ -225,9 +225,9 @@ label Li_MAS2_menu:
 
             scene LiR1_MAS2_p6
             if renpy.loadable("patch.rpy"):
-                Auntie "Your mom and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
+                Liza2 "Your mom and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
             else:
-                Auntie "Linda and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
+                Liza2 "Linda and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
             MC "Yeah - come to mention it - that makes sense."
             if renpy.loadable("patch.rpy"):
                 Liza2 "Things have thawed, since then, but I try to keep Yazmin out of the picture. There’s no need to antagonise my sister, any more than, my wedding ring already does. I think she views Yazmin - as stealing away her best friend."

@@ -106,7 +106,7 @@ label pool_minigame_start:
             if clean_loop == 3:
                 scene pool_minigame_bg3
                 call screen pool_minigame_scr3
-        "Fuck minigame":
+        "{image=cheat_code}":
             $ LiR1_poll_minigame_can = False
             $ Li_clean_stuff.selected = False
             $ inventory.earn(45)

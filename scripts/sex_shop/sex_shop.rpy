@@ -53,14 +53,26 @@ screen sex_shop_evening_screen:
             unhovered Hide("displayTextScreen")
 
     if not "img5_sex_shop_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1674
-            ypos 285
-            focus_mask True
-            idle "images/secret_gallery/Bonus/SexShop Card.png"
-            hover "images/secret_gallery/Bonus/SexShop Card_hover.png"
-            action [Hide("displayTextScreen"), addgimage("img5_sex_shop_card") ,SetVariable("clickable", False),Show("card_found_alert")]
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1674
+                ypos 285
+                focus_mask True
+                idle "images/secret_gallery/Bonus/SexShop Card.png"
+                hover "images/secret_gallery/Bonus/SexShop Card_hover.png"
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                action [Hide("displayTextScreen"), addgimage("img5_sex_shop_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1674
+                ypos 285
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                action [Hide("displayTextScreen"), addgimage("img5_sex_shop_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
 
     if clickable == True:
         imagebutton:
@@ -93,7 +105,7 @@ screen sex_shop_evening_screen:
             hover "images/sex_shop/sex_shop_lady_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CeR2_sex_shop")]
-                hovered Show("displayTextScreen", displayText = "Saleswoman")
+                hovered Show("displayTextScreen", displayText = __("Saleswoman"))
                 unhovered Hide("displayTextScreen")
 
 label sex_shop_table_label:

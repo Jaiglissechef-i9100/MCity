@@ -27,10 +27,8 @@ label LiR1_MAS1a_label:
 
     if renpy.loadable("patch.rpy"):
         $ Liza2_name = __("Auntie")
-        $ Liza_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
-        $ Liza_name = "Liza"
 
     scene black
     $ can_hide_windows = True
@@ -68,10 +66,8 @@ label LiR1_MAS1a_label:
 label LiR1_MAS1a_menu:
     if renpy.loadable("patch.rpy"):
         $ Liza2_name = __("Auntie")
-        $ Liza_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
-        $ Liza_name = "Liza"
     scene LiR1_MAS1a_p4
 
     menu:

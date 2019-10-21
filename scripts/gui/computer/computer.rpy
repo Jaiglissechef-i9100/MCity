@@ -152,7 +152,7 @@ screen main_deskop_pcv1:
             focus_mask True
             idle "images/game_gui/pc/LiveCamera.png"
             hover "images/game_gui/pc/LiveCamera_Hover.png"
-            hovered Show("displayTextScreen", displayText = "Live Camera")
+            hovered Show("displayTextScreen", displayText = __("Live Camera"))
             if clickable == True:
                 action [Play ("sound", "sfx/mouse_click.mp3"),Jump("live_camera_label")]
                 unhovered Hide("displayTextScreen")

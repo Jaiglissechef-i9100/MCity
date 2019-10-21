@@ -8,6 +8,11 @@ image LiR1_MAS8_p7 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS8/7.jpg"
 
 default LiR1_MAS8_talked = False
 label LiR1_MAS8_label:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
+
     if LiR1_MAS8_talked == True:
         if day_time == 1:
             show screen a_pool_M_scr

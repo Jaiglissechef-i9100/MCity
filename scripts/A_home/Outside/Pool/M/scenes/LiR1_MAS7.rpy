@@ -48,6 +48,11 @@ image LiR1_MAS7_p46 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS7/46.jpg"
 
 label LiR1_MAS7_label:
 
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
+
     if MAS7_fridge == True:
         hide screen map_button
         $ clickable = False

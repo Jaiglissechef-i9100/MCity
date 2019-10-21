@@ -15,28 +15,53 @@ image CR4_warehouse_p13 = "images/Nightclub/Warehouse/13.jpg"
 
 
 label CR4_warehouse:
-    $ can_hide_windows = True
-    hide screen week_day_viewer
-    hide screen time_skip_button
-    hide screen day_time_viewer
-    hide screen map_button
-    hide screen map
-    $ renpy.music.stop(channel="music2", fadeout=1)
-    $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
+    menu:
+        "Play":
+            $ can_hide_windows = True
+            hide screen week_day_viewer
+            hide screen time_skip_button
+            hide screen day_time_viewer
+            hide screen map_button
+            hide screen map
+            $ renpy.music.stop(channel="music2", fadeout=1)
+            $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
 
-    scene CR4_warehouse_p1 with dissolve
-    MC "(Christ almighty… Is this a warehouse? It looks like a damn supervillain’s lair!)"
-    MC "Hmm… (Where the hell would I store a pink box in a place like this?)"
+            scene CR4_warehouse_p1 with dissolve
+            MC "(Christ almighty… Is this a warehouse? It looks like a damn supervillain’s lair!)"
+            MC "Hmm… (Where the hell would I store a pink box in a place like this?)"
 
-    scene CR4_warehouse_p2
-    MC "(Shit… there’s security guards too.)"
-    MC "(I’m gonna have to be careful with how I proceed.)"
+            scene CR4_warehouse_p2
+            MC "(Shit… there’s security guards too.)"
+            MC "(I’m gonna have to be careful with how I proceed.)"
 
-    $ can_hide_windows = False
-    show screen week_day_viewer
-    show screen time_skip_button
-    show screen day_time_viewer
-    call screen CR4_warehouse_scr
+            $ can_hide_windows = False
+            show screen week_day_viewer
+            show screen time_skip_button
+            show screen day_time_viewer
+            call screen CR4_warehouse_scr
+        "{image=cheat_code}":
+            $ can_hide_windows = True
+            hide screen week_day_viewer
+            hide screen time_skip_button
+            hide screen day_time_viewer
+            hide screen map_button
+            hide screen map
+            $ renpy.music.stop(channel="music2", fadeout=1)
+            $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
+
+            scene CR4_warehouse_p1 with dissolve
+            MC "(Christ almighty… Is this a warehouse? It looks like a damn supervillain’s lair!)"
+            MC "Hmm… (Where the hell would I store a pink box in a place like this?)"
+
+            scene CR4_warehouse_p2
+            MC "(Shit… there’s security guards too.)"
+            MC "(I’m gonna have to be careful with how I proceed.)"
+
+            $ can_hide_windows = False
+            show screen week_day_viewer
+            show screen time_skip_button
+            show screen day_time_viewer
+            jump CR4_warehouse_con
 
     screen CR4_warehouse_scr:
         add "images/Nightclub/Warehouse/Map.jpg"
@@ -46,11 +71,10 @@ label CR4_warehouse:
             focus_mask True
             idle "images/Nightclub/Warehouse/B1.png"
             hover "images/Nightclub/Warehouse/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Barrels")
+            hovered Show("displayTextScreen", displayText = __("Barrels"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Hide("CR4_warehouse_scr"),Jump("start_w_minigame")]
             unhovered Hide("displayTextScreen")
-
 
 label CR4_warehouse_con:
     hide screen week_day_viewer
@@ -111,7 +135,7 @@ label CR4_warehouse_con:
                 focus_mask True
                 idle "images/Nightclub/Warehouse/B2.png"
                 hover "images/Nightclub/Warehouse/B2_hover.png"
-                hovered Show("displayTextScreen", displayText = "Pink box")
+                hovered Show("displayTextScreen", displayText = __("Pink box"))
                 if clickable == True:
                     action [Hide("displayTextScreen"),addItem(cindy_box),Jump("CR4_warehouse_box")]
                     unhovered Hide("displayTextScreen")

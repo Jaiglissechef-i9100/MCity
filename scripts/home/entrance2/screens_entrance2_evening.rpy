@@ -27,12 +27,23 @@ screen entrance2_evening:
         action [Jump("entrace1_evening1")]
 
     if not "img2_garage_entrance_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 53
-            ypos 543
-            focus_mask True
-            idle "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard.png"
-            hover "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard_hover.png"
-            action [Hide("displayTextScreen"), addgimage("img2_garage_entrance_card") ,Jump("garage_entrance_card")]
-            hovered Show("displayTextScreen", displayText = __("Secret Card"))
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 53
+                ypos 543
+                focus_mask True
+                idle "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard.png"
+                hover "images/secret_gallery/Bonus/GarageEntranceOutsideSecretCard_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img2_garage_entrance_card") ,Jump("garage_entrance_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 53
+                ypos 543
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img2_garage_entrance_card") ,Jump("garage_entrance_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")

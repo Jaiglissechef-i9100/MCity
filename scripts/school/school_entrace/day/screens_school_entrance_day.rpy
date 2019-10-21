@@ -105,26 +105,52 @@ screen school_entrance_day:
             unhovered Hide("displayTextScreen")
 
     if not "img6_exit_school_corridor_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 944
-            ypos 259
-            focus_mask True
-            idle "images/secret_gallery/Bonus/ExitSchoolCorridor Card.png"
-            if clickable == True:
+        if jack_frost == False:
+            imagebutton:
+                xpos 944
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/ExitSchoolCorridor Card.png"
                 hover "images/secret_gallery/Bonus/ExitSchoolCorridor Card_hover.png"
-                action [Hide("displayTextScreen"), addgimage("img6_exit_school_corridor_card") ,SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"), addgimage("img6_exit_school_corridor_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 944
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"), addgimage("img6_exit_school_corridor_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if not "img23_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 738
-            ypos 522
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B23.png"
-            hover "images/secret_gallery/Bonus/B23_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img23_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 738
+                ypos 522
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B23.png"
+                hover "images/secret_gallery/Bonus/B23_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img23_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 738
+                ypos 522
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img23_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
 screen school_entrance_day_notclickable:
     key "hide_windows" action NullAction()
@@ -196,15 +222,29 @@ screen school_entrance_day_notclickable:
         idle "images/school/school_entrance/morning/school_entrance_locker_morning.png"
 
     if not "img6_exit_school_corridor_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 944
-            ypos 259
-            focus_mask True
-            idle "images/secret_gallery/Bonus/ExitSchoolCorridor Card.png"
+        if jack_frost == False:
+            imagebutton:
+                xpos 944
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/ExitSchoolCorridor Card.png"
+        else:
+            imagebutton:
+                xpos 944
+                ypos 259
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
 
     if not "img23_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 738
-            ypos 522
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B23.png"
+        if jack_frost == False:
+            imagebutton:
+                xpos 738
+                ypos 522
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B23.png"
+        else:
+            imagebutton:
+                xpos 738
+                ypos 522
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"

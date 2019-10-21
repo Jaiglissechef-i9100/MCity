@@ -22,16 +22,28 @@ screen entrace1_morning:
             unhovered Hide("displayTextScreen")
 
     if not "img3_home_entrance_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1843
-            ypos 607
-            focus_mask True
-            idle "images/secret_gallery/Bonus/EntranceHouse SecretCard.png"
-            hover "images/secret_gallery/Bonus/EntranceHouse SecretCard_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"), addgimage("img3_home_entrance_card") ,Jump("home_entrance_card")]
-                hovered Show("displayTextScreen", displayText = __("Secret Card"))
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1843
+                ypos 607
+                focus_mask True
+                idle "images/secret_gallery/Bonus/EntranceHouse SecretCard.png"
+                hover "images/secret_gallery/Bonus/EntranceHouse SecretCard_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"), addgimage("img3_home_entrance_card") ,Jump("home_entrance_card")]
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1843
+                ypos 607
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"), addgimage("img3_home_entrance_card") ,Jump("home_entrance_card")]
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    unhovered Hide("displayTextScreen")
 
     if CR3_MS2 == True and Caroline_points == 3 and CR3_deal_aff == True and CR3_MS2_can3 == True:
         imagebutton:

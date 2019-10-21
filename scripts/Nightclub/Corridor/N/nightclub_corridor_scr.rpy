@@ -19,7 +19,7 @@ screen nightclub_corridor_scr:
             focus_mask True
             idle "images/Nightclub/Corridor/B1.png"
             hover "images/Nightclub/Corridor/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Security")
+            hovered Show("displayTextScreen", displayText = __("Security"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CR4_sceurity_lab")]
                 unhovered Hide("displayTextScreen")
@@ -30,7 +30,7 @@ screen nightclub_corridor_scr:
         focus_mask True
         idle "images/Nightclub/Corridor/B2.png"
         hover "images/Nightclub/Corridor/B2_hover.png"
-        hovered Show("displayTextScreen", displayText = "Boss Office")
+        hovered Show("displayTextScreen", displayText = __("Boss Office"))
         if clickable == True and CR4_guard < 4:
             action [Hide("displayTextScreen"),Jump("CR4_sceurity_lab")]
         if NC_Boss > 0:
@@ -43,7 +43,7 @@ screen nightclub_corridor_scr:
         focus_mask True
         idle "images/Nightclub/Corridor/B3.png"
         hover "images/Nightclub/Corridor/B3_hover.png"
-        hovered Show("displayTextScreen", displayText = "Sex Room")
+        hovered Show("displayTextScreen", displayText = __("Sex Room"))
         if clickable == True and sexroom_key in inventory.items:
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("nc_sexroom_N")]
 

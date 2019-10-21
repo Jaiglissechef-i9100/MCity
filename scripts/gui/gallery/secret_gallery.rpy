@@ -59,6 +59,7 @@ screen secret_gallery:
     text __("{size=+6}Secret Gallery{/size}"):
         xalign 0.5
         yalign 0.0
+
 screen gallery_closeup(images):
     key "hide_windows" action NullAction()
     zorder 106

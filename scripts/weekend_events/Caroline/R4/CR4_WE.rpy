@@ -365,7 +365,7 @@ screen CR4_WE_dinner_scr:
         hover "images/Weekend_Events/Caroline/R4/Dinner/B1_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("CR4_WE_dinner_lab")]
-            hovered Show("displayTextScreen", displayText = "Table")
+            hovered Show("displayTextScreen", displayText = __("Table"))
             unhovered Hide("displayTextScreen")
 
 label CR4_WE_dinner_lab:
@@ -762,7 +762,7 @@ screen CR4_love_hotel_map1_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B1_hover.png"
             if clickable == True and CR4_we_dbag == 1:
                 action [Hide("displayTextScreen"),Jump("CR4_love_hotel_handbag")]
-                hovered Show("displayTextScreen", displayText = "Bag")
+                hovered Show("displayTextScreen", displayText = __("Bag"))
                 unhovered Hide("displayTextScreen")
 
     if CR4_we <= 2:
@@ -797,7 +797,7 @@ screen CR4_love_hotel_map1_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B6_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),SetVariable("CR4_we", 6), Jump("CR4_love_hotel_lab5")]
-                hovered Show("displayTextScreen", displayText = "Bed")
+                hovered Show("displayTextScreen", displayText = __("Bed"))
                 unhovered Hide("displayTextScreen")
 
     if clickable == True:
@@ -831,7 +831,7 @@ screen CR4_love_hotel_map2_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B4_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),SetVariable("CR4_we", 4), Jump("CR4_love_hotel_lab4")]
-                hovered Show("displayTextScreen", displayText = "Bath")
+                hovered Show("displayTextScreen", displayText = __("Bath"))
                 unhovered Hide("displayTextScreen")
     if CR4_we > 3:
         add "images/Weekend_Events/Caroline/R4/LoveHotel/B5.png" xpos 938 ypos 423

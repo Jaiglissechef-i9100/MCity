@@ -45,14 +45,21 @@ label Ne_fence_lab:
                 MC "Ugh… Arggh…"
                 scene Ne_ES1_p2
                 MC "C’mon… uh! Just a bit more…"
-
-            call screen Ne_fence_climb
+            menu:
+                "Play":
+                    call screen Ne_fence_climb
+                "{image=cheat_code}":
+                    jump Ne_fence_lab2
         if day_time == 4:
             scene Ne_ES1_p1a with dissolve
             MC "Ugh… Arggh…"
             scene Ne_ES1_p2a
             MC "C’mon… uh! Just a bit more…"
-            call screen Ne_fence_climb
+            menu:
+                "Play":
+                    call screen Ne_fence_climb
+                "{image=cheat_code}":
+                    jump Ne_fence_lab2
         else:
 
             hide screen map_button

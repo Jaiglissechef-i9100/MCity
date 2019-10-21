@@ -61,7 +61,7 @@ screen cloth_shop_room2_robbery_screen:
             hover "images/cloth_shop/room2/day/window_b2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("cloth_shop_window_unlock_label")]
-                hovered Show("displayTextScreen", displayText = "Window")
+                hovered Show("displayTextScreen", displayText = __("Window"))
                 unhovered Hide("displayTextScreen")
 
     imagebutton:

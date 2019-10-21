@@ -137,7 +137,7 @@ label Climbing_loop:
                 scene black
                 jump LiR1_NS1_label
             call screen ClimbingStart_scr
-        "Fuck minigame":
+        "{image=cheat_code}":
             $ climb_w += 1
             jump LiR1_NS1_label
 

@@ -1,25 +1,38 @@
 screen a_pool_M_scr:
     key "hide_windows" action NullAction()
     if not "img33_sec_card" in gallery_photos.storage:
+        if jack_frost == False:
+            imagebutton:
+                xpos 0
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B33a.png"
+                hover "images/secret_gallery/Bonus/B33a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 0
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
         imagebutton:
-            xpos 0
-            ypos 918
+            xpos 1632
+            ypos 240
             focus_mask True
-            idle "images/secret_gallery/Bonus/B33a.png"
-            hover "images/secret_gallery/Bonus/B33a_hover.png"
+            idle "/images/a_home/outside/Pool/M/B1.png"
+            hover "/images/a_home/outside/Pool/M/B1_hover.png"
             if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                hovered Show("displayTextScreen", displayText = "Garage")
+                action [Play ("sound", "sfx/garage door.mp3"),Jump("a_garage_M1")]
                 unhovered Hide("displayTextScreen")
-    imagebutton:
-        xpos 1632
-        ypos 240
-        focus_mask True
-        idle "/images/a_home/outside/Pool/M/B1.png"
-        hover "/images/a_home/outside/Pool/M/B1_hover.png"
-        if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Garage")
-            action [Play ("sound", "sfx/garage door.mp3"),Jump("a_garage_M1")]
-            unhovered Hide("displayTextScreen")
 
     if Li_clean_stuff in inventory.items and LiR1_poll_minigame == True:
         imagebutton:

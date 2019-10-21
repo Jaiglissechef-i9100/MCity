@@ -29,8 +29,10 @@ label LiR1_MAS4_label:
     hide screen day_time_viewer
     hide screen map_button
     if renpy.loadable("patch.rpy"):
+        $ Mom_name = __("Mom")
         $ Liza2_name = __("Auntie")
     else:
+        $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
     scene black
     $ renpy.pause (1, hard = True)

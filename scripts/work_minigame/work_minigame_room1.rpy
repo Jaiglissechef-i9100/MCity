@@ -13,7 +13,7 @@ label work_minigame_room1_label:
         "Play":
             scene room1_scene
             call screen work_minigame_room1_items1
-        "Fuck minigame":
+        "{image=cheat_code}":
             jump ml_work_day_scene1_v1_label_after_minigame
 
 screen work_minigame_room1_items1:

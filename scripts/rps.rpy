@@ -188,6 +188,7 @@ label rps_money_select_label:
     hide rps_win
     hide rps_lose
     hide rps_draw
+    hide screen screen_rps_wonmoney
     scene rps_bet_background
     call screen rps_money_select_screen
 
@@ -274,7 +275,7 @@ label rps_pick_menu_label:
         "Play":
             scene rps_pick_background
             call screen rps_pick_menu_screen
-        "Fuck minigame":
+        "{image=cheat_code}":
             $ rps_w += 1
             $ renpy.block_rollback()
             show rps_win
@@ -423,6 +424,7 @@ screen screen_rps_drawmoney:
         text "{size=+25}{color=#00ff00}+10{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
     if rps_bet3 == True:
         text "{size=+25}{color=#00ff00}+25{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
+
 label tie:
     $ rps_d += 1
     show screen screen_rps_drawmoney

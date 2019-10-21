@@ -6,7 +6,7 @@ screen mc_room_evening:
         focus_mask True
         idle "images/home/mc_room/evening/door1_evening_idle1.png"
         hover "images/home/mc_room/evening/door1_evening_hover1.png"
-        hovered Show("displayTextScreen", displayText = "Corridor")
+        hovered Show("displayTextScreen", displayText = __("Corridor"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_evening1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -33,15 +33,26 @@ screen mc_room_evening:
         unhovered Hide("displayTextScreen")
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-            action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
-            hovered Show("displayTextScreen", displayText = __("Secret Card"))
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+                hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
 
     imagebutton:
         xpos 1493
@@ -144,12 +155,18 @@ screen mc_room_evening_notclickable:
         hover "images/home/mc_room/evening/pc_hover.png"
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
 
     imagebutton:
         xpos 1493

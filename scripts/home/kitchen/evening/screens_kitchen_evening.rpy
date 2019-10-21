@@ -58,7 +58,7 @@ screen kitchen_evening:
             focus_mask True
             idle "images/home/kitchen/evening/door3_evening_idle.png"
             hover "images/home/kitchen/evening/door3_evening_hover.png"
-            hovered Show("displayTextScreen", displayText = "Bathroom")
+            hovered Show("displayTextScreen", displayText = __("Bathroom"))
             action [Hide("displayTextScreen"),Jump("ml_evening_bathroom_scene_v1_label")]
             unhovered Hide("displayTextScreen")
 

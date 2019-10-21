@@ -99,74 +99,141 @@ label Ch_doors_lab:
         jump charles_outside_M1
 
 label Ch_window_lab:
-    $ can_hide_windows = True
-    $ renpy.music.stop(channel="music2", fadeout=1)
-    $ renpy.music.play('/sfx/Feelin Good.mp3', channel="music1", loop=True, fadein = 2)
-    hide screen week_day_viewer
-    hide screen time_skip_button
-    hide screen day_time_viewer
-    hide screen map_button
+    menu:
+        "Play":
+            $ can_hide_windows = True
+            $ renpy.music.stop(channel="music2", fadeout=1)
+            $ renpy.music.play('/sfx/Feelin Good.mp3', channel="music1", loop=True, fadein = 2)
+            hide screen week_day_viewer
+            hide screen time_skip_button
+            hide screen day_time_viewer
+            hide screen map_button
 
-    if day_time == 1:
-        scene Ch_doors_p1b with dissolve
-        MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
-        MC "Ugh… Gah!"
-        MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
+            if day_time == 1:
+                scene Ch_doors_p1b with dissolve
+                MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
+                MC "Ugh… Gah!"
+                MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
 
-        $ renpy.music.stop(channel="music1", fadeout=1)
-        $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
-        $ can_hide_windows = False
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
 
-        jump charles_outside_M1
+                jump charles_outside_M1
 
-    if day_time == 2:
-        scene Ch_doors_p1b with dissolve
-        MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
-        MC "Ugh… Gah!"
-        MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
+            if day_time == 2:
+                scene Ch_doors_p1b with dissolve
+                MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
+                MC "Ugh… Gah!"
+                MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
 
-        $ renpy.music.stop(channel="music1", fadeout=1)
-        $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
-        $ can_hide_windows = False
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
 
-        jump charles_outside_M1
+                jump charles_outside_M1
 
-    if day_time == 3:
-        scene Ch_doors_p2a with dissolve
-        MC "Ugh!"
-        MC "(Dammit, the window isn’t shifting. Maybe I should try another time of the day?)"
+            if day_time == 3:
+                scene Ch_doors_p2a with dissolve
+                MC "Ugh!"
+                MC "(Dammit, the window isn’t shifting. Maybe I should try another time of the day?)"
 
-        $ renpy.music.stop(channel="music1", fadeout=1)
-        $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
-        $ can_hide_windows = False
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
 
-        jump charles_outside_M1
+                jump charles_outside_M1
 
-    if day_time == 4:
-        if crowbar.selected == True:
-            $ clean_bar_value = 0
-            scene Ch_doors_p3b with dissolve
-            MC "(If you’re not going to let me in, then I’ll just have to make an entrance myself!)"
-            MC "Hnnnng… Come on!"
-            MC "Ugh! (Just a few more inches!)"
-            $ can_hide_windows = False
-            show screen week_day_viewer
-            show screen time_skip_button
-            show screen day_time_viewer
-            call screen Ch_window_scr
-        else:
+            if day_time == 4:
+                if crowbar.selected == True:
+                    $ clean_bar_value = 0
+                    scene Ch_doors_p3b with dissolve
+                    MC "(If you’re not going to let me in, then I’ll just have to make an entrance myself!)"
+                    MC "Hnnnng… Come on!"
+                    MC "Ugh! (Just a few more inches!)"
+                    $ can_hide_windows = False
+                    show screen week_day_viewer
+                    show screen time_skip_button
+                    show screen day_time_viewer
+                    call screen Ch_window_scr
+                else:
+                    scene Ch_doors_p3a with dissolve
+                    MC "(Please be open!)"
+                    MC "Gah! Come on!"
+                    MC "Let me in Charles! Open up the door, you bastard!"
 
+                    $ renpy.music.stop(channel="music1", fadeout=1)
+                    $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                    $ can_hide_windows = False
 
-            scene Ch_doors_p3a with dissolve
-            MC "(Please be open!)"
-            MC "Gah! Come on!"
-            MC "Let me in Charles! Open up the door, you bastard!"
+                    jump charles_outside_M1
+        "{image=cheat_code}":
+            $ can_hide_windows = True
+            $ renpy.music.stop(channel="music2", fadeout=1)
+            $ renpy.music.play('/sfx/Feelin Good.mp3', channel="music1", loop=True, fadein = 2)
+            hide screen week_day_viewer
+            hide screen time_skip_button
+            hide screen day_time_viewer
+            hide screen map_button
 
-            $ renpy.music.stop(channel="music1", fadeout=1)
-            $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
-            $ can_hide_windows = False
+            if day_time == 1:
+                scene Ch_doors_p1b with dissolve
+                MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
+                MC "Ugh… Gah!"
+                MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
 
-            jump charles_outside_M1
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
+
+                jump charles_outside_M1
+
+            if day_time == 2:
+                scene Ch_doors_p1b with dissolve
+                MC "(Let’s give this window a go. Maybe I can jimmy it open?)"
+                MC "Ugh… Gah!"
+                MC "(Nope, this thing isn’t budging a single inch! Perhaps I should come back later on in the day?)"
+
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
+
+                jump charles_outside_M1
+
+            if day_time == 3:
+                scene Ch_doors_p2a with dissolve
+                MC "Ugh!"
+                MC "(Dammit, the window isn’t shifting. Maybe I should try another time of the day?)"
+
+                $ renpy.music.stop(channel="music1", fadeout=1)
+                $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                $ can_hide_windows = False
+
+                jump charles_outside_M1
+
+            if day_time == 4:
+                if crowbar.selected == True:
+                    $ clean_bar_value = 0
+                    scene Ch_doors_p3b with dissolve
+                    MC "(If you’re not going to let me in, then I’ll just have to make an entrance myself!)"
+                    MC "Hnnnng… Come on!"
+                    MC "Ugh! (Just a few more inches!)"
+                    $ can_hide_windows = False
+                    show screen week_day_viewer
+                    show screen time_skip_button
+                    show screen day_time_viewer
+                    jump Ch_inside_lab
+                else:
+                    scene Ch_doors_p3a with dissolve
+                    MC "(Please be open!)"
+                    MC "Gah! Come on!"
+                    MC "Let me in Charles! Open up the door you bastard!"
+
+                    $ renpy.music.stop(channel="music1", fadeout=1)
+                    $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+                    $ can_hide_windows = False
+
+                    jump charles_outside_M1
 
 screen Ch_window_scr:
     vbar top_bar Frame("images/pool_minigame/top_bar.png", gui.vbar_borders, tile=gui.bar_tile) bottom_bar Frame("images/pool_minigame/top_bar1.png", gui.vbar_borders, tile=gui.bar_tile) range clean_bar_max value clean_bar_value xsize barysize ysize barxsize xpos 1120 ypos 180
@@ -230,8 +297,11 @@ label Ch_inside_lab:
 
     $ can_hide_windows = False
 
-    jump start_ch_mg
-
+    menu:
+        "Play":
+            jump start_ch_mg
+        "{image=cheat_code}":
+            jump Ch_inside_lab2
 
 label Ch_inside_lab2:
     hide screen week_day_viewer
@@ -343,8 +413,6 @@ init:
 default ch_mg_r = 1
 
 label start_ch_mg:
-    if persistent.skip_mg == True:
-        $ ch_mg_r = 4
     if ch_mg_r == 4:
         $ ch_mg_r = 1
         jump Ch_inside_lab2

@@ -1,15 +1,28 @@
 screen a_pool_N_scr:
     key "hide_windows" action NullAction()
     if not "img33_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 0
-            ypos 918
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B33c.png"
-            hover "images/secret_gallery/Bonus/B33c_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 0
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B33c.png"
+                hover "images/secret_gallery/Bonus/B33c_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 0
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 1632
         ypos 240

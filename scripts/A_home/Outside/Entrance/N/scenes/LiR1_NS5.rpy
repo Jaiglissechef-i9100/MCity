@@ -87,6 +87,10 @@ image LiR1_NS5_p75 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/75.jpg"
 image LiR1_NS5_p76 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/76.jpg"
 
 label LiR1_NS5_label:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
 
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)

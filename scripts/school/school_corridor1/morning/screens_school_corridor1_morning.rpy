@@ -92,7 +92,7 @@ screen school_corridor1_morning:
                 hovered Show("displayTextScreen", displayText = __("Teacher’s Break Room(Closed)"))
                 if clickable == True:
                     action [Play ("sound", "sfx/door_locked.mp3")]
-                    unhovered Hide("displayTextScreen")
+                unhovered Hide("displayTextScreen")
 
     if corridor1_door_to_teacher_room2_open == True:
         imagebutton:
@@ -104,15 +104,28 @@ screen school_corridor1_morning:
             hovered Show("displayTextScreen", displayText = __("Teacher’s Break Room"))
             if clickable == True:
                 action [Play ("sound", "sfx/door_open.mp3"),SetVariable("celia_key_take", False),Jump("teacher_room2_morning1")]
-                unhovered Hide("displayTextScreen")
+            unhovered Hide("displayTextScreen")
 
     if not "img7_school_corridor1_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1075
-            ypos 576
-            focus_mask True
-            idle "images/secret_gallery/Bonus/SchoolCorridor1 Card.png"
-            hover "images/secret_gallery/Bonus/SchoolCorridor1 Card_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"), addgimage("img7_school_corridor1_card") ,SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1075
+                ypos 576
+                focus_mask True
+                idle "images/secret_gallery/Bonus/SchoolCorridor1 Card.png"
+                hover "images/secret_gallery/Bonus/SchoolCorridor1 Card_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"), addgimage("img7_school_corridor1_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1075
+                ypos 576
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"), addgimage("img7_school_corridor1_card") ,SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")

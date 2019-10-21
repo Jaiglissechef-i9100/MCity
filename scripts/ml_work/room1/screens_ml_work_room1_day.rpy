@@ -42,27 +42,51 @@ screen ml_work_room1_day:
             unhovered Hide("displayTextScreen")
 
     if not "img10_mom_office_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1733
-            ypos 536
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MLOffice SecretCard1.png"
-            hover "images/secret_gallery/Bonus/MLOffice SecretCard1_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img10_mom_office_card"), Jump("mom_office_card")]
-                unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 1733
+                ypos 536
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MLOffice SecretCard1.png"
+                hover "images/secret_gallery/Bonus/MLOffice SecretCard1_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img10_mom_office_card"), Jump("mom_office_card")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1733
+                ypos 536
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img10_mom_office_card"), Jump("mom_office_card")]
+                    unhovered Hide("displayTextScreen")
     if not "img11_mom_office_card2" in gallery_photos.storage:
-        imagebutton:
-            xpos 370
-            ypos 436
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MLOffice SecretCard1.png"
-            hover "images/secret_gallery/Bonus/MLOffice SecretCard1_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img11_mom_office_card2"), Jump("mom_office_card2")]
-                unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 370
+                ypos 436
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MLOffice SecretCard1.png"
+                hover "images/secret_gallery/Bonus/MLOffice SecretCard1_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img11_mom_office_card2"), Jump("mom_office_card2")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 370
+                ypos 436
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img11_mom_office_card2"), Jump("mom_office_card2")]
+                    unhovered Hide("displayTextScreen")
     if ml_workR2_AS1 == True and can_ml_workR2 == True and ml_points == 2:
         imagebutton:
             xpos 1227

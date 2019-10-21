@@ -31,18 +31,32 @@ screen a_garage_N_scr:
             idle "images/secret_gallery/Bonus/B28b.png"
             hover "images/secret_gallery/Bonus/B28b_hover.png"
             if clickable == True:
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 action [Hide("displayTextScreen"),addgimage("img28_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
                 unhovered Hide("displayTextScreen")
     if not "img29_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1900
-            ypos 390
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B29b.png"
-            hover "images/secret_gallery/Bonus/B29b_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img29_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1900
+                ypos 390
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B29b.png"
+                hover "images/secret_gallery/Bonus/B29b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img29_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1900
+                ypos 390
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28b.png"
+                hover "images/secret_gallery/Bonus/B28b_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img29_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if clickable == True:
         imagebutton:

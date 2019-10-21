@@ -111,7 +111,7 @@ label ML_workR3:
 
             show screen ML_workR3_scr
             jump ML_workR3_roll
-        "Fuck minigame":
+        "{image=cheat_code}":
             jump ML_workR3_finished
 
 label ML_workR3_roll:

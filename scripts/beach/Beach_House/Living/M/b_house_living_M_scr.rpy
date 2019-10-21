@@ -24,15 +24,28 @@ screen b_house_living_M_scr:
 
 
     if not "img36_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 913
-            ypos 424
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B36a.png"
-            hover "images/secret_gallery/Bonus/B36a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 913
+                ypos 424
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B36a.png"
+                hover "images/secret_gallery/Bonus/B36a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 913
+                ypos 424
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if MLR3_b_house_wait == 4 and MLR3_beach_event == True:
         imagebutton:

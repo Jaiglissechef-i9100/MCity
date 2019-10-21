@@ -13,26 +13,51 @@ screen dark_alley_D_scr:
                 unhovered Hide("displayTextScreen")
 
     if not "img16_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1031
-            ypos 216
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B16.png"
-            hover "images/secret_gallery/Bonus/B16_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img16_sec_card"),SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 1031
+                ypos 216
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B16.png"
+                hover "images/secret_gallery/Bonus/B16_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img16_sec_card"),SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1031
+                ypos 216
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img16_sec_card"),SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if not "img17_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 733
-            ypos 269
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B17.png"
-            hover "images/secret_gallery/Bonus/B17_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img17_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 733
+                ypos 269
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B17.png"
+                hover "images/secret_gallery/Bonus/B17_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img17_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 733
+                ypos 269
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img17_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if V_points == 2 and CR2_VS == True and Caroline_points <4 and can_violet_CR3 == True:
         imagebutton:

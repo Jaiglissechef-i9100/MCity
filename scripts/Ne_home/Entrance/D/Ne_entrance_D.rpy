@@ -1,4 +1,3 @@
-
 label Ne_entrance_D1:
     hide screen displayTextScreen
     hide screen map

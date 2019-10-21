@@ -27,6 +27,10 @@ label Li_MAS3_label:
     jump Li_MAS3_menu
 
 label Li_MAS3_menu:
+    if renpy.loadable("patch.rpy"):
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
     scene LiR1_MAS3_p1
     menu:
         "What’s it like, working as a supermodel?" if Li_MAS3_q1 == True:

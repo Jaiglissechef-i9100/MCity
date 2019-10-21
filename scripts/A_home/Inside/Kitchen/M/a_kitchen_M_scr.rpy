@@ -1,25 +1,51 @@
 screen a_kitchen_M_scr:
     key "hide_windows" action NullAction()
     if not "img30_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 561
-            ypos 884
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B30a.png"
-            hover "images/secret_gallery/Bonus/B30a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img30_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 561
+                ypos 884
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B30a.png"
+                hover "images/secret_gallery/Bonus/B30a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img30_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 561
+                ypos 884
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img30_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if not "img31_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 807
-            ypos 212
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B31a.png"
-            hover "images/secret_gallery/Bonus/B31a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img31_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 807
+                ypos 212
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B31a.png"
+                hover "images/secret_gallery/Bonus/B31a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img31_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 807
+                ypos 212
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img31_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if MAS7_fridge == True:
         imagebutton:
             xpos 402

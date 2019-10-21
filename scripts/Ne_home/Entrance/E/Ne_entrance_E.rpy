@@ -1,5 +1,3 @@
-
-
 label Ne_entrance_E1:
     hide screen displayTextScreen
     hide screen map
