@@ -56,7 +56,10 @@ image CeR2_ES2_p55 = "images/CeR2/ES2/55.jpg"
 image CeR2_ES2_p56 = "images/CeR2/ES2/56.jpg"
 image CeR2_ES2_p57 = "images/CeR2/ES2/57.jpg"
 image CeR2_ES2_p58 = "images/CeR2/ES2/58.jpg"
+image CeR2_ES2_p58anim = Movie(play="videos/06 Celia ES2-1.webm", loop = True )
 image CeR2_ES2_p59 = "images/CeR2/ES2/59.jpg"
+image CeR2_ES2_p59anim = Movie(play="videos/06 Celia ES2-2.webm", loop = True )
+image CeR2_ES2_p59anim2 = Movie(play="videos/06 Celia ES2-3.webm", loop = True )
 image CeR2_ES2_p60 = "images/CeR2/ES2/60.jpg"
 image CeR2_ES2_p61 = "images/CeR2/ES2/61.jpg"
 image CeR2_ES2_p62 = "images/CeR2/ES2/62.jpg"
@@ -108,15 +111,15 @@ label CeR2_ES2_lab:
     scene CeR2_ES2_p2
     Celia "Oh, hello [player_name]. I was in the neighbourhood, so I thought I would drop by."
     MC "How did you get in?"
-    Celia "Linda opened the door for me. A very kind woman you know. I just explained that I was one of your teachers and that I had to talk to you about your progress."
+    Celia "Linda opened the door for me. A very kind woman, you know. I just explained that I was one of your teachers and that I had to talk to you about your progress."
 
     scene CeR2_ES2_p3
-    MC "You really shouldn’t be at my home. You know that?"
+    MC "You really shouldn’t be at my home, you know that?"
     Celia "On the contrary, [player_name]. This is EXACTLY where I need to be right now."
     MC "What do you mean?"
 
     scene CeR2_ES2_p4
-    Celia "You see, I’ve been doing a little bit of my own research. It was taking you so long to find that blackmailer after all."
+    Celia "You see, I’ve been doing a little bit of my own research. It was taking you so long to find that blackmailer, after all."
     Celia "I simply couldn’t wait for someone who was just so slow."
     Celia "And then it occurred to me. All the little bits of evidence came together to form a rather interesting picture."
     MC "*Gulp*"
@@ -124,7 +127,7 @@ label CeR2_ES2_lab:
     scene CeR2_ES2_p5
     Celia "It was you."
     MC "I don’t know-"
-    Celia "Don’t bother trying to deny it. I’ve got you dead to rights you piece of shit."
+    Celia "Don’t bother trying to deny it. I’ve got you dead-to-rights you piece of shit."
 
     scene CeR2_ES2_p6
     MC "Celia, I-"
@@ -166,7 +169,7 @@ label CeR2_ES2_lab:
 
     scene CeR2_ES2_p13
     Celia "You. Disgust. Me."
-    MC "S-Sorry, I understand if you hate me."
+    MC "S-Sorry! I understand if you hate me."
     Celia "I don’t hate you, [player_name]. I fucking loathe you."
     Celia "With every fibre of my being, every cell in my body, every thought going through my brain. I loathe you."
 
@@ -230,13 +233,13 @@ label CeR2_ES2_lab:
 
     scene CeR2_ES2_p26
     Celia "THAT one was for all the times you made me use that DISGUSTING glory hole!"
-    MC "S-Sorry, I’m sorry!"
+    MC "S-Sorry! I’m sorry!"
     Celia "Sorry isn’t going to butter my toast this time."
 
     scene CeR2_ES2_p27
     Celia "No amount of apologising, no quantity of grovelling, no whiny little whimpering will get you out of this."
     Celia "I will never forgive you."
-    Celia "As long as I have breath in my lungs and blood in my veins I will make every day of your life a living hell."
+    Celia "As long as I have breath in my lungs and blood in my veins, I will make every day of your life a living hell."
 
     scene CeR2_ES2_p28
     Celia "I know you never paid much attention in Literature class; but may I suggest you read ‘No Exit’ by Sartre?"
@@ -254,13 +257,13 @@ label CeR2_ES2_lab:
 
     scene CeR2_ES2_p31
     Celia "I’ve always been into my martial arts. My mother encouraged it from a young age. "
-    Celia "It was the best thing she ever did for me, God rest her soul."
+    Celia "It was the best thing she ever did for me - God rest her soul."
     MC "*Cough* *Gasp*"
 
     scene CeR2_ES2_p32
     Celia "Stop acting so hurt. I just winded you."
     MC "Y-You’re… psychotic…"
-    Celia "Says the guy who blackmailed a girl simply for turning him down. I’ve handled creeps like you all my life."
+    Celia "Says the guy who blackmailed a girl, simply for turning him down. I’ve handled creeps like you all my life."
 
     scene CeR2_ES2_p33
     MC "Grr…"
@@ -280,7 +283,7 @@ label CeR2_ES2_lab:
     MC "(God, my stomach fucking hurts!)"
 
     scene CeR2_ES2_p37
-    Celia "So, where you jerking yourself off while you looked at me?"
+    Celia "So, were you jerking yourself off while you looked at me?"
     MC "...yes."
     Celia "I knew it."
 
@@ -320,12 +323,12 @@ label CeR2_ES2_lab:
     Celia "I’m not going to wait for you much longer. And I’m sure Linda is going to wonder why you’re spending so long with your teacher in your bedroom."
 
     scene CeR2_ES2_p46
-    MC "(Fuck it, I really don’t have a choice right now. I’m going to have to lick her pussy.)"
+    MC "(Fuck it. I really don’t have a choice right now. I’m going to have to lick her pussy.)"
     Celia "Look, I’ll even sit down to make it easier for you."
 
     scene CeR2_ES2_p47
-    MC "(Gah, I’m not going down without a figh!)"
-    MC "No way."
+    MC "(Gah, I’m not going down without a fight!)"
+    MC "No way!"
     Celia "Hmm?"
     MC "I said, no way! I’m not putting my face down there!"
 
@@ -381,13 +384,16 @@ label CeR2_ES2_lab:
 
     scene CeR2_ES2_p58
     Celia "Haha! Ohh! I suspected ah... that would motivate you! Mmm!"
+    scene CeR2_ES2_p58anim
     Celia "Ohh! Fuck! Oh, yes!"
     MC "(Dammit! Why can’t she leave Sara out of this?! It has nothing to do with her!)"
 
     scene CeR2_ES2_p59
     MC "*LICK* *SLURP*"
+    scene CeR2_ES2_p59anim
     Celia "Ahhh… Oh my God! Mmm!"
-
+    scene CeR2_ES2_p59anim2
+    MC "*Lick* *Shlurp*"
     scene CeR2_ES2_p60
     Celia "Ahh… I seem to have caught myself quite a prize! You’re not bad at eating pussy."
     MC "*Lick Lick*"

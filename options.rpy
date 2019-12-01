@@ -1,29 +1,12 @@
-﻿## This file contains options that can be changed to customize your game.
-##
-## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
-## them. Lines beginning with a single '#' mark are commented-out code, and you
-## may want to uncomment them when appropriate.
 
-
-## Basics ######################################################################
-
-## A human-readable name of the game. This is used to set the default window
-## title, and shows up in the interface and error reports.
-##
-## The _() surrounding the string marks it as eligible for translation.
 
 define config.name = _("Milfy City")
 
-
-## Determines if the title given above is shown on the main menu screen. Set
-## this to False to hide the title.
-
 define gui.show_name = True
-
 
 ## The version of the game.
 
-define config.version = "0.6c-BETA"
+define config.version = "0.6d"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
@@ -37,17 +20,12 @@ define gui.about = _("")
 ## or semicolons.
 
 define build.name = "Milfy_City"
+
 define config.console = False
-
-## Sounds and music ############################################################
-
-## These three variables control which mixers are shown to the player by
-## default. Setting one of these to False will hide the appropriate mixer.
 
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
-
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
@@ -120,61 +98,13 @@ define config.window_hide_transition = Dissolve(.2)
 
 default preferences.text_cps = 0
 
-
-## The default auto-forward delay. Larger numbers lead to longer waits, with 0
-## to 30 being the valid range.
-
 default preferences.afm_time = 15
-
-
-## Save directory ##############################################################
-##
-## Controls the platform-specific place Ren'Py will place the save files for
-## this game. The save files will be placed in:
-##
-## Windows: %APPDATA\RenPy\<config.save_directory>
-##
-## Macintosh: $HOME/Library/RenPy/<config.save_directory>
-##
-## Linux: $HOME/.renpy/<config.save_directory>
-##
-## This generally should not be changed, and if it is, should always be a
-## literal string, not an expression.
 
 define config.save_directory = "Milfy City"
 
-
-## Icon ########################################################################
-##
-## The icon displayed on the taskbar or dock.
-
 define config.window_icon = "gui/window_icon.png"
 
-
-## Build configuration #########################################################
-##
-## This section controls how Ren'Py turns your project into distribution files.
-
 init python:
-
-    ## The following functions take file patterns. File patterns are case-
-    ## insensitive, and matched against the path relative to the base directory,
-    ## with and without a leading /. If multiple patterns match, the first is
-    ## used.
-    ##
-    ## In a pattern:
-    ##
-    ## / is the directory separator.
-    ##
-    ## * matches all characters, except the directory separator.
-    ##
-    ## ** matches all characters, including the directory separator.
-    ##
-    ## For example, "*.txt" matches txt files in the base directory, "game/
-    ## **.ogg" matches ogg files in the game directory or any of its
-    ## subdirectories, and "**.psd" matches psd files anywhere in the project.
-
-    ## Classify files as None to exclude them from the built distributions.
 
     build.classify('**~', None)
     build.classify('**.bak', None)
@@ -182,13 +112,6 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
 
-    ## To archive files, classify them as 'archive'.
-
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
-
-    ## Files matching documentation patterns are duplicated in a mac app build,
-    ## so they appear in both the app and the zip file.
     config.main_menu_music = "sfx/MenuMusic.mp3"
     build.documentation('*.html')
     build.documentation('*.txt')
@@ -197,12 +120,13 @@ init python:
     build.archive("images", "all")
     build.archive("sfx", "all")
     build.archive("movies", "all")
-# Put images into the images archive.
+
     build.classify("game/**.jpg", "images")
     build.classify("game/**.png", "images")
     build.classify("game/**.webm", "movies")
     build.classify("game/**.mp3", "sfx")
     build.classify("game/**.wav", "sfx")
+
 ## Set this to a string containing your Apple Developer ID Application to enable
 ## codesigning on the Mac. Be sure to change it to your own Apple-issued ID.
 
@@ -220,3 +144,4 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+

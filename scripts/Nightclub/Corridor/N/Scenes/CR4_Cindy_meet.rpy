@@ -11,13 +11,13 @@ image CR4_Cindy_S1_p10 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/10.jpg"
 image CR4_Cindy_S1_p11 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/11.jpg"
 image CR4_Cindy_S1_p12 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/12.jpg"
 
-image CR4_Cindy_S1_p1 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/1.jpg"
-image CR4_Cindy_S1_p2 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/2.jpg"
-image CR4_Cindy_S1_p3 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/3.jpg"
-image CR4_Cindy_S1_p4 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/4.jpg"
-image CR4_Cindy_S1_p5 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/5.jpg"
-image CR4_Cindy_S1_p6 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/6.jpg"
-image CR4_Cindy_S1_p7 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/7.jpg"
+image CR4_Cindy_S2_p1 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/1.jpg"
+image CR4_Cindy_S2_p2 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/2.jpg"
+image CR4_Cindy_S2_p3 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/3.jpg"
+image CR4_Cindy_S2_p4 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/4.jpg"
+image CR4_Cindy_S2_p5 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/5.jpg"
+image CR4_Cindy_S2_p6 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/6.jpg"
+image CR4_Cindy_S2_p7 = "images/Nightclub/Corridor/N/Scenes/CR4_Cindy/S2/7.jpg"
 
 default warehouse_unlocked = False
 label CR4_Cindy_S1_lab:
@@ -32,7 +32,7 @@ label CR4_Cindy_S1_lab:
 
     scene CR4_Cindy_S1_p1 with dissolve
     MC "(God dammit… I can’t believe this. I was SO fucking close!)"
-    MC "(Caroline’s necklace can be right behind that door!)"
+    MC "(Caroline’s necklace could be right behind that door!)"
 
     scene CR4_Cindy_S1_p2
     MC "(Why the hell does a nightclub require a password to speak with the manager? None of this makes any fucking sense!)"
@@ -45,7 +45,7 @@ label CR4_Cindy_S1_lab:
 
     $ Cindy_name = "???"
 
-    Cindy "Why, hi there baby!"
+    Cindy "Why, hi there, baby!"
     MC "Huh?"
 
     scene CR4_Cindy_S1_p4
@@ -81,7 +81,7 @@ label CR4_Cindy_S1_lab:
 
     scene CR4_Cindy_S1_p10
     MC "This isn’t legal, is it?"
-    Cindy "Of course not, baby. But if you’re not willing to get two birds dirty with one hand then you-"
+    Cindy "Of course not, baby. But if you’re not willing to get two birds dirty with one hand, then you-"
     MC "I don’t think that’s a real expression either…"
 
     scene CR4_Cindy_S1_p11
@@ -92,7 +92,7 @@ label CR4_Cindy_S1_lab:
 
     scene CR4_Cindy_S1_p12
     Cindy "Hit me up when you got that pink box, baby!"
-    MC "Stay right here, I’ll be back soon."
+    MC "Stay right here. I’ll be back soon."
 
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Disco_Medusae.mp3', channel="music1", loop=True, fadein = 2)
@@ -114,40 +114,40 @@ label CR4_Cindy_S2_lab:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/realizer.mp3', channel="music2", loop=True, fadein = 2)
 
-    scene CR4_Cindy_S1_p1 with dissolve
+    scene CR4_Cindy_S2_p1 with dissolve
     MC "You almost got me killed! That was soooo fucking dangerous!"
     Cindy "Kinda hot, baby, ain’t it?"
-    MC "What?! NO! They had GUNS! What kinda place is this?"
+    MC "What?! NO! They had GUNS! What kinda place is that?"
     Cindy "Aww, stop being a pussy! C’mon and pass the box over."
     MC "*Sigh* There you go."
 
-    scene CR4_Cindy_S1_p2
+    scene CR4_Cindy_S2_p2
     Cindy "Fine - I’m not gonna beat around the drawing board."
     MC "(Christ almighty… Stay in school, kids.)"
     Cindy "This place is a front, baby. It ain’t just a nightclub."
 
-    scene CR4_Cindy_S1_p3
+    scene CR4_Cindy_S2_p3
     MC "Are you saying this is for money laundering?"
     Cindy "Uh huh! And so so much more, baby!"
-    MC "(Shit, this could make getting Caroline’s necklace back very difficult.)"
+    MC "(Shit, this could make getting Caroline’s necklace back, very difficult.)"
 
-    scene CR4_Cindy_S1_p4
-    MC "I uphold my end of the bargain. I need the password."
+    scene CR4_Cindy_S2_p4
+    MC "I upheld my end of the bargain. I need the password."
     Cindy "The password is… the name of this Nightclub!"
     MC "This club is called ‘Truth’."
 
-    scene CR4_Cindy_S1_p5
+    scene CR4_Cindy_S2_p5
     Cindy "SHUSH! You can’t just go around blurting out the password!"
     MC "But… that’s literally the name of the club. People are probably saying that all night long…"
 
-    scene CR4_Cindy_S1_p6
-    Cindy "Huh… I guess you’re right! You’re like super smart, ain’t cha baby?"
+    scene CR4_Cindy_S2_p6
+    Cindy "Huh… I guess you’re right! You’re like super smart, ain’tcha, baby?"
     MC "*Sigh* If I say “Truth” to those bouncers, will they let me past?"
     Cindy "Uh huh!"
 
-    scene CR4_Cindy_S1_p7
+    scene CR4_Cindy_S2_p7
     Cindy "Catch ya later, baby! Good luck meeting the Boss!"
-    MC "Thanks, it sounds like I’ll need it. See you later."
+    MC "Thanks. It sounds like I’ll need it. See you later."
 
     $ inventory.drop(cindy_box)
     $ CR4_Cindy_S1 = 4

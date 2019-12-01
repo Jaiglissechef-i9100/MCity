@@ -7,6 +7,7 @@ image Ne_NV_Isla_pussy_p6 = "images/Ne_1/NV/Isla/Pussy/6.jpg"
 image Ne_NV_Isla_pussy_p7 = "images/Ne_1/NV/Isla/Pussy/7.jpg"
 image Ne_NV_Isla_pussy_p8 = "images/Ne_1/NV/Isla/Pussy/8.jpg"
 image Ne_NV_Isla_pussy_p9 = "images/Ne_1/NV/Isla/Pussy/9.jpg"
+image Ne_NV_Isla_pussy_p9anim = Movie(play="videos/06 Neighboors NV-Pussy1.webm", loop = True )
 image Ne_NV_Isla_pussy_p10 = "images/Ne_1/NV/Isla/Pussy/10.jpg"
 image Ne_NV_Isla_pussy_p11 = "images/Ne_1/NV/Isla/Pussy/11.jpg"
 image Ne_NV_Isla_pussy_p12 = "images/Ne_1/NV/Isla/Pussy/12.jpg"
@@ -43,6 +44,7 @@ label Isla_NV_pussy_lab:
     MC "(God, I wish I could plunge my cock into it tonight.)"
     scene Ne_NV_Isla_pussy_p9
     MC "(Oh wow, her vulva is clinging to my finger.)"
+    scene Ne_NV_Isla_pussy_p9anim
     Isla "Ahh…"
     scene Ne_NV_Isla_pussy_p10
     Isla "Oohh…."

@@ -12,6 +12,12 @@ default CR3_rep = True
 default LiR1_rep = True
 
 default MLR3_rep = True
+
+default Ce_R2_rep = True
+default Ne_rep = True
+default CR4_rep = True
+default Ci_S1_rep = True
+
 label gallery_label:
     if renpy.loadable("patch.rpy"):
         $ Linda_name = "Mom"
@@ -90,5 +96,35 @@ label gallery_label:
         $ scenes_gallery_photos.add1("img43_MLR3_NS1_rep")
         $ scenes_gallery_photos.add1("img44_MLR3_NS2_rep")
         $ MLR3_rep = False
+
+    if Ce_R2_rep == True and Celia_points >= 3:
+        $ scenes_gallery_photos.add1("img45_CeR2_AS1_rep")
+        $ scenes_gallery_photos.add1("img46_CeR2_AS2_rep")
+        $ scenes_gallery_photos.add1("img47_CeR2_AS3_rep")
+        $ scenes_gallery_photos.add1("img48_CeR2_ES2_rep")
+        $ scenes_gallery_photos.add1("img49_CeR2_NS1_rep")
+        $ scenes_gallery_photos.add1("img50_CeR2_NS1a_rep")
+        $ scenes_gallery_photos.add1("img51_CeR2_NS2_rep")
+        $ scenes_gallery_photos.add1("img52_CeR2_NS3_rep")
+        $ scenes_gallery_photos.add1("img53_CeR2_We_rep")
+
+        $ Ce_R2_rep = False
+    if Ne_MS3 == True and Ne_rep == True:
+        $ scenes_gallery_photos.add1("img54_Ne_ES1_rep")
+        $ scenes_gallery_photos.add1("img55_Ne_ES2_rep")
+        $ Ne_rep = False
+
+    if CR4_rep == True and Caroline_points >= 5:
+        $ scenes_gallery_photos.add1("img56_CR4_MS1_rep")
+        $ scenes_gallery_photos.add1("img57_CR4_NS1_rep")
+        $ scenes_gallery_photos.add1("img58_CR4_NS1a_rep")
+        $ scenes_gallery_photos.add1("img59_CR4_NS3_rep")
+        $ scenes_gallery_photos.add1("img60_CR4_NS3a_rep")
+        $ scenes_gallery_photos.add1("img61_CR4_We_rep")
+
+        $ CR4_rep = False
+    if Ci_S1_rep == True and CR4_Cindy_S1 == 6:
+        $ scenes_gallery_photos.add1("img62_Ci_S1_rep")
+        $ Ci_S1_rep = False
     scene main_deskop
     call screen scenes_gallery

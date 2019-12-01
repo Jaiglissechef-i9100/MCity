@@ -60,13 +60,13 @@ label CR4_Boss_necklace:
 
         scene CR4_Boss_necklace_p7
         MC "Is that it?!"
-        Headmaster "I added the box myself. I figured returning such a priceless necklace deserves a fitting wrapping."
+        Headmaster "I added the box myself. I figured, returning such a priceless necklace deserves a fitting wrapping."
         MC "That’s very kind of you, sir. How much do I owe you?"
 
         scene CR4_Boss_necklace_p8
         Headmaster "You owe me nothing."
         Headmaster "But someday in the future, a young man will come to you. He will need your help with something. It might be next week. It might be in ten years."
-        Headmaster "When that day comes you’ll pass it on."
+        Headmaster "When that day comes, you’ll pass it on."
 
         scene CR4_Boss_necklace_p9
         MC "I can’t thank you enough. Caroline is going to be so happy with this."
@@ -78,7 +78,7 @@ label CR4_Boss_necklace:
 
         scene CR4_Boss_necklace_p11
         Headmaster "I hope to see you at school this week. I don’t want you flunking your education because you’re sleuthing around nightclubs."
-        MC "I’ll be at school, don’t worry sir! And I won’t breathe a word about who you really are."
+        MC "I’ll be at school, don’t worry, sir! And I won’t breathe a word about who you really are."
         Headmaster "Good kid."
 
         scene CR4_Boss_necklace_p10
@@ -89,7 +89,7 @@ label CR4_Boss_necklace:
         MC "I wouldn’t have gotten this necklace back without her help. I just wanted to talk to her."
 
         scene CR4_Boss_necklace_p13
-        Headmaster "I have a few spare keys for that room. You can hold onto that one."
+        Headmaster "I have a few spare keys for that room. You can hold onto this one."
         MC "Thank you, I appreciate that."
 
         scene CR4_Boss_necklace_p14

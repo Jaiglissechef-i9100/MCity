@@ -109,7 +109,9 @@ image CR4_love_blow_p1 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/1.
 image CR4_love_blow_p2 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/2.jpg"
 image CR4_love_blow_p3 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/3.jpg"
 image CR4_love_blow_p4 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/4.jpg"
+image CR4_love_blow_p4anim = Movie(play="videos/06 Caroline Weekend-Blowjob-1.webm", loop = True )
 image CR4_love_blow_p5 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/5.jpg"
+image CR4_love_blow_p5anim = Movie(play="videos/06 Caroline Weekend-Blowjob-2.webm", loop = True )
 image CR4_love_blow_p6 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/6.jpg"
 image CR4_love_blow_p7 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/7.jpg"
 image CR4_love_blow_p8 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/8.jpg"
@@ -119,10 +121,15 @@ image CR4_love_blow_p11 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/1
 image CR4_love_blow_p12 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/12.jpg"
 image CR4_love_blow_p13 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/13.jpg"
 image CR4_love_blow_p14 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/14.jpg"
+image CR4_love_blow_p14anim = Movie(play="videos/06 Caroline Weekend-Blowjob-3.webm", loop = True )
+image CR4_love_blow_p14anim2 = Movie(play="videos/06 Caroline Weekend-Blowjob-3a.webm", loop = True )
 image CR4_love_blow_p15 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/15.jpg"
 image CR4_love_blow_p16 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/16.jpg"
 image CR4_love_blow_p17 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/17.jpg"
 image CR4_love_blow_p18 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/18.jpg"
+image CR4_love_blow_p18anim = Movie(play="videos/06 Caroline Weekend-Blowjob-4.webm", loop = True )
+image CR4_love_blow_p18anim2 = Movie(play="videos/06 Caroline Weekend-Blowjob-5.webm", loop = True )
+image CR4_love_blow_p18anim3 = Movie(play="videos/06 Caroline Weekend-Blowjob-5a.webm", loop = True )
 image CR4_love_blow_p19 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/19.jpg"
 image CR4_love_blow_p20 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/20.jpg"
 image CR4_love_blow_p21 = "images/Weekend_Events/Caroline/R4/LoveHotel/Blowjob/21.jpg"
@@ -134,15 +141,20 @@ image CR4_love_tits_p1 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/1.
 image CR4_love_tits_p2 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/2.jpg"
 image CR4_love_tits_p3 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/3.jpg"
 image CR4_love_tits_p4 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/4.jpg"
+image CR4_love_tits_p4anim = Movie(play="videos/06 Caroline Weekend-Titsjob-1.webm", loop = True )
 image CR4_love_tits_p5 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/5.jpg"
 image CR4_love_tits_p6 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/6.jpg"
 image CR4_love_tits_p7 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/7.jpg"
+image CR4_love_tits_p7anim = Movie(play="videos/06 Caroline Weekend-Titsjob-2.webm", loop = True )
 image CR4_love_tits_p8 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/8.jpg"
 image CR4_love_tits_p9 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/9.jpg"
 image CR4_love_tits_p10 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/10.jpg"
+image CR4_love_tits_p10anim = Movie(play="videos/06 Caroline Weekend-Titsjob-3.webm", loop = True )
+image CR4_love_tits_p10anim2 = Movie(play="videos/06 Caroline Weekend-Titsjob-3a.webm", loop = True )
 image CR4_love_tits_p11 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/11.jpg"
 image CR4_love_tits_p12 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/12.jpg"
 image CR4_love_tits_p13 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/13.jpg"
+image CR4_love_tits_p13anim = Movie(play="videos/06 Caroline Weekend-Titsjob-4.webm", loop = True )
 image CR4_love_tits_p14 = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/14.jpg"
 image CR4_love_tits_p14a = "images/Weekend_Events/Caroline/R4/LoveHotel/Titsjob/14a.jpg"
 
@@ -177,7 +189,9 @@ image CR4_love_foot_p2 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footj
 image CR4_love_foot_p3 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/3.jpg"
 image CR4_love_foot_p4 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/4.jpg"
 image CR4_love_foot_p5 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/5.jpg"
+image CR4_love_foot_p5anim = Movie(play="videos/06 Caroline Weekend-Footjob-1.webm", loop = True )
 image CR4_love_foot_p6 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/6.jpg"
+image CR4_love_foot_p6anim = Movie(play="videos/06 Caroline Weekend-Footjob-2.webm", loop = True )
 image CR4_love_foot_p7 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/7.jpg"
 image CR4_love_foot_p8 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/8.jpg"
 image CR4_love_foot_p9 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bath/Footjob/9.jpg"
@@ -197,6 +211,7 @@ image CR4_love_bed_p8 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/8.jpg"
 image CR4_love_bed_p9 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/9.jpg"
 image CR4_love_bed_p10 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/10.jpg"
 image CR4_love_bed_p11 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/11.jpg"
+image CR4_love_bed_p11anim = Movie(play="videos/06 Caroline Weekend-Bed-1.webm", loop = True )
 image CR4_love_bed_p12 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/12.jpg"
 image CR4_love_bed_p13 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/13.jpg"
 image CR4_love_bed_p14 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/14.jpg"
@@ -219,9 +234,12 @@ image CR4_love_bed_p30 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/30.jpg
 image CR4_love_bed_p31 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/31.jpg"
 image CR4_love_bed_p32 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/32.jpg"
 image CR4_love_bed_p33 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/33.jpg"
+image CR4_love_bed_p33anim = Movie(play="videos/06 Caroline Weekend-Bed-2.webm", loop = True )
 image CR4_love_bed_p34 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/34.jpg"
 image CR4_love_bed_p35 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/35.jpg"
 image CR4_love_bed_p36 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/36.jpg"
+image CR4_love_bed_p36anim = Movie(play="videos/06 Caroline Weekend-Bed-3.webm", loop = True )
+image CR4_love_bed_p36anim2 = Movie(play="videos/06 Caroline Weekend-Bed-3a.webm", loop = True )
 image CR4_love_bed_p37 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/37.jpg"
 image CR4_love_bed_p38 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/38.jpg"
 image CR4_love_bed_p39 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/39.jpg"
@@ -229,6 +247,7 @@ image CR4_love_bed_p40 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/40.jpg
 image CR4_love_bed_p41 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/41.jpg"
 image CR4_love_bed_p42 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/42.jpg"
 image CR4_love_bed_p43 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/43.jpg"
+image CR4_love_bed_p43anim = Movie(play="videos/06 Caroline Weekend-Bed-4.webm", loop = True )
 image CR4_love_bed_p44 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/44.jpg"
 image CR4_love_bed_p45 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/45.jpg"
 image CR4_love_bed_p46 = "images/Weekend_Events/Caroline/R4/LoveHotel/Bed/46.jpg"
@@ -359,7 +378,7 @@ label CR4_WE_dinner_lab:
     $ can_hide_windows = True
     scene CR4_dinner_p1 with dissolve
     Caroline "And… here we are!"
-    Caroline "(I really hope he likes this place, not everyone is keen on Japanese cuisine.)"
+    Caroline "(I really hope he likes this place. Not everyone is keen on Japanese cuisine.)"
 
     scene CR4_dinner_p2
     MC "Oh wow… It’s gorgeous here!"
@@ -379,12 +398,12 @@ label CR4_WE_dinner_lab:
     scene CR4_dinner_p5
     MC "Caroline… That’s far too generous."
     Caroline "Nonsense. Relax and enjoy tonight."
-    Caroline "Oh, I hope you like Japanese food by the way. I absolutely LOVE the stuff!"
+    Caroline "Oh, I hope you like Japanese food, by the way. I absolutely LOVE the stuff!"
     MC "Yeah, I love Japanese food too…"
 
     scene CR4_dinner_p6
     MC "Not as much as I love you, of course."
-    Caroline "Hehe, you’re a charmer. Aren’t you?"
+    Caroline "Hehe, you’re a charmer, aren’t you?"
 
     scene CR4_dinner_p7
     Caroline "How about we go and sit down over there?"
@@ -392,18 +411,18 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p8
     MC "The ambience here is amazing - I love the candles."
-    Caroline "Well, for the best Japanese restaurant in town I wouldn’t expect any less."
+    Caroline "Well, for the best Japanese restaurant in town, I wouldn’t expect any less."
     MC "Have you been here before?"
 
     scene CR4_dinner_p9
-    Caroline "Yes, I come here every now and then when things are going especially well in my life."
+    Caroline "Yes, I come here every now and then, when things are going especially well in my life."
     Caroline "Some people take pick-me-ups when they’re feeling down. I like to take small rewards when I’m feeling good."
     MC "Huh, why don’t you come here when you’re down? Surely that would help cheer you up?"
 
     scene CR4_dinner_p10
-    Caroline "A couple of reasons actually… Firstly, I don’t want to have this place tainted with load of unhappy memories."
+    Caroline "A couple of reasons actually… Firstly, I don’t want to have this place tainted with a load of unhappy memories."
     Caroline "I like keeping this place special. It means a lot to me."
-    MC "Thank you for inviting me here then."
+    MC "Thank you for inviting me here, then."
 
     scene CR4_dinner_p11
     Caroline "I just hope you enjoy it here as much as I do. The salmon is to die for!"
@@ -413,12 +432,12 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p12
     Caroline "Oh, haha… yeah."
-    Caroline "I used to feel like shit a LOT of the time. I couldn’t exactly afford to come here three or four nights per week."
+    Caroline "I used to feel like shit, A LOT of the time. I couldn’t exactly afford to come here, three or four nights per week."
     Caroline "Sometimes it’s just cheaper to see your doctor and take your antidepressants."
 
     scene CR4_dinner_p13
     MC "You were on antidepressants? Sorry, I never realised."
-    Caroline "It’s okay, there’s a lot of things I kept to myself when I was dating Charles. I’m better now though, okay?"
+    Caroline "It’s okay. There’s a lot of things I kept to myself when I was dating Charles. I’m better now though, okay?"
     MC "Do you promise?"
 
     scene CR4_dinner_p14
@@ -427,8 +446,8 @@ label CR4_WE_dinner_lab:
     Caroline "It can happen to anyone. Besides, I got better. And you helped. I took my last pill a few days after our photography sessions began."
 
     scene CR4_dinner_p15
-    MC "Even still… I wish I was aware so I could at least talk to you about it."
-    Caroline "How about we talk about this another time? Let’s just enjoy dinner together and leave the past where it belongs."
+    MC "Even still… I wish I was aware, so I could at least talk to you about it."
+    Caroline "How about we talk about this another time? Let’s just enjoy dinner together, and leave the past where it belongs."
     MC "Oh, speaking of putting something back where it belongs…"
 
     scene CR4_dinner_p16
@@ -437,7 +456,7 @@ label CR4_WE_dinner_lab:
     Caroline "Aww, you shouldn’t have."
 
     scene CR4_dinner_p17
-    Caroline "I hope you didn’t spend TOO much money on it now."
+    Caroline "I hope you didn’t spend TOO much money on it, now."
     MC "I didn’t spend a single cent."
     Caroline "Now I’m intrigued!"
 
@@ -456,13 +475,13 @@ label CR4_WE_dinner_lab:
 
 
     scene CR4_dinner_p20
-    Caroline "OH MY GOD!"
+    Caroline "Oh, my God!"
     MC "I told you that you’d love it."
-    Caroline "Oh my God… Oh my God! How did you-"
+    Caroline "Oh, my God… Oh, my God! How did you-"
 
     scene CR4_dinner_p21
     MC "Are you happy?"
-    Caroline "Oh my God…"
+    Caroline "Oh, my God…"
     MC "I’ll take that as a yes?"
 
     scene CR4_dinner_p22
@@ -487,7 +506,7 @@ label CR4_WE_dinner_lab:
     scene CR4_dinner_p26
     Caroline "How did I get so lucky? You’re the best, [player_name]."
     Caroline "Ahh! I’m so excited, I just want to kiss you!"
-    MC "(I don’t think I’ve ever seen someone so elated in my life!)"
+    MC "(I don’t think I’ve ever seen someone so elated, in my life!)"
 
     scene CR4_dinner_p27
     MC "Mmm!"
@@ -505,7 +524,7 @@ label CR4_WE_dinner_lab:
     scene CR4_dinner_p30
     MC "That was spontaneous! Haha!"
     Caroline "S-Sorry about that, I got a little carried away in the moment."
-    MC "It’s okay, how about we sit back down?"
+    MC "It’s okay. How about we sit back down?"
 
     scene CR4_dinner_p31
     Caroline "Are you not sitting down too?"
@@ -528,12 +547,15 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p35
     MC "(I can’t exactly tell her that I got it from my Principal who is also a major Milfy City crime lord!)"
-    MC "Ahh… I can’t remember now. Some shop here or there."
+    MC "Ahh… I can’t remember now. Some shop, here or there."
     Caroline "Well, it suits the necklace very nicely."
 
     scene CR4_dinner_p36
-    Caroline " Seriously, [player_name]. You’re amazing."
-    Caroline "I can’t even begin to imagine what kind of detective work you had to do to track my gran’s necklace down."
+    Caroline " Seriously, [player_name], you’re amazing."
+    if persistent.incest_patch == True:
+        Caroline "I can’t even begin to imagine what kind of detective work you had to do to track Gran’s necklace down."
+    else:
+        Caroline "I can’t even begin to imagine what kind of detective work you had to do to track my gran’s necklace down."
     Caroline "You, sir, are going to get such a great blowjob tonight."
     MC "I-"
     Caroline "Like, seriously, I’m talking deepthroat with plenty of tongue play. You can even cum in my-"
@@ -557,7 +579,7 @@ label CR4_WE_dinner_lab:
     MC "Ahahaha!"
     Caroline "Oh, come on! Are you STILL laughing about that waiter thing?"
     MC "S-Sorry, it was just- haha- so funny…"
-    MC "This actually smells really good by the way. What did you say it was called?"
+    MC "This actually smells really good, by the way. What did you say it was called?"
 
     scene CR4_dinner_p39
     Caroline "Tonkatsu Ramen."
@@ -583,11 +605,11 @@ label CR4_WE_dinner_lab:
     MC "Heh…"
 
     scene CR4_dinner_p43
-    MC "I didn’t save you by the way."
+    MC "I didn’t save you, by the way."
     Caroline "What do you mean?"
     MC "Charles. I never saved you from him."
     Caroline "Of course you did. You fought him twice. I mean, you lost, but at least you put up a fight."
-    MC "That’s not what I’m talking about. When you were with Charles there wasn’t some knight in shining armour that came along."
+    MC "That’s not what I’m talking about. When you were with Charles, there wasn’t some knight in shining armour that came along."
 
     scene CR4_dinner_p40
     Caroline "Wh-What do you mean?"
@@ -622,7 +644,7 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p48
     MC "*Shluuurrp*"
-    MC "(Mmm… This stuff is sooo delicious! I can’t believe I’ve never had Japanese food like this in my life before!)"
+    MC "(Mmm… This stuff is sooo delicious! I can’t believe I’ve never had Japanese food like this before, in my life!)"
 
     scene CR4_dinner_p49
     Caroline "Well? How was dinner?"
@@ -641,10 +663,10 @@ label CR4_WE_dinner_lab:
     MC "REALLY?!"
 
     scene CR4_dinner_p52
-    Caroline "We’re spending the night way up on the very top floor."
+    Caroline "We’re spending the night, way up on the very top floor."
     Caroline "Just you, me, and a whole lot of steamy sex."
     MC "Thank you so much, Caroline! This is amazing!"
-    Caroline "Hehe, c’mon! Let’s go! We’re allowed to access our room in thirty minutes time, and at the price I’m paying I don’t want to miss a single second!"
+    Caroline "Hehe, c’mon! Let’s go! We’re allowed to access our room in thirty minutes time, and at the price I’m paying, I don’t want to miss a single second!"
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ inventory.drop(C_necklace)
@@ -659,7 +681,7 @@ label CR4_love_hotel_lab:
     scene CR4_love_hotel_p1 with dissolve
     Caroline "Ta da! What do you think?"
     MC "Wow! This hotel is incredible!"
-    Caroline "It’s five stars, the last time I was here was a few years ago with [Mom_name]. We went together on a girly night out."
+    Caroline "It’s five stars. The last time I was here was a few years ago, with [Mom_name]. Wecame here together on a girly night out."
 
     scene CR4_love_hotel_p2
     Caroline "I have a feeling I’m going to enjoy tonight MUCH more than last time though."
@@ -686,13 +708,13 @@ label CR4_love_hotel_lab:
 
     scene CR4_love_hotel_p7
     MC "(Wow! Her dress is so short I can almost see her asscheeks!)"
-    MC "(I can’t wait to tear it off her and spread them later on.)"
+    MC "(I can’t wait to tear it off her and spread those later on.)"
 
     scene CR4_love_hotel_p8
     Caroline "Enjoying the view, [player_name]?"
     MC "Haha, how’d you know I was looking?"
     Caroline "[Mom_name] caught me leaving the house earlier. She was shocked by how short my dress was, so I had to tell her I’m going out on a date."
-    Caroline "If [Mom_name] notices my short skirt, then you’re DEFINITELY going to notice!"
+    Caroline "If [Mom_name] noticed my short skirt, then you’re DEFINITELY going to notice!"
 
     scene CR4_love_hotel_p9
     MC "Does [Mom_name] know you’re dating me?"
@@ -704,7 +726,7 @@ label CR4_love_hotel_lab:
     Caroline "Say, can you go into my bag? I have a bottle of vodka in there that I’ve been saving for a special occasion."
 
     scene CR4_love_hotel_p11
-    MC "No problem, I’ll get it now."
+    MC "No problem. I’ll get it now."
     Caroline "Thanks, [player_name]."
     MC "You look really amazing tonight, Caroline. You know that?"
 
@@ -851,7 +873,7 @@ label CR4_love_hotel_handbag:
     MC "Milfy City vodka? Cute name. Is it a local brand?"
     Caroline "Yeah, it’s a small producer from just outside the city limits. I got it a couple of years ago."
     Caroline "I swore I wouldn’t open it until I had someone that I knew I wanted to share it with."
-    Caroline "Now that you’re my boyfriend I think… I think it’s the right time to open it up. "
+    Caroline "Now that you’re my boyfriend, I think… I think it’s the right time to open it up. "
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
@@ -879,22 +901,22 @@ label CR4_love_hotel_lab2:
 
         scene CR4_love_hotel_p15
         MC "Are you sure?"
-        Caroline "I’m more than certain [player_name]. I really am. You’re the one I want to spend my life with."
+        Caroline "I’m more than certain, [player_name]. I really am. You’re the one I want to spend my life with."
         Caroline "You don’t raise your voice or shout at me. You’ve never hit me."
 
         scene CR4_love_hotel_p16
         MC "That’s not exactly a high bar…"
-        Caroline "All I want is to feel safe in a relationship with someone who I know cares about me. You’ve already given me that, [player_name]. I’m sorry I was pushing you away at the beginning."
+        Caroline "All I want is to feel safe in a relationship with someone, who I know cares about me. You’ve already given me that, [player_name]. I’m sorry I was pushing you away at the beginning."
         MC "It’s okay, I understand now. "
 
         scene CR4_love_hotel_p17
-        MC "When I was… When I visited Charles to try and get your necklace back he said some things."
+        MC "When I was… When I visited Charles to try and get your necklace back, he said some things."
         Caroline "Oh yeah? Like what?"
         MC "He mentioned how you used to have to buy foundation to cover the bruises he gave you."
 
         scene CR4_love_hotel_p18
         Caroline "..."
-        MC "I mean, I knew he was a first class asshole. But I never realise JUST how much of a scumbag he really was."
+        MC "I mean, I knew he was a first class asshole. But I never realised JUST how much of a scumbag he really was."
         MC "[Mom_name] never knew, did she?"
         Caroline "…"
 
@@ -930,8 +952,8 @@ label CR4_love_hotel_lab2:
 
         scene CR4_love_hotel_p25
         MC "You can’t change the past, Caroline. It isn’t worth wasting your time imagining what could have been."
-        MC "Heck, if you hadn’t dated Charles then you may never have learnt how strong you actually are. You mightn’t have launched your own business!"
-        MC "And if you hadn’t done that we’d not be romantically involved."
+        MC "Heck, if you hadn’t dated Charles then you may never have learnt how strong you actually are. You might not have launched your own business!"
+        MC "And if you hadn’t done that, we’d not be romantically involved."
         Caroline "I guess you’re right."
 
         scene CR4_love_hotel_p26
@@ -973,10 +995,10 @@ label CR4_love_hotel_lab2:
         scene CR4_love_hotel_p34
         Caroline "How many times do you think you can go in one night?"
         MC "I don’t know. Maybe three?"
-        Caroline "Mmm, let’s see if we can hit three then. We’re going to need to make you cum before we have sex though."
+        Caroline "Mmm, let’s see if we can hit three, then. We’re going to need to make you cum before we have sex though."
         MC "Why?"
         Caroline "I want you lasting longer for the main event!"
-        MC "Sweet, sounds good to me!"
+        MC "Sweet! Sounds good to me!"
 
         scene CR4_love_hotel_p35
         Caroline "But first, we’re going to have to get you all nice and hard."
@@ -1013,7 +1035,7 @@ label CR4_love_hotel_lab2:
 
         scene CR4_love_hotel_p42
         MC "*Whistle*"
-        Caroline "As I was saying, why settle for a handjob when you could have these babies wrapped around your cock?"
+        Caroline "As I was saying: why settle for a handjob when you could have these babies wrapped around your cock?"
         MC "Very tempting. How about you lose the rest of that dress while I think about it?"
 
         scene CR4_love_hotel_p43
@@ -1051,9 +1073,9 @@ label CR4_love_hotel_lab2:
                 MC "Mmm…"
 
                 scene CR4_love_blow_p3
-                Caroline "I was thinking that tonight I would try and get you off with just my mouth."
+                Caroline "I was thinking that tonight, I would try and get you off with just my mouth."
                 MC "Sounds fun! Do you think you’re up to it though?"
-                Caroline "Oh please, if anyone isn’t going to be “up to it”, it’ll be you. I’ll have you creaming in my mouth in no time at all."
+                Caroline "Oh please. If anyone isn’t going to be “up to it”, it’ll be you. I’ll have you creaming in my mouth in no time at all."
                 MC "It sounds to me like someone is waaaay too confident!"
                 Caroline "Oh yeah? I bet you won’t last three minutes."
                 MC "You’re on!"
@@ -1062,10 +1084,12 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_blow_p4
                 Caroline "*Lick*"
+                scene CR4_love_blow_p4anim with dissolve
                 MC "Ahh…"
 
                 scene CR4_love_blow_p5
                 Caroline "*Lick Lick*"
+                scene CR4_love_blow_p5anim
                 MC "Mmm… fuck…"
                 Caroline "*Lick*"
 
@@ -1097,7 +1121,7 @@ label CR4_love_hotel_lab2:
                 scene CR4_love_blow_p11
                 Caroline "I make that twenty seconds so far. Didn’t lose count, did you?"
                 MC "No, not at all. Haha, that sounds about right."
-                Caroline "Ready for the main event then? As I promised, absolutely no hands."
+                Caroline "Ready for the main event, then? As I promised, absolutely no hands."
 
                 scene CR4_love_blow_p12
                 Caroline "*Shluurrrp*"
@@ -1111,18 +1135,20 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_blow_p14
                 Caroline "*Mpppf!* *GAG*"
+                scene CR4_love_blow_p14anim
                 MC "Ohhh! Fuck, yes! Just like that! Ahh…"
+                scene CR4_love_blow_p14anim2
                 Caroline "(One minute down, two to go. Time to up my game!)"
 
                 scene CR4_love_blow_p15
                 MC "*Pant*"
                 Caroline "([player_name] has started breathing pretty heavily now! I’ve got him on the ropes!)"
-                Caroline "(He’ll be shooting his hot cum into my mouth any second now!)"
+                Caroline "(He’ll be shooting his hot cum into my mouth, any second now!)"
 
                 scene CR4_love_blow_p16
                 Caroline "Mmm…"
                 MC "Ohh..."
-                MC "(When she moans like that I can feel intense little vibrations travelling down my shaft! She must be doing that on purpose!)"
+                MC "(When she moans like that, I can feel intense little vibrations travelling down my shaft! She must be doing that on purpose!)"
 
                 scene CR4_love_blow_p17
                 Caroline "*Suck Suck*"
@@ -1130,9 +1156,13 @@ label CR4_love_hotel_lab2:
                 Caroline "*Shluuurrrrp*"
 
                 scene CR4_love_blow_p18
-                Caroline "(Let’s see if he enjoys me rubbing his glans against the side of me cheek.)"
+                Caroline "(Let’s see if he enjoys me rubbing his glans against the side of my cheek.)"
+                scene CR4_love_blow_p18anim
                 MC "Ohhh… Keep going! That’s so good!"
+                scene CR4_love_blow_p18anim2
                 Caroline "*Suck Suuuuucccck*"
+                scene CR4_love_blow_p18anim3
+                Caroline "*Shluuurrrrp*"
 
                 scene CR4_love_blow_p19
                 MC "Hnnng…."
@@ -1160,7 +1190,7 @@ label CR4_love_hotel_lab2:
                 scene CR4_love_blow_p22 with dissolve
 
                 Caroline "MPFPFF!!! *GAG*"
-                Caroline "(Oh wow! There really was a LOT of cum! It’s filling up my mouth!)"
+                Caroline "(Oh wow! There really was A LOT of cum! It’s filling up my mouth!)"
 
                 scene CR4_love_blow_p23
                 Caroline "*Gulp Gulp*"
@@ -1183,7 +1213,7 @@ label CR4_love_hotel_lab2:
                 scene CR4_love_tits_p2
                 Caroline "How does that feel? Are you comfy?"
                 MC "Oh yeah, that’s great…"
-                MC "(Her breasts are so warm wrapped around my cock.)"
+                MC "(Her breasts are so warm, wrapped around my cock.)"
 
                 scene CR4_love_tits_p3
                 Caroline "Hehe, you have such a cute expression on your face. You look like you’re really enjoying it when I bounce up and down like this."
@@ -1191,6 +1221,7 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_tits_p4
                 MC "Mmm! Just like that…"
+                scene CR4_love_tits_p4anim
                 Caroline "Do you want me to speed up?"
                 MC "No, it’s perfect just like that. Ahh…"
 
@@ -1206,11 +1237,12 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_tits_p7
                 MC "Uh, yes please!"
+                scene CR4_love_tits_p7anim
                 MC "Ohh… Fuck…"
 
                 scene CR4_love_tits_p8
                 MC "Ahh…"
-                MC "(Holy fuck this feels incredible. I love how good she is with her breasts!)"
+                MC "(Holy fuck, this feels incredible. I love how good she is with her breasts!)"
                 Caroline "Would you like to hold my tits while you fuck them?"
 
                 scene CR4_love_tits_p9
@@ -1220,11 +1252,13 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_tits_p10
                 MC "Ohh… Fuck…"
+                scene CR4_love_tits_p10anim
                 MC "I think I’m gonna blow my load soon!"
+                scene CR4_love_tits_p10anim2
                 Caroline "I want you to cum over my tits, [player_name]."
 
                 scene CR4_love_tits_p11
-                Caroline "I want to feel your hot, sticky seed coat my boobs."
+                Caroline "I want to feel your hot sticky seed, coat my boobs."
                 Caroline "Can you do that for me?"
                 MC "Y-Yes, hnnnng… Mmm!"
 
@@ -1234,7 +1268,8 @@ label CR4_love_hotel_lab2:
 
                 scene CR4_love_tits_p13
                 MC "I’m cumming! Hnnnnggg! Ugh!"
-
+                scene CR4_love_tits_p13anim
+                MC "Y-Yes, hnnnng… Mmm!"
                 scene CR4_love_tits_p14
                 MC "Ohhh! Fuck! Aaarrrghhh!"
 
@@ -1246,21 +1281,21 @@ label CR4_love_hotel_lab2:
                 $ renpy.pause(0.7, hard = True)
                 scene CR4_love_tits_p14a with dissolve
 
-                Caroline "Oh wow! That’s a LOT of cum!"
+                Caroline "Oh wow! That’s A LOT of cum!"
                 MC "*Pant Pant* Thanks, Caroline… That was… *Pant* incredible..."
-                Caroline "Well, now that we’ve got that out of the way you should last MUCH longer during the main event!"
-                Caroline "At least, I hope you will - I plan to fuck you a LOT tonight."
+                Caroline "Well, now that we’ve got that out of the way, you should last MUCH longer during the main event!"
+                Caroline "At least, I hope you will - I plan to fuck you A LOT tonight."
 
                 jump CR4_love_hotel_lab3
 
 label CR4_love_hotel_lab3:
     scene CR4_love_hotel_p47
     Caroline "How about you and me take a bath together before we head to bed?"
-    MC "Sure, sounds good to me. Want me to go run the hot water?"
+    MC "Sure1 Sounds good to me. Want me to go run the hot water?"
 
     scene CR4_love_hotel_p48
     Caroline "That would be lovely. I’ll just freshen up here and I’ll join you in a couple of minutes. Okay?"
-    MC "Perfect, see you soon."
+    MC "Perfect. See you soon."
 
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
@@ -1271,10 +1306,10 @@ label CR4_love_hotel_lab3:
 label CR4_love_hotel_lab4:
     if CR4_we == 3:
         $ clickable = False
-        show screen CR4_love_hotel_map1_scr
+        show screen CR4_love_hotel_map2_scr
         MC "I have to prepare the bath."
         $ clickable = True
-        hide screen CR4_love_hotel_map1_scr
+        hide screen CR4_love_hotel_map2_scr
         jump CR4_love_hotel_map1
     else:
         hide screen week_day_viewer
@@ -1293,8 +1328,8 @@ label CR4_love_hotel_lab4:
         MC "(Oh, that’s good…)"
 
         scene CR4_love_bath_p3
-        MC "(It feels so much larger than the bath I have back home.)"
-        MC "(Whenever I move out and get a home of my own I’d love to get one of those large square jacuzzi baths. The ones with the water jets.)"
+        MC "(It feels so much larger than the bath we have back home.)"
+        MC "(Whenever I move out and get a home of my own, I’d love to get one of those large, square jacuzzi baths. The ones with the water jets.)"
         MC "(That’d be the life…)"
 
         scene CR4_love_bath_p4
@@ -1310,12 +1345,12 @@ label CR4_love_hotel_lab4:
         MC "Let’s skip the ice then. Haha!"
 
         scene CR4_love_bath_p6
-        MC "Where’d you get a brandy by the way?"
+        MC "Where’d you get brandy, by the way?"
         Caroline "Compliments of booking a room with this hotel. It’s a nice place to stay!"
         MC "It really is!"
 
         scene CR4_love_bath_p7
-        MC "That’s a LOT of brandy… are you sure you’re supposed to fill the glass up that much?"
+        MC "That’s A LOT of brandy… Are you sure you’re supposed to fill the glass up that much?"
         Caroline "I mean, it’s just like a strong wine, isn’t it?"
         MC "I think so?"
 
@@ -1327,11 +1362,11 @@ label CR4_love_hotel_lab4:
         scene CR4_love_bath_p9
         MC "Absolutely perfect. You’ll love it."
         Caroline "Mmm, you’re right. That’s really warm!"
-        Caroline "Shift your legs a bit and I’ll squeeze in too."
+        Caroline "Shift your legs a bit, and I’ll squeeze in too."
 
         scene CR4_love_bath_p10
         Caroline "Ohh… That’s nice."
-        MC "Thanks for pouring me the drink, I wasn’t expecting that."
+        MC "Thanks for pouring me the drink. I wasn’t expecting that."
         Caroline "Come on, it’s hardly a romantic bath without a drink to relax with."
 
         scene CR4_love_bath_p11
@@ -1352,12 +1387,12 @@ label CR4_love_hotel_lab4:
         scene CR4_love_bath_p14
         Caroline "I know where you’re looking at."
         MC "Haha, caught me?"
-        Caroline "Please, it wasn’t hard to notice. Your eyes were walking their way all over my body."
+        Caroline "Please. It wasn’t hard to notice. Your eyes were walking their way all over my body."
         MC "Can you blame me?"
         Caroline "Hehe, not at all."
 
         scene CR4_love_bath_p15
-        Caroline "Umm… During that toast. You said a “long and happy relationship.”"
+        Caroline "Umm… During that toast. You said a “long and happy relationship”."
         MC "Yeah, I did."
         Caroline "How long do you think we’ll be together?"
         MC "As many years as my heart can give you."
@@ -1378,7 +1413,7 @@ label CR4_love_hotel_lab4:
 
         scene CR4_love_bath_p19
         Caroline "Say, this kind of conversation is best kept for bed. How about we spice things up a bit before they get too heavy?"
-        MC "Sure, what are you thinking of?"
+        MC "Sure. What are you thinking of?"
         Caroline "Hmm…"
 
         $ renpy.music.stop(channel="music1", fadeout=1)
@@ -1387,7 +1422,7 @@ label CR4_love_hotel_lab4:
         scene CR4_love_bath_p20
         Caroline "I want to watch you play with yourself for me."
         MC "Really?"
-        Caroline "Yeah, just reach under the water and-"
+        Caroline "Yeah. Just reach under the water and-"
         Caroline "Mmm, exactly like that…"
         MC "Ah..."
 
@@ -1427,7 +1462,7 @@ label CR4_love_hotel_lab4:
 
                 MC "Would you be able to help me finish off, Caroline?"
                 Caroline "Hehe, sure. Would you like me to use my mouth?"
-                MC "Can you try your feet for a change?"
+                MC "Can you try your feet, for a change?"
 
                 scene CR4_love_foot_p1
                 Caroline "My feet?"
@@ -1451,16 +1486,18 @@ label CR4_love_hotel_lab4:
                 scene CR4_love_foot_p5
                 Caroline "I’ll keep stroking my feet up and down your long, hard cock."
                 MC "Mmm, just like that, Caroline. Ahh…"
+                scene CR4_love_foot_p5anim
                 Caroline "(I love how stiff his cock feels under the soles of my feet.)"
 
                 scene CR4_love_foot_p6
                 Caroline "Do you enjoy it when I rub the tip of your cock with my toes?"
+                scene CR4_love_foot_p6anim
                 MC "Ohh… It’s amazing. Mmm!"
-                Caroline "That’s it, keep moaning for me."
+                Caroline "That’s it. Keep moaning for me."
 
                 scene CR4_love_foot_p7
                 MC "Ahhh…"
-                Caroline "(It seems he’s very sensitive when I do this around the tip! Perhaps I should focus more on that area.)"
+                Caroline "(It seems he’s very sensitive when I do THIS around the tip! Perhaps I should focus more on that area.)"
 
                 scene CR4_love_foot_p8
                 Caroline "(I don’t know why, but I feel so… powerful when I do this to [player_name].)"
@@ -1476,7 +1513,7 @@ label CR4_love_hotel_lab4:
                 MC "Fuck! Mmm! Ahh"
 
                 scene CR4_love_foot_p11
-                Caroline "That’s it, let me milk your hard cock with her feet."
+                Caroline "That’s it. Let me milk your hard cock with my feet."
                 MC "Ahh - I’m cumnming!"
                 Caroline "Cum for me!"
 
@@ -1543,7 +1580,7 @@ label CR4_love_hotel_lab5:
         MC "Your boobs look great in that!"
 
         scene CR4_love_bed_p4
-        Caroline "You really think so? How about I come a bit closer so you can properly check them out."
+        Caroline "You really think so? How about I come a bit closer, so you can properly check them out."
         MC "Mmm, I’d like that!"
         MC "You get hotter every time I see you, Caroline. You know that?"
 
@@ -1576,7 +1613,8 @@ label CR4_love_hotel_lab5:
         Caroline "Mmm!"
 
         scene CR4_love_bed_p11
-        MC "(This is going to be awesome! I can’t wait to fuck Caroline all night long!)"
+        MC "(This is going to be awesome! I can’t wait to fuck Caroline, all night long!)"
+        scene CR4_love_bed_p11anim with dissolve
         MC "(I wish this night could just last forever; or even loop on repeat. That would be heaven on earth.)"
 
         scene CR4_love_bed_p12
@@ -1594,7 +1632,7 @@ label CR4_love_hotel_lab5:
 
         scene CR4_love_bed_p15
         Caroline "(Wow, he’s so massive! I’m so excited to feel him inside my pussy again tonight.)"
-        Caroline "(Our first time in the lake was unbelievable. I hadn’t felt that much pleasure in my life before.)"
+        Caroline "(Our first time at the lake was unbelievable. I hadn’t felt that much pleasure in my life before.)"
 
         scene CR4_love_bed_p16
         Caroline "Hello, [player_name] Junior, you’re about to get licked and sucked so, so hard…"
@@ -1642,7 +1680,7 @@ label CR4_love_hotel_lab5:
         scene CR4_love_bed_p25
         Caroline "*Suck* *Slurp*"
         Caroline "(I should probably stop now and make sure he has at least SOME cum left!)"
-        Caroline "(I would like to get a nice, warm creampie at the end of this after all!)"
+        Caroline "(I would like to get a nice warm creampie at the end of this, after all!)"
 
         scene CR4_love_bed_p26
         MC "Fuck… *Pant* That was amazing."
@@ -1664,7 +1702,7 @@ label CR4_love_hotel_lab5:
         Caroline "Don’t worry about being gentle - I’m already soaking wet. I’ve been waiting for this since dinner!"
 
         scene CR4_love_bed_p30
-        MC "Okay, but if it hurts at all please let me know. I want you to enjoy this too."
+        MC "Okay, but if it hurts at all, please let me know. I want you to enjoy this too."
         Caroline "Relax, I’ll be fine. Okay?"
         MC "Alright. (This is going to be amazing!)"
 
@@ -1675,7 +1713,7 @@ label CR4_love_hotel_lab5:
 
         scene CR4_love_bed_p32
         MC "I’m coming, Caroline. Just give me a minute."
-        Caroline "(I’m so fucking horny right now. I feel like I could cum the second he penetrates my pussy!)"
+        Caroline "(I’m so fucking horny right now. I feel like I could cum, the second he penetrates my pussy!)"
 
         scene CR4_love_bed_p33
         Caroline "C’mon, [player_name]. Don’t keep a girl waiting!"
@@ -1684,17 +1722,20 @@ label CR4_love_hotel_lab5:
 
         scene CR4_love_bed_p34
         Caroline "Oh God… Yes…"
+        scene CR4_love_bed_p33anim
         MC "(She wasn’t lying when she said she was wet! Her pussy is drenched with her juices right now!)"
         MC "Ah…"
 
         scene CR4_love_bed_p35
-        Caroline "OH MY GOD! YES! AHHH!!"
+        Caroline "Oh, my God! YES! AHHH!!"
         MC "Mmm! Fuck… That’s good."
         Caroline "(His cock is so thick! It feels so good inside my pussy!)"
 
         scene CR4_love_bed_p36
         Caroline "Yes, [player_name]! Fill me up! Ahh! Mmm!"
+        scene CR4_love_bed_p36anim
         Caroline "Go deeper! I want to feel ALL of you inside me!"
+        scene CR4_love_bed_p36anim2 with dissolve
         MC "Hnng… "
 
         scene CR4_love_bed_p37
@@ -1713,7 +1754,7 @@ label CR4_love_hotel_lab5:
         MC "Oh! God! Mmm!"
 
         scene CR4_love_bed_p40
-        MC "Your pussy is awesome Caroline! It feels so good plunging my dick deep into you!"
+        MC "Your pussy is awesome, Caroline! It feels so good, plunging my dick deep into you!"
         Caroline "Mmm! Don’t stop!"
         MC "Ahh…"
 
@@ -1728,6 +1769,7 @@ label CR4_love_hotel_lab5:
         scene CR4_love_bed_p43
         Caroline "[player_name]… *Pant* S-Soooo g-good! Ahh! AHH! *GASP*"
         MC "(I can feel her pussy walls clamping down around my cock. She must have already climaxed a couple of times!)"
+        scene CR4_love_bed_p43anim
         Caroline "AHHHH! I’M CUMMING AGAIN!"
 
         scene CR4_love_bed_p44
@@ -1751,7 +1793,7 @@ label CR4_love_hotel_lab5:
 
         scene CR4_love_bed_p48
         Caroline "D-Do you want to *pant* swap positions?"
-        MC "Ugh, sure! What are you thinking?"
+        MC "Ugh, sure! What were you thinking?"
         Caroline "Let’s try… this!"
 
         scene CR4_love_bed_p49
@@ -1762,7 +1804,7 @@ label CR4_love_hotel_lab5:
         scene CR4_love_bed_p50
         Caroline "Pound me really hard, [player_name]. I want to feel you slam my pussy and make me cum!"
         MC "(Damn, she’s got a really nice asshole. I wish I could fuck that too right now.)"
-        MC "(I should probably stick to her cunt for the time being.)"
+        MC "(I should probably stick to her cunt, for the time being.)"
 
         scene CR4_love_bed_p51
         MC "I’ll go as hard as I can, Caroline."
@@ -1779,10 +1821,10 @@ label CR4_love_hotel_lab5:
         scene CR4_love_bed_p54
         Caroline "Ah! Ahh! Yes! Fuck me, [player_name]!"
         MC "Ahh… Ohhh... "
-        MC "(Her pussy feels even tighter with her legs spread like that; it’s like her vagina is sucking on my dick every time I try to pull out!)"
+        MC "(Her pussy feels even tighter, with her legs spread like that; it’s like her vagina is sucking on my dick every time I try to pull out!)"
 
         scene CR4_love_bed_p55
-        Caroline "Oooohhhh yeeeaaahhh! Harder [player_name]! Fuck me harder!"
+        Caroline "Oooohhhh yeeeaaahhh! Harder, [player_name]! Fuck me harder!"
         MC "Ugh! Ahh!"
         MC "(Her legs are trembling now! She’s clearly loving this!)"
 
@@ -1797,7 +1839,7 @@ label CR4_love_hotel_lab5:
 
                 scene CR4_love_bed_p57
                 MC "Hnnng! I’m cumming, Caroline!"
-                Caroline "Oh yes! Fill me up, fill me up [player_name]! Ahhh!"
+                Caroline "Oh yes! Fill me up! Fill me up, [player_name]! Ahhh!"
                 MC "UGHHH! AHHHH!!"
                 scene white with dissolve
                 $ renpy.pause(0.7, hard = True)
@@ -1806,7 +1848,7 @@ label CR4_love_hotel_lab5:
                 scene white with dissolve
                 $ renpy.pause(0.7, hard = True)
                 scene CR4_love_bed_p57 with dissolve
-                Caroline "(I can feel his hot cum flooding inside me!)"
+                Caroline "(I can feel his hot cum, flooding inside me!)"
 
                 jump CR4_love_hotel_lab6
             "Pull out and blow your load over your Caroline’s back.":
@@ -1823,20 +1865,20 @@ label CR4_love_hotel_lab5:
                 scene white with dissolve
                 $ renpy.pause(0.7, hard = True)
                 scene CR4_love_bed_p58 with dissolve
-                Caroline "(Aww, I wish he’d cum inside me. Oh well, there’s be other opportunities tonight.)"
+                Caroline "(Aww, I wish he would have cum inside me. Oh well, there’ll be other opportunities tonight.)"
                 jump CR4_love_hotel_lab6
 
 label CR4_love_hotel_lab6:
     scene CR4_love_bed_p59
     MC "*Pant* That was… really good work, Caroline."
     Caroline "You weren’t half bad yourself! That was REALLY good sex…"
-    Caroline "Like seriously mindblowing!"
+    Caroline "Like, seriously mindblowing!"
 
     scene CR4_love_bed_p60
-    MC "Haha, you were shaking and trembling so much. I thought there was an earthquake for a second."
-    Caroline "Haha! Says the guy who was moaning so loudly the entire hotel could hear him!"
+    MC "Haha, you were shaking and trembling so much, I thought there was an earthquake for a second."
+    Caroline "Haha! Says the guy who was moaning so loudly; the entire hotel could hear him!"
     MC "You’re not seriously trying to blame that on me. Did you hear how loud you were?"
-    Caroline "Haha! I couldn’t hear myself over your grunting!"
+    Caroline "Haha! I couldn’t hear myself, over your grunting!"
 
     scene CR4_love_bed_p61
     Caroline "Say, do you think I’ll be able to get another round later on?"
@@ -1870,23 +1912,23 @@ label CR4_love_hotel_lab6:
 
     scene CR4_love_bed_p67
     MC "He’s probably going to need at least another twenty minutes to get hard."
-    MC "Do you want to cuddle or nap for a little bit while we wait?"
+    MC "Do you want to cuddle or nap for a little bit, while we wait?"
     Caroline "*Glug*"
 
     scene CR4_love_bed_p68
     Caroline "Does the thought of plunging your naked cock into my soaking wet pussy not get you hard?"
-    Caroline "If it doesn’t, then perhaps the thought of ejaculating balls deep inside me might."
-    Caroline "Think about yourself grabbing my ass as you bury your shaft as deep as it will go. Imagine the sensation of my pussy milking your cock for every last drop of your cum."
+    Caroline "If it doesn’t, then perhaps the thought of ejaculating, balls-deep, inside me might."
+    Caroline "Think about yourself grabbing my ass as you bury your shaft as deep as it will go. Imagine the sensation of my pussy milking your cock of every last drop of your cum."
 
     scene CR4_love_bed_p69
     Caroline "Well… that did the trick!"
     MC "It certainly did. Haha!"
-    MC "Shall we get things started then?"
+    MC "Shall we get things started, then?"
     Caroline "Let me just make sure he STAYS hard first."
 
     scene CR4_love_bed_p70
     Caroline "*Lick Lick*"
-    MC "Mmm, fuck… You’re so good at that Caroline."
+    MC "Mmm, fuck… You’re so good at that, Caroline."
 
     scene CR4_love_bed_p71
     Caroline "Mmm… *Lick*"
@@ -1957,7 +1999,7 @@ label CR4_love_hotel_lab6:
             Caroline "AHHH!! Mmm!"
 
             scene CR4_love_bed_p85
-            Caroline "Oh my God, you’re so thick! Ah…"
+            Caroline "Oh, my God, you’re so thick! Ah…"
             Caroline "Wow, you're - mmm- stretching my pussy to the limit! *Gasp*"
 
             scene CR4_love_bed_p86
@@ -2027,7 +2069,7 @@ label CR4_love_hotel_lab6:
                     Caroline "Really… warm. I love how it feels when it blasts up against my cervix. It’s so hot."
 
                     jump CR4_love_hotel_lab7
-                "Pull out and cum over her crotch.":
+                "Pull out and cum over her ass.":
 
                     scene CR4_love_bed_p91
                     MC "I’m going to pull out and cum over your ass."
@@ -2051,7 +2093,7 @@ label CR4_love_hotel_lab6:
             scene CR4_love_bed_p80a
             MC "I’m going to fuck you in the ass, Caroline."
             Caroline "Okay, we probably won’t need lube. Your cock should be wet enough."
-            Caroline "Just go slow at first until you get it in!"
+            Caroline "Just go slow at first, until you get it in!"
 
             scene CR4_love_bed_p81a
             Caroline "OHHH!"
@@ -2115,11 +2157,11 @@ label CR4_love_hotel_lab7:
 
     scene CR4_love_bed_p103
     Caroline "That was… absolutely phenomenal…"
-    Caroline "I’d been imagining what this day might be like for a long time now."
+    Caroline "I’d been imagining what this day might be like, for a long time now."
     Caroline "It had always been amazing when I dreamt about it as I slept."
 
     scene CR4_love_bed_p104
-    Caroline "But I always knew deep down that reality wouldn’t live up to my dreams and fantasies."
+    Caroline "But I always knew, deep down, that reality wouldn’t live up to my dreams and fantasies."
     MC "Did tonight at least come close to how you imagined it would be?"
 
     scene CR4_love_bed_p105
@@ -2134,7 +2176,7 @@ label CR4_love_hotel_lab7:
 
     scene CR4_love_bed_p107
     MC "It was like that for me too."
-    MC "And it’ll be like this every day for the rest of our lives together Caroline. I promise."
+    MC "And it’ll be like this every day for the rest of our lives together, Caroline. I promise."
     Caroline "I love you, [player_name]."
 
     scene CR4_love_bed_p108
@@ -2160,17 +2202,17 @@ label CR4_love_hotel_lab7:
     scene CR4_love_bed_p111
     MC "Hmm?"
     MC "Caroline?"
-    Caroline "Hey sleepyhead, you’re finally awake. It doesn't surprise me you slept in late. You kinda used up most of your energy last night."
+    Caroline "Hey, sleepyhead. You’re finally awake. It doesn't surprise me you slept in late. You kinda used up most of your energy last night."
 
     scene CR4_love_bed_p112
-    MC "Mmm Morning… Heh, I guess I did"
+    MC "Mmm... Morning… Heh, I guess I did"
     MC "How’d you sleep?"
-    Caroline "Like a baby. I felt so… safe lying beside you."
+    Caroline "Like a baby. I felt so… safe, lying beside you."
     Caroline "I really wish… It’s a shame the rest of the family can’t know about us being together."
     MC "Not yet. But someday."
 
     scene CR4_love_bed_p113
-    MC "Someday soon you’ll be able to feel the way you felt last night for the rest of your life. I’m here til the very end, Caroline."
+    MC "Someday soon you’ll be able to feel the way you felt last night, for the rest of your life. I’m here till the very end, Caroline."
     Caroline "I know…"
     Caroline "...and it’s the happy ending I’ve always wanted."
     $ Caroline_points = 5

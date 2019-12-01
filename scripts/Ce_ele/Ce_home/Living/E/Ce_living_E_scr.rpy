@@ -22,6 +22,7 @@ screen Ce_living_E_scr:
 
 screen Ce_living_E_painting:
     zorder 102
+    modal True
     add "/images/Ce_ele/Ce_home/Living/E/2.jpg"
     imagebutton:
         xpos 0

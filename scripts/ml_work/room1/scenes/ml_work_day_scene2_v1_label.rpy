@@ -44,6 +44,10 @@ label ml_work_day_scene2_v1_label:
     Mom "Is $25 okay for you again?"
     MC "Sure. No problem."
     $ renpy.music.stop(channel="music1", fadeout=1)
+
+    if persistent.skip_mg == True:
+        jump ml_work_day_scene2_v1_label_after_work
+
     $ renpy.music.play('/sfx/Malt Shop Bop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump work_minigame_room2_label

@@ -17,5 +17,6 @@ label splashscreen:
     show splash3 with dissolve
     $renpy.pause(2, hard = True)
     hide splash3 with dissolve
-
-    return
+    $ persistent.isAndroid = False
+    if not renpy.variant("pc"):
+        $ persistent.isAndroid = True

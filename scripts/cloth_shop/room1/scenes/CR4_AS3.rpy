@@ -89,7 +89,7 @@ label CR4_AS3_label:
     if CR4_AS3 == 2:
 
         scene CR4_AS3_p1 with dissolve
-        MC "Hey Caroline, what’s up?"
+        MC "Hey, Caroline. What’s up?"
         Caroline "Oh, hey."
         MC "Jeez, you sound exhausted!"
 
@@ -104,12 +104,12 @@ label CR4_AS3_label:
         Caroline "Honestly, just man the till. Serve any customers you see."
 
         scene CR4_AS3_p4
-        Caroline "I’ll pop out the back and start packing everything up. If I’m fast enough I MIGHT be able to hit the shipping targets!"
+        Caroline "I’ll pop out the back and start packing everything up. If I’m fast enough, I MIGHT be able to hit the shipping targets!"
         Caroline "What do you say? Fancy helping me out?"
         MC "Sure, why not?"
 
         scene CR4_AS3_p5
-        Caroline "Thanks, you’re a lifesaver!"
+        Caroline "Thanks. You’re a lifesaver!"
         Caroline "I’ll be back at the end of the day. It isn’t too difficult - just don’t leave the till unattended, and if you make a large sale, make sure to lock up the money safely."
         MC "Got it!"
 
@@ -158,21 +158,21 @@ label CR4_AS3_label:
     if CR4_AS3 == 4:
 
         scene CR4_AS3_p3
-        Caroline "Ahh, good to see you again! Just one more day and I should catch up on all my shipping!"
+        Caroline "Ahh, good to see you again! Just one more day, and I should catch up on all my shipping!"
         MC "Please… Please don’t make me work the till…"
 
         scene CR4_AS3_p1
         Caroline "You’re overreacting! "
-        MC "I’ll do anything! I’ll… translate one of those Japanese hentai games you like into English!"
-        Caroline "Please, you don’t even speak Japanese; and I’m not going to take some crappy machine translation!"
+        MC "I’ll do anything! I’ll… translate one of those Japanese hentai games you like, into English!"
+        Caroline "Please. You don’t even speak Japanese; and I’m not going to take some crappy machine translation!"
 
         scene CR4_AS3_p2
-        Caroline "Besides, how do you know I like to play those games?"
-        Caroline "Where you on my laptop?!"
+        Caroline "Besides - how do you know I like to play those games?"
+        Caroline "Were you on my laptop?!"
 
         scene CR4_AS3_p4
         MC "Let’s just back things up! Fine, I’ll work the till!"
-        Caroline "Great, see you in a while."
+        Caroline "Great! See you in a while."
 
         scene CR4_AS3_p6
         MC "You can do this, [player_name]. It’s a battle of wills. You against the shop."
@@ -185,8 +185,8 @@ label CR4_AS3_label:
         scene CR4_AS3_p7
         MC "Sir. You don’t have a receipt; and that item isn’t even eligible."
         Customer "But the sign clearly says I can return any purchase within twenty four hours."
-        MC "The sign says “CLOTHIING.” What you’ve got is a fleshlight. And I can see it has been USED!"
-        Customer "This is awful customer service; just wait til I leave you a bad review online!"
+        MC "The sign says “CLOTHIING”. What you’ve got is a fleshlight. And I can see it has been USED!"
+        Customer "This is awful customer service. Just wait til I leave you a bad review online!"
         "***Three hours pass; each one concentrated with so much pure boredom that the US government has sanctioned it for use in enhanced interrogation in Guantanamo Bay.***"
 
         scene CR4_AS3_p8
@@ -210,22 +210,22 @@ label CR4_AS3_ex_label:
     MC "(Aww, shit. This douchebag again.)"
 
     scene CR4_AS3_ex_p2
-    Charles "Hey, don’t just ignore me you little shit!"
-    MC "Caroline isn’t here Charles, you can fuck right off."
+    Charles "Hey, don’t just ignore me, you little shit!"
+    MC "Caroline isn’t here, Charles. You can fuck right off."
 
     scene CR4_AS3_ex_p3
     Charles "I’m calling bullshit. She’s never out of this crappy little store."
-    Charles "I’m here for the goddamn money. Now where is she?"
+    Charles "I’m here for the goddamn money. Now, where is she?"
     MC "I told you, buddy. She’s not here. Now scram!"
 
     scene CR4_AS3_ex_p4
-    Charles "If she’s not around then I’ll just have to get the cash from the till then."
+    Charles "If she’s not around, then I’ll just have to get the cash from the till, then."
     MC "Yeah, I don’t think there’s actually that much cash in the till right now. Let me check for you."
     MC "Hmm, no cash… oh wait! I did find something for you here."
 
     scene CR4_AS3_ex_p5
     MC "Is this yours? Because you’re more than welcome to have it."
-    Charles "That’s it - I’ve had it with you. Get out from behind that fucking desk you little shit!"
+    Charles "That’s it - I’ve had it with you. Get out from behind that fucking desk, you little shit!"
 
     scene CR4_AS3_ex_p6
     MC "WHOA!"
@@ -233,13 +233,13 @@ label CR4_AS3_ex_label:
     Charles "Get out here!"
 
     scene CR4_AS3_ex_p7
-    Charles "Okay you fucking little twerp. Where’s the money?"
+    Charles "Okay, you fucking little twerp. Where’s the money?"
     MC "There is no fucking money, Charles."
     Charles "I know Caroline is loaded. I know this place is fucking rolling in dough. So where does the bitch keep it?"
 
     scene CR4_AS3_ex_p8
     MC "Charles, you need to back off before you do something stupid that you’ll regret."
-    Charles "I’m not gonna regret kicking your ass. I’ll tell you that much."
+    Charles "I’m not gonna regret kicking your ass - I’ll tell you that much."
 
     scene CR4_AS3_ex_p9
     Charles "Now, last time. Where is the fucking money?!"
@@ -309,8 +309,8 @@ label CR4_AS3_ex_con1:
 
     scene CR4_AS3_ex_p18
     Caroline "Let him go before I call the cops on your ass."
-    Charles "If you reach for a phone I’ll pummel his fucking face. You won’t even recognise him by the time I’m done."
-    Charles "Just give me the money and I’ll-"
+    Charles "If you reach for a phone, I’ll pummel his fucking face. You won’t even recognise him by the time I’m done."
+    Charles "Just give me the money, and I’ll-"
 
     scene CR4_AS3_ex_p19
     "*WHACK*"
@@ -335,7 +335,7 @@ label CR4_AS3_ex_con1:
 
     scene CR4_AS3_ex_p23
     Charles "You… owe me that fucking… money."
-    Charles "Jesus Christ this hurts!!!"
+    Charles "Jesus Christ, this hurts!!!"
     Caroline "I owe you nothing, Charles. Get yourself a fucking job."
     Charles "Grrr…. If you won’t give me cash…"
 
@@ -345,8 +345,8 @@ label CR4_AS3_ex_con1:
     Charles "Got it!"
 
     scene CR4_AS3_ex_p25
-    Charles "Ahahaha, so long fuckers!"
-    Caroline "No, come back!"
+    Charles "Ahahaha! So long fuckers!"
+    Caroline "No! Come back!"
 
     scene CR4_AS3_ex_p26
     Caroline "Wait! I can give you cash! COME BACK!"
@@ -358,8 +358,8 @@ label CR4_AS3_ex_con1:
     Caroline "Don’t… you can’t beat him in a fight. You’ll just get yourself killed."
 
     scene CR4_AS3_ex_p28
-    MC "What am I supposed to do then? I can’t just let him get away!"
-    Caroline "We’ll think of something later… right now, just stay here."
+    MC "What am I supposed to do, then? I can’t just let him get away!"
+    Caroline "We’ll think of something later… Right now, just stay here."
 
     scene CR4_AS3_ex_p29
     Caroline "...I can’t believe he actually took it."
@@ -380,7 +380,7 @@ label CR4_AS3_ex_con1:
     scene CR4_AS3_ex_p32
     MC "Hey, everything is going to be okay. I promise."
     Caroline "*Sob* He’s a monster… He knew how much it meant to me."
-    MC "(He must have known it was valuable too if he tried to steal it.)"
+    MC "(He must have known it was valuable too, if he tried to steal it.)"
 
     scene CR4_AS3_ex_p33
     MC "C’mon, we’ll think of something. We’ll find out where he lives and we’ll-"
@@ -388,13 +388,19 @@ label CR4_AS3_ex_con1:
     MC "But-"
 
     scene CR4_AS3_ex_p34
-    Caroline "He’ll use my granny’s necklace *Sob* to pay off his debts, and then…"
+    if persistent.incest_patch == True:
+        Caroline "He’ll use Granny’s necklace *Sob* to pay off his debts, and then…"
+    else:
+        Caroline "He’ll use my Granny’s necklace *Sob* to pay off his debts, and then…"
     Caroline "...then he’ll *Sniff* never hurt me again. Okay? *Sob* This is the end."
     MC "No, no, no… This isn’t how it’s going to end."
 
     scene CR4_AS3_ex_p35
     Caroline "Don’t go after him. Please."
-    Caroline "He’s a monster, just… stay away from him. He already took my gran’s necklace from me - I don’t want him taking you as well."
+    if persistent.incest_patch == True:
+        Caroline "He’s a monster. Just… stay away from him. He already took our gran’s necklace from me - I don’t want him taking you as well."
+    else:
+        Caroline "He’s a monster. Just… stay away from him. He already took my gran’s necklace from me - I don’t want him taking you as well."
 
     scene CR4_AS3_ex_p36
     MC "Maybe if we-"
@@ -407,7 +413,7 @@ label CR4_AS3_ex_con1:
 
     scene CR4_AS3_ex_p38
     Caroline "Then he’ll just be released and he’ll want revenge on me."
-    Caroline "He made my life a living hell the first time I tried to leave him. At this point… I just want him gone for good."
+    Caroline "He made my life a living hell, the first time I tried to leave him. At this point… I just want him gone for good."
 
     scene CR4_AS3_ex_p39
     Caroline "Don’t you ever go after him or that necklace. Do you promise?"
@@ -491,13 +497,16 @@ label CR4_AS3_ex_adress_lab:
         Caroline "Fair enough."
 
         scene CR4_AS4_p9
-        Caroline "Oh! You didn’t get the necklace did you?"
+        Caroline "Oh! You didn’t get the necklace, did you?"
         MC "Ye-"
-        Caroline "Wait, nevermind. The asshole had already sold it. Hadn’t he?"
+        Caroline "Wait, nevermind. The asshole already sold it, didn’t he?"
 
         scene CR4_AS4_p10
-        MC "(She didn’t even let me answer the question… I’ve got the pocket of my jeans right now.)"
-        Caroline "It was the last thing I had from granny..."
+        MC "(She didn’t even let me answer the question… I’ve got it in the pocket of my jeans right now.)"
+        if persistent.incest_patch == True:
+            Caroline "It was the last thing I had from Granny..."
+        else:
+            Caroline "It was the last thing I had from my Granny..."
         MC "(Right, I’ll give her the necklace now before she gets any more upset.)"
 
         scene CR4_AS4_p11
@@ -511,9 +520,9 @@ label CR4_AS3_ex_adress_lab:
         MC "Huh? Where?"
 
         scene CR4_AS4_p13
-        Caroline "Only the best restaurant in town! My treat for you helping me."
+        Caroline "Only the best restaurant in town! My treat, for you helping me."
         MC "(Hold on - this could actually be a GREAT way to surprise Caroline with the necklace! She won’t expect me to have it! I can give it to her during the meal!)"
-        MC "That sounds amazing, I’m looking forward to it!"
+        MC "That sounds amazing! I’m looking forward to it!"
         Caroline "I’ll see you there tonight!"
         $ CR4_AS4 = False
         $ CR4_AS3 = 8
@@ -548,7 +557,7 @@ label CR4_AS3_ex_adress_lab:
 
         scene CR4_AS3_ex_adress_p1 with dissolve
 
-        MC "Hey Caroline!"
+        MC "Hey, Caroline!"
         Caroline "Afternoon, [player_name]. What brings you in today? Just dropping by to visit your AMAZING girlfriend?"
         MC "Haha, I wish it was just that…"
 
@@ -556,7 +565,10 @@ label CR4_AS3_ex_adress_lab:
         Caroline "Is something wrong, [player_name]?"
         MC "I need Charles’s address."
         Caroline "What? Why on Earth would you want that?"
-        MC "I’m gonna kick his ass and get your grandma’s necklace back."
+        if persistent.incest_patch == True:
+            MC "I’m gonna kick his ass and get our grandma’s necklace back."
+        else:
+            MC "I’m gonna kick his ass and get your grandma’s necklace back."
 
         scene CR4_AS3_ex_adress_p7
         Caroline "Absolutely not."
@@ -568,7 +580,7 @@ label CR4_AS3_ex_adress_lab:
         Caroline "Fine..."
 
         scene CR4_AS3_ex_adress_p3
-        Caroline "But I’m only giving you his address if you accept two conditions."
+        Caroline "But I’m only giving you his address if you accept two conditions:"
         MC "What are they?"
         Caroline "Firstly, you’re NOT going there by yourself. I’m not risking you getting hurt over a silly bit of metal."
 
@@ -579,7 +591,7 @@ label CR4_AS3_ex_adress_lab:
 
         scene CR4_AS3_ex_adress_p5
         Caroline "That I’M coming with you."
-        MC "What?! I can bring someone else! Like dad, or a friend from school to back me up!"
+        MC "What?! I can bring someone else! Like Dad, or a friend from school to back me up!"
         Caroline "Nope, it’s going to be me."
         MC "(I guess I’ll have to lie to Caroline now. There’s no way I’m letting her near that creep again. If she ended up getting hurt I’d never forgive myself.)"
         MC "Fine, it’s a deal."

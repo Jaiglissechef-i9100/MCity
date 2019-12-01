@@ -73,6 +73,7 @@ screen Ce_corridor_N_scr:
 
 screen Ce_corridor_N_painting:
     zorder 102
+    modal True
     add "/images/Ce_ele/Ce_home/corridor/N/2.jpg"
     imagebutton:
         xpos 0

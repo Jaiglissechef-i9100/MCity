@@ -98,11 +98,16 @@ image CeR2_LS_p97 = "images/CeR2/LS/97.jpg"
 image CeR2_LS_p98 = "images/CeR2/LS/98.jpg"
 image CeR2_LS_p99 = "images/CeR2/LS/99.jpg"
 image CeR2_LS_p100 = "images/CeR2/LS/100.jpg"
+image CeR2_LS_p100anim = Movie(play="videos/06 Celia Weekend-1.webm", loop = True )
 image CeR2_LS_p101 = "images/CeR2/LS/101.jpg"
 image CeR2_LS_p102 = "images/CeR2/LS/102.jpg"
+image CeR2_LS_p102anim = Movie(play="videos/06 Celia Weekend-2.webm", loop = True )
 image CeR2_LS_p103 = "images/CeR2/LS/103.jpg"
+image CeR2_LS_p103anim = Movie(play="videos/06 Celia Weekend-4.webm", loop = True )
+image CeR2_LS_p106anim = Movie(play="videos/06 Celia Weekend-3.webm", loop = True )
 image CeR2_LS_p104 = "images/CeR2/LS/104.jpg"
 image CeR2_LS_p105 = "images/CeR2/LS/105.jpg"
+image CeR2_LS_p105anim = Movie(play="videos/06 Celia Weekend-5.webm", loop = True )
 image CeR2_LS_p106 = "images/CeR2/LS/106.jpg"
 image CeR2_LS_p107 = "images/CeR2/LS/107.jpg"
 image CeR2_LS_p108 = "images/CeR2/LS/108.jpg"
@@ -110,19 +115,25 @@ image CeR2_LS_p109 = "images/CeR2/LS/109.jpg"
 image CeR2_LS_p110 = "images/CeR2/LS/110.jpg"
 image CeR2_LS_p111 = "images/CeR2/LS/111.jpg"
 image CeR2_LS_p112 = "images/CeR2/LS/112.jpg"
+image CeR2_LS_p112anim = Movie(play="videos/06 Celia Weekend-6.webm", loop = True )
 image CeR2_LS_p113 = "images/CeR2/LS/113.jpg"
 image CeR2_LS_p114 = "images/CeR2/LS/114.jpg"
 image CeR2_LS_p115 = "images/CeR2/LS/115.jpg"
+image CeR2_LS_p115anim = Movie(play="videos/06 Celia Weekend-8.webm", loop = True )
 image CeR2_LS_p116 = "images/CeR2/LS/116.jpg"
+image CeR2_LS_p116anim = Movie(play="videos/06 Celia Weekend-7.webm", loop = True )
 image CeR2_LS_p117 = "images/CeR2/LS/117.jpg"
 image CeR2_LS_p118 = "images/CeR2/LS/118.jpg"
 image CeR2_LS_p119 = "images/CeR2/LS/119.jpg"
 image CeR2_LS_p120 = "images/CeR2/LS/120.jpg"
+image CeR2_LS_p120anim = Movie(play="videos/06 Celia Weekend-9.webm", loop = True )
 image CeR2_LS_p121 = "images/CeR2/LS/121.jpg"
 image CeR2_LS_p122 = "images/CeR2/LS/122.jpg"
 image CeR2_LS_p123 = "images/CeR2/LS/123.jpg"
 image CeR2_LS_p124 = "images/CeR2/LS/124.jpg"
+image CeR2_LS_p124anim = Movie(play="videos/06 Celia Weekend-10.webm", loop = True )
 image CeR2_LS_p125 = "images/CeR2/LS/125.jpg"
+image CeR2_LS_p125anim = Movie(play="videos/06 Celia Weekend-11.webm", loop = True )
 image CeR2_LS_p126 = "images/CeR2/LS/126.jpg"
 image CeR2_LS_p127 = "images/CeR2/LS/127.jpg"
 image CeR2_LS_p128 = "images/CeR2/LS/128.jpg"
@@ -178,7 +189,7 @@ label CeR2_LS_lab:
     scene CeR2_LS_p5
     MC "*Sigh* You implied it."
     Celia "No, eating out my pussy isn’t humiliating enough for a pathetic piece of shit like you."
-    MC "What the hell do you want me to do then?!"
+    MC "What the hell do you want me to do, then?!"
     scene CeR2_LS_p6
     Celia "I already told you. Get down on the floor."
     Celia "I want to see you on your hands and knees."
@@ -195,7 +206,7 @@ label CeR2_LS_lab:
     Celia "That’s much better. Good boy."
     MC "Are you happy now? When can I get back up?"
     scene CeR2_LS_p10
-    Celia "Not for a while yet, I haven’t had my fun yet!"
+    Celia "Not for a while. I haven’t had my fun yet!"
     MC "Fun? What do you mean?"
     Celia "Don’t move an inch."
     scene CeR2_LS_p11
@@ -206,7 +217,7 @@ label CeR2_LS_lab:
     MC "Grr…"
     MC "(Fuck, I can’t keep holding her like this forever. My arms are already beginning to hurt!)"
     scene CeR2_LS_p13
-    Celia "Haha, you really are pathetic. Aren’t you, [player_name]?"
+    Celia "Haha, you really are pathetic, aren’t you, [player_name]?"
     MC "..."
     Celia "The great blackmailer, reduced to nothing more than a pet."
     scene CeR2_LS_p14
@@ -266,7 +277,7 @@ label CeR2_LS_lab:
     scene CeR2_LS_p29
     MC "(I’ll have to be quick when I do this. I don’t want her getting suspicious.)"
     scene CeR2_LS_p30
-    MC "(I hope to God this little pill dissolves or this is all in vain!)"
+    MC "(I hope to God this little pill dissolves, or this is all in vain!)"
     MC "(Here goes nothing!)"
     scene CeR2_LS_p31
     "*Clink*"
@@ -368,8 +379,8 @@ label CeR2_LS_lab:
     MC "(Here we go. That’s the toy all charged up and ready to use!)"
     MC "(Time to give Celia the shock of her life!)"
     scene CeR2_LS_p57
-    MC "(Okay, I’ll just get her undressed first of all.)"
-    MC "(Once I get this bad boy inside her she won’t be able to contain her excitement!)"
+    MC "(Okay, I’ll just get her undressed, first of all.)"
+    MC "(Once I get this bad boy inside her, she won’t be able to contain her excitement!)"
     scene CeR2_LS_p58
     MC "(Easy does it… I don’t want to wake her up yet.)"
     Celia "Zzz…"
@@ -381,7 +392,7 @@ label CeR2_LS_lab:
     MC "(Haha, this thing is going to destroy her pussy!)"
     MC "(And judging from what I’ve seen so far, I know she is going to love every second of this punishment!)"
     scene CeR2_LS_p61
-    MC "(That rope ought to hold the toy in place no matter how much she wriggles around or tries to fight it.)"
+    MC "(That rope ought to hold the toy in place, no matter how much she wriggles around or tries to fight it.)"
     MC "(Now I simply have to wait for her to wake up!)"
     scene CeR2_LS_p62
     MC "(Oh! And before I forget, I better catch this whole thing on camera.)"
@@ -407,8 +418,11 @@ label CeR2_LS_lab:
     scene CeR2_LS_p68
     Celia "I’m going to wring your fucking neck!"
     MC "*Sigh* I tried to warn you."
+    jump e_mg_start
+
+label after_e_mg1:
     "*Click*"
-    scene CeR2_LS_p69
+    scene CeR2_LS_p69 at shake_ch_mg
     Celia "Huh?"
     "*BUZZZZZZZZ*"
     Celia "Ahhh!"
@@ -420,8 +434,11 @@ label CeR2_LS_lab:
     Celia "Give me that fucking remote!"
     MC "Ah, ah! Don’t you swear at your master like that!"
     Celia "I said, give me the-"
+    jump e_mg_start
+
+label after_e_mg2:
     "*Click*"
-    scene CeR2_LS_p72
+    scene CeR2_LS_p72 at shake_ch_mg
     "*BUZZZZZZZ*"
     Celia "AYAAAHHHHHH!!!!"
     scene CeR2_LS_p73
@@ -435,8 +452,11 @@ label CeR2_LS_lab:
     scene CeR2_LS_p75
     MC "*Glug*"
     Celia "Fuck you, you piece of shi-"
+    jump e_mg_start
+
+label after_e_mg3:
     "*Click*"
-    scene CeR2_LS_p76
+    scene CeR2_LS_p76 at shake_ch_mg
     "*BUZZZZZZZZ*"
     Celia "AARRGGHHHHHH!!!!"
     scene CeR2_LS_p77
@@ -534,6 +554,7 @@ label CeR2_LS_lab:
     Celia "W… Wait..."
     scene CeR2_LS_p100
     Celia "Ahhhh!"
+    scene CeR2_LS_p100anim
     MC "Ugh! Damn, you’re wet Celia!"
     Celia "Ohh!"
     scene CeR2_LS_p101
@@ -541,10 +562,12 @@ label CeR2_LS_lab:
     MC "Ugh! Ah! Oh yeah!"
     scene CeR2_LS_p102
     MC "If you thought that toy was destroying your pussy, then you’re in for a shock."
+    scene CeR2_LS_p102anim
     MC "It is nothing in comparison to what I’m going to do with my cock."
     Celia "*Gasp*"
     scene CeR2_LS_p103
     MC "Mmm! Fuck, you’re so tight Celia!"
+    scene CeR2_LS_p103anim
     MC "I’m going to enjoy fucking your pussy until you’re screaming my name."
     scene CeR2_LS_p104
     Celia "Ahh! *Gasp*"
@@ -552,10 +575,12 @@ label CeR2_LS_lab:
     MC "Ugh!"
     scene CeR2_LS_p105
     Celia "(I can’t take this any more! It feels soooo good!)"
+    scene CeR2_LS_p105anim
     MC "Ugh! Hnnnng! Ah…"
     scene CeR2_LS_p106
     Celia "(Fuck… His raw cock inside me is making me so wet and horny!)"
-    Celia "(I can’t keep cumming like this or I’ll lose my mind!)"
+    scene CeR2_LS_p106anim
+    Celia "(I can’t keep cumming like this, or I’ll lose my mind!)"
     scene CeR2_LS_p107
     MC "Mmm!"
     Celia "AAAHHHHHH!!!"
@@ -575,6 +600,7 @@ label CeR2_LS_lab:
     MC "Ugh! I want you to take every single inch inside you!"
     scene CeR2_LS_p112
     Celia "Ohhh fuck…"
+    scene CeR2_LS_p112anim
     Celia "(How did he know I get turned on by choking too?! Not even Gustav knows that!)"
     Celia "(Have I not got ANY secrets left anymore?!)"
     scene CeR2_LS_p113
@@ -585,9 +611,11 @@ label CeR2_LS_lab:
     MC "(Haha, what a slut! I can’t beleive she enjoys being degraded so much like this!)"
     scene CeR2_LS_p115
     MC "Ugh! Ahh!"
+    scene CeR2_LS_p115anim
     Celia "F-Fuck… Ohhhh!!!"
     scene CeR2_LS_p116
     MC "Mmm! Ohhh!"
+    scene CeR2_LS_p116anim
     Celia "Ahhh! AHHH!"
     scene CeR2_LS_p117
     MC "Hnnnggg!"
@@ -602,6 +630,7 @@ label CeR2_LS_lab:
     MC "Ugh! Ahh!"
     scene CeR2_LS_p120
     MC "(Time to slam this bitch’s pussy as hard as I can!)"
+    scene CeR2_LS_p120anim
     Celia "*Gasp*"
     scene CeR2_LS_p121
     MC "UGH!"
@@ -616,16 +645,18 @@ label CeR2_LS_lab:
     MC "I want you to be completely awake the moment I fill your womb with my cum!"
     scene CeR2_LS_p124
     MC "Ugh! Ahh! Ohhh! Fuck!"
+    scene CeR2_LS_p124anim
     Celia "AHHH! AHHHHH! *PANT* AHH!"
     scene CeR2_LS_p125
     Celia "HOLLLLYYYY SHIT! MMMM!!!"
+    scene CeR2_LS_p125anim
     MC "(I can feel myself almost there. I’ll blow my load inside her soon enough!)"
     scene CeR2_LS_p126
     Celia "*Pant* *Pant*"
     MC "Ohhh…"
     scene CeR2_LS_p127
     MC "Ugh! Hnnnggg!"
-    MC "(It feels so good slamming my cock balls deep into her cunt!)"
+    MC "(It feels so good slamming my cock, balls-deep into her cunt!)"
     scene CeR2_LS_p128
     Celia "F-Fuck! I’m cumming! I’M CUMMING!"
     MC "Hnnnggg! So am I!"
@@ -638,7 +669,7 @@ label CeR2_LS_lab:
     menu:
         "Plant your fertile seed deep in this bitch’s womb.":
             scene CeR2_LS_p130
-            MC "(Fuck it, I’m not respecting the wishes of a woman who publicly humiliated me, and tried to turn me into a sex slave!)"
+            MC "(Fuck it! I’m not respecting the wishes of a woman who publicly humiliated me, and tried to turn me into a sex slave!)"
             MC "I’m cumming inside you!"
             Celia "NOOOOOHHHHHHHH!!!!"
             MC "UUGGGHHH!! HHNNNNNGGG!!!"
@@ -713,4 +744,5 @@ label CeR2_LS_con:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
 
     $ can_hide_windows = False
+    $ week_day = 1
     jump map_label

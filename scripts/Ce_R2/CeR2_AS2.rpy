@@ -11,21 +11,34 @@ image CeR2_AS2_p10 = "images/CeR2/AS2/10.jpg"
 image CeR2_AS2_p11 = "images/CeR2/AS2/11.jpg"
 image CeR2_AS2_p12 = "images/CeR2/AS2/12.jpg"
 image CeR2_AS2_p13 = "images/CeR2/AS2/13.jpg"
+image CeR2_AS2_p13anim = Movie(play="videos/06 Celia AS2-1.webm", loop = True )
 image CeR2_AS2_p14 = "images/CeR2/AS2/14.jpg"
 image CeR2_AS2_p15 = "images/CeR2/AS2/15.jpg"
+image CeR2_AS2_p15anim = Movie(play="videos/06 Celia AS2-2.webm", loop = True )
 image CeR2_AS2_p16 = "images/CeR2/AS2/16.jpg"
 
 image CeR2_AS2_p18 = "images/CeR2/AS2/18.jpg"
 image CeR2_AS2_p19 = "images/CeR2/AS2/19.jpg"
+image CeR2_AS2_p19anim = Movie(play="videos/06 Celia AS2-4.webm", loop = True )
 image CeR2_AS2_p20 = "images/CeR2/AS2/20.jpg"
+image CeR2_AS2_p20anim = Movie(play="videos/06 Celia AS2-5.webm", loop = True )
+image CeR2_AS2_p20anim2 = Movie(play="videos/06 Celia AS2-5a.webm", loop = True )
 
 image CeR2_AS2_p22 = "images/CeR2/AS2/22.jpg"
+image CeR2_AS2_p22anim = Movie(play="videos/06 Celia AS2-6.webm", loop = True )
+image CeR2_AS2_p22anim2 = Movie(play="videos/06 Celia AS2-6a.webm", loop = True )
 image CeR2_AS2_p23 = "images/CeR2/AS2/23.jpg"
 image CeR2_AS2_p24 = "images/CeR2/AS2/24.jpg"
 image CeR2_AS2_p25 = "images/CeR2/AS2/25.jpg"
+image CeR2_AS2_p25anim = Movie(play="videos/06 Celia AS2-3.webm", loop = True )
 image CeR2_AS2_p26 = "images/CeR2/AS2/26.jpg"
+
+image CeR2_AS2_p26anim = Movie(play="videos/06 Celia AS2-3a.webm", loop = True )
 image CeR2_AS2_p27 = "images/CeR2/AS2/27.jpg"
+image CeR2_AS2_p27anim = Movie(play="videos/06 Celia AS2-7.webm", loop = True )
+image CeR2_AS2_p27anim2 = Movie(play="videos/06 Celia AS2-7a.webm", loop = True )
 image CeR2_AS2_p28 = "images/CeR2/AS2/28.jpg"
+image CeR2_AS2_p28anim = Movie(play="videos/06 Celia AS2-8.webm", loop = True )
 image CeR2_AS2_p29 = "images/CeR2/AS2/29.jpg"
 image CeR2_AS2_p30 = "images/CeR2/AS2/30.jpg"
 image CeR2_AS2_p31 = "images/CeR2/AS2/31.jpg"
@@ -33,6 +46,8 @@ image CeR2_AS2_p32 = "images/CeR2/AS2/32.jpg"
 image CeR2_AS2_p33 = "images/CeR2/AS2/33.jpg"
 image CeR2_AS2_p34 = "images/CeR2/AS2/34.jpg"
 image CeR2_AS2_p35 = "images/CeR2/AS2/35.jpg"
+image CeR2_AS2_p35anim = Movie(play="videos/06 Celia AS2-9.webm", loop = True )
+image CeR2_AS2_p35anim2 = Movie(play="videos/06 Celia AS2-9a.webm", loop = True )
 image CeR2_AS2_p36 = "images/CeR2/AS2/36.jpg"
 image CeR2_AS2_p37 = "images/CeR2/AS2/37.jpg"
 image CeR2_AS2_p38 = "images/CeR2/AS2/38.jpg"
@@ -112,6 +127,7 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p13
     Celia "Ahh…"
+    scene CeR2_AS2_p13anim
     Celia "(Dammit, why does this have to feel so good?!)"
     MC "Ugh… Mmm…"
 
@@ -122,6 +138,7 @@ label CeR2_AS2_lab:
     scene CeR2_AS2_p15
     Celia "*Pant*"
     Celia "(I need to slow down before I get carried away…)"
+    scene CeR2_AS2_p15anim
     Celia "(This is so fucking degrading - screwing in a bathroom stall. Why am I getting so damn turned on by it?!)"
 
     scene CeR2_AS2_p16
@@ -136,17 +153,27 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p19
     Celia "Ah! Ah… Wow…"
+    scene CeR2_AS2_p19anim with dissolve
     Celia "(This feels so good; my legs are getting weak with pleasure!)"
     MC "Ugh! Mmm!"
 
     scene CeR2_AS2_p20
     Celia "Fuck! Ahh…"
+    scene CeR2_AS2_p25anim
     Celia "(Dammit, I just realised why this feels so good. My husband ALWAYS wears condoms.)"
+    scene CeR2_AS2_p26anim
     Celia "(It just feels so much more pleasurable when I’m doing it raw like this.)"
-
+    scene CeR2_AS2_p20anim
+    MC "Ugh! Mmm!"
+    scene CeR2_AS2_p20anim2
+    Celia "Ah!"
     scene CeR2_AS2_p22
     MC "Ugh… Ohh… Mmm!"
+    scene CeR2_AS2_p22anim with dissolve
+    Celia "Ohh! Mmm..."
+    scene CeR2_AS2_p22anim2
     Celia "Ahhh! F-Fuck! *Pant*"
+
 
     scene CeR2_AS2_p23
     Celia "*GASP* Ohhh!"
@@ -159,20 +186,26 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p25
     Celia "AHH! AHHHH!"
+
     MC "(Christ, she’s loud! Hopefully nobody outside the toilets hears her or we could both get caught!)"
 
     scene CeR2_AS2_p26
     Celia "Ugh! Harder! Yes! Ahh!"
     Celia "(Whispered) F-Fuck… It’s so good…"
+
+
     Celia "(His fat cock is turning me on so much. I love the feeling of it filling up my pussy each time it plunges inside me.)"
     Celia "(God… I’m so fucking wet right now. I need him to start hitting my g-spot.)"
 
     scene CeR2_AS2_p27
     Celia "Ugh... "
+    scene CeR2_AS2_p27anim with dissolve
     Celia "(Got it. This ought to do the trick!)"
-
+    scene CeR2_AS2_p27anim2
+    MC "AHH! AHHHH!"
     scene CeR2_AS2_p28
     Celia "Ohhhh yeeaaah….. Mmm…"
+    scene CeR2_AS2_p28anim
     Celia "(That’s the spot right there!)"
     Celia "(I can feel the tip of his cock pushing up against the top of my cunt with each thrust now.)"
 
@@ -201,7 +234,9 @@ label CeR2_AS2_lab:
 
     scene CeR2_AS2_p34
     MC "HNNNNGGG! UGH!"
+    scene CeR2_AS2_p35anim
     MC "(Fuck! I can’t hold myself back any longer! I’m cumming!)"
+    scene CeR2_AS2_p35anim2
     Celia "Huh?"
     scene CeR2_AS2_p35
 
@@ -254,7 +289,7 @@ label CeR2_AS2_lab:
     Celia "Fuck. Fuck. Shit. Cunt."
     Celia "(It all makes sense… This is after I rejected him asking me out.)"
     Celia "(Fucking disgusting little creep.)"
-
+    $ Ce_web_cam_locked = True
     $ CeR2_NS2 = 1
     $ CeR2_AS2 = False
     $ renpy.music.stop(channel="music2", fadeout=1)

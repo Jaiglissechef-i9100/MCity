@@ -38,16 +38,24 @@ image CeR2_AS3_p37 = "images/CeR2/AS3/37.jpg"
 image CeR2_AS3_p38 = "images/CeR2/AS3/38.jpg"
 image CeR2_AS3_p39 = "images/CeR2/AS3/39.jpg"
 image CeR2_AS3_p40 = "images/CeR2/AS3/40.jpg"
+image CeR2_AS3_p40anim = Movie(play="videos/06 Celia AS3-1.webm", loop = True )
+image CeR2_AS3_p40anim2 = Movie(play="videos/06 Celia AS3-1a.webm", loop = True )
 image CeR2_AS3_p41 = "images/CeR2/AS3/41.jpg"
+image CeR2_AS3_p41anim = Movie(play="videos/06 Celia AS3-2.webm", loop = True )
 image CeR2_AS3_p42 = "images/CeR2/AS3/42.jpg"
+image CeR2_AS3_p42anim = Movie(play="videos/06 Celia AS3-3.webm", loop = True )
 image CeR2_AS3_p43 = "images/CeR2/AS3/43.jpg"
 image CeR2_AS3_p44 = "images/CeR2/AS3/44.jpg"
 image CeR2_AS3_p45 = "images/CeR2/AS3/45.jpg"
 image CeR2_AS3_p46 = "images/CeR2/AS3/46.jpg"
 image CeR2_AS3_p47 = "images/CeR2/AS3/47.jpg"
 image CeR2_AS3_p48 = "images/CeR2/AS3/48.jpg"
+image CeR2_AS3_p48anim = Movie(play="videos/06 Celia AS3-4.webm", loop = True )
+image CeR2_AS3_p48anim2 = Movie(play="videos/06 Celia AS3-5.webm", loop = True )
 image CeR2_AS3_p49 = "images/CeR2/AS3/49.jpg"
 image CeR2_AS3_p50 = "images/CeR2/AS3/50.jpg"
+image CeR2_AS3_p50anim = Movie(play="videos/06 Celia AS3-6.webm", loop = True )
+image CeR2_AS3_p50anim2 = Movie(play="videos/06 Celia AS3-7.webm", loop = True )
 image CeR2_AS3_p51 = "images/CeR2/AS3/51.jpg"
 image CeR2_AS3_p52 = "images/CeR2/AS3/52.jpg"
 image CeR2_AS3_p53 = "images/CeR2/AS3/53.jpg"
@@ -157,12 +165,12 @@ label CeR2_AS3_lab:
     Celia "We’re wasting time though, let’s move onto the main event."
 
     scene CeR2_AS3_p20
-    Celia "C’mere boy."
+    Celia "C’mere, boy."
     MC "F-Fuck you… *cough*"
 
     scene CeR2_AS3_p21
     Celia "I said come here!"
-    MC "You almost fucking drown me!"
+    MC "You almost fucking drowned me!"
     Celia "Ugh, you’re so melodramatic."
 
     scene CeR2_AS3_p22
@@ -235,7 +243,7 @@ label CeR2_AS3_lab:
 
     scene CeR2_AS3_p36
     MC "P-Point taken…"
-    Celia "Good boy, you’re finally seeing some sense!"
+    Celia "Good boy - you’re finally seeing some sense!"
 
     scene CeR2_AS3_p37
     MC "*Lick Lick*"
@@ -252,14 +260,18 @@ label CeR2_AS3_lab:
 
     scene CeR2_AS3_p40
     MC "*Shlurp*"
+    scene CeR2_AS3_p40anim
     Celia "Mmm, just like that… Focus on my clitoris. Ahh…"
-
+    scene CeR2_AS3_p40anim2
+    MC "*Slurp*"
     scene CeR2_AS3_p41
     Celia "Oh God… *Gasp*"
+    scene CeR2_AS3_p41anim
     Celia "Ahhhh!"
 
     scene CeR2_AS3_p42
     Celia "Right there! That’s the spot! Mmm!"
+    scene CeR2_AS3_p42anim
     Celia "Don’t stop, [player_name]! Lick my fucking pussy!"
     Celia "O-Okay! W-Wow, let’s swap positions! Mmm!"
 
@@ -270,7 +282,7 @@ label CeR2_AS3_lab:
 
     scene CeR2_AS3_p44
     MC "*Lick Lick*"
-    MC "(Great. I’m going to spend the rest of my life doing nothing but eating pussy.)"
+    MC "(Great... I’m going to spend the rest of my life doing nothing but eating pussy.)"
     MC "(I suppose there ARE worse ways to go.)"
 
     scene CeR2_AS3_p45
@@ -287,16 +299,20 @@ label CeR2_AS3_lab:
     Celia "AHHHH!"
 
     scene CeR2_AS3_p48
-    Celia "Oh God, Oh God! Yes!"
+    Celia "Oh God! Oh God! Yes!"
+    scene CeR2_AS3_p48anim
     MC "*LICK LICK* *SHLURP* *SUCK*"
-
+    scene CeR2_AS3_p48anim2
+    MC "*Lick Lick*"
     scene CeR2_AS3_p49
     MC "(Her legs are starting to shake, I think this is the big climax she was wanting!)"
     Celia "AAAAHHHHHHHH!!!!"
 
     scene CeR2_AS3_p50
     MC "*LICK* *SUCK* *SLURP*"
+    scene CeR2_AS3_p50anim
     Celia "F-Fuck! I’m cummminng! AAAAYAAAAAAHHHHHHHH!!!!"
+    scene CeR2_AS3_p50anim2
     MC "*LICK*"
     Celia "*PANT* *GASP* OHHHH MY GOOOODDDDDDD!!!!"
 
@@ -305,8 +321,8 @@ label CeR2_AS3_lab:
     Celia "I’ll be expecting you to use that tongue much more often."
 
     scene CeR2_AS3_p52
-    Celia "Now, scram! I have to get changed. It’ll look suspicious if we leave at the same time."
-    MC "Won’t it look suspicious if you come out of the men’s toilets for any reason?"
+    Celia "Now scram! I have to get changed. It’ll look suspicious if we leave at the same time."
+    MC "Won’t it look suspicious if you come out of the men’s toilets, for any reason?"
     Celia "Get out. Now."
 
     scene CeR2_AS3_p53

@@ -28,7 +28,7 @@ label judy_menu_v1_label:
         "{color=#00ff00}Ask Judy for help with Celia.{/color}" if CeR2_J_q == True:
             jump CeR2_J_q_lab
 
-        "{color=#00ff00}Tell Judy what did you figure out about Celia.{/color}" if CeR2_J_q == 3:
+        "{color=#00ff00}Tell Judy what you found out about Celia.{/color}" if CeR2_J_q == 3:
             jump CeR2_J_q_lab2
         "{color=#00ff00}Talk about an exemption from school.{/color}" if judy_q3 == True:
             jump judy_q3_label

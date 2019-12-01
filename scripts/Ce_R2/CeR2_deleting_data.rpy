@@ -36,7 +36,7 @@ label CeR2_del_data:
     Celia "Whoa, haha! Calm down! You’re going to have a heart attack on me, buddy. I was just flirting with you."
 
     scene CeR2_del_data_p4
-    MC "(Bingo. Now, let’s try and find the video tapes. Once I get them deleted I’ll be home free.)"
+    MC "(Bingo. Now, let’s try and find the video tapes. Once I get them deleted, I’ll be home free.)"
     MC "(Hmm, where to begin…)"
 
     scene CeR2_del_data_p5
@@ -46,7 +46,7 @@ label CeR2_del_data:
     scene CeR2_del_data_p6
     "*Clack clack*"
     MC "Hmm…"
-    MC "(Zero results? Dammit. I bet that Big Jake doesn’t even know how to work this thing himself.)"
+    MC "(Zero results? Dammit. I bet, that Big Jake doesn’t even know how to work this thing himself.)"
 
     scene CeR2_del_data_p7
     MC "(Let’s try searching for camera numbers…)"
@@ -75,7 +75,7 @@ label CeR2_del_data:
     scene CeR2_del_data_p11
     B_J "And that *Wheeze* is why smaller dicks can actually result in a more pleasurable experience for a woman."
     Celia "Okay, I better go back to class."
-    B_J "Stop by *Wheeze* anytime; I still have to show you my extensive collection of hentai. We’ll do a binge *Wheeze* of Super Happy Tentacle Monster One to Twelve!"
+    B_J "Stop by *Wheeze* anytime - I still have to show you my extensive collection of hentai. We’ll do a binge *Wheeze* of Super Happy Tentacle Monster One to Twelve!"
     Celia "There’s… twelve movies in your hentai series."
     B_J "The lore is surprisingly deep."
     Celia "Uh huh…I’m sure it is. I can barely contain my excitement."

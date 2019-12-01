@@ -116,6 +116,8 @@ init -501 screen Log_scr() tag menu:
 
                     spacing 10
                     xsize 1100
+                text "{color=#ffff66}{b}O.6d{/b}{/color}" xalign 0.5
+                text "{color=#66ff66}{b}Added:{/b}{/color}\n- 131 New Animations\n- New scenes added into the gallery\n- Added an option to skip minigames in the game options. (Preferences)\n- One new minigame\n- Bugs and typos fixes"
                 text "{color=#ffff66}{b}O.6b{/b}{/color}" xalign 0.5
                 text "{color=#66ff66}{b}Added:{/b}{/color}\n- +2400 new renders!\n- Relation up to 5 with Caroline\n- Relation up to 3 with Celia\n- Many new locations!\n- 39 new secret cards!\n- Many new night scenes!\n- New menu after reaching 5/5 relation with Caroline\n- Neighboor content \n- New minigames"
                 text "{color=#ffff66}{b}O.5{/b}{/color}" xalign 0.5
@@ -146,8 +148,7 @@ init -501 screen say(who, what):
 
         text what id "what"
 
-
-
+        use quick_menu
 
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
@@ -1337,9 +1338,7 @@ init -501 screen skip_indicator():
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.4, 1.0) style "skip_triangle"
 
-
-
-transform -1 delayed_blink(delay, cycle):
+transform delayed_blink(delay, cycle):
     alpha .5
 
     pause delay
@@ -1387,8 +1386,7 @@ init -501 screen notify(message):
 
     timer 3.25 action Hide('notify')
 
-
-transform -1 notify_appear:
+transform notify_appear:
     on show:
         alpha 0
         linear .25 alpha 1.0
@@ -1436,8 +1434,6 @@ init -501 screen nvl(dialogue, items=None):
         else:
 
             use nvl_dialogue(dialogue)
-
-
 
         for i in items:
 

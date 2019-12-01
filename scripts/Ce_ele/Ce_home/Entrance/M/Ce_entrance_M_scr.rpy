@@ -92,6 +92,7 @@ screen Ce_entrance_M_scr:
 
 screen Ce_entrance_M_painting:
     zorder 102
+    modal True
     add "/images/Ce_ele/Ce_home/Entrance/M/2.jpg"
     imagebutton:
         xpos 0

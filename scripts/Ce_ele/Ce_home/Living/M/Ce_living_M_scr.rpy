@@ -24,6 +24,7 @@ screen Ce_living_M_scr:
 screen Ce_living_M_painting:
     zorder 102
     add "/images/Ce_ele/Ce_home/Living/M/2.jpg"
+    modal True
     imagebutton:
         xpos 0
         ypos 0

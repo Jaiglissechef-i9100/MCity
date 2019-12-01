@@ -139,7 +139,7 @@ label CeR2_J_q_lab:
     Judy "I would rather not say."
 
     scene CeR2_J_q_p17
-    Judy "I had a feeling you would get caught sooner or later. Nothing lasts forever, after all."
+    Judy "I had a feeling you would get caught, sooner or later. Nothing lasts forever, after all."
     Judy "I have my suspicions about Celia. I think I have a solution to this mess you find yourself in. It’s going to require some work though."
     MC "What do I need to do?"
 
@@ -149,12 +149,12 @@ label CeR2_J_q_lab:
 
     scene CeR2_J_q_p19
     MC "This doesn’t sound safe…"
-    Judy "It won’t be, Celia is very skilled in martial arts. If you get caught you’ll be in for a beating."
+    Judy "It won’t be. Celia is very skilled in martial arts. If you get caught, you’ll be in for a beating."
     MC "*Gulp*"
 
     scene CeR2_J_q_p20
     MC "I… I can’t do this…"
-    Judy "And you’d rather live your life as her pet? Bullied and beaten every single day for her amusement."
+    Judy "And you’d rather live your life as her pet? Bullied and beaten every single day, for her amusement."
     MC "No…"
 
     scene CeR2_J_q_p21
@@ -193,9 +193,9 @@ label CeR2_J_q_lab2:
     hide screen map_button
 
     scene CeR2_J_q2_p1
-    Judy "I’m very glad to see you again, [player_name]. Before we begin our therapy session I would like to do a short recap. May I?"
+    Judy "I’m very glad to see you again, [player_name]. Before we begin our therapy session, I would like to do a short recap. May I?"
     MC "Go ahead."
-    Judy "When we left off you were being harassed by your teacher, Mrs. Celia. Is that a fair assessment?"
+    Judy "When we left, off you were being harassed by your teacher, Mrs. Celia. Is that a fair assessment?"
 
     scene CeR2_J_q2_p2
     MC "Ah, yeah. I guess so."
@@ -238,8 +238,8 @@ label CeR2_J_q_lab2:
     Judy "If you push for a stalemate now then you’ve lost, because you already have Mrs. Celia by the proverbial gonads."
 
     scene CeR2_J_q2_p10
-    MC "A-Alright, let’s do this then! What should I do?"
-    Judy "If you want to do this properly; then it is of utmost importance that you listen to all of my instructions, and follow them through to completion."
+    MC "A-Alright, let’s do this, then! What should I do?"
+    Judy "If you want to do this properly: then it is of utmost importance that you listen to all of my instructions, and follow them through to completion."
     MC "Sure! Anything!"
 
     scene CeR2_J_q2_p11
@@ -248,17 +248,17 @@ label CeR2_J_q_lab2:
 
     scene CeR2_J_q2_p12
     Judy "It’s a powerful sedative. It should knock Mrs. Celia out for a full hour, at the very least."
-    Judy "Slip it in once of her drinks. One she consumes it wait for it to take full effect."
+    Judy "Slip it in once of her drinks. One she consumes it, wait for it to take full effect."
     MC "Uh huh."
 
     scene CeR2_J_q2_p13
     MC "What then? What do you want me to do after she falls asleep?"
-    Judy "Well, based on what you’ve told me I think I’ve come up with a rather ingenious plan."
+    Judy "Well, based on what you’ve told me, I think I’ve come up with a rather ingenious plan."
 
     scene CeR2_J_q2_p14
     Judy "I want you to purchase the most expensive, most powerful electro-stimulation dildo you can possibly find on the market."
     Judy "It MUST be electro-stimulation. Otherwise this plan won’t work."
-    Judy "Ensure that she cannot move, and set up a camera to record her. Then, make her cum again and again and again."
+    Judy "Ensure that she cannot move, and set up a camera to record her. Then, make her cum, again and again and again."
 
     scene CeR2_J_q2_p15
     Judy "You must tell Mrs. Celia that her silly little powerplay is over. Threaten to leak the video if she ever tries anything on you again."
@@ -269,7 +269,7 @@ label CeR2_J_q_lab2:
     Judy "This doesn't just “make sense”, [player_name]. It’s your only chance at escaping this torture."
 
     scene CeR2_J_q2_p17
-    MC "So, what you’re saying is I get to have revenge for her bullying me, and I get an awesome video of her?"
+    MC "So, what you’re saying is, I get to have revenge for her bullying me, and I get an awesome video of her?"
     Judy "AND you also blackmail her. It protects you."
     MC "Thanks, Judy. You’ve been a great help."
 
@@ -279,7 +279,7 @@ label CeR2_J_q_lab2:
     Judy "That’s the spirit!"
 
     scene CeR2_J_q2_p19
-    Judy "I think that seems like a good point to finish up our therapy session today."
+    Judy "I think this seems like a good point to finish up our therapy session today."
     Judy "Shall I see you again sometime soon?"
     MC "I think you will."
     Judy "(Mrs. Celia won’t be able to resist that intense stimulation. She’ll be crawling to [player_name] on her hands and knees begging for more and more.)"

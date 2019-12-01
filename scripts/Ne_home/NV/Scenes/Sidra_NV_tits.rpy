@@ -3,6 +3,7 @@ image Ne_NV_Sidra_tits_p2 = "images/Ne_1/NV/Sidra/Tits/2.jpg"
 image Ne_NV_Sidra_tits_p3 = "images/Ne_1/NV/Sidra/Tits/3.jpg"
 image Ne_NV_Sidra_tits_p4 = "images/Ne_1/NV/Sidra/Tits/4.jpg"
 image Ne_NV_Sidra_tits_p5 = "images/Ne_1/NV/Sidra/Tits/5.jpg"
+image Ne_NV_Sidra_tits_p5anim = Movie(play="videos/06 Neighboors NV-Tits1.webm", loop = True )
 image Ne_NV_Sidra_tits_p6 = "images/Ne_1/NV/Sidra/Tits/6.jpg"
 image Ne_NV_Sidra_tits_p7 = "images/Ne_1/NV/Sidra/Tits/7.jpg"
 image Ne_NV_Sidra_tits_p8 = "images/Ne_1/NV/Sidra/Tits/8.jpg"
@@ -27,6 +28,7 @@ label Sidra_NV_tits_lab:
     Sidra "Mmm… Isla…"
     scene Ne_NV_Sidra_tits_p5
     MC "(You’ve got an AMAZING pair of tits, Sidra! You really should show more of them!)"
+    scene Ne_NV_Sidra_tits_p5anim
     MC "(Let’s see if they feel as good as they look!)"
     scene Ne_NV_Sidra_tits_p6
     MC "(Oh yeah! They REALLY do!)"

@@ -96,7 +96,7 @@ label CeR2_MS1_lab:
 
         scene CeR2_MS1_moni_p6
         Celia "You got intimidated by an obese blob of lard that weighs at least six hundred pounds."
-        MC "Yeah but-"
+        MC "Yeah, but-"
         Celia "That guy wheezes more than a fucking whoopee cushion!"
         Celia "Christ almighty… Fine! I’ll distract Big Jake. This was SUPPOSED to be YOUR job though!"
 

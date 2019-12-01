@@ -93,7 +93,7 @@ label CeR2_moni_lab:
     if CeR2_moni == 3:
 
         scene CeR2_moni_p1 with dissolve
-        MC "Hey there, Big Jake, me again!"
+        MC "Hey there, Big Jake. Me again!"
         MC "How are you keeping?"
 
         scene CeR2_moni_p4
@@ -104,18 +104,18 @@ label CeR2_moni_lab:
 
         scene CeR2_moni_p5
         MC "(None of the fast food packaging matches. The only explanation I can come up with is that this guy has literally gone to at least three different fast food joints on his lunch.)"
-        MC "(He must have picked up the burger from one place, the pizza from another, and god knows what was in that red box.)"
-        MC "(It’s actually rather impressive the dedication that he is putting into his lunch hour.)"
+        MC "(He must have picked up the burger from one place, the pizza from another, and God-knows-what was in that red box.)"
+        MC "(It’s actually rather impressive, the dedication that he is putting into his lunch hour.)"
         B_J "Didn’t I see you before? No students in here. Vamanos!"
 
         scene CeR2_moni_p7
         MC "Aww, c’mon man. I just wanted to see how it all worked in here."
-        B_J "*Wheeze* You’re interrupting my lunch hour. This is my happy time; and you’re ruining it."
+        B_J "*Wheeze* You’re interrupting my lunch hour. This is my happy time - and you’re ruining it."
         MC "Just-"
         B_J "Do I have to *Wheeze* get off my seat and call the headmaster?"
 
         scene CeR2_moni_p8a
-        MC "*Sigh* No, I’ll go now."
+        MC "*Sigh* No. I’ll go now."
         MC "(There has to be a way to distract this guy so I can actually get access to the monitoring system.)"
         MC "(It’s the only way I’ll ever be able to delete those security tapes.)"
 

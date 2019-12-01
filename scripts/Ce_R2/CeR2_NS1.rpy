@@ -76,11 +76,17 @@ image CeR2_NS1_visit2_blow_p7 = "images/CeR2/NS1/Visit2/Blowjob/7.jpg"
 image CeR2_NS1_visit2_blow_p8 = "images/CeR2/NS1/Visit2/Blowjob/8.jpg"
 image CeR2_NS1_visit2_blow_p9 = "images/CeR2/NS1/Visit2/Blowjob/9.jpg"
 image CeR2_NS1_visit2_blow_p10 = "images/CeR2/NS1/Visit2/Blowjob/10.jpg"
+image CeR2_NS1_visit2_blow_p10anim = Movie(play="videos/06 Celia NS1-1.webm", loop = True )
 image CeR2_NS1_visit2_blow_p11 = "images/CeR2/NS1/Visit2/Blowjob/11.jpg"
 image CeR2_NS1_visit2_blow_p12 = "images/CeR2/NS1/Visit2/Blowjob/12.jpg"
 image CeR2_NS1_visit2_blow_p13 = "images/CeR2/NS1/Visit2/Blowjob/13.jpg"
+image CeR2_NS1_visit2_blow_p13anim = Movie(play="videos/06 Celia NS1-2.webm", loop = True )
 image CeR2_NS1_visit2_blow_p14 = "images/CeR2/NS1/Visit2/Blowjob/14.jpg"
+image CeR2_NS1_visit2_blow_p14anim = Movie(play="videos/06 Celia NS1-3.webm", loop = True )
 image CeR2_NS1_visit2_blow_p15 = "images/CeR2/NS1/Visit2/Blowjob/15.jpg"
+image CeR2_NS1_visit2_blow_p15anim = Movie(play="videos/06 Celia NS1-4.webm", loop = True )
+image CeR2_NS1_visit2_blow_p15anim2 = Movie(play="videos/06 Celia NS1-4a.webm", loop = True )
+image CeR2_NS1_visit2_blow_p15anim3 = Movie(play="videos/06 Celia NS1-5.webm", loop = True )
 image CeR2_NS1_visit2_blow_p16 = "images/CeR2/NS1/Visit2/Blowjob/16.jpg"
 image CeR2_NS1_visit2_blow_p17 = "images/CeR2/NS1/Visit2/Blowjob/17.jpg"
 image CeR2_NS1_visit2_blow_p18 = "images/CeR2/NS1/Visit2/Blowjob/18.jpg"
@@ -139,7 +145,7 @@ label CeR2_NS1_lab:
         Celia "Ahh, I’m glad you came, [player_name]. Let me just get these lights on."
 
         scene CeR2_NS1_p8
-        MC "(Oh my god! She looks so much hotter in her everyday clothes.)"
+        MC "(Oh my God! She looks so much hotter in her everyday clothes.)"
         Celia "Hey! Eyes up here, kid!"
         MC "S-Sorry! I wasn’t-"
 
@@ -239,19 +245,19 @@ label CeR2_NS1_lab:
         MC "That shit you drink in class stinks compared to this stuff… Pardon my French."
 
         scene CeR2_NS1_p29
-        Celia "Knock it off [player_name], I don’t need you to tell me how fucking good my coffee is."
-        Celia "I’m the one who buys it. When my husband goes to buy coffee he buys shit."
+        Celia "Knock it off [player_name]. I don’t need you to tell me how fucking good my coffee is."
+        Celia "I’m the one who buys it. When my husband goes to buy coffee, he buys shit."
         Celia "But you know what’s on my mind right now, it ain’t the coffee - it’s the blackmailer trying to ruin my fucking life."
         MC "I’m sorry, I-"
 
         scene CeR2_NS1_p30
         Celia "*Sigh* No, I’m sorry. I shouldn’t have snapped at you like that."
-        MC "It’s okay, I understand your stressed."
+        MC "It’s okay, I understand you're stressed."
 
         scene CeR2_NS1_p31
         MC "So, how did you end up getting blackmailed anyway?"
         Celia "It’s a long story. I’d rather not get into it."
-        MC "Aw, c’mon. If you’re expecting me to help you out you’ve got to at least let me know how this all began!"
+        MC "Aw, c’mon. If you’re expecting me to help you out, you’ve got to at least let me know how this all began!"
 
         scene CeR2_NS1_p32
         Celia "Maybe some other time."
@@ -271,7 +277,7 @@ label CeR2_NS1_lab:
         MC "How about we just make out?"
 
         scene CeR2_NS1_p36
-        Celia "Fucks sake…"
+        Celia "Fuck's sake…"
         Celia "Right here?"
         MC "Here on the couch, right now. That’s all I’m asking for."
 
@@ -393,7 +399,7 @@ label CeR2_NS1_lab:
         MC "I simply want you to suck my dick."
 
         scene CeR2_NS1_visit2_p5
-        Celia "Tell me what you know first and I’ll decide if the information is worth a blowjob."
+        Celia "Tell me what you know, first, and I’ll decide if the information is worth a blowjob."
         MC "How do I know you’ll actually do it for me?"
         Celia "Do you have any doubts that it is good information you are giving me?"
         MC "No."
@@ -446,8 +452,8 @@ label CeR2_NS1_lab:
         $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music2", loop=True, fadein = 2)
 
         scene CeR2_NS1_visit2_blow_p1
-        MC "Thanks Celia, now it’s time for you to use that pretty little mouth of yours!"
-        Celia "Yeah, fine."
+        MC "Thanks, Celia. Now it’s time for you to use that pretty little mouth of yours!"
+        Celia "Yeah... fine."
         MC "Mind if I put my finger in first?"
 
         scene CeR2_NS1_visit2_blow_p2
@@ -466,8 +472,8 @@ label CeR2_NS1_lab:
 
         scene CeR2_NS1_visit2_blow_p5
         Celia "*Sigh*"
-        Celia "You’re not making this easy for me. You know that?"
-        MC "Sorry, I just worked hard to get you that information; and now I really want to enjoy the reward for it."
+        Celia "You’re not making this easy for me, you know that?"
+        MC "Sorry. I just worked hard to get you that information; and now I really want to enjoy the reward for it."
 
         scene CeR2_NS1_visit2_blow_p6
         MC "(Fuck, her breasts look incredible from this angle!)"
@@ -489,6 +495,7 @@ label CeR2_NS1_lab:
 
         scene CeR2_NS1_visit2_blow_p10
         Celia "(Okay, time to go to town on this kid’s dick. He won’t last two minutes if I put some effort into this.)"
+        scene CeR2_NS1_visit2_blow_p10anim
         Celia "*Suck*"
         MC "Ahh…"
 
@@ -499,22 +506,28 @@ label CeR2_NS1_lab:
 
         scene CeR2_NS1_visit2_blow_p12
         Celia "*Shlurp* *Suck*"
-        MC "Mmm! Damn, you’re good at this, Celia!"
+        MC "Mmm! Damn, you’re so good at this, Celia!"
         Celia "*Suck*"
 
         scene CeR2_NS1_visit2_blow_p13
         Celia "*Shlurp* *Suck* *SHLUURRRRP*"
+        scene CeR2_NS1_visit2_blow_p13anim
         MC "Ahh! Ahhh… Hnnnnggg…. Ugh!"
 
         scene CeR2_NS1_visit2_blow_p14
         Celia "*SHLURP* *SUCK*"
+        scene CeR2_NS1_visit2_blow_p14anim
         MC "Ahh… H-Holy fuck… Ugh!"
         MC "(Fuck, I’m going to start thrusting! I want to feel my cock in her throat!)"
 
         scene CeR2_NS1_visit2_blow_p15
         Celia "NNNMMPFFFF?!"
+        scene CeR2_NS1_visit2_blow_p15anim
         Celia "*SPLUTTER* *GAG*"
+        scene CeR2_NS1_visit2_blow_p15anim2
         MC "HNNNGGG!! UGH!!! Oh fuck!"
+        scene CeR2_NS1_visit2_blow_p15anim3
+        Celia "*Suck*"
 
         scene CeR2_NS1_visit2_blow_p16
         Celia "(Fuck! He gave me no warning at all!)"

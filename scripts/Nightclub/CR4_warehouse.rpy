@@ -85,7 +85,7 @@ label CR4_warehouse_con:
     MC "(There’s no other explanation for it - I’m in the central hub of their operation right now.)"
 
     scene CR4_warehouse_p8
-    MC "If anyone catches me here I’m a dead man…"
+    MC "If anyone catches me here, I’m a dead man…"
     MC "I just have to find this pink box and get the fuck out of here as fast as possible."
 
     scene CR4_warehouse_p9
@@ -93,7 +93,7 @@ label CR4_warehouse_con:
     MC "(I wonder if Caroline’s necklace is hidden in this room.)"
 
     scene CR4_warehouse_p10
-    MC "(It’s probably not worth the risk searching for it. If I can meet with the Boss I can probably talk him into returning it.)"
+    MC "(It’s probably not worth the risk, searching for it. If I can meet with the Boss I can probably talk him into returning it.)"
     MC "(I just hope he doesn’t want me to buy it back. I don’t know if I could afford it…)"
     scene black
     $ can_hide_windows = False
@@ -131,8 +131,8 @@ label CR4_warehouse_box:
 
     scene CR4_warehouse_p13
     MC "(That girl, Cindy, is a nutcase!)"
-    MC "(There must be a HUNDRED safer ways to score some weed in this city!)"
-    MC "(Here’s hoping I don’t get shot to pieces trying to escape this damn warehouse.)"
+    MC "(There must be A HUNDRED safer ways to score some weed in this city!)"
+    MC "(Here’s hoping I don’t get shot to pieces, trying to escape this damn warehouse.)"
 
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

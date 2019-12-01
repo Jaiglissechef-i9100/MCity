@@ -23,8 +23,10 @@ image CR4_ES1_kiss_p1 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissi
 image CR4_ES1_kiss_p2 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/2.jpg"
 image CR4_ES1_kiss_p3 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/3.jpg"
 image CR4_ES1_kiss_p4 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/4.jpg"
+image CR4_ES1_kiss_p4anim = Movie(play="videos/06 Caroline ES1-1.webm", loop = True )
 image CR4_ES1_kiss_p5 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/5.jpg"
 image CR4_ES1_kiss_p6 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/6.jpg"
+image CR4_ES1_kiss_p6anim = Movie(play="videos/06 Caroline ES1-2.webm", loop = True )
 image CR4_ES1_kiss_p7 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/7.jpg"
 image CR4_ES1_kiss_p9 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/9.jpg"
 image CR4_ES1_kiss_p10 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/10.jpg"
@@ -35,6 +37,8 @@ image CR4_ES1_kiss_p14 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kiss
 image CR4_ES1_kiss_p15 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/15.jpg"
 image CR4_ES1_kiss_p16 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/16.jpg"
 image CR4_ES1_kiss_p17 = "/images/home/caroline_room/evening/scenes/CR4_ES1/Kissing/17.jpg"
+
+
 
 default CR4_ES1 = False
 default CR4_ES1_q1 = True
@@ -57,8 +61,8 @@ label CR4_ES1_label:
         hide screen map_button
 
         scene CR4_ES1_p1 with dissolve
-        MC "(Looks like Caroline is kicking back and relaxing for a change!)"
-        MC "(It’s certainly better than her constantly being uptight all the time.)"
+        MC "(Looks like Caroline is kicking back and relaxing, for a change!)"
+        MC "(It’s certainly better than her, constantly being uptight all the time.)"
         MC "Hey there, Caroline. How are things?"
 
         scene CR4_ES1_p2
@@ -131,7 +135,7 @@ label CR4_ES1_menu:
             MC "Yeah, it was one of the best nights of my entire life!"
 
             scene CR4_ES1_p8
-            Caroline "Really? Even better than your birthday a few years back when you got that stupid computer?"
+            Caroline "Really? Even better than your birthday a few years back, when you got that stupid computer?"
             MC "Hey! That was a top-of-the-line gaming machine!"
 
             scene CR4_ES1_p9
@@ -144,7 +148,7 @@ label CR4_ES1_menu:
         "Yazmin is self employed too. Perhaps you two should get in touch?" if CR4_ES1_q4 == True:
 
             scene CR4_ES1_p14
-            MC "Yazmin is self employed too you know."
+            MC "Yazmin is self employed too, you know?"
             Caroline "Oh yeah?"
             MC "I think she’s a model or something."
 
@@ -174,7 +178,7 @@ label CR4_ES1_menu:
             scene CR4_ES1_p13
             Caroline "Sorry, *cough* you took me by surprise there."
             Caroline "Listen… I’m slowly working my way through the stages of grief. I just want to blitzkrieg my way to acceptance as quickly as possible."
-            MC "I understand that. If there’s anything I can do please let me know."
+            MC "I understand that. If there’s anything I can do, please let me know."
             Caroline "… I will."
 
             $ CR4_ES1_q5 = 3
@@ -188,7 +192,10 @@ label CR4_ES1_menu:
             MC "Yeah."
 
             scene CR4_ES1_p13
-            Caroline "I uh… I wasn’t in a great place after my grandma passed away."
+            if persistent.incest_patch == True:
+                Caroline "I uh… I wasn’t in a great place after Grandma passed away."
+            else:
+                Caroline "I uh… I wasn’t in a great place after my grandma passed away."
             Caroline "Believe it or not, he actually seemed… nice. At that particular time, at least."
             Caroline "Of course, he quickly changed. He became… nasty."
 
@@ -201,7 +208,7 @@ label CR4_ES1_menu:
             Caroline "*Glug Glug*"
 
             scene CR4_ES1_p13
-            Caroline "When you’re on the outside seeing a relationship like that it’s easy to say, “just walk away!”"
+            Caroline "When you’re on the outside seeing a relationship like that- it’s easy to say, “just walk away!”"
             Caroline "But then you’re in it and… you just can’t escape those things. It’s like… fucking quicksand."
 
             scene CR4_ES1_p6
@@ -238,7 +245,7 @@ label CR4_ES1_menu:
             MC "So..."
             Caroline "Can we just take things one day at a time?"
             Caroline "I’m enjoying this, I really am. Well, a lot more than just “enjoying” it."
-            Caroline "I’m happy with you, [player_name]. I think this could be… the start of a really healthy relationship. Let’s just let it grow naturally and see where we end up?"
+            Caroline "I’m happy with you, [player_name]. I think this could be… the start of a really healthy relationship. Let’s just let it grow naturally, and see where we end up?"
 
             $ CR4_ES1_q7 = 3
             jump CR4_ES1_menu
@@ -272,21 +279,24 @@ label CR4_ES1_menu:
             scene CR4_ES1_kiss_p3
             MC "Caroline, can we wait until tonight?"
             Caroline "Hehe, why wait?"
-            MC "Everyone else is at home right now. Literally anyone could walk in on us!"
+            MC "Everyone else is at home right now. Literally anyone, could walk in on us!"
             MC "How would you explain this to Sara or [Mom_name]?"
 
             scene CR4_ES1_kiss_p4
             MC "Mppff!"
+
             Caroline "Mmm!"
 
             scene CR4_ES1_kiss_p5
             MC "Mmm…"
+            scene CR4_ES1_kiss_p4anim with dissolve
             MC "(Oh God, she is so fucking hot when she gets aggressive like this!)"
 
             scene CR4_ES1_kiss_p6
             Caroline "(Fuck, I’m so wet right now…)"
             Caroline "Mmm…"
-            Caroline "(He’s right though. If anyone caught us right now it would fuck everything up!)"
+            scene CR4_ES1_kiss_p6anim with dissolve
+            Caroline "(He’s right though. If anyone caught us right now, it would fuck everything up!)"
 
             scene CR4_ES1_kiss_p7
             Caroline "*Lick*"
@@ -295,7 +305,7 @@ label CR4_ES1_menu:
 
             scene CR4_ES1_kiss_p10
             Caroline "*Lick* *Lick*"
-            MC "(Fuck… it feels so good having her lick my nipples like that! I never imagined they would be THIS sensitive!)"
+            MC "(Fuck… it feels so good, having her lick my nipples like that! I never imagined they would be THIS sensitive!)"
             Caroline "Hehe, are you enjoying this?"
 
             scene CR4_ES1_kiss_p11
@@ -306,8 +316,8 @@ label CR4_ES1_menu:
             scene CR4_ES1_kiss_p12
             Caroline "How about I go even lower now?"
             Caroline "Would you like me to wrap my lips around your hard cock?"
-            if renpy.loadable("patch.rpy"):
-                MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our parents home!)"
+            if persistent.incest_patch == True:
+                MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all our family home!)"
             else:
                 MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our roommates home!)"
             Caroline "I would suck it so hard… just like this!"

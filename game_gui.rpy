@@ -1,6 +1,6 @@
 image map_day1 = "images/game_gui/map/Map_Day.jpg"
 image map_night1 = "images/game_gui/map/Map_Night.jpg"
-
+#-------------------------------------------------------------------------------
 default Ce_unread_alert = True
 
 screen map_button:
@@ -14,7 +14,7 @@ screen map_button:
 
     if ML_end_content == True and ml_points == 4:
         on "show" action Show("ML_end_content_scr")
-    if Li_end_content == True:
+    if Li_end_content == True :
         on "show" action Show("Li_end_content_scr")
     if C_end_content == True and Caroline_points == 5:
         on "show" action Show("C_end_content_scr")
@@ -74,17 +74,18 @@ screen map_button:
         hovered Show("displayTextScreen", displayText = "Phone")
         unhovered Hide("displayTextScreen")
 
-    if Linda_unread_alert == False:
+    if  Linda_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif Sara_unread_alert == False:
+    elif  Sara_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif Caroline_unread_alert == False:
+    elif  Caroline_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
     elif Zuri_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif Ce_unread_alert == False:
+    elif  Ce_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
 
+#---------------------------------------------------------------------------------------------------------
 
 label map_label:
     $ can_hide_windows = False
@@ -126,9 +127,9 @@ label map_label:
 screen map:
 
     zorder 102
-    if Li_end_content == True:
+    if Li_end_content == True :
         on "show" action Show("Li_end_content_scr")
-
+    
     imagebutton:
         xpos 482
         ypos 443
@@ -208,7 +209,7 @@ screen map:
             hover "images/game_gui/map/Hospital Hover.png"
             if clickable == True:
                 action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
-    if ml_work_unloacked == True:
+    if ml_work_unloacked == True :
         imagebutton:
             xpos 411
             ypos 774
@@ -226,7 +227,7 @@ screen map:
             hover "images/game_gui/map/Neighbor1 Hover.png"
             if clickable == True:
                 action [Jump("Ne_entrance_M1")]
-    if night_club_unlocked == True:
+    if  night_club_unlocked == True:
         imagebutton:
             xpos 377
             ypos 174
@@ -316,6 +317,7 @@ screen map:
             if clickable == True:
                 action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("Charles_outside2_M1")]
 
+#-------------------------------------------------------------------------------
 
 
 screen day_time_viewer:
@@ -333,7 +335,7 @@ screen day_time_viewer:
     if day_time==4:
         add Transform("images/game_gui/icons/Hud4-Night.png", zoom=.8)
 
-
+#-------------------------------------------------------------------------------
 
 screen week_day_viewer:
 
@@ -365,8 +367,7 @@ screen week_day_viewer:
 
         add Transform("images/game_gui/icons/7Sunday.png", zoom=.8)
 
-
-
+#-------------------------------------------------------------------------------
 
 screen time_skip_button:
 
@@ -410,6 +411,8 @@ screen time_skip_button:
         action [Hide("displayTextScreen"), Show ("Info_screen") ]
         hovered Show("displayTextScreen", displayText = "Help")
         unhovered Hide("displayTextScreen")
+
+#-----------------------------------------------------------------------------------------
 
 screen screen_work_in_progress:
 

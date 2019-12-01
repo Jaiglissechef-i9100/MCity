@@ -7,7 +7,9 @@ image Ce_NV_blow_p6 = "images/CeR2/NV/Blowjob/6.jpg"
 image Ce_NV_blow_p7 = "images/CeR2/NV/Blowjob/7.jpg"
 image Ce_NV_blow_p8 = "images/CeR2/NV/Blowjob/8.jpg"
 image Ce_NV_blow_p9 = "images/CeR2/NV/Blowjob/9.jpg"
+image Ce_NV_blow_p9anim = Movie(play="videos/06 Celia NV-Blowjob1.webm", loop = True )
 image Ce_NV_blow_p10 = "images/CeR2/NV/Blowjob/10.jpg"
+image Ce_NV_blow_p10anim = Movie(play="videos/06 Celia NV-Blowjob2.webm", loop = True )
 image Ce_NV_blow_p11 = "images/CeR2/NV/Blowjob/11.jpg"
 image Ce_NV_blow_p12 = "images/CeR2/NV/Blowjob/12.jpg"
 
@@ -16,12 +18,14 @@ image Ce_NV_foot_p2 = "images/CeR2/NV/Footjob/2.jpg"
 image Ce_NV_foot_p3 = "images/CeR2/NV/Footjob/3.jpg"
 image Ce_NV_foot_p4 = "images/CeR2/NV/Footjob/4.jpg"
 image Ce_NV_foot_p5 = "images/CeR2/NV/Footjob/5.jpg"
+image Ce_NV_foot_p5anim = Movie(play="videos/06 Celia NV-Footjob2.webm", loop = True )
 image Ce_NV_foot_p6 = "images/CeR2/NV/Footjob/6.jpg"
 image Ce_NV_foot_p7 = "images/CeR2/NV/Footjob/7.jpg"
 image Ce_NV_foot_p8 = "images/CeR2/NV/Footjob/8.jpg"
 image Ce_NV_foot_p9 = "images/CeR2/NV/Footjob/9.jpg"
 image Ce_NV_foot_p10 = "images/CeR2/NV/Footjob/10.jpg"
 image Ce_NV_foot_p11 = "images/CeR2/NV/Footjob/11.jpg"
+image Ce_NV_foot_p11anim = Movie(play="videos/06 Celia NV-Footjob1.webm", loop = True )
 image Ce_NV_foot_p12 = "images/CeR2/NV/Footjob/12.jpg"
 image Ce_NV_foot_p13 = "images/CeR2/NV/Footjob/13.jpg"
 image Ce_NV_foot_p14 = "images/CeR2/NV/Footjob/14.jpg"
@@ -39,6 +43,7 @@ image Ce_NV_kiss_p6 = "images/CeR2/NV/Kiss/6.jpg"
 image Ce_NV_kiss_p7 = "images/CeR2/NV/Kiss/7.jpg"
 image Ce_NV_kiss_p8 = "images/CeR2/NV/Kiss/8.jpg"
 image Ce_NV_kiss_p9 = "images/CeR2/NV/Kiss/9.jpg"
+image Ce_NV_kiss_p9anim = Movie(play="videos/06 Celia NV-Kiss1.webm", loop = True )
 image Ce_NV_kiss_p10 = "images/CeR2/NV/Kiss/10.jpg"
 image Ce_NV_kiss_p11 = "images/CeR2/NV/Kiss/11.jpg"
 image Ce_NV_kiss_p12 = "images/CeR2/NV/Kiss/12.jpg"
@@ -58,8 +63,10 @@ image Ce_NV_pussy_p8 = "images/CeR2/NV/Pussy/8.jpg"
 image Ce_NV_pussy_p9 = "images/CeR2/NV/Pussy/9.jpg"
 image Ce_NV_pussy_p10 = "images/CeR2/NV/Pussy/10.jpg"
 image Ce_NV_pussy_p11 = "images/CeR2/NV/Pussy/11.jpg"
+image Ce_NV_pussy_p11anim = Movie(play="videos/06 Celia NV-Pussy1.webm", loop = True )
 image Ce_NV_pussy_p12 = "images/CeR2/NV/Pussy/12.jpg"
 image Ce_NV_pussy_p13 = "images/CeR2/NV/Pussy/13.jpg"
+image Ce_NV_pussy_p13anim = Movie(play="videos/06 Celia NV-Pussy2.webm", loop = True )
 image Ce_NV_pussy_p14 = "images/CeR2/NV/Pussy/14.jpg"
 image Ce_NV_pussy_p15 = "images/CeR2/NV/Pussy/15.jpg"
 image Ce_NV_pussy_p16 = "images/CeR2/NV/Pussy/16.jpg"
@@ -72,6 +79,7 @@ image Ce_NV_tits_p5 = "images/CeR2/NV/Tits/5.jpg"
 image Ce_NV_tits_p6 = "images/CeR2/NV/Tits/6.jpg"
 image Ce_NV_tits_p7 = "images/CeR2/NV/Tits/7.jpg"
 image Ce_NV_tits_p8 = "images/CeR2/NV/Tits/8.jpg"
+image Ce_NV_tits_p8anim = Movie(play="videos/06 Celia NV-Tits1.webm", loop = True )
 image Ce_NV_tits_p9 = "images/CeR2/NV/Tits/9.jpg"
 image Ce_NV_tits_p10 = "images/CeR2/NV/Tits/10.jpg"
 image Ce_NV_tits_p11 = "images/CeR2/NV/Tits/11.jpg"
@@ -110,10 +118,12 @@ label Ce_NV_blow:
     MC "(I have to put it down her throat while I have the chance!)"
     scene Ce_NV_blow_p9
     Celia "*Shlurp* *Gag*"
+    scene Ce_NV_blow_p9anim with dissolve
     MC "Ugh… Hnnng... "
     MC "(Shit, her throat is so tight! This feels amazing wrapped around my glans!)"
     scene Ce_NV_blow_p10
     MC "*Pant* Wow…"
+    scene Ce_NV_blow_p10anim
     MC "(I wish I could make Celia do this any time I wanted. Shame she has to be asleep right now.)"
     scene Ce_NV_blow_p11
     MC "Hnngg… Mmm!"
@@ -140,6 +150,7 @@ label Ce_NV_foot:
     MC "(Here’s the moment of truth - please don’t wake up.)"
     scene Ce_NV_foot_p5
     MC "(Here we go…)"
+    scene Ce_NV_foot_p5anim
     MC "Mmm…"
     Celia "*Snore*"
     scene Ce_NV_foot_p6
@@ -159,6 +170,7 @@ label Ce_NV_foot:
     Celia "*Snore*"
     scene Ce_NV_foot_p11
     MC "Hnnng…. Mmm!"
+    scene Ce_NV_foot_p11anim
     MC "(I’m getting closer to cumming. Hopefully I’ll be able to finish before she wakes up!)"
     scene Ce_NV_foot_p12
     MC "(I’ll pull her feet closer together; it’ll feel better if they’re tighter around my cock.)"
@@ -220,6 +232,7 @@ label Ce_NV_kiss:
     MC "(Hell, we could have even just been friends if she hadn’t been so nasty about how she turned me down!)"
     scene Ce_NV_kiss_p9
     MC "Mmm!"
+    scene Ce_NV_kiss_p9anim
     Celia "Mmm…"
     scene Ce_NV_kiss_p10
     MC "(Her mouth is amazing!)"
@@ -280,6 +293,7 @@ label Ce_NV_pussy:
     MC "(There we go!)"
     scene Ce_NV_pussy_p11
     MC "(Fuck, it feels good between her thighs!)"
+    scene Ce_NV_pussy_p11anim
     MC "Mmm…"
     Celia "Ahh… Zzz…"
     scene Ce_NV_pussy_p12
@@ -288,6 +302,7 @@ label Ce_NV_pussy:
     MC "(I wonder if I’ll be able to cum here before she wakes up. I might as well give it a shot and see how far I get!)"
     scene Ce_NV_pussy_p13
     MC "Ooohh… That’s the spot…"
+    scene Ce_NV_pussy_p13anim
     Celia "Mmm hmm…. Zzz…"
     MC "Ahh…"
     scene Ce_NV_pussy_p14
@@ -328,6 +343,7 @@ label Ce_NV_tits:
     Celia "Zzz..."
     scene Ce_NV_tits_p8
     MC "(Oh yeah! That’s perfect!)"
+    scene Ce_NV_tits_p8anim
     Celia "Mmm… Zzz…"
     scene Ce_NV_tits_p9
     MC "(Look at that! They spring back perfectly!)"

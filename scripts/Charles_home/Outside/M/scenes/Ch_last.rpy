@@ -32,7 +32,7 @@ label Ch_last_scene:
     Charles "AHHHMMMMMMM!! HMMMM!!!"
 
     scene Ch_last_p3
-    Bodyguard2 "Shut up and get your arse in the fecking car, fella! Yer making this far more difficult that it has to be!"
+    Bodyguard2 "Shut up and get your arse in the fecking car, fella! Yer making this far more difficult than it has to be!"
     MC "(Holy shit, is Charles getting kidnapped?!)"
     MC "(Shit, I better hide.)"
 
@@ -74,8 +74,8 @@ label Ch_last_scene:
     scene Ch_last_p11
     "*Clunk*"
     Bodyguard2 "Yeh never feel any guilt doing that, gaffer?"
-    Bodyguard1 "Sometimes. This one was an especially… nasty subject though. He had a long history of domestic violence according to the boss."
-    Bodyguard2 "Ugh, fuckin’ nonce. Y’know, if this was back in Belfast we’d ‘ave taken the wee shite out into an alley and just done his kneecaps in."
+    Bodyguard1 "Sometimes. This one was an especially… nasty subject though. He had a long history of domestic violence, according to the boss."
+    Bodyguard2 "Ugh, fuckin’ nonce. Y’know, if this was back in Belfast, we’d save taken the wee shite out into an alley and just done his kneecaps in."
     Bodyguard1 "True. The boss wants this one dead though. Now, let’s take this to the usual burial spot."
     Bodyguard2 "Aye, gaffer."
 

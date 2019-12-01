@@ -1,8 +1,4 @@
 
-
-
-
-
 image Climbing1 = "images/ClimbingMinigame/1.jpg"
 image Climbing2 = "images/ClimbingMinigame/2.jpg"
 image Climbing3 = "images/ClimbingMinigame/3.jpg"
@@ -36,7 +32,7 @@ default climb_spot_value = 0
 default climb_spot_value2 = 0
 default can_climb_bar_loop = True
 default LastClimbHand = "N"
-
+default can2_LiR1_NS = True
 default climb_w = 0
 default climb_l = 0
 label Climbing_start0:

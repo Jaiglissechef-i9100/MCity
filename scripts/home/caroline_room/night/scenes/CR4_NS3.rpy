@@ -124,7 +124,7 @@ label CR4_NS3:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music1", loop=True, fadein = 2)
         scene CR4_NS3_doggy_p1 with dissolve
-        MC "(Caroline said to come over night… but I can’t see her anywhere.)"
+        MC "(Caroline said to come over at night… but I can’t see her anywhere.)"
         MC "(Maybe she skipped out to the bathroom?)"
         MC "(I guess I should just wait here for her.)"
 
@@ -155,12 +155,12 @@ label CR4_NS3:
 
         scene CR4_NS3_doggy_p7
         Caroline "I’ve been busy thinking about all the dirty things I’m going to do with you."
-        Caroline "And it’s left me hot and wet all damn day."
+        Caroline "And it’s left me hot and wet, all damn day."
         MC "Well, that certainly sounds like something I can help out with."
 
         scene CR4_NS3_doggy_p8
         Caroline "Mmm, hard already."
-        MC "What have you got planned for tonight then?"
+        MC "What have you got planned for tonight, then?"
         Caroline "Well, I was thinking…"
 
         scene CR4_NS3_doggy_p9
@@ -262,7 +262,7 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_doggy_p25
                     Caroline "MMMM! Yesss…. Spank me!"
-                    Caroline "I’m such a bad girl; spank me harder!"
+                    Caroline "I’m been such a bad girl; spank me harder!"
                     MC "(Huh, I never guessed Caroline would have been into this kind of thing!)"
 
                     scene CR4_NS3_doggy_p26
@@ -270,7 +270,7 @@ label CR4_NS3_menu:
                     Caroline "Eek!"
                     "*SLAP*"
                     Caroline "Ohhh!"
-                    "*SLAP8"
+                    "*SLAP*"
                     Caroline "Ahhhh! Fuck! Yes!"
 
                     scene CR4_NS3_doggy_p27
@@ -304,13 +304,13 @@ label CR4_NS3_menu:
                     MC "I’m going to destroy your pussy right now!"
 
                     scene CR4_NS3_doggy_p33
-                    Caroline "Ohhh! Oh my God! *GASP* Yes!"
+                    Caroline "Ohhh! Oh, my God! *GASP* Yes!"
                     Caroline "Destroy my slutty little pussy! YES! Ahhhhhh!"
                     Caroline "I’m cummmmmiiing! I’m cumming again! AHHH"
 
                     scene CR4_NS3_doggy_p34
                     MC "Hnnnggg… I’m cumming too! Ugh!"
-                    Caroline "Yes! Cum inisde me, [player_name]!"
+                    Caroline "Yes! Cum inside me, [player_name]!"
 
                     scene CR4_NS3_doggy_p35
                     Caroline "AHHHHH!"
@@ -336,8 +336,8 @@ label CR4_NS3_menu:
 
                             scene CR4_NS3_doggy_p38
                             Caroline "*Pant* Oh W-wow… That was… fucking amazing. *Gasp*"
-                            MC "Sorry, Caroline. I hope I didn’t go too hard there with the slapping and hair pulling."
-                            if renpy.loadable("patch.rpy"):
+                            MC "Sorry, Caroline. I hope I didn’t go too hard there; with the slapping and hair pulling."
+                            if persistent.incest_patch == True:
                                 Caroline "N-No… it was *pant* perfect… You’re the best brother I could ever ask for..."
                             else:
                                 Caroline "N-No… it was *pant* perfect… You’re the best, [player_name]."
@@ -350,7 +350,7 @@ label CR4_NS3_menu:
 
                             scene CR4_NS3_doggy_p37
                             MC "Hnnngg… I’m gonna cum!"
-                            MC "(I better play it safe and pull out. No sense in cumming inside her without a condom on!)"
+                            MC "(I better play it safe, and pull out. No sense in cumming inside her without a condom on!)"
                             Caroline "Ah ahhh! Ohhh!"
 
                             scene CR4_NS3_doggy_p37a
@@ -470,7 +470,7 @@ label CR4_NS3_menu:
                     MC "I’m going to destroy this tight asshole of yours. I’m gonna fuck you so hard and pump all my cum deep inside you!"
 
                     scene CR4_NS3_doggy_p33
-                    Caroline "Ohhh! Oh my God! *GASP* Yes!"
+                    Caroline "Ohhh! Oh, my God! *GASP* Yes!"
                     Caroline "Fuck my ass! Fuck my silly! YES! Ahhhhhh!"
                     Caroline "I’m cummmmmiiing! I’m cumming again! AHHH "
 
@@ -559,7 +559,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_cow_pussy_p2
                     MC "Mmm…"
                     Caroline "Oh fuck, that’s the spot! Mmm!"
-                    Caroline "Ah, go ahead and fuck me [player_name]!"
+                    Caroline "Ah, go ahead and fuck me, [player_name]!"
 
                     scene CR4_NS3_cow_pussy_p3
                     Caroline "Ah! Yes! Mmm!"
@@ -573,7 +573,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_cow_pussy_p5
                     Caroline "Ah! Ahh! Ohh!"
                     MC "Mmmm! Fuck! That’s good!"
-                    Caroline "Oh my God! Yes!"
+                    Caroline "Oh, my God! Yes!"
 
                     scene CR4_NS3_cow_pussy_p6
                     MC "Ride my cock, Caroline! Yes!"
@@ -673,11 +673,11 @@ label CR4_NS3_menu:
                             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
                             $ can_hide_windows = False
                             jump corridor_morning1
-                        "Get on your knees, I’ll cum on your face.":
+                        "Get on your knees. I’ll cum on your face.":
 
 
                             scene CR4_NS3_cow_pussy_p20
-                            MC "Get on your knees, I’ll cum over your face."
+                            MC "Get on your knees. I’ll cum over your face."
                             Caroline "Okay, two seconds."
 
                             scene CR4_NS3_cow_pussy_p23b
@@ -720,7 +720,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_cow_anal_p5
                     Caroline "Ah! Ahh! Ohh!"
                     MC "Mmmm! Fuck! That’s good!"
-                    Caroline "Oh my God! Yes!"
+                    Caroline "Oh, my God! Yes!"
 
                     scene CR4_NS3_cow_anal_p6
                     MC "Ride my cock, Caroline! Yes!"
@@ -728,7 +728,7 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_cow_anal_p7
                     Caroline "Ooohhh…"
-                    Caroline "(Holy fuck, his cock went so deep inside my ass… that feels… strangely pleasurable.)"
+                    Caroline "(Holy fuck, his cock went so deep inside my ass… That feels… strangely pleasurable.)"
                     MC "Don’t stop, Caroline!"
 
                     scene CR4_NS3_cow_anal_p8
@@ -821,11 +821,11 @@ label CR4_NS3_menu:
                             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
                             $ can_hide_windows = False
                             jump corridor_morning1
-                        "Get on your knees, I’ll cum on your face.":
+                        "Get on your knees. I’ll cum on your face.":
 
 
                             scene CR4_NS3_cow_anal_p20
-                            MC "Get on your knees, I’ll cum over your face."
+                            MC "Get on your knees. I’ll cum over your face."
                             Caroline "Okay, two seconds."
 
                             scene CR4_NS3_cow_anal_p23b

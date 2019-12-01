@@ -8,7 +8,8 @@ init -1 python:
     item = None
     nsb = None
     outfit = None
-    nsb1 = None 
+    nsb1 = None
+
     def item_use():
         item.use()
 

@@ -208,7 +208,7 @@ label LiR1_NS1_label:
         Yazmin "Mmm..."
         Yazmin "(She says she hates cocks, but she always - cums the hardest - when she gets fucked by a strap-on. There’s no way I could ever make her do that, with my fingers.)"
         Liza2 "Mmm!"
-        MC "(Okay, it looks like they’re finishing, for the night. I should probably slip away now, in case [Liza2_name] opens her eyes and spots me leering at them!."
+        MC "(Okay, it looks like they’re finishing, for the night. I should probably slip away now, in case [Liza2_name] opens her eyes and spots me leering at them!"
 
         $ LiR1_NS1 = False
         $ can_LiR1_NS = False
@@ -224,5 +224,6 @@ label LiR1_NS1_label:
     else:
 
         scene LiR1_NS1_sleeping with dissolve
+        $ can_LiR1_NS = False
         MC "Hmm... They're sleeping."
         jump a_home_outside_M1

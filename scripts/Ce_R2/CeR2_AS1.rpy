@@ -15,11 +15,16 @@ image CeR2_AS1_p14 = "images/CeR2/AS1/14.jpg"
 image CeR2_AS1_p15 = "images/CeR2/AS1/15.jpg"
 image CeR2_AS1_p16 = "images/CeR2/AS1/16.jpg"
 image CeR2_AS1_p17 = "images/CeR2/AS1/17.jpg"
+image CeR2_AS1_p17anim = Movie(play="videos/06 Celia AS1-2.webm", loop = True )
 image CeR2_AS1_p18 = "images/CeR2/AS1/18.jpg"
+image CeR2_AS1_p18anim = Movie(play="videos/06 Celia AS1-1.webm", loop = True )
 image CeR2_AS1_p19 = "images/CeR2/AS1/19.jpg"
 image CeR2_AS1_p20 = "images/CeR2/AS1/20.jpg"
+image CeR2_AS1_p20anim = Movie(play="videos/06 Celia AS1-3.webm", loop = True )
 image CeR2_AS1_p21 = "images/CeR2/AS1/21.jpg"
 image CeR2_AS1_p22 = "images/CeR2/AS1/22.jpg"
+image CeR2_AS1_p22anim = Movie(play="videos/06 Celia AS1-4.webm", loop = True )
+image CeR2_AS1_p22anim2 = Movie(play="videos/06 Celia AS1-4a.webm", loop = True )
 image CeR2_AS1_p23 = "images/CeR2/AS1/23.jpg"
 image CeR2_AS1_p24 = "images/CeR2/AS1/24.jpg"
 image CeR2_AS1_p25 = "images/CeR2/AS1/25.jpg"
@@ -28,8 +33,12 @@ image CeR2_AS1_p27 = "images/CeR2/AS1/27.jpg"
 image CeR2_AS1_p28 = "images/CeR2/AS1/28.jpg"
 image CeR2_AS1_p29 = "images/CeR2/AS1/29.jpg"
 image CeR2_AS1_p30 = "images/CeR2/AS1/30.jpg"
+image CeR2_AS1_p30anim = Movie(play="videos/06 Celia AS1-5.webm", loop = True )
 image CeR2_AS1_p31 = "images/CeR2/AS1/31.jpg"
+image CeR2_AS1_p31anim = Movie(play="videos/06 Celia AS1-5a.webm", loop = True )
 image CeR2_AS1_p32 = "images/CeR2/AS1/32.jpg"
+image CeR2_AS1_p32anim = Movie(play="videos/06 Celia AS1-6.webm", loop = True )
+image CeR2_AS1_p32anim2 = Movie(play="videos/06 Celia AS1-6a.webm", loop = True )
 image CeR2_AS1_p33 = "images/CeR2/AS1/33.jpg"
 image CeR2_AS1_p34 = "images/CeR2/AS1/34.jpg"
 image CeR2_AS1_p35 = "images/CeR2/AS1/35.jpg"
@@ -113,9 +122,11 @@ label CeR2_AS1_lab:
     MC "(Fuck, this feels so good!)"
     scene CeR2_AS1_p17
     Celia "(I better make sure I give a good blowjob here. I don’t want this asshole going back and saying I didn’t give good head.)"
+    scene CeR2_AS1_p17anim
     Celia "*Lick*"
     scene CeR2_AS1_p18
     MC "Ohh… Ah…"
+    scene CeR2_AS1_p18anim with dissolve
     MC "(Her tongue feels so good flicking up and down the side of my cock.)"
     Celia "*Slurp*"
     scene CeR2_AS1_p19
@@ -123,6 +134,7 @@ label CeR2_AS1_lab:
     Celia "*Shluurrrp*"
     scene CeR2_AS1_p20
     Celia "Mmppfff!"
+    scene CeR2_AS1_p20anim
     Celia "*Suuucccck*"
     MC "Ah…. "
     scene CeR2_AS1_p21
@@ -132,9 +144,11 @@ label CeR2_AS1_lab:
     MC "(Damn, it’s a struggle not to moan!)"
     scene CeR2_AS1_p22
     MC "(I really want to beg her to move her head more quickly, but I can’t or I’ll give myself away.)"
+    scene CeR2_AS1_p22anim
     MC "(Even though she’s the one being blackmailed, for the next few minutes I’m at HER mercy!)"
-    scene CeR2_AS1_p23
+    scene CeR2_AS1_p22anim2
     Celia "*Shlurp* *Suck*"
+    scene CeR2_AS1_p23
     Celia "(I’m giving this all I can! The sooner I get this bastard to cum, the sooner I can move on with my day!)"
     Celia "(I guess I’ll just have to suck extra hard. Let’s see if that gets a reaction out of him!)"
     scene CeR2_AS1_p24
@@ -161,17 +175,21 @@ label CeR2_AS1_lab:
     scene CeR2_AS1_p30
 
     MC "Ohh…"
+    scene CeR2_AS1_p30anim with dissolve
     MC "(Ahh, there she is. I wonder why she stopped for a minute there.)"
     MC "(Maybe she was just-)"
     scene CeR2_AS1_p31
     MC "Hnnnggg!"
+    scene CeR2_AS1_p31anim
     Celia "*SHLUUURRRRP*"
     MC "(HOLY FUCK! God, she’s deepthroating me! Her throat is so damn tight around my cock!)"
     Celia "*GAG*"
 
     scene CeR2_AS1_p32
     Celia "(I KNEW that would work!)"
+    scene CeR2_AS1_p32anim
     Celia "*SUCK SHLURP* "
+    scene CeR2_AS1_p32anim with dissolve
     Celia "*GAG*"
     scene CeR2_AS1_p33
     MC "(Oh fuck! OH FUCK!)"

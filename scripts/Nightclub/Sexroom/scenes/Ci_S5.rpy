@@ -11,13 +11,18 @@ image Ci_S5_blow_p1 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/1.jpg"
 image Ci_S5_blow_p2 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/2.jpg"
 image Ci_S5_blow_p3 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/3.jpg"
 image Ci_S5_blow_p4 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/4.jpg"
+image Ci_S5_blow_p4anim = Movie(play="videos/06 Cindy N-1.webm", loop = True )
 image Ci_S5_blow_p5 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/5.jpg"
 image Ci_S5_blow_p6 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/6.jpg"
 image Ci_S5_blow_p7 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/7.jpg"
 image Ci_S5_blow_p8 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/8.jpg"
+image Ci_S5_blow_p8anim = Movie(play="videos/06 Cindy N-2.webm", loop = True )
+image Ci_S5_blow_p8anim2 = Movie(play="videos/06 Cindy N-2a.webm", loop = True )
 image Ci_S5_blow_p9 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/9.jpg"
+image Ci_S5_blow_p9anim = Movie(play="videos/06 Cindy N-3.webm", loop = True )
 image Ci_S5_blow_p10 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/10.jpg"
 image Ci_S5_blow_p11 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/11.jpg"
+image Ci_S5_blow_p11anim = Movie(play="videos/06 Cindy N-4.webm", loop = True )
 image Ci_S5_blow_p12 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/12.jpg"
 image Ci_S5_blow_p13 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/13.jpg"
 image Ci_S5_blow_p14 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/14.jpg"
@@ -26,6 +31,7 @@ image Ci_S5_blow_p16 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/16.jpg"
 image Ci_S5_blow_p17 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/17.jpg"
 image Ci_S5_blow_p18 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/18.jpg"
 image Ci_S5_blow_p19 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/19.jpg"
+image Ci_S5_blow_p19anim = Movie(play="videos/06 Cindy N-5.webm", loop = True )
 image Ci_S5_blow_p20 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/20.jpg"
 image Ci_S5_blow_p21 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/21.jpg"
 image Ci_S5_blow_p22 = "images/Nightclub/S_room/Scenes/Cindy_S5/Blowjob/22.jpg"
@@ -44,7 +50,7 @@ label Ci_S5_lab:
 
     scene Ci_S5_p1 with dissolve
 
-    MC "Hey Cindy, how are you keeping?"
+    MC "Hey, Cindy. How are you keeping?"
     MC "(I wonder where she stores all those lollies. She seems to have an unlimited supply of the damn things!)"
 
     scene Ci_S5_p2
@@ -54,14 +60,14 @@ label Ci_S5_lab:
     scene Ci_S5_p3
     Cindy "Hey there, baby. I’m kinda stuck back here. Feeling a bit shit, not gonna lie."
     MC "How’s the cheek?"
-    Cindy "I owe the Boss $1000 for the pink box of joints you stole. The cheek he slapped isn’t my biggest concern right now."
+    Cindy "I owe the Boss $1000 for the pink box of joints YOU stole. The cheek he slapped, isn’t my biggest concern right now."
     MC "WHAT?! You’re STILL blaming me for that?!"
 
     scene Ci_S5_p4
-    Cindy "Hehe, I’m just teasing you baby. I’ve cooled off, it was my fault."
+    Cindy "Hehe, I’m just teasing you, baby. I’ve cooled off. It was my fault."
     Cindy "Say, how do you fancy a blowjob? Only $1000."
-    MC "WHAT?! For that price I’d expect a glass of champagne to sip when you’re sucking me off."
-    Cindy "Meh. No grand, no blowjob. It’s the only way I’m getting out of here, baby."
+    MC "WHAT?! For that price I’d expect a glass of champagne to sip, while you’re sucking me off."
+    Cindy "Meh. No grand; no blowjob. It’s the only way I’m getting out of here, baby."
 
     menu:
         "That’s FAR too expensive. No thanks.":
@@ -89,7 +95,7 @@ label Ci_S5_lab:
 
             jump nc_sexroom_N
 
-        "{color=#f00}It’s a deal! (required 1000$){/color} (disabled)" if inventory.money < 1000:
+        "{color=#f00}It’s a deal! (required $1000){/color} (disabled)" if inventory.money < 1000:
             jump nc_sexroom_N
 
         "{color=#00ff00}It’s a deal!{/color}" if inventory.money >= 1000:
@@ -117,7 +123,7 @@ label Ci_S5_lab:
 
             scene Ci_S5_blow_p2
             Cindy "You’ve got a really big dick, baby!"
-            Cindy "I can’t wait to make you squirm as I suck your balls dry!"
+            Cindy "I can’t wait to make you squirm, as I suck your balls dry!"
 
             scene Ci_S5_blow_p3
             Cindy "Mmm… *Suck Suck*"
@@ -126,6 +132,7 @@ label Ci_S5_lab:
 
             scene Ci_S5_blow_p4
             Cindy "*Suuuuccck*"
+            scene Ci_S5_blow_p4anim
             MC "Ahhh… Mmm!"
 
             scene Ci_S5_blow_p5
@@ -143,11 +150,14 @@ label Ci_S5_lab:
 
             scene Ci_S5_blow_p8
             Cindy "*Suck*"
+            scene Ci_S5_blow_p8anim
             MC "Mmm! Holy fuck…"
+            scene Ci_S5_blow_p8anim2
             MC "(Her mouth is so warm and wet!)"
 
             scene Ci_S5_blow_p9
             MC "(I’ve paid so much, I think I have a right to a little more than just some head bobbing.)"
+            scene Ci_S5_blow_p9anim
             Cindy "Nmmpff?!"
             MC "I hope you’ve done deepthroat before, Cindy."
 
@@ -159,6 +169,7 @@ label Ci_S5_lab:
             scene Ci_S5_blow_p11
             MC "Mmm!"
             Cindy "*GAG* *SUUUCCCK*"
+            scene Ci_S5_blow_p11anim
             MC "Ahhh… Yes!"
 
             scene Ci_S5_blow_p12
@@ -178,12 +189,12 @@ label Ci_S5_lab:
 
             scene Ci_S5_blow_p15
             Cindy "*SHLURP SUCK SHLURP*"
-            MC "Mmm! Yes! Suck my cock you fucking slut! Ahh!"
+            MC "Mmm! Yes! Suck my cock, you fucking slut! Ahh!"
             Cindy "*SUCK SUCK*"
 
             scene Ci_S5_blow_p16
             Cindy "(Oh God, his cock is slipping right down my throat! I can barely breathe!)"
-            MC "I’m gonna fill up your slutty little mouth with my cum - and you’re doing to swallow it all!"
+            MC "I’m gonna fill up your slutty little mouth with my cum - and you’re going to swallow it all!"
             Cindy "*SHLURP*"
 
             scene Ci_S5_blow_p17
@@ -198,12 +209,13 @@ label Ci_S5_lab:
             scene Ci_S5_blow_p19
             Cindy "NNMPPFFFF! MMMMMMMPPF!!"
             Cindy "*GAG* *SPLUTTER*"
+            scene Ci_S5_blow_p19anim
             MC "Mmm! Choke on it! Ugh!"
 
             scene Ci_S5_blow_p20
             MC "Hnnnnng! Ahh! Yes!"
             MC "(Her throat is so tight! I can feel it wrapped around my glans right now!)"
-            MC "(There’s vibrations every time she moans!)"
+            MC "(There’s vibrations, every time she moans!)"
 
             scene Ci_S5_blow_p21
             MC "Oh yeah! I’m cumming! HHNNNNNGGG!"
@@ -227,12 +239,12 @@ label Ci_S5_lab:
             Cindy "*Cough Cough*"
             MC "*Pant* That was *pant* amazing."
             Cindy "*Cough* For you maybe! You asshole. You didn’t have to be so rough!"
-            MC "*Sigh* Sorry, I’ll head on now."
+            MC "*Sigh* Sorry. I’ll head on now."
 
             scene Ci_S5_blow_p24
             Cindy "(Wow… that was so intense!)"
             Cindy "(I just wish he had grabbed my piggy tails.)"
-            Cindy "(I’m already gushing like a fountain down there! If he was any rougher I would have probably let him pound my ass!)"
+            Cindy "(I’m already gushing like a fountain down there! If he was any rougher, I would have probably let him pound my ass!)"
 
 
             $ renpy.music.stop(channel="music2", fadeout=1)

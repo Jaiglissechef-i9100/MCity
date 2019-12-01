@@ -46,13 +46,13 @@ label CR4_AS2_label:
         scene CR4_AS2_p2
 
         Charles "I ain’t leaving here without that money!"
-        Caroline "Okay, two points Charles. First of all, you’re not getting a single penny of my money; and secondly, if you refuse to leave I’m going to call the cops."
+        Caroline "Okay, two points, Charles: First of all, you’re not getting a single penny of my money; and secondly, if you refuse to leave I’m going to call the cops."
         MC "(What the hell have I walked in on?)"
 
         scene CR4_AS2_p3
 
         Charles "Listen here, you bitch. That nightclub owner is after me for causing damage to their bar."
-        Charles "If I don’t come up with two grand by the end of the week they’ve threatened to take me to court!"
+        Charles "If I don’t come up with two grand by the end of the week, they’ve threatened to take me to court!"
         Caroline "Tough shit! Not my problem!"
 
         scene CR4_AS2_p4
@@ -70,7 +70,7 @@ label CR4_AS2_label:
 
         scene CR4_AS2_p6
 
-        Caroline "Now, get the fuck out of my shop before I shove a wooden pole up your ass and use you as a mannequin to display my clothes!"
+        Caroline "Now, get the fuck out of my shop, before I shove a wooden pole up your ass and use you as a mannequin to display my clothes!"
         Charles "Grr…"
         Charles "(I’ll get that money out of you yet, you ignorant bitch!)"
 
@@ -108,15 +108,15 @@ label CR4_AS2_label:
 
         scene CR4_AS2_p12
 
-        Caroline "And what good would that do?! They’d close my business down for a day or two while they gather evidence!"
+        Caroline "And what good would that do?! They’d close my business down for a day or two, while they gather evidence!"
         Caroline "I’d probably end up LOSING more revenue than Charles wanted off me in the first place!"
-        MC "O-Okay! How about we calm down and talk about this to see what we can do?"
+        MC "O-Okay! How about we calm down and talk about this, to see what we can do?"
         Caroline "I am calm!"
         MC "Umm… Your fist?"
 
         scene CR4_AS2_p13
 
-        Caroline "Shit… Sorry! I was still caught up in the moment there. That asshole just set me on edge."
+        Caroline "Shit… Sorry! I was still caught up in the moment, there. That asshole just set me on edge."
         MC "Relax, Caroline. I understand. It’s okay."
         MC "What can I do to help?"
 
@@ -134,7 +134,7 @@ label CR4_AS2_label:
 
         scene CR4_AS2_p16
 
-        MC "Well… if you need anything can you at LEAST promise to call me?"
+        MC "Well… if you need anything can you AT LEAST promise to call me?"
         Caroline "I’ll be fine."
         MC "Please? I don’t want you dealing with this dickhead by yourself. I mean… what if he attacked you or tried to rape you in here?!"
 

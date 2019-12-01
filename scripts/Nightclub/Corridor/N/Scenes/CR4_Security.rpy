@@ -107,9 +107,9 @@ label CR4_sceurity_lab:
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
 
         scene CR4_sceurity2_p1 with dissolve
-        Bodyguard1 "*Groan* Look who it is again; I already told ya, kid. No password, no entry."
+        Bodyguard1 "*Groan* Look who it is again - I already told you, kid: No password; no entry."
         Bodyguard1 "Stop wasting my time and go back onto the dancefloor."
-        Bodyguard1 "If you got a complaint about the establishment then raise it with the bartender .Okay?"
+        Bodyguard1 "If you got a complaint about the estabilshment then raise it with the bartender, okay?"
 
         scene CR4_sceurity2_p2
         MC "Truth."
@@ -140,7 +140,7 @@ label CR4_sceurity_lab:
         Bodyguard1 "That’s a yes from the Boss. He’s content to meet you."
 
         scene CR4_sceurity2_p7
-        Bodyguard1 "Usual rules apply, no touching him, no sudden moves, and we’ll be right here at the door just in case you try anything funny."
+        Bodyguard1 "Usual rules apply: no touching him, no sudden moves, and we’ll be right here at the door just in case you try anything funny."
         MC "Seriously? You’re letting me in now? This isn’t you pulling my leg?"
 
         scene CR4_sceurity2_p8
@@ -154,7 +154,7 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p10
         MC "*Ahem* Did a guy named Charles give you a necklace a few days ago?"
-        MC "It’s a very precious piece of family memorabilia. It was stolen from."
+        MC "It’s a very precious piece of family memorabilia. It was stolen from someone."
 
         scene CR4_sceurity2_p11
         Cindy "Hush, baby. You’re yabbering WAY too much."
@@ -169,7 +169,7 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p13
         Headmaster "Why, hello - if it isn’t Iron Cajones himself."
-        Headmaster "I see you’re still making your mark in the world after trying to ask out Ms Celia."
+        Headmaster "I see you’re still making your mark in the world after trying to ask out Ms. Celia."
 
         scene CR4_sceurity2_p14
         MC "Wh-What are you doing here?!"
@@ -206,8 +206,8 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p20
         Cindy "H-Hey! No need to stand up or anything, b-baby!"
-        Cindy "We’re cool! We cool? Right?"
-        Headmaster "We. Are. Not.Cool."
+        Cindy "We’re cool! We cool, right?"
+        Headmaster "We. Are. Not. Cool."
 
         scene CR4_sceurity2_p21
         "*SLAP*"
@@ -227,12 +227,12 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p25
         Bodyguard1 "Sure thing, boss!"
-        Bodyguard1 "Can I just add that you look fantastic in that suit, sir!"
-        Headmaster "Stop trying to get into my pants and just take her away."
+        Bodyguard1 "Can I just add, that you look fantastic in that suit, sir!"
+        Headmaster "Stop trying to get into my pants, and just take her away."
         Bodyguard1 "Sorry, sir. Yes, sir."
 
         scene CR4_sceurity2_p26
-        Cindy "HEEEYYY! Put me down you big meanie!"
+        Cindy "HEEEYYY! Put me down, you big meanie!"
         Headmaster "Apologies for this, [player_name]. This must seem very unprofessional of me."
         MC "It’s… alright."
 
@@ -240,7 +240,7 @@ label CR4_sceurity_lab:
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
 
         scene CR4_sceurity2_p27
-        Headmaster "That silly girl… if she'd only waited she would have gotten those joints anyway. I was going to give them to her, for her birthday."
+        Headmaster "That silly girl… If she'd only waited she would have gotten those joints anyway. I was going to give them to her, for her birthday."
         Cindy "What?! Are you SERIOUS?! I went through all that effort for nothing!?"
         MC "Err…"
 
@@ -256,7 +256,7 @@ label CR4_sceurity_lab:
         scene CR4_sceurity2_p30
         Headmaster "Did you watch how I handled that, [player_name]?"
         Headmaster "That is how you command respect. That bitch will serve her time and repay her debt."
-        Headmaster "When she gets out she’ll understand the value of loyalty. She’ll respect me."
+        Headmaster "When she gets out, she’ll understand the value of loyalty. She’ll respect me."
 
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Danger Storm.mp3', channel="music1", loop=True, fadein = 2)
@@ -268,12 +268,12 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p33
         Headmaster "Tell me your story, [player_name]. Entertain me."
-        MC "Right… A while ago Charles busted up your club. He owed you money."
+        MC "Right… A while ago, Charles busted up your club. He owed you money."
         Headmaster "Yes. Go on?"
 
         scene CR4_sceurity2_p34
-        MC "Charles couldn’t afford to pay it. He attacked someone very close to me and stole a necklace their grandma gave them."
-        MC "I have heard rumours he gave it to you to repay his debt."
+        MC "Charles couldn’t afford to pay it. He attacked someone very close to me and stole a necklace that's a family heirloom."
+        MC "I have heard rumours, he gave it to you to repay his debt."
 
         scene CR4_sceurity2_p35
         MC "She’s devastated over the loss of it. I just… want it back for her."
@@ -282,7 +282,7 @@ label CR4_sceurity_lab:
         scene CR4_sceurity2_p36
         Headmaster "I do."
         MC "You have it?! Are you sure it’s the right necklace?"
-        Headmaster "It’s not often people bring me beautiful antique necklaces."
+        Headmaster "It’s not often, people bring me beautiful antique necklaces."
 
         scene CR4_sceurity2_p37
         Headmaster "It did cost me a lot of money though. I accepted this as payment in lieu of the damage."
@@ -291,7 +291,7 @@ label CR4_sceurity_lab:
 
         scene CR4_sceurity2_p38
         Headmaster "You told me that the one who stole the necklace was the same person who damaged my nightclub. Is that true?"
-        MC "Yes. It is. Charles. He’s about a foot taller than me, brown hair, looks like every frat boy ever."
+        MC "Yes. It is. Charles: he’s about a foot taller than me, brown hair, looks like every frat boy ever."
         Headmaster "Do me a favour - check the monitors for me. Find this Charles chap. If the security cameras corroborate this young man’s story, then we will return the necklace."
         Bodyguard1 "Yes, sir!"
 

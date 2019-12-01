@@ -37,12 +37,12 @@ label CeR2_sex_shop_lab:
     if CeR2_dildo_buy == 1:
         scene CeR2_sex_shop_p1
         S "Hey there, need any help finding something?"
-        MC "Hi, yes actually. It’s a bit of a weird one though."
-        S "Haha, don’t worry honey. Three years working in this store and I’ve heard them all."
+        MC "Hi. Yes actually. It’s a bit of a weird one though."
+        S "Haha, don’t worry, honey. Three years working in this store, and I’ve heard them all."
 
         scene CeR2_sex_shop_p2
         MC "I’m looking for a dildo for-"
-        S "a guy?"
+        S "A guy?"
         MC "No, a girl!"
 
         scene CeR2_sex_shop_p3
@@ -61,7 +61,7 @@ label CeR2_sex_shop_lab:
         S "Ahh… Why didn’t you just say?"
 
         scene CeR2_sex_shop_p4
-        S "Give me a few minutes, I’ll check our stock for you and see what I can find."
+        S "Give me a few minutes. I’ll check our stock for you and see what I can find."
         MC "Thank you."
         MC "(Christ, I thought she’d NEVER shut up!)"
 
@@ -69,7 +69,7 @@ label CeR2_sex_shop_lab:
         S "I gotta admit, it’s not something I get asked about every day."
         S "If I don’t have it in stock, then I can certainly order it in for you."
         scene CeR2_sex_shop_p6
-        MC "Thanks, appreciate it!"
+        MC "Thanks. Appreciate it!"
         S "I won’t be a moment!"
 
         scene CeR2_sex_shop_p7
@@ -89,7 +89,7 @@ label CeR2_sex_shop_lab:
         S "Where the fuck did you just fucking stick me, you little bitch? I’ll have you know I graduated top of my class in the sex toy tests, as well as being involved in numerous human rights violations, and I have over 300 confirmed orgasms."
         MC "Is this seriously how they are trying to advertise their product?"
         S "Shush, I’m not done yet."
-        S "I am trained in anal warfare and I’m the top dildo in the entire US armed forces. You are nothing to me but just another hole. I will fuck you with force the likes of which has never been seen before on this Earth, mark my fucking words."
+        S "I am trained in anal warfare and I’m the top dildo in the entire US armed forces. You are nothing to me but just another hole. I will fuck you with force the likes of which has never been seen before on this Earth. Mark my fucking words."
         S "You think you can get away with only window shopping and not purchasing me? Think again, fucker. "
         S "As we speak I am being shipped across stores all over the USA, and your holes are being traced so you better prepare for the cumming storm, faggot. The storm that destroys that pretty little thing you call a pussy."
         MC "Are we almost there?"

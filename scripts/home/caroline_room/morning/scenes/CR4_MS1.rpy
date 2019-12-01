@@ -19,14 +19,19 @@ image CR4_MS1_blow_p1 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blow
 image CR4_MS1_blow_p2 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/2.jpg"
 image CR4_MS1_blow_p3 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/3.jpg"
 image CR4_MS1_blow_p4 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/4.jpg"
+image CR4_MS1_blow_p4anim = Movie(play="videos/06 Caroline MS1-1.webm", loop = True )
 image CR4_MS1_blow_p5 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/5.jpg"
 image CR4_MS1_blow_p6 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/6.jpg"
 image CR4_MS1_blow_p7 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/7.jpg"
+image CR4_MS1_blow_p7anim = Movie(play="videos/06 Caroline MS1-2.webm", loop = True )
 image CR4_MS1_blow_p8 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/8.jpg"
+image CR4_MS1_blow_p8anim = Movie(play="videos/06 Caroline MS1-3.webm", loop = True )
 image CR4_MS1_blow_p9 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/9.jpg"
 image CR4_MS1_blow_p10 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/10.jpg"
+image CR4_MS1_blow_p10anim = Movie(play="videos/06 Caroline MS1-4.webm", loop = True )
 image CR4_MS1_blow_p11 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/11.jpg"
 image CR4_MS1_blow_p12 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/12.jpg"
+image CR4_MS1_blow_p12anim = Movie(play="videos/06 Caroline MS1-5.webm", loop = True )
 image CR4_MS1_blow_p13 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/13.jpg"
 image CR4_MS1_blow_p14 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/14.jpg"
 image CR4_MS1_blow_p15 = "/images/home/caroline_room/morning/scenes/CR4_MS1//Blowjob/15.jpg"
@@ -58,7 +63,7 @@ label CR4_MS1_label:
 
 
         MC "(Holy shit! Those are the tightest booty shorts I’ve ever seen in my life!)"
-        MC "(Her ass looks fucking incredible. I wonder if she realises that herself.)"
+        MC "(Her ass looks fucking incredible. I wonder if she realises that, herself.)"
         MC "(She’s wearing a pair of high-heel shoes as well - she must have deliberately chosen to dress this sexily.)"
 
         scene CR4_MS1_p2
@@ -69,7 +74,7 @@ label CR4_MS1_label:
 
         scene CR4_MS1_p3
 
-        Caroline "Morning [player_name]. Sorry, I didn’t hear you come in there. I finished my makeup a few minutes ago. I WAS in the middle of tidying everything up, then I ended up getting distracted by this book. Haha!"
+        Caroline "Morning, [player_name]. Sorry, I didn’t hear you come in there. I finished my makeup a few minutes ago. I WAS in the middle of tidying everything up, then I ended up getting distracted by this book. Haha!"
         MC "Anything interesting?"
         Caroline "Investing for Dummies. I’m planning to reinvest my profits into the stock market. Or maybe open up another store in another city."
         MC "Oh, that sounds really good! Have you thought about expanding overseas?"
@@ -77,7 +82,7 @@ label CR4_MS1_label:
         scene CR4_MS1_p4
 
         Caroline "I’ve toyed with the idea. Perhaps the UK or Ireland. I might just be safer opening up another one over here."
-        Caroline "What was it you wanted me for by the way?"
+        Caroline "What was it you wanted me for, by the way?"
         MC "I got your text about organising a date sometime. I was wondering if tonight suited you?"
 
         scene CR4_MS1_p5
@@ -97,12 +102,12 @@ label CR4_MS1_label:
 
         MC "Sure, not a problem. I’ll catch you then. Where do you want to meet?"
         Caroline "I’m going to be at work, so would it be okay if you dropped by the store?"
-        MC "Of course, I’ll see you then."
+        MC "Of course. I’ll see you then."
 
         scene CR4_MS1_p8
 
         MC "Do I need to bring anything with me?"
-        Caroline "Don’t worry, you’ve been so good to me; I’ll take care of everything this time."
+        Caroline "Don’t worry. You’ve been so good to me; I’ll take care of everything this time."
         MC "Well, if you’re sure!"
 
         scene CR4_MS1_p9
@@ -129,7 +134,7 @@ label CR4_MS1_label:
                 MC "Awesome!"
 
                 jump CR4_MS1_blow
-            "No thanks, but maybe later on.":
+            "No thanks. But maybe later on.":
 
 
                 scene CR4_MS1_p9
@@ -147,7 +152,7 @@ label CR4_MS1_label:
                 scene CR4_MS1_p13
 
                 MC "(Caroline seems to have become much more intimate since becoming my girlfriend.)"
-                MC "(She’s warmer now - almost as if she’s finally letting her guard down. It certainly took her long enough, but with an ex boyfriend like Charles I can understand why she put up so many barriers.)"
+                MC "(She’s warmer now - almost as if she’s finally letting her guard down. It certainly took her long enough, but with an ex-boyfriend like Charles I can understand why she put up so many barriers.)"
                 Caroline "Y’know… you don’t have to call me Caroline all the time. If you’d prefer, you could just…"
                 MC "Yeah?"
                 Caroline "Nevermind, it’s silly."
@@ -197,6 +202,7 @@ label CR4_MS1_blow:
 
     Caroline "(Time to blow [player_name]’s mind!)"
     Caroline "*Shlurp*"
+    scene CR4_MS1_blow_p4anim with dissolve
     MC "Ohhh..."
 
     scene CR4_MS1_blow_p5
@@ -216,13 +222,15 @@ label CR4_MS1_blow:
 
     Caroline "Mmm hmm!"
     MC "Uhh, I guess that means, ‘yes’?"
+    scene CR4_MS1_blow_p7anim with dissolve
     Caroline "*Shlurp*"
 
     scene CR4_MS1_blow_p8
 
     Caroline "*SHHLLLURRRRP*"
+    scene CR4_MS1_blow_p8anim with dissolve
     MC "Oh yeah! Mmm! Deeper!"
-    Caroline "(Maybe I should just let [player_name] take control this time? If he’s not satisfied with my technique then he manage it himself!)"
+    Caroline "(Maybe I should just let [player_name] take control this time? If he’s not satisfied with my technique then he can direct me it himself!)"
 
     scene CR4_MS1_blow_p9
 
@@ -238,6 +246,7 @@ label CR4_MS1_blow:
 
     Caroline "GLLLUMPPFFF!!!"
     MC "Thanks, Caroline! This is gonna be awesome!"
+    scene CR4_MS1_blow_p10anim with dissolve
     Caroline "(Jesus, [player_name]! Give a girl a warning! Or at least let her finish her sentence!)"
 
     scene CR4_MS1_blow_p11
@@ -247,13 +256,13 @@ label CR4_MS1_blow:
     Caroline "*SHLURP* *SUCK*"
     MC "Mmm! Ahhhh! Yes! Ohhh!"
 
-    scene CR4_MS1_blow_p12
+    scene CR4_MS1_blow_p12anim
 
     menu:
-        "Fuck, that’s it! Suck on my cock you fucking slut!":
+        "Fuck, that’s it! Suck on my cock, you fucking slut!":
 
 
-            MC "Fuck, that’s it! Suck on my cock you fucking slut!"
+            MC "Fuck, that’s it! Suck on my cock, you fucking slut!"
             Caroline "MPPLFFFF!!!"
             MC "Ugh! Fuck! Ahh!"
 
@@ -306,7 +315,7 @@ label CR4_MS1_blow_con2:
 
     Caroline "Well, it certainly felt like you enjoyed facefucking me!"
     MC "It was the best! *Pant* I’m still catching my breath! Haha!"
-    Caroline "I’m glad you liked it; don’t forget to drop by the shop later on today to discuss our date."
+    Caroline "I’m glad you liked it. Don’t forget to drop by the shop later on today to discuss our date."
     MC "Oh yeah, I won’t. I’ll catch up with you in the afternoon."
 
 

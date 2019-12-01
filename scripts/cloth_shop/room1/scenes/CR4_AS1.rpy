@@ -64,7 +64,7 @@ label CR4_AS1_label:
         Caroline "Be careful with that coffee - it’s scalding!"
         MC "And still not as hot as you are!"
         Caroline "Very funny! Do you need any sugar?"
-        MC "I’ll be fine, thanks Caroline."
+        MC "I’ll be fine thanks, Caroline."
 
         scene CR4_AS1_p5
 
@@ -81,9 +81,9 @@ label CR4_AS1_label:
 
         scene CR4_AS1_p7
 
-        Caroline "No need to check with me - I hope you remember."
+        Caroline "No need to check with me - I hope you remembered."
         MC "Yeah, I do. Are we meeting there?"
-        Caroline "Yup, I thought that would be a nice place to start everything together. What do you think?"
+        Caroline "Yup. I thought that would be a nice place to start everything together. What do you think?"
 
         scene CR4_AS1_p8
 
@@ -122,6 +122,7 @@ label CR4_AS1_label:
 
         $ CR4_AS1 = 2
         $ CR4_NS1 = True
+        $ C_NS_locked = True
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False

@@ -19,9 +19,12 @@ image CR4_NS1_p18 = "images/home/mc_room/night/scenes/CR4_NS1/18.jpg"
 image CR4_NS1_p19 = "images/home/mc_room/night/scenes/CR4_NS1/19.jpg"
 image CR4_NS1_p20 = "images/home/mc_room/night/scenes/CR4_NS1/20.jpg"
 image CR4_NS1_p21 = "images/home/mc_room/night/scenes/CR4_NS1/21.jpg"
+image CR4_NS1_p21anim = Movie(play="videos/06 Caroline NS1-2.webm", loop = True )
 image CR4_NS1_p22 = "images/home/mc_room/night/scenes/CR4_NS1/22.jpg"
+image CR4_NS1_p22anim = Movie(play="videos/06 Caroline NS1-1.webm", loop = True )
 image CR4_NS1_p23 = "images/home/mc_room/night/scenes/CR4_NS1/23.jpg"
 image CR4_NS1_p24 = "images/home/mc_room/night/scenes/CR4_NS1/24.jpg"
+image CR4_NS1_p24anim = Movie(play="videos/06 Caroline NS1-3.webm", loop = True )
 image CR4_NS1_p25 = "images/home/mc_room/night/scenes/CR4_NS1/25.jpg"
 image CR4_NS1_p26 = "images/home/mc_room/night/scenes/CR4_NS1/26.jpg"
 image CR4_NS1_p27 = "images/home/mc_room/night/scenes/CR4_NS1/27.jpg"
@@ -30,10 +33,17 @@ image CR4_NS1_p29 = "images/home/mc_room/night/scenes/CR4_NS1/29.jpg"
 image CR4_NS1_p30 = "images/home/mc_room/night/scenes/CR4_NS1/30.jpg"
 image CR4_NS1_p31 = "images/home/mc_room/night/scenes/CR4_NS1/31.jpg"
 image CR4_NS1_p32 = "images/home/mc_room/night/scenes/CR4_NS1/32.jpg"
+image CR4_NS1_p32anim = Movie(play="videos/06 Caroline NS1-4.webm", loop = True )
 image CR4_NS1_p33 = "images/home/mc_room/night/scenes/CR4_NS1/33.jpg"
+image CR4_NS1_p33anim = Movie(play="videos/06 Caroline NS1-4a.webm", loop = True )
 image CR4_NS1_p34 = "images/home/mc_room/night/scenes/CR4_NS1/34.jpg"
+image CR4_NS1_p34anim = Movie(play="videos/06 Caroline NS1-5.webm", loop = True )
 image CR4_NS1_p35 = "images/home/mc_room/night/scenes/CR4_NS1/35.jpg"
+image CR4_NS1_p34aanim = Movie(play="videos/06 Caroline NS1-5a.webm", loop = True )
+image CR4_NS1_p35anim = Movie(play="videos/06 Caroline NS1-6.webm", loop = True )
+image CR4_NS1_p35aanim = Movie(play="videos/06 Caroline NS1-6a.webm", loop = True )
 image CR4_NS1_p36 = "images/home/mc_room/night/scenes/CR4_NS1/36.jpg"
+image CR4_NS1_p36anim = Movie(play="videos/06 Caroline NS1-7.webm", loop = True )
 image CR4_NS1_p36a = "images/home/mc_room/night/scenes/CR4_NS1/36a.jpg"
 image CR4_NS1_p37 = "images/home/mc_room/night/scenes/CR4_NS1/37.jpg"
 image CR4_NS1_p37a = "images/home/mc_room/night/scenes/CR4_NS1/37a.jpg"
@@ -75,21 +85,29 @@ image CR4_NS1_lake_p25 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/25.jpg"
 image CR4_NS1_lake_p26 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/26.jpg"
 image CR4_NS1_lake_p27 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/27.jpg"
 image CR4_NS1_lake_p28 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/28.jpg"
+image CR4_NS1_lake_p28anim = Movie(play="videos/06 Caroline NS1-Lake-1.webm", loop = True )
 image CR4_NS1_lake_p29 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/29.jpg"
 image CR4_NS1_lake_p30 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/30.jpg"
 image CR4_NS1_lake_p31 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/31.jpg"
 image CR4_NS1_lake_p32 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/32.jpg"
 image CR4_NS1_lake_p33 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/33.jpg"
+image CR4_NS1_lake_p33anim = Movie(play="videos/06 Caroline NS1-Lake-2.webm", loop = True )
 image CR4_NS1_lake_p34 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/34.jpg"
 image CR4_NS1_lake_p35 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/35.jpg"
 image CR4_NS1_lake_p36 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/36.jpg"
 image CR4_NS1_lake_p37 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/37.jpg"
 image CR4_NS1_lake_p38 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/38.jpg"
 image CR4_NS1_lake_p39 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/39.jpg"
+image CR4_NS1_lake_p39anim = Movie(play="videos/06 Caroline NS1-Lake-5.webm", loop = True )
 image CR4_NS1_lake_p40 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/40.jpg"
 image CR4_NS1_lake_p41 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/41.jpg"
 image CR4_NS1_lake_p42 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/42.jpg"
+image CR4_NS1_lake_p42anim = Movie(play="videos/06 Caroline NS1-Lake-6.webm", loop = True )
 image CR4_NS1_lake_p43 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/43.jpg"
+image CR4_NS1_lake_p43anim = Movie(play="videos/06 Caroline NS1-Lake-3.webm", loop = True )
+image CR4_NS1_lake_p43anim4 = Movie(play="videos/06 Caroline NS1-Lake-3a.webm", loop = True )
+image CR4_NS1_lake_p43anim2 = Movie(play="videos/06 Caroline NS1-Lake-4.webm", loop = True )
+image CR4_NS1_lake_p43anim3 = Movie(play="videos/06 Caroline NS1-Lake-4a.webm", loop = True )
 image CR4_NS1_lake_p44 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/44.jpg"
 image CR4_NS1_lake_p45 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/45.jpg"
 image CR4_NS1_lake_p46 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/46.jpg"
@@ -111,9 +129,16 @@ image CR4_NS1_lake_p60 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/60.jpg"
 image CR4_NS1_lake_p61 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/61.jpg"
 image CR4_NS1_lake_p62 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/62.jpg"
 image CR4_NS1_lake_p63 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/63.jpg"
+image CR4_NS1_lake_p63anim = Movie(play="videos/06 Caroline NS1-Lake-7.webm", loop = True )
+image CR4_NS1_lake_p63anim2 = Movie(play="videos/06 Caroline NS1-Lake-7a.webm", loop = True )
 image CR4_NS1_lake_p64 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/64.jpg"
 image CR4_NS1_lake_p65 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/65.jpg"
 image CR4_NS1_lake_p66 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/66.jpg"
+image CR4_NS1_lake_p66anim = Movie(play="videos/06 Caroline NS1-Lake-8.webm", loop = True )
+image CR4_NS1_lake_p66anim2 = Movie(play="videos/06 Caroline NS1-Lake-9.webm", loop = True )
+image CR4_NS1_lake_p66anim3 = Movie(play="videos/06 Caroline NS1-Lake-9a.webm", loop = True )
+image CR4_NS1_lake_p66anim4 = Movie(play="videos/06 Caroline NS1-Lake-10.webm", loop = True )
+image CR4_NS1_lake_p66anim5 = Movie(play="videos/06 Caroline NS1-Lake-10a.webm", loop = True )
 image CR4_NS1_lake_p67 = "images/home/mc_room/night/scenes/CR4_NS1/Lake/67.jpg"
 image CR4_NS1_lake_p68a = "images/home/mc_room/night/scenes/CR4_NS1/Lake/68a.jpg"
 image CR4_NS1_lake_p68aa = "images/home/mc_room/night/scenes/CR4_NS1/Lake/68aa.jpg"
@@ -326,7 +351,7 @@ label CR4_NS1_label:
 
     scene CR4_NS1_p8
 
-    Caroline "When have you EVER been a Shakespeare?"
+    Caroline "When have YOU ever been a Shakespeare?"
     MC "What do you mean?"
     Caroline "I mean, I’ve known you for your whole life and I’ve never heard you speak like that about anything or to anyone!"
 
@@ -381,19 +406,19 @@ label CR4_NS1_label:
     MC "Haha! I didn’t, I swear!"
     Caroline "Hmm, alright, I’ll give you the benefit of the doubt this time! Haha!"
     Caroline "Now, how about I give you something else too?"
-    MC "What are you thinking of?"
-    Caroline "Would you like me to wrap my lips around your fat cock and suck you dry?"
+    MC "What were you thinking of?"
+    Caroline "Would you like me to wrap my lips around your fat cock, and suck you dry?"
     MC "Mmm, fuck yeah!"
 
     scene CR4_NS1_p17
 
     Caroline "Oh my, you’re already hard! I thought my breakdown there might have turned you off!"
-    MC "Relax, nothing you do is going to turn me off, Caroline."
+    MC "Relax. Nothing you do is going to turn me off, Caroline."
     Caroline "You have a really beautiful cock, you know that?"
 
     scene CR4_NS1_p18
 
-    MC "Seems kinda weird to call a cock “beautiful.”"
+    MC "Seems kinda weird to call a cock “beautiful”."
     Caroline "Hehe, I suppose so. Yours looks really nice though. Very suckable."
     Caroline "Now, are you ready for me to blow your mind?"
 
@@ -414,6 +439,7 @@ label CR4_NS1_label:
 
     MC "Ah… fuck."
     Caroline "*Lick Lick*"
+    scene CR4_NS1_p21anim with dissolve
     MC "God… Just like that, Caroline. Mmm! Can you start at the base and work your way up?"
     Caroline "Uh huh."
 
@@ -421,6 +447,7 @@ label CR4_NS1_label:
 
     MC "Ahh… Shit…"
     Caroline "*Lick*"
+    scene CR4_NS1_p22anim with dissolve
     Caroline "*Sluuurrrrp*"
 
     scene CR4_NS1_p23
@@ -431,6 +458,7 @@ label CR4_NS1_label:
     scene CR4_NS1_p24
 
     MC "Oh fuck, just like that, Caroline. Mmm…"
+    scene CR4_NS1_p24anim
     Caroline "*Lick* *Lick*"
 
     scene CR4_NS1_p25
@@ -449,7 +477,7 @@ label CR4_NS1_label:
 
     Caroline "(I think that’s [player_name] suitably warmed up - time for the main event!)"
     Caroline "*Lick*"
-    MC "(Her tongue is so warm! I love the feeling of her slowly lapping her way up my cock.)"
+    MC "(Her tongue is so warm! I love the feeling of her, slowly lapping her way up my cock.)"
 
     scene CR4_NS1_p28
 
@@ -462,13 +490,13 @@ label CR4_NS1_label:
 
     MC "Ahh… Yes! Ohhh!"
     Caroline "*Suck Suck*"
-    Caroline "(He’s quivering now, I love the way he can’t resist my mouth pleasuring him down there.)"
+    Caroline "(He’s quivering now. I love the way he can’t resist, my mouth pleasuring him down there.)"
 
     scene CR4_NS1_p30
 
-    MC "Oh my God… You’re so good at that, Caroline!"
+    MC "Oh, my God… You’re so good at that, Caroline!"
     Caroline "*Suck*"
-    MC "Can you - ugh - go deeper? "
+    MC "Can you ugh... go deeper? "
 
     scene CR4_NS1_p31
 
@@ -480,43 +508,50 @@ label CR4_NS1_label:
 
     Caroline "*SUCK SUCK*"
     Caroline "*SHLUUURRRRP*"
+    scene CR4_NS1_p32anim with dissolve
     MC "Ugh! Ahhhhhh! Yes! Mmmm!"
     Caroline "(Time to suck you dry, [player_name]!)"
 
     scene CR4_NS1_p33
 
     Caroline "*SHLLUURRRRRRP*"
-    MC "Oh my God! Yes! Mmm! Fuck!"
+    scene CR4_NS1_p33anim
+    MC "Oh, my God! Yes! Mmm! Fuck!"
     MC "(Holy shit, it’s so fucking intense!)"
 
     scene CR4_NS1_p34
 
     MC "You’re ah-aaahhmmazing, Caroline! Mmm!"
+    scene CR4_NS1_p34anim
     Caroline "*SUCK SUCK SUCK*"
+    scene CR4_NS1_p34aanim
     MC "Don’t stop! Keep sucking my cock! Hnnnggg…. Aaarrghh…."
 
     scene CR4_NS1_p35
 
-    Caroline "(I’ll start picking up the pace now, this should really bring him close to a climax.)"
+    Caroline "(I’ll start picking up the pace now. This should really bring him close to a climax.)"
+    scene CR4_NS1_p35anim
     Caroline "*Suck*"
+    scene CR4_NS1_p35aanim
     MC "Ugh! Ahh!"
 
     scene CR4_NS1_p36
 
-    MC "Mmm, holy fuck! Yes! Yes! Keep going Caroline, I’m so fucking close!"
+    MC "Mmm, holy fuck! Yes! Yes! Keep going, Caroline. I’m so fucking close!"
     Caroline "Mmmpfff!"
     Caroline "*SHLURP*"
 
     scene CR4_NS1_p36a
 
     MC "Fuck! I’m cumming!"
+    scene CR4_NS1_p36anim
     Caroline "*SUCK SUCK SUCK*"
     MC "Ahhh! HNNNGGG!!"
 
 
     scene CR4_NS1_p37
 
-    Caroline "(Oh wow! I can taste his hot, salty cum filling up my mouth!)"
+    Caroline "(Oh wow! I can taste his hot salty cum, filling up my mouth!)"
     MC "Hnnng! Ugh! Ahh…"
     Caroline "*Suck* *Suck*"
 
@@ -575,7 +610,7 @@ label CR4_NS1_label_wait:
 
     scene CR4_NS1_wait_p4
 
-    MC "(Actually, that doesn’t make sense either. If Caroline is really worried about me cheating on her or leaving her she wouldn’t be involving Violet.)"
+    MC "(Actually, that doesn’t make sense either. If Caroline is really worried about me cheating on her or leaving her, she wouldn’t be involving Violet.)"
     MC "(Bugger… I’m out of ideas. What the heck could she be planning?)"
 
     scene CR4_NS1_wait_p5
@@ -601,14 +636,14 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p1 with dissolve
 
     MC "Caroline? Where are yo-"
-    MC "Wow."
+    MC "Wow!"
     MC "(Holy shit! She looks incredible in that swimsuit! I normally prefer bikinis, but that one-piece really makes her breasts stand out!)"
 
     scene CR4_NS1_lake_p2 at pandown3
 
     Caroline "Surprise! Haha! What do you think? Like it?"
     MC "You look amazing in that!"
-    Caroline "Thanks, I’ve had it in my cupboard for a few years now. I’ve never really gotten a chance to wear it anywhere."
+    Caroline "Thanks. I’ve had it in my cupboard for a few years now. I’ve never really gotten a chance to wear it anywhere."
     Caroline "It is a LITTLE bit too lewd for the swimming pool, after all. Haha!"
     MC "Ahaha, true."
 
@@ -650,14 +685,14 @@ label CR4_NS1_lake:
 
     Caroline " Hehe! Well, when you’re done admiring the view come and join me. And when I say “view”, I mean me!"
     MC "I wasn’t - umm…"
-    Caroline "It’s okay, look all you want. I dressed this way for you tonight. Enjoy it."
+    Caroline "It’s okay, look all you want. I dressed this way, for you tonight. Enjoy it."
 
     scene CR4_NS1_lake_p10
 
-    MC "You are beautiful Caroline, you know that? You take my breath away every single time I see you. It doesn’t matter whether you’re in a sexy swimsuit, or your hot cosplay outfits, or… even just your regular clothes."
+    MC "You are beautiful, Caroline, you know that? You take my breath away every single time I see you. It doesn’t matter whether you’re in a sexy swimsuit, or your hot cosplay outfits, or… even just your regular clothes."
     MC "You rock whatever outfit you wear; and you are stunningly gorgeous."
     Caroline "Aww, thank you, [player_name]. You’re so sweet."
-    Caroline "Now, how about you stop stalling and join me? I’m not going to bite you! Unless you ask me too. Hehe!"
+    Caroline "Now, how about you stop stalling, and join me? I’m not going to bite you! Unless you ask me too. Hehe!"
 
     scene black
 
@@ -667,9 +702,9 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p11
 
     MC "You’ve clearly practiced more than me. Do you come down to this place to swim often?"
-    Caroline "Umm… Once or twice per year when the stars align. I need good weather, a clear schedule, and a warm night. So it’s not as often as I’d like to be here."
+    Caroline "Umm… Once or twice per year, when the stars align. I need good weather, a clear schedule, and a warm night. So it’s not as often as I’d like to be here."
     MC "What do you do?"
-    Caroline "Honestly, I’ll just swim a couple of laps - then I like to lie back and float. When there’s no clouds you can see right up into the stars. There was one night three years ago when the power went out. Do you remember?"
+    Caroline "Honestly, I’ll just swim a couple of laps - then I like to lie back and float. When there’s no clouds you can see right up into the stars. There was one night, three years ago, when the power went out. Do you remember?"
     MC "Sort of."
     Caroline "You went into Sara’s room to keep her company. I snuck out of the house and came down to the lake. The whole city had lost its power. There was no light pollution."
     Caroline "The sky wasn’t black that night. If you stared hard enough you could see a rainbow of nebula between the starry diamonds. It was a once-in-a-lifetime experience."
@@ -680,7 +715,7 @@ label CR4_NS1_lake:
     MC "That sounds heavenly. I’d like to see that with you someday."
     Caroline "We’d probably have to borrow [Linda_name]’s car and drive outside the city limits though. Unless you want to wait for the miniscule chance of us seeing another blackout."
     MC "Maybe that’s something we could do? Do you mind if I slip your top down?"
-    Caroline "Haha, of course, [player_name]. You can do whatever you want to me."
+    Caroline "Haha, of course not, [player_name]. You can do whatever you want to me."
 
     scene CR4_NS1_lake_p13
 
@@ -733,7 +768,7 @@ label CR4_NS1_lake:
 
     scene CR4_NS1_lake_p21
 
-    Caroline "Whoa! You don’t have to carry me over there. I can swim myself you know!"
+    Caroline "Whoa! You don’t have to carry me over there. I can swim, myself, you know!"
     MC "But do you like me carrying you like this?"
     Caroline "...yeah…"
 
@@ -775,6 +810,7 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p28
 
     MC "(It already feels so good! Her vulva is so warm and wet!)"
+    scene CR4_NS1_lake_p28anim
     MC "(I’ll have to try and not blow my load too quickly I want to make our first time last as long as possible.)"
 
     scene CR4_NS1_lake_p29
@@ -800,7 +836,7 @@ label CR4_NS1_lake:
 
     MC "Are you alright - ah - Caroline?"
     Caroline "Uh huh! Y-Yeah! Fuck me, [player_name]!"
-    Caroline "I want to feel you go - ohh - balls deep inside my tight little pussy!"
+    Caroline "I want to feel you go ohh... balls-deep inside my tight little pussy!"
 
     scene CR4_NS1_lake_p33
 
@@ -811,8 +847,9 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p34
 
     Caroline "OHHH GODDDD! YES!"
+    scene CR4_NS1_lake_p33anim
     MC "Hnnng! Ugh! Oh shit! That’s so good!"
-    Caroline "Ah! Your cock is so - ahh - thick!"
+    Caroline "Ah! Your cock is so ahh... thick!"
 
     scene CR4_NS1_lake_p35
 
@@ -842,8 +879,9 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p39
 
     Caroline "MPPFFFFF!!!! MMMMMM!! AAAAHHMMMMMMM!!!"
+    scene CR4_NS1_lake_p39anim
     MC "(She must have REALLY been looking forward to this!)"
-    MC "(Her pussy is clamping down around my shaft! I’m not going to be able to last very long if she keeps cumming as instensely as this!)"
+    MC "(Her pussy is clamping down, around my shaft! I’m not going to be able to last very long if she keeps cumming as instensely as this!)"
 
     scene CR4_NS1_lake_p40
 
@@ -860,15 +898,21 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p42
 
     Caroline "MMMMM!!! AHMMMMMM!!!"
+    scene CR4_NS1_lake_p42anim
     MC "(I can feel her fingers digging into the back of my head. She really enjoying this!)"
     MC "(It must feel so intense for her right now.)"
 
     scene CR4_NS1_lake_p43
 
     MC "Mmm! Aaahmmmm!"
+    scene CR4_NS1_lake_p43anim
+    Caroline "Faster, [player_name]!!!"
+    scene CR4_NS1_lake_p43anim4
     Caroline "MMMMM!!!"
+    scene CR4_NS1_lake_p43anim2
     Caroline "(This feels so good! I’d really like to change up positions a bit too though.)"
-
+    scene CR4_NS1_lake_p43anim3
+    Caroline "MMMMM!!! AHMMMMMM!!!"
     scene CR4_NS1_lake_p44
 
     Caroline "This ahh... feels so good! Do you want to try ohh... doing it from behind?"
@@ -879,11 +923,11 @@ label CR4_NS1_lake:
 
     MC "How do you want me to do it?"
     Caroline "As fast and as hard as you possibly can. I love it when you go really rough."
-    MC "I’ll try pounding you as hard as I can then."
+    MC "I’ll try pounding you as hard as I can, then."
 
     scene CR4_NS1_lake_p46
 
-    Caroline "Thank, I’m looking forward to it!"
+    Caroline "Thanks. I’m looking forward to it!"
     MC "(I wonder if she will let me cum inside her.)"
     MC "Can I finish inside you, Caroline?"
 
@@ -930,7 +974,7 @@ label CR4_NS1_lake:
 
     MC "(Phew! I thought I was going to get in shit for ruining her bathing suit!)"
     Caroline "It feels so aggressive and domineering when you strip me naked. I really love that."
-    MC "Well, in that case, I’ll make sure to pound you extra hard. Spread your legs a bit wider and I’ll start."
+    MC "Well, in that case, I’ll make sure to pound you extra hard. Spread your legs a bit wider, and I’ll start."
 
     scene CR4_NS1_lake_p55
 
@@ -969,7 +1013,7 @@ label CR4_NS1_lake:
 
     scene CR4_NS1_lake_p60
 
-    MC "Oh, I will. By the time I’m finished your legs will be too weak to stand."
+    MC "Oh, I will. By the time I’m finished, your legs will be too weak to stand."
     Caroline "Ahh… Mmm!"
 
     scene CR4_NS1_lake_p61
@@ -980,21 +1024,22 @@ label CR4_NS1_lake:
 
     scene CR4_NS1_lake_p62
 
-    Caroline "I love it when you fuck ahh.. me rough and ohhh... hard like thsi! MMMM!!"
+    Caroline "I love it when you fuck ahh.. me rough and ohhh... hard like this! MMMM!!"
     MC "Arrgh! You’re so fucking tight, Caroline!"
     Caroline "Ah! AHHH!!!"
 
     scene CR4_NS1_lake_p63
-
     Caroline "Harder! Fuck me harder! Ohhhhh!!!"
-    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Linda_name] or [Bob_name] to hear us doing this!)"
-    MC "(Okay, it’s time to wreck her pussy like I promised!)"
+    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Mom_name] or [Dad_name] to hear us doing this!)"
+    MC "(Okay, it’s time to wreck her pussy, like I promised!)"
 
     scene CR4_NS1_lake_p64
 
     Caroline "AYAAAAHHHHHHH!!! Holy ahhhh... shit! OHHH!!!"
+    scene CR4_NS1_lake_p63anim
     Caroline "Talk dirty to me! OHH!"
-    MC "Mmmm! Ahh! Ugh! Take my cock you fucking slut!"
+    scene CR4_NS1_lake_p63anim2 with dissolve
+    MC "Mmmm! Ahh! Ugh! Take my cock, you fucking slut!"
 
     scene CR4_NS1_lake_p65
 
@@ -1005,15 +1050,20 @@ label CR4_NS1_lake:
     scene CR4_NS1_lake_p66
 
     MC "Hnnng! I’m about to cum! Inside or out?! Ahhh!"
+    scene CR4_NS1_lake_p66anim
     Caroline "AHHH!"
+    scene CR4_NS1_lake_p66anim2
     Caroline "(Shit! It’s too risky! I have to say outside - but it feels sooo fucking good right now!)"
+    scene CR4_NS1_lake_p66anim3
     MC "Caroline?!"
+    scene CR4_NS1_lake_p66anim4
     MC "(She’s too lost up in pleasure to make a decision - I’ll have to do it for her.)"
-
+    scene CR4_NS1_lake_p66anim5
+    Caroline "Ah! AHHH!!!"
     menu:
-        "Go balls deep and fill Caroline with your potent , hot semen.":
+        "Go balls-deep and fill Caroline with your potent, hot semen.":
 
-            MC "Fuck it, I’m cumming inside you!"
+            MC "Fuck it! I’m cumming inside you!"
 
             scene CR4_NS1_lake_p67
 
@@ -1029,14 +1079,14 @@ label CR4_NS1_lake:
             $ renpy.pause(0.7, hard = True)
             scene CR4_NS1_lake_p68b with dissolve
 
-            Caroline "(I can feel his hot cum blasting up against my cervix! Holy shit! This is incredible!)"
+            Caroline "(I can feel his hot cum, blasting up against my cervix! Holy shit! This is incredible!)"
 
             jump CR4_NS1_lake_con2
         "Pull out and blow your load over Caroline’s ass.":
 
             scene CR4_NS1_lake_p68a
 
-            MC "(Fuck it, cumming inside is too risky!)"
+            MC "(Fuck it! Cumming inside is too risky!)"
             MC "Hnnng! Ugh! Ahh!"
 
             scene white with dissolve
@@ -1066,11 +1116,11 @@ label CR4_NS1_lake_con2:
 
     MC "Sorry about damaging your swimsuit, Caroline. I’ll buy you a new one tomorrow."
     Caroline "Hehe, relax. It’s fine. I enjoyed it - it was… spontaneous."
-    Caroline "Besides, it’s not like I’m going to have to run half-naked back to our house. I’ve got a spare change of clothes behind the tree."
+    Caroline "Besides, it’s not like I’m going to have to run half-naked, back to our house. I’ve got a spare change of clothes behind the tree."
 
     scene CR4_NS1_lake_p71
 
-    MC "Ahh, that’s good to hear. Although, seeing you try and sneak your way back to your bedroom with no clothes on would be pretty fucking hot."
+    MC "Ahh, that’s good to hear. Although, seeing you try and sneak your way back to your bedroom with no clothes on, would be pretty fucking hot."
     Caroline "You’ve got a REALLY dirty mind, you know that?"
     MC "Heh, I guess I do."
     Caroline "[player_name]?"
@@ -1099,12 +1149,12 @@ label CR4_MS2_label:
     scene CR4_MS2_p1 with dissolve
 
     MC "(Christ almighty, it’s scorching today!)"
-    MC "(I’m glad I wasn’t wearing pyjamas when I went to bed or my sheets would be soaked with sweat.)"
+    MC "(I’m glad I wasn’t wearing pyjamas when I went to bed, or my sheets would be soaked with sweat.)"
     MC "*Yawn*"
 
     scene CR4_MS2_p2
 
-    MC "(Clear blue skies - it’s almost like I’m looking out onto the ocean. Y’know those bright blue oceans you see when you look at pictures of Hawaii?)"
+    MC "(Clear blue skies - it’s almost like I’m looking out onto the ocean, y’know. Those bright blue oceans you see when you look at pictures of Hawaii?)"
     MC "(I’d love to take Caroline to Hawaii someday. I think she’d like that.)"
     MC "(Actually, no - she’d prefer Japan. She lives for their cosplay culture.)"
 
@@ -1129,13 +1179,13 @@ label CR4_MS2_label:
     Caroline "Morning, sleepyhead! Are you still not awake?"
     MC "*Yawn* Yeah, I’m just getting up now."
     Caroline "Haha, I’m surprised [Mom_name] hasn’t yelled at you for sleeping in so late!"
-    MC "Oh please, [Mom_name] gave up trying to wake me up early YEARS ago! I’m just not a morning person!"
+    MC "Oh please. [Mom_name] gave up trying to wake me up early, YEARS ago! I’m JUST not a morning person!"
 
     scene CR4_MS2_p5
 
     Caroline "So, what has my handsome boyfriend got planned for today?"
-    MC "(Huh? I think this is the FIRST time she’s actually openly called me her boyfriend. She doesn’t even seem fazed when she said it!)"
-    MC "Uh, yeah, no big plans for today. I’ll just see what happens "
+    MC "(Huh? I think this is the FIRST time she’s actually openly called me her boyfriend. She didn’t even seem fazed when she said it!)"
+    MC "Uh, yeah, no big plans for today. I’ll just see what happens. "
     Caroline "Well, how about you begin by saying ‘Good Morning’ to your girlfriend?"
 
     scene CR4_MS2_p6
@@ -1147,13 +1197,13 @@ label CR4_MS2_label:
     scene CR4_MS2_p7
 
     MC "Umm… Is something wrong, Caroline?"
-    Caroline "Is that how you would say ‘Good Morning’ to your girlfriend if you met one in school?"
+    Caroline "Is that how you would say ‘Good Morning’ to your girlfriend, if you met one in school?"
     MC "Huh?"
 
     scene CR4_MS2_p8
 
-    Caroline "No, it’s not. You’d be a gentleman and greet them with a kiss."
-    Caroline "Just because we’ve known each other for years doesn’t mean we’re going to be skipping out the romantic parts of being a couple!"
+    Caroline "No, it’s not. You’d be a gentleman, and greet them with a kiss."
+    Caroline "Just because we’ve known each other for years, doesn’t mean we’re going to be skipping out the romantic parts of being a couple!"
     MC "Ahh, I see where you’re coming from."
 
     scene CR4_MS2_p9
@@ -1164,7 +1214,7 @@ label CR4_MS2_label:
     scene CR4_MS2_p10
 
     Caroline "Ready whenever you are!"
-    MC "(Caroline probably has some anxiety about getting into a new relationship. I guess it’s natural for her to feel a little worried after she ended up dating that asshole, Charles.)"
+    MC "(Caroline probably has some anxiety about getting into a new relationship. I guess it’s natural for her to feel a little worried, after she ended up dating that asshole Charles.)"
     MC "(Having a dickhead like that for a partner would really shake your confidence. If this is what Caroline needs in order to feel secure in this relationship, then it’s fine by me.)"
 
     scene CR4_MS2_p11
@@ -1179,14 +1229,14 @@ label CR4_MS2_label:
 
     scene CR4_MS2_p13
 
-    Caroline "(Mmm… That’s nice; [player_name] can be so romantic. I think he just needs someone to prompt him every now and then.)"
+    Caroline "(Mmm… That’s nice; [player_name] can be so romantic. I think he just needs someone to prompt him, every now and then.)"
     MC "*Mwah*"
 
     scene CR4_MS2_p14
 
     Caroline "Thanks, [player_name]. That was really sweet."
     MC "No problem, Caroline. Sorry I didn’t get it right the first time."
-    Caroline "Relax, it’s fine. I overreacted a little, my bad."
+    Caroline "Relax, it’s fine. I overreacted a little. My bad."
     MC "Are you in a rush to head out?"
     Caroline "No, why?"
     MC "Hop up on my knee for a while."
@@ -1194,24 +1244,24 @@ label CR4_MS2_label:
     scene CR4_MS2_p15
 
     Caroline "I’m not too heavy, am I?"
-    MC "You’re fine, just try to relax. What have you got planned for today then?"
+    MC "You’re fine. Just try to relax. What have you got planned for today, then?"
     Caroline "Ugh, restocking at work. I’m going to have to check what products I’m running out of, and then order them online."
 
     scene CR4_MS2_p16
 
     MC "Sounds tough!"
-    Caroline "I don’t mind some long and hard work every now and then."
+    Caroline "I don’t mind some LONG AND HARD work every now and then."
     MC "Haha! When do you have to leave?"
 
     scene CR4_MS2_p17
 
     Caroline "I’ll be heading in a few minutes. Say, if you’re free today at all, would you be able to lend me a hand?"
     MC "What do you need?"
-    Caroline "I’m going to have to spend quite a lot of time out the back counting stuff and planning deliveries. Would you be able to stand behind the counter and man the till for me during that time?"
+    Caroline "I’m going to have to spend quite a lot of time out the back, counting stuff and planning deliveries. Would you be able to stand behind the counter and man the till for me during that time?"
 
     scene CR4_MS2_p18
 
-    MC "Not a problem, I’m happy to help."
+    MC "Not a problem. I’m happy to help."
     Caroline "Are you sure? I don’t want to take up your time."
     MC "Honestly, relax! It’ll be fine."
 
@@ -1219,13 +1269,13 @@ label CR4_MS2_label:
 
     Caroline "I guess, if I’m really quick I can try and get everything sorted in one afternoon. Would that be alright with you?"
     MC "Take as long as you need. If it runs over a couple of days, that’s not a problem."
-    MC "I’ve always been behind you and your business right from the very start."
+    MC "I’ve always been behind you and your business, right from the very start."
 
     scene CR4_MS2_p20
 
     MC "Remember when you used to pay me for taking those naughty photos of you? Haha!"
     Caroline "Hehe, how could I forget?"
-    MC "That was a dream come true. Like, seriously, you have no idea how many times I jacked off after those photoshoots."
+    MC "That was a dream come true. Like, seriously, you have no idea how many times I jacked off, after those photoshoots."
 
     scene CR4_MS2_p21
 
@@ -1236,8 +1286,8 @@ label CR4_MS2_label:
     scene CR4_MS2_p22
 
     Caroline "Awk, you’re too sweet. Thanks again, [player_name]. I’ll see you later on by the store."
-    MC "Excellent, I’ll see you then."
-
+    MC "Excellent. I’ll see you then."
+    $ C_NS_locked = False
     $ CR4_NS1 = False
     $ CR4_AS2 = 1
     $ CR4_AS1 = False

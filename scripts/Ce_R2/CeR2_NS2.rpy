@@ -159,13 +159,13 @@ label CeR2_NS2_lab:
     MC "Hello sir, umm, excuse me?"
 
     scene CeR2_NS2_p4
-    Gustav "Huh? The heck do you want kid?"
+    Gustav "Huh? The heck do you want, kid?"
     MC "I’m looking for Celia. I’m one of her students."
 
     scene CeR2_NS2_p5
     Gustav "Oh, right. You must be the special needs kid. [player_name], right?"
     MC "The WHAT?!"
-    Gustav "She’s a good person, Celia. She spends extra time teaching the developmentally challenged. She said you might be coming over from some extra tutoring."
+    Gustav "She’s a good person - Celia. She spends extra time teaching the developmentally challenged. She said you might be coming over for some extra tutoring."
     MC "I’m not developmentally challenged!"
 
     scene CeR2_NS2_p6
@@ -181,7 +181,7 @@ label CeR2_NS2_lab:
     MC "(Fucking bitch! She must have told her husband this to avoid suspicion, but she could have chosen a less embarrassing alibi!)"
     scene CeR2_NS2_p8
     Gustav "I’m popping off for a few days on a business trip. Ought to be back within the week. Hopefully."
-    Gustav "I better dash on now or I’ll be late for my plane!"
+    Gustav "I better dash on now, or I’ll be late for my plane!"
 
     scene CeR2_NS2_p9
     Gustav "Oh! How rude of me! A plane is like a… flying bus. Do you ever take the bus?"
@@ -200,7 +200,7 @@ label CeR2_NS2_lab:
     Gustav "I’ll catch you around, [player_name]. Keep working hard."
     MC "Thanks."
     Gustav "Seriously, I mean it - kids like you make me so proud!"
-    MC "(For fucks sake…)"
+    MC "(For fuck's sake…)"
 
     scene CeR2_NS2_p13
     Gustav "(Poor kid. He’ll be lucky to work as a waiter.)"
@@ -212,7 +212,7 @@ label CeR2_NS2_lab:
     MC "(He must have realised that I was at least somewhat lucid?!)"
 
     scene CeR2_NS2_p15
-    Gustav "I left the door open for you there, just in case you can’t figure it out okay?"
+    Gustav "I left the door open for you there, just in case you can’t figure it out, okay?"
     Gustav "Ta ta for now!"
 
     scene CeR2_NS2_p16
@@ -268,8 +268,8 @@ label CeR2_NS2_boxing_lab:
     Celia "Arrgh!"
 
     scene CeR2_NS2_boxing_p3
-    MC "Hey, I was looking for you. I didn’t see you in the living room so I went searching for you."
-    MC "Umm, I met your husband earlier on whenever he was leaving."
+    MC "Hey, I was looking for you. I didn’t see you in the living room, so I went searching for you."
+    MC "Umm, I met your husband earlier on when he was leaving."
     MC "Gustav?"
 
     scene CeR2_NS2_boxing_p4
@@ -338,7 +338,7 @@ label CeR2_NS2_boxing_lab:
     scene CeR2_NS2_boxing_p17
     Celia "Haven’t you ever heard of “knocking”?"
     MC "I tried yelling at you. It seemed you were deep in the zone!"
-    MC "Your husband thinks I’m mentally challenged by the way. You wouldn’t know anything about that, would you?"
+    MC "Your husband thinks I’m mentally challenged, by the way. You wouldn’t know anything about that, would you?"
 
     scene CeR2_NS2_boxing_p18
     Celia "Hiiii-yah!"
@@ -411,7 +411,7 @@ label CeR2_NS2_wait_lab:
     scene CeR2_NS2_wait_p3
     MC "(Hmm, that’s a really fancy decanter on the table.)"
     MC "(I wonder who was drinking.)"
-    MC "(Probably Celia and Gustav before he left for his business trip.)"
+    MC "(Probably Celia and Gustav, before he left for his business trip.)"
 
     scene CeR2_NS2_wait_p4
     MC "*Sigh*"
@@ -441,7 +441,7 @@ label CeR2_NS2_wait_lab:
 
     scene CeR2_NS2_wait_p11
     MC "(Alright, here goes nothing!)"
-    MC "(I either get to see a sexy naked woman, or I get beaten to a pulp.)"
+    MC "(I either get to see a sexy naked woman or I get beaten to a pulp.)"
     MC "*Gulp*"
     $ CeR2_NS2 = 4
 
@@ -465,7 +465,7 @@ label CeR2_NS2_bath_lab:
         hide screen map_button
         $ clickable = False
         show screen Ce_corridor_N_scr
-        MC "I should go back to the living room before she ends bathing."
+        MC "I should go back to the living room before she finishes showering."
         hide screen Ce_corridor_N_scr
         $ clickable = True
         jump Ce_corridor_N1
@@ -484,7 +484,7 @@ label CeR2_NS2_bath_lab:
 
         scene CeR2_NS2_bath_p2
         "*Creeak*"
-        MC "(She must have spent more time training after I left.)"
+        MC "(She must have spent more time training, after I left.)"
         MC "(Or maybe she just wanted to hide that picture of me she had hanging up.)"
 
         scene CeR2_NS2_bath_p3
@@ -505,11 +505,11 @@ label CeR2_NS2_bath_lab:
 
         scene CeR2_NS2_bath_p7 at pandown3
         MC "(She’d be screaming with pleasure as I fucked her over and over.)"
-        MC "(And I’d play with those massive tits she has while I’m doing it.)"
+        MC "(And I’d play with those massive tits she has, while I’m doing it.)"
 
         scene CeR2_NS2_bath_p8
 
-        MC "(I’d make that bitch cum so hard that she would wish she’d never turned me down.)"
+        MC "(I’d make that bitch cum so hard, that she would wish she’d never turned me down.)"
         MC "(She would be screaming my name as she climaxed again and again.)"
 
         scene CeR2_NS2_bath_p9
@@ -517,7 +517,7 @@ label CeR2_NS2_bath_lab:
         MC "(Probably too risky anyway. I wouldn’t get a good photo with all the condensation in the room.)"
 
         scene CeR2_NS2_bath_p10
-        MC "(Oh yeah, just like that Celia. Let’s see those big titties of yours!)"
+        MC "(Oh yeah, just like that, Celia. Let’s see those big titties of yours!)"
         MC "Mmm!"
 
         scene CeR2_NS2_bath_p11
@@ -533,7 +533,7 @@ label CeR2_NS2_bath_lab:
 
         scene CeR2_NS2_bath_p14
         MC "(Damn, I’ve got the biggest boner right now.)"
-        MC "(At least Celia will be able to help me out with that when she finished her shower.)"
+        MC "(At least Celia will be able to help me out with that when she finishes her shower.)"
 
         scene CeR2_NS2_bath_p15
         MC "(I wonder if I should request another blowjob tonight.)"
@@ -542,7 +542,7 @@ label CeR2_NS2_bath_lab:
 
         scene CeR2_NS2_bath_p16
         MC "(Shit, time to abort!)"
-        MC "(I don’t think she saw me yet, I won’t risk it though.)"
+        MC "(I don’t think she saw me yet. I won’t risk it though.)"
 
         scene CeR2_NS2_bath_p17
         "*Creak*"
@@ -604,7 +604,7 @@ label CeR2_NS2_talking_lab:
     MC "*Gulp*"
 
     scene CeR2_NS2_talking_p6
-    Celia "Are you okay there [player_name]?"
+    Celia "Are you okay there, [player_name]?"
     MC "Y-Yeah, I’m *Gulp* good!"
     Celia "You sound a little flustered. Can I get you something to drink?"
 
@@ -645,7 +645,7 @@ label CeR2_NS2_talking_lab:
     Celia "Admit what you did. That’s all."
 
     scene CeR2_NS2_talking_p15
-    MC "B-But, I didn’t do anything! It must be Big Jake then! We should investigate him!"
+    MC "B-But, I didn’t do anything! It must be Big Jake, then! We should investigate him!"
     MC "I can help, I-"
 
     scene CeR2_NS2_talking_p16
@@ -662,7 +662,7 @@ label CeR2_NS2_talking_lab:
     MC "Well, if it isn’t too much trouble I’ll just head out now. It’s getting late and I’ve already distrubed you."
 
     scene CeR2_NS2_talking_p19
-    Celia "You’re not going anywhere you duplicitous piece of shit!"
+    Celia "You’re not going anywhere, you duplicitous piece of shit!"
     MC "AHH!"
 
     scene CeR2_NS2_talking_p20
@@ -683,7 +683,7 @@ label CeR2_NS2_talking_lab:
 
     scene CeR2_NS2_talking_p24
     Celia "Time is running out for you, [player_name]."
-    Celia "If you just confess and own up to what you’ve done I’ll let you live."
+    Celia "If you just confess and own up to what you’ve done, I’ll let you live."
 
     scene CeR2_NS2_talking_p25
     MC "B-But… I didn’t do anything... "
@@ -691,7 +691,7 @@ label CeR2_NS2_talking_lab:
 
     scene CeR2_NS2_talking_p26
     Celia "BULLSHIT!"
-    Celia "I know it was you all along! You were the one on webcam, you were the one in the toilets! Weren’t you?!"
+    Celia "I know it was you all along! You were the one on webcam! You were the one in the toilets! Weren’t you?!"
 
     scene CeR2_NS2_talking_p27
     MC "(Fuck, I’m finished. Should I scream for help?! Would anyone even come before she finished me off?!)"
@@ -740,8 +740,8 @@ label CeR2_NS2_talking_con1:
     MC "I’m innocent Celia..."
 
     scene CeR2_NS2_talking_p35
-    Celia "Perhaps you are after all."
-    MC "Y-Yeah, like I told you I was all along!"
+    Celia "Perhaps you are, after all."
+    MC "Y-Yeah, like I told you I was, all along!"
 
     scene CeR2_NS2_talking_p36
     MC "H-Hey!"
@@ -761,7 +761,7 @@ label CeR2_NS2_talking_con1:
     MC "I’m… I’m sorry for peeping on you. I was wondering where you went since you were taking so long."
 
     scene CeR2_NS2_talking_p40
-    MC "I didn’t mean to look at you in the shower, it was an accident, I promise."
+    MC "I didn’t mean to look at you in the shower. It was an accident, I promise."
     Celia "Uh huh. Sure."
 
     scene CeR2_NS2_talking_p41
@@ -796,7 +796,7 @@ label CeR2_NS2_talking_con1:
     MC "(She ain’t seen NOTHING yet!)"
 
     scene CeR2_NS2_talking_p48
-    Celia "(Shit, I ruined the sofa.)"
+    Celia "(Shit! I ruined the sofa.)"
     Celia "(How the fuck am I going to explain this to Gustav when he returns?)"
     Celia "(God fucking dammit.)"
 

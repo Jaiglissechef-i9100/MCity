@@ -54,16 +54,22 @@ image Ne_ES2_p52 = "images/Ne_1/ES2/52.jpg"
 image Ne_ES2_p53 = "images/Ne_1/ES2/53.jpg"
 image Ne_ES2_p54 = "images/Ne_1/ES2/54.jpg"
 image Ne_ES2_p55 = "images/Ne_1/ES2/55.jpg"
+image Ne_ES2_p55anim = Movie(play="videos/06 Neighboors ES2-2.webm", loop = True )
 image Ne_ES2_p56 = "images/Ne_1/ES2/56.jpg"
 image Ne_ES2_p57 = "images/Ne_1/ES2/57.jpg"
+image Ne_ES2_p57anim = Movie(play="videos/06 Neighboors ES2-1.webm", loop = True )
+image Ne_ES2_p57anim2 = Movie(play="videos/06 Neighboors ES2-1a.webm", loop = True )
 image Ne_ES2_p58 = "images/Ne_1/ES2/58.jpg"
 image Ne_ES2_p59 = "images/Ne_1/ES2/59.jpg"
+image Ne_ES2_p59anim = Movie(play="videos/06 Neighboors ES2-3.webm", loop = True )
 image Ne_ES2_p60 = "images/Ne_1/ES2/60.jpg"
 image Ne_ES2_p61 = "images/Ne_1/ES2/61.jpg"
 image Ne_ES2_p62 = "images/Ne_1/ES2/62.jpg"
 image Ne_ES2_p63 = "images/Ne_1/ES2/63.jpg"
+image Ne_ES2_p63anim = Movie(play="videos/06 Neighboors ES2-4.webm", loop = True )
 image Ne_ES2_p64 = "images/Ne_1/ES2/64.jpg"
 image Ne_ES2_p65 = "images/Ne_1/ES2/65.jpg"
+image Ne_ES2_p65anim = Movie(play="videos/06 Neighboors ES2-5.webm", loop = True )
 image Ne_ES2_p66 = "images/Ne_1/ES2/66.jpg"
 image Ne_ES2_p67 = "images/Ne_1/ES2/67.jpg"
 image Ne_ES2_p68 = "images/Ne_1/ES2/68.jpg"
@@ -363,6 +369,7 @@ label NE_ES2_lab3:
     MC "(This just keeps on getting better!)"
     scene Ne_ES2_p55
     Sidra "*Lick*"
+    scene Ne_ES2_p55anim
     Isla "Ohh…. Oh… God…"
     scene Ne_ES2_p56
     Sidra "*Suck*"
@@ -370,7 +377,9 @@ label NE_ES2_lab3:
     Sidra "*Slurp*"
     scene Ne_ES2_p57
     Isla "*Gasp* *Pant*"
+    scene Ne_ES2_p57anim
     Sidra "*Lick*"
+    scene Ne_ES2_p57anim2
     Isla "Ahh! A-Ahhhh!!! Mmmm!"
     scene Ne_ES2_p58
     Sidra "Mmm, twenty eight to go."
@@ -378,6 +387,7 @@ label NE_ES2_lab3:
     Isla "Ahhh!"
     scene Ne_ES2_p59
     Isla "H-Holy shit! MMM!!!"
+    scene Ne_ES2_p59anim
     Isla "Oh! Ahhh! AHHHHH!!!"
     Sidra "*Lick*"
     scene Ne_ES2_p60
@@ -395,6 +405,7 @@ label NE_ES2_lab3:
     Sidra "We are not stopping until you have had your entire punishment, darling. "
     scene Ne_ES2_p63
     Sidra "Brace yourself darling, I am going to use my fingers now."
+    scene Ne_ES2_p63anim
     Isla "W-Wait-"
     scene Ne_ES2_p64
     Isla "OHHH!!!! AAHHHHH!!"
@@ -402,6 +413,7 @@ label NE_ES2_lab3:
     Sidra "Why does penetration turn you on so much? Is my tongue not enough for you?"
     scene Ne_ES2_p65
     Isla "Ahh! AHHH!"
+    scene Ne_ES2_p65anim
     Sidra "I hope you aren’t fantasising about being with some boy right now."
     Isla "N-No! I’m - *GASP* n-not!"
     scene Ne_ES2_p66

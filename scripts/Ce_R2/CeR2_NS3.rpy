@@ -39,7 +39,7 @@ label CeR2_NS3_lab:
 
     scene CeR2_NS3_p0 with dissolve
     MC "*Gulp*"
-    MC "(It’s okay, [player_name]. Try to relax, you can do this…)"
+    MC "(It’s okay, [player_name]. Try to relax. You can do this…)"
 
     scene CeR2_NS3_p0a
     MC "(All you have to do is sneak in, gather the evidence, and then escape.)"
@@ -53,7 +53,7 @@ label CeR2_NS3_lab:
     MC "(Whispered) What the…"
 
     scene CeR2_NS3_p2
-    MC "(Oh my God!)"
+    MC "(Oh, my God!)"
     MC "(Holy fucking shit!)"
     Celia "Hnnng! Mmmmmm! AAHMMMMM!!!"
 
@@ -79,7 +79,7 @@ label CeR2_NS3_lab:
 
     scene CeR2_NS3_p7
     MC "(She’s moving that tennis racket close to her boob. Is it for spanking?)"
-    MC "(I don’t think I’ve ever seen ANYTHING like it in my life.)"
+    MC "(I don’t think I’ve ever seen ANYTHING like it, in my life.)"
     MC "(Is it even a sex toy?)"
 
     scene CeR2_NS3_p8
@@ -159,7 +159,7 @@ label CeR2_NS3_lab:
 
     scene CeR2_NS3_p25
     MC "(She’s shaking and trembling like crazy right now!)"
-    MC "(I don’t think I’ve ever seen a woman climax so hard in my life!)"
+    MC "(I don’t think I’ve ever seen a woman climax, so hard in my life!)"
 
     scene CeR2_NS3_p26
     MC "(I better leave now. I’m so dead if she catches me.)"

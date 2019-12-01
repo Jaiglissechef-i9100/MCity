@@ -71,7 +71,7 @@ label Ch_doors_lab:
 
     if day_time == 3:
         scene Ch_doors_p2 with dissolve
-        MC "(I wonder if Charles will be around in the afternoon.)"
+        MC "(I wonder if Charles will be around in the evening.)"
         $ renpy.sound.play('/sfx/knock_knock.wav', channel="sound")
         MC "*Knock Knock*"
         $ renpy.music.stop(channel="sound")
@@ -85,7 +85,7 @@ label Ch_doors_lab:
 
     if day_time == 4:
         scene Ch_doors_p3 with dissolve
-        MC "(I can understand Charles not being here during the day. Perhaps he’s at work. But if he isn’t answering now I have no idea what is going on!)"
+        MC "(I can understand Charles not being here during the day. Perhaps he’s at work. But if he isn’t answering now, I have no idea what is going on!)"
         $ renpy.sound.play('/sfx/knock_knock.wav', channel="sound")
         MC "*Knock Knock*"
         $ renpy.music.stop(channel="sound")
@@ -201,7 +201,7 @@ label Ch_inside_lab:
     MC "(I’m gonna get you now, you bastard!)"
 
     scene Ch_inside_p1
-    Television "Suck my fucking cock you whore!"
+    Television "Suck my fucking cock, you whore!"
     Charles "Ugh… Yeah… Mmm…"
     MC "(Huh… It looks like he didn’t hear me break into his place. The TV must be too loud for him to hear.)"
 
@@ -255,7 +255,7 @@ label Ch_inside_lab2:
     scene Ch_inside_p9
     Charles "What the… *Hack* fuck do you want?!"
     MC "I want that necklace you stole from Caroline. I’m not leaving here empty-handed."
-    MC "I don’t care if I have to choke you out, I WILL get it back!"
+    MC "I don’t care if I have to choke you out - I WILL get it back!"
 
     scene Ch_inside_p10
     Charles "Caroline’s necklace?"
@@ -273,7 +273,7 @@ label Ch_inside_lab2:
 
     scene Ch_inside_p13a
     Charles "Haha! I really should kick your ass for trying that shit on me."
-    Charles "But I gave that arrogant bitch, Caroline enough beatings for the two of you."
+    Charles "But I gave that arrogant bitch Caroline, enough beatings for the two of you."
     Charles "She must be saving a fortune on concealer now - a wimp like you couldn’t give her a proper shiner if he tried! AHAHAHA!"
     $ night_club_unlocked = True
     $ Ch_S_door = False
@@ -283,9 +283,9 @@ label Ch_inside_lab2:
             scene Ch_inside_p13b
 
             MC "(I want to kill this fucker right now…)"
-            MC "(...but if I don’t win I mightn’t ever see Caroline again. I should just focus on finding her necklace.)"
+            MC "(...but if I don’t win I might not ever see Caroline again. I should just focus on finding her necklace.)"
             MC "(Maybe I can find this nightclub owner and take things from there.)"
-            Charles "Yeah! Just walk away you fucking chicken! Get the fuck outta my place and let me finish my porn in peace."
+            Charles "Yeah! Just walk away, you fucking chicken! Get the fuck outta my place and let me finish my porn in peace."
 
             $ renpy.music.stop(channel="music1", fadeout=1)
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
@@ -306,14 +306,14 @@ label Ch_inside_lab2:
             Charles "Ow… M-My neck… Aaaarrghhh… C-Call an ambulance!"
             MC "I’m going to leave you now, Charles."
             Charles "P-Please! Ahh..."
-            MC "I don’t think I broke your neck; but even if I did it wouldn’t be a fraction of the punishment you actually deserved."
+            MC "I don’t think I broke your neck; but even if I did, it wouldn’t be a fraction of the punishment you actually deserved."
 
             scene Ch_inside_p14c
-            MC "Goodbye Charles. I don’t expect to ever see you again."
+            MC "Goodbye, Charles. I don’t expect to ever see you again."
             Charles "Ahhhhh!!!!"
 
             scene Ch_inside_p15
-            MC "(That’s Charles dealt with for good. I don’t think he has any reason to bother me or Caroline ever again.)"
+            MC "(That’s Charles dealt with, for good. I don’t think he has any reason to bother me or Caroline ever again.)"
             MC "(I didn’t get what I came for though. He still sold the necklace before I could get it.)"
 
             scene Ch_inside_p16
@@ -343,6 +343,8 @@ init:
 default ch_mg_r = 1
 
 label start_ch_mg:
+    if persistent.skip_mg == True:
+        $ ch_mg_r = 4
     if ch_mg_r == 4:
         $ ch_mg_r = 1
         jump Ch_inside_lab2

@@ -224,7 +224,7 @@ label Ne_MS2_lab:
             MC "Your maths skills probably aren’t that bad at all. Sidra is just using it as an excuse to dish out one of those weird punishments!"
         scene Ne_MS2aa_p6
         Isla "Gahhhh!!"
-        MC "H-Hey, it’s okay. At least we know now-"
+        MC "H-Hey, it’s okay, at least we know now-"
         Isla "*Sob*"
         scene Ne_MS2aa_p7
         MC "Isla?"

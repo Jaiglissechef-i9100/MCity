@@ -2,6 +2,7 @@ image live_camera_deskop = "images/game_gui/pc/LiveCamera/LiveCameraDeskop.png"
 image Celia_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Celia_Invitation.png"
 image Sara_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Sara_Invitation.png"
 
+default Ce_web_cam_locked = False
 
 label live_camera_label:
     scene main_deskop
@@ -44,7 +45,7 @@ screen live_camera_screen:
             idle "images/game_gui/pc/LiveCamera/NoName.png"
             hover "images/game_gui/pc/LiveCamera/NoName.png"
 
-    if celia_in_camweb_contacts == True and day_time == 3:
+    if celia_in_camweb_contacts == True and day_time == 3 and Celia_points <3 and Ce_web_cam_locked == False:
         imagebutton:
             xpos 324
             ypos 247
@@ -53,7 +54,13 @@ screen live_camera_screen:
             hover "images/game_gui/pc/LiveCamera/CeliaLiveHover.png"
             action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("celia_webcam_scenes")]
             unhovered Hide("displayTextScreen")
-
+    if Celia_points >=3:
+        imagebutton:
+            xpos 324
+            ypos 247
+            focus_mask True
+            idle "images/game_gui/pc/LiveCamera/Celia_webcam_contact.png"
+            hover "images/game_gui/pc/LiveCamera/Celia_webcam_contact.png"
     if sara_in_camweb_contacts == True and day_time != 3:
         imagebutton:
             xpos 516

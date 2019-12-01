@@ -16,18 +16,24 @@ image Ne_ES1_p10 = "images/Ne_1/ES1/10.jpg"
 image Ne_ES1_p11 = "images/Ne_1/ES1/11.jpg"
 image Ne_ES1_p12 = "images/Ne_1/ES1/12.jpg"
 image Ne_ES1_p13 = "images/Ne_1/ES1/13.jpg"
+image Ne_ES1_p13anim = Movie(play="videos/06 Neighboors ES1-2.webm", loop = True )
 image Ne_ES1_p14 = "images/Ne_1/ES1/14.jpg"
 image Ne_ES1_p15 = "images/Ne_1/ES1/15.jpg"
+image Ne_ES1_p15anim = Movie(play="videos/06 Neighboors ES1-1.webm", loop = True )
 image Ne_ES1_p16 = "images/Ne_1/ES1/16.jpg"
+image Ne_ES1_p16anim = Movie(play="videos/06 Neighboors ES1-3.webm", loop = True )
 image Ne_ES1_p17 = "images/Ne_1/ES1/17.jpg"
 image Ne_ES1_p18 = "images/Ne_1/ES1/18.jpg"
 image Ne_ES1_p19 = "images/Ne_1/ES1/19.jpg"
 image Ne_ES1_p20 = "images/Ne_1/ES1/20.jpg"
 image Ne_ES1_p21 = "images/Ne_1/ES1/21.jpg"
+image Ne_ES1_p21anim = Movie(play="videos/06 Neighboors ES1-5.webm", loop = True )
 image Ne_ES1_p22 = "images/Ne_1/ES1/22.jpg"
 image Ne_ES1_p23 = "images/Ne_1/ES1/23.jpg"
 image Ne_ES1_p24 = "images/Ne_1/ES1/24.jpg"
+image Ne_ES1_p24anim = Movie(play="videos/06 Neighboors ES1-4.webm", loop = True )
 image Ne_ES1_p25 = "images/Ne_1/ES1/25.jpg"
+image Ne_ES1_p25anim = Movie(play="videos/06 Neighboors ES1-4a.webm", loop = True )
 image Ne_ES1_p26 = "images/Ne_1/ES1/26.jpg"
 image Ne_ES1_p27 = "images/Ne_1/ES1/27.jpg"
 image Ne_ES1_p28 = "images/Ne_1/ES1/28.jpg"
@@ -39,6 +45,7 @@ image Ne_ES1_p33 = "images/Ne_1/ES1/33.jpg"
 image Ne_ES1_p34 = "images/Ne_1/ES1/34.jpg"
 image Ne_ES1_p35 = "images/Ne_1/ES1/35.jpg"
 image Ne_ES1_p36 = "images/Ne_1/ES1/36.jpg"
+image Ne_ES1_p36anim = Movie(play="videos/06 Neighboors ES1-6.webm", loop = True )
 image Ne_ES1_p37 = "images/Ne_1/ES1/37.jpg"
 image Ne_ES1_p38 = "images/Ne_1/ES1/38.jpg"
 image Ne_ES1_p39 = "images/Ne_1/ES1/39.jpg"
@@ -81,6 +88,7 @@ label Ne_ES1_lab:
     Isla "Mmm!"
     scene Ne_ES1_p13
     Sidra "Mmm…"
+    scene Ne_ES1_p13anim
     Isla "Mmm!"
     MC "(Damn! I wish I’d brought a camera to record this!)"
     scene Ne_ES1_p14
@@ -88,10 +96,12 @@ label Ne_ES1_lab:
     MC "(I’d give ANYTHING to get a double blowjob from the two of them!)"
     scene Ne_ES1_p15
     Sidra "Mmm…"
+    scene Ne_ES1_p15anim
     Isla "Mmm!"
     MC "(That’s it, keep making out for me!)"
     scene Ne_ES1_p16
     MC "(Her ass if fucking perfect. I’d ram my cock into it so hard if I ever got the chance!)"
+    scene Ne_ES1_p16anim
     MC "(And she looks so slutty in those rainbow stockings.)"
     scene Ne_ES1_p17
     MC "(I’m having a hard time deciding which of the two I like better now…)"
@@ -114,6 +124,7 @@ label Ne_ES1_lab:
     scene Ne_ES1_p21
     Sidra "Then it will be a lesson well learnt."
     Sidra "*Lick*"
+    scene Ne_ES1_p21anim
     Isla "Ohhh!"
     scene Ne_ES1_p22
     Sidra "*Shlurp* *Lick*"
@@ -129,10 +140,12 @@ label Ne_ES1_lab:
     Sidra "Fifteen to go."
     scene Ne_ES1_p24
     Isla "*Pant* *Gasp*"
+    scene Ne_ES1_p24anim
     Sidra "*Lick* *Slurrrrp*"
     Isla "Ahhh! Ayaaaahhhh!"
     scene Ne_ES1_p25
     Sidra "*Lick Lick Lick Lick*"
+    scene Ne_ES1_p25anim
     Isla "N-NOT AGAIN AAAAAHHhHHH!!!!!"
     Sidra "*SLURP*"
     Isla "*Pant Pant*"
@@ -182,6 +195,7 @@ label Ne_ES1_lab:
     scene Ne_ES1_p36
     Sidra "*Slurp* *Suck*"
     Isla "MMMM!!!! *Lick*"
+    scene Ne_ES1_p36anim
     MC "(Holy fuck this is incredible!)"
     scene Ne_ES1_p37
     MC "(She’s really digging her tongue deep into that girl’s pussy!)"
