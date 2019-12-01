@@ -18,7 +18,7 @@ label CR3_NS2_rep:
 
     Caroline "Ohhh! Ahh! Ahhh!"
     $ Caroline_name = "Caroline"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I should probably check this out. If I’m lucky, I might catch my older sister masturbating!)"
     else:
         MC "(I should probably check this out. If I’m lucky, I might catch Caroline masturbating!)"
@@ -56,7 +56,7 @@ label CR3_NS2_rep:
 
     Caroline "Ah... Oh..."
     Caroline "(We were sitting at opposite sides of the small log cabin - basking in the glow of the fire.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(But I keep catching my brother, stealing glances at my naked body...)"
     else:
         Caroline "(But I keep catching him, stealing glances at my naked body...)"
@@ -64,7 +64,7 @@ label CR3_NS2_rep:
     scene CR3_NS2_p8
 
     Caroline "Ugh, dammit..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Why does my brother keep popping into my fantasies?! I have to change the character again. Okay - It’s Joey from college. Focus on Joey.)"
     else:
         Caroline "(Why does [player_name] keep popping into my fantasies?! I have to change the character again. Okay - It’s Joey from college. Focus on Joey.)"
@@ -86,7 +86,7 @@ label CR3_NS2_rep:
     Caroline "Oh God... Yes..."
 
     scene CR3_NS2_p11
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(I try to object, but he’s far too quick. [player_name]’s dick starts to slip inside me. Inch by inch, my brother penetrates me, forcing his thick manmeat, deep into my soaking wet pussy.)"
     else:
         Caroline "(I try to object, but he’s far too quick. [player_name]’s dick starts to slip inside me. Inch by inch, he penetrates me, forcing his thick manmeat, deep into my soaking wet pussy.)"
@@ -97,7 +97,7 @@ label CR3_NS2_rep:
     "*Buzz Buzz*"
     scene CR3_NS2_p12anim with dissolve
     Caroline "(He begins to fuck me faster and faster, his cock, thrusting in and out of my - tight little hole.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Oh God... And then he cums so hard. My brother thrusts his hips, in deep, filling me up with his thick, potent, hot cum! I feel it spray into my pussy, filling me up!)"
     else:
         Caroline "(Oh God... And then he cums so hard. [player_name] thrusts his hips, in deep, filling me up with his thick, potent, hot cum! I feel it spray into my pussy, filling me up!)"
@@ -106,7 +106,7 @@ label CR3_NS2_rep:
     scene CR3_NS2_p13
 
     Caroline "Dammit..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Why the HELL did I start thinking about my brother AGAIN?! It’s SUPPOSED to be Joey!)"
     else:
         Caroline "(Why the HELL did I start thinking about him AGAIN?! It’s SUPPOSED to be Joey!)"
@@ -115,7 +115,7 @@ label CR3_NS2_rep:
     scene CR3_NS2_p14
 
     Caroline "(I’m lying down on a beautiful sunny beach, The waves are lapping against - the golden sand - as I close my eyes, There’s nobody else - as far as the eye can see, so I’m wearing the skimpiest bikini I own.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Suddenly, I hear footsteps behind me... It’s Simon, an athletic, six foot tall blonde guy, who looks NOTHING like my brother.)"
     else:
         Caroline "(Suddenly, I hear footsteps behind me... It’s Simon, an athletic, six foot tall blonde guy who, looks NOTHING like [player_name].)"
@@ -138,7 +138,7 @@ label CR3_NS2_rep:
     scene CR3_NS2_p17
 
     Caroline "Oh, my God... Ohh... Ah..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(My brother is pushing his cock, deeper into my panties. The fabric is pushing itself, into my pussy. If he doesn’t stop, they’ll tear, and his cock will thrust - so fucking deep inside me.)"
         Caroline "(Dammit! I’m back to thinking about my brother! But I’m soooo fucking close to cumming...)"
     else:
@@ -155,7 +155,7 @@ label CR3_NS2_rep:
 
     scene CR3_NS2_p19
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(With one final thrust, my brother plunges his cock, hard against my panties. They tear to shreds, as his cock forces its way through them, and into my sensitive hole.)"
     else:
         Caroline "(With one final thrust, [player_name] plunges his cock, hard against my panties. They tear to shreds, as his cock forces its way through them, and into my sensitive hole.)"
@@ -192,7 +192,7 @@ label CR3_NS2_rep:
 
     Caroline "(Holy fuck... That was intense...)"
     Caroline "(Okay, I better put my dildo away, before I accidentally fall asleep - with it lying out.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(I don’t want Mom or Dad walking in on me, in the morning - like this.)"
     else:
         Caroline "(I don’t want Linda or Bob walking in on me, in the morning - like this.)"
@@ -205,7 +205,7 @@ label CR3_NS2_rep:
     scene CR3_NS2_p26
 
     MC "(Huh, so she hides her dildo under her bed. That’s good to know!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I suppose it keeps it safe, when Mom cleans the room, or Sara goes looking for makeup - to nick off her older sister.)"
     else:
         MC "(I suppose it keeps it safe, when Linda inspects the room, or Sara goes looking for makeup - to nick off Caroline.)"

@@ -2,7 +2,7 @@ label MLR2_NS2_rep:
     scene MLR2_NS2_p1 with dissolve
     $ can_hide_windows = True
     MC "(Gulp…)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Well, there’s Dad. I wonder where Mom is, though.)"
     else:
         MC "(Well, there’s Bob. I wonder where Linda is, though.)"
@@ -26,7 +26,7 @@ label MLR2_NS2_rep:
     scene MLR2_NS2_p4
 
     Mom "I didn’t want to risk, falling asleep and missing your visit."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Besides - If I got into bed, your father would have wanted to have sex with me again."
     else:
         Mom "Besides - If I got into bed, Bob would have wanted to have sex with me again."
@@ -40,12 +40,12 @@ label MLR2_NS2_rep:
     Mom "Now… about that promise I made…"
 
     scene MLR2_NS2_p6
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I DID tell you that I would keep my boring husband off your back and make sure no harm ever came to you."
     else:
         Mom "I DID tell you that I would keep Bob off your back and make sure no harm ever came to you."
     Mom "HOWEVER - I want something in return."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "S-Sure, Mom. What are you thinking of?"
     else:
 
@@ -56,7 +56,7 @@ label MLR2_NS2_rep:
     Mom "I want you to pleasure me, like the old man never could."
     Mom "You can do whatever you want - but focus on MY pleasure, not yours."
     Mom "Do you understand?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Yeah, no problem, Mom."
     else:
         MC "Yeah, no problem, Linda."
@@ -69,7 +69,7 @@ label MLR2_NS2_rep:
     Mom "There we go."
     MC "Umm… are we sneaking into MY room now?"
     Mom "Why would we do that?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Because Dad is LITERALLY sleeping, right beside you."
     else:
         MC "Beceause Bob is LITERALLY sleeping, right beside you."
@@ -79,7 +79,7 @@ label MLR2_NS2_rep:
     scene MLR2_NS2_p10
 
     Mom "Now, how about you get over here and start playing with my tits, before I end up falling asleep too."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I guess Mom had a little bit of an exhibitionist streak in her!)"
         MC "Sure, Mom!"
     else:
@@ -122,7 +122,7 @@ label MLR2_NS2_rep:
 
     Mom "Mmm… here we go. Hurry up!"
     Mom "I’m so wet right now; I need to feel your tongue inside me!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Shush - careful you don’t wake Dad!"
     else:
         MC "Shush - careful you don’t wake Bob!"
@@ -160,7 +160,7 @@ label MLR2_NS2_rep:
 
     Mom "Oh yeah! Make me cum!"
     Dad "(Snore…)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Thank God, Dad’s a deep sleeper!)"
     else:
         MC "(Thank God, Bob’s a deep sleeper!)"
@@ -183,7 +183,7 @@ label MLR2_NS2_rep:
     scene MLR2_NS2_p23
 
     Mom "Hurry! I’m so close to cumming!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I need to feel my son’s tongue - writhing and flicking - deep inside my pussy!"
         MC "(Here we go… Let’s give Mom the best cunnilingus she’s ever had!)"
     else:
@@ -220,7 +220,7 @@ label MLR2_NS2_rep:
 
     Mom "Ohhhhh yeeeeessssss! C-Cuummmmmiiiinnng! Eeeeeekkk!"
     Mom "Ahhhhhhh! Oooohhhhh!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(My son’s hot wet tongue is making me cum!)"
     else:
         Mom "([player_name]’s hot wet tongue is making me cum!)"
@@ -251,7 +251,7 @@ label MLR2_NS2_rep:
     $ renpy.pause(7,hard = True)
     scene MLR2_NS2_p30a
     MC "(I think I made her cum, a second time!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Damn, she’s writhing and thrashing all over the bed! I’m surprised Dad hasn’t woken up!)"
     else:
         MC "(Damn, she’s writhing and thrashing all over the bed! I’m surprised Bob hasn’t woken up!)"
@@ -280,7 +280,7 @@ label MLR2_NS2_rep:
     MC "(Was I really THAT good at giving oral sex? I never realised!)"
     MC "(I’ll have to remember that, in future, for other girls.)"
     Mom "Mmm…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I hope I get to fuck Mom, someday soon. I can’t wait for that.)"
     else:
         MC "(I hope I get to fuck Linda, someday soon. I can’t wait for that.)"

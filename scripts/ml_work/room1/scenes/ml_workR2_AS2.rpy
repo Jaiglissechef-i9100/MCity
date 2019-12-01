@@ -11,7 +11,7 @@ label ml_workR2_AS2_label:
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Afternoon, Mom! I’m here for some work."
     else:
         MC "Afternoon, Linda! I’m here for some work."
@@ -22,7 +22,7 @@ label ml_workR2_AS2_label:
         MC "No problem."
         Mom "Now, let me finish this stupid work, so I'll have more time for my pumpkin."
         MC "Okay."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Hmm.. Mom seems very busy.. Maybe I should visit her in the evening, to give her a relaxing massage, after work? She should be in the kitchen or in the bedroom.)"
         else:
             MC "(Hmm.. Linda seems very busy.. Maybe I should visit her in the evening, to give her a relaxing massage, after work? She should be in the kitchen or in the bedroom.)"
@@ -40,7 +40,7 @@ label ml_workR2_AS2_label:
         MC "No problem."
         Mom "Now, let me finish this stupid work, so I'll have more time for my pumpkin."
         MC "Okay."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Hmm.. Mom seems very busy.. Maybe I should visit her in the evening, to give her a relaxing massage, after work? She should be in the kitchen or in the bedroom.)"
         else:
             MC "(Hmm.. Linda seems very busy.. Maybe I should visit her in the evening, to give her a relaxing massage, after work? She should be in the kitchen or in the bedroom.)"
@@ -56,7 +56,7 @@ label ml_workR2_AS2_label:
         scene ml_workR2_AS1_p2
 
         Mom "Thank you so much. I’ll be working in here. Just come on back in when you’re done."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Okay, Mom!"
         else:
             MC "Okay, Linda!"
@@ -95,7 +95,7 @@ label after_ml_workR2_AS2_label:
 
     Mom "Well… I was thinking about, taking you and me, to a gorgeous little restaurant on the far side of town."
     Mom "It’s an Italian place - one of the best in town. You’ll love the food."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I could NEVER get your father to go. He’s never been interested in, anything other than American burgers."
     else:
         Mom "I could NEVER get Bob to go. He’s never been interested in, anything other than American burgers."
@@ -110,7 +110,7 @@ label after_ml_workR2_AS2_label:
 
     Mom "Great! In that case, we’ll meet in the garage. "
     Mom "I’ll see you there, early this evening. Please don't be late."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I won’t be - don’t worry, Mom!"
     else:
         MC "I won’t be - don’t worry, Linda!"

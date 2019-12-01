@@ -160,7 +160,7 @@ label SR2_AS4_continue:
 
     MC "Okay, I better head on now. It was good seeing you today, Sara."
     Sara "Wait - before you go… Do you think we could chat on webcam this evening?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I’m confined to my room, but Mom hasn’t taken away my laptop - so we could chat on that."
     else:
         Sara "I’m confined to my room, but I still have my laptop - so we could chat on that."

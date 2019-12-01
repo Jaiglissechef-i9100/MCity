@@ -60,11 +60,11 @@ label ml_morning_salon_scenes1to3_v1_label:
         Television "...are in a high speed pursuit with three masked men."
         Television "The vehicle was stolen from a local bank parking lot."
 
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Looks like Mom’s watching the morning news.)"
             scene ml_morning_salon_scene1_v1_p2
             MC "Morning, Mom!"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Looks like Linda’s watching the morning news.)"
 
             scene ml_morning_salon_scene1_v1_p2
@@ -79,23 +79,23 @@ label ml_morning_salon_scenes1to3_v1_label:
         MC "I’ve only got a few minutes - I can’t stay too long, or I’ll-"
         Mom "I know - you’ll be late for class."
         Mom "I’m going to teach you a very important lesson right now. One that you should have learnt YEARS ago."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Mom "Never let your work get in the way of, quality family time."
-        if not renpy.loadable("patch.rpy"):
+        else:
             Mom "Never let your work get in the way of, quality friendships."
 
         scene ml_morning_salon_scene1_v1_p4
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Mom "Even if that means, just a few minutes in front of the TV with your son, before he goes to school."
-        if not renpy.loadable("patch.rpy"):
+        else:
             Mom "Even if that means, just a few minutes in front of the TV with me, before you go to school."
         MC "Uh… Okay. I’ll remember that."
         Mom "Please do. Your own children will thank you for it someday."
 
         scene ml_morning_salon_scene1_v1_p5
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Holy shit! Mom’s not wearing a bra!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Holy shit! Linda’s not wearing a bra!)"
         MC "(Why isn’t she wearing one?!)"
         MC "(She’s leaning so close that I can almost feel her left nipple!)"
@@ -109,18 +109,18 @@ label ml_morning_salon_scenes1to3_v1_label:
         scene ml_morning_salon_scene1_v1_p7
         MC "(Uh oh… Is she going to-)"
         MC "(Oh, it’s just on the cheek. My heart started racing there!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Maybe I am over analyzing things? Perhaps that kiss before, was her being a loving mother?)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Maybe I am over analyzing things? Perhaps that kiss before, was her being a loving friend?)"
         MC "(I’ve got to stop replaying it in my mind.)"
 
         scene ml_morning_salon_scene1_v1_p8
         MC "(Huh?! She’s turning my head! This ISN’T a peck on the cheek!)"
         MC "(What should I do?!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(I can’t kiss her back like this - she’s my mother! It’s FAR too intimate!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(I can’t kiss her back like this - she’s my friend! It’s FAR too intimate!)"
         scene ml_morning_salon_scene1_v1_p9
         Mom "Mmm…"
@@ -130,9 +130,9 @@ label ml_morning_salon_scenes1to3_v1_label:
         scene ml_morning_salon_scene1_v1_p10
         Mom "(Oh fuck! I almost did it again!)"
         Mom "I- um… I have to rush to work now. See you tonight!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Uh… S-See you later, Mom…"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Uh… S-See you later, Linda…"
         Mom "(Maybe I got lucky, and I broke off the kiss off before he got suspicious?)"
         $ renpy.music.stop(channel="music1", fadeout=1)
@@ -146,9 +146,9 @@ label ml_morning_salon_scenes1to3_v1_label:
 
         scene ml_morning_salon_scene2_v1_p1 with dissolve
         Mom "Morning, [player_name]."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Hey, Mom."
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Hey, Linda."
         Mom "Are you about to leave for school?"
         MC "In a few minutes, yeah."
@@ -165,11 +165,11 @@ label ml_morning_salon_scenes1to3_v1_label:
                 jump salon_morning1
             "No":
 
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Sorry, Mom. I’m in a bit of a rush. I can’t afford to be late."
                     Mom "Don’t worry, I’ll get them later. Enjoy your day!"
                     MC "Thanks, Mom!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Sorry, Linda. I’m in a bit of a rush. I can’t afford to be late."
                     Mom "Don’t worry, I’ll get them later. Enjoy your day!"
                     MC "Thanks, Linda!"
@@ -180,9 +180,9 @@ label ml_morning_salon_scenes1to3_v1_label:
 
     if ml_salon_morning_visit == 3 and ml_can_salon_morning_scene == True:
         scene ml_morning_salon_scene3_v1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Morning, Mom! I’m heading to school now."
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Morning, Linda! I’m heading to school now."
         Mom "Wait - don’t go yet!"
 
@@ -201,26 +201,26 @@ label ml_morning_salon_scenes1to3_v1_label:
                 scene ml_morning_salon_scene3_v1_p4
                 MC "I’ve seen a few cute girls about. You know how guys are."
                 Mom "Oooh, I hope you’re not going to turn into one of those playboys who chases all the girls!!"
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Mom!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Linda!"
                 Mom "Hehe, I’m just teasing you."
                 scene ml_morning_salon_scene3_v1_p5
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Mom "You know that no matter what you do, I’ll always be proud of my boy."
                 else:
                     Mom "You know that no matter what you do, I’ll always be proud of my little guy."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Haha! You’re gonna make me blush, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Haha! You’re gonna make me blush, Linda."
                 MC "(She seems… different today. I wonder what’s gotten into her.)"
 
                 scene ml_morning_salon_scene3_v1_p6
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Umm… Mom?"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Umm… Linda?"
                 Television "Up next - are lattes making you fat? Barry McSwindon investigates."
                 Mom "(Slowly does it… I’m going to move my hand, right up to his crotch and see how he reacts.)"
@@ -229,9 +229,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "The truth is, Barry - drinking more than fifty lattes a day, greatly increases your risk of obesity."
                 Television "But, Sonja - who the hell drinks fifty cups of coffee a day?!"
                 Television "That’s not the point I’m trying to make, Barry."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "(Mom looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "(Linda looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
                 scene ml_morning_salon_scene3_v1_p8
                 MC "(HUH?!)"
@@ -239,9 +239,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "Jesus Fucking Christ, Sonja! You’re missing the point!"
 
                 scene ml_morning_salon_scene3_v1_p9
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom! Your hand!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda! Your hand!"
                 Mom "Huh? Oops! Sorry, I was trying to grab your arm. I thought you had it resting on your lap."
                 Mom "I should have looked."
@@ -260,31 +260,31 @@ label ml_morning_salon_scenes1to3_v1_label:
                 scene ml_morning_salon_scene3_v1_p12
                 Mom "Do you feel, how fast it beats around you?"
                 Mom "It’s only around you. You’re special to me."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda…"
                 scene ml_morning_salon_scene3_v1_p13
                 Mom "Always remember my heartbeat, and you’ll know how much you mean to me."
                 Mom "I really do love you, [player_name]."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "I will, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "I will, Linda."
                 MC "(What’s gotten into her today? I’ve never seen her act this emotionally before.)"
 
                 scene ml_morning_salon_scene3_v1_p14
                 Mom "Okay, you better get to school. I’m gonna make you late."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "It’s okay, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "It’s okay, Linda."
                 Mom "See you later on."
 
                 scene ml_morning_salon_scene3_v1_p15
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Bye, Mom. See you later…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Bye, Linda. See you later…"
                 MC "(She’s acting really bizarre lately. I wonder if there’s something she’s not telling me.)"
 
@@ -303,20 +303,20 @@ label ml_morning_salon_scenes1to3_v1_label:
                 MC "Yeah. Are you alright?"
                 Mom "Oh yeah! I’m fine! I’m great."
                 scene ml_morning_salon_scene3_v1_p5
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Mom "You know that no matter what you do, I’ll always be proud of my boy."
                 else:
                     Mom "You know that no matter what you do, I’ll always be proud of my little guy."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Haha! You’re gonna make me blush, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Haha! You’re gonna make me blush, Linda."
                 MC "(She seems… different today. I wonder what’s gotten into her.)"
 
                 scene ml_morning_salon_scene3_v1_p6
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Umm… Mom?"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Umm… Linda?"
                 Television "Up next - are lattes making you fat? Barry McSwindon investigates."
                 Mom "(Slowly does it… I’m going to move my hand, right up to his crotch and see how he reacts.)"
@@ -325,9 +325,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "The truth is, Barry - drinking more than fifty lattes a day, greatly increases your risk of obesity."
                 Television "But, Sonja - who the hell drinks fifty cups of coffee a day?!"
                 Television "That’s not the point I’m trying to make, Barry."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "(Mom looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "(Linda looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
                 scene ml_morning_salon_scene3_v1_p8
                 MC "(HUH?!)"
@@ -335,9 +335,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "Jesus Fucking Christ, Sonja! You’re missing the point!"
 
                 scene ml_morning_salon_scene3_v1_p9
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom! Your hand!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda! Your hand!"
                 Mom "Huh? Oops! Sorry, I was trying to grab your arm. I thought you had it resting on your lap."
                 Mom "I should have looked."
@@ -356,31 +356,31 @@ label ml_morning_salon_scenes1to3_v1_label:
                 scene ml_morning_salon_scene3_v1_p12
                 Mom "Do you feel, how fast it beats around you?"
                 Mom "It’s only around you. You’re special to me."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda…"
                 scene ml_morning_salon_scene3_v1_p13
                 Mom "Always remember my heartbeat, and you’ll know how much you mean to me."
                 Mom "I really do love you, [player_name]."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "I will, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "I will, Linda."
                 MC "(What’s gotten into her today? I’ve never seen her act this emotionally before.)"
 
                 scene ml_morning_salon_scene3_v1_p14
                 Mom "Okay, you better get to school. I’m gonna make you late."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "It’s okay, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "It’s okay, Linda."
                 Mom "See you later on."
 
                 scene ml_morning_salon_scene3_v1_p15
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Bye, Mom. See you later…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Bye, Linda. See you later…"
                 MC "(She’s acting really bizarre lately. I wonder if there’s something she’s not telling me.)"
 
@@ -401,20 +401,20 @@ label ml_morning_salon_scenes1to3_v1_label:
                 MC "Oh, right."
 
                 scene ml_morning_salon_scene3_v1_p5
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Mom "You know that no matter what you do, I’ll always be proud of my boy."
                 else:
                     Mom "You know that no matter what you do, I’ll always be proud of my little guy."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Haha! You’re gonna make me blush, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Haha! You’re gonna make me blush, Linda."
                 MC "(She seems… different today. I wonder what’s gotten into her.)"
 
                 scene ml_morning_salon_scene3_v1_p6
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Umm… Mom?"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Umm… Linda?"
                 Television "Up next - are lattes making you fat? Barry McSwindon investigates."
                 Mom "(Slowly does it… I’m going to move my hand, right up to his crotch and see how he reacts.)"
@@ -423,9 +423,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "The truth is, Barry - drinking more than fifty lattes a day, greatly increases your risk of obesity."
                 Television "But, Sonja - who the hell drinks fifty cups of coffee a day?!"
                 Television "That’s not the point I’m trying to make, Barry."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "(Mom looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "(Linda looks engrossed in her show… I don’t think she’s paying attention to what she’s doing.)"
                 scene ml_morning_salon_scene3_v1_p8
                 MC "(HUH?!)"
@@ -433,9 +433,9 @@ label ml_morning_salon_scenes1to3_v1_label:
                 Television "Jesus Fucking Christ, Sonja! You’re missing the point!"
 
                 scene ml_morning_salon_scene3_v1_p9
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom! Your hand!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda! Your hand!"
                 Mom "Huh? Oops! Sorry, I was trying to grab your arm. I thought you had it resting on your lap."
                 Mom "I should have looked."
@@ -454,31 +454,31 @@ label ml_morning_salon_scenes1to3_v1_label:
                 scene ml_morning_salon_scene3_v1_p12
                 Mom "Do you feel, how fast it beats around you?"
                 Mom "It’s only around you. You’re special to me."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "M-Mom…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "L-Linda…"
                 scene ml_morning_salon_scene3_v1_p13
                 Mom "Always remember my heartbeat, and you’ll know how much you mean to me."
                 Mom "I really do love you, [player_name]."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "I will, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "I will, Linda."
                 MC "(What’s gotten into her today? I’ve never seen her act this emotionally before.)"
 
                 scene ml_morning_salon_scene3_v1_p14
                 Mom "Okay, you better get to school. I’m gonna make you late."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "It’s okay, Mom."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "It’s okay, Linda."
                 Mom "See you later on."
 
                 scene ml_morning_salon_scene3_v1_p15
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Bye, Mom. See you later…"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Bye, Linda. See you later…"
                 MC "(She’s acting really bizarre lately. I wonder if there’s something she’s not telling me.)"
                 $ renpy.music.stop(channel="music1", fadeout=1)

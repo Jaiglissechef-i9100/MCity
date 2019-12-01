@@ -50,7 +50,7 @@ label Z_ES3_rep:
 
                     Zuri "It’s pretty big, Suri, isn’t it!"
                     Suri "The kid surprised me!"
-                    if renpy.loadable("patch.rpy"):
+                    if persistent.incest_patch == True:
                         MC "(God, why am I just letting them do this? They’re seducing me into ruining Dad’s company!)"
                     else:
                         MC "(God, why am I just letting them do this? They’re seducing me into ruining Bob’s company!)"
@@ -67,7 +67,7 @@ label Z_ES3_rep:
                     Zuri "(Lick Lick)"
 
                     scene Zv2_ES3lick_p6
-                    if renpy.loadable("patch.rpy"):
+                    if persistent.incest_patch == True:
                         MC "(On the other hand, maybe Dad’s company isn’t worth a blowjob THIS good!)"
                     else:
                         MC "(On the other hand, maybe Bob’s company isn’t worth a blowjob THIS good!)"
@@ -180,7 +180,7 @@ label Z_ES3_rep:
                     scene Zv2_ES3foot_p7
 
                     MC "Ooh! God… That’s amazing…"
-                    if renpy.loadable("patch.rpy"):
+                    if persistent.incest_patch == True:
                         MC "(I shouldn’t be doing this to Dad’s company… but they’re so fucking sexy…)"
                     else:
                         MC "(I shouldn’t be doing this to Bob’s company… but they’re so fucking sexy…)"
@@ -295,7 +295,7 @@ label Z_ES3_rep:
 
             Zuri "Suck Suck"
             scene Zv2_ES3a_p9anim
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(Damn, Zuri is just as good at sucking cock, as her twin sister is!)"
             else:
                 MC "(Damn, Zuri is just as good at sucking cock as Suri is!)"
@@ -320,7 +320,7 @@ label Z_ES3_rep:
             MC "Ahhh! Huh?"
 
             scene Zv2_ES3a_p13
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "Sorry, it looks like my sister’s head has... accidentally fallen on your cock."
             else:
                 Zuri "Sorry, it looks like Suri's head has... accidentally fallen on your cock."

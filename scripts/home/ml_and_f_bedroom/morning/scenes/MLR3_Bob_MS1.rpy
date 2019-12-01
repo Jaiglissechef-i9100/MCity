@@ -7,9 +7,9 @@ image MLR3_Bob_MS1_p6 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/B
 image MLR3_Bob_MS1_p7 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/Bob/7.jpg"
 
 label MLR3_Bob_MS1:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Dad_name = __("Dad")
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Dad_name = "Bob"
     hide screen displayTextScreen
     hide screen map_button
@@ -59,7 +59,7 @@ label MLR3_Bob_MS1:
             Bob "Hello again, champ. Looking to chat with your old man?"
             MC "Yeah, you busy?"
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Bob "I can always spare some time for my favourite son."
             else:
                 Bob "I can always spare some time for you, [player_name]."
@@ -69,9 +69,9 @@ label MLR3_Bob_MS1:
             jump MLR3_Bob_MS1_menu
 
 label MLR3_Bob_MS1_menu:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Dad_name = __("Dad")
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Dad_name = "Bob"
     scene MLR3_Bob_MS1_p3
     menu:
@@ -143,7 +143,7 @@ label MLR3_Bob_MS1_menu:
             Bob "Ah… haha! Yes, that’s a very good question."
 
             scene MLR3_Bob_MS1_p5
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Bob "I was told to- I… volunteered to help out more around the house. Your mother was getting tired of having to do the cooking and the cleaning AND hold down a full time job."
             else:
                 Bob "I was told to- I… volunteered to help out more around the house. My wife was getting tired of having to do the cooking and the cleaning AND hold down a full time job."

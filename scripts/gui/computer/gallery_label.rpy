@@ -19,8 +19,8 @@ default CR4_rep = True
 default Ci_S1_rep = True
 
 label gallery_label:
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = __("Mom")
+    if persistent.incest_patch == True:
+        $ Mom_name = __("Mom")
         $ Liza2_name = __("Auntie")
     else:
         $ Mom_name = "Linda"

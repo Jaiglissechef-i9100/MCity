@@ -120,6 +120,7 @@ screen say(who, what):
                 text who id "who"
 
         text what id "what"
+        use quick_menu
 
         use quick_menu
 
@@ -260,9 +261,6 @@ screen quick_menu():
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
-
-init python:
-    config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
 
@@ -751,6 +749,11 @@ screen preferences():
                     label _("Language")
                     textbutton _("English") action Language(None)
                     textbutton _("French") action Language("french")
+                    vbox:
+                        style_prefix "radio"
+                        label _("Incest")
+                        textbutton __("Enable"):
+                            action ToggleField(persistent, 'incest_patch')
 
                 vbox:
                     style_prefix "radio"

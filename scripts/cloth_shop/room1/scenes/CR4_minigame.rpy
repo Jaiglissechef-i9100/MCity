@@ -9,7 +9,17 @@ default clothes40 = Clothes_item("Teddy Lingerie", c_image="images/clothes_minig
 default clothes44 = Clothes_item("Schoolgirl Uniform", c_image="images/clothes_minigame/44.png", c_hover="images/clothes_minigame/44_hover.png", c_text = "My husband is pretty boring, he's the headmaster of a school. I need something that will spice things up in the bedroom.")
 default clothes45 = Clothes_item("Maid Uniform", c_image="images/clothes_minigame/45.png", c_hover="images/clothes_minigame/45_hover.png", c_text = "My boyfriend gets turned on watching me clean, I want clothes that will make cleaning even more sexy.")
 default clothes53 = Clothes_item("Builder Outfit", c_image="images/clothes_minigame/53.png", c_hover="images/clothes_minigame/53_hover.png", c_text = "My husband is really into DIY work. I can never pull him away enough to notice me. Do you have something that might interest him.")
-
+default clothes6_french = Clothes_item("Chemise et jeans", c_image="images/clothes_minigame/6.png", c_hover="images/clothes_minigame/6_hover.png", c_text = "J'ai besoin de vêtements qui me couvrent entièrement pour pouvoir promener en ville en toute décontraction.")
+default clothes8_french = Clothes_item("Chemise et short en Jean", c_image="images/clothes_minigame/8.png", c_hover="images/clothes_minigame/8_hover.png", c_text = "Je viens de me raser les jambes. J'ai besoin de quelque chose dans lequel je puisse me promener et qui montre mes jambes. Mais juste mes jambes. Je veux être couverte sur le dessus.")
+default clothes12_french = Clothes_item("Ensemble athlétique", c_image="images/clothes_minigame/12.png", c_hover="images/clothes_minigame/12_hover.png", c_text = "Je suis une personne très extravertie et sportive. Je fais du jogging tous les jours. J'ai besoin de vêtements qui peuvent supporter beaucoup d'usure.")
+default clothes15_french = Clothes_item("Haut et pantalon Capri", c_image="images/clothes_minigame/15.png", c_hover="images/clothes_minigame/15_hover.png", c_text = "J'ai un beau bronzage et j'ai envie de me promener en ville avec quelque chose pour le montrer sans avoir l'air trop salope. Peut-être en montrant juste un petit bras et une petite jambe.")
+default clothes18_french = Clothes_item("Ensemble Bunny", c_image="images/clothes_minigame/18.png", c_hover="images/clothes_minigame/18_hover.png", c_text = "Mon mari passe toutes ses nuits au club de strip-tease ces jours-ci. Je viens de commander une barre de pôle-dance et j'ai besoin d'une robe qui le fera rester à la maison et le remarquera.")
+default clothes23_french = Clothes_item("Ensemble d'infirmière", c_image="images/clothes_minigame/23.png", c_hover="images/clothes_minigame/23_hover.png", c_text = "Mon mari est au lit avec une jambe cassée. Il n'a pas envie de faire quelque chose de vilain parce qu'il dit qu'il souffre. J'ai besoin de quelque chose qui lui fasse oublier sa blessure et lui montre plus d'intérêt pour moi.")
+default clothes29_french = Clothes_item("Costume de mime", c_image="images/clothes_minigame/29.png", c_hover="images/clothes_minigame/29_hover.png", c_text = "Mon mari est vraiment bavard à son retour du travail, mais je veux juste me détendre et je ne veux pas entendre parler de sa journée merdique. J'ai besoin d'une tenue qui dit que je ne vais pas lui parler.")
+default clothes40_french = Clothes_item("Lingerie Teddy", c_image="images/clothes_minigame/40.png", c_hover="images/clothes_minigame/40_hover.png", c_text = "Mon mari veut que je mette moins de vêtements au lit car il pense que ce sera sexy, mais je n'arrête pas de dire que je vais avoir trop froid. J'ai besoin de quelque chose de sexy et qui me garde au chaud la nuit.")
+default clothes44_french = Clothes_item("Uniforme d'écolière", c_image="images/clothes_minigame/44.png", c_hover="images/clothes_minigame/44_hover.png", c_text = "Mon mari est plutôt ennuyeux, c'est le directeur d'une école. J'ai besoin de quelque chose qui pimentera les choses dans la chambre.")
+default clothes45_french = Clothes_item("Uniforme de Bonne", c_image="images/clothes_minigame/45.png", c_hover="images/clothes_minigame/45_hover.png", c_text = "Mon petit ami s'excite en me regardant nettoyer, je veux des vêtements qui rendront le nettoyage encore plus sexy.")
+default clothes53_french = Clothes_item("Tenue d'ouvriére", c_image="images/clothes_minigame/53.png", c_hover="images/clothes_minigame/53_hover.png", c_text = "Mon mari est vraiment dans le bricolage. Je ne peux jamais l'en éloigner assez pour me remarquer. Avez-vous quelque chose qui pourrait l'intéresser.")
 
 image mc_wait1 = "images/clothes_minigame/Guests1.jpg"
 image mc_wait2 = "images/clothes_minigame/Guests2.jpg"
@@ -22,16 +32,17 @@ image mc_wait7 = "images/clothes_minigame/Guests7.jpg"
 
 image game_bg = "images/clothes_minigame/Game.jpg"
 
-define Customer = Character("Customer")
+define Customer = Character(__("Customer"))
 default clothes_inv = Clothes_inv()
-init -1 python:
+
+init -5 python:
 
     import renpy.store as store
     import renpy.exports as renpy
     from operator import attrgetter
 
     clo_page = 0
-init python:
+
     clothes_item = None
     class Clothes_item(store.object):
         selected = False
@@ -70,16 +81,24 @@ style frame_gui4:
     xmaximum 650
 
 label start_clo_minigame:
-    $ renpy.music.stop(channel="music1", fadeout=1)
-    $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
-    $ clo_money = 0
-    $ clo_loop = 1
-    $ mc_wait = [1,2,3,4,5,6,7]
-    $ clothes_rool2 = [1,2,3,4]
-    if CR4_AS3 == 4:
-        $ clothes_rool2.remove(4)
-        $ clo_loop = 2
-    jump clothes_minigame
+    menu:
+        "Play":
+            $ renpy.music.stop(channel="music1", fadeout=1)
+            $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
+            $ clo_money = 0
+            $ clo_loop = 1
+            $ mc_wait = [1,2,3,4,5,6,7]
+            $ clothes_rool2 = [1,2,3,4]
+            if CR4_AS3 == 4:
+                $ clothes_rool2.remove(4)
+                $ clo_loop = 2
+            jump clothes_minigame
+        "{image=cheat_code}":
+            $ renpy.music.stop(channel="music1", fadeout=1)
+            $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
+            $ clo_money = 25
+            scene CR4_AS3_p8
+            call screen clo_end_screen
 
 
 label clothes_minigame:
@@ -113,49 +132,86 @@ label clothes_minigame:
     $ clothes_rool2.remove(clothes_rolled3)
 
     if clothes_rolled3 == 1:
-
-        if CR4_AS3 == 2:
-            $ clothes_rolled = clothes6
-            $ clothes_inv.clothes = [clothes6,clothes8,clothes12,clothes53]
-        if CR4_AS3 == 3:
-            $ clothes_rolled = clothes15
-            $ clothes_inv.clothes = [clothes15,clothes8,clothes12,clothes53]
-        if CR4_AS3 == 4:
-            $ clothes_rolled = clothes29
-            $ clothes_inv.clothes = [clothes29,clothes44,clothes12,clothes53]
+        if preferences.language == "french":
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes6_french
+                $ clothes_inv.clothes = [clothes6_french,clothes8_french,clothes12_french,clothes53_french]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes15_french
+                $ clothes_inv.clothes = [clothes15_french,clothes8_french,clothes12_french,clothes53_french]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes29_french
+                $ clothes_inv.clothes = [clothes29_french,clothes44_french,clothes12_french,clothes53_french]
+        else:
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes6
+                $ clothes_inv.clothes = [clothes6,clothes8,clothes12,clothes53]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes15
+                $ clothes_inv.clothes = [clothes15,clothes8,clothes12,clothes53]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes29
+                $ clothes_inv.clothes = [clothes29,clothes44,clothes12,clothes53]
 
     if clothes_rolled3 == 2:
-
-        if CR4_AS3 == 2:
-            $ clothes_rolled = clothes18
-            $ clothes_inv.clothes = [clothes18,clothes6,clothes15,clothes12]
-        if CR4_AS3 == 3:
-            $ clothes_rolled = clothes23
-            $ clothes_inv.clothes = [clothes23,clothes8,clothes6,clothes44]
-        if CR4_AS3 == 4:
-            $ clothes_rolled = clothes12
-            $ clothes_inv.clothes = [clothes12,clothes40,clothes23,clothes15]
+        if preferences.language == "french":
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes18_french
+                $ clothes_inv.clothes = [clothes18_french,clothes6_french,clothes15_french,clothes12_french]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes23_french
+                $ clothes_inv.clothes = [clothes23_french,clothes8_french,clothes6_french,clothes44_french]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes12_french
+                $ clothes_inv.clothes = [clothes12_french,clothes40_french,clothes23_french,clothes15_french]
+        else:
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes18
+                $ clothes_inv.clothes = [clothes18,clothes6,clothes15,clothes12]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes23
+                $ clothes_inv.clothes = [clothes23,clothes8,clothes6,clothes44]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes12
+                $ clothes_inv.clothes = [clothes12,clothes40,clothes23,clothes15]
 
     if clothes_rolled3 == 3:
-
-        if CR4_AS3 == 2:
-            $ clothes_rolled = clothes40
-            $ clothes_inv.clothes = [clothes40,clothes12,clothes23,clothes15]
-        if CR4_AS3 == 3:
-            $ clothes_rolled = clothes45
-            $ clothes_inv.clothes = [clothes45,clothes44,clothes12,clothes18]
-        if CR4_AS3 == 4:
-            $ clothes_rolled = clothes44
-            $ clothes_inv.clothes = [clothes44,clothes45,clothes12,clothes18]
+        if preferences.language == "french":
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes40_french
+                $ clothes_inv.clothes = [clothes40_french,clothes12_french,clothes23_french,clothes15_french]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes45_french
+                $ clothes_inv.clothes = [clothes45_french,clothes44_french,clothes12_french,clothes18_french]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes44_french
+                $ clothes_inv.clothes = [clothes44_french,clothes45_french,clothes12_french,clothes18_french]
+        else:
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes40
+                $ clothes_inv.clothes = [clothes40,clothes12,clothes23,clothes15]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes45
+                $ clothes_inv.clothes = [clothes45,clothes44,clothes12,clothes18]
+            if CR4_AS3 == 4:
+                $ clothes_rolled = clothes44
+                $ clothes_inv.clothes = [clothes44,clothes45,clothes12,clothes18]
 
     if clothes_rolled3 == 4:
-
-        if CR4_AS3 == 2:
-            $ clothes_rolled = clothes53
-            $ clothes_inv.clothes = [clothes53,clothes45,clothes29,clothes44]
-        if CR4_AS3 == 3:
-            $ clothes_rolled = clothes8
-            $ clothes_inv.clothes = [clothes8,clothes45,clothes40,clothes53]
+        if preferences.language == "french":
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes53_french
+                $ clothes_inv.clothes = [clothes53_french,clothes45_french,clothes29_french,clothes44_french]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes8_french
+                $ clothes_inv.clothes = [clothes8_french,clothes45_french,clothes40_french,clothes53_french]
+        else:
+            if CR4_AS3 == 2:
+                $ clothes_rolled = clothes53
+                $ clothes_inv.clothes = [clothes53,clothes45,clothes29,clothes44]
+            if CR4_AS3 == 3:
+                $ clothes_rolled = clothes8
+                $ clothes_inv.clothes = [clothes8,clothes45,clothes40,clothes53]
 
     $ clo_loop += 1
     scene game_bg
@@ -213,7 +269,7 @@ screen clothes_minigame_cust_scr:
         ypos 150
         frame:
             style "frame_gui4"
-            text "{color=#66ff66}Customer:{/color} \n[clothes_rolled.c_text]"
+            text __("{color=#66ff66}Customer:{/color} \n[clothes_rolled.c_text]")
 
 screen clothes_minigame_cust_bad_scr:
     modal True
@@ -223,7 +279,7 @@ screen clothes_minigame_cust_bad_scr:
         ypos 150
         frame:
             style "frame_gui4"
-            text "{color=#66ff66}Customer:{/color} \nIt's not what I wanted!? What the fuck is wrong with you!?"
+            text __("{color=#66ff66}Customer:{/color} \nIt's not what I wanted!? What the fuck is wrong with you!?")
 
 label clo_money_add:
     $ clo_money += 5

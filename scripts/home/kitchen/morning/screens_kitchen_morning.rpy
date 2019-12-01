@@ -103,9 +103,9 @@ screen kitchen_morning:
             focus_mask True
             idle "images/home/kitchen/morning/scenes/ml_morning_kitchen_scene4_v1/Mom_Auntie.png"
             hover "images/home/kitchen/morning/scenes/ml_morning_kitchen_scene4_v1/Mom_Auntie_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom and Auntie"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Linda and her Friend"))
             action [Hide("displayTextScreen"),Jump("ml_kitchen_morning_scene4_V1_label")]
             unhovered Hide("displayTextScreen")
@@ -117,9 +117,9 @@ screen kitchen_morning:
             focus_mask True
             idle "images/home/kitchen/morning/scenes/ml_morning_kitchen_scene4_v1/Mom_Auntie.png"
             hover "images/home/kitchen/morning/scenes/ml_morning_kitchen_scene4_v1/Mom_Auntie_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom and Auntie"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Linda and her Friend"))
             action [Hide("displayTextScreen"),Jump("ml_kitchen_morning_scene4_V1_label")]
             unhovered Hide("displayTextScreen")

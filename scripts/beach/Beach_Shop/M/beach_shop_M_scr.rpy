@@ -70,9 +70,9 @@ screen beach_shop_M_scr:
             hover "images/Beach/Beach_Shop/M/B6_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -85,9 +85,9 @@ screen beach_shop_M_scr:
             hover "images/Beach/Beach_Shop/M/B6_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_drink")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 

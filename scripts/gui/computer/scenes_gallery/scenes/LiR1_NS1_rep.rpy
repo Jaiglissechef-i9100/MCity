@@ -1,5 +1,5 @@
 label LiR1_NS1_rep:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"

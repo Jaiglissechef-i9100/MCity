@@ -7,6 +7,6 @@ screen bob_work_outside_D_scr:
         focus_mask True
         idle "images/Bob_work/outside/D/B1_D.png"
         hover "images/Bob_work/outside/D/B1_D_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Bob's Workplace"))
+        hovered Show("displayTextScreen", displayText = __("[Dad_name]'s Workplace"))
         action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("bob_entrance_M1")]
         unhovered Hide("displayTextScreen")

@@ -112,7 +112,7 @@ screen bob_desk_scr:
 label bob_deskbooks_label:
     show screen bob_desk_scr
     $ clickable = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Those are Dad’s books."
     else:
         MC "Those are Bob’s books."
@@ -123,7 +123,7 @@ label bob_deskbooks_label:
 label bob_desklaptop_label:
     show screen bob_desk_scr
     $ clickable = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Dad’s laptop. I don't need to use it right now."
     else:
         MC "Bob’s laptop. I don't need to use it right now."

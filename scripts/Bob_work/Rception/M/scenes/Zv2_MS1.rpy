@@ -24,7 +24,7 @@ label Zv2_MS1_label:
         $ Zuri_name = "Zuri"
 
         scene Zv2_MS1_p2
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Wow! That must be Dad’s secretary! She’s REALLY hot!)"
             MC "Hi, Zuri. My name is [player_name]. I was coming to visit my dad."
             Zuri "And who is your dad?"
@@ -40,7 +40,7 @@ label Zv2_MS1_label:
         Zuri "Let me guess - you’re with one of those online prank videos, aren’t you?"
         MC "Huh?"
         Zuri "You’ve got a secret camera and you’re going to humiliate the boss and put it online?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "No- What?! I AM actually his son."
         else:
             MC "No- What?! I AM actually his tennant.."
@@ -62,7 +62,7 @@ label Zv2_MS1_label2:
         Zuri "Hello, and welcome to Bayside Business Consultants."
         MC "There is someone in the office?"
         scene Zv2_MS1_p4 at pandown3
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Zuri "Please follow me. I’ll take you to your Dad's office."
         else:
             Zuri "Please follow me. I’ll take you to Bob's office."
@@ -97,7 +97,7 @@ label Zv2_MS1_label3:
 
             MC "(Oh, very nice!)"
             MC "(Those panties are sooo thin: they barely cover anything!)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I’d love to get into that ass! But there’s a fat chance of that happening - she’s Dad’s secretary!) "
             else:
                 MC "(I’d love to get into that ass! But there’s a fat chance of that happening - she’s Bob’s secretary!)"
@@ -105,18 +105,18 @@ label Zv2_MS1_label3:
         "It’s not worth the risk. Just play it safe.":
 
             scene Zv2_MS1_p6
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I better just play it safe. If she catches me, she’ll likely never let me visit Dad again!)"
             else:
                 MC "(I better just play it safe. If she catches me, she’ll likely never let me visit Bob again!)"
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "It’s your son, Sir."
             else:
                 Zuri "It’s your tennant, Sir."
             scene Zv2_MS1_p7
             Dad "Oh! [player_name]! Come on in!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "On you go, Sir. Just try not to keep your father distracted from his job for too long, please."
             else:
                 Zuri "On you go, Sir. Just try not to keep the boss distracted from his job for too long, please."

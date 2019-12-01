@@ -87,7 +87,7 @@ image LiR1_NS5_p75 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/75.jpg"
 image LiR1_NS5_p76 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/76.jpg"
 
 label LiR1_NS5_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -162,7 +162,7 @@ label LiR1_NS5_label:
     MC "Do you want me to strip off now?"
 
     scene LiR1_NS5_p11
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "Hold on, a second. I just want to give my favourite nephew a hug, before we do this."
     else:
         Yazmin "Hold on, a second. I just want to give you a hug, before we do this."
@@ -239,7 +239,7 @@ label LiR1_NS5_label:
     Yazmin "-The trick is to - time your finger - so that it enters - just - as she climaxes. It’s amazing! She - screams her head off - in pleasure."
 
     scene LiR1_NS5_p23
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "I can’t believe you! Do you have no shame - telling your nephew about these things?!"
     else:
         Liza2 "I can’t believe you! Do you have no shame - telling [player_name] about these things..?!"
@@ -595,7 +595,7 @@ label LiR1_NS5_label:
 
     scene LiR1_NS5_p76
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "You can head on home, [player_name]. I have to clean your auntie up, now."
     else:
         Yazmin "You can head on home, [player_name]. I have to clean Liza up, now."

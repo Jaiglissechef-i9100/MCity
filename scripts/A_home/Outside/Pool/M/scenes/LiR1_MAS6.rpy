@@ -32,7 +32,7 @@ image LiR1_MAS6_p31 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS6/31.jpg"
 image LiR1_MAS6_p32 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS6/32.jpg"
 
 label LiR1_MAS6_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -51,7 +51,7 @@ label LiR1_MAS6_label:
     MC "(She looks - incredible - in that bikini. I should go over and say hello.)"
 
     scene LiR1_MAS6_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Aunt Liza! How are you?"
     else:
         MC "Hey, Liza! How are you?"
@@ -185,7 +185,7 @@ label LiR1_MAS6_label:
     MC "N-No - just a little bit. I’m good - really."
 
     scene LiR1_MAS6_p23
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Oh! Good to hear - My sister would kill me, if I hurt her son!"
     else:
         Liza2 "Oh! Good to hear - Linda would kill me, if I hurt her [player_name]!"
@@ -195,7 +195,7 @@ label LiR1_MAS6_label:
     scene LiR1_MAS6_p24
 
     MC "It’s- ah- I’m okay! Really! Don’t worry about me!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Aww c’mon... you’re never too old to get a cuddle from your auntie. Don’t be embarrassed - it’s not like any of your friends are around to see you."
     else:
         Liza2 "Aww c’mon... you’re never too old to get a cuddle from me. Don’t be embarrassed - it’s not like any of your friends are around to see you."

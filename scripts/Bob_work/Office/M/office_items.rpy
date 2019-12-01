@@ -285,7 +285,7 @@ label bob_redstatue2_label:
 label bob_carkeys_label:
     show screen bob_redstatue_scr
     $ clickable = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Oh! It’s Dad’s car keys. But why are there two? The other one must be a spare?"
     else:
         MC "Oh! It’s Bob’s car keys. But why are there two? The other one must be a spare?"
@@ -304,7 +304,7 @@ label bob_carkeys_put_label:
     $ bob_carkeys_put = True
     $ active_item = None
     $ bob_carkeys.selected = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Let’s return Dad’s keys."
     else:
         MC "Let’s return Bob’s keys."

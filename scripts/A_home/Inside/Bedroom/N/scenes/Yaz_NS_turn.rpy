@@ -26,7 +26,7 @@ image LiR1_NS3_turn_tits_p11 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Y
 image LiR1_NS3_turn_tits_p11a = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Tits/11a.jpg"
 
 label Yaz_NS_turn_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"

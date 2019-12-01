@@ -34,10 +34,7 @@ image ML_NS_wake_p28 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/HerCHoic
 image ML_NS_wake_p29 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/HerCHoice/29.jpg"
 
 label ML_NS_wake_label:
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = __("Mom")
-    else:
-        $ Mom_name = "Linda"
+    $ Linda_name = Mom_name
     scene ML_NS_wake_p2
 
     MC "(Whispered) [Linda_name]?"
@@ -53,7 +50,7 @@ label ML_NS_wake_label:
     scene ML_NS_wake_p4
 
     Mom "(Whispered) [player_name], what are you doing here? It’s the middle of the night?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Whispered) I wanted to spend some time with you. C’mon back to my bedroom with me. We’ll sneak out before Dad wakes up."
     else:
         MC "(Whispered) I wanted to spend some time with you. C’mon back to my bedroom with me. We’ll sneak out before Bob wakes up."
@@ -64,7 +61,7 @@ label ML_NS_wake_label:
 
     Mom "(Whispered) I don’t think so..."
     Mom "(Whispered) I want to have you - in MY bedroom - tonight."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Whispered) Are you crazy?! Dad’s LITERALLY right there?"
     else:
         MC "(Whispered) Are you crazy?! Bob’s LITERALLY right there?"

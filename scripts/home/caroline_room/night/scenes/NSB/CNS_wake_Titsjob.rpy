@@ -87,7 +87,7 @@ label CNS_wake_Titsjob_label:
 
     Caroline "I want you to imagine yourself having the semen sucked from your cock as you are forced to cum in my mouth."
     MC "Hnnnnggg!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "You’d quiver and moan and shake. You’d cry that it’s too sensitive. But I’m a good sister and I just wouldn’t stop sucking until I was certain that I’d drained every last droplet of cum from your body."
     else:
         Caroline "You’d quiver and moan and shake. You’d cry that it’s too sensitive. But I’m a good friend and I just wouldn’t stop sucking until I was certain that I’d drained every last droplet of cum from your body."

@@ -32,7 +32,7 @@ label Z_ES1_label:
     scene Z_ES1_p1 with dissolve
     $ can_hide_windows = True
     MC "(Well, this looks like the place. It’s a REALLY nice house!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I wonder if this was a date. Zuri does seem kinda flirty with me every time I visit Dad.)"
     else:
         MC "(I wonder if this was a date. Zuri does seem kinda flirty with me every time I visit Bob.)"
@@ -147,7 +147,7 @@ label Z_ES1_q1_label:
     $ Suri_name = "???"
     Suri "Boo!"
     MC "Ahh!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "[player_name], meet my twin sister, Suri."
     else:
         Zuri "[player_name], meet, Suri."
@@ -157,7 +157,7 @@ label Z_ES1_q1_label:
     scene Z_ES1_p15
 
     MC "There’s two of you?!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "Oh yes. Suri doesn’t work at your dad’s company though."
     else:
         Zuri "Oh yes. Suri doesn’t work at Bob’s company though."
@@ -166,7 +166,7 @@ label Z_ES1_q1_label:
     scene Z_ES1_p16
 
     Zuri "This isn’t a date. I’m sure you know that much by now."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "It’s a business proposition. Your father is currently building an investment portfolio of very wealthy companies. If he acquires a majority of their shares, his company could be set to earn millions."
     else:
         Zuri "It’s a business proposition. Bob is currently building an investment portfolio of very wealthy companies. If he acquires a majority of their shares, his company could be set to earn millions."
@@ -175,7 +175,7 @@ label Z_ES1_q1_label:
     scene Z_ES1_p17
 
     Suri "We want you to get us the company names."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Wh-Why would I do that? Wouldn’t that hurt my dad’s company?"
     else:
         MC "Wh-Why would I do that? Wouldn’t that hurt Bob’s company?"
@@ -183,7 +183,7 @@ label Z_ES1_q1_label:
     Suri "But we’re offering you something REALLY fun."
 
     scene Z_ES1_p18
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "This may be the ONLY time in your life you will ever be with twins."
     else:
         Zuri "This may be the ONLY time in your life you will ever be with us."
@@ -195,7 +195,7 @@ label Z_ES1_q1_label:
 
     Zuri "I’ll leave you alone now to make up your mind."
     Zuri "In the meantime, I’m sure that Suri can… help convince you of the right decision."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Suri "I certainly can, Sis."
     else:
         Suri "I certainly can, Zuri."

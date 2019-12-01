@@ -99,9 +99,9 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1.png"
             hover "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             clicked [Hide("displayTextScreen"),Jump("ml_mc_room_night_scene3_v1_label")]
             unhovered Hide("displayTextScreen")
@@ -113,9 +113,9 @@ screen mc_room_night:
             focus_mask True
             idle "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1.png"
             hover "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             clicked [Hide("displayTextScreen"),Jump("ml_mc_room_night_scene3_v1_label")]
             unhovered Hide("displayTextScreen")

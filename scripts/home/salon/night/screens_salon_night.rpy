@@ -23,9 +23,9 @@ screen salon_night:
         focus_mask True
         idle "images/home/salon/night/door3_night_idle.png"
         hover "images/home/salon/night/door3_night_hover.png"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-        if not renpy.loadable("patch.rpy"):
+        else:
             hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("parents_bedroom_night1")]
         unhovered Hide("displayTextScreen")
@@ -37,9 +37,9 @@ screen salon_night:
             focus_mask True
             idle "images/home/salon/night/door3_night_idle.png"
             hover "images/home/salon/night/door3_night_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             action [Hide("displayTextScreen"),Jump("ml_ml_and_f_bedroom_night_scene_v1_label")]
             unhovered Hide("displayTextScreen")
@@ -51,9 +51,9 @@ screen salon_night:
             focus_mask True
             idle "images/home/salon/night/door3_night_idle.png"
             hover "images/home/salon/night/door3_night_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             action [Hide("displayTextScreen"),Jump("ml_ml_and_f_bedroom_night_scene_v1_label")]
             unhovered Hide("displayTextScreen")
@@ -65,9 +65,9 @@ screen salon_night:
             focus_mask True
             idle "images/home/salon/night/door3_night_idle.png"
             hover "images/home/salon/night/door3_night_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             action [Hide("displayTextScreen"),Jump("MLR2_NS1_label")]
             unhovered Hide("displayTextScreen")

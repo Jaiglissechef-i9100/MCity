@@ -53,7 +53,7 @@ label MLR3_MS3:
     MC "(Should I tell [Dad_name] about this? Is she going to talk to him before she goes? Or will she just disappear one day?)"
 
     scene MLR3_MS3_p7
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Oh, and before you think of asking your sisters or father about this… don’t."
     else:
         Mom "Oh, and before you think of asking your roommates or Bob about this… don’t."

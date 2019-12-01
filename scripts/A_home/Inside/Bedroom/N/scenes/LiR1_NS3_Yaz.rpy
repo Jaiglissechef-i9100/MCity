@@ -51,7 +51,7 @@ image LiR1_NS3_yaz_mouth_p14anim = Movie(play="videos/04 Liza-NS-YB1.webm", loop
 image LiR1_NS3_yaz_mouth_p15 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Mouth/15.jpg"
 
 label LiR1_NS3_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -84,7 +84,7 @@ label LiR1_NS3_label:
         MC "(She was even - kind enough - to make my job easier, by not sleeping with a bra on!)"
 
         scene LiR1_NS3_p1b
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(And there’s my sexy Auntie - dead to the world.)"
         else:
             MC "(And there’s Liza - dead to the world.)"
@@ -92,7 +92,7 @@ label LiR1_NS3_label:
         MC "(It’s a shame she’s wearing underwear, but at least it’s see-through!)"
 
         MC "(Damn, her tits look incredible! Just look at the size of those nipples!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Hmm... (Yazmin or Auntie Liza... Which one should I play with?)"
         else:
             MC "Hmm... (Yazmin or Liza... Which one should I play with?)"

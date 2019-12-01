@@ -18,30 +18,30 @@ label caroline_room_morning_scene3_label:
     scene caroline_room_morning_scene3_p1 with dissolve
     $ can_hide_windows = True
     MC "(Huh? What’s wrong with Caroline?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever seen!)"
         MC "(Even Mom’s gotten involved - this must be serious.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(This isn’t like her, at all. She’s usually one of the happiest, most upbeat people I’ve ever met!)"
         MC "(Even Linda’s gotten involved - this must be serious.)"
 
 
     scene caroline_room_morning_scene3_p2
     Mom "Listen, I can afford to help out with the mortgage for a couple more months."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "But after that, we’ll be relying, almost entirely on your father’s overtime, to make ends meet."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "But after that, we’ll be relying, almost entirely Bob’s overtime, to make ends meet."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I know. (Sniff) I’m sorry, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "I know. (Sniff) I’m sorry, Linda."
     Caroline "I really thought this shop idea would work!"
 
     scene caroline_room_morning_scene3_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Perhaps you should consider cutting your losses? Your father might be able to get you a job in Risk Management at the firm?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "Perhaps you should consider cutting your losses? Bob might be able to get you a job in Risk Management at the firm?"
     Caroline "God no! Trust me - I have a plan to turn a profit at my store."
     Caroline "I can’t do it on my own though. I’m gonna need some help to get things off the ground."

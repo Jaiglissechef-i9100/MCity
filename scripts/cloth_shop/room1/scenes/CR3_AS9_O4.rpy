@@ -215,7 +215,7 @@ label CR3_AS9_O4:
 
         MC "(Damn, Caroline looks incredibly sexy right now - I’ll have to be extra careful, to make sure I don’t get a boner in front of Violet.)"
         MC "(That’s the LAST thing I want her to capture on camera!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(I hope to God, Mom or Dad never check out Caroline's website… All those photos we have taken so far, do look rather compromising.)"
         else:
             MC "(I hope to God, Linda or Bob never check out Caroline's website… All those photos we have taken so far, do look rather compromising.)"
@@ -246,7 +246,7 @@ label CR3_AS9_O4:
         scene CR3_AS9_O4_p19
 
         Violet "Okay, smile for the camera!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Oh dear… I hope Violet hasn’t caught onto the fact that we’re more than brother and sister now…)"
         else:
 
@@ -280,8 +280,8 @@ label CR3_AS9_O4:
 label CR3_AS9_O4_con2:
     scene black
     $ renpy.pause(2,hard=True)
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = "Mom"
+    if persistent.incest_patch == True:
+        $ Linda_name = __("Mom")
     else:
         $ Linda_name = "Linda"
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -410,14 +410,14 @@ label CR3_AS9_O4_con2:
             scene CR3_AS9_O4_hand_p7
 
             MC "Ah… It’s so good..."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Oh yeah, just look at you, getting SOOOO hard because your sister is touching your dick."
             else:
                 Caroline "Oh yeah - just look at you, getting SOOOO hard because your best friend is touching your dick."
             MC "(God, I love it when she talks dirty.)"
 
             scene CR3_AS9_O4_hand_p8
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Would you get this hard for any other girl? Or is it the thrill of knowing how BAD it is that your older sister is the one wanking you off?"
             else:
                 Caroline "Would you get this hard for any other girl? Or is it the thrill of knowing how BAD it is that your old babysitter is the one wanking you off?"
@@ -429,7 +429,7 @@ label CR3_AS9_O4_con2:
 
             Caroline "What would [Linda_name] say if I told her you were getting wanked off by me?"
             Caroline "Hmm? She’d probably be furious."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of your older sister rubbing your cock."
             else:
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of an older woman rubbing your cock."
@@ -496,7 +496,7 @@ label CR3_AS9_O4_con2:
             Caroline "Ahh! AHHH! Mmm…"
 
             scene CR3_AS9_O4_hand_p20
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Cum for me! Cum for your big sister!"
             else:
                 Caroline "Cum for me! Cum for your Caroline!"
@@ -596,7 +596,7 @@ label CR3_AS9_O4_con2:
             MC "Ah..."
             Caroline "Let’s see if I can make you cum, using only my feet."
             scene CR3_AS9_O4_foot_p12anim
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Do you always get this hard thinking about women’s feet? Or is there a special allure to knowing that they belong to your big sister?"
             else:
                 Caroline "Do you always get this hard thinking about women’s feet? Or is there a special allure to knowing that they belong to me?"
@@ -637,7 +637,7 @@ label CR3_AS9_O4_con2:
 
             Caroline "You’re getting very loud there, [player_name]. You’re about to cum, aren’t you?"
             MC "Y-Yeah! I’m gonna cum!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Cum for me. Cum for your big sister, [player_name]."
             else:
                 Caroline "Cum for me, [player_name]."
@@ -842,7 +842,7 @@ label CR3_AS9_O4_con3:
     scene CR3_AS9_O4_p66
 
     Caroline "AHH! AHHH! AHHHHH!!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Thank God we’re not at home - I couldn’t scream like this in the house, without Mom or Sara hearing me!)"
         Caroline "(Actually, come to think of it, it’s probbaly a good thing that I DIDN’T include this in the deal! There’s no way I’d be able to resist him doing this, and I’d probably just end up accidentally ruining it, by attracting our family’s attention to our little deal.)"
     else:

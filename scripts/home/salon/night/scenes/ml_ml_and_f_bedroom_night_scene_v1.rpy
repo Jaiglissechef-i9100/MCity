@@ -34,10 +34,10 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         $ Dad_name = "???"
         Dad "(Ugh! Yeah!)"
 
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Huh… Sounds like my parents are having sex.)"
             MC "(Maybe I could take this chance to sneak a peek at Mom!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Huh… Sounds like Linda and Bob are having sex.)"
             MC "(Maybe I could take this chance to sneak a peek at Linda!)"
         $ renpy.sound.play("sfx/door_squeak.mp3")
@@ -46,35 +46,35 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         MC "(Shit… I hope they didn’t hear the door opening!)"
         Dad "Oh! Ahhh!"
         MC "(Apparently not!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             $ Dad_name = __("Dad")
-        if not renpy.loadable("patch.rpy"):
+        else:
             $ Dad_name = "Bob"
 
         scene ml_ml_and_f_bedroom_night_scene1_v1_p3
         Dad "Oh yeah, that’s it!"
         Dad "Aww, crap..."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Huh, it’s only Dad moaning.)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Huh, it’s only Bob moaning.)"
         Dad "Hang on, I’ll get my boner back. Just give me a minute and I’ll go in again!"
         Mom "Uh huh… No problem, Dear."
 
         scene ml_ml_and_f_bedroom_night_scene1_v1_p4
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(It looks like Mom’s… bored?)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(It looks like Linda’s… bored?)"
         MC "(No way! Why would she be bored having sex?!)"
         MC "(It doesn’t make sense…)"
 
         scene ml_ml_and_f_bedroom_night_scene1_v1_p5
 
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Looks like Mom is more interested in her book. I wonder what it is?)"
             MC "(Dad probably doesn’t even know or care right now.)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Looks like Linda is more interested in her book. I wonder what it is?)"
             MC "(Bob probably doesn’t even know or care right now.)"
         scene ml_ml_and_f_bedroom_night_scene1_v1_p6
@@ -99,9 +99,9 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
         scene ml_ml_and_f_bedroom_night_scene2_v1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(I wonder if Mom’s gonna be reading again.)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(I wonder if Linda’s gonna be reading again.)"
         MC "(At the very least, I’ll get a good peek at her tits!)"
         $ renpy.sound.play("sfx/door_squeak.mp3")
@@ -116,16 +116,16 @@ label ml_ml_and_f_bedroom_night_scene_v1_label:
         MC "(Is she… asleep?)"
 
         scene ml_ml_and_f_bedroom_night_scene2_v1_p4
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Holy crap! Mom’s ACTUALLY fallen asleep during sex!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Holy crap! Linda’s ACTUALLY fallen asleep during sex!)"
         MC "(And she hasn’t even gotten fully undressed either.)"
         MC "(Gee… I didn’t know she had such a terrible sex life.)"
         Dad "Ahh! I’m cumming!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Uh oh! I better leg it out of here before Dad finishes!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Uh oh! I better leg it out of here before Bob finishes!)"
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

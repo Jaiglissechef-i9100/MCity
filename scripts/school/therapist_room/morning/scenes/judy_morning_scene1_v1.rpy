@@ -32,9 +32,9 @@ label judy_menu_v1_label:
             jump judy_q3_label
         "Talk about Celia being selling grades." if Judy_scene1_v1 == 1:
             jump judy_morning_scene1_v1_label
-        "Talk about Mom." if judy_q2 == True and renpy.loadable("patch.rpy"):
+        "Talk about Mom." if judy_q2 == True and persistent.incest_patch == True:
             jump judy_lindadeal
-        "Talk about Linda." if judy_q2 == True and not renpy.loadable("patch.rpy"):
+        "Talk about Linda." if judy_q2 == True and not persistent.incest_patch == True:
             jump judy_lindadeal
         "Cancel":
 
@@ -107,16 +107,16 @@ label judy_lindadeal:
     Judy "No? Is something wrong?"
     MC "Yes... No... Maybe? I’m not sure right now."
     Judy "Calm down, and breathe. What is it you want to say?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I… I overheard my mom talking to you on the phone."
     else:
         MC "I… I overheard Linda talking to you on the phone."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Okay... There’s nothing unusual about that. Parental involvement can be very important in therapy."
     MC "The two of you were talking about some kind of deal involving me."
 
     scene judy_MLask_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Ahh! You’re more aware of the situation than I thought. Did you learn about this by eavesdropping on your mom’s conversations?"
     else:
         Judy "Ahh! You’re more aware of the situation than I thought. Did you learn about this by eavesdropping on Linda’s conversations?"
@@ -158,7 +158,7 @@ label judy_q3_label:
     scene judy_q3_p3
 
     MC "It’s just a… quick getaway for my mental health. I wanted to take a break and focus on recovering."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "(Hmm, he’s being especially evasive with that answer. I wonder if this has anything to do with Linda making moves on her son. I’ll try prying a little deeper.)"
     else:
         Judy "(Hmm, he’s being especially evasive with that answer. I wonder if this has anything to do with Linda making moves on [player_name]. I’ll try prying a little deeper.)"
@@ -169,7 +169,7 @@ label judy_q3_label:
 
     Judy "(One day for a mental health break? Most students would need a week or two off for something like that. Come to think of it - wasn’t Linda going away for a day soon? I tried to organise lunch, and she said she was out of town.)"
     Judy "(This has Linda’s fingerprints ALL over it!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "(She must be taking her son away to a hotel somewhere, for the night. Then again, there’s nothing at all wrong with that. This is something I should be encouraging!)"
     else:
         Judy "(She must be taking [player_name] away to a hotel somewhere, for the night. Then again, there’s nothing at all wrong with that. This is something I should be encouraging!)"

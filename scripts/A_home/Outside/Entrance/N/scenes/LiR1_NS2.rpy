@@ -22,7 +22,7 @@ image LiR1_NS2_p20 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS2/20.jpg"
 image LiR1_NS2_p21 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS2/21.jpg"
 
 label LiR1_NS2_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -157,7 +157,7 @@ label LiR1_NS2_label:
     MC "*Gulp* (She hasn’t said or done anything yet. Maybe I’m in the clear?)"
 
     scene LiR1_NS2_p19
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "(Yup - just as I thought - it’s Liza’s nephew. The little pervert must have been spying on us. I wonder how many night’s he’s been doing this - without me knowing!)"
     else:
         Yazmin "(Yup - just as I thought - it’s Liza’s friend. The little pervert must have been spying on us. I wonder how many night’s he’s been doing this - without me knowing!)"
@@ -167,7 +167,7 @@ label LiR1_NS2_label:
 
     scene LiR1_NS2_p20
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Fuck! She just pointed at me! She’s DEFINITELY seen me! I better dash away from here before Auntie sees me!)"
         MC "(How would Mom react if Auntie told her that I’d been spying on her? She’d probably kill me... Or them..!)"
     else:

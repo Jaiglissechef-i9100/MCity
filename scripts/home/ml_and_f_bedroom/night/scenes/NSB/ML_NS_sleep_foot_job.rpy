@@ -34,7 +34,7 @@ label ML_NS_sleep_foot_job_label:
     scene ML_NS_sleep_foot_p1 with dissolve
 
     MC "Can we try something a little different tonight, [Mom_name]?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Sure. As long as it isn’t something that’s gonna make me squeal and moan. I don’t want to wake your father up."
     else:
         Mom "Sure. As long as it isn’t something that’s gonna make me squeal and moan. I don’t want to wake Bob up."
@@ -92,7 +92,7 @@ label ML_NS_sleep_foot_job_label:
 
     Mom "Now, when I start rubbing my feet all over your cock, it’s going to get very sensitive very quickly. I need you to promise me that you’re not just going to blow your load straight away."
     MC "Pfft! When have I EVER done that?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Fair enough - but I’m also gonna need you to keep your voice down, so we don’t wake your father up."
     else:
         Mom "Fair enough - but I’m also gonna need you to keep your voice down, so we don’t wake Bob up."
@@ -148,7 +148,7 @@ label ML_NS_sleep_foot_job_label:
     Mom "Remember to keep your voice down, sweetie. If we get caught then this is all over."
 
     scene ML_NS_sleep_foot_p19
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Unless you can very quickly think of a very good reason why Mommy is massaging her son’s cock with her feet, in the middle of the night?"
     else:
         Mom "Unless you can very quickly think of a very good reason why I am massaging your cock with my feet, in the middle of the night?"
@@ -172,7 +172,7 @@ label ML_NS_sleep_foot_job_label:
 
     Mom "(If I wanted to, I could speed things up and make him ejaculate. Or I could even just pause or stop.)"
     MC "Oh [Mom_name]… I’m getting close. Fuck… I’m so close right now…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "That’s it… Just relax and enjoy Mommy rubbing her feet over your cock."
     else:
         Mom "That’s it… Just relax and enjoy me rubbing my feet over your cock."

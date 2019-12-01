@@ -56,9 +56,9 @@ screen b_house_living_M_scr:
             hover "images/Beach/MLR3_beach_event/House/MorningCoffie/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_coffe"),]
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     hovered Show("displayTextScreen", displayText = __("Mom"))
-                if not renpy.loadable("patch.rpy"):
+                else:
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")
 
@@ -71,8 +71,8 @@ screen b_house_living_M_scr:
             hover "images/Beach/MLR3_beach_event/House/Leaving/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_leaving"),]
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     hovered Show("displayTextScreen", displayText = __("Mom"))
-                if not renpy.loadable("patch.rpy"):
+                else:
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")

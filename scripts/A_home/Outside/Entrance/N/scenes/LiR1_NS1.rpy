@@ -29,7 +29,7 @@ image LiR1_NS1_p26 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/26.jpg"
 
 image LiR1_NS1_sleeping = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/27.jpg"
 label LiR1_NS1_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"

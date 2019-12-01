@@ -32,7 +32,7 @@ label MLR3_ES1:
     hide screen day_time_viewer
 
     scene MLR3_ES1_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Huh, looks like [Mom_name] and Sara are hanging out. I’ve never seen them do much mother-daughter stuff together.)"
     else:
         MC "(Huh, looks like [Mom_name] and Sara are hanging out. I’ve never seen them do much stuff together.)"
@@ -48,7 +48,7 @@ label MLR3_ES1:
     scene MLR3_ES1_p3
 
     Mom "There you go! That’s how to turn the hob on. Now that we’ve got that going, we can start preparing our vegetables."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I wonder why Mom is teaching Sis how to cook. Maybe this has something to do with what Dad said about Sara being devastated if he leaves?)"
     else:
         MC "(I wonder why Linda is teaching Sara how to cook. Maybe this has something to do with what Bob said about Sara being devastated if he leaves?)"
@@ -64,7 +64,7 @@ label MLR3_ES1:
     scene MLR3_ES1_p5
 
     Sara "Oh, HA HA! Very funny."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "[player_name] - stop teasing your sister! Apologise to her now."
     else:
         Mom "[player_name] - stop teasing Sara! Apologise to her now."
@@ -120,7 +120,7 @@ label MLR3_ES1:
     MC "(It’s a shame Sara never goes commando, or I would have hit the jackpot right now.)"
 
     scene MLR3_ES1_p14
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Oh fuck! There’s no way she saw me peeking up my sister’s skirt? Right?!)"
     else:
         MC "(Oh fuck! There’s no way she saw me peeking up my Sara’s skirt? Right?!)"
@@ -144,12 +144,12 @@ label MLR3_ES1:
     MC "Sure thing."
 
     scene MLR3_ES1_p17
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(My, my, my… I knew my boy was a horny guy, but I never imagined he’d be so bold, as to lust after his own sister.)"
     else:
         Mom "(My, my, my… I knew [player_name] was a horny guy, but I never imagined he’d be so bold as to lust after Sara.)"
     Mom "(Then again, I’d be a hypocrite to say anything on the subject.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "See you later, [player_name]. I hope you enjoyed watching your sister… cook."
     else:
         Mom "See you later, [player_name]. I hope you enjoyed watching Sara… cook."

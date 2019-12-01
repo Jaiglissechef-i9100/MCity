@@ -83,7 +83,7 @@ screen S_NS_scr:
             hovered Play ("sound", "sfx/click2.wav")
         else:
             action NullAction()
-            hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=110, tt_xpos=1171, displayText2 = "Required 2 relation points.",)]
+            hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=110, tt_xpos=1171, displayText2 = __("Required 2 relation points."),)]
             unhovered Hide("displayTextNS_B")
 
     if Sara_points <2:

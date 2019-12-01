@@ -107,7 +107,7 @@ label CR3_ES2_label:
 
         MC "Wait..."
         MC "Huh?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Jesus Christ! Who the hell is that, Sis?"
         else:
             MC "Jesus Christ! Who the hell is that, Caroline?"

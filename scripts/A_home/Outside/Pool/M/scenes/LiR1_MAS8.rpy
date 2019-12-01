@@ -8,7 +8,7 @@ image LiR1_MAS8_p7 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS8/7.jpg"
 
 default LiR1_MAS8_talked = False
 label LiR1_MAS8_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -58,7 +58,7 @@ label LiR1_MAS8_label:
         scene LiR1_MAS8_p5
 
         Yazmin "Heeeey! This isn’t ALL my fault! You participated in this too! - Don’t make ME out to be - the bad guy - here!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Your Aunt Liza has calmed down."
         else:
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Liza has calmed down."
@@ -74,7 +74,7 @@ label LiR1_MAS8_label:
 
         Yazmin "Anyway, half my degree was in public relations. I’m EXTREMELY good, at swaying people’s opinions."
         MC "What are you getting at?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Yazmin "Your aunt is now waiting for you in the bathroom - for round two."
         else:
             Yazmin "Liza is now waiting for you in the bathroom - for round two."

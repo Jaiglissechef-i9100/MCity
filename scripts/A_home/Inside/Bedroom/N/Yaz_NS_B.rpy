@@ -76,7 +76,7 @@ screen Yaz_NS_scr:
         idle "images/NS_B/TurnHer.png"
         hover "images/NS_B/TurnHer_hover.png"
         action [SetVariable("inv_page", 0),Hide("displayTextNS_B"),Hide("Yaz_NS_scr"), Jump("Yaz_NS_turn_label")]
-        hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=940, tt_xpos=1471, displayText2 = "Turn her.",)]
+        hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=940, tt_xpos=1471, displayText2 = __("Turn her."),)]
         unhovered Hide("displayTextNS_B")
 
     for nsb in nsb_box.yaz_nsb_turn:

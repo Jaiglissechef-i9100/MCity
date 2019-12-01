@@ -153,7 +153,7 @@ label CR3_WE_label_mor:
             scene CR3_WE_mor_p11c
 
             Caroline "Y-Yeah - all’s good!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "(Okay. In future, I REALLY need to take more care, about how much I drink, when I’m around my brother.)"
             else:
                 Caroline "(Okay. In future, I REALLY need to take more care, about how much I drink, when I’m around him.)"

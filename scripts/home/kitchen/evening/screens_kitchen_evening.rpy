@@ -70,7 +70,7 @@ screen kitchen_evening:
             idle "images/home/kitchen/evening/scenes/MLR2_ES1/b1.png"
             hover "images/home/kitchen/evening/scenes/MLR2_ES1/b1_hover.png"
             action [Hide("displayTextScreen"),Jump("MLR2_ES1_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
             else:
                 hovered Show("displayTextScreen", displayText = "Linda")
@@ -96,7 +96,7 @@ screen kitchen_evening:
             idle "images/home/kitchen/evening/scenes/MLR3_ES1/B1.png"
             hover "images/home/kitchen/evening/scenes/MLR3_ES1/B1_hover.png"
             action [Hide("displayTextScreen"),Jump("MLR3_ES1")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom and Sara"))
             else:
                 hovered Show("displayTextScreen", displayText = __("Linda and Sara"))

@@ -12,7 +12,7 @@ image LiR1_MAS2_p11 = "images/a_home/Inside/Living/M/Scenes/LiR1_MAS2/11.jpg"
 image LiR1_MAS2_p12 = "images/a_home/Inside/Living/M/Scenes/LiR1_MAS2/12.jpg"
 
 label Li_MAS2_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -41,7 +41,7 @@ label Li_MAS2_label:
     jump Li_MAS2_menu
 
 label Li_MAS2_menu:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Mom_name = __("Mom")
         $ Liza2_name = __("Auntie")
     else:
@@ -85,10 +85,11 @@ label Li_MAS2_menu:
             scene LiR1_MAS2_p6
 
             Liza2 "We’re both adults with... full time jobs, and we’re... um... very busy people."
-            Liza2 "I mean, Linda owns her own business, for Christ’s sake!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
+                Liza2 "I mean, your mom owns her own business, for Christ’s sake!"
                 MC "(What’s going on?! I’ve clearly struck a nerve here! I should probably leave this topic alone, until I get to know Auntie Liza better.)"
             else:
+                Liza2 "I mean, Linda owns her own business, for Christ’s sake!"
                 MC "(What’s going on?! I’ve clearly struck a nerve here! I should probably leave this topic alone, until I get to know Liza better.)"
             if can_LiR1_MAS2 == True:
                 $ Li_MAS2_menu_visit += 1
@@ -133,13 +134,16 @@ label Li_MAS2_menu:
 
             Liza2 "It wasn’t - me being a lesbian - that bothered her!"
             MC "(Huh... What a strange way to phrase her answer. Why didn’t she just say that it didn’t bother [Mom_name]?)"
-            Liza2 "You know, Linda isn’t as - straight - as she makes herself out to be. She was a real locomotive, back in her youth!"
+            if persistent.incest_patch == True:
+                Liza2 "You know, Linda isn’t as - straight - as she makes herself out to be. She was a real locomotive, back in her youth!"
+            else:
+                Liza2 "You know, your mom isn’t as - straight - as she makes herself out to be. She was a real locomotive, back in her youth!"
             MC "A... locomotive?"
             Liza2 "Yeah - she could go both ways."
             MC "Oh, I understand now. What did you mean when you said, “It wasn’t me being a lesbian that bothered her!” Was there something else that bothered [Mom_name]?"
 
             scene LiR1_MAS2_p7
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "Ah... I misspoke. I MEANT to say that it didn’t bother my sister at all, at the time."
             else:
                 Liza2 "Ah... I misspoke. I MEANT to say that it didn’t bother Linda at all, at the time."
@@ -207,33 +211,38 @@ label Li_MAS2_menu:
             MC "Hmm... I thought so."
 
             scene LiR1_MAS2_p8
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "My sister and I... We were always so close. We did everything together."
             else:
                 Liza2 "Linda and I... We were always so close. We did everything together."
 
             Liza2 "She never minded that I was gay."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "She never minded when I snuck girls home without Mom and Dad knowing."
-            Liza2 "It all changed, when Linda met Yazmin. She took an intense, irrational dislike towards her."
+                Liza2 "It all changed, when Linda met Yazmin. She took an intense, irrational dislike towards her."
+            else:
+                Liza2 "It all changed, when your mom met Yazmin. She took an intense, irrational dislike towards her."
 
             scene LiR1_MAS2_p5
 
-            Liza2 "And when I told Linda that Yazmin and I were engaged, she had the AUDACITY to tell me, that I needed to grow out of my ‘gay phase’."
+            if persistent.incest_patch == True:
+                Liza2 "And when I told Linda that Yazmin and I were engaged, she had the AUDACITY to tell me, that I needed to grow out of my ‘gay phase’."
+            else:
+                Liza2 "And when I told your mom that Yazmin and I were engaged, she had the AUDACITY to tell me, that I needed to grow out of my ‘gay phase’."
             Liza2 "I mean - how damn rude can you be?!"
             MC "Oh, my God... I’m so sorry, [Liza2_name]..."
 
             scene LiR1_MAS2_p6
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "Your mom and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
             else:
                 Liza2 "Linda and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
             MC "Yeah - come to mention it - that makes sense."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "Things have thawed, since then, but I try to keep Yazmin out of the picture. There’s no need to antagonise my sister, any more than, my wedding ring already does. I think she views Yazmin - as stealing away her best friend."
             else:
                 Liza2 "Things have thawed, since then, but I try to keep Yazmin out of the picture. There’s no need to antagonise Linda, any more than, my wedding ring already does. I think she views Yazmin - as stealing away her best friend."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "So yeah - that’s the story, with all the gory details. There are a few other things your mother may have called - Yazmin and I - but they don't need repeating. There’s no sense in reopening old wounds."
             else:
                 Liza2 "So yeah - that’s the story, with all the gory details. There are a few other things Linda may have called - Yazmin and I - but they don't need repeating. There’s no sense in reopening old wounds."
@@ -296,7 +305,7 @@ label Li_MAS2_menu:
             scene LiR1_MAS2_p12
 
             Liza2 "*Mwah!*"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Aww, thanks, Auntie Liza!"
             else:
                 MC "Aww, thanks, Liza!"

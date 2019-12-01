@@ -18,9 +18,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_morning_scene5_v1/ml_b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_scene5_v1_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -33,9 +33,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_morning_scene6_v1/ml_b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_scene6_v1_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -61,9 +61,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1/b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR2_MS1_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -76,9 +76,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Bob_MS1")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Dad"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Bob")
             unhovered Hide("displayTextScreen")
 
@@ -91,9 +91,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/b2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_Linda_MS1")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -106,9 +106,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2/b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_MS2")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -122,9 +122,9 @@ screen parents_bedroom_morning:
             hover "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS3/b1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_MS3")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 

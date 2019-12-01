@@ -8,6 +8,6 @@ screen bob_work_outside_N_scr:
         idle "images/Bob_work/outside/N/B1.png"
         hover "images/Bob_work/outside/N/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Bob's Workplace"))
+            hovered Show("displayTextScreen", displayText = __("[Dad_name]'s Workplace"))
             action [Play ("sound", "sfx/door_locked.mp3"),Hide("displayTextScreen"),Jump("bob_work_locked_label")]
             unhovered Hide("displayTextScreen")

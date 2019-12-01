@@ -17,7 +17,7 @@ label CR3_VS_label:
     hide screen map_button
 
     scene CR3_VS_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Violet! My sister said I could probably, find you hanging out around here."
     else:
         MC "Hey, Violet! Caroline said I could probably, find you hanging out around here."

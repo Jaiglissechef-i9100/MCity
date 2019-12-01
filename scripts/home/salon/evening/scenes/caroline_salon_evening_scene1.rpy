@@ -28,7 +28,7 @@ label caroline_salon_evening_scene1_label:
         Caroline "How about you? What’re you doing home at this hour? A guy your age should be out partying."
         window hide
         menu:
-            "I came home to see the best sister in the world." if renpy.loadable("patch.rpy"):
+            "I came home to see the best sister in the world." if persistent.incest_patch == True:
                 scene caroline_salon_evening_scene1_p2
                 MC "I just came home to see the best sister in the world."
                 Caroline "Oh really? How sweet."
@@ -42,7 +42,7 @@ label caroline_salon_evening_scene1_label:
                 $ caroline_salon_can_evening_scene1 = False
                 $ can_hide_windows = False
                 jump salon_morning1
-            "I came home to see my best friend in the world." if not renpy.loadable("patch.rpy"):
+            "I came home to see my best friend in the world." if persistent.incest_patch == False:
                 scene caroline_salon_evening_scene1_p2
                 MC "I just came home to see my best friend in the world."
                 Caroline "Oh really? How sweet."

@@ -33,9 +33,9 @@ label scene1_v1:
     MC "I can CLEARLY see, you’ve only just started the round!"
 
     scene scene1_v1p4
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Aww, c’mon [player_name]! You’re not my dad! Hehe!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Sara "Aww, c’mon [player_name]! You’re not Bob! Hehe!"
     Sara "Why do you care if I’m a little bit late to school? I’m almost top of the class, anyway."
     MC "Almost top? Weren’t you THE top, two years ago? You’re slipping, Sara."

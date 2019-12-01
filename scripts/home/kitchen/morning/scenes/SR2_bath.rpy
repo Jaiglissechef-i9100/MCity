@@ -28,7 +28,7 @@ label SR2_bath_label:
             scene SR2_bath_p3
             MC "Seriously!? Is she planning on taking a nap in the bathroom?"
             MC "..."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "I hope Mom doesn't notice her."
             else:
                 MC "I hope Linda doesn't notice her."

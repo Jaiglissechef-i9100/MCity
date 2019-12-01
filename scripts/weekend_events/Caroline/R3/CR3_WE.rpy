@@ -142,7 +142,7 @@ label CR3_WE_label:
     scene CR3_WE_p4
 
     MC "(I’m stressing too much, over this, right?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I mean, we’re not even going on a date - it’s just a brother and sister, going out clubbing.)"
     else:
         MC "(I mean, we’re not even going on a date - it’s just friends, going out clubbing.)"
@@ -244,7 +244,7 @@ label CR3_WE_label_con1_menu:
             MC "N-No, not really... It just seems like... an unhealthy amount of liquor."
 
             scene CR3_WE_p15
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "This is how you CELEBRATE, [player_name]! Now c’mon - let’s clink glasses, and get this party started!"
             else:
                 Caroline "This is how you CELEBRATE, [player_name]! Now c’mon - let’s clink glasses, and get this party started!"
@@ -411,7 +411,7 @@ label CR3_WE_label_con3:
     scene CR3_WE_p26
 
     Charles "And this must be your pathetic - new excuse for a boyfriend."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Hey! That’s my brother! Leave him out of this!"
         MC "Uh, yeah, I’m her brother. My name’s [player_name]."
     else:
@@ -419,7 +419,7 @@ label CR3_WE_label_con3:
         MC "Uh, yeah, I’m her friend. My name’s [player_name]."
 
     scene CR3_WE_p27
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Charles "Ooh, so you’re her brother. Hmm... that must mean she’s still single, then."
         Charles "You better keep an eye on your sister, [player_name] - because if I get my hands on her, I’m gonna fuck her silly."
     else:
@@ -743,7 +743,7 @@ label CR3_WE_label_con5:
 
     MC "Maybe not tomorrow night, but we will do it again, together."
     Caroline "*Hic* We’re home!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Please try to keep your voice down! Mom and Dad are probably asleep!"
     else:
         MC "Please try to keep your voice down! Linda and Bob are probably asleep!"
@@ -809,7 +809,7 @@ label CR3_WE_label_con5:
             scene CR3_WE_UseHer_p5
 
             MC "Hehe..."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to my sister tonight?)"
             else:
                 MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to Caroline tonight?)"

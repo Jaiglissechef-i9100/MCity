@@ -190,9 +190,9 @@ label CR2_ES1_menu:
             $ CR2_ES1_q6 = False
             jump CR2_ES1_menu
 
-        "Are Mom and Dad fighting?" if CR2_ES1_q7 == True and renpy.loadable("patch.rpy"):
+        "Are Mom and Dad fighting?" if CR2_ES1_q7 == True and persistent.incest_patch == True:
             jump CR2_ES1_menu_bobfight
-        "Are Linda and Bob fighting?" if CR2_ES1_q7 == True and not renpy.loadable("patch.rpy"):
+        "Are Linda and Bob fighting?" if CR2_ES1_q7 == True and not persistent.incest_patch == True:
             jump CR2_ES1_menu_bobfight
 
         "Have you any advice for finding a girlfriend?" if CR2_ES1_q8 == True:
@@ -254,7 +254,7 @@ label CR2_ES1_menu:
                         $ CR2_ES1_q1Sara = False
                         jump CR2_ES1_menu_cancel
 
-                    "Sara and I are having an incestuous relationship." if Sara_points >= 2 and renpy.loadable("patch.rpy"):
+                    "Sara and I are having an incestuous relationship." if Sara_points >= 2 and persistent.incest_patch == True:
                         scene CR2_ES1_p10
 
                         MC "Yeah, Sara and I have been having an incestuous relationship."
@@ -267,7 +267,7 @@ label CR2_ES1_menu:
                         $ CR2_ES1_q1Sara = False
                         jump CR2_ES1_menu_cancel
 
-                    "Sara and I have been having a friends with benefits relationship." if Sara_points >= 2 and not renpy.loadable("patch.rpy"):
+                    "Sara and I have been having a friends with benefits relationship." if Sara_points >= 2 and not persistent.incest_patch == True:
                         scene CR2_ES1_p10
 
                         MC "Yeah, Sara and I have been having a friends with benefits relationship."
@@ -319,7 +319,7 @@ label CR2_ES1_menu_cancel:
 
 label CR2_ES1_menu_bobfight:
     scene CR2_ES1_p9
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Are Mom and Dad fighting at the minute?"
     else:
         MC "Are Linda and Bob fighting at the minute?"

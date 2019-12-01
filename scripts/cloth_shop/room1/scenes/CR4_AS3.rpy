@@ -353,7 +353,10 @@ label CR4_AS3_ex_con1:
     Charles "Too slow, bitches!"
 
     scene CR4_AS3_ex_p27
-    Caroline "M-My granny’s necklace…"
+    if persistent.incest_patch == True:
+        Caroline "G-Granny’s necklace…"
+    else:
+        Caroline "M-My granny’s necklace…"
     MC "I’ll go after him."
     Caroline "Don’t… you can’t beat him in a fight. You’ll just get yourself killed."
 

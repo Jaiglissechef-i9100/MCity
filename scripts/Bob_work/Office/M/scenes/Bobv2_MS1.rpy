@@ -39,7 +39,7 @@ label Bobv2_MS1_label:
     scene Bobv2_MS1_p1 with dissolve
 
     if Bobv2_MS1_first_talk == True:
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Morning, Dad!"
         else:
             MC "Morning, Bob!"
@@ -47,7 +47,7 @@ label Bobv2_MS1_label:
         MC "Not much. Just thought I’d drop by to say hello."
 
         scene Bobv2_MS1_p2
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Dad "Well, I’ll never say no to a visit from my favourite son!"
             MC "I’m your ONLY son."
         else:
@@ -58,7 +58,7 @@ label Bobv2_MS1_label:
 
         jump Bobv2_MS1_menu
     else:
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Morning, Dad!"
         else:
             MC "Morning, Bob!"
@@ -86,7 +86,7 @@ label Bobv2_MS1_menu:
                 Dad "After so many times, it started to be incredibly boring."
                 MC "Haha!"
                 Dad "I'll be more than happy, if you'd start doing it more regularly."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "No problem, Dad."
                 else:
                     MC "No problem, Bob."
@@ -100,7 +100,7 @@ label Bobv2_MS1_menu:
                 Dad "Again!?"
                 Dad "Brilliant! Here, take it."
                 Dad "(Now I'll have more time to read my books!)"
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Thanks, Dad."
                 else:
                     MC "Thanks, Bob."
@@ -158,7 +158,7 @@ label Bobv2_MS1_menu:
             scene Bobv2_MS1_p7
 
             Dad "I’ll just order a new one for her."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Cool. Thanks, Dad! I’ll go and speak to Zuri now."
             else:
                 MC "Cool. Thanks, Bob! I’ll go and speak to Zuri now."
@@ -170,7 +170,7 @@ label Bobv2_MS1_menu:
 
         "{color=#00ff00}Ask about company name.{/color}" if Zv2_MS2_companyname == 4 and Zv2_MS2_companyname_found == 2:
             scene Bobv2_MS1_p1
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Hey Dad, I know you’re super into investing. I was wondering if I could get some advice from you?"
             else:
                 MC "Hey Bob, I know you’re super into investing. I was wondering if I could get some advice from you?"
@@ -184,7 +184,7 @@ label Bobv2_MS1_menu:
             scene Bobv2_MS1_p4
 
             Dad "Sorry - trade secret. I can’t possibly tell, until we close the deal."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Aww, c’mon Dad! I won’t tell anyone. I just want to know more about the business!"
             else:
                 MC "Aww, c’mon Bob! I won’t tell anyone. I just want to know more about the business!"
@@ -197,7 +197,7 @@ label Bobv2_MS1_menu:
             Dad "He’s told me that Nottingham Legal and Commercial Incorporated are getting a massive contract, for a rail network running from Portugal to Germany. We’re talking a multi-billion dollar contract!"
             MC "Wow!"
             MC "(That’s what I need to know!)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "I’ll talk to you more about this later, Dad."
             else:
                 MC "I’ll talk to you more about this later, Bob."
@@ -209,9 +209,9 @@ label Bobv2_MS1_menu:
         "Ask Dad if he knows about Zuri’s twin sister. " if Bobv2_MS1_q4 == True:
             jump Bobv2_MS1_zurisuri_label
 
-        "{color=#00ff00}Ask Dad how work is going.{/color}" if Bobv2_MS1_q5 == True and renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask Dad how work is going.{/color}" if Bobv2_MS1_q5 == True and persistent.incest_patch == True:
             jump Bobv2_MS1_work_label
-        "{color=#00ff00}Ask Bob how work is going.{/color}" if Bobv2_MS1_q5 == True and not renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask Bob how work is going.{/color}" if Bobv2_MS1_q5 == True and not persistent.incest_patch == True:
             jump Bobv2_MS1_work_label
         "Cancel":
 
@@ -222,7 +222,7 @@ label Bobv2_MS1_menu:
 
 label Bobv2_MS1_zurisuri_label:
     scene Bobv2_MS1_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Dad. Did you know Zuri had a twin sister?"
     else:
         MC "Hey, Bob. Did you know Zuri had a twin sister?"
@@ -247,7 +247,7 @@ label Bobv2_MS1_zurisuri_label:
 
 label Bobv2_MS1_work_label:
     scene Bobv2_MS1_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "How’s work going, Dad?"
     else:
         MC "How’s work going, Bob?"
@@ -257,7 +257,7 @@ label Bobv2_MS1_work_label:
         MC "(Uh oh…)"
         Dad "Profits are nose diving into the red, and corporate headquarters are on my ass, demanding to know why."
         Dad "I’m gonna have to work TWICE as hard from now on, to turn this ship around."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Crap! I’m sorry to hear that, Dad."
         else:
             MC "Crap! I’m sorry to hear that, Bob."
@@ -266,7 +266,7 @@ label Bobv2_MS1_work_label:
 
         Dad "I’m glad you asked! Things are REALLY turning around over here!"
         Dad "Y’know - I though the market would never recover after that 2009 crash. But look - here we are. And by the looks of things, we’re about to post record profits!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Congratulations, Dad!"
         else:
             MC "Congratulations, Bob!"

@@ -94,9 +94,9 @@ label caroline_cloth_shop_afternoon_scene2_label:
 
             scene caroline_cloth_shop_afternoon_scene2_p10
             Caroline "You disgusting little pervert!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "I’m your sister!"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Caroline "I’m your friend!"
             MC "Ouch! Ahh! I’m sorry!"
             jump caroline_cloth_shop_afternoon_scene2_after_menu

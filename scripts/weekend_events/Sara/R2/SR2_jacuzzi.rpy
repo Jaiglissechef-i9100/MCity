@@ -104,7 +104,7 @@ label SR2_jacuzzi_scene_label:
     MC "What’s wrong?"
     Sara "Our date today... I mean.. Is it even a date? …We haven’t really done anything."
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "It kinda feels like we’ve reverted back to brother and sister, when we’re out."
 
     MC "Well, to be honest - it would be very risky to act like we’re dating."
@@ -295,7 +295,7 @@ label after_menu_SR2_jacuzzi_scene_label:
 
     window hide
     menu:
-        "Blow your hot load deep inside your younger sister’s mouth." if renpy.loadable("patch.rpy"):
+        "Blow your hot load deep inside your younger sister’s mouth." if persistent.incest_patch == True:
             scene SR2_weekend_jacuzzi_p24a
 
             MC "Open wide, Sara!"
@@ -322,7 +322,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             MC "Thanks, Sara. You’re amazing at that!"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Blow your hot load deep inside Sara’s mouth." if not renpy.loadable("patch.rpy"):
+        "Blow your hot load deep inside Sara’s mouth." if persistent.incest_patch == False:
             scene SR2_weekend_jacuzzi_p24a
 
             MC "Open wide, Sara!"
@@ -349,7 +349,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             MC "Thanks, Sara. You’re amazing at that!"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Spray your seed over your younger sister’s pretty face." if renpy.loadable("patch.rpy"):
+        "Spray your seed over your younger sister’s pretty face." if persistent.incest_patch == True:
             scene SR2_weekend_jacuzzi_p25a
 
             Sara "You don’t want me to keep sucking?"
@@ -369,7 +369,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             Sara "Yuck! (I almost got it in my eye!)"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Spray your seed over Sara’s pretty face." if not renpy.loadable("patch.rpy"):
+        "Spray your seed over Sara’s pretty face." if persistent.incest_patch == False:
             scene SR2_weekend_jacuzzi_p25a
 
             Sara "You don’t want me to keep sucking?"

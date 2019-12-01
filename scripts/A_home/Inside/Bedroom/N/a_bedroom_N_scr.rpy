@@ -18,7 +18,7 @@ screen a_bedroom_N_scr:
             hover "/images/a_home/Inside/Bedroom/N/scenes/LiR1_NS3/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("LiR1_NS3_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Auntie and Yazmin"))
             else:
                 hovered Show("displayTextScreen", displayText = __("Liza and Yazmin"))

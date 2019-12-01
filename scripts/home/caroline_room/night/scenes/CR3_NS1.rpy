@@ -88,7 +88,7 @@ label CR3_NS1_label:
         MC "B-But-"
         Caroline "No buts! Please don’t make this, any harder for yourself. You need to move on."
         MC "Don’t you want - one last-"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "No, I don’t. You’re my brother, [player_name]. Anything that we did together, was completely wrong. Go back to bed."
         else:
             Caroline "No, I don’t. You’re my very close friend, [player_name]. Anything that we did together, was - completely wrong. Go back to bed!"

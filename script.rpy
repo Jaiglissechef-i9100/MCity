@@ -94,17 +94,21 @@ image mc_sleep_night = "images/home/mc_room/morning/sleeping/SleepNight.png"
 image mc_sleep_night_bed = "images/home/mc_room/night/bed_night_idle.png"
 image ml_mc_room_night_sleeping_p1 = "images/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1/ml_take_nap.png"
 
-default Students_name = "Students"
+image cheat_code = "images/game_gui/cheat_code.png"
+
+default Students_name = __("Students")
 default player_name = "MC"
-default Mom_name = "Mom"
+default Mom_name = __("Mom")
 default Celia_name = "Celia"
 default Caroline_name = "Caroline"
-default Auntie_name = "Auntie"
-default Dad_name = "Dad"
+default Auntie_name = __("Auntie")
+default Dad_name = __("Dad")
 default Violet_name = "Violet"
 default Delilah_name = "Delilah"
-default Headmaster_name = "Headmaster"
+default Headmaster_name = __("Headmaster")
 default Cindy_name = "Cindy"
+default Bodyguard1_name = __("Bodyguard1")
+default Bodyguard2_name = __("Bodyguard2")
 
 default next_day = False
 default week_day = 1
@@ -164,6 +168,9 @@ define Headmaster = Character("[Headmaster_name]", color="#ace600")
 define Cindy = Character("[Cindy_name]", color="#ff80bf")
 define Sidra = Character("[Sidra_name]", color="#b32d00")
 define Isla = Character("[Isla_name]", color="#00cc00")
+define Bodyguard1 = Character("[Bodyguard1_name]", color="#993333")
+define Bodyguard2 = Character("[Bodyguard2_name]", color="#993333")
+
 image workinprogress2 = "/images/game_gui/icons/workinprogress.png"
 
 style frame_gui1:
@@ -220,56 +227,78 @@ default Ce_home_key = Item(__("Celia's Home Key"), image="images/inventory_items
 default s_pills = Item(__("Sleeping Pill"), image="images/inventory_items/s_pill.png", hover_i="images/inventory_items/s_pill_hover.png")
 default Ce_dildo = Item(__("Zapper Maximus 9001"), image="images/inventory_items/ce_dildo.png", hover_i="images/inventory_items/ce_dildo_hover.png", cost = 600)
 
-default sms_Linda1 = Sms("sLinda" , sphoto1=False, mtext=__("I’m still thinking about our… time spent together on this couch…"))
-
+default sms_Linda1 = Sms("sLinda" , sphoto1=False, mtext="I’m still thinking about our… time spent together on this couch…")
+default sms_Linda1_french = Sms("sLinda" , sphoto1=False, mtext="Je pense encore à notre… temps passé ensemble sur ce canapé…")
 default sms_Linda2 = Sms("sLinda" , simage="images/phone_sms/ml/Photo1_1.jpg", sphoto="images/phone_sms/ml/Photo1.jpg", sphoto1=True,)
-default sms_Linda3 = Sms("sLinda" , sphoto1=False, mtext=__("Our today conversation... Made me very happy.. I hope you feel the same."))
+default sms_Linda3 = Sms("sLinda" , sphoto1=False, mtext="Our today conversation... Made me very happy.. I hope you feel the same.")
+default sms_Linda3_french = Sms("sLinda" , sphoto1=False, mtext="Notre conversation d'aujourd'hui... Ça m'a rendue très heureuse.. J'espère que tu ressens la même chose.")
 default sms_Linda4 = Sms("sLinda" , simage="images/phone_sms/ml/Photo2_1.jpg", sphoto="images/phone_sms/ml/Photo2.jpg", sphoto1=True,)
-default sms_Linda5 = Sms("sLinda" , sphoto1=False, mtext=__("I masturbated.. I just had to do it on this couch... I just couldn't hold myself and wait for the night."))
+default sms_Linda5 = Sms("sLinda" , sphoto1=False, mtext="I masturbated.. I just had to do it on this couch... I just couldn't hold myself and wait for the night.")
+default sms_Linda5_french = Sms("sLinda" , sphoto1=False, mtext="Je me suis masturbée.. Je devais juste le faire sur ce canapé... Je ne pouvais pas me retenir et attendre la nuit.")
 default sms_Linda6 = Sms("sLinda" , simage="images/phone_sms/ml/Photo3_1.jpg", sphoto="images/phone_sms/ml/Photo3.jpg", sphoto1=True,)
 default sms_Linda7 = Sms("sLinda" , simage="images/phone_sms/ml/4_small.jpg", sphoto="images/phone_sms/ml/4.jpg", sphoto1=True,)
-default sms_Linda8 = Sms("sLinda" , sphoto1=False, mtext=__("Our date tonight was amazing! It’s a shame we can't continue it in my bed.. :( Love you"))
+default sms_Linda8 = Sms("sLinda" , sphoto1=False, mtext="Our date tonight was amazing! It’s a shame we can't continue it in my bed.. :( Love you")
+default sms_Linda8_french = Sms("sLinda" , sphoto1=False, mtext="Notre rendez-vous de ce soir était génial ! C'est dommage qu'on ne puisse pas continuer dans mon lit.. :( Je t'aime")
 
-default sms_Sara1 = Sms("sSara" , sphoto1=False, mtext=__("I’ll not let you steal my panties from me… I like them."))
+default sms_Sara1 = Sms("sSara" , sphoto1=False, mtext="I’ll not let you steal my panties from me… I like them.")
+default sms_Sara1_french = Sms("sSara" , sphoto1=False, mtext="Je ne te laisserai pas me voler ma culotte… Je l'aime trop.")
 default sms_Sara2 = Sms("sSara" , simage="images/phone_sms/sara/1_M3 Photo1.png", sphoto="images/phone_sms/sara/1_M3 Photo.png", sphoto1=True,)
-default sms_Sara3 = Sms("sSara" , sphoto1=False, mtext=__("I hope you're not still sad that you lost all those matches…? Lily told me to send you this.."))
+default sms_Sara3 = Sms("sSara" , sphoto1=False, mtext="I hope you're not still sad that you lost all those matches…? Lily told me to send you this..")
+default sms_Sara3_french = Sms("sSara" , sphoto1=False, mtext="J'espère que tu n'es pas encore triste d'avoir perdu tous ces matchs…? Lily m'a dit de t'envoyer ça..")
 default sms_Sara4 = Sms("sSara" , simage="images/phone_sms/sara/2_E2 Photo1.png", sphoto="images/phone_sms/sara/2_E2 Photo.png", sphoto1=True,)
-default sms_Sara5 = Sms("sSara" , sphoto1=False, mtext=__("Today was the best day of my life <3"))
+default sms_Sara5 = Sms("sSara" , sphoto1=False, mtext="Today was the best day of my life <3")
+default sms_Sara5_french = Sms("sSara" , sphoto1=False, mtext="Aujourd'hui était le plus beau jour de ma vie <3")
 default sms_Sara6 = Sms("sSara" , simage="images/phone_sms/sara/3_ A3 Photo1.png", sphoto="images/phone_sms/sara/3_ A3 Photo.png", sphoto1=True,)
 default sms_Sara7 = Sms("sSara" , simage="images/phone_sms/sara/4_small.jpg", sphoto="images/phone_sms/sara/4.jpg", sphoto1=True,)
-default sms_Sara8 = Sms("sSara" , sphoto1=False, mtext=__("I think I'm gonna start to learn how to swim! Cheer me on <3"))
+default sms_Sara8 = Sms("sSara" , sphoto1=False, mtext="I think I'm gonna start to learn how to swim! Cheer me on <3")
+default sms_Sara8_french = Sms("sSara" , sphoto1=False, mtext="Je crois que je vais commencer à apprendre à nager ! Encourage-moi <3")
 default sms_Sara9 = Sms("sSara" , simage="images/phone_sms/sara/5_small.jpg", sphoto="images/phone_sms/sara/5.jpg", sphoto1=True,)
-default sms_Sara10 = Sms("sSara" , sphoto1=False, mtext=__("Look... I'm practicing as I promised... "))
+default sms_Sara10 = Sms("sSara" , sphoto1=False, mtext="Look... I'm practicing as I promised... ")
+default sms_Sara10_french = Sms("sSara" , sphoto1=False, mtext="Regarde... Je m'entraîne comme promis... ")
 default sms_Sara11 = Sms("sSara" , simage="images/phone_sms/sara/6_small.jpg", sphoto="images/phone_sms/sara/6.jpg", sphoto1=True,)
-default sms_Sara12 = Sms("sSara" , sphoto1=False, mtext=__("I'm so sorry... She surprised me! Please, don't be angry at me... :("))
+default sms_Sara12 = Sms("sSara" , sphoto1=False, mtext="I'm so sorry... She surprised me! Please, don't be angry at me... :(")
+default sms_Sara12_french = Sms("sSara" , sphoto1=False, mtext="Je suis désolée... Elle m'a surpris ! S'il te plaît, ne sois pas en colère contre moi... :(")
 default sms_Sara13 = Sms("sSara" , simage="images/phone_sms/sara/7_small.jpg", sphoto="images/phone_sms/sara/7.jpg", sphoto1=True,)
-default sms_Sara14 = Sms("sSara" , sphoto1=False, mtext=__("My ass still hurts... kinda... I hope you loved it <3"))
+default sms_Sara14 = Sms("sSara" , sphoto1=False, mtext="My ass still hurts... kinda... I hope you loved it <3")
+default sms_Sara14_french = Sms("sSara" , sphoto1=False, mtext="Mon cul me fait encore un peu... mal... J'espère que tu as aimé <3")
 
-default sms_Zuri1 = Sms("sZuri" , sphoto1=False, mtext=__("Zuri here. Come to our place in the evening..."))
+default sms_Zuri1 = Sms("sZuri" , sphoto1=False, mtext="Zuri here. Come to our place in the evening...")
+default sms_Zuri1_french = Sms("sZuri" , sphoto1=False, mtext="C'est Zuri. Viens chez nous dans la soirée...")
 default sms_Zuri2 = Sms("sZuri" , simage="images/phone_sms/zuri/Lie_small.jpg", sphoto="images/phone_sms/zuri/Lie.jpg", sphoto1=True,)
-default sms_Zuri3 = Sms("sZuri" , sphoto1=False, mtext=__("Zuri here! Just look at Suri's ass! Completely defenseless… Come to our place in the evening..."))
+default sms_Zuri3 = Sms("sZuri" , sphoto1=False, mtext="Zuri here! Just look at Suri's ass! Completely defenseless… Come to our place in the evening...")
+default sms_Zuri3_french = Sms("sZuri" , sphoto1=False, mtext="C'est Zuri ! Regarde le cul de Suri ! Complètement sans défense… Viens chez nous dans la soirée...")
 default sms_Zuri4 = Sms("sZuri" , simage="images/phone_sms/zuri/Truth_small.jpg", sphoto="images/phone_sms/zuri/Truth.jpg", sphoto1=True,)
 
 default sms_Caroline1 = Sms("sCaroline" , simage="images/phone_sms/caroline/1_small.jpg", sphoto="images/phone_sms/caroline/1.jpg", sphoto1=True,)
-default sms_Caroline2 = Sms("sCaroline" , sphoto1=False, mtext=__("YOU GOT CUM ON THE PANTIES THAT ARE SUPPOSED TO BE SOLD! YOU IDIOT! Just kidding <3"))
+default sms_Caroline2 = Sms("sCaroline" , sphoto1=False, mtext="YOU GOT CUM ON THE PANTIES THAT ARE SUPPOSED TO BE SOLD! YOU IDIOT! Just kidding <3")
+default sms_Caroline2_french = Sms("sCaroline" , sphoto1=False, mtext="TU AS ÉJACULÉ SUR UNE CULOTTE QUI EST CENSÉE ÊTRE VENDUE ! IDIOT ! Je plaisante <3")
 default sms_Caroline3 = Sms("sCaroline" , simage="images/phone_sms/caroline/2_small.jpg", sphoto="images/phone_sms/caroline/2.jpg", sphoto1=True,)
-default sms_Caroline4 = Sms("sCaroline" , sphoto1=False, mtext= __("Wh-y would ansyone want to roobed my shosp?  ;( Tht life is not fair.."))
+default sms_Caroline4 = Sms("sCaroline" , sphoto1=False, mtext="Wh-y would ansyone want to roobed my shosp?  ;( Tht life is not fair..")
+default sms_Caroline4_french = Sms("sCaroline" , sphoto1=False, mtext="P-k é-se ke kélqu'1 voudré m volé mon magas1 ? ;( La vie n'é pa just..")
 default sms_Caroline5 = Sms("sCaroline" , simage="images/phone_sms/caroline/3_small.jpg", sphoto="images/phone_sms/caroline/3.jpg", sphoto1=True,)
-default sms_Caroline6 = Sms("sCaroline" , sphoto1=False, mtext= __("Thanks for helping me with money. It means a lot to me. Kisses :* :* Just don't jerk off to my pic haha :P"))
-default sms_Caroline8 = Sms("sCaroline" , sphoto1=False, mtext= __("You're stupid..."))
+default sms_Caroline6 = Sms("sCaroline" , sphoto1=False, mtext="Thanks for helping me with money. It means a lot to me. Kisses :* :* Just don't jerk off to my pic haha :P")
+default sms_Caroline6_french = Sms("sCaroline" , sphoto1=False, mtext="Merci de m'aider avec l'argent. C'est très important pour moi. Bisouss :* :* Ne te branle pas sur ma tof haha :P")
+default sms_Caroline8 = Sms("sCaroline" , sphoto1=False, mtext="You're stupid...")
+default sms_Caroline8_french = Sms("sCaroline" , sphoto1=False, mtext="Tu es stupide...")
 default sms_Caroline7 = Sms("sCaroline" , simage="images/phone_sms/caroline/4_small.jpg", sphoto="images/phone_sms/caroline/4.jpg", sphoto1=True,)
-default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext= __("You've asked about a date while we were at that nightclub... Let's go tomorrow!"))
+default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext="You've asked about a date while we were at that nightclub... Let's go tomorrow!")
+default sms_Caroline10_french = Sms("sCaroline" , sphoto1=False, mtext="Tu m'as demandé un rencard quand on était dans cette boîte de nuit... Allons-y demain !")
 default sms_Caroline9 = Sms("sCaroline" , simage="images/phone_sms/caroline/5_small.jpg", sphoto="images/phone_sms/caroline/5.jpg", sphoto1=True,)
-default sms_Caroline11 = Sms("sCaroline" , sphoto1=False, mtext= "That was the best date in my entire life <3” I should stop drinking for a while, shouldn't I? Haha")
+default sms_Caroline11 = Sms("sCaroline" , sphoto1=False, mtext="That was the best date in my entire life <3” I should stop drinking for a while, shouldn't I? Haha")
+default sms_Caroline11_french = Sms("sCaroline" , sphoto1=False, mtext="C'était le meilleur rendez-vous de toute ma vie <3” Je devrais arrêter de boire un moment, non ? Haha")
 default sms_Caroline12 = Sms("sCaroline" , simage="images/phone_sms/caroline/6_small.jpg", sphoto="images/phone_sms/caroline/6.jpg", sphoto1=True,)
 
 default sms_Celia1 = Sms("sCelia" , simage="images/CeR2/SMS/1_small.jpg", sphoto="images/CeR2/SMS/1.jpg", sphoto1=True,)
 default sms_Celia2 = Sms("sCelia" , sphoto1=False, mtext="I want you on the next school day in my office!")
+default sms_Celia2_french = Sms("sCelia" , sphoto1=False, mtext="Je te veux le prochain jour d'école dans mon bureau !")
 default sms_Celia3 = Sms("sCelia" , simage="images/CeR2/SMS/2_small.jpg", sphoto="images/CeR2/SMS/2.jpg", sphoto1=True,)
 default sms_Celia4 = Sms("sCelia" , sphoto1=False, mtext="I want to see you at my place at night! I'm not joking!")
+default sms_Celia4_french = Sms("sCelia" , sphoto1=False, mtext="Je veux te voir chez moi cette nuit ! Je ne plaisante pas !")
 default sms_Celia5 = Sms("sCelia" , simage="images/CeR2/SMS/3_small.jpg", sphoto="images/CeR2/SMS/3.jpg", sphoto1=True,)
 default sms_Celia6 = Sms("sCelia" , sphoto1=False, mtext="This is probably coming out of the blue for you, but I’ve been thinking. Can we meet up soon?")
+default sms_Celia6_french = Sms("sCelia" , sphoto1=False, mtext="C'est probablement sorti de nulle part pour toi, mais j'ai réfléchie. On peut se voir bientôt ?")
 default sms_Celia7 = Sms("sCelia" , sphoto1=False, mtext="I want to meet you this weekend. Be at my house in the morning, don't make me wait!")
+default sms_Celia7_french = Sms("sCelia" , sphoto1=False, mtext="Je veux te voir ce week-end. Sois chez moi demain matin, ne me fais pas attendre !")
 
 default celia_toilet_cabin_scene4_visit = 1
 default celia_in_camweb_contacts = False
@@ -584,10 +613,10 @@ label begin3:
     call screen map_button
 
 label day_time_changer:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Mom_name = __("Mom")
         $ Dad_name = __("Dad")
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Mom_name = "Linda"
         $ Dad_name = "Bob"
     if Caroline_points >=3:

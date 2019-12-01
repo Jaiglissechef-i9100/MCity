@@ -18,7 +18,7 @@ label MLR2_ES3_rep:
     $ renpy.pause(3,hard = True)
     $ renpy.music.play('/sfx/Feelin Good.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR2_ES3_p0a with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Okay? Date night with Mom. What should I wear?)"
     else:
         MC "(Okay? Date night with Linda. What should I wear?)"
@@ -30,7 +30,7 @@ label MLR2_ES3_rep:
 
     MC "(Yeah, this is looking good.)"
     MC "(It’s only dinner anyway.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Okay - time to meet Mom in the garage.)"
     else:
         MC "(Okay - time to meet Linda in the garage.)"
@@ -40,7 +40,7 @@ label MLR2_ES3_rep:
     $ renpy.pause(3,hard = True)
 
     scene MLR2_ES3_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I’ve been waiting in the garage for ten minutes now. I wonder if Mom has forgotten about our meeting.)"
     else:
         MC "(I’ve been waiting in the garage for ten minutes now. I wonder if Linda has forgotten about our meeting.)"
@@ -55,7 +55,7 @@ label MLR2_ES3_rep:
     MC "Hell yeah! It’s amazing!"
 
     scene MLR2_ES3_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I haven’t worn this little number, in almost ten years. I just never felt sexy enough to wear it while I was with your father."
     else:
         Mom "I haven’t worn this little number, in almost ten years. I just never felt sexy enough to wear it while I was with Bob."
@@ -64,7 +64,7 @@ label MLR2_ES3_rep:
     Mom "Good. That’s what I was aiming for."
 
     scene MLR2_ES3_p4
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "You ARE looking great tonight, Mom."
     else:
         MC "You ARE looking great tonight, Linda."
@@ -81,7 +81,7 @@ label MLR2_ES3_rep:
 
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
     scene MLR2_ES3_p6
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I wonder if I’ll get to fuck Mom tonight?)"
     else:
         MC "(I wonder if I’ll get to fuck Linda tonight?)"
@@ -104,7 +104,7 @@ label MLR2_ES3_rep:
     scene MLR2_ES3_p9
 
     Mom "-Haha! You’re adorable. Just focus on enjoying yourself tonight, okay?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Alright. Thanks, Mom. Sorry I was so nervous."
     else:
         MC "Alright. Thanks, Linda. Sorry I was so nervous."
@@ -123,7 +123,7 @@ label MLR2_ES3_rep:
     scene MLR2_ES3_p11
 
     Mom "I’ll pop off to the ladies’ room, and join you in a couple of minutes."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "No problem, Mom."
     else:
         MC "No problem, Linda."
@@ -158,7 +158,7 @@ label resteurant_table_label_rep:
     $ can_hide_windows = True
     Mom "Good find! This is a nice little booth."
     MC "(That dress is so short; I can see her panties!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Thanks, Mom."
     else:
         MC "Thanks, Linda."
@@ -253,7 +253,7 @@ label MLR2_ES3_continue_label_rep:
 
             Mom "Just return to dating in your own time, whenever you feel comfortable."
             Mom "And, as always, I’m always here if you need me."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Thanks, Mom. You’re the best."
             else:
                 MC "Thanks, Linda. You’re the best."
@@ -261,7 +261,7 @@ label MLR2_ES3_continue_label_rep:
         "Yeah, I’m still searching.":
 
             scene MLR2_ES3_p14
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Yeah, Mom. I’m still searching."
             else:
                 MC "Yeah, Linda. I’m still searching."
@@ -280,7 +280,7 @@ label MLR2_ES3_continue_label_rep:
             scene MLR2_ES3_p15
 
             MC "I’m not sure, right now."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "That’s okay. You know - both your sisters are single. Maybe you could pick up one of them!"
                 MC "MOM!"
             else:
@@ -318,7 +318,7 @@ label after_menu_MLR2_ES3_continue_label_rep:
         Mom "It was incredible! Completely out of this world!"
 
         scene MLR2_ES3_p18b
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "What about Dad? Did he enjoy the food in Italy?"
         else:
             MC "What about Bob, did he enjoy the food in Italy?"
@@ -336,7 +336,7 @@ label after_menu_MLR2_ES3_continue_label_rep:
 
         Mom "At least it tastes pretty good."
         MC "(Phew!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(I think I’m off the hook, at least. I should definitely consider a fancier dish, if I ever take Mom out for dinner again!)"
         else:
             MC "(I think I’m off the hook, at least. I should definitely consider a fancier dish, if I ever take Linda out for dinner again!)"
@@ -360,7 +360,7 @@ label after_menu_MLR2_ES3_continue_label_rep:
     scene MLR2_ES3_p19
 
     Mom "Thank you for joining me tonight, [player_name]."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "You don't’ need to thank me, Mom. I’m having a great time!"
     else:
         MC "You don't need to thank me, Linda. I’m having a great time!"
@@ -380,7 +380,7 @@ label after_menu_MLR2_ES3_continue_label_rep:
 
     MC "Sorry, it’s my first time ever drinking such an expensive wine, so I’m not very experienced with the terminologies."
     Mom "Relax - it’s cute."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Uh… Mom? Is that you?"
     else:
         MC "Uh… Linda? Is that you?"
@@ -393,7 +393,7 @@ label after_menu_MLR2_ES3_continue_label_rep:
     Mom "On your what, Dear?"
 
     scene MLR2_ES3_p23
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "We’re in public, Mom…"
     else:
         MC "We’re in public, Linda…"
@@ -409,19 +409,19 @@ label after_menu_MLR2_ES3_continue_label_rep:
     window hide
 
     menu:
-        "{color=#ff8000}Try to stop Mom from rubbing her feet on your cock.{/color} {color=#00ff00}(Different event.){/color} " if renpy.loadable("patch.rpy"):
+        "{color=#ff8000}Try to stop Mom from rubbing her feet on your cock.{/color} {color=#00ff00}(Different event.){/color} " if persistent.incest_patch == True:
             jump MLR2_ES3_blowjob_label_rep
 
-        "{color=#ff8000}Try to stop Linda from rubbing her feet on your cock.{/color} {color=#00ff00}(Different event.){/color} " if not renpy.loadable("patch.rpy"):
+        "{color=#ff8000}Try to stop Linda from rubbing her feet on your cock.{/color} {color=#00ff00}(Different event.){/color} " if persistent.incest_patch == False:
             jump MLR2_ES3_blowjob_label_rep
 
 
 
 
-        "{color=#ff8000}Let Mom give you a footjob under the table.{/color} {color=#00ff00}(Different event.){/color}" if renpy.loadable("patch.rpy"):
+        "{color=#ff8000}Let Mom give you a footjob under the table.{/color} {color=#00ff00}(Different event.){/color}" if persistent.incest_patch == True:
             jump MLR2_ES3_footjob_label_rep
 
-        "{color=#ff8000}Let Linda give you a footjob under the table.{/color} {color=#00ff00}(Different event.){/color}" if not renpy.loadable("patch.rpy"):
+        "{color=#ff8000}Let Linda give you a footjob under the table.{/color} {color=#00ff00}(Different event.){/color}" if persistent.incest_patch == False:
             jump MLR2_ES3_footjob_label_rep
 
 label MLR2_ES3_footjob_label_rep:
@@ -439,7 +439,7 @@ label MLR2_ES3_footjob_label_rep:
     scene MLR2_ES3__footjobp1
 
     MC "(She just undid my zipper with her toes and pulled my boxer shorts down!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom-"
     else:
         MC "Linda-"
@@ -456,7 +456,7 @@ label MLR2_ES3_footjob_label_rep:
 
     MC "Oooh…"
     scene MLR2_ES3__footjobp3anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Sounds like my big boy’s enjoying having Mommy’s feet, rubbing over his thick hard cock."
     else:
         Mom "Sounds like my big boy’s enjoying having Linda’s feet, rubbing over his thick hard cock."
@@ -491,7 +491,7 @@ label MLR2_ES3_footjob_label_rep:
 
     MC "Ahhh… Fuck…"
     Mom "Oh, is my big boy close?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Cum for me. Cum all over your mommy’s feet. "
     else:
         Mom "Cum for me. Cum all over your Linda’s feet. "
@@ -521,7 +521,7 @@ label MLR2_ES3_footjob_label_rep:
 label MLR2_ES3_blowjob_label_rep:
     $ can_hide_windows = True
     scene MLR2_ES3__blowjobp0
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom, you’ve got to stop! We’re in public!"
     else:
         MC "Linda, you’ve got to stop! We’re in public!"
@@ -536,7 +536,7 @@ label MLR2_ES3_blowjob_label_rep:
 
     Mom "See? This is nice."
     MC "Yeah, it is."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Thanks for bringing me out tonight, Mom."
     else:
         MC "Thanks for bringing me out tonight, Linda."
@@ -553,7 +553,7 @@ label MLR2_ES3_blowjob_label_rep:
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
 
     Mom "I mean, what other reason could you POSSIBLY have, for being THIS hard?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom! Public!"
     else:
         MC "Linda! Public!"
@@ -561,9 +561,9 @@ label MLR2_ES3_blowjob_label_rep:
     Mom "Haha! Who said anything about a handjob?"
 
     scene MLR2_ES3__blowjobp4
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Waiter = __("Waiter")
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Waiter = __("Waiter")
     Mom "(Shlurrrrp!)"
     MC "Ahh!"
@@ -588,7 +588,7 @@ label MLR2_ES3_blowjob_label_rep:
     scene MLR2_ES3__blowjobp7
 
     MC "Mmm…."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Damn! This feels so good! Mom gives phenomenal blowjobs!)"
     else:
         MC "(Damn! This feels so good! Linda gives phenomenal blowjobs!)"
@@ -602,7 +602,7 @@ label MLR2_ES3_blowjob_label_rep:
     Mom "(I can’t wait for [player_name] to spew his hot cum in my wet mouth!)"
 
     scene MLR2_ES3__blowjobp9
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Ahh… I’m gonna cum soon, Mom."
     else:
         MC "Ahh… I’m gonna cum soon, Linda."
@@ -620,7 +620,7 @@ label MLR2_ES3_blowjob_label_rep:
 
     MC "Huh? (Why did she take it out of her mouth?)"
     Mom "Aaah…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "M-Mom? Why did you stop? Is everything-"
     else:
         MC "L-Linda? Why did you stop? Is everything-"
@@ -656,7 +656,7 @@ label MLR2_ES3_end_label_rep:
     scene black
     $ renpy.pause(3,hard = True)
     scene MLR2_ES3_p25
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Thanks again for taking me out for dinner. I had a really good time, Mom."
     else:
         MC "Thanks again for taking me out for dinner. I had a really good time, Linda."
@@ -678,7 +678,7 @@ label MLR2_ES3_end_label_rep:
     scene MLR2_ES3_p28
 
     Mom "It’s not that."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Your father is at home right now. The date ends as soon as we get home."
     else:
         Mom "Bob is at home right now. The date ends as soon as we get home."
@@ -689,7 +689,7 @@ label MLR2_ES3_end_label_rep:
     MC "And we can hang out together when Dad goes on his business trips. Okay?"
     scene MLR2_ES3_p29
     Mom "Promise?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I promise, Mom."
     else:
         MC "I promise, Linda."
@@ -697,7 +697,7 @@ label MLR2_ES3_end_label_rep:
     scene MLR2_ES3_p30
 
     Mom "Thank you so much, [player_name]. I couldn’t have asked for a kinder boy."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Let’s get home before your father starts to wonder where we both are."
         MC "Okay, Mom. Love you!"
     else:

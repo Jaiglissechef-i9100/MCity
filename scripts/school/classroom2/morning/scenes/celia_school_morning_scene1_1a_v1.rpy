@@ -13,11 +13,11 @@ label celia_school_morning_scene1v1_label:
     hide screen day_time_viewer
     hide screen map_button
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Classmates = __("Classmates")
         $ Blonde_Boy = __("Blonde Boy")
         $ Brunette_Girl= __("Brunette Girl")
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Classmates = __("Classmates")
         $ Blonde_Boy = __("Blonde Boy")
         $ Brunette_Girl= __("Brunette Girl")

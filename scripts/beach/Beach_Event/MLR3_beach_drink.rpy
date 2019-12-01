@@ -87,7 +87,7 @@ label MLR3_beach_drink2:
     Mom "But MORE importantly, it gives YOU a chance to see me wear it. Am I right?"
     MC "Haha! You got me there!"
     Mom "Of course I did. Although… if it was in our back garden, I guess I could sunbathe topless."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "How could I possibly know that you’d be peeping down at me from your bedroom window? There’s no way your sisters or Bob would suspect anything."
     else:
         Mom "How could I possibly know that you’d be peeping down at me from your bedroom window? There’s no way your roommates or Bob would suspect anything."

@@ -35,7 +35,7 @@ label SNS_wake_5:
 
     Sara "Sure, why not."
     MC "Awesome! Could you bend over?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Make sure to keep your voice down, by the way. I don’t want to wake up Mom and Dad."
     else:
         MC "Make sure to keep your voice down, by the way. I don’t want to wake up Linda and Bob."
@@ -103,7 +103,7 @@ label SNS_wake_5:
 
     Sara "Ahh! It’s okay! Ugh! Ohhh! C-Cum wherever you want!"
     scene sara_room_night_sleeping2_WakeUp11anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(She’s getting pretty loud. I hope Mom and Dad don’t hear this!)"
     else:
         MC "(She’s getting pretty loud. I hope Linda and Bob don’t hear this!)"

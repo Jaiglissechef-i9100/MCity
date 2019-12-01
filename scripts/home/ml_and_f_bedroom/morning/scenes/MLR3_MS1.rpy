@@ -12,8 +12,8 @@ image MLR3_MS1_p11 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/11.j
 image MLR3_MS1_p12 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/12.jpg"
 
 label MLR3_MS1:
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = "Linda"
+    if persistent.incest_patch == True:
+        $ Linda_name = __("Mom")
         $ Liza2_name = __("Auntie")
         $ Mom_name = __("Mom")
     else:
@@ -42,7 +42,7 @@ label MLR3_MS1:
 
         Bob "Aww, c’mon, Linda, I need you to open up to me. Can’t we just talk about this?"
         Linda "There’s NOTHING to talk about!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Huh? It sounds like Mom and Dad are having an argument. I wonder what’s going on…)"
         else:
             MC "(Huh? It sounds like Linda and Bob are having an argument. I wonder what’s going on…)"
@@ -128,7 +128,7 @@ label MLR3_MS1:
         Bob "*Sniff* We fooled around so much, we steamed the damn windows up. That was real sex."
         Linda "That was decades ago. Nothing lasts forever, Bob."
         Bob "*Sob* You threw a fucking pillow at me when I came into the room. You looked at me like I DISGUSTED you."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Bob "*Sniff* This isn’t just about me, Linda. For Christ’s sake… think of our kids."
             Bob "Think of Sara - she probably sees more than you know, and her parents fighting is going to break her little heart."
         else:

@@ -25,7 +25,7 @@ label LiR1_MAS1a_label:
     hide screen day_time_viewer
     hide screen map_button
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -42,7 +42,7 @@ label LiR1_MAS1a_label:
     scene LiR1_MAS1a_p2
 
     Liza "Oh, c’mon, Yazmin - you’re gonna scare the poor kid."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza "Long time no see! How’s my favourite nephew been doing?!"
         MC "I’m keeping well, Auntie Liza! I gotta say - I love your new place. This house looks amazing!"
     else:
@@ -64,7 +64,7 @@ label LiR1_MAS1a_label:
     jump LiR1_MAS1a_menu
 
 label LiR1_MAS1a_menu:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -116,13 +116,13 @@ label LiR1_MAS1a_menu:
             scene LiR1_MAS1a_p7
 
             MC "Sure - happy to help. Out of interest... did you not think about, hiring a professional maid or handyman, to do this?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Yazmin "Yeah... your aunt hired a handyman, a month ago. Tell [player_name] what happened, Liza."
             else:
                 Yazmin "Yeah... Liza hired a handyman, a month ago. Tell [player_name] what happened, Liza."
             Liza2 "(Sigh) I caught the bastard stealing my underwear, when it was drying on the line."
             MC "Haha! Wow! That’s insane!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Liza2 "So yeah - in order to avoid any more... inappropriate situations, I’ve decided to reserve this particular job, in the family. Does that make sense?"
             else:
                 Liza2 "So yeah - in order to avoid any more... inappropriate situations, I’ve decided to reserve this particular job, for someone I know personaly. Does that make sense?"
@@ -159,7 +159,7 @@ label LiR1_MAS1a_menu:
             scene LiR1_MAS1a_p13
 
             MC "(They’re not going to - seriously - start making out in front of me... are they?)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I mean, Auntie Liza and Yazmin have been married for quite a few years now - but they’re not going to just start snogging each other, right in front of their nephew.)"
             else:
                 MC "(I mean, Liza and Yazmin have been married for quite a few years now - but they’re not going to just start snogging each other, right in front of me.)"

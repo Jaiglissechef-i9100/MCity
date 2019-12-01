@@ -64,7 +64,7 @@ label B2_AS1_label:
 
     scene B2_AS1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Dad!"
     else:
         MC "Hey, Bob!"
@@ -131,7 +131,7 @@ label B2_AS1_menu_label:
             scene B2_AS1_p2
 
             MC "Have you heard about Caroline’s shop?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "Oh yeah! Your mom mentioned that a while back. How’s it going?"
             else:
                 Dad "Oh yeah! Linda mentioned that a while back. How’s it going?"
@@ -151,7 +151,7 @@ label B2_AS1_menu_label:
             Dad "You can control work and be responsible for it - but staff are human beings, and VERY unpredictable at times."
 
             scene B2_AS1_p5
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Thanks, Dad. I’ll remember that!"
             else:
                 MC "Thanks, Bob. I’ll remember that!"
@@ -197,7 +197,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Doesn’t Mom get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and renpy.loadable("patch.rpy"):
+        "Doesn’t Mom get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and persistent.incest_patch == True:
             scene B2_AS1_p1
 
             MC "Doesn’t Mom get angry when you smoke cigars in the bedroom?"
@@ -221,7 +221,7 @@ label B2_AS1_menu_label:
                 jump B2_AS1_menu_label
             else:
                 jump B2_AS1_menu_label
-        "Doesn’t Linda get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and not renpy.loadable("patch.rpy"):
+        "Doesn’t Linda get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and not persistent.incest_patch == True:
             scene B2_AS1_p1
 
             MC "Doesn’t Linda get angry when you smoke cigars in the bedroom?"
@@ -246,7 +246,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Is everything okay between you and Mom? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and renpy.loadable("patch.rpy"):
+        "Is everything okay between you and Mom? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and persistent.incest_patch == True:
             scene B2_AS1_p1
 
             MC "Is everything okay between you and Mom?"
@@ -271,7 +271,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Is everything okay between you and Linda? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and not renpy.loadable("patch.rpy"):
+        "Is everything okay between you and Linda? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and not persistent.incest_patch == True:
             scene B2_AS1_p1
 
             MC "Is everything okay between you and Linda?"
@@ -298,7 +298,7 @@ label B2_AS1_menu_label:
 
         "Have you got any advice for finding a girlfriend?" if B2_AS1_day == 3 and B2_AS1_q2 == True and can_B2_AS1_day == True:
             scene B2_AS1_p1
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Have you got any advice for finding a girlfriend, Dad?"
             else:
                 MC "Have you got any advice for finding a girlfriend, Bob?"
@@ -312,7 +312,7 @@ label B2_AS1_menu_label:
 
             Dad "Be open and honest about your interests. If you’re a videogamer, then state that you are."
             Dad "If you’re into sports or movies, then be upfront about it."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "But what if they don’t like the same things as me, Dad."
             else:
                 MC "But what if they don’t like the same things as me, Bob."

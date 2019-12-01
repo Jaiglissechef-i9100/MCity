@@ -105,7 +105,7 @@ label CNS_wake_butt_label:
 
     MC "Oh! Oh… Fuck… Mmm...!"
     Caroline "(Looks like my dirty talking worked! I can feel him beginning to twitch!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "That’s it… cum for your big sister. Cum for me!"
     else:
         Caroline "That’s it… cum. Cum for me!"

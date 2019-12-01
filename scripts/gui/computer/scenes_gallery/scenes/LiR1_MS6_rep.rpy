@@ -1,5 +1,5 @@
 label LiR1_MS6_rep:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -82,7 +82,7 @@ label LiR1_MS6_rep:
 
     MC "Thanks for the beer, Yazmin."
     Yazmin "No problem! We’ve got plenty in the fridge - so if you want another one-"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Umm... maybe not... And PLEASE don’t tell your mother about this, [player_name]."
         Liza2 "I don’t want her to think - we’re getting her son drunk!"
     else:
@@ -108,7 +108,7 @@ label LiR1_MS6_rep:
     Yazmin "(This little pervert, probably enjoys working for us, because he gets to see us, in our bikinis so much.)"
 
     scene LiR1_MAS7_p14
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Your mother doesn’t mind you coming over here, all the time, does she?"
     else:
         Liza2 "Linda doesn’t mind you coming over here, all the time, does she?"
@@ -150,7 +150,7 @@ label LiR1_MS6_rep:
     scene LiR1_MAS7_p19
 
     MC "That’s quite a fancy ring you’re wearing!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Oh! Yeah, I got the one on my right hand, when your aunt and I took a holiday to Switzerland."
     else:
         Liza2 "Oh! Yeah, I got the one on my right hand, when Liza and I took a holiday to Switzerland."
@@ -163,7 +163,7 @@ label LiR1_MS6_rep:
     Liza2 "Oops! Sorry, Dear! Hehe..."
 
     scene LiR1_MAS7_p21
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "It was a skiing holiday, mostly. I was pretty good at it - your Auntie Yazmin was atrocious through - She couldn’t keep herself, up straight, on the slopes."
     else:
         Liza2 "It was a skiing holiday, mostly. I was pretty good at it - Yazmin was atrocious through - She couldn’t keep herself, up straight, on the slopes."
@@ -275,7 +275,7 @@ label LiR1_MS6_rep:
     MC "([Liza2_name] can’t - seriously - be making these puns on purpose, can she?!)"
     MC "Hnng.... D-Definitely."
     Liza2 "Anyway, I’m off now. Have fun!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "S-See you later, Ahhuntie!"
     else:
         MC "S-See you later, Liiiza!"
@@ -311,7 +311,7 @@ label LiR1_MS6_rep:
     scene LiR1_MAS7_p41
 
     Yazmin "Haha! I think you enjoyed that!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Y-You... Right in front of my auntie!"
     else:
         MC "Y-You... Right in front of Liza!"
@@ -330,7 +330,7 @@ label LiR1_MS6_rep:
             scene LiR1_MAS7_p42b
             MC "How could you do that!? If she’d caught us, we would BOTH be dead right now!"
             Yazmin "Huh? Did you not enjoy it?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "It doesn’t matter! She’s my auntie, and she’s YOUR wife! You’re cheating on her, right now. You know that?! AND you’re making ME complicit in it!"
             else:
                 MC "It doesn’t matter! She’s YOUR wife! You’re cheating on her, right now. You know that?! AND you’re making ME complicit in it!"

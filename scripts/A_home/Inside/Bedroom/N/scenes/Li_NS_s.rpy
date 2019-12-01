@@ -40,7 +40,7 @@ image Li_NS_B_pussy_p8 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pu
 image Li_NS_B_pussy_p9 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Liza/Pussy/9.jpg"
 
 label Li_NS_B_feet:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -51,7 +51,7 @@ label Li_NS_B_feet:
     MC "(I guess I’ll just settle for, massaging them with my hands and rubbing my cock against them.)"
 
     scene Li_NS_B_feet_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Damn, just look at how perfect they are. Auntie Liza obviously takes, very good care of them.)"
     else:
         MC "(Damn, just look at how perfect they are. Liza obviously takes, very good care of them.)"
@@ -121,7 +121,7 @@ label Li_NS_B_feet:
 
     MC "*Pant Pant*"
     MC "(Wow... That was amazing!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Okay - time for me to bail, before Auntie Liza wakes up! I’ll have to come back another night, for some more fun with them!)"
     else:
         MC "(Okay - time for me to bail, before Liza wakes up! I’ll have to come back another night, for some more fun with them!)"
@@ -130,7 +130,7 @@ label Li_NS_B_feet:
 
 label Li_NS_B_mouth:
     scene Li_NS_B_mouth_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I think I’ll play with Auntie Liza’s mouth tonight. I can probably get away with kissing her. And I might even be able to make her suck on my cock for a while, without waking her up.)"
     else:
         MC "(I think I’ll play with Liza’s mouth tonight. I can probably get away with kissing her. And I might even be able to make her suck on my cock for a while, without waking her up.)"

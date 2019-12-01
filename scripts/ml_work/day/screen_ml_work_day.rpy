@@ -8,9 +8,9 @@ screen ml_work_day:
         hover "/images/ml_work/day/ml_work_door1_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("ml_work_room1_day1")]
         if clickable == True:
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom's Office"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Linda's Office"))
             unhovered Hide("displayTextScreen")
 

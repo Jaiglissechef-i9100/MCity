@@ -27,7 +27,7 @@ label Li_MAS3_label:
     jump Li_MAS3_menu
 
 label Li_MAS3_menu:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -142,7 +142,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q5 = False
             jump Li_MAS3_menu
 
-        "I don’t see you and Auntie Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and renpy.loadable("patch.rpy"):
+        "I don’t see you and Auntie Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "I don’t see you and Auntie Liza coming up to visit us, very often. Why is that?"
@@ -161,7 +161,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q6 = False
             jump Li_MAS3_menu
 
-        "I don’t see you and Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and not renpy.loadable("patch.rpy"):
+        "I don’t see you and Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and not persistent.incest_patch == True:
 
             scene LiR1_MAS3_p3
 
@@ -218,7 +218,7 @@ label Li_MAS3_menu:
             Yazmin "You mean, though IVF or a sperm donor?"
             MC "Yeah. Either way."
             Yazmin "Maybe? I haven’t put a lot of thought into it. I obviously need to find a really good guy, who would want to donate to us."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Yazmin "And then there’s the issue about which of us would carry the baby. I don’t know if your auntie would be too fond of it - And I certainly can’t, or my modelling career would be put on hold, for several months!"
             else:
                 Yazmin "And then there’s the issue about which of us would carry the baby. I don’t know if Liza would be too fond of it - and I certainly can’t, or my modelling career would be put on hold, for several months!"
@@ -230,7 +230,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q8 = False
             jump Li_MAS3_menu
 
-        "Why doesn’t my mother like you?" if Li_MAS3_q9 == True and renpy.loadable("patch.rpy"):
+        "Why doesn’t my mother like you?" if Li_MAS3_q9 == True and persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "Why doesn’t my mother like you?"
@@ -242,7 +242,7 @@ label Li_MAS3_menu:
 
             scene LiR1_MAS3_p5
 
-            Yazmin "Then - I came into the picture - and started dating her sister. Prior to me coming along - your mother and Liza were inseparable. They might has well have been best friends."
+            Yazmin "Then - I came into the picture - and started dating her sister. Prior to me coming along - your mother and Liza were inseparable. They might has well have been inseparable."
             Yazmin "Your mother has mellowed, in recent years, but it’s still left some open wounds between her and your auntie. I think she still views me - as stealing Liza away from her."
             MC "Fuck... I’m sorry... I never knew she was like that..."
 
@@ -261,7 +261,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q9 = False
             jump Li_MAS3_menu
 
-        "Why doesn’t Linda like you?" if Li_MAS3_q9 == True and not renpy.loadable("patch.rpy"):
+        "Why doesn’t Linda like you?" if Li_MAS3_q9 == True and not persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "Why doesn’t my Linda like you?"

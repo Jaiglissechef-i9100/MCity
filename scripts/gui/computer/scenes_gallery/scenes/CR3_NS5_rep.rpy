@@ -1,4 +1,5 @@
 label CR3_NS5_rep:
+    $ Linda_name = Mom_name
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -11,7 +12,7 @@ label CR3_NS5_rep:
     $ renpy.pause(3,hard=True)
 
     scene CR3_NS5_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Okay, let’s think about this logically. My vibrator has gone missing. There are four other people in this house, Mom, Dad, Sara, and [player_name].)"
         Caroline "(What would have happened if Mom had found it under my bed.)"
     else:
@@ -21,7 +22,7 @@ label CR3_NS5_rep:
     Caroline "(Well, I’m a fully grown adult now - she almost certainly would have left it where it was.)"
 
     scene CR3_NS5_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(There’s no way Dad would have found my vibrator, he hardly pays me any attention. I can’t remember him ever coming into my room in years.)"
         Caroline "(This narrows things down to my two siblings...)"
     else:
@@ -34,7 +35,7 @@ label CR3_NS5_rep:
 
     Caroline "(So, that leaves [player_name].)"
     Caroline "(He already admitted to me at my job that he has been listening to me masturbate. That means he is aware I’ve been using a vibrator.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(Now, if I was my brother and I stole a dildo, where would I hide it?)"
     else:
         Caroline "(Now, if I was [player_name] and I stole a dildo, where would I hide it?)"
@@ -46,7 +47,7 @@ label CR3_NS5_rep:
     Caroline "(Which leaves… the drawers.)"
 
     scene CR3_NS5_p5
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "(These are out of sight, and Mom would never need to go poking around in them.)"
     else:
         Caroline "(These are out of sight, and Linda would never need to go poking around in them.)"
@@ -78,7 +79,7 @@ label CR3_NS5_rep:
 
     Caroline "What the HELL where you thinking?!"
     MC "Sh-Shush! You’re gonna wake up [Linda_name] if you keep shouting!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Oh, I’m not worried about THAT! I’m not the one who’s been stealing his sister’s dildo!"
     else:
         Caroline "Oh, I’m not worried about THAT! I’m not the one who’s been stealing his friend’s dildo!"
@@ -180,7 +181,7 @@ label CR3_NS5_rep:
     scene CR3_NS5_p25
 
     Caroline "[player_name]… It’s more complicated than that. Have you actually thought about all the consequences of what would happen if we were together?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Mom, Dad, Sara, our friends, extended family, the neighbours… The list of people who would disapprove of us is endless."
     else:
         Caroline "Linda, Bob, Sara, our friends, the neighbours… The list of people who would disapprove of us is endless."
@@ -201,7 +202,7 @@ label CR3_NS5_rep:
 
     MC "Please, Caroline. Don’t run away from tonight because you’re afraid."
     MC "It’s okay to be scared - I’m a little scared too. We can overcome it together though."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "My parents are gonna kill me when they find out…"
     else:
         Caroline "My parents are gonna kill me when they find out…"

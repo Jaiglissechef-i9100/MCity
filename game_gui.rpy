@@ -418,7 +418,12 @@ screen time_skip_button:
         action [Hide("displayTextScreen"), Show ("Walk_Throught") ]
         hovered Show("displayTextScreen", displayText = __("Walkthrough"))
         unhovered Hide("displayTextScreen")
-		
+
+    if jack_frost == False:
+        imagebutton idle Transform("images/game_gui/icons/jack_frost.png", zoom=.4) xpos 460 ypos 0 focus_mask True action [Hide("displayTextScreen"), SetVariable('jack_frost', True) ] hovered ShowTransient("displayTextScreen", displayText = __("Secret Card Cheated")) unhovered Hide("displayTextScreen")
+    else:
+        imagebutton idle Transform("images/game_gui/icons/jack_frost_hover.png", zoom=.4) xpos 460 ypos 0 focus_mask True action [Hide("displayTextScreen"), SetVariable('jack_frost', False) ] hovered ShowTransient("displayTextScreen", displayText = __("Secret Card Not Cheated")) unhovered Hide("displayTextScreen")
+
 #-----------------------------------------------------------------------------------------
 
 screen screen_work_in_progress:

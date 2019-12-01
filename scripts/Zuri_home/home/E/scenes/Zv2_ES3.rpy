@@ -84,7 +84,7 @@ label Zv2_ES3_label:
 
             Zuri "It’s pretty big, Suri, isn’t it!"
             Suri "The kid surprised me!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(God, why am I just letting them do this? They’re seducing me into ruining Dad’s company!)"
             else:
                 MC "(God, why am I just letting them do this? They’re seducing me into ruining Bob’s company!)"
@@ -101,7 +101,7 @@ label Zv2_ES3_label:
             Zuri "(Lick Lick)"
 
             scene Zv2_ES3lick_p6
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(On the other hand, maybe Dad’s company isn’t worth a blowjob THIS good!)"
             else:
                 MC "(On the other hand, maybe Bob’s company isn’t worth a blowjob THIS good!)"
@@ -218,7 +218,7 @@ label Zv2_ES3_label:
             scene Zv2_ES3foot_p7
 
             MC "Ooh! God… That’s amazing…"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I shouldn’t be doing this to Dad’s company… but they’re so fucking sexy…)"
             else:
                 MC "(I shouldn’t be doing this to Bob’s company… but they’re so fucking sexy…)"

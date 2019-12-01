@@ -19,11 +19,10 @@ label MLR2_NS1_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = __("Mom")
+    $ Linda_name = Mom_name
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
-        $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
     if ml_points == 3 and MLR3_NS1 == 3 and MLR2_Sleep == True:
         jump MLR3_NS1
@@ -56,11 +55,11 @@ label MLR2_NS1_label:
         $ renpy.pause(0.14, hard = True)
         "*Creeeaaaak*"
         scene MLR2_NS1_p1a
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Ah! It's only Dad."
         else:
             MC "Ah! It's only Bob."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "I forgot! Mom is waiting for me in my bedroom!"
         else:
             MC "I forgot! Lnda is waiting for me in my bedroom!"
@@ -70,11 +69,11 @@ label MLR2_NS1_label:
 
     if MLR2_NS1_counter == 1 and MLR2_Sleep == True:
         scene MLR2_NS1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             $ Dad_name = __("Dad")
         else:
             $ Dad_name = "Bob"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(I think I can hear Mom having sex. It’s fairly faint though.)"
         else:
             MC "(I think I can hear Linda having sex. It’s fairly faint though.)"
@@ -94,7 +93,7 @@ label MLR2_NS1_label:
 
         Mom "AH! Ahhh! Ahhh!"
         Dad "Ugh! That’s it! I’m glad you’re enjoying this, for a change!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(For a change? Mom mustn’t enjoy sex with Dad, that much.)"
         else:
             MC "(For a change? Linda mustn’t enjoy sex with Bob that much.)"
@@ -113,7 +112,7 @@ label MLR2_NS1_label:
 
         Dad "Wait… what?"
         Dad "Did you just call me [player_name]?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Oh fuck… if he finds out that I’ve done stuff with Mom, he’ll kill me!)"
         else:
             MC "(Oh fuck… if he finds out that I’ve done stuff with Linda, he’ll kill me!)"
@@ -134,7 +133,7 @@ label MLR2_NS1_label:
         scene MLR2_NS1_p8
 
         Dad "(I could have sworn she called me [player_name])."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Dad "(Why the heck would she be thinking about our son when we’re having sex?)"
         else:
             Dad "(Why the heck would she be thinking about [player_name] when we’re having sex?)"

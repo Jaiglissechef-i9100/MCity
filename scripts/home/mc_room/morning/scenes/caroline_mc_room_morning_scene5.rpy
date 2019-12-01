@@ -124,9 +124,9 @@ label caroline_mc_room_morning_scene5_label:
     Caroline "You are a pervert. You know that, right?"
     scene caroline_mc_room_morning_scene5_hand_footp4anim
     $ renpy.pause()
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Getting, all hard and horny, because of your older sister."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "Getting, all hard and horny, because of your good friend."
 
     scene caroline_mc_room_morning_scene5_hand_footp5
@@ -154,9 +154,9 @@ label caroline_mc_room_morning_scene5_label:
 
 
             scene caroline_mc_room_morning_scene5_hand_footp9
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Cum for me! Cum for your big sister!"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Caroline "Cum for me! Cum for Caroline!"
             MC "Hnnng! Ahhh! Ugh! Yes!"
             MC "(She’s amazing with her hands!)"
@@ -235,9 +235,9 @@ label caroline_mc_room_morning_scene5_label:
             scene caroline_mc_room_morning_scene5_hand_footp16a with dissolve
 
             Caroline "Oh wow… That’s A LOT of cum right there!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "(I think [player_name] really enjoyed this!)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Caroline "(I think [player_name] really enjoyed this!)"
             MC "Phew... That was incredible, Caroline! Thank you so much... (Yaaawwwn!)"
             Caroline "I hope you aren’t tired! It’s time to get up!"

@@ -69,9 +69,9 @@ label sister_nerdy_scene4_v11:
         $ can_hide_windows = True
         MC "(Perfect timing! It looks like she’s just about to take a shower!)"
         MC "(I can almost see her pussy from this angle!)"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Please, if there’s a God up there, I’m begging you! Let my sister bend over right now!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(Please, if there’s a God up there, I’m begging you! Let my friend bend over right now!)"
 
         scene scene4_v1p3a
@@ -96,9 +96,9 @@ label sister_nerdy_scene4_v11:
         MC "(Just in time! Looks like she is masturbating!)"
         MC "(I wonder what she’s looking at on her phone. Could it be that picture of my cock?)"
         Sara "Ohh… [player_name]! Yes…!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(She’ll need to be quieter than that, if she doesn’t want Mom to hear her!)"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "(She’ll need to be quieter than that, if she doesn’t want Linda to hear her!)"
         $ next_day_sister_nerdy_scene4_v1 = False
         $ fourth_visit_sister_nerdy_scene4_v1 = 1

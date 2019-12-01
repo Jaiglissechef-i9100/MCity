@@ -64,9 +64,9 @@ screen bob_office_M_scr:
             idle "images/Bob_work/office/M/scenes/Bobv2_MS1/Bob_B1.png"
             hover "images/Bob_work/office/M/scenes/Bobv2_MS1/Bob_B1_hover.png"
             if clickable == True:
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     hovered Show("displayTextScreen", displayText = __("Dad"))
-                if not renpy.loadable("patch.rpy"):
+                else:
                     hovered Show("displayTextScreen", displayText = "Bob")
                 action [Hide("displayTextScreen"),Jump("Bobv2_MS1_label")]
                 unhovered Hide("displayTextScreen")

@@ -1,4 +1,4 @@
-init python:
+init -2 python:
 
     class Sms(store.object):
         selected = False

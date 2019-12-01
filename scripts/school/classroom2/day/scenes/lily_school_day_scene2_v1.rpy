@@ -22,9 +22,9 @@ label lily_school_day_scene2_v1_label:
 
     scene lily_school_day_scene2_v1_p2
     MC "Haha! I guess I’ll take that as a compliment."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "How’s your sister? Has she recovered from her freakout, the other day?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Lily "How’s Sara? Has she recovered from her freakout, the other day?"
     MC "Freakout?"
     Lily "Yeah - when she threw the bottle across the room."

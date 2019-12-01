@@ -111,7 +111,7 @@ screen bob_car_scr2:
 label bob_carbook:
     show screen bob_car_scr2
     $ clickable = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "What’s that book doing in here? It looks like it’s from Dad’s office. Maybe Dad might need it. I should return it to his office."
     else:
         MC "What’s that book doing in here? It looks like it’s from Bob’s office. Maybe Bob might need it. I should return it to his office."

@@ -32,9 +32,9 @@ label headmaster_S2:
         $ clickable = True
         hide screen school_corridor3_morning
         hide screen school_corridor3_day
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             $ Headmaster_name = __("Headmaster")
-        if not renpy.loadable("patch.rpy"):
+        else:
             $ Headmaster_name = __("Headmaster")
         jump school_corridor3_morning1
     else:

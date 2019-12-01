@@ -83,7 +83,7 @@ label CR3_AS5_label:
         Caroline "Seriously - that’s twice now, you’ve helped save and grow my business. I owe you - big time - for that."
 
         scene CR3_AS5_p5
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "I couldn’t have asked for a better brother. I know I used to be, quite hard on you, when you were younger and growing up, but I wanted to let you know, that I really do care about you."
         else:
             Caroline "I couldn’t have asked for a better friend. I know I used to be, quite hard on you, when you were younger and growing up, but I wanted to let you know, that I really do care about you."

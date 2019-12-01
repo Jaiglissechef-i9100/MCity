@@ -286,7 +286,7 @@ screen cloth_shop_robber_screen:
             hover "images/cloth_shop/room1/day/CR4_AS2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CR4_AS2_label")]
-                hovered Show("displayTextScreen", displayText = "Caroline and Charles")
+                hovered Show("displayTextScreen", displayText = __("Caroline and Charles"))
                 unhovered Hide("displayTextScreen")
     if Caroline_points == 4 and CR4_AS2 == 3:
         imagebutton:

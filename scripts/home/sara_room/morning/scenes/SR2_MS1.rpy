@@ -48,7 +48,7 @@ label SR2_MS1_label:
     Sara "I… don’t think I went to bed last night. Last thing I remember was grinding online with my clan… I must have dozed off during a raid."
     MC "Ahh, that explains it, then. "
     Sara "Ugh, do I have to go to school today?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "If you miss class, Mom’s gonna freak out."
     else:
         MC "If you miss class, Linda’s gonna freak out."
@@ -76,7 +76,7 @@ label SR2_MS1_label:
     scene SR2_MS1_p8
 
     Mom "ARE YOU TWO ALMOST READY? YOU’RE GOING TO BE LATE FOR SCHOOL!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "(Yawn!) Y-Yeah, Mom! I’m almost ready…"
     else:
         Sara "(Yawn!) Y-Yeah, Linda! I’m almost ready…"

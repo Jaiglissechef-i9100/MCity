@@ -29,7 +29,7 @@ label CR3_WE_G1_label:
     Juliett "Hi, I’m Juliett. What brings you out tonight?"
 
     $ Juliett_name = "Juliett"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I’m out, celebrating with my sister."
     else:
         MC "I’m out, celebrating with my roomate."

@@ -266,7 +266,7 @@ label MLR3_b_house_Bed:
 
     "*Click*"
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "No Bob, no sisters, no goddamn phones."
     else:
         Mom "No Bob, no Sara and Caroline, no goddamn phones."
@@ -277,7 +277,7 @@ label MLR3_b_house_Bed:
     MC "(I’ve never seen her this horny before!)"
 
     scene MLR3_b_house_Bed_p17
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I guess there’s a lot of pent up sexual tension, when you get cockblocked every single time you try to screw your son.)"
     else:
         MC "(I guess there’s a lot of pent up sexual tension, when you get cockblocked every single time you try to screw me.)"
@@ -384,7 +384,7 @@ label MLR3_b_house_Bed:
 
             MC "Hnng… Oh… fuck yeah..."
             scene MLR3_b_house_Foot_p4anim
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "It must feel SO good having mommy’s feet rub all over your shaft like this."
             else:
                 Mom "It must feel SO good having my feet rub all over your shaft like this."
@@ -510,7 +510,7 @@ label MLR3_b_house_Bed2:
     scene MLR3_b_house_Bed_p31
 
     Mom "Oh! Oh God! Mmm! Fuck…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(It feels so wrong doing this to my son… but it only makes this so much hotter!)"
     else:
         Mom "(It feels so wrong doing this to [player_name]… but it only makes this so much hotter!)"
@@ -564,7 +564,7 @@ label MLR3_b_house_Bed2:
     Mom "Mmm! Uh huh! Do it!"
 
     scene MLR3_b_house_Bed_p33f
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Oohhh! Grope them, [player_name]! Grope your mommy’s big breasts!"
     else:
         Mom "Oohhh! Grope them, [player_name]! Grope my big breasts!"
@@ -623,7 +623,7 @@ label MLR3_b_house_Bed2:
     Mom "Ohh! Yes! Yes!"
 
     scene MLR3_b_house_Bed_p43
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "That’s it, baby! That’s it! Cum for Mommy!"
         Mom "Let it all go! Shoot your hot jizz into Mommy’s tight pussy! Mmm…"
     else:
@@ -640,7 +640,7 @@ label MLR3_b_house_Bed2:
     scene MLR3_b_house_Bed_p45
 
     Mom "Yes! Thrust inside me, [player_name]!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Fuck your mommy’s wet pussy!"
     else:
         Mom "Fuck my wet pussy!"
@@ -906,7 +906,7 @@ label MLR3_b_house_Bed2:
     $ renpy.pause()
     scene MLR3_b_house_Bed_p84
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "AYAAAHHH! Cum inside me! I want to feel my boy’s cum inside me!"
     else:
         Mom "AYAAAHHH! Cum inside me! I want to feel your cum inside me!"

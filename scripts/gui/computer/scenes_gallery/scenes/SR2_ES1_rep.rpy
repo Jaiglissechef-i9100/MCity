@@ -17,7 +17,7 @@ label SR2_ES1_rep:
 
     Sara "How are things over there, in the land of the free?"
     MC "Eh, not much. I’m just doing a bit of work and then the same old shit at school each day."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "At least you can go wherever you want. Mom’s got me completely grounded right now."
     else:
         Sara "At least you can go wherever you want. Linda’s got me completely grounded right now."
@@ -26,7 +26,7 @@ label SR2_ES1_rep:
 
     MC "Hopefully, our late night chats will help relieve SOME of the boredom you’re facing right now."
     Sara "Mmm, I hope so too!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "What's everything you have to do before Mom ungrounds you?"
     else:
         MC "What's everything you have to do before Linda ungrounds you?"
@@ -52,12 +52,12 @@ label SR2_ES1_rep:
     Sara "That’s so unfair! You got a super romantic story - I got stuck with Macbeth. It’s just so… boring!"
 
     scene SR2_ES1_p7
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Anyway! I’ll be able to enjoy some late night chats with my favourite brother from now on!"
     else:
         Sara "Anyway! I’ll be able to enjoy some late night chats with my favourite friend from now on!"
     Sara "So, at least I have something to look forward to at the end of each day!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Aren’t I your only brother?"
     else:
         MC "Aren’t I your only friend?"
@@ -127,7 +127,7 @@ label SR2_ES1_menu_rep:
 
             Sara "I’ll even pull down the other side of my shirt to prove it."
             MC "Yeah, you should do that!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(There’s nothing better than having your sister flash her tits on camera for you!)"
 
             scene SR2_ES1_Bra_p4
@@ -322,10 +322,10 @@ label SR2_ES1_continue_rep:
     $ Mom_name = "???"
 
     Mom "Sara? What’s going on in there?"
-    if renpy.loadable("patch.rpy"):
-        $ Mom_name = "Linda"
+    if persistent.incest_patch == True:
+        $ Mom_name = __("Mom")
     else:
-        $ Mom_name = "Mom"
+        $ Mom_name = "Linda"
 
     MC "(Oh shit!)"
     MC "Quick! Turn the vibe off and throw it under your bed!"
@@ -333,7 +333,7 @@ label SR2_ES1_continue_rep:
     scene SR2_ES1_Vib_p14
 
     Mom "Sara! I told you to study! You’re wasting your time with those online games again, aren’t you?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "N-No, M-Mom!"
     else:
         Sara "N-No, L-Linda!"
@@ -349,7 +349,7 @@ label SR2_ES1_continue_rep:
     scene SR2_ES1_Vib_p16
 
     Mom "Why aren’t you wearing any panties?!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I… uh… Mom!"
     else:
         Sara "I… uh… Linda!"
@@ -358,14 +358,14 @@ label SR2_ES1_continue_rep:
     scene SR2_ES1_Vib_p17
 
     Mom "Were you watching internet porn?!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Mom, I-"
     else:
         Sara "Linda, I-"
     Mom "Right. That’s it. No more laptop for you. Turn it off, this instant."
 
     scene SR2_ES1_Vib_p18
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "B-But, Mom!"
     else:
         Sara "B-But, Linda!"

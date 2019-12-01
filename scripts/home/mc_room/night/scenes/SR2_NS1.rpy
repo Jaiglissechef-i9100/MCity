@@ -32,7 +32,7 @@ label SR2_NS1_label:
     Sara "Actually… it’s a little… difficult to talk about."
     MC "Is something wrong?"
     Sara "No! At least… I don’t think so. I hope not."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Can you climb under the sheets with me? I REALLY don’t want Mom or Dad to overhear us."
     else:
         Sara "Can you climb under the sheets with me? I REALLY don’t want Linda or Bob to overhear us."

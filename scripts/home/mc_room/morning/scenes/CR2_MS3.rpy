@@ -25,7 +25,7 @@ label CR2_MS3_label:
 
     Caroline "No, I… Do you remember that offer you made me? To give me money for my business."
     MC "Yeah."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Does that offer still… stand? I really need two hundred, to pay rent to Mom."
     else:
         Caroline "Does that offer still… stand? I really need two hundred, to pay rent to Linda."
@@ -38,7 +38,7 @@ label CR2_MS3_label:
         "{color=#00ff00}Of course! I have two hundred here.{/color}" if inventory.money >= 200:
             scene CR2_MS3_p3
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Of course, Caroline! I have two hundred here. And don’t worry, I won’t say a word to Mom about this."
             else:
                 MC "Of course, Caroline! I have two hundred here. And don’t worry, I won’t say a word to Linda about this."

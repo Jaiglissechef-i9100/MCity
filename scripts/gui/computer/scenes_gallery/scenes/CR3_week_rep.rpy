@@ -33,7 +33,7 @@ label CR3_week_rep:
     scene CR3_WE_UseHer_p5
 
     MC "Hehe..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to my sister tonight?)"
     else:
         MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to Caroline tonight?)"

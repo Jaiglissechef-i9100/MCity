@@ -28,7 +28,7 @@ label office_leave:
         show screen bob_office_D_scr
     if bob_office_locked == True:
         $ clickable = False
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "I can't leave now. I should talk with Dad."
         else:
             MC "I can't leave now. I should talk with Bob."

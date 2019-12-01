@@ -285,7 +285,7 @@ label SNS_3:
 
     scene sara_room_night_sleeping2_Hand5
     Sara "Huh? Is someone there?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Daddy?"
     else:
         Sara "Bob?"

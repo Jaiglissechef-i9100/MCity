@@ -104,7 +104,7 @@ label bob_secret_room_scene:
     $ can_hide_windows = True
     MC "Huh?!"
     MC "(Is this a secret passageway?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Why the hell would Dad need a hidden room?)"
     else:
         MC "(Why the hell would Bob need a hidden room?)"
@@ -129,7 +129,7 @@ label bob_secret_room_scene:
     scene bob_sec_p4
 
     MC "(He must be into this sorta thing.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(It all makes sense now! The way Mom treats him so badly…)"
     else:
         MC "(It all makes sense now! The way Linda treats him so badly…)"
@@ -138,7 +138,7 @@ label bob_secret_room_scene:
     scene bob_sec_p5
 
     MC "(Some things should remain private. I’m just going to forget about what I saw in here today.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(This isn’t any of my business. I wouldn’t want Dad snooping into MY sex life.)"
     else:
         MC "(This isn’t any of my business. I wouldn’t want Bob snooping into my sex life.)"

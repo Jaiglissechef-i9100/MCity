@@ -20,9 +20,9 @@ label sis_nerdy_school_scene2_v1_label:
     Lily "Oh, my God! Is this Dan from Chemistry?"
 
     scene sis_nerdy_school_scene2_v1_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "No! It’s… my brother…"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Sara "No! It’s… [player_name]"
     Lily "No way! Show me again!"
     Sara "Not in school… I’ll text you later."

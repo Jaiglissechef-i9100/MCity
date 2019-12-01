@@ -25,9 +25,9 @@ screen salon_morning:
         focus_mask True
         idle "images/home/salon/morning/door3_morning_idle.png"
         hover "images/home/salon/morning/door3_morning_hover.png"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-        if not renpy.loadable("patch.rpy"):
+        else:
             hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("parents_bedroom_morning1")]
@@ -40,9 +40,9 @@ screen salon_morning:
             focus_mask True
             idle "images/home/salon/morning/door3_morning_idle.png"
             hover "images/home/salon/morning/door3_morning_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             if clickable == True:
                 action [Jump("MLR3_MS1")]
@@ -55,9 +55,9 @@ screen salon_morning:
             focus_mask True
             idle "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1.png"
             hover "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("ml_morning_salon_scenes1to3_v1_label")]
@@ -70,9 +70,9 @@ screen salon_morning:
             focus_mask True
             idle "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1.png"
             hover "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("ml_morning_salon_scenes1to3_v1_label")]
@@ -85,9 +85,9 @@ screen salon_morning:
             focus_mask True
             idle "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1.png"
             hover "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("ml_morning_salon_scenes1to3_v1_label")]
@@ -100,9 +100,9 @@ screen salon_morning:
             focus_mask True
             idle "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1.png"
             hover "images/home/salon/morning/scenes/ml_morning_salon_scene1_v1/ML_b1_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Mom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = "Linda")
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("ml_morning_salon_scenes1to3_v1_label")]

@@ -8,7 +8,7 @@ image CR3_MS0_p6 = "images/home/mc_room/morning/scenes/CR3_MS0/6.jpg"
 image CR3_MS0_p7 = "images/home/mc_room/morning/scenes/CR3_MS0/7.jpg"
 
 label CR3_MS0_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Linda_name = __("Mom")
         $ Liza2_name = __("Auntie")
     else:
@@ -35,7 +35,7 @@ label CR3_MS0_label:
     Caroline "It’s not a mistake that money can fix. I’ve REALLY fucked things up. You see… Pandora’s box has been opened, and I don’t think I can - ever fully close it again."
     MC "I’m not following you - What’s going on?"
     Caroline "This... deal that you and I made? It’s over..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I’ll hold my hands up and acknowledge, tha - I played my part - in causing this chaos, so I have a responsibility, to try and stop it. You’re my brother, for Christ’s sake! I shouldn’t have led you on, like I did."
     else:
         Caroline "I’ll hold my hands up and acknowledge, that - I played my part - in causing this chaos, so I have a responsibility, to try and stop it. There's a big gap between our ages - and in addition, we live under the same roof!"
@@ -47,7 +47,7 @@ label CR3_MS0_label:
             scene CR3_MS0_p3a
 
             MC "Wh-What? Why? This doesn’t make any sense!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "It does. The only thing that DIDN’T make sense, was the fact that a sister was fooling around with her brother!"
             else:
                 Caroline "It does. The only thing that DIDN’T make sense, was the fact that, I was fooling around with you!"

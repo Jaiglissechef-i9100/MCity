@@ -2,11 +2,11 @@ label celia_vibrator_classroom_v1:
     hide screen scenes_gallery
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Blonde_Girl = __("Blonde Girl")
         $ Ginger_Guy = __("Ginger Guy")
 
-    if not renpy.loadable("patch.rpy"):
+    else:
         $ Blonde_Girl = __("Blonde Girl")
         $ Ginger_Guy = __("Ginger Guy")
 

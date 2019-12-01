@@ -47,11 +47,11 @@ label CR2_AS5_menu:
         "How could you afford that laptop? " if CR2_AS5_q1 == True:
             scene CR2_AS5_p5
             MC "How could you afford that laptop? Did you get your money back?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "No... It's Mom's laptop. I only borrowed it."
             else:
                 Caroline "No... It's Linda's laptop. I only borrowed it."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Does Mom know?"
             else:
                 MC "Does Linda's know?"
@@ -107,17 +107,17 @@ label CR2_AS5_menu_g_b:
 
 label CR2_AS5_continue:
     scene CR2_AS5_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Oh no! It’s nearly time! Mom will be back at home soon!"
     else:
         Caroline "Oh no! It’s nearly time! Linda will be back at home soon!"
     Caroline "Come on! Turn off!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "You better hurry up. Mom will be really mad if she notices her laptop missing."
     else:
         MC "You better hurry up. Linda will be really mad if she notices her laptop missing."
     Caroline "I know!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I should have finished a while ago! But there were just too many incest stories on the desktop and it made it hard to find every new file I downloaded!"
     else:
         Caroline "I should have finished a while ago! But there were just too many shota stories on the desktop and it made it hard to find every new file I downloaded!"

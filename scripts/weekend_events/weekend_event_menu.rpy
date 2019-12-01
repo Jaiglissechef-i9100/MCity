@@ -1,6 +1,6 @@
 label weekend_event_menu_label:
     $ can_hide_windows = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Mom_name = __("Mom")
     else:
         $ Mom_name = "Linda"

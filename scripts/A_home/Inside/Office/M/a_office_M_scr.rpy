@@ -53,7 +53,7 @@ screen a_office_M_scr:
             hover "/images/a_home/Inside/Office/M/Li_key_B2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Li_key_label")]
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Auntie's Key"))
             else:
                 hovered Show("displayTextScreen", displayText = __("Liza's Key"))

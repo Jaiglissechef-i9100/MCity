@@ -58,7 +58,7 @@ screen a_pool_M_scr:
             idle "/images/a_home/outside/Pool/M/B2.png"
             hover "/images/a_home/outside/Pool/M/B2_hover.png"
             if clickable == True:
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
@@ -73,7 +73,7 @@ screen a_pool_M_scr:
             idle "/images/a_home/outside/Pool/M/B3.png"
             hover "/images/a_home/outside/Pool/M/B3_hover.png"
             if clickable == True:
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")

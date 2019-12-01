@@ -191,7 +191,7 @@ label MLR3_b_house_bag2:
     MC "I’m not gonna get fed up with you. Now, what’s on your mind?"
 
     scene MLR3_beach_house_p25
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Well, apart from your father, I’m worried about our age difference. I’ll be at the peak of my career when you’re starting yours."
     else:
         Mom "Well, apart from Bob, I’m worried about our age difference. I’ll be at the peak of my career when you’re starting yours."
@@ -230,7 +230,7 @@ label MLR3_b_house_bag2:
 
     scene MLR3_beach_house_p31
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Oh shit. It’s your father."
     else:
         Mom "Oh shit. It’s Bob."
@@ -287,7 +287,7 @@ label MLR3_b_house_bag2:
     MC "It might be Sara or Caroline needing help with something."
 
     scene MLR3_beach_house_p40
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "OR it could just be your dad."
     else:
 

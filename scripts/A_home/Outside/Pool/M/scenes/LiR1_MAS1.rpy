@@ -22,7 +22,7 @@ label LiR1_MAS1_label:
     $ Yazmin_name = "???"
 
     Yazmin "Why, hello there. If it isn’t - [player_name]. It must have been three or four years, since I last saw you."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Yeah, I think it was - the family barbeque on the beach."
     else:
         MC "Yeah, I think it was that barbeque on the beach."
@@ -32,7 +32,7 @@ label LiR1_MAS1_label:
 
     MC "Thanks, Yazmin. You’re looking great too."
     MC "(She was wearing a similar bikini - all those years ago - on the beach too. I remember staring at her from the dunes, while the sun set into the Pacific Ocean.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Mom had gone for a walk with Caroline, while Dad slept on the - warm golden sand. I think Auntie and Sara were beginning to pack away some beach towels.)"
     else:
         MC "(Linda had gone for a walk with Caroline, while Bob slept on the - warm golden sand. I think Liza and Sara were beginning to pack away some beach towels.)"
@@ -40,7 +40,7 @@ label LiR1_MAS1_label:
     scene LiR1_MAS1_p3
     $ Yazmin_name = "Yazmin"
     Yazmin "So, what brings you over today?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I’m actually here to help clean the pool. My aunt mentioned - it was in need of a thorough scrubbing."
     else:
         MC "I’m actually here to help clean the pool. Liza mentioned - it was in need of a thorough scrubbing."
@@ -61,7 +61,7 @@ label LiR1_MAS1_label:
 
     scene LiR1_MAS1_p6
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "Your aunt is indoors - it was - too hot outside - for her, today."
     else:
         Yazmin "Liza is indoors... It was - too hot outside - for her, today."
@@ -81,7 +81,7 @@ label LiR1_MAS1_label:
     Yazmin "(I wonder how large his package is - down there... Now that [player_name] will be cleaning our pool, we might have him over more regularly. Perhaps I’ll get a chance to see his cock?)"
 
     scene LiR1_MAS1_p9
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "Just pop around the front. I’ll grab your auntie and open the door, after putting something - more appropriate - on."
     else:
         Yazmin "Just pop around the front. I’ll grab Liza and open the door, after putting something - more appropriate - on."

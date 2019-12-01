@@ -95,7 +95,7 @@ label Zv2_ES2_menu:
             scene Z_ES2_p8aa
 
             Suri "Oooh! That’s good…."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "My sister LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."
             else:
                 Zuri "Suri LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."

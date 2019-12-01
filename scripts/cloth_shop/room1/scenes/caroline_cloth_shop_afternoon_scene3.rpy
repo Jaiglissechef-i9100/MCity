@@ -83,11 +83,11 @@ label caroline_cloth_shop_afternoon_scene3_label:
 
         scene caroline_cloth_shop_afternoon_scene3_p6
         Caroline "Jesus Christ… You are SO hard right now!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "I can’t believe you get turned on, by your own sister like this!"
-        if not renpy.loadable("patch.rpy"):
+        else:
             Caroline "I can’t believe you get turned on, by your own friend like this!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "We share the same parents, you fucking sicko!"
         else:
             Caroline "We’re supposed to be friends, you fucking sicko."
@@ -101,13 +101,13 @@ label caroline_cloth_shop_afternoon_scene3_label:
         scene caroline_cloth_shop_afternoon_scene3_p8
         Caroline "Bullshit! You’re just a horny little creep."
 
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "God… what am I going to tell Dad?"
             MC "NO! Don’t say anything to Dad! PLEASE!"
             Caroline "I’m gonna have to advertise for a new photographer too."
             MC "PLEASE DON’T TELL DAD!"
 
-        if not renpy.loadable("patch.rpy"):
+        else:
             Caroline "God… what am I going to tell Bob?"
             MC "NO! Don’t say anything to Bob! PLEASE!"
             Caroline "I’m gonna have to advertise for a new photographer too."

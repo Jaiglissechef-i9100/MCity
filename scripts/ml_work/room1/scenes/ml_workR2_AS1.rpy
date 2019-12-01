@@ -17,7 +17,7 @@ label ml_workR2_AS1_label:
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hi, Mom!"
     else:
         MC "Hi, Linda!"
@@ -80,7 +80,7 @@ label after_ml_workR2_AS1_label:
 
     Mom "Anyway, I better let you go, before I get distracted."
     Mom "I’ll see you later on. Love you, Sweetie."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "See you later, Mom. Love you too!"
     else:
         MC "See you later, Linda. Love you too!"

@@ -61,9 +61,9 @@ label caroline_room_evening_scene4_label:
     Caroline "[player_name]... That was just us having a bit of fun."
     Caroline "Were were just blowing off some steam."
     MC "But, I’m really attracted to you."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I’m sorry… I don’t feel that way. You’re my brother. We had fun together, and did something we shouldn’t have. Let’s not talk about this again. Please..."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "I’m sorry… I don’t feel that way. You’re my friend. We had fun together, and did something we shouldn’t have. Let’s not talk about this again. Please..."
     MC "I’m sorry… I just thought… maybe you enjoyed it too."
     Caroline "(Sigh) Give me some time alone, to think."

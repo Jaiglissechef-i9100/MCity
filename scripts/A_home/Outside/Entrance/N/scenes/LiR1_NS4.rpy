@@ -90,7 +90,7 @@ label LiR1_NS4_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -429,7 +429,7 @@ label LiR1_NS4_label_open_win_done:
 
     Liza2 "You TRICKED me into sucking your disgusting cock, you FILTHY PERVERT!"
     MC "W-Wait, this wasn’t my-"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Just wait until I tell your MOTHER about this! I will report you to the police and-"
     else:
         Liza2 "Just wait until I tell LINDA about this! I will report you to the police and-"
@@ -477,7 +477,7 @@ label LiR1_NS4_label_open_win_done:
     MC "It’s okay, I-"
     Liza2 "Promise me one thing."
     MC "Anything."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Don’t say A WORD to my sister, okay?"
     else:
         Liza2 "Don’t say A WORD to Linda, okay?"
@@ -497,7 +497,7 @@ label LiR1_NS4_label_open_win_done:
 
     Yazmin "The best way to start, is the cowgirl position. It gives you control over, how deep, you want to - take the dick inside you. And it also gives you a GREAT workout!"
     Liza2 "Uh huh..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride my nephew?! Why am I not jealous?)"
     else:
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride [player_name]?! Why am I not jealous?)"
@@ -584,7 +584,7 @@ label LiR1_NS4_label_open_win_done:
     MC "(She’s bouncing - up and down on my cock - faster now! I don’t know if I’ll be able to last much longer!)"
 
     scene LiR1_NS4_p69
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hnnnnnng! Auntie Yazmin, I’m gonna cum!"
     else:
         MC "Hnnnnnng! Yazmin, I’m gonna cum!"
@@ -643,7 +643,7 @@ label LiR1_NS4_label_open_win_done:
             scene LiR1_NS4_p73a with dissolve
 
             MC "Aahhhhhh! Fuck! Ugh!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Yazmin "Wow! So much cum! I thought you emptied your balls when your Auntie Liza sucked you off!"
             else:
                 Yazmin "Wow! So much cum! I thought you emptied your balls when Liza sucked you off!"
@@ -661,7 +661,7 @@ label LiR1_NS4_continue:
 
     Liza2 "[player_name]! Language!"
     Liza2 "And as for YOU, Yazmin..! We need to have a serious talk."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "[player_name], let yourself out of the house. Your Aunt Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."
     else:
         Liza2 "[player_name], let yourself out of the house. My wife Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."

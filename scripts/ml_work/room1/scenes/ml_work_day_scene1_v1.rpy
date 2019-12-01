@@ -23,9 +23,9 @@ label ml_work_day_scene1_v1_label:
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_work_day_scene1_v1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Mom! I’m free to do some work for you now."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Hey, Linda! I’m free to do some work for you now."
     Mom "Good afternoon, Sweetie. Great! Let me see what I need done."
     Mom "Hmm…"
@@ -37,9 +37,9 @@ label ml_work_day_scene1_v1_label:
     MC "What do I need to do?"
     Mom "Take out the trash, pick up any rubbish, tidy up loose papers."
     Mom "Just make sure you don’t throw away anything important!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Okay, Mom. I’ll be careful!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Okay, Linda. I’ll be careful!"
 
     $ renpy.music.stop(channel="music1", fadeout=1)
@@ -56,9 +56,9 @@ label ml_work_day_scene1_v1_label_after_minigame:
     scene black
     $ can_hide_windows = True
     MC "Phew! (That looks like the last of it.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Mom’s offices are looking, in pretty good shape right now!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Linda’s offices are looking, in pretty good shape right now!)"
     MC "(I’ll go and let her know I’m finished.)"
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -68,9 +68,9 @@ label ml_work_day_scene1_v1_label_after_minigame:
     MC "Hi again! That’s me done."
     Mom "Great work! Here’s the $25, as promised."
     $ inventory.earn(25)
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(It’s not much, but it's better than having to constantly beg Dad!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(It’s not much, but it's better than having to constantly beg Bob!)"
 
     scene ml_work_day_scene1_v1_p4
@@ -94,7 +94,7 @@ label ml_work_day_scene1_v1_menu:
     Mom "Well? What do you say?"
     menu:
 
-        "Do you… love me more than a son?" if ml_work_day_scene1_v1_q1 == True and renpy.loadable("patch.rpy"):
+        "Do you… love me more than a son?" if ml_work_day_scene1_v1_q1 == True and persistent.incest_patch == True:
             MC "Before I say “yes”, I want to know… do you love me more than a son?"
             Mom "I don’t know what you mean."
             scene ml_work_day_scene1_v1_p2
@@ -103,7 +103,7 @@ label ml_work_day_scene1_v1_menu:
             $ ml_work_day_scene1_v1_q1 = False
             jump ml_work_day_scene1_v1_menu
 
-        "Do you… love me?" if ml_work_day_scene1_v1_q1 == True and not renpy.loadable("patch.rpy"):
+        "Do you… love me?" if ml_work_day_scene1_v1_q1 == True and not persistent.incest_patch == True:
             MC "Before I say “yes”, I want to know… do you love?"
             Mom "I don’t know what you mean."
             scene ml_work_day_scene1_v1_p2
@@ -148,9 +148,9 @@ label ml_work_day_scene1_v1_menu_after:
     Mom "No talking either. Your tongue counts as a muscle too, you know!"
 
     scene ml_work_day_scene1_v1_p7
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Sh-Shit! She’s my mother!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Sh-Shit! She’s my friend!)"
     MC "(I mean… I’m definitely getting hard right now… but it’s wrong. Isn’t it?)"
     MC "C-Careful! I’m falling back!"
@@ -158,16 +158,16 @@ label ml_work_day_scene1_v1_menu_after:
     scene ml_work_day_scene1_v1_p8
     MC "Whoooaaaa!"
     Mom "(Oooh! Exciting!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Jesus! Mom’s completely lost control of herself!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Jesus! Linda’s completely lost control of herself!)"
 
     scene ml_work_day_scene1_v1_p9
     Mom "(Mmm! I like this position!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "M-Mom! Wait!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "L-Linda! Wait!"
     Mom "(Huh? What’s gotten into him? He’s resisting, a lot, this time.)"
 
@@ -193,21 +193,21 @@ label ml_work_day_scene1_v1_menu_after2:
 
     scene ml_work_day_scene1_v1_p11
     Mom "(Oh, God… What am I doing?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(I can’t believe I’ve sunk this low. What kind of mother tries to rape her own son?!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "(I can’t believe I’ve sunk this low... To even try to rape him?!)"
     Mom "I… I’m so sorry."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom, I-"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Linda, I-"
 
     scene ml_work_day_scene1_v1_p12
     Mom "I’m so so sorry, [player_name]."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "It’s okay, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "It’s okay, Linda."
     Mom "No, it’s not okay."
     Mom "I’ve always felt this way."
@@ -220,9 +220,9 @@ label ml_work_day_scene1_v1_menu_after2:
     Mom "I… (sniff) I couldn’t stand the thought of you being romantically involved with someone else."
 
     scene ml_work_day_scene1_v1_p14
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Shush - it’s okay, Mom. Breathe and relax."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Shush - it’s okay Linda. Breathe and relax."
     MC "You know that I lov-"
 
@@ -231,9 +231,9 @@ label ml_work_day_scene1_v1_menu_after2:
     Mom "I don’t want to hear it right now."
     Mom "I’m feeling like a compelte piece of shit, after what I did to you today."
     Mom "Just… think about everything I told you and… let me know tomorrow morning. Okay?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "O-Okay, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "O-Okay, Linda."
     $ inventory.earn(50)
     $ day_time += 1

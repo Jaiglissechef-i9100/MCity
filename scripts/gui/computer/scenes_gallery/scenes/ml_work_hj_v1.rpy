@@ -10,9 +10,9 @@ label ml_work_hj_v1:
     scene ml_work_day_scene2_v1_p2
     MC "(She just sat down on my knee! I didn’t expect that!)"
     Mom "You’ve got beautiful eyes, [player_name]. You know that?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Gee… Thanks, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Gee… Thanks, Linda."
     Mom "You really do. I could gaze into them for hours."
 
@@ -44,17 +44,17 @@ label ml_work_hj_v1:
     scene ml_work_day_scene2_v1_p7
     Mom "(God… This is even better than I dreamt it would be.)"
     Mom "(I wish I could just freeze this moment, and stay right here forever.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Mom must be getting nervous too - I can hear her heart beating, even louder than mine!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Linda must be getting nervous too - I can hear her heart beating, even louder than mine!)"
 
     scene ml_work_day_scene2_v1_p8
     Mom "Lie down on the couch beside me. I want to do something for you."
     MC "D-Do something? Like what?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Hush… Just you lie back and relax. Mommy will take care of everything."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "Hush… Just you lie back and relax. Linda will take care of everything."
 
     scene ml_work_day_scene2_v1_p9
@@ -63,14 +63,14 @@ label ml_work_hj_v1:
     MC "(She’s massaging it now.)"
 
     scene ml_work_day_scene2_v1_p10
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "M-Mom! Y-You-"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "L-Linda. Y-You-"
     Mom "Shush… I see you’ve got a hard problem, down here."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Let Mother help you sort it out."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "Let friend help you sort it out."
 
     scene ml_work_day_scene2_v1_p11
@@ -96,9 +96,9 @@ label ml_work_hj_v1:
     scene ml_work_day_scene2_v1_p15
     MC "Oooh!"
     scene ml_work_day_scene2_v1_p15anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Oh, my God! I never imagined, Mom would be this kinky!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Oh, my God! I never imagined, Linda would be this kinky!)"
     Mom "(Haha! I felt him shudder as I licked him. He’ll be cumming for me, in no time.)"
 
@@ -121,9 +121,9 @@ label ml_work_hj_v1:
     Mom "(I can feel his cock, twitching and throbbing in my hand. My boy’s about to blow his load!)"
 
     scene ml_work_day_scene2_v1_p19
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "That’s it! Cum for Mommy! Good boy!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "That’s it! Cum for friend! Good boy!"
     MC "Ahh! Ooooh! Ahhhh!"
     scene white with dissolve
@@ -141,17 +141,17 @@ label ml_work_hj_v1:
     Mom "So, how was it? Did you enjoy it?"
 
     scene ml_work_day_scene2_v1_p21
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "It was amazing, Mom! Thank you!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "It was amazing, Linda! Thank you!"
     Mom "I’m very happy to hear that."
     Mom "You make SUCH a cute face when you cum!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "MOM!"
         Mom "Haha! I better get back to work. I’ll see you, later this evening."
         MC "See ya, Mom. Thanks again."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Linda!"
         Mom "Haha! I better get back to work. I’ll see you, later this evening."
         MC "See ya, Linda. Thanks again."

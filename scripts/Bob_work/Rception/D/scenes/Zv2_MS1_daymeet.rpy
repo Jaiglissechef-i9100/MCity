@@ -16,7 +16,7 @@ label Zv2_MS1_daymeet_label:
         $ Zuri_name = "Zuri"
 
         scene Zv2_MS1_p2
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Wow! That must be Dad’s secretary! She’s REALLY hot!)"
             MC "Hi, Zuri. My name is [player_name]. I was coming to visit my dad."
             Zuri "And who is your dad?"
@@ -32,7 +32,7 @@ label Zv2_MS1_daymeet_label:
         Zuri "Let me guess - you’re with one of those online prank videos, aren’t you?"
         MC "Huh?"
         Zuri "You’ve got a secret camera and you’re going to humiliate the boss and put it online?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "No- What?! I AM actually his son."
         else:
             MC "No- What?! I AM actually his tennant."

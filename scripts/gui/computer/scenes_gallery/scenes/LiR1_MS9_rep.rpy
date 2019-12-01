@@ -1,5 +1,5 @@
 label LiR1_MS9_rep:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         $ Liza2_name = __("Auntie")
     else:
         $ Liza2_name = "Liza"
@@ -25,7 +25,7 @@ label LiR1_MS9_rep:
     Liza2 "Please, come over here. Now..."
 
     scene LiR1_MAS9_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "A-Auntie... I... I didn’t mean to- Yazmin told me to-"
     else:
         MC "L-Liza... I... I didn’t mean to- Yazmin told me to-"
@@ -164,7 +164,7 @@ label LiR1_MS9_rep:
     Liza2 "Yazmin wants to see you back, to join us again, another night. I'll leave the door open."
     MC "Really!? Are you okay with that?"
     Liza2 "I agreed to it because it will make her happy - and I love her. It doesn’t mean that I fully accept what is happening."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "My sister would murder me if she found out what I was doing with her son. I mean, this whole situation is positively ridiculous!"
     else:
         Liza2 "Linda would murder me if she found out what I was doing with her tennant. I mean, this whole situation is positively ridiculous!"

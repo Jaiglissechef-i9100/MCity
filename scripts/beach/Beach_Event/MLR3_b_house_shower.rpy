@@ -157,7 +157,7 @@ label MLR3_b_house_shower_label:
 
     Mom "Mmm… yes! Right there! Ah…"
     MC "([Mom_name] is really loving this! I wonder why she finds my cock so appealing?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Is it the size or the shape? Or is it because I’m her son, and she finds it extra hot, because it’s ‘taboo?’"
     else:
         MC "(Is it the size or the shape? Or is it because I’m younger, and she finds it extra hot, because it’s ‘taboo?’"

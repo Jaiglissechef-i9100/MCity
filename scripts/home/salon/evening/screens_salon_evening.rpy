@@ -23,9 +23,9 @@ screen salon_evening:
         focus_mask True
         idle "images/home/salon/evening/door3_evening_idle.png"
         hover "images/home/salon/evening/door3_evening_hover.png"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-        if not renpy.loadable("patch.rpy"):
+        else:
             hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("parents_bedroom_evening1")]
         unhovered Hide("displayTextScreen")
@@ -90,9 +90,9 @@ screen salon_evening:
             focus_mask True
             idle "images/home/salon/evening/door3_evening_idle.png"
             hover "images/home/salon/evening/door3_evening_hover.png"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-            if not renpy.loadable("patch.rpy"):
+            else:
                 hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("MLR2_ES2_label")]
             unhovered Hide("displayTextScreen")

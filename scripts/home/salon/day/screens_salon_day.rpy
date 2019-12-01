@@ -24,9 +24,9 @@ screen salon_day:
         focus_mask True
         idle "images/home/salon/morning/door3_morning_idle.png"
         hover "images/home/salon/morning/door3_morning_hover.png"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
-        if not renpy.loadable("patch.rpy"):
+        else:
             hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("parents_bedroom_day1")]
         unhovered Hide("displayTextScreen")

@@ -71,7 +71,7 @@ label MLR2_MS1_label:
             $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
             scene MLR2_MS1_talk_p1
             Mom "Hello again! Thanks for dropping by again, Sweetie. It’s nice to be visited by a man in the morning."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "Your father just rolls out of bed and goes to work. He’s probably not a morning person, but it just doesn’t feel like he’s making the effort."
             else:
                 Mom "Bob just rolls out of bed and goes to work. He’s probably not a morning person, but it just doesn’t feel like he’s making the effort."
@@ -118,7 +118,7 @@ label MLR2_MS1_label:
             hide screen map_button
 
             scene MLR2_MS1_p1 with dissolve
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(Damn, Mom looks hot in that black lingerie.)"
                 MC "Morning, Mom! Looking good there!"
             else:
@@ -139,10 +139,10 @@ label MLR2_MS1_menu:
     window hide
     menu:
 
-        "{color=#00ff00}Talk with Mom.{/color}" if renpy.loadable("patch.rpy") and can_MLR2_MS1_talk == True and MLR2_MS1_talk_count < 4:
+        "{color=#00ff00}Talk with Mom.{/color}" if persistent.incest_patch == True and can_MLR2_MS1_talk == True and MLR2_MS1_talk_count < 4:
             jump MLR2_MS1_talk_label
 
-        "Talk with Linda." if not renpy.loadable("patch.rpy") and can_MLR2_MS1_talk == True and MLR2_MS1_talk_count < 4:
+        "Talk with Linda." if not persistent.incest_patch == True and can_MLR2_MS1_talk == True and MLR2_MS1_talk_count < 4:
             jump MLR2_MS1_talk_label
 
         "{color=#00ff00}Ask for a kiss. {/color}" if can_MLR2_MS1_kiss == True and MLR2_MS1_kiss_count == 1:
@@ -150,19 +150,19 @@ label MLR2_MS1_menu:
         "Ask for a kiss." if can_MLR2_MS1_kiss == True and MLR2_MS1_kiss_count == 2:
             jump MLR2_MS1_kiss_label
 
-        "{color=#00ff00}Talk about Dad.{/color}" if renpy.loadable("patch.rpy") and MLR2_MS1_NS1 == True:
+        "{color=#00ff00}Talk about Dad.{/color}" if persistent.incest_patch == True and MLR2_MS1_NS1 == True:
             jump MLR2_MS1_Bob_label
-        "{color=#00ff00}Talk about Bob.{/color}" if not renpy.loadable("patch.rpy") and MLR2_MS1_NS1 == True:
+        "{color=#00ff00}Talk about Bob.{/color}" if not persistent.incest_patch == True and MLR2_MS1_NS1 == True:
             jump MLR2_MS1_Bob_label
 
-        "{color=#00ff00}Talk about Dad.{/color} " if renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
+        "{color=#00ff00}Talk about Dad.{/color} " if persistent.incest_patch == True and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
             jump MLR2_MS1_Bob_Trip_label
-        "{color=#00ff00}Talk about Bob.{/color} " if not renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
+        "{color=#00ff00}Talk about Bob.{/color} " if not persistent.incest_patch == True and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == True:
             jump MLR2_MS1_Bob_Trip_label
 
-        "Talk about Dad. (disabled)" if renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
+        "Talk about Dad. (disabled)" if persistent.incest_patch == True and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
             jump MLR2_MS1_Bob_Trip_label
-        "Talk about Bob. (disabled)" if not renpy.loadable("patch.rpy") and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
+        "Talk about Bob. (disabled)" if not persistent.incest_patch == True and MLR2_MS1_ES3 == True and can_MLR2_MS1_ES3 == False and MLR2_NS2 == True:
             jump MLR2_MS1_Bob_Trip_label
 
         "Are you missing our holiday at the beach? I know I am." if MLR2_R3_MS1_q1 == True:
@@ -187,9 +187,9 @@ label MLR2_MS1_menu:
         "[Mom_name], why did you lift up Sara’s skirt in the kitchen?" if MLR2_R3_MS1_q9 == True:
             jump MLR2_R3_MS1_q9
 
-        "{color=#00ff00}Talk about Dad trip.{/color}" if renpy.loadable("patch.rpy") and MLR2_MS1_BCalendar == True and MLR2_MS1_ES3 == 3:
+        "{color=#00ff00}Talk about Dad trip.{/color}" if persistent.incest_patch == True and MLR2_MS1_BCalendar == True and MLR2_MS1_ES3 == 3:
             jump MLR2_MS1_Bob_Trip2_label
-        "{color=#00ff00}Talk about Bob trip.{/color}" if not renpy.loadable("patch.rpy") and MLR2_MS1_BCalendar == True and MLR2_MS1_ES3 == 3:
+        "{color=#00ff00}Talk about Bob trip.{/color}" if not persistent.incest_patch == True and MLR2_MS1_BCalendar == True and MLR2_MS1_ES3 == 3:
             jump MLR2_MS1_Bob_Trip2_label
         "Bye. ":
 
@@ -198,7 +198,7 @@ label MLR2_MS1_menu:
 label MLR2_MS1_talk_label:
     if MLR2_MS1_talk_count == 1:
         scene MLR2_MS1_talk_p1
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Nothing much, Mom. I just dropped by to say hello."
         else:
             MC "Nothing much, Linda. I just dropped by to say hello."
@@ -226,10 +226,10 @@ label MLR2_MS1_talk_label:
             MC "It’s just been constant work in school, for both of us."
 
             scene MLR2_MS1_talk_p4
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "You should think about spending more time with your younger sister. She really looks up to you, you know that?"
                 MC "I know, I know. I’m just super busy, with everything right now, Mom."
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Mom "You should think about spending more time with Sara. She really looks up to you, you know that?"
                 MC "I know, I know. I’m just super busy, with everything right now, Linda."
         $ MLR2_MS1_talk_count = 2
@@ -238,9 +238,9 @@ label MLR2_MS1_talk_label:
 
     if MLR2_MS1_talk_count == 2:
         scene MLR2_MS1_talk_p1
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Busy, as usual, Mom?"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Busy as usual, Linda."
         MC "Working from bed today, I see?"
 
@@ -286,9 +286,9 @@ label MLR2_MS1_talk_label:
 
         Mom "I know you’re both busy, but do try to make time for each other."
         Mom "If you make good friendships, they will serve you well all of your life.."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Okay, Mom. I’ll keep that in mind."
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Okay, Linda. I’ll keep that in mind."
 
         $ MLR2_MS1_talk_count = 3
@@ -297,7 +297,7 @@ label MLR2_MS1_talk_label:
 
     if MLR2_MS1_talk_count == 3:
         scene MLR2_MS1_talk_p1
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Eh, I’m alright. A little worried about Dad, to be honest."
         else:
             MC "Eh, I’m alright. A little worried about Bob, to be honest."
@@ -313,7 +313,7 @@ label MLR2_MS1_talk_label:
         scene MLR2_MS1_talk_p7
 
         Mom "Sorry, that’s mine. Can we talk about this later?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Sure, Mom."
         else:
             MC "Sure, Linda."
@@ -323,7 +323,7 @@ label MLR2_MS1_talk_label:
 
 label MLR2_MS1_kiss_label:
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Could I kiss you, Mom?"
     else:
         MC "Could I kiss you, Linda?"
@@ -339,9 +339,9 @@ label MLR2_MS1_kiss_label:
     scene MLR2_MS1_kiss_p2
 
     Mom "Now, shut up and kiss me."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Okay, it sounds like, Mom really wants me to act more dominant in this relationship.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Okay, it sounds like Linda really wants me to act more dominant in this relationship.)"
 
     MC "(Or maybe just more confident? I’ve never properly dated a girl before.)"
@@ -357,11 +357,11 @@ label MLR2_MS1_kiss_label:
     menu:
         "Grab her tits.":
             scene MLR2_MS1_kiss_p5a
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I’ll give Mom’s tits a squeeze and see how she enjoys it.)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 MC "(I’ll give Linda’s tits a squeeze and see how she enjoys it.)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(She’s got great breasts - my poor sister Sara never inherited those genes though!)"
             else:
                 MC "(She’s got great breasts - it’s a shame about Sara’s breasts!)"
@@ -369,7 +369,7 @@ label MLR2_MS1_kiss_label:
             scene MLR2_MS1_kiss_p5b
 
             MC "(That’s my hands resting on her breasts now. Time to give them a firm squeeze.)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I’ve heard that girls have really sensitive breasts - I wonder if Mom will feel pleasure if I squeeze them while I make out with her?)"
             else:
                 MC "(I’ve heard that girls have really sensitive breasts - I wonder if Linda will feel pleasure if I squeeze them while I make out with her?)"
@@ -413,13 +413,13 @@ label after_menu_MLR2_MS1_kiss:
     MC "Sorry. My bad. Haha!"
     Mom "Remember what I said, okay? You have permission to be more forward and confident with me."
     Mom "Do what you want - and if you’re unsure, please ask. Healthy sexual relationships are built on openness and honesty."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(Some great advice from friend right there!)"
     else:
         Mom "(Some great great friendly advice!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Okay, Mom. Thanks for letting me know."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Okay, Linda. Thanks for letting me know."
     $ can_MLR2_MS1_kiss = False
     if MLR2_MS1_kiss_count == 1:
@@ -435,7 +435,7 @@ label after_menu_MLR2_MS1_kiss:
 
 label MLR2_MS1_Bob_label:
     scene MLR2_MS1_talk_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Can we talk about Dad?"
     else:
         MC "Can we talk about Bob?"
@@ -455,7 +455,7 @@ label MLR2_MS1_Bob_label:
             MC "Honestly, it doesn’t bother me at all."
 
             scene MLR2_MS1_talk_p8
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "So… it doesn’t bother you that I have sex with my husband… but you wanted to talk about it?"
             else:
                 Mom "So… it doesn’t bother you that I have sex with Bob… but you wanted to talk about it?"
@@ -501,7 +501,7 @@ label MLR2_MS1_Bob_label:
 
             Mom "I could give you a trial run of not having sex with him, and see how you feel."
             Mom "Obviously that can’t go on forever, and we’ll need to revisit it. But it might help you make up your mind about what you want."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Thanks, Mom."
             else:
                 MC "Thanks, Linda."
@@ -511,7 +511,7 @@ label after_menu_MLR2_MS1_Bob_label:
     scene MLR2_MS1_talk_p8
 
     Mom "And one last thing..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "How did you know I was still having sex with your father? Our relationship hasn’t been that great lately."
     else:
         Mom "How did you know I was still having sex with Bob? Our relationship hasn’t been that great lately."
@@ -532,7 +532,7 @@ label MLR2_MS1_Bob_Trip_label:
     MC "Do you remember what we talked about in the car?"
     Mom "We talked about A LOT of things."
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "About us spending more romantic time together, but Dad being around too much."
     else:
         MC "About us spending more romantic time together, but Bob being around too much."
@@ -540,7 +540,7 @@ label MLR2_MS1_Bob_Trip_label:
     Mom "I know... He was always around... Stopping us."
 
     scene MLR2_MS1_Bob_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Come to think of it… I have an idea. Would you be able to sneak into your Dad’s workplace and check his calendar?"
     else:
         Mom "Come to think of it… I have an idea. Would you be able to sneak into Bob’s workplace and check his calendar?"
@@ -552,7 +552,7 @@ label MLR2_MS1_Bob_Trip_label:
 
     Mom "Bingo!"
     MC "Why can’t you do it?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "He’ll just get suspicious. When a marriage is slowly failing - things like checking your partner’s schedule become warning signs."
     else:
         Mom "He’ll just get suspicious. When a relationship is slowly failing - things like checking your partner’s schedule become warning signs."
@@ -582,7 +582,7 @@ label MLR2_MS1_Bob_Trip_label:
 
 label MLR2_MS1_Bob_Trip2_label:
     scene MLR2_MS1_talk_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom! Good news! Dad goes on a business trip soon!"
     else:
         MC "Linda! Good news! Bob goes on a business trip soon!"
@@ -602,7 +602,7 @@ label MLR2_MS1_Bob_Trip2_label:
     Mom "Just some red wine. That would be perfect."
 
     scene MLR2_MS1_Bob_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Okay, Mom. I’ll make sure to do that."
     else:
         MC "Okay, Linda. I’ll make sure to do that."
@@ -633,7 +633,7 @@ label MLR2_MS1_Cancel_label:
                 $ Ml_stats_in_your_room += 1
             jump parents_bedroom_morning1
         "Not today.":
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Not today. I’m a bit tired, Mom."
             else:
                 MC "Not today. I’m a bit tired, Linda."
@@ -675,7 +675,7 @@ label MLR2_R3_MS1_q1:
 
     Mom "[player_name], relax. We’ve almost paid off the mortgage. I think we’ve only got ten thousand dollars or something left. It’ll be gone by the end of the year."
     Mom "And as for Sara and Caroline, leave that to me."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Besides, I haven’t ever said I’m going to divorce or kick out your father. I might not be in love with him anymore, but I wouldn’t kick him to the curb either."
     else:
         Mom "Besides, I haven’t ever said I’m going to divorce or kick out Bob. I might not be in love with him anymore, but I wouldn’t kick him to the curb either."
@@ -689,7 +689,7 @@ label MLR2_R3_MS1_q1:
     scene MLR2_R3_MS1_p7
 
     Mom "That night we spent together at the beach, has played over and over in my head, on repeat."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I want us to be able to relax together, without having to constantly worry about your father, butting his big head in."
     else:
         Mom "I want us to be able to relax together, without having to constantly worry about Bob, butting his big head in."
@@ -704,19 +704,19 @@ label MLR2_R3_MS1_q1:
     scene MLR2_R3_MS1_p9
 
     MC "Y’know, that door has a keyhole on it. Why don’t we just lock it, in future?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Your father has his own copy. Besides, it would only create suspicion if I started locking myself in here, by myself. Your father would probably think I’m preparing divorce papers, in secret."
     else:
         Mom "Bob has his own copy. Besides, it would only create suspicion if I started locking myself in here, by myself. Bob would probably think I’m preparing divorce papers, in secret."
     MC "Yeah… you’re right. Getting away to the beach house was definitely safer."
 
     scene MLR2_R3_MS1_p10
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I know you’re stressed about what’s going to happen to this family. All I can say is… try not to worry."
     else:
         Mom "I know you’re stressed about what’s going to happen to everyone. All I can say is… try not to worry."
     Mom "Nobody can predict the future, and all we can do is try to mitigate the damages, when bad things happen."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I have my own business, and my relationship with your father is on the rocks anyway. If he leaves, we’ll struggle in the short term. I’m like a cat, I always land on my feet."
     else:
         Mom "I have my own business, and my relationship with Bob is on the rocks anyway. If he leaves, we’ll struggle in the short term. I’m like a cat, I always land on my feet."
@@ -784,7 +784,7 @@ label MLR2_R3_MS1_q4:
     scene MLR2_MS1_talk_p4
 
     Mom "At first, I spent a long time beating myself up over it. It’s hard to describe, in full, just how guilty I felt."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I mean, what kind of mother has THOSE feelings for her own son? Do you know what I mean?"
     else:
         Mom "I mean, what kind of old women has THOSE feelings for so much younger boy? Do you know what I mean?"
@@ -814,7 +814,7 @@ label MLR2_R3_MS1_q5:
     MC "How would you feel about me dating Sara or Caroline?"
     MC "Of course that’s only a hypothetical question!"
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "You mean your sisters, Sara and Caroline?"
     else:
         Mom "You mean your roommates, Sara and Caroline?"
@@ -837,7 +837,7 @@ label MLR2_R3_MS1_q6:
     scene MLR2_MS1_Bob_p2
     MC "Umm, if you don’t mind me asking. Have you ever cheated on [Dad_name] before?"
     Mom "Oh goodness, no!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "You were the first time I ever thought about cheating on your father."
     else:
         Mom "You were the first time I ever thought about cheating on Bob."

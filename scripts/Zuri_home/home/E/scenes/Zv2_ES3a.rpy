@@ -93,7 +93,7 @@ label Zv2_ES3a_label:
 
     Zuri "Suck Suck"
     scene Zv2_ES3a_p9anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Damn, Zuri is just as good at sucking cock, as her twin sister is!)"
     else:
         MC "(Damn, Zuri is just as good at sucking cock as Suri is!)"
@@ -118,7 +118,7 @@ label Zv2_ES3a_label:
     MC "Ahhh! Huh?"
 
     scene Zv2_ES3a_p13
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "Sorry, it looks like my sister’s head has... accidentally fallen on your cock."
     else:
         Zuri "Sorry, it looks like Suri's head has... accidentally fallen on your cock."

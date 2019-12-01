@@ -44,7 +44,7 @@ label MLR3_NS2_rep:
     scene MLR3_NS2_p7
 
     Mom "*Whispered* You’re so handsome, [player_name]."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "*Whispered* I can’t believe I have such a beautiful son."
 
     scene MLR3_NS2_p8
@@ -84,7 +84,7 @@ label MLR3_NS2_rep:
 
     Mom "I thought you’d never wake up. You must have been in a pretty deep sleep."
     MC "Uh huh… Sorry, I wasn’t expecting you tonight."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Listen, your father is still at work… and I want to do it."
     else:
         Mom "Listen, Bob is still at work… and I want to do it."
@@ -170,7 +170,7 @@ label MLR3_NS2_rep:
     Mom "(Maybe it’s got to do with the angle he’s screwing me at?)"
 
     scene MLR3_NS2_p27
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(Perhaps it’s just, the knowledge that I’m being fucked by my own son.)"
     Mom "(Judy once told me that the brain is the most intense sexual organ… perhaps its true.)"
     Mom "Ah! Ahh! AHH!"
@@ -215,7 +215,7 @@ label MLR3_NS2_rep:
 
     Mom "I’m serious: if you cum right now, I’ll… ground you for a week!"
     scene MLR3_NS2_p34anim with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Good luck explaining the reasoning behind that one, to your sisters! Haha!"
     else:
         Mom "Good luck explaining the reasoning behind that one, to your roommates! Haha!"
@@ -288,7 +288,7 @@ label MLR3_NS2_rep:
     scene MLR3_NS2_p45
 
     Mom "Ah! Ahh… Mmm! Ohhh!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Don’t stop, [player_name]! Don’t stop fucking your mommy! You’re making me feel sooo good!"
     else:
         Mom "Don’t stop, [player_name]! Don’t stop fucking me! You’re making me feel sooo good!"
@@ -511,7 +511,7 @@ label MLR3_NS2_con2_rep:
             scene MLR3_NS2_Good_p4
 
             Dad "[player_name]! Oh, my God!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "D-Dad! I can explain! It’s NOT what you think it is!"
             else:
                 MC "B-Bob! I can explain! It’s NOT what you think it is!"
@@ -524,7 +524,7 @@ label MLR3_NS2_con2_rep:
 
             Dad "Why didn’t you tell me you got yourself a girlfriend?!"
             Dad "Nice job, champ! I can’t wait to meet the lucky lady, tomorrow morning."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "You’ve done your old man proud."
             else:
                 Dad "You’ve done me proud."
@@ -554,7 +554,7 @@ label MLR3_NS2_con2_rep:
             Mom "Good idea, with the blanket - that was some quick thinking!"
 
             scene MLR3_NS2_Good_p11
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "I better get dressed and get back to my room, before your father notices I’m missing, and puts two and two together."
             else:
                 Mom "I better get dressed and get back to my room, before Bob notices I’m missing, and puts two and two together."
@@ -586,7 +586,7 @@ label MLR3_NS2_con2_rep:
             Dad "What in tarnation…?"
 
             scene MLR3_NS2_Bad_p2
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "D-DAD!?"
             else:
                 MC "B-BOB!?"
@@ -597,7 +597,7 @@ label MLR3_NS2_con2_rep:
             scene MLR3_NS2_Bad_p3
 
             Dad "WH-WHAT THE HECK IS GOING ON?!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "JESUS H. CHRIST, LINDA! You’re in bed with your SON!"
             else:
                 Dad "JESUS H. CHRIST, LINDA! You’re in bed with [player_name]!"

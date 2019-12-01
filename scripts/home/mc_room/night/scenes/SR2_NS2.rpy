@@ -602,12 +602,12 @@ label SR2_NS2_continue:
     scene SR2_NS2_p30
 
     MC "Of course, Sara. You keep it and we’ll take just take baby steps."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Thank you so much, [player_name]. I’m so lucky to have you as a brother."
     else:
         Sara "Thank you so much, [player_name]. I’m so lucky to have you as a friend."
     MC "Goodnight, Sara."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I love you, [player_name]. I better sneak back to my room before I fall asleep, and Mom catches me in the morning!"
     else:
         Sara "I love you, [player_name]. I better sneak back to my room before I fall asleep, and Linda catches me in the morning!"

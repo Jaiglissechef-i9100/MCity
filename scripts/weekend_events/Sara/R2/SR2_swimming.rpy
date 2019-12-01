@@ -76,7 +76,7 @@ label SR2_swimming_label:
         MC "Hehe. Gotcha!"
 
         scene SR2_weekend_swimming_p7
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Sara "Bro…"
             MC "Maybe don’t call me ‘Bro’ too loudly. We are in a public place, after all."
         else:

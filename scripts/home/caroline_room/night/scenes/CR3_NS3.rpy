@@ -64,7 +64,7 @@ label CR3_NS3_label:
         Caroline "(Ugh - where was I, before I woke up?)"
 
         scene CR3_NS3_p5
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(Oh yeah! My brother had gone to take a shower, in the cabin’s ensuite. I decided to be nosy, and peek on him, while he was washing himself.)"
         else:
             Caroline "(Oh yeah! [player_name] had gone to take a shower, in the cabin’s ensuite. I decided to be nosy, and peek on him, while he was washing himself.)"
@@ -102,7 +102,7 @@ label CR3_NS3_label:
         Caroline "Ah... Ah..."
 
         scene CR3_NS3_p11
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(In a haze of lust, I drop to my knees, my hair, soaked from the shower. My brother leans back, against the wall - as I raise my head to his waist.)"
         else:
             Caroline "(In a haze of lust, I drop to my knees, my hair, soaked from the shower, [player_name] leans back, against the wall - as I raise my head to his waist.)"
@@ -113,7 +113,7 @@ label CR3_NS3_label:
         scene CR3_NS3_p12
 
         Caroline "Ohh..."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(And then we hear a sharp knock at the door - it’s Mom and Dad! They want to know when we’ll be joining them for dinner, in the cruise ship’s restaurant. I look up at [player_name], and motion for him to answer, while I suck his cock.)"
         else:
             Caroline "(And then we hear a sharp knock at the door - it’s Linda and Bob! They want to know when we’ll be joining them for dinner, in the cruise ship’s restaurant. I look up at [player_name], and motion for him to answer, while I suck his cock.)"
@@ -121,7 +121,7 @@ label CR3_NS3_label:
 
         scene CR3_NS3_p13
 
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(Eventually, Mom and Dad leave, but I never stop sucking on his - delicious cock - for even a second.)"
         else:
             Caroline "(Eventually, Linda and Bob leave, but I never stop sucking on his - delicious cock - for even a second.)"
@@ -130,7 +130,7 @@ label CR3_NS3_label:
         Caroline "Ahhhh… Hnng…"
 
         scene CR3_NS3_p14
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(I feel my brother, reach around the back of my head, and weave his fingers through my hair. He pulls me closer...)"
         else:
             Caroline "(I feel [player_name], reach around the back of my head, and weave his fingers through my hair. He pulls me closer...)"
@@ -157,7 +157,7 @@ label CR3_NS3_label:
         scene CR3_NS3_p18
 
         Caroline "*Sigh*"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(Where could my dildo have gone? Mom wouldn’t have found it, when she was cleaning, would she?)"
         else:
             Caroline "(Where could my dildo have gone? Linda wouldn’t have found it, when she was inspecting, would she?)"

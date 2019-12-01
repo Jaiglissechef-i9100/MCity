@@ -154,7 +154,7 @@ label MLR3_beach_ice:
     MC "It was… um… Did you start coming here to get away from [Dad_name]? I know you two haven’t been getting on, for some time."
 
     scene MLR3_beach_ice_p9
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "*Sigh* Let’s not spoil today with talk of your father. Okay?"
     else:
         Mom "*Sigh* Let’s not spoil today with talk of Bob. Okay?"
@@ -289,7 +289,7 @@ label MLR3_beach_sun_menu:
             scene MLR3_beach_sun_p7g
 
             MC "Nah, nobody is close enough."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "As long as you’re sure. Keep an eye out. I don’t want to get caught having my son rub my ass. Or WORSE: get banned from my favourite beach for public indecency!"
                 MC "(I would have thought that getting caught in an incestuous relationship was more embarrassing than getting banned from a beach - I guess we have different priorities!)"
             else:

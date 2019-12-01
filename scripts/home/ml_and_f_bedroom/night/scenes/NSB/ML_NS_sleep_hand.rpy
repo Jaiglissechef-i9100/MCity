@@ -22,7 +22,7 @@ label ML_NS_sleep_hand_label:
     MC "What about [Dad_name]?"
 
     scene ML_NS_sleep_hand_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Relax. Your father isn’t going to wake up. As long as you don’t wriggle about too much, or make a lot of noise, you’ll be fine."
     else:
         Mom "Relax. Bob isn’t going to wake up. As long as you don’t wriggle about too much, or make a lot of noise, you’ll be fine."
@@ -39,7 +39,7 @@ label ML_NS_sleep_hand_label:
     scene ML_NS_sleep_hand_p3
 
     MC "Sorry, I’m just really nervous, lying so close to [Dad_name], here."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I already told you, your father’s not going to wake up. Heaven help us all if a burglar broke into our house. They’d be able to nick everything except the bed he was sleeping on."
     else:
         Mom "I already told you, Bob’s not going to wake up. Heaven help us all if a burglar broke into our house. They’d be able to nick everything except the bed Bob was sleeping on."
@@ -95,7 +95,7 @@ label ML_NS_sleep_hand_label:
 
     scene ML_NS_sleep_hand_p11
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Wow! You really must have enjoyed that. Sorry again, for scaring you with the sorority joke. I picked up my handjob skills from months of not wanting to fuck your father."
     else:
         Mom "Wow! You really must have enjoyed that. Sorry again, for scaring you with the sorority joke. I picked up my handjob skills from months of not wanting to fuck Bob."

@@ -366,7 +366,7 @@ label SR2_NS4_label:
 
     Sara "MMMM! OHHH!!!"
     scene SR2_NS4_p43anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Shush, you don’t want to wake up Mom."
     else:
         MC "Shush, you don’t want to wake up Linda."
@@ -446,7 +446,7 @@ label SR2_NS4_label:
     MC "What’s wrong, Sara?"
     Sara "I just realised… you’re my boyfriend, but I can’t hang out with you like normal girlfriends do."
     MC "What do you mean?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Everybody in this town knows us. And Mom and Dad would DEFINITELY not approve."
     else:
         Sara "Everybody in this town knows us. And Linda and Bob would DEFINITELY not approve."
@@ -455,7 +455,7 @@ label SR2_NS4_label:
 
     MC "Oh c’mon! You’re thinking too much about this."
     MC "We can do LOTS of things together - sure we’ll have to be a little more careful than most couples, but we can still have fun!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "And don’t worry about Mom and Dad - we haven’t been caught yet."
     else:
         MC "And don’t worry about Linda and Bob - we haven’t been caught yet."
@@ -463,7 +463,7 @@ label SR2_NS4_label:
     scene SR2_NS4_p54b
 
     Sara "Yeah, I guess you’re right. I just wish things were simpler."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "It sounds bad… but I kinda wish you weren’t my brother. Maybe just a hot guy at school."
     else:
         Sara "It sounds bad… but I kinda wish you weren’t my best friend. Maybe just a hot guy at school."

@@ -1,4 +1,4 @@
-init -1 python:
+init -2 python:
 
     import renpy.store as store
     import renpy.exports as renpy 
