@@ -28,8 +28,6 @@ label ml_workR2_AS2_label:
             MC "(Hmm.. Linda seems very busy.. Maybe I should visit her in the evening, to give her a relaxing massage, after work? She should be in the kitchen or in the bedroom.)"
         $ can_ml_workR2_AS2_talk = False
         $ renpy.music.stop(channel="music1", fadeout=1)
-        if persistent.skip_mg == True:
-            jump after_ml_workR2_AS2_label
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         jump ml_work_room1_day1
 

@@ -43,10 +43,6 @@ label ml_work_day_scene1_v1_label:
         MC "Okay, Linda. I’ll be careful!"
 
     $ renpy.music.stop(channel="music1", fadeout=1)
-
-    if persistent.skip_mg == True:
-        jump ml_work_day_scene1_v1_label_after_minigame
-
     $ renpy.music.play('/sfx/Malt Shop Bop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump work_minigame_room1_label

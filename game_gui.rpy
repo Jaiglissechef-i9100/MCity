@@ -13,7 +13,7 @@ screen map_button:
 
     if ML_end_content == True and ml_points == 4:
         on "show" action Show("ML_end_content_scr")
-    if Li_end_content == True :
+    if Li_end_content == True:
         on "show" action Show("Li_end_content_scr")
     if C_end_content == True and Caroline_points == 5:
         on "show" action Show("C_end_content_scr")
@@ -73,15 +73,15 @@ screen map_button:
         hovered Show("displayTextScreen", displayText = "Phone")
         unhovered Hide("displayTextScreen")
 
-    if  Linda_unread_alert == False:
+    if Linda_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif  Sara_unread_alert == False:
+    elif Sara_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif  Caroline_unread_alert == False:
+    elif Caroline_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
     elif Zuri_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif  Ce_unread_alert == False:
+    elif Ce_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
 
 #---------------------------------------------------------------------------------------------------------
@@ -126,9 +126,9 @@ label map_label:
 screen map:
 
     zorder 102
-    if Li_end_content == True :
+    if Li_end_content == True:
         on "show" action Show("Li_end_content_scr")
-    
+
     imagebutton:
         xpos 482
         ypos 443
@@ -208,7 +208,7 @@ screen map:
             hover "images/game_gui/map/Hospital Hover.png"
             if clickable == True:
                 action [Show("screen_work_in_progress"), Hide("displayTextScreen")]
-    if ml_work_unloacked == True :
+    if ml_work_unloacked == True:
         imagebutton:
             xpos 411
             ypos 774
@@ -226,7 +226,7 @@ screen map:
             hover "images/game_gui/map/Neighbor1 Hover.png"
             if clickable == True:
                 action [Jump("Ne_entrance_M1")]
-    if  night_club_unlocked == True:
+    if night_club_unlocked == True:
         imagebutton:
             xpos 377
             ypos 174

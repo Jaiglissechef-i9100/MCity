@@ -30,8 +30,6 @@ label ml_workR2_AS1_label:
     MC "Sure. I’ll get started on that now."
     Mom "Thanks, Sweetie! Come back and let me know when you’re done."
     $ renpy.music.stop(channel="music1", fadeout=1)
-    if persistent.skip_mg == True:
-        jump after_ml_workR2_AS1_label
     $ renpy.music.play('/sfx/Malt Shop Bop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump work_minigame_R2_room1_label

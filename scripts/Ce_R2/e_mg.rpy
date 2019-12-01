@@ -28,8 +28,6 @@ label e_mg_start:
         $ e_mg_bar_max = 259
         $ e_mg_bar_reset = 349
 
-    if persistent.skip_mg == True:
-        $ e_mg_bar = e_mg_bar_max
     call screen e_mg_scr
 
 screen e_mg_scr:
