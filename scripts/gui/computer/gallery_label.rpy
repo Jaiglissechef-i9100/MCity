@@ -17,7 +17,6 @@ default Ce_R2_rep = True
 default Ne_rep = True
 default CR4_rep = True
 default Ci_S1_rep = True
-
 label gallery_label:
     if renpy.loadable("patch.rpy"):
         $ Linda_name = "Mom"

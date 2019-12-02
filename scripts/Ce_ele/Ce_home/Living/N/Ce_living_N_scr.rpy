@@ -8,7 +8,7 @@ screen Ce_living_N_scr:
             idle "/images/Ce_ele/Ce_home/Living/E/B1.png"
             hover "/images/Ce_ele/Ce_home/Living/E/B1_hover.png"
             if clickable == True:
-                action [SetVariable("clickable",False), Show("Ce_living_E_painting")]
+                action [Show("Ce_living_E_painting")]
 
             hovered Show("displayTextScreen", displayText = "Painting")
             unhovered Hide("displayTextScreen")
@@ -20,7 +20,7 @@ screen Ce_living_N_scr:
             idle "/images/Ce_ele/Ce_home/Living/N/B1.png"
             hover "/images/Ce_ele/Ce_home/Living/N/B1_hover.png"
             if clickable == True:
-                action [SetVariable("clickable",False),Show("Ce_living_N_painting")]
+                action [Show("Ce_living_N_painting")]
 
             hovered Show("displayTextScreen", displayText = "Painting")
             unhovered Hide("displayTextScreen")
@@ -57,4 +57,4 @@ screen Ce_living_N_painting:
         focus_mask True
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
-        action [SetVariable("clickable",True),Hide("Ce_living_N_painting")]
+        action [Hide("Ce_living_N_painting")]

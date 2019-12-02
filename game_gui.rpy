@@ -86,7 +86,6 @@ screen map_button:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
 
 #---------------------------------------------------------------------------------------------------------
-
 label map_label:
     $ can_hide_windows = False
     $ clickable = True
@@ -317,9 +316,8 @@ screen map:
             if clickable == True:
                 action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("Charles_outside2_M1")]
 
+
 #-------------------------------------------------------------------------------
-
-
 screen day_time_viewer:
 
     zorder 103
@@ -335,8 +333,8 @@ screen day_time_viewer:
     if day_time==4:
         add Transform("images/game_gui/icons/Hud4-Night.png", zoom=.8)
 
-#-------------------------------------------------------------------------------
 
+#-------------------------------------------------------------------------------
 screen week_day_viewer:
 
     zorder 103
@@ -367,8 +365,9 @@ screen week_day_viewer:
 
         add Transform("images/game_gui/icons/7Sunday.png", zoom=.8)
 
-#-------------------------------------------------------------------------------
 
+
+#-------------------------------------------------------------------------------
 screen time_skip_button:
 
     zorder 103
@@ -411,9 +410,7 @@ screen time_skip_button:
         action [Hide("displayTextScreen"), Show ("Info_screen") ]
         hovered Show("displayTextScreen", displayText = "Help")
         unhovered Hide("displayTextScreen")
-
 #-----------------------------------------------------------------------------------------
-
 screen screen_work_in_progress:
 
     zorder 104

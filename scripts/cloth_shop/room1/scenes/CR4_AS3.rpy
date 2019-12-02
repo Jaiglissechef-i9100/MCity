@@ -388,16 +388,13 @@ label CR4_AS3_ex_con1:
     MC "But-"
 
     scene CR4_AS3_ex_p34
-    if persistent.incest_patch == True:
-        Caroline "He’ll use Granny’s necklace *Sob* to pay off his debts, and then…"
-    else:
-        Caroline "He’ll use my Granny’s necklace *Sob* to pay off his debts, and then…"
+    Caroline "He’ll use Granny’s necklace *Sob* to pay off his debts, and then…"
     Caroline "...then he’ll *Sniff* never hurt me again. Okay? *Sob* This is the end."
     MC "No, no, no… This isn’t how it’s going to end."
 
     scene CR4_AS3_ex_p35
     Caroline "Don’t go after him. Please."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "He’s a monster. Just… stay away from him. He already took our gran’s necklace from me - I don’t want him taking you as well."
     else:
         Caroline "He’s a monster. Just… stay away from him. He already took my gran’s necklace from me - I don’t want him taking you as well."
@@ -503,10 +500,7 @@ label CR4_AS3_ex_adress_lab:
 
         scene CR4_AS4_p10
         MC "(She didn’t even let me answer the question… I’ve got it in the pocket of my jeans right now.)"
-        if persistent.incest_patch == True:
-            Caroline "It was the last thing I had from Granny..."
-        else:
-            Caroline "It was the last thing I had from my Granny..."
+        Caroline "It was the last thing I had from Granny..."
         MC "(Right, I’ll give her the necklace now before she gets any more upset.)"
 
         scene CR4_AS4_p11
@@ -565,7 +559,7 @@ label CR4_AS3_ex_adress_lab:
         Caroline "Is something wrong, [player_name]?"
         MC "I need Charles’s address."
         Caroline "What? Why on Earth would you want that?"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "I’m gonna kick his ass and get our grandma’s necklace back."
         else:
             MC "I’m gonna kick his ass and get your grandma’s necklace back."

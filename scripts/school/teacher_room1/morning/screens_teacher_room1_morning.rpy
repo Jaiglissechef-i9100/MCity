@@ -23,7 +23,7 @@ screen teacher_room1_morning:
                 hovered Show("displayTextScreen", displayText = "Celia")
                 unhovered Hide("displayTextScreen")
 
-    if celia_work_in_progress_v1 == 1 and can_celia_morning_school_work_in_pr == True and Celia_points == 1:
+    if celia_work_in_progress_v1 == 1 and can_celia_morning_school_work_in_pr == True and Celia_points == 2:
         imagebutton:
             xpos 1276
             ypos 205
@@ -79,7 +79,7 @@ screen teacher_room1_morning_notclickable:
             idle "images/school/teacher_room1/morning/scenes/celia_school_morning_scene1bv1/celia1b.png"
 
 
-    if celia_work_in_progress_v1 == 1 and can_celia_morning_school_work_in_pr == True:
+    if celia_work_in_progress_v1 == 1 and can_celia_morning_school_work_in_pr == True and Celia_points == 2:
         imagebutton:
             xpos 1276
             ypos 205

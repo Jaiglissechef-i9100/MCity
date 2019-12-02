@@ -160,7 +160,7 @@ label Ch_window_lab:
             scene Ch_doors_p3a with dissolve
             MC "(Please be open!)"
             MC "Gah! Come on!"
-            MC "Let me in Charles! Open up the door you bastard!"
+            MC "Let me in Charles! Open up the door, you bastard!"
 
             $ renpy.music.stop(channel="music1", fadeout=1)
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)

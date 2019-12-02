@@ -552,10 +552,11 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p36
     Caroline " Seriously, [player_name], you’re amazing."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track Gran’s necklace down."
     else:
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track my gran’s necklace down."
+
     Caroline "You, sir, are going to get such a great blowjob tonight."
     MC "I-"
     Caroline "Like, seriously, I’m talking deepthroat with plenty of tongue play. You can even cum in my-"
@@ -1291,7 +1292,7 @@ label CR4_love_hotel_lab2:
 label CR4_love_hotel_lab3:
     scene CR4_love_hotel_p47
     Caroline "How about you and me take a bath together before we head to bed?"
-    MC "Sure1 Sounds good to me. Want me to go run the hot water?"
+    MC "Sure! Sounds good to me. Want me to go run the hot water?"
 
     scene CR4_love_hotel_p48
     Caroline "That would be lovely. I’ll just freshen up here and I’ll join you in a couple of minutes. Okay?"
@@ -1306,10 +1307,10 @@ label CR4_love_hotel_lab3:
 label CR4_love_hotel_lab4:
     if CR4_we == 3:
         $ clickable = False
-        show screen CR4_love_hotel_map2_scr
+        show screen CR4_love_hotel_map1_scr
         MC "I have to prepare the bath."
         $ clickable = True
-        hide screen CR4_love_hotel_map2_scr
+        hide screen CR4_love_hotel_map1_scr
         jump CR4_love_hotel_map1
     else:
         hide screen week_day_viewer
@@ -1595,7 +1596,7 @@ label CR4_love_hotel_lab5:
         MC "Wow, it really is my lucky night, isn’t it?"
 
         scene CR4_love_bed_p7
-        MC "Do you not want me going down on you for a change? Or-"
+        MC "Do you not want me going down on you, for a change? Or-"
         Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
         MC "Well, if you’re sure."
 

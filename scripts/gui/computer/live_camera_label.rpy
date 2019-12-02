@@ -3,7 +3,6 @@ image Celia_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Celia_Invitation.p
 image Sara_Invitation_v1_p1 = "images/game_gui/pc/LiveCamera/Sara_Invitation.png"
 
 default Ce_web_cam_locked = False
-
 label live_camera_label:
     scene main_deskop
     show live_camera_deskop

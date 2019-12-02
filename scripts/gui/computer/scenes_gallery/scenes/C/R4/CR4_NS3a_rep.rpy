@@ -3,6 +3,16 @@ label CR4_NS3a_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music2", loop=True, fadein = 2)
+    scene CR4_NS3_doggy_p11
+    Caroline "*Lick*"
+    MC "Ohh…"
+    Caroline "(Whispered) Take your time and think about it."
+
+    scene CR4_NS3_doggy_p12
+    MC "Ah…"
+    scene CR4_NS3_doggy_p12anim
+    Caroline "*Lick*"
+
     scene CR4_NS3_doggy_p13
     MC "How about we try cowgirl tonight?"
     Caroline "What about reverse cowgirl?"
@@ -37,7 +47,10 @@ label CR4_NS3a_rep:
 
             scene CR4_NS3_cow_pussy_p6
             MC "Ride my cock, Caroline! Yes!"
+            scene CR4_NS3_cow_pussy_p6anim
             Caroline "Ah! Ahh!"
+            scene CR4_NS3_cow_pussy_p6anim2
+            MC "Mmmm! Faster!"
 
             scene CR4_NS3_cow_pussy_p7
             Caroline "Ooohhh…"
@@ -59,9 +72,15 @@ label CR4_NS3a_rep:
             MC "Mmm! Hnnngg..."
 
             scene CR4_NS3_cow_pussy_p11
-            Caroline "I hope you’re - Ahh - not going to cum on me yet!"
-            Caroline "I’m not finished - ohh - riding you! Mmm!"
-
+            Caroline "I hope you’re Ahh... not going to cum on me yet!"
+            scene CR4_NS3_cow_pussy_p11anim
+            Caroline "I’m not finished ohh... riding you! Mmm!"
+            scene CR4_NS3_cow_pussy_p11anim2
+            MC "Faster! Caroline!"
+            scene CR4_NS3_cow_pussy_p11anim3
+            MC "Ah...Ohhhh…"
+            scene CR4_NS3_cow_pussy_p11anim4
+            MC "Faster! Ahhh!"
             scene CR4_NS3_cow_pussy_p12
             Caroline "Ahhhh! AYAYAAAAHHHH!"
             MC "(Fuck, that was loud! I hope nobody else in the house heard us!)"
@@ -206,10 +225,18 @@ label CR4_NS3a_rep:
             MC "Mmm! Hnnngg..."
 
             scene CR4_NS3_cow_anal_p11
-            Caroline "I hope you’re - Ahh - not going to cum on me yet!"
-            Caroline "I’m not finished - ohh - riding you! Mmm!"
-
+            Caroline "I hope you’re Ahh... not going to cum on me yet!"
+            scene CR4_NS3_cow_pussy_p11anim
+            Caroline "I’m not finished ohh... riding you! Mmm!"
+            scene CR4_NS3_cow_pussy_p11anim2
+            MC "Faster! Caroline!"
+            scene CR4_NS3_cow_pussy_p11anim3
+            MC "Ah...Ohhhh…"
+            scene CR4_NS3_cow_pussy_p11anim4
+            MC "Faster! Ahhh!"
             scene CR4_NS3_cow_anal_p12
+
+
             Caroline "Ahhhh! AYAYAAAAHHHH!"
             MC "(Fuck, that was loud! I hope nobody else in the house heard us!)"
             MC "Mmm..."

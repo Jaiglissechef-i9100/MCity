@@ -21,7 +21,7 @@ label Ne_MS1_lab:
 
         $ clickable = False
         show screen Ne_entrance_M_scr
-        MC "I should try tmorrow."
+        MC "I should try tomorrow."
         hide screen Ne_entrance_M_scr
         $ clickable = True
         jump Ne_entrance_M1
@@ -30,7 +30,7 @@ label Ne_MS1_lab:
 
         $ clickable = False
         show screen Ne_entrance_M_scr
-        MC "I should try tmorrow."
+        MC "I should try tomorrow."
         hide screen Ne_entrance_M_scr
         $ clickable = True
         jump Ne_entrance_M1

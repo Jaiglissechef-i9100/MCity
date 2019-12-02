@@ -1030,7 +1030,7 @@ label CR4_NS1_lake:
 
     scene CR4_NS1_lake_p63
     Caroline "Harder! Fuck me harder! Ohhhhh!!!"
-    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Mom_name] or [Dad_name] to hear us doing this!)"
+    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Linda_name] or [Bob_name] to hear us doing this!)"
     MC "(Okay, it’s time to wreck her pussy, like I promised!)"
 
     scene CR4_NS1_lake_p64

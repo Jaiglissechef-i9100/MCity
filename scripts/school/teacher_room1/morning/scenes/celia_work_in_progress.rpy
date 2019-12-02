@@ -7,7 +7,7 @@ label celia_work_in_progress_v1_label:
     hide screen map_button
     show screen teacher_room1_morning_notclickable
     $ can_hide_windows = False
-    $ renpy.show("workinprogress2", layer="screens",)
-    "Not available now."
+
+    Celia "Meet me at my home at night."
     $ renpy.hide("workinprogress2", layer="screens",)
     jump teacher_room1_morning2

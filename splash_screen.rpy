@@ -4,18 +4,18 @@ image splash3 = "images/splashscreen/splash3.jpg"
 
 label splashscreen:
     scene black
-    $renpy.pause(1, hard = True)
+    $ renpy.pause(1, hard = True)
 
     show splash1 with dissolve
-    $renpy.pause(2, hard = True)
+    $ renpy.pause(2, hard = True)
     hide splash1 with dissolve
 
     show splash2 with dissolve
-    $renpy.pause(2, hard = True)
+    $ renpy.pause(2, hard = True)
     hide splash2 with dissolve
 
     show splash3 with dissolve
-    $renpy.pause(2, hard = True)
+    $ renpy.pause(2, hard = True)
     hide splash3 with dissolve
     $ persistent.isAndroid = False
     if not renpy.variant("pc"):

@@ -105,7 +105,8 @@ label ML_workR3:
 
     $ rubb_room = [1,2,3]
     $ rubb_room_roll = renpy.random.choice(rubb_room)
-
+    if persistent.skip_mg == True:
+        jump ML_workR3_finished
     show screen ML_workR3_scr
     jump ML_workR3_roll
 

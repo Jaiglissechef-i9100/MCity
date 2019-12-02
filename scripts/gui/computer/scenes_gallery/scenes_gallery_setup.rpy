@@ -119,6 +119,7 @@ init python:
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_AS3_rep", ["img42_MLR3_AS3_rep"], "thumb42_idle_MLR3_AS3_rep","thumb42_hover_MLR3_AS3_rep" ))
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_NS1_rep", ["img43_MLR3_NS1_rep"], "thumb43_idle_MLR3_NS1_rep","thumb43_hover_MLR3_NS1_rep" ))
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_NS2_rep", ["img44_MLR3_NS2_rep"], "thumb44_idle_MLR3_NS2_rep","thumb44_hover_MLR3_NS2_rep" ))
+
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS1_rep", ["img45_CeR2_AS1_rep"], "thumb45_idle_CeR2_AS1_rep","thumb45_hover_CeR2_AS1_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS2_rep", ["img46_CeR2_AS2_rep"], "thumb46_idle_CeR2_AS2_rep","thumb46_hover_CeR2_AS2_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS3_rep", ["img47_CeR2_AS3_rep"], "thumb47_idle_CeR2_AS3_rep","thumb47_hover_CeR2_AS3_rep " ))

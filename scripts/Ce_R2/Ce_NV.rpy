@@ -161,6 +161,8 @@ label Ce_NV_menu:
         $ nsb_box1.add_ce(Ce_NS_feet)
         $ nsb_box1.add_ce(Ce_NS_kissing)
         $ nsb_box1.add_ce(Ce_NS_tits)
+    if not Ce_NS_pussy in nsb_box1.ce_nsb_s:
+        $ nsb_box1.add_ce(Ce_NS_pussy)
 
     $ renpy.block_rollback()
     call screen Ce_NV_scr

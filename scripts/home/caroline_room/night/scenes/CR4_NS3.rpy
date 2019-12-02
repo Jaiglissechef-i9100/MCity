@@ -10,6 +10,7 @@ image CR4_NS3_doggy_p9 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/9
 image CR4_NS3_doggy_p10 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/10.jpg"
 image CR4_NS3_doggy_p11 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/11.jpg"
 image CR4_NS3_doggy_p12 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/12.jpg"
+image CR4_NS3_doggy_p12anim = Movie(play="videos/06 Caroline NV-6.webm", loop = True )
 image CR4_NS3_doggy_p13 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/13.jpg"
 image CR4_NS3_doggy_p14 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/14.jpg"
 image CR4_NS3_doggy_p15 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/15.jpg"
@@ -19,6 +20,7 @@ image CR4_NS3_doggy_p18 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/
 image CR4_NS3_doggy_p18a = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/18a.jpg"
 image CR4_NS3_doggy_p19 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/19.jpg"
 image CR4_NS3_doggy_p20 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/20.jpg"
+image CR4_NS3_doggy_p20anim = Movie(play="videos/06 Caroline NV-5.webm", loop = True )
 image CR4_NS3_doggy_p21 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/21.jpg"
 image CR4_NS3_doggy_p22 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/22.jpg"
 image CR4_NS3_doggy_p23 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/23.jpg"
@@ -29,11 +31,16 @@ image CR4_NS3_doggy_p27 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/
 image CR4_NS3_doggy_p28 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/28.jpg"
 image CR4_NS3_doggy_p29 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/29.jpg"
 image CR4_NS3_doggy_p30 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/30.jpg"
+image CR4_NS3_doggy_p30anim = Movie(play="videos/06 Caroline NV-1.webm", loop = True )
 image CR4_NS3_doggy_p31 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/31.jpg"
 image CR4_NS3_doggy_p32 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/32.jpg"
+image CR4_NS3_doggy_p32anim = Movie(play="videos/06 Caroline NV-2.webm", loop = True )
 image CR4_NS3_doggy_p33 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/33.jpg"
+image CR4_NS3_doggy_p33anim = Movie(play="videos/06 Caroline NV-3.webm", loop = True )
 image CR4_NS3_doggy_p34 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/34.jpg"
 image CR4_NS3_doggy_p35 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/35.jpg"
+image CR4_NS3_doggy_p35anim = Movie(play="videos/06 Caroline NV-4.webm", loop = True )
+image CR4_NS3_doggy_p35anim2 = Movie(play="videos/06 Caroline NV-4a.webm", loop = True )
 image CR4_NS3_doggy_p36 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/36.jpg"
 image CR4_NS3_doggy_p37 = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/37.jpg"
 image CR4_NS3_doggy_p37a = "images/home/caroline_room/night/scenes/CR4_NS3/Doggy/37a.jpg"
@@ -52,11 +59,17 @@ image CR4_NS3_cow_pussy_p3 = "images/home/caroline_room/night/scenes/CR4_NS3/Cow
 image CR4_NS3_cow_pussy_p4 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/4.jpg"
 image CR4_NS3_cow_pussy_p5 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/5.jpg"
 image CR4_NS3_cow_pussy_p6 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/6.jpg"
+image CR4_NS3_cow_pussy_p6anim = Movie(play="videos/06 Caroline NV-7.webm", loop = True )
+image CR4_NS3_cow_pussy_p6anim2 = Movie(play="videos/06 Caroline NV-7a.webm", loop = True )
 image CR4_NS3_cow_pussy_p7 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/7.jpg"
 image CR4_NS3_cow_pussy_p8 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/8.jpg"
 image CR4_NS3_cow_pussy_p9 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/9.jpg"
 image CR4_NS3_cow_pussy_p10 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/10.jpg"
 image CR4_NS3_cow_pussy_p11 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/11.jpg"
+image CR4_NS3_cow_pussy_p11anim = Movie(play="videos/06 Caroline NV-8.webm", loop = True )
+image CR4_NS3_cow_pussy_p11anim2 = Movie(play="videos/06 Caroline NV-8a.webm", loop = True )
+image CR4_NS3_cow_pussy_p11anim3 = Movie(play="videos/06 Caroline NV-9.webm", loop = True )
+image CR4_NS3_cow_pussy_p11anim4 = Movie(play="videos/06 Caroline NV-9a.webm", loop = True )
 image CR4_NS3_cow_pussy_p12 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/12.jpg"
 image CR4_NS3_cow_pussy_p13 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/13.jpg"
 image CR4_NS3_cow_pussy_p14 = "images/home/caroline_room/night/scenes/CR4_NS3/Cowgirl/Pussy/14.jpg"
@@ -180,6 +193,7 @@ label CR4_NS3:
 
         scene CR4_NS3_doggy_p12
         MC "Ah…"
+        scene CR4_NS3_doggy_p12anim
         Caroline "*Lick*"
 
         scene CR4_NS3_doggy_p13
@@ -237,6 +251,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_doggy_p20
                     MC "How’s that, Caroline?"
                     Caroline "Mmm! Yes! It’s so good, [player_name]!"
+                    scene CR4_NS3_doggy_p20anim
                     MC "Ahh… Hnng!"
 
                     scene CR4_NS3_doggy_p21
@@ -291,6 +306,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_doggy_p30
                     Caroline "AHHH! OHHH FUCK! YES!"
                     MC "(Holy shit, I never knew she was into rough sex like this!)"
+                    scene CR4_NS3_doggy_p30anim
                     Caroline "Ah! AHHH!"
 
                     scene CR4_NS3_doggy_p31
@@ -301,10 +317,12 @@ label CR4_NS3_menu:
                     scene CR4_NS3_doggy_p32
                     MC "UGH!"
                     Caroline "AHHH!"
+                    scene CR4_NS3_doggy_p32anim
                     MC "I’m going to destroy your pussy right now!"
 
                     scene CR4_NS3_doggy_p33
                     Caroline "Ohhh! Oh, my God! *GASP* Yes!"
+                    scene CR4_NS3_doggy_p33anim
                     Caroline "Destroy my slutty little pussy! YES! Ahhhhhh!"
                     Caroline "I’m cummmmmiiing! I’m cumming again! AHHH"
 
@@ -314,8 +332,10 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_doggy_p35
                     Caroline "AHHHHH!"
-                    MC "Hnnnnnggg! Ugh!"
-
+                    scene CR4_NS3_doggy_p35anim
+                    MC "Faster! Ugh!"
+                    scene CR4_NS3_doggy_p35anim2
+                    Caroline "AHHH!"
                     menu:
                         "Blow your load inside her.":
                             scene CR4_NS3_doggy_p36
@@ -337,7 +357,7 @@ label CR4_NS3_menu:
                             scene CR4_NS3_doggy_p38
                             Caroline "*Pant* Oh W-wow… That was… fucking amazing. *Gasp*"
                             MC "Sorry, Caroline. I hope I didn’t go too hard there; with the slapping and hair pulling."
-                            if persistent.incest_patch == True:
+                            if renpy.loadable("patch.rpy"):
                                 Caroline "N-No… it was *pant* perfect… You’re the best brother I could ever ask for..."
                             else:
                                 Caroline "N-No… it was *pant* perfect… You’re the best, [player_name]."
@@ -402,6 +422,7 @@ label CR4_NS3_menu:
                     MC "How’s that, Caroline?"
                     Caroline "Mmm! Yes! Don’t stop!"
                     Caroline "Oh fuck! It’s so good, [player_name]! Keep pounding my ass with your massive cock!"
+                    scene CR4_NS3_doggy_p20anim
                     MC "Ahh… Hnng!"
 
                     scene CR4_NS3_doggy_p21
@@ -457,6 +478,7 @@ label CR4_NS3_menu:
                     scene CR4_NS3_doggy_p30
                     Caroline "AHHH! OHHH FUCK! YES!"
                     MC "(Holy shit, I never knew she was into rough sex like this!)"
+                    scene CR4_NS3_doggy_p30anim
                     Caroline "Ah! AHHH!"
 
                     scene CR4_NS3_doggy_p31
@@ -467,10 +489,12 @@ label CR4_NS3_menu:
                     scene CR4_NS3_doggy_p32
                     MC "UGH!"
                     Caroline "AHHH!"
+                    scene CR4_NS3_doggy_p32anim
                     MC "I’m going to destroy this tight asshole of yours. I’m gonna fuck you so hard and pump all my cum deep inside you!"
 
                     scene CR4_NS3_doggy_p33
                     Caroline "Ohhh! Oh, my God! *GASP* Yes!"
+                    scene CR4_NS3_doggy_p33anim
                     Caroline "Fuck my ass! Fuck my silly! YES! Ahhhhhh!"
                     Caroline "I’m cummmmmiiing! I’m cumming again! AHHH "
 
@@ -480,7 +504,10 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_doggy_anal_p35
                     Caroline "AHHHHH!"
-                    MC "Hnnnnnggg! Ugh!"
+                    scene CR4_NS3_doggy_p35anim
+                    MC "Faster! Ugh!"
+                    scene CR4_NS3_doggy_p35anim2
+                    Caroline "AHHH!"
 
                     menu:
                         "Blow your load deep inside her bowels.":
@@ -577,8 +604,10 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_cow_pussy_p6
                     MC "Ride my cock, Caroline! Yes!"
+                    scene CR4_NS3_cow_pussy_p6anim
                     Caroline "Ah! Ahh!"
-
+                    scene CR4_NS3_cow_pussy_p6anim2
+                    MC "Mmmm! Faster!"
                     scene CR4_NS3_cow_pussy_p7
                     Caroline "Ooohhh…"
                     Caroline "(Holy fuck, his cock went so deep inside me… I’m so wet right now!)"
@@ -600,8 +629,14 @@ label CR4_NS3_menu:
 
                     scene CR4_NS3_cow_pussy_p11
                     Caroline "I hope you’re - Ahh - not going to cum on me yet!"
-                    Caroline "I’m not finished - ohh - riding you! Mmm!"
-
+                    scene CR4_NS3_cow_pussy_p11anim
+                    Caroline "I’m not finished ohh... riding you! Mmm!"
+                    scene CR4_NS3_cow_pussy_p11anim2
+                    MC "Faster! Caroline!"
+                    scene CR4_NS3_cow_pussy_p11anim3
+                    MC "Ah...Ohhhh…"
+                    scene CR4_NS3_cow_pussy_p11anim4
+                    MC "Faster! Ahhh!"
                     scene CR4_NS3_cow_pussy_p12
                     Caroline "Ahhhh! AYAYAAAAHHHH!"
                     MC "(Fuck, that was loud! I hope nobody else in the house heard us!)"
@@ -746,9 +781,15 @@ label CR4_NS3_menu:
                     MC "Mmm! Hnnngg..."
 
                     scene CR4_NS3_cow_anal_p11
-                    Caroline "I hope you’re - Ahh - not going to cum on me yet!"
-                    Caroline "I’m not finished - ohh - riding you! Mmm!"
-
+                    Caroline "I hope you’re Ahh... not going to cum on me yet!"
+                    scene CR4_NS3_cow_pussy_p11anim
+                    Caroline "I’m not finished ohh... riding you! Mmm!"
+                    scene CR4_NS3_cow_pussy_p11anim2
+                    MC "Faster! Caroline!"
+                    scene CR4_NS3_cow_pussy_p11anim3
+                    MC "Ah...Ohhhh…"
+                    scene CR4_NS3_cow_pussy_p11anim4
+                    MC "Faster! Ahhh!"
                     scene CR4_NS3_cow_anal_p12
                     Caroline "Ahhhh! AYAYAAAAHHHH!"
                     MC "(Fuck, that was loud! I hope nobody else in the house heard us!)"

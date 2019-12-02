@@ -1,4 +1,8 @@
 
+
+
+
+
 image Climbing1 = "images/ClimbingMinigame/1.jpg"
 image Climbing2 = "images/ClimbingMinigame/2.jpg"
 image Climbing3 = "images/ClimbingMinigame/3.jpg"
@@ -74,6 +78,9 @@ label Climbing_start:
 
 label Climbing_loop:
     $ renpy.block_rollback()
+    if persistent.skip_mg == True and climb_lvl < 8:
+        $ climb_lvl = 8
+
     $ climb_spot_value = renpy.random.choice([0,0.1,0.2,0.3,0.4,0.5,0.6,])
     $ can_climb_bar_loop = True
     if climb_spot_value == 0:

@@ -116,6 +116,9 @@ init -501 screen Log_scr() tag menu:
 
                     spacing 10
                     xsize 1100
+                text "{color=#ffff66}{b}O.6e{/b}{/color}" xalign 0.5
+                text "{color=#66ff66}{b}Added:{/b}{/color}\n- Added 13 new animations with Caroline (Doggy/Cowgirl)\n- Added one missing scene at night with Celia with animations"
+                text "{color=#66ff66}{b}Fixed:{/b}{/color}\n- Few bugs\n- Secret cards"
                 text "{color=#ffff66}{b}O.6d{/b}{/color}" xalign 0.5
                 text "{color=#66ff66}{b}Added:{/b}{/color}\n- 131 New Animations\n- New scenes added into the gallery\n- Added an option to skip minigames in the game options. (Preferences)\n- One new minigame\n- Bugs and typos fixes"
                 text "{color=#ffff66}{b}O.6b{/b}{/color}" xalign 0.5
@@ -148,7 +151,8 @@ init -501 screen say(who, what):
 
         text what id "what"
 
-        use quick_menu
+
+
 
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
@@ -450,6 +454,7 @@ init -501 screen main_menu() tag menu:
             idle Transform("images/game_gui/phone/Log Idle.png", zoom=.6)
             hover Transform("images/game_gui/phone/Log Hover.png", zoom=.6)
             action ShowMenu("Log_scr")
+
 
 
 init -1 style main_menu_frame is empty
@@ -870,6 +875,13 @@ init -501 screen preferences() tag menu:
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+
+                vbox:
+                    style_prefix "check"
+                    label _("Skip Minigames")
+                    textbutton "True" action SetField(persistent, 'skip_mg', True)
+                    textbutton "False" action SetField(persistent, 'skip_mg', False)
+
 
 
 
@@ -1338,7 +1350,9 @@ init -501 screen skip_indicator():
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.4, 1.0) style "skip_triangle"
 
-transform delayed_blink(delay, cycle):
+
+
+transform -1 delayed_blink(delay, cycle):
     alpha .5
 
     pause delay
@@ -1386,7 +1400,8 @@ init -501 screen notify(message):
 
     timer 3.25 action Hide('notify')
 
-transform notify_appear:
+
+transform -1 notify_appear:
     on show:
         alpha 0
         linear .25 alpha 1.0
@@ -1434,6 +1449,8 @@ init -501 screen nvl(dialogue, items=None):
         else:
 
             use nvl_dialogue(dialogue)
+
+
 
         for i in items:
 
