@@ -28,7 +28,7 @@ translate french celia_webcam_evening_scene1_v1_label2_c20cf8fd:
 translate french celia_webcam_evening_scene1_v1_label2_fcc41ddc:
 
     # MC "I see you got my letter, Mrs. Celia."
-    MC "Je vois que vous avez reçu ma lettre, Mme Celia."
+    MC "Je vois que tu as reçu ma lettre, Mme Celia."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:59
 translate french celia_webcam_evening_scene1_v1_label2_6904b98e:
@@ -40,13 +40,13 @@ translate french celia_webcam_evening_scene1_v1_label2_6904b98e:
 translate french celia_webcam_evening_scene1_v1_label2_0d47171a:
 
     # Celia "And where the hell are you?! Turn your webcam on, you coward!"
-    Celia "Et où diable es-tu ?! Allume ta webcam, lâche !"
+    Celia "Et pourquoi tu te câche ?! Allume ta webcam, lâche !"
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:63
 translate french celia_webcam_evening_scene1_v1_label2_bb2541c4:
 
     # Celia "If you’re going to threaten me, then at least show me your face, while you do it!"
-    Celia "Si tu veux me menacer, montre-moi au moins ton visage pendant que tu le fais !"
+    Celia "Si tu veux me menacer, alors montre-moi au moins ton visage quand tu fais ça !"
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:64
 translate french celia_webcam_evening_scene1_v1_label2_df67c978:
@@ -64,7 +64,7 @@ translate french celia_webcam_evening_scene1_v1_label2_efbbdf73:
 translate french celia_webcam_evening_scene1_v1_label2_14d2e5e5:
 
     # MC "You can walk away - but if you do, I will publish the picture of you selling grades, on social media."
-    MC "Vous pouvez vous en aller - mais si vous le faites, je publierai la photo de vous en train de vendre les notes, sur les médias sociaux."
+    MC "Tu peux t'en aller - mais si tu le fais, je publierai la photo de toi en train de vendre les notes, sur les médias sociaux."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:69
 translate french celia_webcam_evening_scene1_v1_label2_fd5853e1:
@@ -76,7 +76,7 @@ translate french celia_webcam_evening_scene1_v1_label2_fd5853e1:
 translate french celia_webcam_evening_scene1_v1_label2_9cc4f7a2:
 
     # MC "You’re a corrupt woman, Mrs. Celia. And now you will have to pay the price."
-    MC "Vous êtes une femme corrompue, Mme Celia. Et maintenant, vous allez devoir en payer le prix."
+    MC "Tu es une femme corrompue, Mme Celia. Et maintenant, tu vas devoir en payer le prix."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:73
 translate french celia_webcam_evening_scene1_v1_label2_dd745867:
@@ -94,7 +94,7 @@ translate french celia_webcam_evening_scene1_v1_label2_dfb47ad4:
 translate french celia_webcam_evening_scene1_v1_label2_452dbd79:
 
     # MC "Firstly, I want to chat with you every evening. Let’s make this a regular thing."
-    MC "Tout d'abord, je veux discuter avec vous tous les soirs. Faisons en sorte que ce soit régulier."
+    MC "Tout d'abord, je veux discuter avec toi tous les soirs. Faisons en sorte que ce soit régulier."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:76
 translate french celia_webcam_evening_scene1_v1_label2_93def990:
@@ -130,13 +130,13 @@ translate french celia_webcam_evening_scene1_v1_label2_6b38993c:
 translate french celia_webcam_evening_scene1_v1_label2_10d19f96:
 
     # MC "That’s hardly the proper way to talk to the guy, who holds enough evidence to get you fired from your job."
-    MC "Ce n'est pas la bonne façon de parler à ce type, qui détient assez de preuves pour vous faire virer de votre travail."
+    MC "Ce n'est pas la bonne façon de parler au type, qui détient assez de preuves pour te faire virer de ton travail."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:84
 translate french celia_webcam_evening_scene1_v1_label2_ecbd44af:
 
     # MC "Now, how about you take that dress off, before I get in touch with the Principal?"
-    MC "Et si vous enleviez cette robe avant que j'appelle le principal ?"
+    MC "Et maintenant, si tu enlevais cette robe, avant que les choses séreuse ne commencent ?"
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:85
 translate french celia_webcam_evening_scene1_v1_label2_93def990_1:
@@ -172,7 +172,7 @@ translate french celia_webcam_evening_scene1_v1_label2_c6e8044e:
 translate french celia_webcam_evening_scene1_v1_label2_df412237:
 
     # MC "(I should probably wait until later on though - I should follow Judy’s advice, and take things in gradual steps.)"
-    MC "(Je devrais probablement attendre plus tard - je devrais suivre les conseils de Judy, et prendre les choses en étapes par étapes.)"
+    MC "(Je devrais probablement attendre plus tard - je devrais suivre les conseils de Judy, et prendre les choses étapes par étapes.)"
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:97
 translate french celia_webcam_evening_scene1_v1_label2_891251ee:
@@ -184,13 +184,13 @@ translate french celia_webcam_evening_scene1_v1_label2_891251ee:
 translate french celia_webcam_evening_scene1_v1_label2_20186a82:
 
     # MC "That’s enough for tonight. I just wanted you to know who holds the power here."
-    MC "C'est assez pour ce soir. Je voulais juste que vous sachiez qui détient le pouvoir ici."
+    MC "C'est assez pour ce soir. Je voulais juste que tu sache qui détient le pouvoir ici."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:99
 translate french celia_webcam_evening_scene1_v1_label2_70efb96d:
 
     # MC "We’re going to chat again, tomorrow night. I’d like to see you in your underwear, when we begin chatting."
-    MC "On va encore bavarder, demain soir. J'aimerais vous voir en sous-vêtements, quand on commencera à discuter."
+    MC "On va encore bavarder, demain soir. J'aimerais te voir en sous-vêtements, quand on commencera à discuter."
 
 # game/scripts/gui/computer/webcam_scenes/celia_webcam_scenes_introduce.rpy:100
 translate french celia_webcam_evening_scene1_v1_label2_59462023:
@@ -203,3 +203,4 @@ translate french celia_webcam_evening_scene1_v1_label2_0b03457c:
 
     # MC "See you tomorrow, beautiful."
     MC "A demain, ma belle."
+

@@ -280,7 +280,7 @@ translate french LiR1_MAS7_label_con1_82a0e8e5:
 translate french LiR1_MAS7_label_con1_46c40bec:
 
     # Yazmin "We’re both off work today - decided to use our holidays, and make the most of the brilliant weather!"
-    Yazmin "Nous sommes toutes les deux en congé aujourd'hui - nous avons décidé de profiter de nos vacances et de profiter au maximum du temps splendide !"
+    Yazmin "Nous sommes toutes les deux en congées aujourd'hui - nous avons décidé de profiter de nos vacances et de profiter au maximum du temps splendide !"
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS7.rpy:176
 translate french LiR1_MAS7_label_con1_a7120225:
@@ -538,7 +538,7 @@ translate french LiR1_MAS7_label_con1_1494ac8d:
 translate french LiR1_MAS7_label_con1_17e6f66e:
 
     # Liza2 "Strange... She must have stepped inside for a drink."
-    Liza2 "Étrange... Elle a dû entrer pour boire un verre."
+    Liza2 "Étrange... Elle a dûe entrer pour boire un verre."
 
 # game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS7.rpy:264
 translate french LiR1_MAS7_label_con1_2961b003:

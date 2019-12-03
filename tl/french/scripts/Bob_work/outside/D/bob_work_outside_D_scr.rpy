@@ -3,5 +3,5 @@
 translate french strings:
 
     # scripts\Bob_work\outside\D\bob_work_outside_D_scr.rpy:10
-    old "Bob's Workplace"
-    new "Lieu de travail de Bob"
+    old "[Dad_name]'s Workplace"
+    new "Lieu de travail de [Dad_name]"

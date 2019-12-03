@@ -41,3 +41,12 @@ translate french pool_minigame_end_d926d814:
 
     # MC "I've finally finished cleaning it. I should go and tell them. {color=#00ff00}(+15$){/color}"
     MC "J'ai enfin fini de la nettoyer. Je devrais aller leur dire. {color=#00ff00}(+15$){/color}"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/pool_minigame.rpy:116
+translate french pool_minigame_start_4ec403b0:
+
+    # MC "I've finally finished cleaning it. I should go and tell them. {color=#00ff00}(+45$){/color}"
+    MC "J'ai enfin fini de la nettoyer. Je devrais aller leur dire. {color=#00ff00}(+45$){/color}"
+

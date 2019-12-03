@@ -10,7 +10,7 @@ translate french LiR1_NS1_label_c8b1ac9c:
 translate french LiR1_NS1_label_b39ef889:
 
     # MC "*Whistle*"
-    MC "*Sifflote*"
+    MC "*Siffle*"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:51
 translate french LiR1_NS1_label_6f13d62f:
@@ -480,14 +480,15 @@ translate french LiR1_NS1_label_df52bcd5_1:
     # Liza2 "Mmm!"
     Liza2 "Mmm !"
 
-# game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:207
-translate french LiR1_NS1_label_ab2555ab:
+# game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:211
+translate french LiR1_NS1_label_3491a9d7:
 
-    # MC "(Okay, it looks like they’re finishing, for the night. I should probably slip away now, in case [Liza2_name] opens her eyes and spots me leering at them!."
-    MC "(Ok, on dirait qu'elles en ont finies, pour la nuit. Je devrais probablement m'éclipser maintenant, au cas où [Liza2_name] ouvrirait ses yeux et me verrait les fixer !"
+    # MC "(Okay, it looks like they’re finishing, for the night. I should probably slip away now, in case [Liza2_name] opens her eyes and spots me leering at them!"
+   MC "(Ok, on dirait qu'elles en ont finies, pour la nuit. Je devrais probablement m'éclipser maintenant, au cas où [Liza2_name] ouvrirait ses yeux et me verrait les fixer !"
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS1.rpy:223
 translate french LiR1_NS1_label_ffc68d69:
 
     # MC "Hmm... They're sleeping."
     MC "Hmm... Elles dorment."
+

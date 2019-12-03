@@ -868,7 +868,7 @@ translate french MLR3_AS3_con2_rep_e90bae89_1:
 translate french MLR3_AS3_con2_rep_3dc7ea3c:
 
     # "*Creeeaak*"
-    "*Craaaaakk*"
+    "*Craqueeeement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_AS3_rep.rpy:331
 translate french MLR3_AS3_con2_rep_c8e27c2a:

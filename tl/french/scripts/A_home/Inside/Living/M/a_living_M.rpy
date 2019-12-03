@@ -22,7 +22,7 @@ translate french a_living_M1_locked_1d8ce2ad:
 translate french a_living_M1_locked_b9b8e06d:
 
     # "*Creeeaaak*"
-    "*Creeeaaaak*"
+    "*Grinnnncement*"
 
 # game/scripts/A_home/Inside/Living/M/a_living_M.rpy:73
 translate french a_living_M1_locked_2486d862:

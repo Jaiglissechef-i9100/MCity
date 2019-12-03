@@ -190,7 +190,7 @@ translate french CR3_NS2_rep_9f6cd423:
 translate french CR3_NS2_rep_20c5cad2:
 
     # Caroline "(He tells me, we need to conserve our heat, and that we should spoon to keep warm. I’m too naive to resist him, and scurry over into his arms.)"
-    Caroline "(Il me dit que nous avons besoin de conserver notre chaleur et que nous devrions nosu mettre cuillère pour nous réchauffer. Je suis trop naïve pour lui résister, et je me précipite dans ses bras.)"
+    Caroline "(Il me dit que nous avons besoin de conserver notre chaleur et que nous devrions nous mettre cuillère pour nous réchauffer. Je suis trop naïve pour lui résister, et je me précipite dans ses bras.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_NS2_rep.rpy:83
 translate french CR3_NS2_rep_ee70ad83:

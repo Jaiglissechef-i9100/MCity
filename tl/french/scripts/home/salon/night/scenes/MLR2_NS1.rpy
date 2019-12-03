@@ -16,7 +16,7 @@ translate french MLR2_NS1_label_c3f3fb63:
 translate french MLR2_NS1_label_96751429:
 
     # "*Creeeaaaak*"
-    "*Creeeaaaak*"
+    "*Grinnnceeeement*"
 
 # game/scripts/home/salon/night/scenes/MLR2_NS1.rpy:44
 translate french MLR2_NS1_label_831e2be4:
@@ -46,7 +46,7 @@ translate french MLR2_NS1_label_c3f3fb63_1:
 translate french MLR2_NS1_label_96751429_1:
 
     # "*Creeeaaaak*"
-    "*Creeeaaaak*"
+    "*Craqueeement*"
 
 # game/scripts/home/salon/night/scenes/MLR2_NS1.rpy:60
 translate french MLR2_NS1_label_a8a028c7:
@@ -94,7 +94,7 @@ translate french MLR2_NS1_label_5ffb3fca:
 translate french MLR2_NS1_label_96751429_2:
 
     # "*Creeeaaaak*"
-    "*Creeeaaaak*"
+    "*Grinceeeement*"
 
 # game/scripts/home/salon/night/scenes/MLR2_NS1.rpy:88
 translate french MLR2_NS1_label_bd1354d6:

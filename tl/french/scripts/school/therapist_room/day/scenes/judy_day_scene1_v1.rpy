@@ -40,7 +40,7 @@ translate french judy_day_scene1_v1_label_1b80eef3:
 translate french judy_day_scene1_v1_label_2175bfb7:
 
     # MC "I was on her computer, when I found out she has been selling top grades for THOUSANDS of dollars! She must have made at LEAST $10,000!"
-    MC "J'étais sur son ordinateur, quand j'ai découvert qu'elle vendait de très bonnes notes pour des MILLIERS de dollars ! Elle a dû se faire au moins $10,000 !"
+    MC "J'étais sur son ordinateur, quand j'ai découvert qu'elle vendait de très bonnes notes pour des MILLIERS de dollars ! Elle a dûe se faire au moins $10,000 !"
 
 # game/scripts/school/therapist_room/day/scenes/judy_day_scene1_v1.rpy:29
 translate french judy_day_scene1_v1_label_cc5949e5:

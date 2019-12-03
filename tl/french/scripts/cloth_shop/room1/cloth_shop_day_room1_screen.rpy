@@ -12,4 +12,11 @@ translate french strings:
 
     # scripts\cloth_shop\room1\cloth_shop_day_room1_screen.rpy:217
     old "Caroline and Violet"
-    new "Caroline et Violet"
+    new "Caroline et Violet"# TODO: Translation updated at 2019-10-21 09:20
+
+translate french strings:
+
+    # game/scripts/cloth_shop/room1/cloth_shop_day_room1_screen.rpy:289
+    old "Caroline and Charles"
+    new "Caroline et Charles"
+

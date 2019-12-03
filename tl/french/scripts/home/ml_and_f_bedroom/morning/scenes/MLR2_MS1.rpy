@@ -262,7 +262,7 @@ translate french MLR2_MS1_talk_label_a8f8c6f0:
 translate french MLR2_MS1_talk_label_9b18e075:
 
     # Mom "Speaking of being busy with work - Caroline seems up to her eyes in that store she’s opened."
-    Mom "En parlant d'être occupée avec le travail - Caroline semble à ses yeux dans le magasin qu'elle a ouvert."
+    Mom "En parlant d'être occupée avec le travail - Caroline semble débordée avec le magasin qu'elle a ouvert."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:260
 translate french MLR2_MS1_talk_label_dcbbe79a:
@@ -1768,7 +1768,7 @@ translate french MLR2_R3_MS1_q7_f7382354:
 translate french MLR2_R3_MS1_q7_17993651:
 
     # Mom "…cowgirl."
-    Mom "…la levrette."
+    Mom "…la cowgirl."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:864
 translate french MLR2_R3_MS1_q7_c3c521be:
@@ -1780,7 +1780,7 @@ translate french MLR2_R3_MS1_q7_c3c521be:
 translate french MLR2_R3_MS1_q7_4da1338f:
 
     # MC "Cowgirl? I think that was our first position at the beach."
-    MC "La levrette ? Je pense que c'était notre première position à la plage."
+    MC "La cowgirl ? Je pense que c'était notre première position à la plage."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:866
 translate french MLR2_R3_MS1_q7_407385db:
@@ -1919,12 +1919,12 @@ translate french strings:
     new "{color=#00ff00}Parle-moi de Bob.{/color} "
 
     # scripts\home\ml_and_f_bedroom\morning\scenes\MLR2_MS1.rpy:140
-    old "Talk about Dad. (disabled)"
-    new "Parle-moi de Papa. (désactivé)"
+    old "Talk about Dad."
+    new "Parle-moi de Papa."
 
     # scripts\home\ml_and_f_bedroom\morning\scenes\MLR2_MS1.rpy:140
-    old "Talk about Bob. (disabled)"
-    new "Parle-moi de Bob. (désactivé)"
+    old "Talk about Bob."
+    new "Parle-moi de Bob."
 
     # scripts\home\ml_and_f_bedroom\morning\scenes\MLR2_MS1.rpy:140
     old "Are you missing our holiday at the beach? I know I am."
@@ -1997,3 +1997,24 @@ translate french strings:
     # scripts\home\ml_and_f_bedroom\morning\scenes\MLR2_MS1.rpy:621
     old "Not today."
     new "Pas aujourd'hui."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:442
+translate french MLR2_MS1_Bob_label_d842efc0:
+
+    # Mom "Hmm? Sure, what about him?"
+    Mom "Hmm ? Bien sûr, qu'est-ce qu'il a ?"
+
+# TODO: Translation updated at 2019-10-17 09:01
+
+translate french strings:
+
+    # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:140
+    old "Talk about Dad. (disabled)"
+    new "Talk about Dad. (disabled)"
+
+    # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:140
+    old "Talk about Bob. (disabled)"
+    new "Talk about Bob. (disabled)"
+

@@ -88,7 +88,7 @@ translate french MLR2_ES3_label_8c00ddc4:
 translate french MLR2_ES3_label_57cad0c9:
 
     # MC "(Then again, she’s a woman - and they can take FOREVER, getting ready to go out.)"
-    MC "(Encore une fois, c'est une femme - et elles peuvent prendre une ÉTERNITÉ, pour se préparer à sortir"
+    MC "(De toute façon, c'est une femme - et elles peuvent prendre une ÉTERNITÉ, pour se préparer à sortir.)"
 
 # game/scripts/home/garage/evening/scenes/MLR2_ES3_label.rpy:129
 translate french MLR2_ES3_label_b555ad05:
@@ -1402,13 +1402,13 @@ translate french MLR2_ES3_blowjob_label_15b51e9b:
 translate french MLR2_ES3_blowjob_label_273777b7:
 
     # MC "OH God! Ahhh! Ahhhh!"
-    MC "Oh mon Dieu ! Ahhh ! Ahhhh !"
+    MC "OH mon Dieu ! Ahhh ! Ahhhh !"
 
 # game/scripts/home/garage/evening/scenes/MLR2_ES3_label.rpy:709
 translate french MLR2_ES3_blowjob_label_f01595de:
 
     # MC "Fuck! I’m cumming… Shit! Hnnnng!"
-    MC "Putain de merde ! J'éjacule… Merde ! Hnnnnnng !"
+    MC "Putain de merde ! J'éjacule… Merde ! Hnnnng !"
 
 # game/scripts/home/garage/evening/scenes/MLR2_ES3_label.rpy:717
 translate french MLR2_ES3_blowjob_label_179b22db:

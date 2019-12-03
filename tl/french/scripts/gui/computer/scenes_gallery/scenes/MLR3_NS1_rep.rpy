@@ -22,7 +22,7 @@ translate french MLR3_NS1_rep_fda7bc81:
 translate french MLR3_NS1_rep_a8c11f1d:
 
     # Mom "(Why do I feel so damn hot right now? I can’t get [player_name] out of my head."
-    Mom "(Pourquoi ai-je si chaud en ce moment ? Je n'arrive pas à sortir [player_name] de ma tête."
+    Mom "(Pourquoi ai-je si chaud en ce moment ? Je n'arrive pas à sortir [player_name] de ma tête.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_NS1_rep.rpy:26
 translate french MLR3_NS1_rep_5baf3980:

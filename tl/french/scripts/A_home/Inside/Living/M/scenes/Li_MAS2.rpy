@@ -112,7 +112,7 @@ translate french Li_MAS2_menu_73bde4d3:
 translate french Li_MAS2_menu_ae4b85f6:
 
     # Liza2 "I mean, Linda owns her own business, for Christ’s sake!"
-    Liza2 "Je veux dire, [Mom_name] possède sa propre entreprise, pour l'amour de Dieu !"
+    Liza2 "Je veux dire, Linda possède sa propre entreprise, pour l'amour de Dieu !"
 
 # game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:89
 translate french Li_MAS2_menu_6c19448c:
@@ -202,7 +202,7 @@ translate french Li_MAS2_menu_188d3986:
 translate french Li_MAS2_menu_6a5b2fdb:
 
     # Liza2 "You know, Linda isn’t as - straight - as she makes herself out to be. She was a real locomotive, back in her youth!"
-    Liza2 "Tu sais, [Mom_name] n'est pas aussi - hétéro - qu'elle le prétend. C'était une vraie locomotive, dans sa jeunesse !"
+    Liza2 "Tu sais, Linda n'est pas aussi - hétéro - qu'elle le prétend. C'était une vraie locomotive, dans sa jeunesse !"
 
 # game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:136
 translate french Li_MAS2_menu_d83989df:
@@ -376,13 +376,13 @@ translate french Li_MAS2_menu_4d8fdbc0:
 translate french Li_MAS2_menu_2b12161e:
 
     # Liza2 "It all changed, when Linda met Yazmin. She took an intense, irrational dislike towards her."
-    Liza2 "Tout a changé quand [Mom_name] a rencontré Yazmin. Elle avait une aversion intense et irrationnelle envers elle."
+    Liza2 "Tout a changé quand Linda a rencontré Yazmin. Elle avait une aversion intense et irrationnelle envers elle."
 
 # game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:221
 translate french Li_MAS2_menu_493d040c:
 
     # Liza2 "And when I told Linda that Yazmin and I were engaged, she had the AUDACITY to tell me, that I needed to grow out of my ‘gay phase’."
-    Liza2 "Et quand j'ai dit à [Mom_name] que Yazmin et moi étions fiancés, elle a eu l'AUDACE de me dire que je devais sortir de ma ‘phase gay’."
+    Liza2 "Et quand j'ai dit à Linda que Yazmin et moi étions fiancés, elle a eu l'AUDACE de me dire que je devais sortir de ma ‘phase gay’."
 
 # game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:222
 translate french Li_MAS2_menu_49482730:
@@ -671,3 +671,44 @@ translate french strings:
     # scripts\A_home\Inside\Living\M\scenes\Li_MAS2.rpy:51
     old "Bye."
     new "Bye"
+
+# TODO: Translation updated at 2019-10-18 03:59
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:228
+translate french Li_MAS2_menu_688983f7:
+
+    # Liza2 "Your mom and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
+    Liza2 "Ta mère et moi, on s'est à peine parlé après ça. Les mois passe - quand nous n'échangions pas un mot. Tu as peut-être remarqué que nous n'avons pas vraiment interagi, au barbecue sur la plage, il y a toutes ces années."
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:230
+translate french Li_MAS2_menu_329de374:
+
+    # Liza2 "Linda and me, barely spoke after that. Months went by - when we didn’t exchange a word. You might have noticed that we didn’t really interact, at the beach barbeque, all those years ago."
+    Liza2 "Linda et moi, on s'est à peine parlé après ça. Il s'est pas de mois - sans qu'on n'échange pas un mot. Tu as peut-être remarqué le peu d'intéraction, au barbecue sur la plage, il y a toutes ces années."
+
+# TODO: Translation updated at 2019-10-24 13:09
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:89
+translate french Li_MAS2_menu_d7fb06fe:
+
+    # Liza2 "I mean, your mom owns her own business, for Christ’s sake!"
+    Liza2 "Je veux dire, ta mère possède sa propre entreprise, pour l'amour de Dieu !"
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:140
+translate french Li_MAS2_menu_ba7c019c:
+
+    # Liza2 "You know, your mom isn’t as - straight - as she makes herself out to be. She was a real locomotive, back in her youth!"
+    Liza2 "Tu sais, ta mère n'est pas aussi - hétéro - qu'elle le prétend. C'était une vraie locomotive, dans sa jeunesse !"
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:224
+translate french Li_MAS2_menu_465a5b37:
+
+    # Liza2 "It all changed, when your mom met Yazmin. She took an intense, irrational dislike towards her."
+    Liza2 "Tout a changé quand ta mère a rencontré Yazmin. Elle avait une aversion intense et irrationnelle envers elle."
+
+# game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:231
+translate french Li_MAS2_menu_4ef52ac8:
+
+    # Liza2 "And when I told your mom that Yazmin and I were engaged, she had the AUDACITY to tell me, that I needed to grow out of my ‘gay phase’."
+    Liza2 "Et quand j'ai dit à ta mère que Yazmin et moi étions fiancés, elle a eu l'AUDACE de me dire que je devais sortir de ma ‘phase gay’."
+

@@ -472,7 +472,7 @@ translate french ml_morning_salon_scenes1to3_v1_label_0267727a:
 translate french ml_morning_salon_scenes1to3_v1_label_9203ba1c:
 
     # MC "(She seems… different today. I wonder what’s gotten into her.)"
-    MC "Elle a l'air... différente aujourd'hui. Je me demande ce qui lui arrive."
+    MC "(Elle a l'air… différente aujourd'hui. Je me demande ce qui lui arrive.)"
 
 # game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:222
 translate french ml_morning_salon_scenes1to3_v1_label_3f1e0edc:

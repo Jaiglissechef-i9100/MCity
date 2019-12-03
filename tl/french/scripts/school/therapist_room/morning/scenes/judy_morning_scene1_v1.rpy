@@ -40,7 +40,7 @@ translate french judy_morning_scene1_v1_label_1b80eef3:
 translate french judy_morning_scene1_v1_label_2175bfb7:
 
     # MC "I was on her computer, when I found out she has been selling top grades for THOUSANDS of dollars! She must have made at LEAST $10,000!"
-    MC "J'étais sur son ordinateur, quand j'ai découvert qu'elle vendait de très bonnes notes pour des MILLIERS de dollars ! Elle a dû se faire au moins $10,000 !"
+    MC "J'étais sur son ordinateur, quand j'ai découvert qu'elle vendait de très bonnes notes pour des MILLIERS de dollars ! Elle a dûe se faire au moins $10,000 !"
 
 # game/scripts/school/therapist_room/morning/scenes/judy_morning_scene1_v1.rpy:56
 translate french judy_morning_scene1_v1_label_cc5949e5:
@@ -407,4 +407,12 @@ translate french strings:
     # scripts\school\therapist_room\morning\scenes\judy_morning_scene1_v1.rpy:25
     old "Talk about Linda."
     new "Parler de Linda."
+
+    # game/scripts/school/therapist_room/morning/scenes/judy_morning_scene1_v1.rpy:25
+    old "{color=#00ff00}Ask Judy for help with Celia.{/color}"
+    new "{color=#00ff00}Demander l'aide de Judy pour Celia.{/color}"
+
+    # game/scripts/school/therapist_room/morning/scenes/judy_morning_scene1_v1.rpy:25
+    old "{color=#00ff00}Tell Judy what you found out about Celia.{/color}"
+    new "{color=#00ff00}Dire à Judy ce que vous avez trouvé sur Celia.{/color}"
 

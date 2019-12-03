@@ -226,7 +226,7 @@ translate french MLR3_beach_sun_b1b7c50a:
 translate french MLR3_beach_sun_75dac6df:
 
     # MC "Hmm.. Wait a minute. Let me find it…"
-    MC "Hmm.. Attende une minute. Laisse-moi le trouver[Mom_name]"
+    MC "Hmm.. Attend une minute. Laisse-moi le trouver…"
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:201
 translate french MLR3_beach_sun_04cbc937:
@@ -430,7 +430,7 @@ translate french MLR3_beach_sun_menu_837d7835:
 translate french MLR3_beach_sun_menu_f6dd4311:
 
     # MC "Sorry, they got in the way of my massage. I’ll pull them back up later."
-    MC "Désolé, ils ont gêné mon massage. Je les remonterai plus tard."
+    MC "Désolé, il gênait mon massage. Je le remonterai plus tard."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:287
 translate french MLR3_beach_sun_menu_c31ef301:
@@ -712,7 +712,7 @@ translate french MLR3_beach_sun2_059cb9cf:
 translate french MLR3_beach_sun2_648ec7b4:
 
     # MC "No, I’m serious. They’re so, so beautiful. The way they twinkle in the sunlight - is just mystical."
-    MC "Non, je suis sérieux. Elles sont si, si belles. La façon dont ils scintillent au soleil - c'est tout simplement mystique."
+    MC "Non, je suis sérieux. Ils sont si, si beaix. La façon dont ils scintillent au soleil - c'est tout simplement mystique."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:404
 translate french MLR3_beach_sun2_975cc138:
@@ -796,7 +796,7 @@ translate french MLR3_beach_wait_for_e_1db3b01f:
 translate french MLR3_beach_wait_for_e_87ee91d6:
 
     # Mom "I love this time of the day. The moment when the sun isn’t singeing your skin anymore, but it still isn’t cold or dark."
-    Mom "J'adore ce moment de la journée. Le moment où le soleil ne brûle plus ta peau, quabd il ne fait encore ni froid ni noir."
+    Mom "J'adore ce moment de la journée. Le moment où le soleil ne brûle plus ta peau, quand il ne fait encore ni froid ni sombre."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:449
 translate french MLR3_beach_wait_for_e_c82fa5a3:
@@ -820,7 +820,7 @@ translate french MLR3_beach_wait_for_e_eafb33ae:
 translate french MLR3_beach_wait_for_e_d4e8106e:
 
     # Mom "Do you see those rocky hills? Keep your eyes on them."
-    Mom "Tu vois ces collines rocheuses ? Garde les yeux sur eux."
+    Mom "Tu vois ces collines rocheuses ? Garde les yeux sur elles."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:460
 translate french MLR3_beach_wait_for_e_8a15c77c:
@@ -832,7 +832,7 @@ translate french MLR3_beach_wait_for_e_8a15c77c:
 translate french MLR3_beach_wait_for_e_a22a368f:
 
     # Mom "[player_name]! Come and see!"
-    Mom "[player_name] ! Venez voir !"
+    Mom "[player_name] ! Viens voir !"
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:466
 translate french MLR3_beach_wait_for_e_f2a1adef:
@@ -856,7 +856,7 @@ translate french MLR3_beach_wait_for_e_ee21adc9:
 translate french MLR3_beach_wait_for_e_70e55ef2:
 
     # MC "You’re lucky to have found this place! Where do you usually stay?"
-    MC "Vous avez de la chance d'avoir trouvé cet endroit ! Où est-ce que tu habites d'habitude ?"
+    MC "Tu as de la chance d'avoir trouvée cet endroit ! Où est-ce que tu loge d'habitude ?"
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:473
 translate french MLR3_beach_wait_for_e_6e100d69:
@@ -993,26 +993,18 @@ translate french MLR3_beach_wait_for_e_f2907102:
 translate french strings:
 
     # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
-    old "Give her icecream. (disabled)"
-    new "Donnez-lui de la glace. (désactivé)"
-
-    # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
     old "Give her icecream."
-    new "Donnez-lui de la glace."
-
-    # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
-    old "Propose a massage. (disabled)"
-    new "Proposer un massage. (désactivé)"
+    new "Lui donner de la glace."
 
     # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
     old "Propose a massage."
     new "Proposer un massage."
 
     # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
-    old "Wait for the night. (disabled)"
-    new "Attendre la nuit. (désactivé)"
+    old "Wait for the night."
+    new "Attendre la nuit."
 
-    # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:72
+    # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:72
     old "Wait for the night. "
     new "Attendre la nuit. "
 
@@ -1027,4 +1019,20 @@ translate french strings:
     # scripts\beach\Beach_Event\MLR3_beach_event3.rpy:223
     old "Massage her calf muscles."
     new "Masser ses muscles du mollet."
+
+# TODO: Translation updated at 2019-10-17 09:01
+
+translate french strings:
+
+    # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:72
+    old "Give her icecream. (disabled)"
+    new "Give her icecream. (disabled)"
+
+    # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:72
+    old "Propose a massage. (disabled)"
+    new "Propose a massage. (disabled)"
+
+    # game/scripts/beach/Beach_Event/MLR3_beach_event3.rpy:72
+    old "Wait for the night. (disabled)"
+    new "Wait for the night. (disabled)"
 

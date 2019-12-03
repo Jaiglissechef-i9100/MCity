@@ -598,7 +598,7 @@ translate french SR2_NS3_label_1c5ec41c:
 translate french SR2_NS3_label_b3efa341:
 
     # Sara "… I promise."
-    Sara "Gulp) Je te le promets."
+    Sara "… Je te le promets."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:278
 translate french SR2_NS3_label_615eedc7:
@@ -874,7 +874,7 @@ translate french SR2_NS3_label_d8d815a3:
 translate french SR2_NS3_label_586ab9ce:
 
     # MC "(Oooh! This is great! She’s so tight that I can barely get it in!)"
-    MC "(Oooh! C'est génial ! Elle est si serrée que j'arrive à peine à l'entrer !"
+    MC "(Oooh! C'est génial ! Elle est si serrée que j'arrive à peine à l'entrer !)"
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:369
 translate french SR2_NS3_label_88f6ac08:

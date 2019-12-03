@@ -22,3 +22,11 @@ translate french strings:
     old "Play with her tits."
     new "Jouer avec ses seins."
 
+# TODO: Translation updated at 2019-10-25 10:32
+
+translate french strings:
+
+    # game/scripts/A_home/Inside/Bedroom/N/Yaz_NS_B.rpy:79
+    old "Turn her."
+    new "La retourner."
+

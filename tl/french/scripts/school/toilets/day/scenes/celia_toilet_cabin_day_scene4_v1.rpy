@@ -154,7 +154,7 @@ translate french celia_toilet_cabin_day_scene4_menu_f676f2b1:
 translate french celia_toilet_cabin_day_scene4_menu_c5f3f0af:
 
     # Celia "(I hope he cums quickly. The longer I spend in here, the more chance I have of getting caught!)"
-    Celia "(J'espère qu'il éjacule rapidement. Plus je passe du temps ici, plus j'ai de chances de me faire prendre !)"
+    Celia "(J'espère qu'il éjaculera rapidement. Plus je passe du temps ici, plus j'ai de chances de me faire prendre !)"
 
 # game/scripts/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1.rpy:108
 translate french celia_toilet_cabin_day_scene4_menu_eb0a0c57:
@@ -508,7 +508,7 @@ translate french celia_toilet_cabin_day_scene4_menu_ff0c8a5f:
 translate french celia_toilet_cabin_day_scene4_menu_b9b8e06d:
 
     # "*Creeeaaak*"
-    "*Creeeaaaak*"
+    "*Grinceeement*"
 
 # game/scripts/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1.rpy:219
 translate french celia_toilet_cabin_day_scene4_menu_a1e7eb1e:
@@ -568,7 +568,7 @@ translate french celia_toilet_cabin_day_scene4_menu_44c8a382:
 translate french celia_toilet_cabin_day_scene4_menu_14bfe98c:
 
     # "*Creeeak* *Thud*"
-    "*Creeeak* *Bruit sourd*"
+    "*Grinceement* *Bruit sourd*"
 
 # game/scripts/school/toilets/day/scenes/celia_toilet_cabin_day_scene4_v1.rpy:234
 translate french celia_toilet_cabin_day_scene4_menu_bf5da75a:
@@ -629,3 +629,4 @@ translate french celia_toilet_cabin_day_scene4__blowjob_v1_label_8db57b16:
 
     # Celia "(I need to hurry up and figure out who is blackmailing me, before this goes any further.)"
     Celia "(Je dois me dépêcher de trouver qui me fait chanter, avant que ça n'aille plus loin.)"
+

@@ -172,7 +172,7 @@ translate french after_ml_workR2_AS2_label_ba0187c1:
 translate french after_ml_workR2_AS2_label_2aead395:
 
     # MC "(Hopefully this means I’ll be able to get intimate with her again!)"
-    MC "(J'espère que ça veut dire que je pourrai à nouveau être plus intime avec lui !)"
+    MC "(J'espère que ça veut dire que je pourrai à nouveau être plus intime avec elle !)"
 
 # game/scripts/ml_work/room1/scenes/ml_workR2_AS2.rpy:88
 translate french after_ml_workR2_AS2_label_b2ec898b:

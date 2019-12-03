@@ -246,8 +246,8 @@ translate french strings:
 
     # scripts\cloth_shop\room1\scenes\CR2_AS5.rpy:76
     old "Good."
-    new "Bien."
+    new "La bonne."
 
     # scripts\cloth_shop\room1\scenes\CR2_AS5.rpy:76
     old "Bad"
-    new "Pas bien"
+    new "La mauvaise."

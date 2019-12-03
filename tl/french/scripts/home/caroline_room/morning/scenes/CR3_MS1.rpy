@@ -16,7 +16,7 @@ translate french CR3_MS1_label_08728b1a_1:
 translate french CR3_MS1_label_05212dfe:
 
     # MC "(There’s Caroline, working away again. She never seems to stop or rest!)"
-    MC "(Caroline, encore en train de travailler. Elle n'a jamais l'air de s'arrêter ou de se reposer !"
+    MC "(Cette Caroline, toujours encore en train de travailler. Elle n'a jamais l'air de s'arrêter ou de se reposer !)"
 
 # game/scripts/home/caroline_room/morning/scenes/CR3_MS1.rpy:50
 translate french CR3_MS1_label_2531cd11:
@@ -268,7 +268,7 @@ translate french CR3_MS1_menu_8a94e465:
 translate french CR3_MS1_menu_94b98a81:
 
     # MC "If you’re looking for someone to help out with your business, perhaps you could speak to Sara."
-    MC "Si tu cherche quelqu'un pour vous aider avec ton entreprise, peut-être pourrais-tu parler à Sara."
+    MC "Si tu cherche quelqu'un pour t'aider avec ton entreprise, peut-être pourrais-tu parler à Sara."
 
 # game/scripts/home/caroline_room/morning/scenes/CR3_MS1.rpy:185
 translate french CR3_MS1_menu_009a101b:
@@ -370,7 +370,7 @@ translate french strings:
 
     # scripts\home\caroline_room\morning\scenes\CR3_MS1.rpy:66
     old "Are you planning to expand your business anytime soon?"
-    new "Envisage-tu d'agrandir votre entreprise sous peu ?"
+    new "Envisage-tu d'agrandir ton entreprise sous peu ?"
 
     # scripts\home\caroline_room\morning\scenes\CR3_MS1.rpy:66
     old "If you’re looking someone to help you out with your business, perhaps you could speak to Sara."

@@ -22,7 +22,7 @@ translate french celia_webcam_scenes_menu1_568fe0f0:
 translate french celia_webcam_scenes_menu1_7ccb9fc9:
 
     # MC "Sit back and let me have a look at you."
-    MC "Assieds-toi et laisse-moi te regarder."
+    MC "Assieds-toi droit et laisse-moi te regarder."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:116
 translate french celia_webcam_scenes_menu1_5748f373:
@@ -2311,40 +2311,20 @@ translate french strings:
     new "Ouvre la bouche."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Take off your bra. (disabled)"
-    new "Enlève ton soutien-gorge. (désactivé)"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
     old "Take off your bra."
     new "Enlève ton soutien-gorge."
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Take off your panties. (disabled)"
-    new "Enlève ta culotte. (désactivé)"
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
     old "Take off your panties."
     new "Enlève ta culotte."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Get nude. (disabled)"
-    new "Mets-toi à poil. (désactivé)"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Get nude. "
-    new "Mets-toi à poil. "
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Did you get my present? (disabled)"
-    new "Tu as reçu mon cadeau ? (désactivé)"
+    old "Get nude."
+    new "Mets-toi à poil."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
     old "Did you get my present?"
     new "Tu as reçu mon cadeau ?"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
-    old "Orders. (disabled)"
-    new "Les ordres. (désactivé)"
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:120
     old "Orders."
@@ -2357,10 +2337,6 @@ translate french strings:
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:181
     old "Show me your tongue."
     new "Montre-moi ta langue."
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:181
-    old "Dildo. (disabled)"
-    new "Gode. (désactivé)"
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:181
     old "Dildo."
@@ -2392,7 +2368,7 @@ translate french strings:
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:466
     old "Flash ass."
-    new "Flash ass."
+    new "Montre ton cul."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:466
     old "Spread ass."
@@ -2403,16 +2379,8 @@ translate french strings:
     new "Écarte ta chatte."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
-    old "Play with dildo. (disabled)"
-    new "Joue avec le gode. (désactivé)"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Play with dildo."
     new "Joue avec le gode."
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
-    old "Sit on dildo. (disabled)"
-    new "Assieds-toi sur le gode. (désactivé)"
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Sit on dildo."
@@ -2423,30 +2391,286 @@ translate french strings:
     new "Assieds-toi sur le clavier."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
-    old "Try new clothes. (disabled)"
-    new "Essai les nouveaux vêtements. (désactivé)"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Try new clothes."
     new "Essai les nouveaux vêtements."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
-    old "Vibrator event on. (disabled)"
-    new "Vibromasseur activé. (désactivé)"
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Vibrator event on."
-    new "Vibromasseur activé."
+    new "Quête du vibromasseur activé."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:836
     old "Make Out with [player_name]."
-    new "Embrasser [player_name]."
-
-    # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:836
-    old "Blowjob or Anal with [player_name]. (disabled)"
-    new "Pipe ou Anal avec [player_name]. (désactivé)"
+    new "Flirtez avec [player_name]."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:836
     old "Blowjob or Anal with [player_name]."
     new "Pipe ou Anal avec [player_name]."
+
+# TODO: Translation updated at 2019-10-14 05:12
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:952
+translate french celia_webcam_scenes_orders_8860b6dc:
+
+    # Celia "Alright you little creep. I’m here."
+    Celia "D'accord, petit merde. Je suis là.."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:953
+translate french celia_webcam_scenes_orders_2f1be4bf:
+
+    # MC "(Hehe, let’s see if I can get another blowjob out of her.)"
+    MC "(Hehe, voyons si je peux lui faire faire une autre pipe.)"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:954
+translate french celia_webcam_scenes_orders_2543179d:
+
+    # MC "Sit up straight for me. No slouching."
+    MC "Assieds-toi droit pour moi. Pas d'affaissement."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:957
+translate french celia_webcam_scenes_orders_ca934746:
+
+    # MC "Good girl."
+    MC "Bonne fille."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:958
+translate french celia_webcam_scenes_orders_b74b7a76:
+
+    # MC "Now, your next assignment is going to involve you going into the school toilets again."
+    MC "Maintenant, ta prochaine mission va t'amener à retourner aux toilettes de l'école."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:959
+translate french celia_webcam_scenes_orders_3b2847c9:
+
+    # MC "This time you’re to go into the third male stall. You’ll find the door open."
+    MC "Cette fois, tu vas aller dans la troisième cabine. Tu trouvera la porte ouverte."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:962
+translate french celia_webcam_scenes_orders_20ac30e3:
+
+    # Celia "You’re joking! Do you have any idea how risky it’ll be to go into the male toilets a third time!"
+    Celia "C'est une blague ! As-tu la moindre idée du risque qu'il y a à aller dans les toilettes pour hommes une troisième fois ?"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:963
+translate french celia_webcam_scenes_orders_4870f318:
+
+    # Celia "Haha, I could lose my job if I get caught! You’re insane!"
+    Celia "Haha, je pourrais perdre mon boulot si je me faisais prendre ! Tu es dingue !"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:964
+translate french celia_webcam_scenes_orders_bc41fb6f:
+
+    # MC "I’m not insane. And let me assure you - there will be someone waiting for you in the next cubicle."
+    MC "Je ne suis pas dingue. Et laisse-moi t'assurer qu'il y aura quelqu'un qui t'attendra dans le prochain box."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:967
+translate french celia_webcam_scenes_orders_6f4c18ef:
+
+    # Celia "What?!"
+    Celia "Quoi ?!"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:968
+translate french celia_webcam_scenes_orders_8b6a2803:
+
+    # MC "You will suck their cock through a glory hole that has been installed."
+    MC "Tu sucera sa bite à travers un trou qui a été installé."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:969
+translate french celia_webcam_scenes_orders_ca535894:
+
+    # Celia "Ugh! That’s fucking disgusting!"
+    Celia "Ugh ! C'est dégoûtant, putain !"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:972
+translate french celia_webcam_scenes_orders_be36ab79:
+
+    # MC "Watch your language. Need I remind you that failure to cooperate will lead to your secrets being released to the Principal, and to the police."
+    MC "Surveille ton langage. Dois-je te rappeler que si tu ne coopére pas, tes secrets seront révélés au directeur et à la police ?"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:973
+translate french celia_webcam_scenes_orders_d97d1c81:
+
+    # Celia "Grr…"
+    Celia "Grr…"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:974
+translate french celia_webcam_scenes_orders_ca608997:
+
+    # MC "Good. Now, I shall send someone to meet you there."
+    MC "Bien. Maintenant, j'enverrai quelqu'un pour t'y retrouver."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:977
+translate french celia_webcam_scenes_orders_8fdf627c:
+
+    # Celia "Sending someone yet again? Too scared to show your own damned face?"
+    Celia "Tu envoies encore quelqu'un ? Trop effrayé pour montrer ton propre visage ?"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:978
+translate french celia_webcam_scenes_orders_08c2e0dd:
+
+    # MC "I’m not scared. I am simply sitting back and enjoying the show."
+    MC "Je n'ai pas peur. Je suis simplement assis et j'apprécie le spectacle."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:979
+translate french celia_webcam_scenes_orders_fb7b59cb:
+
+    # MC "Make sure your give my friend some excellent head tomorrow. I expect you to be on top of your blowjob game."
+    MC "Assure-toi de donner du plaisirs à mon ami demain. Je m'attends à ce que tu sois au sommet de ton suçage de bite."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:989
+translate french celia_webcam_scenes_orders_fd088b71:
+
+    # MC "My accomplice left me a very good review. Apparently you are a Grade A cocksucker."
+    MC "Mon complice m'a laissé une très bonne critique. Apparemment, tu es une suceuse de bites d'excellence."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:990
+translate french celia_webcam_scenes_orders_bd337c69:
+
+    # Celia "Fucking pig."
+    Celia "Putain de porc."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:991
+translate french celia_webcam_scenes_orders_86d76912:
+
+    # MC "You should know the routine by now. Sit up straight and await your next command."
+    MC "Tu devrais déjà connaître la routine. Assieds-toi droit et attend ton prochain ordre."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:993
+translate french celia_webcam_scenes_orders_37026c56:
+
+    # Celia "What’s it gonna be this time? Handjob in an alley?"
+    Celia "Qu'est-ce que ce sera cette fois ? Une branlette dans une allée ?"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:994
+translate french celia_webcam_scenes_orders_6378f3e3:
+
+    # Celia "This little game of yours won’t last forever you know. Sooner or later I’m going to find you, and then I’m going to rip your fucking balls off."
+    Celia "Ton petit jeu ne durera pas éternellement, tu le sais. Tôt ou tard, je te trouverai et je t'arracherai les couilles."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:995
+translate french celia_webcam_scenes_orders_5c2dc328:
+
+    # MC "I WAS going to be nice to you; but if you’re insisting on being rude..."
+    MC "J'allais être gentil avec toi, mais si tu insistes dans la grossièreté..."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:997
+translate french celia_webcam_scenes_orders_03264fbf:
+
+    # MC "Return to the glory hole. I’ll send another friend of mine your way."
+    MC "Retourne au gloryhole. J'enverrai un autre ami à moi."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:998
+translate french celia_webcam_scenes_orders_e4fa50c1:
+
+    # MC "This time you are to fuck him through the glory hole using your pussy."
+    MC "Cette fois, tu vas le baiser à travers le trou avec ta chatte."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:999
+translate french celia_webcam_scenes_orders_fe847c26:
+
+    # Celia "I swear to God… when I find you I’ll-"
+    Celia "Je jure devant Dieu… quand je te trouverai je vais-"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:1001
+translate french celia_webcam_scenes_orders_a0e5a8c3:
+
+    # MC "Oh, and don’t use a condom. My friend enjoys filling slutty bitches like you up."
+    MC "Oh, et n'utilise pas de préservatif. Mon ami aime remplir des salopes comme toi."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:1002
+translate french celia_webcam_scenes_orders_41c4cac7:
+
+    # Celia "Wh-What if it’s a dangerous time of the month?!"
+    Celia "Qu-Quoi et si c'est une période rouge du mois ?!"
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:1003
+translate french celia_webcam_scenes_orders_e8e6af74:
+
+    # MC "You should have been nicer to me, Celia. I might have let you use a condom if you were."
+    MC "Tu aurais dûe être plus gentille avec moi, Celia. Je t'aurais peut-être laissé utiliser un préservatif si tu l'avais été."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:1005
+translate french celia_webcam_scenes_orders_6e120882:
+
+    # MC "My friend will see you tomorrow. As always, I expect good reviews."
+    MC "Mon ami te verra demain. Comme toujours, j'attends de bonnes critiques."
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:1006
+translate french celia_webcam_scenes_orders_14759a5c:
+
+    # MC "Don’t disappoint my friend with a lacklustre performance."
+    MC "Ne déçois pas mon ami avec une performance médiocre."
+
+translate french strings:
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:889
+    old "Blowjob using Gloryhole."
+    new "Utiliser le Gloryhole pour avoir une pipe."
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:889
+    old "Pussy using Gloryhole."
+    new "Utiliser sa chatte avec le Gloryhole."
+
+# TODO: Translation updated at 2019-10-17 14:25
+
+# game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:930
+translate french celia_webcam_scenes_orders_bc3705e5:
+
+    # MC "Watch your language. Do I need to remind you that failure to cooperate will lead to your secrets being released to the Principal, and to the police."
+    MC "Surveille ton langage. Dois-je te rappeler que si tu ne coopére pas, tes secrets seront révélés au directeur et à la police ?"
+
+# TODO: Translation updated at 2019-10-17 15:38
+
+translate french strings:
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Get nude. "
+    new "Mets toi à poil. "
+
+# TODO: Translation updated at 2019-10-18 02:51
+
+translate french strings:
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Take off your bra. (disabled)"
+    new "Take off your bra. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Take off your panties. (disabled)"
+    new "Take off your panties. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Get nude. (disabled)"
+    new "Get nude. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Did you get my present? (disabled)"
+    new "Did you get my present? (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:131
+    old "Orders. (disabled)"
+    new "Orders. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:192
+    old "Dildo. (disabled)"
+    new "Dildo. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:589
+    old "Play with dildo. (disabled)"
+    new "Play with dildo. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:589
+    old "Sit on dildo. (disabled)"
+    new "Sit on dildo. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:589
+    old "Try new clothes. (disabled)"
+    new "Try new clothes. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:589
+    old "Vibrator event on. (disabled)"
+    new "Vibrator event on. (disabled)"
+
+    # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:847
+    old "Blowjob or Anal with [player_name]. (disabled)"
+    new "Blowjob or Anal with [player_name]. (disabled)"
 

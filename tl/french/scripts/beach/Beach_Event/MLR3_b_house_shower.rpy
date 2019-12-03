@@ -316,13 +316,13 @@ translate french MLR3_b_house_shower_label_9cfe62c0:
 translate french MLR3_b_house_shower_label_25918eb7:
 
     # MC "(Is it the size or the shape? Or is it because I’m her son, and she finds it extra hot, because it’s ‘taboo?’"
-    MC "(Est-ce la taille ou la forme ? Ou est-ce parce que je suis son fils, et qu'elle trouve ça trop chaud, parce que c'est tabou ?"
+    MC "(Est-ce la taille ou la forme ? Ou est-ce parce que je suis son fils, et qu'elle trouve ça trop chaud, parce que c'est tabou ?)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_shower.rpy:163
 translate french MLR3_b_house_shower_label_311b4724:
 
     # MC "(Is it the size or the shape? Or is it because I’m younger, and she finds it extra hot, because it’s ‘taboo?’"
-    MC "(Est-ce la taille ou la forme ? Ou est-ce parce que je suis plus jeune, et qu'elle trouve ça trop chaud, parce que c'est tabou ?"
+    MC "(Est-ce la taille ou la forme ? Ou est-ce parce que je suis plus jeune, et qu'elle trouve ça trop chaud, parce que c'est tabou ?)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_shower.rpy:167
 translate french MLR3_b_house_shower_label_97fe9965:

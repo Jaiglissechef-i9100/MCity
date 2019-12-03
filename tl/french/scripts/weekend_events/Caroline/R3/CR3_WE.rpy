@@ -1324,7 +1324,7 @@ translate french CR3_WE_label_con5_785328fd:
 translate french CR3_WE_label_con5_03ddece1:
 
     # Caroline "You didn’t *Hic* find a girlfriend tonight, did you? *Hic*"
-    Caroline "Tu n'as pas trouvé une copine ce soir, hein ? *Hic*"
+    Caroline "Tu n'as pas *Hic* trouvé une copine ce soir, hein ? *Hic*"
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:695
 translate french CR3_WE_label_con5_6a7fee94:
@@ -1360,7 +1360,7 @@ translate french CR3_WE_label_con5_19570c32:
 translate french CR3_WE_label_con5_d967b988:
 
     # Caroline "You still *Hic* don’t know why I ended the deal... do you?"
-    Caroline "Tu ne sais toujours pas pourquoi j'ai conclu l'affaire... n'est-ce pas ?"
+    Caroline "Tu ne sais *Hic* toujours pas pourquoi j'ai conclu l'affaire... n'est-ce pas ?"
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:707
 translate french CR3_WE_label_con5_fa019de8:
@@ -1570,7 +1570,7 @@ translate french CR3_WE_label_con5_9e9c93b6:
 translate french CR3_WE_label_con5_bb7c2d66:
 
     # MC "(Hmm... The deal is off right now. I might as well get - one final night - of fun with her.)"
-    MC "(Hmm... Le marché est annulé en ce monent. Autant que je - m'amuse avec elle - un dernier soir.)"
+    MC "(Hmm... Le marché est annulé en ce moment. Autant que je - m'amuse avec elle - un dernier soir.)"
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:789
 translate french CR3_WE_label_con5_5b234eb9:
@@ -2155,3 +2155,12 @@ translate french strings:
     # scripts\weekend_events\Caroline\R3\CR3_WE.rpy:784
     old "No, I really shouldn’t."
     new "Non, je ne devrais vraiment pas."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:586
+translate french CR3_WE_label_con4_d7f29447:
+
+    # Charles "(Huh so this little shit, thinks he can play the hero and cockblock me?)"
+    Charles "(Hein, alors cette petite merde, pense qu'il peut jouer le héros et casser mon coups ?)"
+

@@ -250,13 +250,13 @@ translate french CR3_NS3_label_9581d86d:
 translate french CR3_NS3_label_26f3ca54:
 
     # Caroline "(I feel my brother, reach around the back of my head, and weave his fingers through my hair. He pulls me closer...)"
-    Caroline "(Je sens mon frère, tends la main vers l'arrière de ma tête et je tisse ses doigts dans mes cheveux. Il me rapproche...)"
+    Caroline "(Je sens mon frère, tends la main vers l'arrière de ma tête et je tisse ses doigts dans mes cheveux. Me tirant plus près...)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS3.rpy:136
 translate french CR3_NS3_label_8afcfc27:
 
     # Caroline "(I feel [player_name], reach around the back of my head, and weave his fingers through my hair. He pulls me closer...)"
-    Caroline "(Je sens [player_name], tends la main vers l'arrière de ma tête et tisse ses doigts dans mes cheveux. Il me rapproche...)"
+    Caroline "(Je sens [player_name], tends la main vers l'arrière de ma tête et tisse ses doigts dans mes cheveux. Me tirant plus près...)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS3.rpy:137
 translate french CR3_NS3_label_614c1d3d:
@@ -298,7 +298,7 @@ translate french CR3_NS3_label_16876ef0:
 translate french CR3_NS3_label_b06ca029:
 
     # Caroline "(Can’t cum! I’m so used to my vibrator, now that I just can’t - bring myself to cum - with my fingers!)"
-    Caroline "(Je ne peux pas éjaculer ! Je suis tellement habituée à mon vibromasseur, maintenant je ne peux juste pas - me faire jouir - avec mes doigts !)"
+    Caroline "(Je ne peux pas jouir ! Je suis tellement habituée à mon vibromasseur, maintenant je ne peux juste pas - me faire jouir - avec mes doigts !)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS3.rpy:154
 translate french CR3_NS3_label_be12d454:

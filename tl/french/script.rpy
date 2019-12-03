@@ -28,6 +28,10 @@ translate french strings:
     new "Rouquemoute"
     old "Television"
     new "Télévision"
+    old "Bodyguard1"
+    new "Garde du corps 1"
+    old "Bodyguard2"
+    new "Garde du corps 2"
 
 
     # script.rpy:172
@@ -150,77 +154,37 @@ translate french strings:
     old "SunScreen"
     new "Écran solaire"
 
-    # script.rpy:203
-    old "I’m still thinking about our… time spent together on this couch…"
-    new "Je pense encore à notre… temps passé ensemble sur ce canapé…"
+    # game/script.rpy:214
+    old "Crowbar"
+    new "Pieds de biche"
 
-    # script.rpy:205
-    old "Our today conversation... Made me very happy.. I hope you feel the same."
-    new "Notre conversation d'aujourd'hui... Ça m'a rendue très heureuse.. J'espère que tu ressens la même chose."
+    # game/script.rpy:215
+    old "Warehouser Key"
+    new "Clé de l'entreposeur"
 
-    # script.rpy:207
-    old "I masturbated.. I just had to do it on this couch... I just couldn't hold myself and wait for the night."
-    new "Je me suis masturbée.. Je devais juste le faire sur ce canapé... Je ne pouvais pas me retenir et attendre la nuit."
+    # game/script.rpy:216
+    old "Cindy's Box"
+    new "Boîte de Cindy"
 
-    # script.rpy:210
-    old "Our date tonight was amazing! It’s a shame we can't continue it in my bed.. :( Love you"
-    new "Notre rendez-vous de ce soir était génial ! C'est dommage qu'on ne puisse pas continuer dans mon lit.. :( Je t'aime"
+    # game/script.rpy:217
+    old "Sexroom Key"
+    new "Clé du baisodrome"
 
-    # script.rpy:212
-    old "I’ll not let you steal my panties from me… I like them."
-    new "Je ne te laisserai pas me voler mes culottes... Je les aime bien."
+    # game/script.rpy:218
+    old "Caroline's Necklace"
+    new "Collier de Caroline"
 
-    # script.rpy:214
-    old "I hope you're not still sad that you lost all those matches…? Lily told me to send you this.."
-    new "J'espère que tu n'es pas encore triste d'avoir perdu tous ces matchs…? Lily m'a dit de t'envoyer ça.."
+    # game/script.rpy:219
+    old "Celia's Home Key"
+    new "Clé de la maison de Celia"
 
-    # script.rpy:216
-    old "Today was the best day of my life <3"
-    new "Aujourd'hui était le plus beau jour de ma vie <3"
+    # game/script.rpy:220
+    old "Sleeping Pill"
+    new "Somnifère"
 
-    # script.rpy:219
-    old "I think I'm gonna start to learn how to swim! Cheer me on <3"
-    new "Je crois que je vais commencer à apprendre à nager ! Encouragez-moi <3"
-
-    # script.rpy:221
-    old "Look... I'm practicing as I promised... "
-    new "Regarde... Je m'entraîne comme promis... "
-
-    # script.rpy:223
-    old "I'm so sorry... She surprised me! Please, don't be angry at me... :("
-    new "Je suis désolée... Elle m'a surpris ! S'il te plaît, ne sois pas en colère contre moi... :("
-
-    # script.rpy:225
-    old "My ass still hurts... kinda... I hope you loved it <3"
-    new "Mon cul me fait encore un peu... mal.... J'espère que tu as aimé <3"
-
-    # script.rpy:227
-    old "Zuri here. Come to our place in the evening..."
-    new "Zuri à l'appareil. Viens chez nous le soir..."
-
-    # script.rpy:229
-    old "Zuri here! Just look at Suri's ass! Completely defenseless… Come to our place in the evening..."
-    new "Zuri à l'appareil ! Regarde le cul de Suri ! Complètement sans défense.... Viens chez nous le soir...."
-
-    # script.rpy:233
-    old "YOU GOT CUM ON THE PANTIES THAT ARE SUPPOSED TO BE SOLD! YOU IDIOT! Just kidding <3"
-    new "TU AS DU SPERME SUR LA CULOTTE QUI EST CENSÉE ÊTRE VENDUE ! IDIOT ! Je plaisante <3"
-
-    # script.rpy:235
-    old "Wh-y would ansyone want to roobed my shosp?  ;( Tht life is not fair.."
-    new "Qu'est-ce qu'on voudrait me dévorer ? ;( La vie n'est pas juste.."
-
-    # script.rpy:237
-    old "Thanks for helping me with money. It means a lot to me. Kisses :* :* Just don't jerk off to my pic haha :P"
-    new "Merci de m'aider avec l'argent. C'est très important pour moi. Bisouss :* :* Ne te branle pas sur ma tof haha :P"
-
-    # script.rpy:238
-    old "You're stupid..."
-    new "Tu es stupide..."
-
-    # script.rpy:240
-    old "You've asked about a date while we were at that nightclub... Let's go tomorrow!"
-    new "Tu m'as demandé un rencard quand on était dans cette boîte de nuit... Allons-y demain !"
+    # game/script.rpy:221
+    old "Zapper Maximus 9001"
+    new "Zapper Maximus 9001"
 
     # script.rpy:584
     old "Take a nap."
@@ -241,3 +205,8 @@ translate french strings:
     # script.rpy:584
     old "Back."
     new "Retour."
+
+    # game/script.rpy:676
+    old "{color=#00ff00}Meet up with Caroline.{/color}"
+    new "{color=#00ff00}Rencard avec Caroline.{/color}"
+

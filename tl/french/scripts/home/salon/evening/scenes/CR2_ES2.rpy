@@ -424,7 +424,7 @@ translate french CR2_ES2_menu_00bce758:
 translate french CR2_ES2_menu_f12dec29:
 
     # Caroline "I rang up this morning, and they told me that it’s been too long since the incident, for them to investigate."
-    Caroline "J'ai téléphoné ce matin et ils m'ont dit qu'il c'est oassé trio de temps après l'incident pour qu'ils puissent enquêter."
+    Caroline "J'ai téléphonée ce matin et ils m'ont dit qu'il c'est passé trop de temps après l'incident pour qu'ils puissent enquêter."
 
 # game/scripts/home/salon/evening/scenes/CR2_ES2.rpy:244
 translate french CR2_ES2_menu_f5a0ec3f:

@@ -52,7 +52,7 @@ translate french sis_nerdy_scene3_1_v1_a1d03105:
 translate french sis_nerdy_scene3_1_v1_aeb7e580:
 
     # MC "(I could sneak these back to my room before she returns.)"
-    MC "(Je pourrais les ramener dans ma chambre avant son retour.)"
+    MC "(Je pourrais la ramener dans ma chambre avant son retour.)"
 
 # game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:53
 translate french sis_nerdy_scene3_1_v1_be8ed9a0:
@@ -64,7 +64,7 @@ translate french sis_nerdy_scene3_1_v1_be8ed9a0:
 translate french sis_nerdy_scene3_1_v1_e2761878:
 
     # MC "(I should probably just put them back and-)"
-    MC "(Je devrais probablement les remettre en place et-)"
+    MC "(Je devrais probablement la remettre en place et-)"
 
 # game/scripts/home/sara_room/morning/scene3(v1)morning.rpy:59
 translate french sis_nerdy_scene3_1_v1_cffe01a5:
@@ -290,4 +290,4 @@ translate french strings:
 
     # scripts\home\sara_room\morning\scene3(v1)morning.rpy:64
     old "Lie and state that you found them lying on the floor."
-    new "Mentez et dites que vous l'avez trouvé sur le sol."
+    new "Mentir et dire que vous l'avez trouvé sur le sol."

@@ -112,7 +112,7 @@ translate french SR2_AS5_label_2aa28062:
 translate french SR2_AS5_label_eea1b7be:
 
     # Sara "It doesn’t matter. It isn’t happening anymore."
-    Sara "Ça n'a pas d'importance. Ça ne plus se faire."
+    Sara "Ça n'a pas d'importance. Ça ne se fera plus."
 
 # game/scripts/school/classroom2/day/scenes/SR2_AS5.rpy:60
 translate french SR2_AS5_label_9e03f56a:

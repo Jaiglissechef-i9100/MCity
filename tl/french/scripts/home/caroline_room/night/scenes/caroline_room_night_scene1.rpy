@@ -694,7 +694,7 @@ translate french CNS_4_c4e2483f:
 translate french CNS_wake_1_ff2ecd1c:
 
     # MC "Could you give me a handjob?"
-    MC "Tu peux me faire une pipe ?"
+    MC "Tu peux me faire une branlette ?"
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:422
 translate french CNS_wake_1_541dc698:
@@ -760,7 +760,7 @@ translate french CNS_wake_1_37b7f947:
 translate french CNS_wake_1_46b193e6:
 
     # Caroline "God forbid, I have to explain to Sara or Mom about our incest! They'd never understand!"
-    Caroline "Dieu m'en préserve, si je dois expliquer à Sara ou à Maman pour notre inceste ! Ils ne comprendraient jamais !"
+    Caroline "Dieu m'en préserve, si je dois expliquer à Sara ou à Maman pour notre inceste ! Elles ne comprendraient jamais !"
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:447
 translate french CNS_wake_1_ab0935f7:
@@ -772,13 +772,13 @@ translate french CNS_wake_1_ab0935f7:
 translate french CNS_wake_1_78743f9b:
 
     # Caroline "God forbid, I have to explain to Sara or Linda about our deal! They'd never understand!"
-    Caroline "Dieu m'en préserve, si je dois expliquer à Sara ou Linda notre marché ! Ils ne comprendraient jamais !"
+    Caroline "Dieu m'en préserve, si je dois expliquer à Sara ou Linda notre marché ! Elles ne comprendraient jamais !"
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:452
 translate french CNS_wake_1_50ba0336:
 
     # MC "(Ehh… I’m not so sure about that. They may be more understanding than Caroline thinks!)"
-    MC "(Ehh… Je n'en suis pas si sûr. Mais ils sont peut-être plus compréhensifs que Caroline ne le pense !)"
+    MC "(Ehh… Je n'en suis pas sûr et certain. Mais elles sont peut-être plus compréhensifs que Caroline ne le pense !)"
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:453
 translate french CNS_wake_1_53151e65:
@@ -1120,7 +1120,7 @@ translate french CNS_wake_2_0695fc1b:
 translate french CNS_wake_2_ba608777:
 
     # MC "S-Sorry… ahh..."
-    MC "S-Désolé… ahhh..."
+    MC "D-Désolé… ahhh..."
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:580
 translate french CNS_wake_2_0b306a48:

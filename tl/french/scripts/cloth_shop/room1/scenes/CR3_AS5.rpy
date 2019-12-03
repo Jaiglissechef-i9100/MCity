@@ -16,7 +16,7 @@ translate french CR3_AS5_label_a172cf3d:
 translate french CR3_AS5_label_d3dedb97:
 
     # Caroline "Thanks for coming to see me, [player_name]. I wanted to talk with you."
-    Caroline "Merci d'être venu me voir,[player_name] . Je voulais te parler."
+    Caroline "Merci d'être venu me voir, [player_name] . Je voulais te parler."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS5.rpy:43
 translate french CR3_AS5_label_896f3f04:

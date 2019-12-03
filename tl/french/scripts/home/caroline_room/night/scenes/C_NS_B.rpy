@@ -49,3 +49,12 @@ translate french strings:
     # scripts\home\caroline_room\night\scenes\C_NS_B.rpy:106
     old "Required: Story progress with her."
     new "Requis : Avancer l'histoire avec elle."
+
+# TODO: Translation updated at 2019-10-25 10:32
+
+translate french strings:
+
+    # game/scripts/home/caroline_room/night/scenes/C_NS_B.rpy:191
+    old "Required 2 relation points."
+    new "2 points de relation requis."
+

@@ -53,3 +53,18 @@ translate french CR3_AS7a_label_461f9a23:
 
     # MC "(I’ll hide this in my room, so she doesn’t find it.)"
     MC "(Je vais cacher ça dans ma chambre, pour qu'elle ne le trouve pas.)"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/home/caroline_room/day/scenes/CR3_AS7a.rpy:17
+translate french CR3_AS7a_label_a1cd4eae:
+
+    # MC "(If I can find and steal it, I’ll hopefully leave her feeling extra horny, when she can’t - get herself off.)"
+    MC "(Si je peux le trouver et le voler, j'espère que je lui laisserai un sentiment très excitée, au point qu'elle ne pourra pas - se changée les idées)."
+
+# game/scripts/home/caroline_room/day/scenes/CR3_AS7a.rpy:29
+translate french CR3_AS7a_label_865fe6e2:
+
+    # MC "(Let’s see what Caroline does, now that she can’t use her fancy vibrator, to cum!)"
+    MC "(Voyons ce que va faire Caroline, maintenant qu'elle ne peut plus utiliser son vibramasseur fantaisie, pour jouir !)"
+

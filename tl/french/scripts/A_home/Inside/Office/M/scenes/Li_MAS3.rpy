@@ -548,4 +548,11 @@ translate french strings:
 
     # scripts\A_home\Inside\Office\M\scenes\Li_MAS3.rpy:31
     old "Why doesn’t Linda like you?"
-    new "Pourquoi Linda ne t'aime pas ?"
+    new "Pourquoi Linda ne t'aime pas ?"# TODO: Translation updated at 2019-10-24 13:09
+
+# game/scripts/A_home/Inside/Office/M/scenes/Li_MAS3.rpy:245
+translate french Li_MAS3_menu_32846e86:
+
+    # Yazmin "Then - I came into the picture - and started dating her sister. Prior to me coming along - your mother and Liza were inseparable. They might has well have been inseparable."
+    Yazmin "Puis - je suis entrée en scène - et j'ai commencée à sortir avec sa sœur. Avant mon arrivée, ta mère et Liza étaient inséparables. Elles auraient bien pu restées inséparables."
+

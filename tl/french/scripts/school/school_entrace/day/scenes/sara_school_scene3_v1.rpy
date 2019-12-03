@@ -22,7 +22,7 @@ translate french sis_nerdy_school_scene3_v1_label_fbe49129:
 translate french sis_nerdy_school_scene3_v1_label_4f6a170b:
 
     # Lily "C’mon, Sara. You know what I mean - do you ‘like’ like him?"
-    Lily "Allez, Sara. Tu vois ce que je veux dire - est-ce que tu ‘l'aime’ l'aime bien ou ?"
+    Lily "Allez, Sara. Tu vois ce que je veux dire - est-ce que tu ‘l'aime’ l'aime bien ou…?"
 
 # game/scripts/school/school_entrace/day/scenes/sara_school_scene3_v1.rpy:120
 translate french sis_nerdy_school_scene3_v1_label_bffb62d9:

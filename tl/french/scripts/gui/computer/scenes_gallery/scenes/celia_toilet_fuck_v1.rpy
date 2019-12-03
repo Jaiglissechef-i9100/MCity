@@ -118,7 +118,7 @@ translate french celia_toilet_fuck_v1_f676f2b1:
 translate french celia_toilet_fuck_v1_c5f3f0af:
 
     # Celia "(I hope he cums quickly. The longer I spend in here, the more chance I have of getting caught!)"
-    Celia "(J'espère qu'il éjacule rapidement. Plus je passe du temps ici, plus j'ai de chances de me faire prendre !)"
+    Celia "(J'espère qu'il éjaculera rapidement. Plus je passe du temps ici, plus j'ai de chances de me faire prendre !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_fuck_v1.rpy:45
 translate french celia_toilet_fuck_v1_eb0a0c57:
@@ -472,7 +472,7 @@ translate french celia_toilet_fuck_v1_ff0c8a5f:
 translate french celia_toilet_fuck_v1_b9b8e06d:
 
     # "*Creeeaaak*"
-    "*Creeeaaaak*"
+    "*Grinnnceeement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_fuck_v1.rpy:157
 translate french celia_toilet_fuck_v1_a1e7eb1e:
@@ -532,7 +532,7 @@ translate french celia_toilet_fuck_v1_44c8a382:
 translate french celia_toilet_fuck_v1_14bfe98c:
 
     # "*Creeeak* *Thud*"
-    "*Creeeak* *Bruit sourd*"
+    "*Grinnncement* *Bruit sourd*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/celia_toilet_fuck_v1.rpy:172
 translate french celia_toilet_fuck_v1_bf5da75a:
@@ -598,17 +598,17 @@ translate french strings:
 
     # scripts\gui\computer\scenes_gallery\scenes\celia_toilet_fuck_v1.rpy:12
     old "I want you to suck my cock, Mrs. Celia!"
-    new "Je veux que tu me suces la bite, Mme Celia !"
+    new "Je veux que vous me suciez la bite, Mme Celia !"
 
     # scripts\gui\computer\scenes_gallery\scenes\celia_toilet_fuck_v1.rpy:12
     old "I want to fuck your ass, Mrs. Celia."
-    new "Je veux te baiser le cul, Mme Celia."
+    new "Je veux vous baiser le cul, Mme Celia."
 
     # scripts\gui\computer\scenes_gallery\scenes\celia_toilet_fuck_v1.rpy:82
     old "Let her keep sucking, and cum in her mouth."
-    new "Laisse-la continuer à sucer, et éjacule dans sa bouche."
+    new "La laisser continuer à sucer, et éjaculer dans sa bouche."
 
     # scripts\gui\computer\scenes_gallery\scenes\celia_toilet_fuck_v1.rpy:82
     old "Pull out and cum on her face!"
-    new "Retire-toi et éjacule sur son visage !"
+    new "Se retirer et éjaculer sur son visage !"
 

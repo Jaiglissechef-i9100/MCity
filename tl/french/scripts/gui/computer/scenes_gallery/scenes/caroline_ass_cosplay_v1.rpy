@@ -172,7 +172,7 @@ translate french caroline_ass_cosplay_v1_f8648f8f:
 translate french caroline_ass_cosplay_v1_f96a7b10:
 
     # Caroline "Bullshit! You’re just a horny little creep."
-    Caroline "Foutaises ! Tu n'es qu'un petit salaud excité."
+    Caroline "Foutaises ! Tu n'es qu'un petite salaud excité."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/caroline_ass_cosplay_v1.rpy:56
 translate french caroline_ass_cosplay_v1_4daead6b:

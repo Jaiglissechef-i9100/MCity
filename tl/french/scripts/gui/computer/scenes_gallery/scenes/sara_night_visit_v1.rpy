@@ -172,7 +172,7 @@ translate french sara_night_visit_v1_f4d4e06e:
 translate french sara_night_visit_v1_39f8e28f:
 
     # Sara "I’ll- I’ll do anything! Just don’t tell Dad!"
-    Sara "Je ferais n'importe quoi ! Ne le dis pas àPapa !"
+    Sara "Je ferais n'importe quoi ! Ne le dis pas à Papa !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/sara_night_visit_v1.rpy:61
 translate french sara_night_visit_v1_02015110:
@@ -459,3 +459,12 @@ translate french strings:
     # scripts\gui\computer\scenes_gallery\scenes\sara_night_visit_v1.rpy:98
     old "Stay silent."
     new "Restez silencieux."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/gui/computer/scenes_gallery/scenes/sara_night_visit_v1.rpy:50
+translate french sara_night_visit_v1_ac6b0352:
+
+    # MC "What are you doing?"
+    MC "Qu'est-ce que tu fais ?"
+

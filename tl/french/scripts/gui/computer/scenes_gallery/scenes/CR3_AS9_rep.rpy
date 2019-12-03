@@ -316,7 +316,7 @@ translate french CR3_AS9_rep_cb2ca102:
 translate french CR3_AS9_rep_aea4f24c:
 
     # Caroline "(I mean, how much bigger can his cock swell?)"
-    Caroline "(Je veux dire, jusqu'ou peut gonfler sa biter ?)"
+    Caroline "(Je veux dire, jusqu'ou peut gonfler sa bite ?)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_AS9_rep.rpy:119
 translate french CR3_AS9_rep_05d1b90c:
@@ -532,7 +532,7 @@ translate french CR3_AS9_rep_13431260:
 translate french CR3_AS9_rep_378562f0:
 
     # MC "(Oh shit! She’s masturbating too! She must have excited herself a bit too much!)"
-    MC "(Oh merde ! Elle se masturbe aussi ! Elle a dû s'exciter un peu trop !)"
+    MC "(Oh merde ! Elle se masturbe aussi ! Elle a dûe s'exciter un peu trop !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_AS9_rep.rpy:192
 translate french CR3_AS9_rep_0c02db88:
@@ -766,7 +766,7 @@ translate french CR3_AS9_rep_891695b9:
 translate french CR3_AS9_rep_31738bab:
 
     # Caroline "I’m making this up as I go along, and unfortunately I don’t have a cock of my own - but I imagine that doing this should feel REALLY good, right?"
-    Caroline "J'invente au fur et à mesure, et malheureusement je n'ai pas de bite à moi - mais j'imagine que faire ça devrait être VRAIMENT bon, non ?"
+    Caroline "J'invente au fur et à mesure, et malheureusement je n'ai pas ma propre bite - mais j'imagine que faire ça devrait être VRAIMENT bon, non ?"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_AS9_rep.rpy:282
 translate french CR3_AS9_rep_ea7cfe79:
@@ -892,7 +892,7 @@ translate french CR3_AS9_rep_08ed5050:
 translate french CR3_AS9_rep_7030748e:
 
     # Caroline "I know you REALLY want to shoot your cum all over my feet - but this outfit is expensive and I don’t want white stains on it the first time I’m wearing it!)"
-    Caroline "Je sais que tu veux VRAIMENT me tirer ton sperme partout sur les pieds - mais cette tenue est chère, et je ne veux pas de taches blanches dessus la première fois que je la porte !)"
+    Caroline "Je sais que tu veux VRAIMENT éjaculer ton sperme partout sur mes pieds - mais cette tenue est chère, et je ne veux pas de taches blanches dessus la première fois que je la porte !)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_AS9_rep.rpy:327
 translate french CR3_AS9_rep_ed4bc493:

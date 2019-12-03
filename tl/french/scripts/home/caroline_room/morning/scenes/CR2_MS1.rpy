@@ -28,7 +28,7 @@ translate french CR2_MS1_label_bfb8a867:
 translate french CR2_MS1_label_b5248633:
 
     # Caroline "Oh! Hi, [player_name]. I didn’t hear you come in, there."
-    Caroline "Oh ! Salut, [player_name]. Je ne t'ai pas entendu entrer."
+    Caroline "Oh ! Salut, [player_name]. Je ne t'ai pas entendue entrer."
 
 # game/scripts/home/caroline_room/morning/scenes/CR2_MS1.rpy:37
 translate french CR2_MS1_label_c29f42a2:
@@ -262,8 +262,9 @@ translate french strings:
 
     # scripts\home\caroline_room\morning\scenes\CR2_MS1.rpy:69
     old "Grab Caroline’s ass."
-    new "Tripote le cul de Caroline."
+    new "Tripoter le cul de Caroline."
 
     # scripts\home\caroline_room\morning\scenes\CR2_MS1.rpy:69
     old "Don’t risk grabbing Caroline’s ass."
-    new "Ne prends pas le risque de tripoter le cul de Caroline."
+    new "Ne pas prendre le risque de tripoter le cul de Caroline."
+

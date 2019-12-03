@@ -22,13 +22,13 @@ translate french MLR3_NS2_rep_dd739b89:
 translate french MLR3_NS2_rep_48c1e588:
 
     # "*Creak*"
-    "*Creak*"
+    "*Grincement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_NS2_rep.rpy:22
 translate french MLR3_NS2_rep_48c1e588_1:
 
     # "*Creak*"
-    "*Creak*"
+    "*Grincement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_NS2_rep.rpy:26
 translate french MLR3_NS2_rep_14803739:
@@ -1174,7 +1174,7 @@ translate french MLR3_NS2_con2_rep_d6da0ff5:
 translate french MLR3_NS2_con2_rep_48c1e588:
 
     # "*Creak*"
-    "*Creak*"
+    "*Craquement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_NS2_rep.rpy:476
 translate french MLR3_NS2_con2_rep_5c1879d0:
@@ -1186,7 +1186,7 @@ translate french MLR3_NS2_con2_rep_5c1879d0:
 translate french MLR3_NS2_con2_rep_48c1e588_1:
 
     # "*Creak*"
-    "*Creak*"
+    "*Craquement*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_NS2_rep.rpy:478
 translate french MLR3_NS2_con2_rep_f1e73f4a_1:

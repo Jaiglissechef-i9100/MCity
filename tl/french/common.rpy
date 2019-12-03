@@ -862,10 +862,6 @@ translate french strings:
     old "NPOT"
     new "NPOT"
 
-    # 00gltest.rpy:97
-    old "Enable"
-    new "Enable"
-
     # 00gltest.rpy:131
     old "Powersave"
     new "Powersave"
@@ -1044,7 +1040,9 @@ translate french strings:
 
     # _errorhandling.rpym:670
     old "Copies the errors.txt file to the clipboard."
-    new "Copies the errors.txt file to the clipboard."# TODO: Translation updated at 2019-08-16 07:26
+    new "Copies the errors.txt file to the clipboard."
+
+# TODO: Translation updated at 2019-08-16 07:26
 
 translate french strings:
 
@@ -1071,4 +1069,72 @@ translate french strings:
     # _errorhandling.rpym:685
     old "Copies the errors.txt file to the clipboard as Markdown for Discord."
     new "Copies the errors.txt file to the clipboard as Markdown for Discord."
+
+# TODO: Translation updated at 2019-10-14 05:12
+
+translate french strings:
+
+    # renpy/common/00accessibility.rpy:128
+    old "Font Override"
+    new "Font Override"
+
+    # renpy/common/00accessibility.rpy:132
+    old "Default"
+    new "Default"
+
+    # renpy/common/00accessibility.rpy:136
+    old "DejaVu Sans"
+    new "DejaVu Sans"
+
+    # renpy/common/00accessibility.rpy:140
+    old "Opendyslexic"
+    new "Opendyslexic"
+
+    # renpy/common/00accessibility.rpy:146
+    old "Text Size Scaling"
+    new "Text Size Scaling"
+
+    # renpy/common/00accessibility.rpy:152
+    old "Reset"
+    new "Reset"
+
+    # renpy/common/00accessibility.rpy:157
+    old "Line Spacing Scaling"
+    new "Line Spacing Scaling"
+
+    # renpy/common/00accessibility.rpy:169
+    old "Self-Voicing"
+    new "Self-Voicing"
+
+    # renpy/common/00accessibility.rpy:173
+    old "Off"
+    new "Off"
+
+    # renpy/common/00accessibility.rpy:177
+    old "Text-to-speech"
+    new "Text-to-speech"
+
+    # renpy/common/00accessibility.rpy:181
+    old "Clipboard"
+    new "Clipboard"
+
+    # renpy/common/00accessibility.rpy:185
+    old "Debug"
+    new "Debug"
+
+    # renpy/common/00accessibility.rpy:191
+    old "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+    new "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+
+    # renpy/common/00preferences.rpy:430
+    old "font transform"
+    new "font transform"
+
+    # renpy/common/00preferences.rpy:433
+    old "font size"
+    new "font size"
+
+    # renpy/common/00preferences.rpy:441
+    old "font line spacing"
+    new "font line spacing"
 

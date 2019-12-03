@@ -352,7 +352,7 @@ translate french Yaz_NS_B_turn_tits_6e3035ee:
 translate french Yaz_NS_B_turn_tits_010aacae:
 
     # MC "(It feels so good, having her nipple, press up against my frenulum.)"
-    MC "(C'est si bon d'avoir son mamelon, appuyez contre le frein de mon pénis (Comme quoi sa sert les cours d'anatomie, ahah).)"
+    MC "(C'est si bon d'avoir son mamelon, appuyez contre le frein de mon pénis (Comme quoi sa sert les cours d'anatomie, ahah.).)"
 
 # game/scripts/A_home/Inside/Bedroom/N/scenes/Yaz_NS_turn.rpy:160
 translate french Yaz_NS_B_turn_tits_8a3b82fd:

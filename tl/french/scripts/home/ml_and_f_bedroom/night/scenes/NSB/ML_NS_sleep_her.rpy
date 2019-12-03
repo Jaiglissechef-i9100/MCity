@@ -190,7 +190,7 @@ translate french ML_NS_sleep_her_label_dccabb6a:
 translate french ML_NS_sleep_her_label_78295813:
 
     # MC "(But that’s only - one - of the possibilities. The second is that, she actually despises Dad. I’m not sure why she would? He doesn't seem like a bad guy, at all.)"
-    MC "(Mais ce n'est qu'- une - des possibilités. La deuxième, c'est qu'en fait, elle méprise Papa. Je ne comprends pas pourquoi elle le ferait sinon ? Il n'a pas l'air d'être un méchant, du tout.)"
+    MC "(Mais ce n'est - qu'une - des possibilités. La deuxième, c'est qu'en fait, elle méprise Papa. Je ne comprends pas pourquoi elle le ferait sinon ? Il n'a pas l'air d'être un méchant, du tout.)"
 
 # game/scripts/home/ml_and_f_bedroom/night/scenes/NSB/ML_NS_sleep_her.rpy:69
 translate french ML_NS_sleep_her_label_51e271d9:

@@ -1085,3 +1085,12 @@ translate french CR3_WE_label_mor_con1_d285cfb3:
 
     # MC "Okay, Caroline. See you then!"
     MC "Ok, Caroline. A tout à l'heure alors !"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/weekend_events/Caroline/R3/CR3_WE_label_mor.rpy:454
+translate french CR3_WE_label_mor_con1_d819f209:
+
+    # Caroline "I’ll go, and try to finish most of my business crap, today. Give me a shout, later on."
+    Caroline "J'irai, et j'essaierai de finir une grosse partie de mes affaires fatiguante, aujourd'hui. Appelle-moi, plus tard."
+

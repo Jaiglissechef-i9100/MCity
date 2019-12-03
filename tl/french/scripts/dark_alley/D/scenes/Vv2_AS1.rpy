@@ -558,11 +558,11 @@ translate french strings:
 
     # scripts\dark_alley\D\scenes\Vv2_AS1.rpy:84
     old "Punch him!"
-    new "Met-lui une droite !"
+    new "Lui mettre une droite !"
 
     # scripts\dark_alley\D\scenes\Vv2_AS1.rpy:84
     old "Kick him!"
-    new "Met-lui un coup de pied !"
+    new "Lui mettre un coup de pied !"
 
     # scripts\dark_alley\D\scenes\Vv2_AS1.rpy:207
     old "Why was that asshole beating you up?"

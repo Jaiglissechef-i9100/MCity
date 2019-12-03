@@ -207,13 +207,22 @@ translate french CR2_MS3a_label_7ca6456a:
 translate french strings:
 
     # scripts\home\mc_room\morning\scenes\CR2_MS3a.rpy:26
-    old "Yeah, I have $150 here. There you go. (disabled)"
-    new "Oui, j'ai 150 $ ici. Et voilà pour toi. (désactivé)"
+    old "Yeah, I have $150 here. There you go."
+    new "Ouai, j'ai 150 $ ici. Et voilà pour toi."
 
     # scripts\home\mc_room\morning\scenes\CR2_MS3a.rpy:26
     old "{color=#00ff00}Yeah, I have $150 here. There you go.{/color}"
-    new "{color=#00ff00}Ouai, j'ai 150 $ ici. Et voilà. {/color}"
+    new "{color=#00ff00}Ouai, j'ai 150 $ ici. Et voilà pour toi. {/color}"
 
     # scripts\home\mc_room\morning\scenes\CR2_MS3a.rpy:26
     old "Sorry, I don’t have $150 on me right now."
     new "Désolé, je n'ai pas 150 $ sur moi en ce moment."
+
+# TODO: Translation updated at 2019-10-17 09:01
+
+translate french strings:
+
+    # game/scripts/home/mc_room/morning/scenes/CR2_MS3a.rpy:26
+    old "Yeah, I have $150 here. There you go. (disabled)"
+    new "Yeah, I have $150 here. There you go. (disabled)"
+

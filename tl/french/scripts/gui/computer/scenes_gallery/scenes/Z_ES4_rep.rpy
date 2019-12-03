@@ -904,8 +904,8 @@ translate french strings:
 
     # scripts\gui\computer\scenes_gallery\scenes\Z_ES4_rep.rpy:9
     old "{color=#ff8000}Truth.{/color}"
-    new "Color=#ff8000}La vérité.{/color}"
+    new "{color=#ff8000}La vérité.{/color}"
 
     # scripts\gui\computer\scenes_gallery\scenes\Z_ES4_rep.rpy:9
     old "{color=#ff8000}Lie.{/color}"
-    new "Color=#ff8000}Mentir.{/color}"
+    new "{color=#ff8000}Mentir.{/color}"

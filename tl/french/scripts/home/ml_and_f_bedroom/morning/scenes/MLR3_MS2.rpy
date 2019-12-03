@@ -34,7 +34,7 @@ translate french MLR3_MS2_ebf08c07:
 translate french MLR3_MS2_2ddc096c:
 
     # Mom "Huh? Oh! Sorry, I didn’t hear you come in there, [player_name]."
-    Mom "Hein ? Oh ! Désolée, je ne t'ai pas entendu entrer, [player_name]."
+    Mom "Hein ? Oh ! Désolée, je ne t'ai pas entendue entrer, [player_name]."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_MS2.rpy:39
 translate french MLR3_MS2_da67d71a:

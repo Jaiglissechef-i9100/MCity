@@ -868,7 +868,7 @@ translate french MLR3_AS3_con2_e90bae89_1:
 translate french MLR3_AS3_con2_3dc7ea3c:
 
     # "*Creeeaak*"
-    "*Craaaaakk*"
+    "*Craaaaqueement*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:388
 translate french MLR3_AS3_con2_c8e27c2a:
@@ -904,7 +904,7 @@ translate french MLR3_AS3_con2_c771ee54:
 translate french MLR3_AS3_con2_48c1e588:
 
     # "*Creak*"
-    "*Craakk*"
+    "*Grincement*"
 
 # game/scripts/home/mc_room/D/Scenes/MLR3_AS3.rpy:401
 translate french MLR3_AS3_con2_a890ede8:

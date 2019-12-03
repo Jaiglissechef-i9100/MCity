@@ -37,3 +37,24 @@ translate french strings:
     # scripts\gui\computer\computer.rpy:203
     old "Statistics"
     new "Statistiques"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+translate french strings:
+
+    # game/scripts/gui/computer/computer.rpy:107
+    old "Enter your new name."
+    new "Entrez votre nouveau nom."
+
+    # game/scripts/gui/computer/computer.rpy:195
+    old "Change your name"
+    new "Changer votre nom"
+
+# TODO: Translation updated at 2019-10-17 14:25
+
+translate french strings:
+
+    # game/scripts/gui/computer/computer.rpy:155
+    old "Live Camera"
+    new "Caméra en direct"
+

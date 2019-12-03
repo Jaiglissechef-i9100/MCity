@@ -364,7 +364,7 @@ translate french Yaz_NS_B_feet_ba14a034:
 translate french Yaz_NS_B_ass_ff3bc9af:
 
     # MC "(I think I’ll play with Yazmin’s ass - for a change. She’s already lying face down on the bed, so I’ve got easy access to it.)"
-    MC "(Je pense que je vais jouer avec le cul de Yazmin - pour changer. Elle est déjà allongée ssur le ventre, donc j'y ai facilement accès.)"
+    MC "(Je pense que je vais jouer avec le cul de Yazmin - pour changer. Elle est déjà allongée sur le ventre, donc j'y ai facilement accès.)"
 
 # game/scripts/A_home/Inside/Bedroom/N/scenes/LiR1_NS3_Yaz.rpy:251
 translate french Yaz_NS_B_ass_87e275b0:

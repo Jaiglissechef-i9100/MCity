@@ -334,7 +334,7 @@ translate french MLR3_AS2_536d81c2:
 translate french MLR3_AS2_21eabd1c:
 
     # Mom "As for your school, I think I have an idea. See if you can get an exemption for a day."
-    Mom "Quant à ton école, je crois que j'ai une idée. Vois si tu pux obtenir une exemption pour une journée."
+    Mom "Quant à ton école, je crois que j'ai une idée. Vois si tu peux obtenir une exemption pour une journée."
 
 # game/scripts/ml_work/room1/scenes/MLR3_AS2.rpy:148
 translate french MLR3_AS2_ee1755ec:

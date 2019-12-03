@@ -232,7 +232,7 @@ translate french Li_NS_B_mouth_35cca795:
 translate french Li_NS_B_mouth_75958cf9:
 
     # MC "(Mmm... she smells beautiful. She must have put on some perfume, before she went to bed.)"
-    MC "(Mmm... elle sent très bon. Elle a dû mettre du parfum avant d'aller se coucher.)"
+    MC "(Mmm... elle sent très bon. Elle a dûe mettre du parfum avant d'aller se coucher.)"
 
 # game/scripts/A_home/Inside/Bedroom/N/scenes/Li_NS_s.rpy:139
 translate french Li_NS_B_mouth_e5ec0587:
@@ -298,7 +298,7 @@ translate french Li_NS_B_mouth_9c5f0354:
 translate french Li_NS_B_mouth_1a8a6f2d:
 
     # MC "(Nice! I’ve got some - tongue action - going on with her now.)"
-    MC "(Joli ! J'ai de l'action quand je l'embrasse avec la langue maintenant."
+    MC "(Joli ! J'ai de l'action quand je l'embrasse avec la langue maintenant.)"
 
 # game/scripts/A_home/Inside/Bedroom/N/scenes/Li_NS_s.rpy:165
 translate french Li_NS_B_mouth_e29b38b8:
@@ -514,7 +514,7 @@ translate french Li_NS_B_pussy_317f2683_1:
 translate french Li_NS_B_pussy_c296f5bc:
 
     # MC "(Her bush is so soft to touch... Yazmin is a really lucky woman, that she gets to play with this body every night!)"
-    MC "(Son buisson est si doux au toucher...) Yazmin est une femme vraiment chanceuse, de pouvoir jouer avec ce corps tous les soirs !)"
+    MC "(Son buisson est si doux au toucher... Yazmin est une femme vraiment chanceuse, de pouvoir jouer avec ce corps tous les soirs !)"
 
 # game/scripts/A_home/Inside/Bedroom/N/scenes/Li_NS_s.rpy:243
 translate french Li_NS_B_pussy_5adf89a0:

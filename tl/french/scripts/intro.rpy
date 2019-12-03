@@ -100,7 +100,7 @@ translate french intro_bb9ac1fd:
 translate french intro_4d02be98:
 
     # Judy "I asked you to close your eyes and try to recall the events of yesterday, but you fell asleep."
-    Judy "Je vous ai demandé de fermer les yeux et d'essayer de vous rappeler les événements d'hier, mais vous vous êtes endormi."
+    Judy "Je vous ai demandée de fermer les yeux et d'essayer de vous rappeler les événements d'hier, mais vous vous êtes endormi."
 
 # game/scripts/intro.rpy:123
 translate french intro_f849aeca:
@@ -112,7 +112,7 @@ translate french intro_f849aeca:
 translate french intro_e6742584:
 
     # Judy "Hmm... try sitting back in your chair and relaxing. Make yourself comfortable."
-    Judy "Hmm... essayez de vous asseoir sur votre chaise et de vous détendre. Mettez-vous à l'aise."
+    Judy "Hmm... essayez de vous rasseoir et de vous détendre. Mettez-vous à l'aise."
 
 # game/scripts/intro.rpy:127
 translate french intro_6a73eb1c:
@@ -2031,3 +2031,4 @@ translate french strings:
     # scripts\intro.rpy:378
     old "Kiss Linda on the lips."
     new "Embrasser Linda sur les lèvres."
+

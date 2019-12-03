@@ -16,7 +16,7 @@ translate french CR3_AS10_label_4f7358b2:
 translate french CR3_AS10_label_80897cc8:
 
     # Caroline "Hi, [player_name]. She’s off today. I don’t need her in."
-    Caroline "Salut, [player_name]. Elle est en congé aujourd'hui. Je n'ai pas besoin d'elle."
+    Caroline "Salut, [player_name]. Elle est en congée aujourd'hui. Je n'ai pas besoin d'elle."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS10.rpy:24
 translate french CR3_AS10_label_5a08631f:
@@ -40,7 +40,7 @@ translate french CR3_AS10_label_0d1e1a7f:
 translate french CR3_AS10_label_baf374ba:
 
     # MC "(Damn, that’s a shame. I was hoping to do some more photography sessions with her.)"
-    MC "(Merde, c'est une honte. J'espérais faire d'autres séances de photographie avec elle.)"
+    MC "(Merde, c'est dommage. J'espérais faire d'autres séances de photographie avec elle.)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS10.rpy:34
 translate french CR3_AS10_label_066ffc1a:

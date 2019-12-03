@@ -599,3 +599,12 @@ translate french ml_bedroom_morning_scene5_v1_label2_menu_after_e9aea860:
 
     # MC "Th-Thanks, Linda."
     MC "Me-Merci, Linda."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_morning_scene5_v1.rpy:90
+translate french ml_bedroom_morning_scene5_v1_label2_0c837c6d:
+
+    # Mom "Hi, Sweetie. I didn’t see you there. What’s up?"
+    Mom "Salut, mon chéri. Je ne t'ai pas vu arriver. Qu'est-ce qu'il y a ?"
+

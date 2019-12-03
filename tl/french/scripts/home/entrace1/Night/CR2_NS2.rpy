@@ -1306,25 +1306,25 @@ translate french CR2_NS2_continue2_f00ffa28:
 translate french CR2_NS2_continue2_79a889ab:
 
     # Caroline "(Time to get my special toy out…)"
-    Caroline "(Il est temps de sortir mon jouet spécialÈ)"
+    Caroline "(Il est temps de sortir mon jouet spécial…)"
 
 # game/scripts/home/entrace1/Night/CR2_NS2.rpy:571
 translate french CR2_NS2_continue2_c4655761:
 
     # Caroline "Hmm… Where did I leave it, after last time?"
-    Caroline "HmmÈ Où l'ai-je laissée, après la dernière fois ?"
+    Caroline "Hmm… Où l'ai-je laissée, après la dernière fois ?"
 
 # game/scripts/home/entrace1/Night/CR2_NS2.rpy:572
 translate french CR2_NS2_continue2_ca6fe192:
 
     # Caroline "I could have sworn I had it under my pillow…"
-    Caroline "J'aurais juré l'avoir sous mon oreillerÈ"
+    Caroline "J'aurais juré l'avoir sous mon oreiller…"
 
 # game/scripts/home/entrace1/Night/CR2_NS2.rpy:573
 translate french CR2_NS2_continue2_c84ed888:
 
     # Caroline "Unless…"
-    Caroline "À moins queÈ"
+    Caroline "À moins que…"
 
 # game/scripts/home/entrace1/Night/CR2_NS2.rpy:577
 translate french CR2_NS2_continue2_3354e588:

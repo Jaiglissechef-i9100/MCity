@@ -161,3 +161,29 @@ translate french LiR1_MAS8_label_5a3b9239:
 
     # MC "(I hope she’s not gonna kill me, and Yazmin is not lying...)"
     MC "(J'espère qu'elle ne va pas me tuer, et Yazmin ne ment pas...)"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS8.rpy:43
+translate french LiR1_MAS8_label_ac1c5604:
+
+    # Yazmin "I seem to recall you, cumming - very... very... hard. And honestly ...rather quickly - when I was riding you."
+    Yazmin "Je crois me souvenir de toi, éjaculant - très... très... durement. Et honnêtement - ...assez vite - quand je t'ai chevaucher."
+
+# game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS8.rpy:44
+translate french LiR1_MAS8_label_70404147:
+
+    # MC "Shush! [Liza2_name] might hear you! Was she not - super pissed off at you, afterwards?"
+    MC "Chut ! [Liza2_name] pourrait t'entendre ! N'était-elle pas - super énervée contre toi, après ?"
+
+# game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS8.rpy:64
+translate french LiR1_MAS8_label_90cfc28d:
+
+    # Yazmin "I’m almost certain she’s not..."
+    Yazmin "Je suis presque certaine qu'elle ne l'est pas..."
+
+# game/scripts/A_home/Outside/Pool/M/scenes/LiR1_MAS8.rpy:70
+translate french LiR1_MAS8_label_2005478f:
+
+    # Yazmin "Anyway, half my degree was in public relations. I’m EXTREMELY good, at swaying people’s opinions."
+    Yazmin "Quoi qu'il en soit, la moitié de mon diplôme était dans les relations publiques. Je suis EXTRÊMEMENT douée, pour influencer les opinions des gens."

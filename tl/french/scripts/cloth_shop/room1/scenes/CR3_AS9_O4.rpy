@@ -118,7 +118,7 @@ translate french CR3_AS9_O4_3af94053:
 translate french CR3_AS9_O4_cd322232:
 
     # Violet "*Whistle*"
-    Violet "*Sifflote*"
+    Violet "*Siffle*"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:176
 translate french CR3_AS9_O4_09b2da96:
@@ -238,7 +238,7 @@ translate french CR3_AS9_O4_f1bc3444:
 translate french CR3_AS9_O4_23c5c551:
 
     # MC "(Damn, Caroline looks incredibly sexy right now - I’ll have to be extra careful, to make sure I don’t get a boner in front of Violet.)"
-    MC "(Merde, Carolinea l'air incroyablement sexy en ce moment - je vais devoir faire très attention, pour m'assurer que je n'ai pas une érection devant Violet)."
+    MC "(Merde, Caroline a l'air incroyablement sexy en ce moment - je vais devoir faire très attention, et m'assurer que je n'ai pas d'érection devant Violet)."
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:214
 translate french CR3_AS9_O4_bc50a8d4:
@@ -712,7 +712,7 @@ translate french CR3_AS9_O4_con2_cb2ca102:
 translate french CR3_AS9_O4_con2_aea4f24c:
 
     # Caroline "(I mean, how much bigger can his cock swell?)"
-    Caroline "(Je veux dire, jusqu'ou peut gonfler sa biter ?)"
+    Caroline "(Je veux dire, jusqu'ou peut gonfler sa bite ?)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:395
 translate french CR3_AS9_O4_con2_05d1b90c:
@@ -928,7 +928,7 @@ translate french CR3_AS9_O4_con2_13431260:
 translate french CR3_AS9_O4_con2_378562f0:
 
     # MC "(Oh shit! She’s masturbating too! She must have excited herself a bit too much!)"
-    MC "(Oh merde ! Elle se masturbe aussi ! Elle a dû s'exciter un peu trop !)"
+    MC "(Oh merde ! Elle se masturbe aussi ! Elle a dûe s'exciter un peu trop !)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:468
 translate french CR3_AS9_O4_con2_0c02db88:
@@ -1162,7 +1162,7 @@ translate french CR3_AS9_O4_con2_7e6a944a:
 translate french CR3_AS9_O4_con2_31738bab:
 
     # Caroline "I’m making this up as I go along, and unfortunately I don’t have a cock of my own - but I imagine that doing this should feel REALLY good, right?"
-    Caroline "J'invente au fur et à mesure, et malheureusement je n'ai pas de bite à moi - mais j'imagine que faire ça devrait être VRAIMENT bon, non ?"
+    Caroline "J'invente au fur et à mesure, et malheureusement je n'ai pas ma propre bite - mais j'imagine que faire ça devrait être VRAIMENT bon, non ?"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:557
 translate french CR3_AS9_O4_con2_97431c7a:
@@ -1288,7 +1288,7 @@ translate french CR3_AS9_O4_con2_08ed5050:
 translate french CR3_AS9_O4_con2_f373faf3:
 
     # Caroline "I know you REALLY want to shoot your cum all over my feet - but this outfit is expensive, and I don’t want white stains on it the first time I’m wearing it!)"
-    Caroline "Je sais que tu veux VRAIMENT me tirer ton sperme partout sur les pieds - mais cette tenue est chère, et je ne veux pas de taches blanches dessus la première fois que je la porte !)"
+    Caroline "Je sais que tu veux VRAIMENT éjaculer ton sperme partout sur mes pieds - mais cette tenue est chère, et je ne veux pas de taches blanches dessus la première fois que je la porte !)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:603
 translate french CR3_AS9_O4_con2_ed4bc493:

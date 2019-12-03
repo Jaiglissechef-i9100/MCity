@@ -11,3 +11,16 @@ translate french Climbing_start0_0b8119e5:
 
     # MC "I've already been there today."
     MC "J'y suis déjà allé aujourd'hui."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+translate french strings:
+
+    # game/scripts/Climbing_mingame.rpy:73
+    old "Play"
+    new "Jouer"
+
+    # game/scripts/Climbing_mingame.rpy:73
+    old "Fuck minigame"
+    new "Argent facile"
+

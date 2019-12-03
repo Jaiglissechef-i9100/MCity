@@ -130,7 +130,7 @@ translate french caroline_cloth_shop_afternoon_scene1_label_0ba04a8c:
 translate french caroline_cloth_shop_afternoon_scene1_label_b78aa1e1:
 
     # Caroline "Amazing, [player_name]! It looks like a really good one too."
-    Caroline "Incroyable, [player_name] ! Elle a l'air d'être très bonne aussi."
+    Caroline "Incroyable, [player_name] ! Il a l’air très bon aussi."
 
 # game/scripts/cloth_shop/room1/scenes/caroline_cloth_shop_afternoon_scene1.rpy:64
 translate french caroline_cloth_shop_afternoon_scene1_label_c59ee1d6:

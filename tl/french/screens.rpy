@@ -353,3 +353,28 @@ translate french strings:
     # screens.rpy:1298
     old "Menu"
     new "Menu"
+
+# TODO: Translation updated at 2019-10-14 05:12
+
+translate french strings:
+
+    # game/screens.rpy:249
+    old "Hide"
+    new "Cacher"
+
+    # game/screens.rpy:294
+    old "Back to Game"
+    new "Retour au jeu"
+
+# TODO: Translation updated at 2019-10-21 21:43
+
+translate french strings:
+
+    # game/screens.rpy:749
+    old "Incest"
+    new "Inceste"
+
+    # game/screens.rpy:750
+    old "Enable"
+    new "Activé"
+

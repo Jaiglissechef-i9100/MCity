@@ -196,7 +196,7 @@ translate french CR3_NS2_label_9f6cd423:
 translate french CR3_NS2_label_20c5cad2:
 
     # Caroline "(He tells me, we need to conserve our heat, and that we should spoon to keep warm. I’m too naive to resist him, and scurry over into his arms.)"
-    Caroline "(Il me dit que nous avons besoin de conserver notre chaleur et que nous devrions nosu mettre cuillère pour nous réchauffer. Je suis trop naïve pour lui résister, et je me précipite dans ses bras.)"
+    Caroline "(Il me dit que nous avons besoin de conserver notre chaleur et que nous devrions nous mettre cuillère pour nous réchauffer. Je suis trop naïve pour lui résister, et je me précipite dans ses bras.)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS2.rpy:122
 translate french CR3_NS2_label_ee70ad83:
@@ -406,13 +406,13 @@ translate french CR3_NS2_label_ee70ad83_1:
 translate french CR3_NS2_label_285666a1:
 
     # Caroline "(With one final thrust, my brother plunges his cock, hard against my panties. They tear to shreds, as his cock forces its way through them, and into my sensitive hole.)"
-    Caroline "(Avec une dernière poussée, mon frère plonge sa bite, si fort contre ma culotte. Il se déchire en lambeaux, sa bite le traverse, et finie dans mon trou sensible.)"
+    Caroline "(Avec une dernière poussée, mon frère plonge sa bite, si fort contre ma culotte. Elle se déchire en lambeaux, sa bite le traverse, et finie dans mon trou sensible.)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS2.rpy:200
 translate french CR3_NS2_label_ff6a81c2:
 
     # Caroline "(With one final thrust, [player_name] plunges his cock, hard against my panties. They tear to shreds, as his cock forces its way through them, and into my sensitive hole.)"
-    Caroline "(Avec une dernière poussée, [player_name] plonge sa bite, si fort contre ma culotte. Il se déchire en lambeaux, sa bite le traverse, et finie dans mon trou sensible.)"
+    Caroline "(Avec une dernière poussée, [player_name] plonge sa bite, si fort contre ma culotte. Elle se déchire en lambeaux, sa bite le traverse, et finie dans mon trou sensible.)"
 
 # game/scripts/home/caroline_room/night/scenes/CR3_NS2.rpy:202
 translate french CR3_NS2_label_adfb4193:

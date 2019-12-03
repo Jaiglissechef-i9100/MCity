@@ -214,7 +214,7 @@ translate french CR3_AS4_O2_4b3037d1:
 translate french CR3_AS4_O2_303d4f52:
 
     # Violet "Annnnnd.... Showtime!"
-    Violet "Etttttt.... C'est l'heure du spectacle !"
+    Violet "Etttttt.... Showtime !"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS4_O2.rpy:92
 translate french CR3_AS4_O2_aebcc312:

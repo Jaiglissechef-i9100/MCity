@@ -532,7 +532,7 @@ translate french SR2_NS4_rep_14778c02:
 translate french SR2_NS4_rep_934c8571:
 
     # Sara "(How do women in porn take it in the ass so easily?! Is it practice? Or is it because they’ve got bigger bodies than I do?)"
-    Sara "(Comment les femmes dans le porno se prennent-elles si facilement dans le cul ?! C'est de la pratique ? Ou est-ce parce qu'ils ont des corps plus gros que les miens ?)"
+    Sara "(Comment les femmes dans le porno se prennent-elles si facilement dans le cul ?! C'est de la pratique ? Ou est-ce parce qu'elles ont des corps plus gros que les miens ?)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/SR2_NS4_rep.rpy:179
 translate french SR2_NS4_rep_256b85e4:
@@ -1024,7 +1024,7 @@ translate french SR2_NS4_rep_a44ee2be:
 translate french SR2_NS4_rep_fd729e19:
 
     # Sara "(This almost feels as good as when I use that vibrator [player_name] bought for me."
-    Sara "(C'est presque aussi agréable que lorsque j'utilise le vibro que [player_name] m'a acheté."
+    Sara "(C'est presque aussi agréable que lorsque j'utilise le vibro que [player_name] m'a acheté.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/SR2_NS4_rep.rpy:344
 translate french SR2_NS4_rep_0361910e:

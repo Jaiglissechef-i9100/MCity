@@ -22,13 +22,13 @@ translate french MLR3_NS2_dd739b89:
 translate french MLR3_NS2_48c1e588:
 
     # "*Creak*"
-    "*Creak*"
+    "*Grincement*"
 
 # game/scripts/home/mc_room/night/scenes/MLR3_NS2.rpy:142
 translate french MLR3_NS2_48c1e588_1:
 
     # "*Creak*"
-    "*Creak*"
+    "*Grincement*"
 
 # game/scripts/home/mc_room/night/scenes/MLR3_NS2.rpy:146
 translate french MLR3_NS2_14803739:
@@ -1174,7 +1174,7 @@ translate french MLR3_NS2_con2_d6da0ff5:
 translate french MLR3_NS2_con2_48c1e588:
 
     # "*Creak*"
-    "*Creak*"
+    "*Craquement*"
 
 # game/scripts/home/mc_room/night/scenes/MLR3_NS2.rpy:595
 translate french MLR3_NS2_con2_5c1879d0:
@@ -1186,7 +1186,7 @@ translate french MLR3_NS2_con2_5c1879d0:
 translate french MLR3_NS2_con2_48c1e588_1:
 
     # "*Creak*"
-    "*Creak*"
+    "*Craquement*"
 
 # game/scripts/home/mc_room/night/scenes/MLR3_NS2.rpy:597
 translate french MLR3_NS2_con2_f1e73f4a_1:

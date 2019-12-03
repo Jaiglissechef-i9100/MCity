@@ -4,7 +4,7 @@
 translate french CR3_week_rep_bb7c2d66:
 
     # MC "(Hmm... The deal is off right now. I might as well get - one final night - of fun with her.)"
-    MC "(Hmm... Le marché est annulé en ce monent. Autant que je - m'amuse avec elle - un dernier soir.)"
+    MC "(Hmm... Le marché est annulé en ce moment. Autant que je - m'amuse avec elle - un dernier soir.)"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_week_rep.rpy:13
 translate french CR3_week_rep_5b234eb9:

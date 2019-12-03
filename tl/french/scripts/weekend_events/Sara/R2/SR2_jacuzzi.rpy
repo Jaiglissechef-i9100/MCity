@@ -652,7 +652,7 @@ translate french after_menu_SR2_jacuzzi_scene_label_db5385c6:
 translate french after_menu_SR2_jacuzzi_scene_label_2f7c9348:
 
     # Sara "(Gulp)"
-    Sara "(Gulp)"
+    Sara "(Avale)"
 
 # game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:322
 translate french after_menu_SR2_jacuzzi_scene_label_4ef2a264:
@@ -712,7 +712,7 @@ translate french after_menu_SR2_jacuzzi_scene_label_db5385c6_1:
 translate french after_menu_SR2_jacuzzi_scene_label_2f7c9348_1:
 
     # Sara "(Gulp)"
-    Sara "(Gulp)"
+    Sara "(Avale)"
 
 # game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:349
 translate french after_menu_SR2_jacuzzi_scene_label_4ef2a264_1:
@@ -883,3 +883,4 @@ translate french strings:
     # scripts\weekend_events\Sara\R2\SR2_jacuzzi.rpy:297
     old "Spray your seed over Sara’s pretty face."
     new "Vaporisez votre sperme sur le joli visage de Sara."
+

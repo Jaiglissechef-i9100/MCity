@@ -1450,7 +1450,7 @@ translate french strings:
 
     # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:299
     old "Cum inside her mouth."
-    new "Spermer dans sa bouche."
+    new "Ejaculer dans sa bouche."
 
     # scripts\home\mc_room\night\scenes\ml_mc_room_night_scene3_v1.rpy:299
     old "Pull out and cum on her face."

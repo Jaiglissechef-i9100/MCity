@@ -525,3 +525,4 @@ translate french strings:
     # scripts\weekend_events\Sara\R2\SR2_waterslide.rpy:52
     old "Tell Sara to start climbing, and that you’ll be right behind her."
     new "Dites à Sara de commencer à grimper, et que vous serrez juste derrière elle."
+

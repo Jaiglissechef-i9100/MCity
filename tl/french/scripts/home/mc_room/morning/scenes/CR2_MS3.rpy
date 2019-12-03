@@ -127,9 +127,18 @@ translate french strings:
     new "{color=#00ff00}Bien sûr ! J'en ai deux cents ici.{/color}"
 
     # scripts\home\mc_room\morning\scenes\CR2_MS3.rpy:37
-    old "Of course, I have two hundred here. (disabled)"
-    new "Bien sûr, j'en ai deux cents ici. (désactivé)"
+    old "Of course, I have two hundred here."
+    new "Bien sûr, j'en ai deux cents ici."
 
     # scripts\home\mc_room\morning\scenes\CR2_MS3.rpy:37
     old "Sorry, Caroline. I’m really short on money too right now."
     new "Désolé, Caroline. Moi aussi, je suis à court d'argent en ce moment."
+
+# TODO: Translation updated at 2019-10-17 09:01
+
+translate french strings:
+
+    # game/scripts/home/mc_room/morning/scenes/CR2_MS3.rpy:37
+    old "Of course, I have two hundred here. (disabled)"
+    new "Of course, I have two hundred here. (disabled)"
+

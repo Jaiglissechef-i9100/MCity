@@ -484,13 +484,13 @@ translate french CR3_NS5_label_eb70cae2:
 translate french CR3_NS5_label_ab316f55:
 
     # Caroline "Mom, Dad, Sara, our friends, extended family, the neighbours… The list of people who would disapprove of us is endless."
-    Caroline "Maman, Papa, Sara, nos amis, les voisins… La liste des gens qui nous désapprouvent est sans fin."
+    Caroline "Maman, Papa, Sara, nos amis, les voisins… La liste des gens qui nous désapprouveraient est sans fin."
 
 # game/scripts/home/mc_room/night/scenes/CR3_NS5.rpy:279
 translate french CR3_NS5_label_4f7e2f50:
 
     # Caroline "Linda, Bob, Sara, our friends, the neighbours… The list of people who would disapprove of us is endless."
-    Caroline "Linda, Bob, Sara, nos amis, les voisins… La liste des gens qui nous désapprouvent est sans fin."
+    Caroline "Linda, Bob, Sara, nos amis, les voisins… La liste des gens qui nous désapprouveraient est sans fin."
 
 # game/scripts/home/mc_room/night/scenes/CR3_NS5.rpy:280
 translate french CR3_NS5_label_32f76880:

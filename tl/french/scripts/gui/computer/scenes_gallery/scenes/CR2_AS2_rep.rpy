@@ -461,3 +461,12 @@ translate french CR2_AS2_rep_5cc8951a:
 
     # Caroline "Wow! You REALLY enjoyed using my ass, didn’t you?"
     Caroline "Wow ! Tu as VRAIMENT aimé te servir de mon cul, n'est-ce pas ?"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/gui/computer/scenes_gallery/scenes/CR2_AS2_rep.rpy:76
+translate french CR2_AS2_rep_2ebbf06e:
+
+    # MC "(Caroline has such a plump ass - it’s gonna feel amazing when they’re wrapped, either side of my cock!)"
+    MC "(Caroline a un cul si dodu - ça va être génial quand il enveloppera, chaque côté de ma bite !)"
+

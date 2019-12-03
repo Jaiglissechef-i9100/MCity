@@ -70,7 +70,7 @@ translate french MLR3_b_house_wait_cb6cacb2:
 translate french MLR3_b_house_wait_23cd615a:
 
     # MC "(What position will we do it in the first time?"
-    MC "(Quelle position adopterons-nous la première fois ?"
+    MC "(Quelle position adopterons-nous la première fois ?)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_wait.rpy:52
 translate french MLR3_b_house_wait_cc5e6214:
@@ -100,7 +100,7 @@ translate french MLR3_b_house_wait_0b6b0cb7:
 translate french MLR3_b_house_wait_669b9d71:
 
     # MC "(This is like the most modern bathroom I’ve ever seen!)"
-    MC "(C'est la salle de bain la plus moderne que j'aie jamais vue !)"
+    MC "(C'est la salle de bain la plus moderne que j'ai jamais vue !)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_wait.rpy:69
 translate french MLR3_b_house_wait_c3520300:
@@ -118,7 +118,7 @@ translate french MLR3_b_house_wait_8ff630e8:
 translate french MLR3_b_house_wait_ecba8752:
 
     # MC "I’m getting all excited at the thought of fucking her, up against the wall of the shower.)"
-    MC "Je suis tout excité à l'idée de la baiser, contre le mur de la douche.)"
+    MC "(Je suis tout excité à l'idée de la baiser, contre le mur de la douche.)"
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_wait.rpy:78
 translate french MLR3_b_house_wait_03a16630:

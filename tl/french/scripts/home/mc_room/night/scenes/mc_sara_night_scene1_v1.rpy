@@ -172,7 +172,7 @@ translate french mc_sara_night_scene1_v1_label_f4d4e06e:
 translate french mc_sara_night_scene1_v1_label_39f8e28f:
 
     # Sara "I’ll- I’ll do anything! Just don’t tell Dad!"
-    Sara "Je ferais n'importe quoi ! Ne le dis pas àPapa !"
+    Sara "Je ferais n'importe quoi ! Ne le dis pas à Papa !"
 
 # game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:92
 translate french mc_sara_night_scene1_v1_label_02015110:
@@ -449,4 +449,12 @@ translate french after_mc_sara_night_scene1_v1_choice_813b79bf:
 
     # MC "(I’ve never seen her that emotional before.)"
     MC "(Je ne l'ai jamais vue aussi émotive.)"
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/home/mc_room/night/scenes/mc_sara_night_scene1_v1.rpy:81
+translate french mc_sara_night_scene1_v1_label_ac6b0352:
+
+    # MC "What are you doing?"
+    MC "Qu'est-ce que tu fais ?"
 

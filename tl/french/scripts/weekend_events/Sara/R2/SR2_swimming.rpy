@@ -269,3 +269,4 @@ translate french SR2_swimming_label_409a390e:
 
     # Sara "Haha! Okay, let’s call it a day."
     Sara "Haha ! Ok, on arrête là pour aujourd'hui."
+

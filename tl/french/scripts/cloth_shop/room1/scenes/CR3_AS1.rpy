@@ -4,7 +4,7 @@
 translate french CR3_AS1_label_f93a9a05:
 
     # MC "(Maybe I should speak to her while she's not in the shop? She probably thinking about the stuff we did in here...)"
-    MC "(Je devrais peut-être lui parler pendant qu'elle n'est pas au magasin ? Elle pense probablement à ce qu'on a fait ici...)"
+    MC "(Je devrais peut-être lui parler quand elle n'est pas au magasin ? Elle pense probablement à ce qu'on a fait ici...)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS1.rpy:25
 translate french CR3_AS1_label_5630e9ed:
@@ -34,7 +34,7 @@ translate french CR3_AS1_label_d3a299ad:
 translate french CR3_AS1_label_f93a9a05_1:
 
     # MC "(Maybe I should speak to her while she's not in the shop? She probably thinking about the stuff we did in here...)"
-    MC "(Je devrais peut-être lui parler pendant qu'elle n'est pas au magasin ? Elle pense probablement à ce qu'on a fait ici...)"
+    MC "(Je devrais peut-être lui parler quand elle n'est pas au magasin ? Elle pense probablement à ce qu'on a fait ici...)"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS1.rpy:40
 translate french CR3_AS1_label_59d2df8d:

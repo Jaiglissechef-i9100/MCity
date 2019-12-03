@@ -630,3 +630,11 @@ translate french strings:
     old "{color=#00ff00}Ask Bob how work is going.{/color}"
     new "{color=#00ff00}Demander à Bob comment va le travail.{/color}"
 
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/Bob_work/Office/M/scenes/Bobv2_MS1.rpy:287
+translate french bob_work_money_give_2b92be3b:
+
+    # "You receive {color=#00ff00}[bob_payment_money]${/color}."
+    "Vous avez reçu {color=#00ff00}[bob_payment_money]${/color}."
+

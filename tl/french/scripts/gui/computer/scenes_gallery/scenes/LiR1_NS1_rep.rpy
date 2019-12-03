@@ -4,7 +4,7 @@
 translate french LiR1_NS1_rep_b39ef889:
 
     # MC "*Whistle*"
-    MC "*Sifflote*"
+    MC "*Siffle*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/LiR1_NS1_rep.rpy:13
 translate french LiR1_NS1_rep_6f13d62f:

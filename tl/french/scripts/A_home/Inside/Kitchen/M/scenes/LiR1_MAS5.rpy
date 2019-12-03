@@ -4,7 +4,7 @@
 translate french LiR1_MAS5_label_91a14666:
 
     # Yazmin "Oh! I didn’t hear you come in, [player_name]. How’s it going?"
-    Yazmin "Oh ! Je ne t'ai pas entendu entrer, [player_name]. Comment vas-tu ??"
+    Yazmin "Oh ! Je ne t'ai pas entendue entrer, [player_name]. Comment vas-tu ??"
 
 # game/scripts/A_home/Inside/Kitchen/M/scenes/LiR1_MAS5.rpy:33
 translate french LiR1_MAS5_label_18466855:
@@ -382,7 +382,7 @@ translate french LiR1_MAS5_label_dff67627:
 translate french LiR1_MAS5_label_effeb538:
 
     # Yazmin "(Whispered) Well, let me tell you a little fantasy of mine, too. I swing both ways, it doesn't matter to me, if you’ve got a pussy or a cock."
-    Yazmin "Laisse-moi te dire un peu de ma fantaisie, moi aussi. Je me balance dans les deux sens, peu m'importe que tu aies une chatte ou une bite."
+    Yazmin "<Chuchotant> Laisse-moi te dire un peu de ma fantaisie, aussi. J'ai le cul entre deux chaises, peu m'importe que tu aies une chatte ou une bite."
 
 # game/scripts/A_home/Inside/Kitchen/M/scenes/LiR1_MAS5.rpy:156
 translate french LiR1_MAS5_label_9cc581b0:
@@ -424,7 +424,7 @@ translate french LiR1_MAS5_label_3c5f5ac1:
 translate french LiR1_MAS5_label_2ed1b5e5:
 
     # Liza "I know EXACTLY what you were doing!"
-    Liza "Je sais EXACTEMENT ce que vous faisiez !"
+    Liza "Je sais EXACTEMENT ce que tu faisais !"
 
 # game/scripts/A_home/Inside/Kitchen/M/scenes/LiR1_MAS5.rpy:169
 translate french LiR1_MAS5_label_93164d5d:
@@ -436,7 +436,7 @@ translate french LiR1_MAS5_label_93164d5d:
 translate french LiR1_MAS5_label_71749475:
 
     # Liza "You’re procrastinating! I told you to book the restaurant - for tonight - like ten minutes ago!"
-    Liza "Vous tergiversez ! Je t'ai dit de réserver le restaurant - pour ce soir - il y a dix minutes !"
+    Liza "Tu tergiversais ! Je t'ai dit de réserver le restaurant - pour ce soir - il y a dix minutes !"
 
 # game/scripts/A_home/Inside/Kitchen/M/scenes/LiR1_MAS5.rpy:174
 translate french LiR1_MAS5_label_de8174f0:
@@ -466,4 +466,4 @@ translate french LiR1_MAS5_label_3cb45cb1:
 translate french LiR1_MAS5_label_77c7f65d:
 
     # MC "(Fuck me... That was FAR too close!)"
-    MC "(Putain... J'ai eu CHAUD aux fesses !)"
+    MC "(Putain... J'ai eu CHAUD au cul !)"

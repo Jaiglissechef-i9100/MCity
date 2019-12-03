@@ -125,3 +125,12 @@ translate french celia_school_morning_scene1bv1_label_920522b9:
 
     # Celia "Goodbye, [player_name]."
     Celia "Au revoir, [player_name]."
+
+# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/school/teacher_room1/morning/scenes/celia_school_morning_scene1bv1_label.rpy:43
+translate french celia_school_morning_scene1bv1_label_55183c3b:
+
+    # Celia "My husband’s away on a business trip, so we’ll sit down and hammer out a solid strategy for catching this prick."
+    Celia "Mon mari est en voyage d'affaires, alors on va s'asseoir et élaborer une stratégie solide pour attraper ce connard."
+

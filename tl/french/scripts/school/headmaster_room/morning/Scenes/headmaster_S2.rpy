@@ -184,7 +184,7 @@ translate french headmaster_S2_b33f2b2a:
 translate french headmaster_S2_b393087e:
 
     # Headmaster "Hnng… *Cough*"
-    Headmaster "Hnng... *Toux*"
+    Headmaster "Hnng... *Tousse*"
 
 # game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:115
 translate french headmaster_S2_823a5032:
@@ -196,7 +196,7 @@ translate french headmaster_S2_823a5032:
 translate french headmaster_S2_12938a6e:
 
     # Headmaster "Y-Yeah, just a- Mmm- *Cough* chesty cough."
-    Headmaster "Ou-Ouai, juste une Mmm- *Toux* toux sèche."
+    Headmaster "Ou-Ouai, juste une Mmm- *Tousse* toux sèche."
 
 # game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:120
 translate french headmaster_S2_fb056c2f:
@@ -214,7 +214,7 @@ translate french headmaster_S2_af531bd1:
 translate french headmaster_S2_c8dc49c1:
 
     # Headmaster "Mmm! *Cough*"
-    Headmaster "Mmm ! *Toux*"
+    Headmaster "Mmm ! *Tousse*"
 
 # game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:126
 translate french headmaster_S2_99c3ae7b:
@@ -406,7 +406,7 @@ translate french headmaster_S2_df2eb9f5:
 translate french headmaster_S2_9a6b84ff:
 
     # Cindy "*Cough* A-All done!"
-    Cindy "*Toux* C-C'est fini !"
+    Cindy "*Tousse* C-C'est fini !"
 
 # game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:215
 translate french headmaster_S2_9bd6ccdb:

@@ -106,7 +106,7 @@ translate french B2_AS1_label_321ddb57:
 translate french B2_AS1_label_fb589700:
 
     # MC "What’s… cooking?"
-    MC "QQu'est-ce que tu… mijote ?"
+    MC "Qu'est-ce que je… mijote ?"
 
 # game/scripts/home/ml_and_f_bedroom/day/scenes/B2_AS1.rpy:76
 translate french B2_AS1_label_4e5f4c3c:
@@ -644,4 +644,11 @@ translate french strings:
 
     # scripts\home\ml_and_f_bedroom\day\scenes\B2_AS1.rpy:82
     old "Have you got any advice for finding a girlfriend?"
-    new "Tu as des conseils pour trouver une copine ?"
+    new "Tu as des conseils pour trouver une copine ?"# TODO: Translation updated at 2019-10-14 23:12
+
+# game/scripts/home/ml_and_f_bedroom/day/scenes/B2_AS1.rpy:374
+translate french B2_AS1_payment2_2b92be3b:
+
+    # "You receive {color=#00ff00}[bob_payment_money]${/color}."
+    "Vous avez reçu {color=#00ff00}[bob_payment_money]${/color}."
+

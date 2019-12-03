@@ -64,7 +64,7 @@ translate french ml_work_day_scene1_v1_label_b21b84b2:
 translate french ml_work_day_scene1_v1_label_c5571735:
 
     # MC "Okay, Mom. I’ll be careful!"
-    MC "Ok, Mom. Je ferai attention !"
+    MC "Ok, Maman. Je ferai attention !"
 
 # game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:43
 translate french ml_work_day_scene1_v1_label_65c6aa54:
@@ -130,7 +130,7 @@ translate french ml_work_day_scene1_v1_label_after_minigame_80c1f08e:
 translate french ml_work_day_scene1_v1_label_after_minigame_77a795ef:
 
     # Mom "Say - how would you like to earn another $50?"
-    Mom "Dit - Ça vous dirait de gagner $50 de plus ?"
+    Mom "Dit - Ça te dirais de gagner $50 de plus ?"
 
 # game/scripts/ml_work/room1/scenes/ml_work_day_scene1_v1.rpy:74
 translate french ml_work_day_scene1_v1_label_after_minigame_85979b00:
