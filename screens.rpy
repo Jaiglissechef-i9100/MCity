@@ -151,7 +151,7 @@ init -501 screen say(who, what):
 
         text what id "what"
 
-
+        use quick_menu
 
 
     if not renpy.variant("small"):
@@ -876,16 +876,6 @@ init -501 screen preferences() tag menu:
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
-                vbox:
-                    style_prefix "check"
-                    label _("Skip Minigames")
-                    textbutton "True" action SetField(persistent, 'skip_mg', True)
-                    textbutton "False" action SetField(persistent, 'skip_mg', False)
-
-
-
-
-
             null height (4 * gui.pref_spacing)
 
             hbox:
@@ -1352,7 +1342,7 @@ init -501 screen skip_indicator():
 
 
 
-transform -1 delayed_blink(delay, cycle):
+transform delayed_blink(delay, cycle):
     alpha .5
 
     pause delay
@@ -1401,7 +1391,7 @@ init -501 screen notify(message):
     timer 3.25 action Hide('notify')
 
 
-transform -1 notify_appear:
+transform notify_appear:
     on show:
         alpha 0
         linear .25 alpha 1.0

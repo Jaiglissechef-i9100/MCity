@@ -192,7 +192,7 @@ label CR4_ES1_menu:
             MC "Yeah."
 
             scene CR4_ES1_p13
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "I uh… I wasn’t in a great place after Grandma passed away."
             else:
                 Caroline "I uh… I wasn’t in a great place after my grandma passed away."
@@ -316,7 +316,7 @@ label CR4_ES1_menu:
             scene CR4_ES1_kiss_p12
             Caroline "How about I go even lower now?"
             Caroline "Would you like me to wrap my lips around your hard cock?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all our family home!)"
             else:
                 MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our roommates home!)"

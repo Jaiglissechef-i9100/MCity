@@ -33,9 +33,8 @@ image Ne_cmg_p15a = "images/Ne_1/ES1/C_mg/15a.jpg"
 image Ne_cmg_p16a = "images/Ne_1/ES1/C_mg/16a.jpg"
 
 default Ne_cmg = 1
+
 label Ne_c_mg:
-    if persistent.skip_mg == True:
-        $ Ne_cmg = 5
     hide screen map_button
     $ renpy.block_rollback()
     $ w_bar = 527

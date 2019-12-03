@@ -575,6 +575,8 @@ default judy_q2 = False
 default violetV2_scene = False
 default can_Bob_work_minigame = True
 
+default jack_frost = False
+default persistent.incest_patch = False
 
 init python:
 

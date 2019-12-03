@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 transform rotation1:
     around (.5, .5) alignaround (.5, .5) xalign .5 yalign .5
     rotate 12
@@ -104,21 +97,15 @@ label pool_minigame_start:
     $ pool_B3 = True
     $ pool_B4 = True
     $ pool_B5 = True
-    if persistent.skip_mg == True:
-        scene black
-
-        jump pool_minigame_end
-    else:
-        if clean_loop == 1:
-            scene pool_minigame_bg
-            call screen pool_minigame_scr
-        if clean_loop == 2:
-            scene pool_minigame_bg2
-            call screen pool_minigame_scr2
-        if clean_loop == 3:
-            scene pool_minigame_bg3
-            call screen pool_minigame_scr3
-
+    if clean_loop == 1:
+        scene pool_minigame_bg
+        call screen pool_minigame_scr
+    if clean_loop == 2:
+        scene pool_minigame_bg2
+        call screen pool_minigame_scr2
+    if clean_loop == 3:
+        scene pool_minigame_bg3
+        call screen pool_minigame_scr3
 
 label pool_minigame_loop:
     $ clickable = True

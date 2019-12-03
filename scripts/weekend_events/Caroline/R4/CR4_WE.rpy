@@ -552,7 +552,7 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p36
     Caroline " Seriously, [player_name], you’re amazing."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track Gran’s necklace down."
     else:
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track my gran’s necklace down."

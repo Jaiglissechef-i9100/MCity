@@ -33,8 +33,6 @@ label CR4_warehouse:
     MC "(I’m gonna have to be careful with how I proceed.)"
 
     $ can_hide_windows = False
-    if persistent.skip_mg == True:
-        jump CR4_warehouse_con
     show screen week_day_viewer
     show screen time_skip_button
     show screen day_time_viewer
