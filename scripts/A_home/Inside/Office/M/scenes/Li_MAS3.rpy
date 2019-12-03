@@ -242,7 +242,7 @@ label Li_MAS3_menu:
 
             scene LiR1_MAS3_p5
 
-            Yazmin "Then - I came into the picture - and started dating her sister. Prior to me coming along - your mother and Liza were inseparable. They might has well have been inseparable."
+            Yazmin "Then - I came into the picture - and started dating her sister. Prior to me coming along - your mother and Liza were inseparable. They might has well have been best friends."
             Yazmin "Your mother has mellowed, in recent years, but it’s still left some open wounds between her and your auntie. I think she still views me - as stealing Liza away from her."
             MC "Fuck... I’m sorry... I never knew she was like that..."
 
