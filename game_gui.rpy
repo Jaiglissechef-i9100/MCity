@@ -415,8 +415,8 @@ screen time_skip_button:
         focus_mask True
         idle Transform("images/game_gui/icons/Walk.png", zoom=.4)
         hover Transform("images/game_gui/icons/WalkHover.png", zoom=.4)
-        action [Hide("displayTextScreen"), Show ("Walk_Throught") ]
-        hovered Show("displayTextScreen", displayText = __("Walkthrough"))
+        action [Hide("displayTextScreen"), Show ("modmenu") ]
+        hovered Show("displayTextScreen", displayText = __("Lain's Walkthrough Mod"))
         unhovered Hide("displayTextScreen")
 
     if jack_frost == False:
