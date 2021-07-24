@@ -269,7 +269,6 @@ label CR4_MS1_blow:
             jump CR4_MS1_blow_con1
         "...":
 
-
             Caroline "MPPLFFFF!!!"
             MC "Ugh! Fuck! Ahh!"
 

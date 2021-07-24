@@ -88,12 +88,13 @@ init:
     image D8 = "work2minigame/D8.png"
 
 label bob_deskwork_label:
+    $ can_hide_windows = False
+    $ renpy.block_rollback()
+    $ renpy.music.stop(channel="memoriax_m", fadeout=1)
+    $ A = "work2minigame/D1.png"
+
     menu:
         "Play":
-            $ can_hide_windows = False
-            $ renpy.block_rollback()
-            $ renpy.music.stop(channel="memoriax_m", fadeout=1)
-            $ A = "work2minigame/D1.png"
 
             $ bob_doc = ["D2","D2","D2","D2","D3","D3","D3","D3","D4","D4","D4","D4","D5","D5","D5","D5","D6","D6","D6","D6","D7","D7","D7","D7","D8","D8","D8","D8"]
             $ boob_roll1 = renpy.random.choice(["D2","D3","D4","D5","D6","D7","D8"])
@@ -153,7 +154,7 @@ label bob_deskwork_label:
 
                 jump bob_game_loop
         "{image=cheat_code}":
-            jump bob_game_win
+            jump bob_deskwork_label_fuckminigames
 
 label bob_game_lose:
     if memo_timer > 0.1:
@@ -180,6 +181,15 @@ label bob_game_win:
         $ renpy.music.stop(channel="memoriax_m", fadeout=1)
         $ bob_work_loop += 1
         jump bob_deskwork_label
+
+label bob_deskwork_label_fuckminigames:
+    $ renpy.block_rollback()
+    $ bobwork_w += 1
+    $ renpy.music.stop(channel="memoriax_m", fadeout=1)
+    $ renpy.sound.play("sfx/win_sound.wav")
+    $ can_Bob_work_minigame = False
+    $ money_from_bob += 1
+    call screen bob_work_done_scr
 
 screen bob_work_done_scr:
 

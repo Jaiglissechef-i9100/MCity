@@ -120,7 +120,6 @@ screen say(who, what):
                 text who id "who"
 
         text what id "what"
-        use quick_menu
 
         use quick_menu
 

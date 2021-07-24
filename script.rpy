@@ -139,7 +139,7 @@ default Celia_max = 5
 default Caroline_points = 1
 default Caroline_max = 5
 default ml_points = 1
-default ml_max = 7
+default ml_max = 5
 default Sidra_name = "Sidra"
 default Isla_name = "???"
 
@@ -281,8 +281,8 @@ default sms_Caroline6_french = Sms("sCaroline" , sphoto1=False, mtext="Merci de 
 default sms_Caroline8 = Sms("sCaroline" , sphoto1=False, mtext="You're stupid...")
 default sms_Caroline8_french = Sms("sCaroline" , sphoto1=False, mtext="Tu es stupide...")
 default sms_Caroline7 = Sms("sCaroline" , simage="images/phone_sms/caroline/4_small.jpg", sphoto="images/phone_sms/caroline/4.jpg", sphoto1=True,)
-default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext="You've asked about a date while we were at that nightclub... Let's go tomorrow!")
-default sms_Caroline10_french = Sms("sCaroline" , sphoto1=False, mtext="Tu m'as demandé un rencard quand on était dans cette boîte de nuit... Allons-y demain !")
+default sms_Caroline10 = Sms("sCaroline" , sphoto1=False, mtext="You've asked about a date while we were at that nightclub... Let's go tonight!")
+default sms_Caroline10_french = Sms("sCaroline" , sphoto1=False, mtext="Tu m'as demandé un rencard quand on était dans cette boîte de nuit... Allons-y ce soir !")
 default sms_Caroline9 = Sms("sCaroline" , simage="images/phone_sms/caroline/5_small.jpg", sphoto="images/phone_sms/caroline/5.jpg", sphoto1=True,)
 default sms_Caroline11 = Sms("sCaroline" , sphoto1=False, mtext="That was the best date in my entire life <3” I should stop drinking for a while, shouldn't I? Haha")
 default sms_Caroline11_french = Sms("sCaroline" , sphoto1=False, mtext="C'était le meilleur rendez-vous de toute ma vie <3” Je devrais arrêter de boire un moment, non ? Haha")

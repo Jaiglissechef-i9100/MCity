@@ -258,7 +258,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
 
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara2,),addSms(sms_Sara1_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara2_french,),addSms(sms_Sara1_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms1_from_sara",3), SetVariable("Sara_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -279,7 +279,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara3),addSms(sms_Sara4),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara3_french),addSms(sms_Sara4_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms2_from_sara",3), SetVariable("Sara_unread_alert", False),SetVariable("can1_sms2_from_sara",False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -289,7 +289,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara3_french),addSms(sms_Sara4),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara3),addSms(sms_Sara4),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms2_from_sara",3), SetVariable("Sara_unread_alert", False),SetVariable("can1_sms2_from_sara",False)]
             timer 2.26 action Hide ("new_message_incoming1")
     if can_sms3_from_sara == 1 and day_time == 4:
@@ -300,7 +300,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
 
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara5_french),addSms(sms_Sara6),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara5_french),addSms(sms_Sara6_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms3_from_sara",3), SetVariable("Sara_unread_alert", False)]
             timer 2.26 action Hide ("sms3_from_sara")
         else:
@@ -321,7 +321,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
 
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara7),addSms(sms_Sara8_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara7_french),addSms(sms_Sara8_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms4_sara",False), SetVariable("Sara_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -342,7 +342,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara9),addSms(sms_Sara10_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara9_french),addSms(sms_Sara10_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms5_sara",False), SetVariable("Sara_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -363,7 +363,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara11),addSms(sms_Sara12_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara11_french),addSms(sms_Sara12_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms6_sara",False), SetVariable("Sara_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -385,7 +385,7 @@ screen new_message_incoming1:
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
             if not sms_Sara13 in sms_box.sms_s:
-                timer 0.001 action [SetVariable("Sara_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara13),addSms(sms_Sara14_french),Show("new_message_incoming1_NC")]
+                timer 0.001 action [SetVariable("Sara_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Sara13_french),addSms(sms_Sara14_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms7_sara",False),]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -408,7 +408,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
 
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda1_french),addSms(sms_Linda2),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda1_french),addSms(sms_Linda2_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms1_from_ml",False), SetVariable("Linda_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -429,7 +429,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda3_french),addSms(sms_Linda4),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda3_french),addSms(sms_Linda4_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms2_from_ml",False), SetVariable("Linda_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -450,7 +450,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda5_french),addSms(sms_Linda6),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda5_french),addSms(sms_Linda6_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("can_sms3_from_ml",False), SetVariable("Linda_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -471,7 +471,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda7),addSms(sms_Linda8_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Linda7_french),addSms(sms_Linda8_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms4_ml",False), SetVariable("Linda_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -493,7 +493,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri2),addSms(sms_Zuri1_french),addContact(cZuri),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri2_french),addSms(sms_Zuri1_french),addContact(cZuri),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms1_fromZuri",False), SetVariable("Zuri_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -503,7 +503,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri2),addSms(sms_Zuri1_french),addContact(cZuri),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri2),addSms(sms_Zuri1),addContact(cZuri),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms1_fromZuri",False), SetVariable("Zuri_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
     if sms2_fromZuri == True and day_time == 3:
@@ -514,7 +514,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri4),addSms(sms_Zuri3_french),addContact(cZuri),SetVariable("zuri_inhome", True), Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Zuri4_french),addSms(sms_Zuri3_french),addContact(cZuri),SetVariable("zuri_inhome", True), Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms2_fromZuri",False), SetVariable("Zuri_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -536,7 +536,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline1),addSms(sms_Caroline2_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline1_french),addSms(sms_Caroline2_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms1_fromC",False), SetVariable("Caroline_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -557,7 +557,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"),SetVariable("CR2_NS3", True), addSms(sms_Caroline3),addSms(sms_Caroline4_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"),SetVariable("CR2_NS3", True), addSms(sms_Caroline3_french),addSms(sms_Caroline4_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms2_fromC",False), SetVariable("Caroline_unread_alert", False), SetVariable("CR2_NS3_MCtalk", True)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -578,7 +578,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
     
-            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline5),addSms(sms_Caroline6_french),Show("new_message_incoming1_NC")]
+            timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline5_french),addSms(sms_Caroline6_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("sms3_fromC",False), SetVariable("Caroline_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -599,7 +599,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Caroline7 in sms_box.sms_s:
-                timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline7),addSms(sms_Caroline8_french),Show("new_message_incoming1_NC")]
+                timer 0.001 action [Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline7_french),addSms(sms_Caroline8_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("C_SMS4",False), SetVariable("Caroline_unread_alert", False)]
             timer 2.26 action Hide ("new_message_incoming1")
         else:
@@ -620,7 +620,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Caroline9 in sms_box.sms_s:
-                timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline9),addSms(sms_Caroline10_french),Show("new_message_incoming1_NC")]
+                timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline9_french),addSms(sms_Caroline10_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("C_SMS5",False),]
             timer 2.26 action [Hide ("new_message_incoming1")]
         else:
@@ -641,7 +641,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Caroline11 in sms_box.sms_s:
-                timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline12),addSms(sms_Caroline11_french),Show("new_message_incoming1_NC")]
+                timer 0.003 action [SetVariable("Caroline_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Caroline12_french),addSms(sms_Caroline11_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("C_SMS6",False),]
             timer 2.26 action [Hide ("new_message_incoming1")]
         else:
@@ -663,7 +663,7 @@ screen new_message_incoming1:
                 idle Transform("images/game_gui/phone/NewMessage.png", zoom=.7,)
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Celia1 in sms_box.sms_s:
-                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia1),addSms(sms_Celia2_french),Show("new_message_incoming1_NC")]
+                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia1_french),addSms(sms_Celia2_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("Ce_sms1",False),]
             timer 2.26 action [Hide ("new_message_incoming1")]
         else:
@@ -708,7 +708,7 @@ screen new_message_incoming1:
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Celia5 in sms_box.sms_s:
     
-                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"),addSms(sms_Celia5),addSms(sms_Celia6_french),Show("new_message_incoming1_NC"),]
+                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"),addSms(sms_Celia5_french),addSms(sms_Celia6_french),Show("new_message_incoming1_NC"),]
             timer 2.25 action [SetVariable("Ce_sms3",False),]
             timer 2.26 action [Hide ("new_message_incoming1"),]
         else:
@@ -731,7 +731,7 @@ screen new_message_incoming1:
                 hover Transform("images/game_gui/phone/NewMessage.png", zoom=.7) at phone_pickup
             if not sms_Celia3 in sms_box.sms_s:
     
-                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia3),addSms(sms_Celia7_french),Show("new_message_incoming1_NC")]
+                timer 0.003 action [SetVariable("Ce_unread_alert", False),Play("sound", "sfx/phone_vibrate.mp3"), addSms(sms_Celia3_french),addSms(sms_Celia7_french),Show("new_message_incoming1_NC")]
             timer 2.25 action [SetVariable("Ce_sms4",False),]
             timer 2.26 action [Hide ("new_message_incoming1")]
         else:

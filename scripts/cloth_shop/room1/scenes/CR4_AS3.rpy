@@ -569,7 +569,7 @@ label CR4_AS3_ex_adress_lab:
         MC "I need Charles’s address."
         Caroline "What? Why on Earth would you want that?"
         if persistent.incest_patch == True:
-            MC "I’m gonna kick his ass and get our grandma’s necklace back."
+            MC "I’m gonna kick his ass and get of grandma’s necklace back."
         else:
             MC "I’m gonna kick his ass and get your grandma’s necklace back."
 
@@ -594,7 +594,10 @@ label CR4_AS3_ex_adress_lab:
 
         scene CR4_AS3_ex_adress_p5
         Caroline "That I’M coming with you."
-        MC "What?! I can bring someone else! Like Dad, or a friend from school to back me up!"
+        if persistent.incest_patch == True:
+            MC "What?! I can bring someone else! Like Dad, or a friend from school to back me up!"
+        else:
+            MC "What?! I can bring someone else! Like Bob, or a friend from school to back me up!"
         Caroline "Nope, it’s going to be me."
         MC "(I guess I’ll have to lie to Caroline now. There’s no way I’m letting her near that creep again. If she ended up getting hurt I’d never forgive myself.)"
         MC "Fine, it’s a deal."
