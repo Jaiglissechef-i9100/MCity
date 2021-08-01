@@ -88,7 +88,7 @@ translate french CR2_AS3_label_e927aa7c:
 translate french CR2_AS3_label_7f42d4e2:
 
     # MC "It’s gonna be okay, Caroline. Just sit and compose yourself there."
-    MC "Tout va bien se passer, Caroline. Assieds-toi et calme toi."
+    MC "Tout va bien se passer, Caroline. Assis-toi et calme toi."
 
 # game/scripts/cloth_shop/room1/scenes/CR2_AS3.rpy:82
 translate french CR2_AS3_label_ec678dd4:
@@ -106,7 +106,7 @@ translate french CR2_AS3_label_c0a36ef2:
 translate french CR2_AS3_label_f2037c4f:
 
     # MC "Nonsense. Just sit back and relax. Let me do the cleaning."
-    MC "C'est absurde. Assieds-toi et détend-toi. Laisse-moi faire le ménage."
+    MC "C'est absurde. Assis-toi et détend-toi. Laisse-moi faire le ménage."
 
 # game/scripts/cloth_shop/room1/scenes/CR2_AS3.rpy:88
 translate french CR2_AS3_label_606d84d9:

@@ -16,7 +16,7 @@ translate french MLR3_beach_drink_7f1d07b9:
 translate french MLR3_beach_drink_e1b070ef:
 
     # MC "Take a seat, I’ll grab us drinks."
-    MC "Assieds-toi, je vais nous chercher à boire."
+    MC "Assis-toi, je vais nous chercher à boire."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_drink.rpy:34
 translate french MLR3_beach_drink_45756770:

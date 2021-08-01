@@ -88,7 +88,7 @@ translate french CR2_NS2_rep_941a1b28:
 translate french CR2_NS2_rep_cc865f41:
 
     # Caroline "Grab a seat beside me here."
-    Caroline "Assieds-toi à côté de moi."
+    Caroline "Assis-toi à côté de moi."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR2_NS2_rep.rpy:45
 translate french CR2_NS2_rep_71d4c230:

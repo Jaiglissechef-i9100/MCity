@@ -52,7 +52,7 @@ translate french ml_mc_room_night_scene3_v1_label_0ae763dc:
 translate french ml_mc_room_night_scene3_v1_label_51e7d2c9:
 
     # Mom "Exactly. Sit back on the bed."
-    Mom "Exactement. Assieds-toi sur le lit."
+    Mom "Exactement. Assis-toi sur le lit."
 
 # game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:104
 translate french ml_mc_room_night_scene3_v1_label_1b4778d9:
@@ -790,7 +790,7 @@ translate french ML_NS_6_11e2fd2e:
 translate french ML_NS_6_793b41d3:
 
     # Mom "...Of course, Sweetie. Just sit back, against me and relax."
-    Mom "...Bien sûr, chéri. Assieds-toi contre moi et détends-toi."
+    Mom "...Bien sûr, chéri. Assis-toi contre moi et détends-toi."
 
 # game/scripts/home/mc_room/night/scenes/ml_mc_room_night_scene3_v1.rpy:399
 translate french ML_NS_6_a9b3a965:

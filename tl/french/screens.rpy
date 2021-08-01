@@ -71,8 +71,8 @@ translate french strings:
     new "Quitter"
 
     # screens.rpy:359
-    old "Translate French by Larry Kubiac and psyko47"
-    new "Traduction Française par Larry Kubiac et psyko47"
+    old "Translate French by Larry Kubiac"
+    new "Traduction Française par Larry Kubiac"
 
     # screens.rpy:568
     old "Save  "
@@ -160,7 +160,7 @@ translate french strings:
 
     # screens.rpy:712
     old "Unseen Text"
-    new "Texte Invisible"
+    new "Texte Non-lu"
 
     # screens.rpy:713
     old "After Choices"
@@ -244,7 +244,7 @@ translate french strings:
 
     # screens.rpy:947
     old "Accesses the game menu."
-    new "Accesses the game menu."
+    new "Accéde au menu du jeu."
 
     # screens.rpy:950
     old "Ctrl"

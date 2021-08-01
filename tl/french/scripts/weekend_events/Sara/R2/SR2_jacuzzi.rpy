@@ -250,7 +250,7 @@ translate french SR2_jacuzzi_scene_label_96c91be5:
 translate french SR2_jacuzzi_scene_label_de052a1d:
 
     # MC "Sure! Sit up for me."
-    MC "Bien sûr ! Assieds-toi devant moi."
+    MC "Bien sûr ! Assis-toi devant moi."
 
 # game/scripts/weekend_events/Sara/R2/SR2_jacuzzi.rpy:174
 translate french SR2_jacuzzi_scene_label_5e9bd2ae:

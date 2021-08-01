@@ -544,7 +544,7 @@ translate french CR4_AS3_ex_con1_e41293ee:
 translate french CR4_AS3_ex_con1_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/cloth_shop/room1/scenes/CR4_AS3.rpy:294
 translate french CR4_AS3_ex_con1_cbdc3d3b:
@@ -622,7 +622,7 @@ translate french CR4_AS3_ex_con1_55086c18:
 translate french CR4_AS3_ex_con1_3c726d8a_1:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/cloth_shop/room1/scenes/CR4_AS3.rpy:317
 translate french CR4_AS3_ex_con1_701f1f52:
@@ -1415,6 +1415,12 @@ translate french CR4_AS3_ex_adress_lab_b91a944a:
 
     # MC "What?! I can bring someone else! Like Dad, or a friend from school to back me up!"
     MC "Quoi ?! Je peux amener quelqu'un d'autre ! Comme papa, ou un ami de l'école pour me soutenir !"
+
+# game/scripts/cloth_shop/room1/scenes/CR4_AS3.rpy:600
+translate french CR4_AS3_ex_adress_lab_bf484eca:
+
+    # MC "What?! I can bring someone else! Like Bob, or a friend from school to back me up!"
+    MC "Quoi ?! Je peux amener quelqu'un d'autre ! Comme Bob, ou un ami de l'école pour me soutenir !"
 
 # game/scripts/cloth_shop/room1/scenes/CR4_AS3.rpy:583
 translate french CR4_AS3_ex_adress_lab_77381744:

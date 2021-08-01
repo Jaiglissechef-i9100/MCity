@@ -136,7 +136,7 @@ translate french Ne_MS2_lab_ac75987e:
 translate french Ne_MS2_lab_be0e2b80:
 
     # MC "Sheesh…"
-    MC "Oh putain…"
+    MC "Très bien…"
 
 # game/scripts/school/changing_room/scenes/Ne_MS2.rpy:91
 translate french Ne_MS2_lab_6cd77501:

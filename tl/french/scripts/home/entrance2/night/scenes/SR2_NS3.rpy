@@ -430,7 +430,7 @@ translate french SR2_NS3_label_d7f5df3c:
 translate french SR2_NS3_label_f4ba1aa0:
 
     # Sara "Sit down beside me."
-    Sara "Assieds-toi à côté de moi."
+    Sara "Assis-toi à côté de moi."
 
 # game/scripts/home/entrance2/night/scenes/SR2_NS3.rpy:229
 translate french SR2_NS3_label_cf37c3e3:

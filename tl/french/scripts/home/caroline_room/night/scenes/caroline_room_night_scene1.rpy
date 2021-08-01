@@ -976,7 +976,7 @@ translate french CNS_wake_2_b9113204:
 translate french CNS_wake_2_39825504:
 
     # Caroline "Sure. Take your boxers off and sit on the floor, beside the bed."
-    Caroline "Bien sûr. Enlève ton caleçon et assieds-toi par terre, à côté du lit."
+    Caroline "Bien sûr. Enlève ton caleçon et assis-toi par terre, à côté du lit."
 
 # game/scripts/home/caroline_room/night/scenes/caroline_room_night_scene1.rpy:531
 translate french CNS_wake_2_448d6136:

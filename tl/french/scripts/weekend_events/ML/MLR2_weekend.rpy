@@ -828,11 +828,11 @@ translate french MLR2_weekend_end_label_88091e5e:
     # Mom "Get on your back! Just lie down on the bed!"
     Mom "Met-toi sur le dos ! Allonge-toi sur le lit !"
 
-# game/scripts/weekend_events/ML/MLR2_weekend.rpy:497
-translate french MLR2_weekend_end_label_e72451e8:
+# game/scripts/weekend_events/ML/MLR2_weekend.rpy:503
+translate french MLR2_weekend_end_label_c79ba12d:
 
-    # MC "Mom! What’s going on?"
-    MC "Maman ! Qu'est-ce qu'il se passe ?"
+    # MC "[Mom_name]! What’s going on?"
+    MC "[Mom_name] ! Qu'est-ce qu'il se passe ?"
 
 # game/scripts/weekend_events/ML/MLR2_weekend.rpy:498
 translate french MLR2_weekend_end_label_2ed0fba5:
@@ -1360,7 +1360,7 @@ translate french MLR2_weekend_end_label_399bd247:
 translate french MLR2_weekend_end_label_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/weekend_events/ML/MLR2_weekend.rpy:679
 translate french MLR2_weekend_end_label_c9682c6a:
@@ -1619,3 +1619,4 @@ translate french MLR2_weekend_end_label_58b0bab6:
 
     # Mom "(Mwah!)"
     Mom "(Mwah !)"
+

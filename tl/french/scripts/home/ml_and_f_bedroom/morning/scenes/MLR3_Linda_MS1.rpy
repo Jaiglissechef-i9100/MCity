@@ -40,7 +40,7 @@ translate french MLR3_Linda_MS1_6577e24e:
 translate french MLR3_Linda_MS1_4a35708d:
 
     # Mom "Sit down beside me. I’m taking a break to enjoy my coffee."
-    Mom "Assieds-toi à côté de moi. Je fais une pause pour savourer mon café."
+    Mom "Assis-toi à côté de moi. Je fais une pause pour savourer mon café."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR3_Linda_MS1.rpy:57
 translate french MLR3_Linda_MS1_menu_e3df573a:

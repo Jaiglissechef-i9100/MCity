@@ -352,7 +352,7 @@ translate french CR3_NS5_rep_d5abdef5:
 translate french CR3_NS5_rep_3643f1d9:
 
     # MC "Please, I know you’re shocked, but just sit beside me for a few minutes. We can talk about it - and if you’re uncomfortable, you can walk out the door and I’ll never mention it again. Okay?"
-    MC "Je sais que tu es choquée, mais assieds-toi à côté de moi quelques minutes. Nous pouvons en parler - et si tu es mal à l'aise, tu peux sortir et je n'en parlerai jamais plus. Ok ?"
+    MC "Je sais que tu es choquée, mais assis-toi à côté de moi quelques minutes. Nous pouvons en parler - et si tu es mal à l'aise, tu peux sortir et je n'en parlerai jamais plus. Ok ?"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_NS5_rep.rpy:137
 translate french CR3_NS5_rep_4ca61524:
@@ -1216,7 +1216,7 @@ translate french CR3_NS5_rep_958343b4:
 translate french CR3_NS5_rep_4530ccc8:
 
     # Caroline "Sit down and shut up."
-    Caroline "Assieds-toi et ferme-la."
+    Caroline "Assis-toi et ferme-la."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_NS5_rep.rpy:444
 translate french CR3_NS5_rep_c42ad36b:

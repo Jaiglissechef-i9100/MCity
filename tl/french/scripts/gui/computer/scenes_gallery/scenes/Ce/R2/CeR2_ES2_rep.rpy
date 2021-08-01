@@ -112,7 +112,7 @@ translate french CeR2_ES2_rep_5fcc8bf6:
 translate french CeR2_ES2_rep_5e1414c3:
 
     # Celia "Oh, have I?"
-    Celia "Oh, je l'ai ?"
+    Celia "Oh, tu crois ?"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Ce/R2/CeR2_ES2_rep.rpy:42
 translate french CeR2_ES2_rep_09d06ab8:
@@ -502,7 +502,7 @@ translate french CeR2_ES2_rep_edd1920b:
 translate french CeR2_ES2_rep_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Ce/R2/CeR2_ES2_rep.rpy:154
 translate french CeR2_ES2_rep_46b8c40e:
@@ -1390,7 +1390,7 @@ translate french CeR2_ES2_rep_d8e101e6:
 translate french CeR2_ES2_rep_3c726d8a_1:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Ce/R2/CeR2_ES2_rep.rpy:412
 translate french CeR2_ES2_rep_e82436e1:

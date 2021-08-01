@@ -154,7 +154,7 @@ translate french caroline_ass_cosplay_v1_925dc6c5:
 translate french caroline_ass_cosplay_v1_44a2aa1e:
 
     # Caroline "Sit down and stay the Hell away from me, you pervert!"
-    Caroline "Assieds-toi et reste loin de moi, pervers !"
+    Caroline "Assis-toi et reste loin de moi, pervers !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/caroline_ass_cosplay_v1.rpy:50
 translate french caroline_ass_cosplay_v1_1ecd2709:
@@ -310,7 +310,7 @@ translate french caroline_ass_cosplay_v1_c5a7ff7a:
 translate french caroline_ass_cosplay_v1_3df0e466:
 
     # Caroline "Now, sit back, shut up, and enjoy this."
-    Caroline "Maintenant, assieds-toi, ferme-la et profite de ça."
+    Caroline "Maintenant, assis-toi, ferme-la et profite de ça."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/caroline_ass_cosplay_v1.rpy:90
 translate french caroline_ass_cosplay_v1_2d204a49:

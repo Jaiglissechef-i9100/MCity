@@ -32,7 +32,8 @@ translate french strings:
     new "Garde du corps 1"
     old "Bodyguard2"
     new "Garde du corps 2"
-
+    old "Salesman"
+    new "Vendeur"
 
     # script.rpy:172
     old "Spy Camera"
@@ -209,4 +210,20 @@ translate french strings:
     # game/script.rpy:676
     old "{color=#00ff00}Meet up with Caroline.{/color}"
     new "{color=#00ff00}Rencard avec Caroline.{/color}"
+
+# TODO: Translation updated at 2021-07-25 10:40
+
+translate french strings:
+
+    # game/script.rpy:207
+    old "Swimming Pool Card"
+    new "Carte de piscine"
+
+    # game/script.rpy:225
+    old "Warehouse Key"
+    new "Clé de l'entrepôt"
+
+    # game/script.rpy:228
+    old "Carilne's Necklace"
+    new "Collier de Caroline"
 

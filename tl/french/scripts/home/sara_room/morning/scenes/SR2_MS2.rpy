@@ -259,13 +259,20 @@ translate french SR2_MS2_label_dc7a433f:
     MC "(D'un autre côté, Sara aurait probablement dû étudier pour ses tests. C'est elle qui a apportée la plus grande partie de tout ça.)"
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:121
-translate french SR2_grounded_label_08b97e86:
+translate french SR2_grounded_label_bfae111c:
 
-    # MC "I can't go in. Mom asked me to not do it."
+    # MC "I can't go in. Mom asked me not to do it."
     MC "Je ne peux pas entrer. Maman m'a demandé de ne pas le faire."
+
+# game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:123
+translate french SR2_grounded_label_cace49e9:
+
+    # MC "I can't go in. Linda asked me not to do it."
+    MC "Je ne peux pas entrer. Linda m'a demandé de ne pas le faire."
 
 # game/scripts/home/sara_room/morning/scenes/SR2_MS2.rpy:123
 translate french SR2_grounded_label_c7bc63a1:
 
     # MC "I can't go in. Linda asked me to not do it."
     MC "Je ne peux pas entrer. Linda m'a demandé de ne pas le faire."
+

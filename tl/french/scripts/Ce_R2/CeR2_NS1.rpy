@@ -148,7 +148,7 @@ translate french CeR2_NS1_lab_136f5316:
 translate french CeR2_NS1_lab_114784a7:
 
     # Celia "Have a seat. Can I get you a coffee? Tea? Whiskey?"
-    Celia "Assieds-toi, je t'en prie. Je t'offre un café ? Du thé ? Whisky ?"
+    Celia "Assis-toi, je t'en prie. Je t'offre un café ? Du thé ? Whisky ?"
 
 # game/scripts/Ce_R2/CeR2_NS1.rpy:157
 translate french CeR2_NS1_lab_95dff586:
@@ -778,7 +778,7 @@ translate french CeR2_NS1_lab_e5f558f2:
 translate french CeR2_NS1_lab_0c4b6ba1:
 
     # "*Whack*"
-    "*Whack*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_NS1.rpy:345
 translate french CeR2_NS1_lab_db696836:

@@ -394,7 +394,7 @@ translate french CeR2_MS3_lab_1cd9bd8a:
 translate french CeR2_MS3_lab_3c726d8a_1:
 
     # "*WHACK*"
-    "*FRAPPE*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_MS3.rpy:158
 translate french CeR2_MS3_lab_1b08a95a:

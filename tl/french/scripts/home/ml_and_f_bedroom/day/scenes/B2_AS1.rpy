@@ -244,7 +244,7 @@ translate french B2_AS1_menu_label_28a1984a:
 translate french B2_AS1_menu_label_e5737a55:
 
     # Dad "Let me tell you something, champ. Take a seat."
-    Dad "Laisse-moi te dire quelque chose, champion. Assieds-toi."
+    Dad "Laisse-moi te dire quelque chose, champion. Assis-toi."
 
 # game/scripts/home/ml_and_f_bedroom/day/scenes/B2_AS1.rpy:147
 translate french B2_AS1_menu_label_9350cc84:

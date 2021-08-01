@@ -582,3 +582,11 @@ translate french strings:
     old "{color=#00ff00}It’s a deal!{/color}"
     new "{color=#00ff00}C'est un marché !{/color}"
 
+# TODO: Translation updated at 2019-12-03 15:10
+
+translate french strings:
+
+    # game/scripts/Nightclub/Sexroom/scenes/Ci_S5.rpy:72
+    old "{color=#f00}It’s a deal! (required $1000){/color} (disabled)"
+    new "{color=#f00}It’s a deal! (required $1000){/color} (disabled)"
+

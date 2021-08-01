@@ -1069,10 +1069,10 @@ translate french SR2_NS4_label_f1387706:
     MC "Oh ouai… Et toi ?"
 
 # game/scripts/home/mc_room/night/scenes/SR2_NS4_.rpy:424
-translate french SR2_NS4_label_56125ccf:
+translate french SR2_NS4_label_fd806f9b:
 
-    # Sara "I’m not gonna lie - it’s growing on me. I actually kind of found it... pleasurable that time."
-    Sara "Je ne vais pas mentir - ça me plaît. En fait, j'ai trouvé ça... agréable cette fois-là."
+    # Sara "I’m not gonna lie, it’s growing on me. I actually kind of found it... pleasurable that time."
+    Sara "Je ne vais pas mentir, ça me plaît. En fait, j'ai trouvé ça... agréable cette fois-là."
 
 # game/scripts/home/mc_room/night/scenes/SR2_NS4_.rpy:425
 translate french SR2_NS4_label_451951e1:
@@ -1084,7 +1084,7 @@ translate french SR2_NS4_label_451951e1:
 translate french SR2_NS4_label_6559f47d:
 
     # Sara "Yay! Hehe! This is the best part."
-    Sara "Super ! Hehe ! C'est la meilleure partie."
+    Sara "Super ! Héhé ! C'est la meilleure partie."
 
 # game/scripts/home/mc_room/night/scenes/SR2_NS4_.rpy:435
 translate french SR2_NS4_label_8d262d61:
@@ -1153,10 +1153,10 @@ translate french SR2_NS4_label_9a64ddd3:
     MC "Oh allez ! Tu penses trop à tout ça."
 
 # game/scripts/home/mc_room/night/scenes/SR2_NS4_.rpy:457
-translate french SR2_NS4_label_10d3b9ae:
+translate french SR2_NS4_label_e05bd261:
 
-    # MC "We can do LOTS of things together - sure we’ll have to be a little more careful than most couples, but we can still have fun!"
-    MC "Nous pouvons faire BEAUCOUP de choses ensemble - bien sûr, nous devrons être un peu plus prudents que la plupart des couples, mais nous pouvons quand même nous amuser !"
+    # MC "We can do LOTS of things together, sure we’ll have to be a little more careful than most couples, but we can still have fun!"
+    MC "Nous pouvons faire BEAUCOUP de choses ensemble, bien sûr, nous devrons être un peu plus prudents que la plupart des couples, mais nous pouvons quand même nous amuser !"
 
 # game/scripts/home/mc_room/night/scenes/SR2_NS4_.rpy:459
 translate french SR2_NS4_label_bfac8e05:

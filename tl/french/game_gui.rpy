@@ -24,9 +24,17 @@ translate french strings:
 
     # game/game_gui.rpy:415
     old "Secret Card Cheated"
-    new "Decrète Carte Cheaté"
+    new "Carte Secrète Cheaté"
 
     # game/game_gui.rpy:417
     old "Secret Card Not Cheated"
-    new "Decrète Carte Non Cheaté"
+    new "Carte Secrète Non Cheaté"
+
+# TODO: Translation updated at 2019-12-03 15:10
+
+translate french strings:
+
+    # game/game_gui.rpy:419
+    old "Lain's Walkthrough Mod"
+    new "Lain's Walkthrough Mod"
 

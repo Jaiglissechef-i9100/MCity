@@ -1522,7 +1522,7 @@ translate french MLR2_R3_MS1_q3_15efa558:
 translate french MLR2_R3_MS1_q3_f1bbc178:
 
     # Mom "Honestly? Not too pleased at all."
-    Mom "Honnêtement ? Pas très contente du tout."
+    Mom "Honnêtement ? Je serais pas du tout ravie."
 
 # game/scripts/home/ml_and_f_bedroom/morning/scenes/MLR2_MS1.rpy:766
 translate french MLR2_R3_MS1_q3_f5f952c2:

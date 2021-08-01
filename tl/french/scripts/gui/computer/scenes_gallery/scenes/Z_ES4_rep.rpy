@@ -40,7 +40,7 @@ translate french Z_ES4_rep_46bd04fc:
 translate french Z_ES4_rep_1fab15bd:
 
     # Zuri "Take a seat and we’ll show you just how grateful we are."
-    Zuri "Assied-toi et nous te montrerons notre gratitude."
+    Zuri "Assis-toi et nous te montrerons notre gratitude."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Z_ES4_rep.rpy:33
 translate french Z_ES4_rep_d09b945b:

@@ -160,7 +160,7 @@ translate french Vv2_AS1_label_bb44e217:
 translate french Vv2_AS1_label_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/dark_alley/D/scenes/Vv2_AS1.rpy:98
 translate french Vv2_AS1_label_23038146:

@@ -178,13 +178,13 @@ translate french NE_ES2_lab2_c52f1272:
 translate french NE_ES2_lab2_a706bc26:
 
     # Isla "Here, take a seat. You’re gonna get tired standing up. Besides, we should probably get started before my mum gets home."
-    Isla "Tiens, assieds-toi. Tu vas te fatigué debout. De plus, nous devrions probablement commencer avant que ma mère ne rentre à la maison."
+    Isla "Tiens, assis-toi. Tu vas te fatigué debout. De plus, nous devrions probablement commencer avant que ma mère ne rentre à la maison."
 
 # game/scripts/Ne_home/Entrance/E/scenes/Ne_ES2.rpy:162
 translate french NE_ES2_lab2_190824cc:
 
     # Isla "Here, take a seat. You’re gonna get tired standing up. Besides, we should probably get started before Sidra gets home."
-    Isla "Tenez, assieds-toi. Tu vas te fatigué debout. De plus, nous devrions probablement commencer avant que Sidra ne rentre à la maison."
+    Isla "Tenez, assis-toi. Tu vas te fatigué debout. De plus, nous devrions probablement commencer avant que Sidra ne rentre à la maison."
 
 # game/scripts/Ne_home/Entrance/E/scenes/Ne_ES2.rpy:164
 translate french NE_ES2_lab2_d3e1100c:

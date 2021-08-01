@@ -78,3 +78,11 @@ translate french strings:
     old "{color=#f00}{alpha=0.4} Meet up with Caroline. (Required: 200$){/alpha}{/color} (disabled)"
     new "{color=#f00}{alpha=0.4} Meet up with Caroline. (Required: 200$){/alpha}{/color} (disabled)"
 
+# TODO: Translation updated at 2021-07-25 10:40
+
+translate french strings:
+
+    # game/scripts/weekend_events/weekend_event_menu.rpy:7
+    old "{color=#00ff00}Start Sara's weekend event.{/color}"
+    new "{color=#00ff00}Commencez l'événement du week-end avec Sara.{/color}"
+

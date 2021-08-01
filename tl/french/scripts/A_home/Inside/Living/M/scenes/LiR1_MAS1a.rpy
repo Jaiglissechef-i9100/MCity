@@ -82,7 +82,7 @@ translate french LiR1_MAS1a_label_6f1cfb56:
 translate french LiR1_MAS1a_label_4911fc7f:
 
     # Liza "Well, you look like a supermodel to me. Take a seat, [player_name]. Can I get you something to drink? "
-    Liza "Eh bien, tu ressembles à un top model pour moi. Assied-toi, [player_name]. Tu veux boire quelque chose ? "
+    Liza "Eh bien, tu ressembles à un top model pour moi. Assis-toi, [player_name]. Tu veux boire quelque chose ? "
 
 # game/scripts/A_home/Inside/Living/M/scenes/LiR1_MAS1a.rpy:56
 translate french LiR1_MAS1a_label_eb196aeb:

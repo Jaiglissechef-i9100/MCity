@@ -166,7 +166,7 @@ translate french ml_bedroom_morning_scene6_v1_label_after_ch1r_1e81afbe:
 translate french ml_bedroom_morning_scene6_v1_label_after_ch1r_49dfee50:
 
     # Mom "Sit down on the sofa at the end of my bed."
-    Mom "Assieds-toi sur le canapé au bout de mon lit."
+    Mom "Assis-toi sur le canapé au bout de mon lit."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/ml_room_fj_v1.rpy:68
 translate french ml_bedroom_morning_scene6_v1_label_after_ch1r_a253b8eb:

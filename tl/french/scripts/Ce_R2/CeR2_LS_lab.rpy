@@ -274,7 +274,7 @@ translate french CeR2_LS_lab_a32cf678:
 translate french CeR2_LS_lab_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_LS_lab.rpy:224
 translate french CeR2_LS_lab_c9682c6a:

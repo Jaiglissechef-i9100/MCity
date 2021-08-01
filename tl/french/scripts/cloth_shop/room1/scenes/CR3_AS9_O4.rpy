@@ -1480,7 +1480,7 @@ translate french CR3_AS9_O4_con3_9a468bdd:
 translate french CR3_AS9_O4_con3_11eb55f1:
 
     # MC "Take a seat!"
-    MC "Assieds-toi !"
+    MC "Assis-toi !"
 
 # game/scripts/cloth_shop/room1/scenes/CR3_AS9_O4.rpy:679
 translate french CR3_AS9_O4_con3_1dc26ac5:

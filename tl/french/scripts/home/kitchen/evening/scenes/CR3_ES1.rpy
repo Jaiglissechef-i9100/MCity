@@ -70,7 +70,7 @@ translate french CR3_ES1_label_67ff455f:
 translate french CR3_ES1_label_fc1e4efb:
 
     # Caroline "Sure - grab a seat."
-    Caroline "Bien sûr, assieds-toi."
+    Caroline "Bien sûr, assis-toi."
 
 # game/scripts/home/kitchen/evening/scenes/CR3_ES1.rpy:62
 translate french CR3_ES1_label_411dadf5:

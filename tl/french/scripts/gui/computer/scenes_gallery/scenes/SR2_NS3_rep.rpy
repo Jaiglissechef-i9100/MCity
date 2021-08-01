@@ -424,7 +424,7 @@ translate french SR2_NS3_rep_d7f5df3c:
 translate french SR2_NS3_rep_f4ba1aa0:
 
     # Sara "Sit down beside me."
-    Sara "Assieds-toi à côté de moi."
+    Sara "Assis-toi à côté de moi."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/SR2_NS3_rep.rpy:162
 translate french SR2_NS3_rep_cf37c3e3:

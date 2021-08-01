@@ -526,7 +526,7 @@ translate french CR4_WE_dinner_lab_107d22bc:
 translate french CR4_WE_dinner_lab_2447c043:
 
     # MC "Just one moment. Sit right there."
-    MC "Un instant. Assieds-toi là."
+    MC "Un instant. Assis-toi là."
 
 # game/scripts/weekend_events/Caroline/R4/CR4_WE.rpy:513
 translate french CR4_WE_dinner_lab_347429bd:

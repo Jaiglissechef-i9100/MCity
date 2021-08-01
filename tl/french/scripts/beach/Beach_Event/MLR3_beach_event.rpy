@@ -520,7 +520,7 @@ translate french MLR3_beach_event2_00ceb8f9:
 translate french MLR3_beach_event2_02a70634:
 
     # Mom "In some of them, I sit down and spread my legs for you, letting you gaze at me while I masturbate in front of you."
-    Mom "Dans certains d'entre eux, je m'assieds et écarte les jambes pour toi, te laissant me regarder pendant que je me masturbe devant toi."
+    Mom "Dans certains d'entre eux, je m'assis et écarte les jambes pour toi, te laissant me regarder pendant que je me masturbe devant toi."
 
 # game/scripts/beach/Beach_Event/MLR3_beach_event.rpy:285
 translate french MLR3_beach_event2_5e6278ae:

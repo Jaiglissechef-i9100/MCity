@@ -196,7 +196,7 @@ translate french CeR2_NS1_rep_e5f558f2:
 translate french CeR2_NS1_rep_0c4b6ba1:
 
     # "*Whack*"
-    "*Whack*"
+    "*SPLAF*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Ce/R2/CeR2_NS1_rep.rpy:67
 translate french CeR2_NS1_rep_db696836:

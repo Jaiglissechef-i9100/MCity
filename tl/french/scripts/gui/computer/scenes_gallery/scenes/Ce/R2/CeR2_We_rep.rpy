@@ -274,7 +274,7 @@ translate french CeR2_We_rep_a32cf678:
 translate french CeR2_We_rep_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/Ce/R2/CeR2_We_rep.rpy:71
 translate french CeR2_We_rep_c9682c6a:

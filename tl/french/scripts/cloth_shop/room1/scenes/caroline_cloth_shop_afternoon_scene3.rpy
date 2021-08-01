@@ -202,7 +202,7 @@ translate french caroline_cloth_shop_afternoon_scene3_label_925dc6c5:
 translate french caroline_cloth_shop_afternoon_scene3_label_44a2aa1e:
 
     # Caroline "Sit down and stay the Hell away from me, you pervert!"
-    Caroline "Assieds-toi et reste loin de moi, pervers !"
+    Caroline "Assis-toi et reste loin de moi, pervers !"
 
 # game/scripts/cloth_shop/room1/scenes/caroline_cloth_shop_afternoon_scene3.rpy:98
 translate french caroline_cloth_shop_afternoon_scene3_label_1ecd2709:
@@ -358,7 +358,7 @@ translate french caroline_cloth_shop_afternoon_scene3_label_c5a7ff7a:
 translate french caroline_cloth_shop_afternoon_scene3_label_3df0e466:
 
     # Caroline "Now, sit back, shut up, and enjoy this."
-    Caroline "Maintenant, assieds-toi, ferme-la et profite de ça."
+    Caroline "Maintenant, assis-toi, ferme-la et profite de ça."
 
 # game/scripts/cloth_shop/room1/scenes/caroline_cloth_shop_afternoon_scene3.rpy:141
 translate french caroline_cloth_shop_afternoon_scene3_label_2d204a49:

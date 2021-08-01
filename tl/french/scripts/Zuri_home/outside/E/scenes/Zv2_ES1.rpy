@@ -148,7 +148,7 @@ translate french Z_ES1_label_2c9a62fe:
 translate french Z_ES1_label_4dd0bc22:
 
     # Zuri "Go ahead and take a seat on the couch."
-    Zuri "Vas-y, assieds-toi sur le canapé."
+    Zuri "Vas-y, assis-toi sur le canapé."
 
 # game/scripts/Zuri_home/outside/E/scenes/Zv2_ES1.rpy:97
 translate french Z_ES1_q2_label_866ffe66:

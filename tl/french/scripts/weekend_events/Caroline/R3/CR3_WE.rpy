@@ -178,7 +178,7 @@ translate french CR3_WE_label_con1_837492ae:
 translate french CR3_WE_label_con1_371ac784:
 
     # Caroline "Take a seat, [player_name] - I already ordered for us both."
-    Caroline "Assieds-toi, [player_name] - J'ai déjà commandé pour nous deux."
+    Caroline "Assis-toi, [player_name] - J'ai déjà commandé pour nous deux."
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:216
 translate french CR3_WE_label_con1_d52dd3fe:
@@ -682,7 +682,7 @@ translate french CR3_WE_label_con3_c21abff1:
 translate french CR3_WE_label_con3_da1c7108:
 
     # MC "Caroline, sit down. Don’t let him, ruin your night like that."
-    MC "Caroline, assieds-toi. Ne le laisse pas gâcher ta soirée comme ça."
+    MC "Caroline, assis-toi. Ne le laisse pas gâcher ta soirée comme ça."
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:440
 translate french CR3_WE_label_con3_762fec90:
@@ -1042,7 +1042,7 @@ translate french CR3_WE_label_con4_bc269711:
 translate french CR3_WE_label_con4_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:601
 translate french CR3_WE_label_con4_e7a95dcb:
@@ -1168,7 +1168,7 @@ translate french CR3_WE_label_con4_e79ed82a:
 translate french CR3_WE_label_con4_3c726d8a_1:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/weekend_events/Caroline/R3/CR3_WE.rpy:637
 translate french CR3_WE_label_con4_c9682c6a:

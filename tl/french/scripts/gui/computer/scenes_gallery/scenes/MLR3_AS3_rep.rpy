@@ -40,7 +40,7 @@ translate french MLR3_AS3_rep_88176837:
 translate french MLR3_AS3_rep_0fd9d703:
 
     # Mom "Sit down beside me."
-    Mom "Assieds-toi à côté de moi."
+    Mom "Assis-toi à côté de moi."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/MLR3_AS3_rep.rpy:27
 translate french MLR3_AS3_rep_274d29b3:

@@ -1354,7 +1354,7 @@ translate french MLR2_weekend_end_label_rep_399bd247:
 translate french MLR2_weekend_end_label_rep_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/img16_MLR2_weekend_rep.rpy:594
 translate french MLR2_weekend_end_label_rep_c9682c6a:

@@ -64,7 +64,7 @@ translate french MLR3_b_house_bag2_73dc3bd0:
 translate french MLR3_b_house_bag2_6e2e5ad0:
 
     # Mom "I’ll just be a minute. Come on in and take a seat."
-    Mom "J'en ai pour une minute. Entre et assied-toi."
+    Mom "J'en ai pour une minute. Entre et assis-toi."
 
 # game/scripts/beach/Beach_Event/MLR3_b_house_bag2.rpy:95
 translate french MLR3_b_house_bag2_a2978dac:

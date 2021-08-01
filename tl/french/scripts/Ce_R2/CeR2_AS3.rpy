@@ -22,7 +22,7 @@ translate french CeR2_AS3_lab_dbab40b9:
 translate french CeR2_AS3_lab_92af822a:
 
     # Celia "Now, get your ass in here."
-    Celia "Maintenant, ramène ton cul ici."
+    Celia "Maintenant, ramène ton cul par ici."
 
 # game/scripts/Ce_R2/CeR2_AS3.rpy:76
 translate french CeR2_AS3_lab_4ab90a2e:

@@ -670,8 +670,8 @@ translate french strings:
     old "No thanks. But maybe later on."
     new "Non merci. Mais peut-être plus tard."
 
-    # game/scripts/home/caroline_room/morning/scenes/CR4_MS1.rpy:252
-    old "Fuck, that’s it! Suck on my cock you fucking slut!"
+    # game/scripts/gui/computer/scenes_gallery/scenes/C/R4/CR4_MS1_rep.rpy:85
+    old "Fuck, that’s it! Suck on my cock, you fucking slut!"
     new "Putain, c'est ça ! Suce-moi la bite, salope !"
 
     # game/scripts/home/caroline_room/morning/scenes/CR4_MS1.rpy:252

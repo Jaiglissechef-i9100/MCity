@@ -40,7 +40,7 @@ translate french Zv2_ES4_truth_label_46bd04fc:
 translate french Zv2_ES4_truth_label_1fab15bd:
 
     # Zuri "Take a seat and we’ll show you just how grateful we are."
-    Zuri "Assied-toi et nous te montrerons notre gratitude."
+    Zuri "Assis-toi et nous te montrerons notre gratitude."
 
 # game/scripts/Zuri_home/home/E/scenes/Zv2_ES4.rpy:78
 translate french Zv2_ES4_truth_label_d09b945b:

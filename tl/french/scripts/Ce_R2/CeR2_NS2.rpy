@@ -334,7 +334,7 @@ translate french CeR2_NS2_boxing_lab_5eb6cde0:
 translate french CeR2_NS2_boxing_lab_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:268
 translate french CeR2_NS2_boxing_lab_58a76f14:
@@ -370,7 +370,7 @@ translate french CeR2_NS2_boxing_lab_bc2fd556:
 translate french CeR2_NS2_boxing_lab_b116b5ad:
 
     # "*Whack* *Thud*"
-    "*Whack* *Bruit sourd*"
+    "*SPLAF* *Bruit sourd*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:280
 translate french CeR2_NS2_boxing_lab_91ea4cf9:
@@ -418,7 +418,7 @@ translate french CeR2_NS2_boxing_lab_1404b756:
 translate french CeR2_NS2_boxing_lab_3c726d8a_1:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:294
 translate french CeR2_NS2_boxing_lab_e000cbed:
@@ -430,7 +430,7 @@ translate french CeR2_NS2_boxing_lab_e000cbed:
 translate french CeR2_NS2_boxing_lab_7b3ebabd:
 
     # "*THWACK*"
-    "*THWACK*"
+    "*PAF*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:296
 translate french CeR2_NS2_boxing_lab_7660fed3:
@@ -454,7 +454,7 @@ translate french CeR2_NS2_boxing_lab_0d6317fa:
 translate french CeR2_NS2_boxing_lab_0c4b6ba1:
 
     # "*Whack*"
-    "*Whack*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:304
 translate french CeR2_NS2_boxing_lab_35d33bb0:
@@ -1600,7 +1600,7 @@ translate french CeR2_NS2_talking_con1_c9b229cc:
 translate french CeR2_NS2_talking_con1_3c726d8a:
 
     # "*WHACK*"
-    "*WHACK*"
+    "*SPLAF*"
 
 # game/scripts/Ce_R2/CeR2_NS2.rpy:751
 translate french CeR2_NS2_talking_con1_8f1c7b24:

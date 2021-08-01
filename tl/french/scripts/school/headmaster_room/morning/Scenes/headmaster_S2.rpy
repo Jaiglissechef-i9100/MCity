@@ -96,6 +96,12 @@ translate french headmaster_S2_62edc4ea:
     # MC "(Shit, I can’t tell him that I’m going away for the day to fuck my Mom’s brains out.)"
     MC "(Merde, je ne peux pas lui dire que je m'en vais pour la journée pour baiser à mort ma mère.)"
 
+# game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:93
+translate french headmaster_S2_ff0f2803:
+
+    # MC "(Shit, I can’t tell him that I’m going away for the day to fuck Linda’s brains out.)"
+    MC "(Merde, je ne peux pas lui dire que je m'en vais pour la journée pour baiser à mort Linda.)"
+
 # game/scripts/school/headmaster_room/morning/Scenes/headmaster_S2.rpy:88
 translate french headmaster_S2_8ba43629:
 
@@ -496,8 +502,9 @@ translate french strings:
 
     # scripts\school\headmaster_room\morning\Scenes\headmaster_S2.rpy:139
     old "Go away."
-    new "Va-t'en."
+    new "Déguerpir."
 
     # scripts\school\headmaster_room\morning\Scenes\headmaster_S2.rpy:139
     old "Stand in front of the door."
-    new "Mettez-vous devant la porte."
+    new "Se mettre devant la porte."
+

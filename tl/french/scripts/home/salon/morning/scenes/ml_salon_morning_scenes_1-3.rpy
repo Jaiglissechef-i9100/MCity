@@ -388,7 +388,7 @@ translate french ml_morning_salon_scenes1to3_v1_label_3800c856:
 translate french ml_morning_salon_scenes1to3_v1_label_392c19fa:
 
     # Mom "Sit with me awhile."
-    Mom "Assieds-toi un moment avec moi."
+    Mom "Assis-toi un moment avec moi."
 
 # game/scripts/home/salon/morning/scenes/ml_salon_morning_scenes_1-3.rpy:191
 translate french ml_morning_salon_scenes1to3_v1_label_1a4c8084:

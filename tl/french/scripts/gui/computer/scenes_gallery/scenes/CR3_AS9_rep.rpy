@@ -1084,7 +1084,7 @@ translate french CR3_AS9_O4_con3_rep_9a468bdd:
 translate french CR3_AS9_O4_con3_rep_11eb55f1:
 
     # MC "Take a seat!"
-    MC "Assieds-toi !"
+    MC "Assis-toi !"
 
 # game/scripts/gui/computer/scenes_gallery/scenes/CR3_AS9_rep.rpy:403
 translate french CR3_AS9_O4_con3_rep_1dc26ac5:

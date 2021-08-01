@@ -22,7 +22,7 @@ translate french celia_webcam_scenes_menu1_568fe0f0:
 translate french celia_webcam_scenes_menu1_7ccb9fc9:
 
     # MC "Sit back and let me have a look at you."
-    MC "Assieds-toi droit et laisse-moi te regarder."
+    MC "Assis-toi droit et laisse-moi te regarder."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:116
 translate french celia_webcam_scenes_menu1_5748f373:
@@ -1660,7 +1660,7 @@ translate french celia_webcam_scenes_get_nude_menu_55e4c9e7:
 translate french celia_webcam_scenes_get_nude_menu_2948ead3:
 
     # MC "Okay, go ahead and take a seat."
-    MC "Ok, vas-y, assieds-toi."
+    MC "Ok, vas-y, assis-toi."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:703
 translate french celia_webcam_scenes_get_nude_menu_3a7d3352:
@@ -1690,7 +1690,7 @@ translate french celia_webcam_scenes_get_nude_menu_c124e620:
 translate french celia_webcam_scenes_get_nude_menu_ede3d4c9:
 
     # MC "Sit up on the desk for me."
-    MC "Assieds-toi sur le bureau pour moi."
+    MC "Assis-toi sur le bureau pour moi."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:709
 translate french celia_webcam_scenes_get_nude_menu_7cdfce84:
@@ -1858,7 +1858,7 @@ translate french celia_webcam_scenes_get_nude_menu_70cd2508:
 translate french celia_webcam_scenes_get_nude_menu_162c4f53:
 
     # MC "Wonderful! Take a seat again, Mrs. Celia."
-    MC "Merveilleux ! Assieds-toi de nouveau, Mme Celia."
+    MC "Merveilleux ! Assis-toi de nouveau, Mme Celia."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:751
 translate french celia_webcam_scenes_get_nude_menu_f491e5c9:
@@ -2384,11 +2384,11 @@ translate french strings:
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Sit on dildo."
-    new "Assieds-toi sur le gode."
+    new "Assis-toi sur le gode."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Sit on the keyboard."
-    new "Assieds-toi sur le clavier."
+    new "Assis-toi sur le clavier."
 
     # scripts\gui\computer\webcam_scenes\cela_webcam_scenes_menu.rpy:578
     old "Try new clothes."
@@ -2424,7 +2424,7 @@ translate french celia_webcam_scenes_orders_2f1be4bf:
 translate french celia_webcam_scenes_orders_2543179d:
 
     # MC "Sit up straight for me. No slouching."
-    MC "Assieds-toi droit pour moi. Pas d'affaissement."
+    MC "Assis-toi droit pour moi. Pas d'affaissement."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:957
 translate french celia_webcam_scenes_orders_ca934746:
@@ -2532,7 +2532,7 @@ translate french celia_webcam_scenes_orders_bd337c69:
 translate french celia_webcam_scenes_orders_86d76912:
 
     # MC "You should know the routine by now. Sit up straight and await your next command."
-    MC "Tu devrais déjà connaître la routine. Assieds-toi droit et attend ton prochain ordre."
+    MC "Tu devrais déjà connaître la routine. Assis-toi droit et attend ton prochain ordre."
 
 # game/scripts/gui/computer/webcam_scenes/cela_webcam_scenes_menu.rpy:993
 translate french celia_webcam_scenes_orders_37026c56:

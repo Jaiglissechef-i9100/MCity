@@ -166,7 +166,7 @@ translate french LiR1_NS5_rep_16aaf62f:
 translate french LiR1_NS5_rep_97cf82c9:
 
     # Yazmin "Oh yeah..! I forgot I did that. Haha! I’ll tell you what, Honey - you just sit back and relax. Let me - start things off - with [player_name]. And we’ll take it from there."
-    Yazmin "Ah ouai..! J'avais oubliée que je l'avais fait. Haha ! Je vais te dire, chérie. Assieds-toi et détends-toi. Laisse-moi - commencé les choses - avec [player_name]. Et on verra ce qu'on fait alors."
+    Yazmin "Ah ouai..! J'avais oubliée que je l'avais fait. Haha ! Je vais te dire, chérie. Assis-toi et détends-toi. Laisse-moi - commencé les choses - avec [player_name]. Et on verra ce qu'on fait alors."
 
 # game/scripts/gui/computer/scenes_gallery/scenes/LiR1_NS5_rep.rpy:69
 translate french LiR1_NS5_rep_057d7d0a:

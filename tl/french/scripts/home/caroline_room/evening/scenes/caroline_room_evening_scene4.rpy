@@ -40,7 +40,7 @@ translate french caroline_room_evening_scene4_label_ebdf116a:
 translate french caroline_room_evening_scene4_label_c1eeae28:
 
     # Caroline "Here - take a seat beside me! Quick! This is amazing!"
-    Caroline "Tiens - assieds-toi à côté de moi ! Vite ! C'est incroyable !"
+    Caroline "Tiens - assis-toi à côté de moi ! Vite ! C'est incroyable !"
 
 # game/scripts/home/caroline_room/evening/scenes/caroline_room_evening_scene4.rpy:35
 translate french caroline_room_evening_scene4_label_ff3748e0:

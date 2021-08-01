@@ -262,7 +262,7 @@ translate french ML_NS_sleep_foot_job_label_a8a70b38:
 translate french ML_NS_sleep_foot_job_label_280cabdc:
 
     # Mom "No, just sit right there. I’ll lie down beside you."
-    Mom "Non, assieds-toi là. Je vais m'allonger à côté de toi."
+    Mom "Non, assis-toi là. Je vais m'allonger à côté de toi."
 
 # game/scripts/home/ml_and_f_bedroom/night/scenes/NSB/ML_NS_sleep_foot_job.rpy:126
 translate french ML_NS_sleep_foot_job_label_d6bce4ea:

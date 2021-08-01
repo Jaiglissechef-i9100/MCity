@@ -22,7 +22,7 @@ translate french Li_MAS2_label_f9be9903:
 translate french Li_MAS2_label_96c5ac0c:
 
     # Liza2 "Aww, that’s sweet. Take a seat!"
-    Liza2 "Aww, c'est mignon. Assieds-toi !"
+    Liza2 "Aww, c'est mignon. Assis-toi !"
 
 # game/scripts/A_home/Inside/Living/M/scenes/Li_MAS2.rpy:39
 translate french Li_MAS2_label_c8ea5ade:

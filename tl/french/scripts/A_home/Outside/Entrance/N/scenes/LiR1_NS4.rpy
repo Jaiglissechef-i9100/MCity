@@ -430,7 +430,7 @@ translate french LiR1_NS4_label_bafb803a:
 translate french LiR1_NS4_label_5e3b6d7a:
 
     # Yazmin "Just sit back and relax, Dear, I’m going to grab the third object."
-    Yazmin "Assieds-toi et détends-toi, chérie, je vais prendre le troisième objet."
+    Yazmin "Assis-toi et détends-toi, chérie, je vais prendre le troisième objet."
 
 # game/scripts/A_home/Outside/Entrance/N/scenes/LiR1_NS4.rpy:232
 translate french LiR1_NS4_label_0ee73da2:
