@@ -1,3 +1,4 @@
+
 screen bob_entrance_D_scr:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -7,9 +8,12 @@ screen bob_entrance_D_scr:
         idle "images/Bob_work/entrance/M/B1.png"
         hover "images/Bob_work/entrance/M/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Reception"))
+            hovered Show("displayTextScreen", displayText = "Reception")
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("bob_reception_morning1")]
             unhovered Hide("displayTextScreen")
+
+
+
 
     imagebutton:
         xpos 6
@@ -25,34 +29,20 @@ screen bob_entrance_D_scr:
             idle "images/Bob_work/entrance/M/B4.png"
             hover "images/Bob_work/entrance/M/B4_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Company Diagram"))
+            hovered Show("displayTextScreen", displayText = "Company Diagram")
             action [Hide("displayTextScreen"),Jump("bob_receptiondiagram")]
             unhovered Hide("displayTextScreen")
 
     if not "img13_sec_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 593
-                ypos 272
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B13.png"
-                hover "images/secret_gallery/Bonus/B13_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img13_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 593
-                ypos 272
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
-                hover "images/secret_gallery/Bonus/B28a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img13_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-
+        imagebutton:
+            xpos 593
+            ypos 272
+            focus_mask True
+            idle "images/secret_gallery/Bonus/B13.png"
+            hover "images/secret_gallery/Bonus/B13_hover.png"
+            if clickable == True:
+                action [Hide("displayTextScreen"),addgimage("img13_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
     if clickable == True:
         imagebutton:
             xpos 0

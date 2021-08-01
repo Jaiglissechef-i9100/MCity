@@ -13,6 +13,7 @@ image caroline_cloth_shop_afternoon_scene2_p12 = "images/cloth_shop/room1/day/sc
 image caroline_cloth_shop_afternoon_scene2_p13 = "images/cloth_shop/room1/day/scenes/caroline_cloth_shop_afternoon_scene2/13.jpg"
 image caroline_cloth_shop_afternoon_scene2_p14 = "images/cloth_shop/room1/day/scenes/caroline_cloth_shop_afternoon_scene2/14.jpg"
 
+
 label caroline_cloth_shop_afternoon_scene2_label:
     $ can_hide_windows = True
     hide screen week_day_viewer
@@ -94,9 +95,9 @@ label caroline_cloth_shop_afternoon_scene2_label:
 
             scene caroline_cloth_shop_afternoon_scene2_p10
             Caroline "You disgusting little pervert!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "I’m your sister!"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Caroline "I’m your friend!"
             MC "Ouch! Ahh! I’m sorry!"
             jump caroline_cloth_shop_afternoon_scene2_after_menu

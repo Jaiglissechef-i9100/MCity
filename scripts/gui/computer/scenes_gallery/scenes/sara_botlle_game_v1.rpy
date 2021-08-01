@@ -72,9 +72,9 @@ label after_sis_nerdy_school_scene3_v1_choice1r:
     Lily "I think he’s really gonna enjoy making out with me. I’ll make sure to kiss him REAL good for you."
 
     scene sis_nerdy_school_scene3_v1_p9
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Hey! That’s my brother you’re talking about!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "Hey! That’s my friend you’re talking about!"
     Lily "Easy, Sara. Chill out!"
     Sara "Don’t tell me to chill out!"
@@ -107,16 +107,16 @@ label after_sis_nerdy_school_scene3_v1_choice1r:
     Lily "C’mere, big boy, and gimme a kiss!"
     MC "Uh… O-Okay…"
     MC "(She seems really into this! I never imagined that girls might actually like me this much!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "(Nooo! God… the sight of her leaning into my bro, is making me feel sick.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "(Nooo! God… the sight of her leaning into my friend is making me feel sick.)"
 
     scene sis_nerdy_school_scene3_v1_p15
     Sara "(I know she’s meant to be my friend… but I feel so… sad and angry, that she flirts with him like this.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "(And he’s my brother - I shouldn’t even have feelings about him!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "(And he’s my friend - I shouldn’t even have feelings about him!)"
 
     scene sis_nerdy_school_scene3_v1_p16
@@ -150,6 +150,7 @@ label after_sis_nerdy_school_scene3_v1_choice1r:
     scene bottle_spin1
     $ renpy.pause (2.26, hard=True)
 
+
     scene sis_nerdy_school_scene3_v1_p21
     Lily "Yay! Me again!"
     Lily "Hope you’re ready for round two!"
@@ -161,17 +162,17 @@ label after_sis_nerdy_school_scene3_v1_choice1r:
     scene sis_nerdy_school_scene3_v1_p23
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/RetroFuture Clean.mp3', channel="music1", loop=True, fadein = 2)
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "(That… fucking bitch! That’s my brother!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "(That… fucking bitch! That’s my friend!)"
     Sara "(How DARE she think she can just come into my bedroom and make out with him like this?!)"
 
     scene sis_nerdy_school_scene3_v1_p24
     Sara "(I’ll show her. I’ll FUCKING show that slutty little tart!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Get off my brother!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "Get off my friend!"
 
     scene sis_nerdy_school_scene3_v1_p25
@@ -228,18 +229,18 @@ label after_sis_nerdy_school_scene3_v1_choice21r:
     scene sis_nerdy_school_scene3_v1_p32
     Sara "(Sniff) Th-Thank you, [player_name]. D-Do you think you could give me a… real kiss?"
     MC "A real kiss?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Like Mom and Dad do, when they watch a romantic movie."
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "Like Linda and Landlord do when they watch a romantic movie."
     MC "Of course, Sara. Come closer."
 
     scene sis_nerdy_school_scene3_v1_p33r
     Sara "(Oh my God! He did it! …This is Heaven!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(She’s a much better kisser than Lily! It feels like there’s more… passion behind Sara’s kiss.)"
         MC "(Why am I going along with this, so freely? She’s my sister! I shouldn’t be kissing her like this. Right?)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(She’s a much better kisser than Lily! It feels like there’s more… passion behind my Sara’s kiss.)"
         MC "(Why am I going along with this, so freely? She’s my friend! I shouldn’t be kissing her like this. Right?)"
     scene sis_nerdy_school_scene3_v1_p34
@@ -256,9 +257,9 @@ label after_sis_nerdy_school_scene3_v1_choice21r:
 
     scene sis_nerdy_school_scene3_v1_p36
     Sara "Please, [player_name] - just stay still and let me do this. I really want to make you feel good."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Sara, I- You’re my little sister."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Sara, I- You’re my little friend."
     Sara "Shush! Just let me pull your trousers down."
 
@@ -304,9 +305,9 @@ label after_sis_nerdy_school_scene3_v1_choice21r:
     scene sis_nerdy_school_scene3_v1_p41rr
     MC "Mmm!"
     Sara "(It keeps getting harder, the more I move!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "(I’d only ever dreamed about touching [player_name]'s cock before! It’s actually happening now!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "(I’d only ever dreamed about touching [player_name]’s cock before! It’s actually happening now!)"
     MC "Okay - you can start licking next. Just use your tongue to swirl around the tip of my cock."
 
@@ -343,9 +344,9 @@ label after_sis_nerdy_school_scene3_v1_choice21r:
 
     scene sis_nerdy_school_scene3_v1_p48
     MC "(I can’t believe that Sara was sexually attracted to me. How long has she felt this way?)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Was I really, so obsessed with my teacher that I never even noticed my own sister’s affections for me?)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Was I really, so obsessed with my teacher that I never even noticed my own friend’s affections for me?)"
     "(Suck Suck)"
 

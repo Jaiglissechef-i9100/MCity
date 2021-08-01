@@ -6,6 +6,7 @@ image MLR3_b_house_leaving_p5 = "images/Beach/MLR3_beach_event/House/Leaving/5.j
 image MLR3_b_house_leaving_p6 = "images/Beach/MLR3_beach_event/House/Leaving/6.jpg"
 image MLR3_b_house_leaving_p7 = "images/Beach/MLR3_beach_event/House/Leaving/7.jpg"
 
+
 label MLR3_b_house_leaving:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -21,7 +22,7 @@ label MLR3_b_house_leaving:
     MC "Yeah, everything’s in my bag."
     Mom "You haven’t left any underwear or socks lying around?"
     MC "No, [Mom_name]. I’ve got everything."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Good - I just don’t want the landlord finding men’s clothes in here, after I’ve been staying over. I don’t know if he’s the kind of man who would try to get in touch with your father, but it’s not worth the risk."
     else:
         Mom "Good - I just don’t want the landlord finding men’s clothes in here, after I’ve been staying over. I don’t know if he’s the kind of man who would try to get in touch with Bob, but it’s not worth the risk."
@@ -31,7 +32,7 @@ label MLR3_b_house_leaving:
     MC "You look amazing, by the way, [Mom_name]."
     Mom "Aww, you’re very sweet. *Sigh* I’m going to miss these past two days."
     Mom "I loved the scent of you, lying in bed beside me, while my eyes were closed. And the rustle of the sheets, as you moved during the night."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "I don’t know why - but when I’m sleeping with your father, it always feels like I’m sleeping alone. Last night, was the first time in years, that it’s felt like another man is sleeping beside me."
     else:
         Mom "I don’t know why - but when I’m sleeping with Bob, it always feels like I’m sleeping alone. Last night, was the first time in years, that it’s felt like another man is sleeping beside me."

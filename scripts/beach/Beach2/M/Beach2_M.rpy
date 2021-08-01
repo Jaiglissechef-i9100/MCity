@@ -1,3 +1,4 @@
+
 label beach2_M1:
     $ can_map = True
     if MLR3_beach_event == True:

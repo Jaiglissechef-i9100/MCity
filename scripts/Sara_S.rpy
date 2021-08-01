@@ -1,3 +1,6 @@
+
+
+
 default SR2_MS1 = True
 default SR2_MS2 = False
 default can_SR2_MS2 = False
@@ -26,6 +29,32 @@ default S_N_inbed = True
 default SR2_bath = False
 default can_SR2_bath = True
 
+
+default can_sms8_sara = 1
+default sms8_sara = False
+default SR3_grounded = True
+default SR3_ES1 = False
+default SR3_ES1_talked = False
+default SR3_romantic_route = False
+default SR3_weekend_event = False
+default SR3_we_bath = False
+default SR3_we_SC_wait = False
+default SR3_we_SC_bus = False
+default SR3_we_IC_shop_table = False
+default SR3_we_IC_shop_table_q1 = True
+default SR3_we_IC_shop_table_q2 = True
+default SR3_we_IC_shop_table_q3 = True
+default SR3_MC_give_phone_number = False
+default SR3_home_end = False
+default SR3_home_end_both = False
+default SR3_home_end_bed = False
+default SR3_home_end_couch = False
+default SR3_home_end_bath = 0
+default SR3_MS1 = False
+default SR3_v71_end = False
+default Lily_unread_alert = True
+default SC_closed = True
+default SR3_rep_v71 = False
 label money_less10:
     if day_time == 1:
         show screen mc_room_morning_notclickable
@@ -42,7 +71,15 @@ label money_less10:
     MC "+10$"
     jump mc_room_morning1
 
+
+
 label sleeping_after_scene:
+
+    if Sara_points == 3 and can_sms8_sara < 3:
+        $ can_sms8_sara +=1
+    if Sara_points == 3 and can_sms8_sara == 3:
+        $ sms8_sara = True
+        $ can_sms8_sara = 4
 
     if NC_Boss == 1:
         $ NC_Boss = 2
@@ -222,6 +259,7 @@ label sleeping_after_scene:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -235,6 +273,7 @@ label sleeping_after_scene:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -260,6 +299,7 @@ label sleeping_after_scene:
     $ CR3_MS1_talked = False
     if CR3_ES1_can == False:
         $ CR3_ES1 = False
+
 
     if MLR3_MS1_can == False:
         $ MLR3_MS1 = False

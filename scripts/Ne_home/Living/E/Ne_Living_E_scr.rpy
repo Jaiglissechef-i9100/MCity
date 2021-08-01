@@ -12,7 +12,7 @@ screen Ne_Living_E_scr:
             action [Hide("displayTextScreen"), Play ("sound", "sfx/door_open.mp3"), Jump("Ne_Corridor_M1")]
         if clickable == True and Ne_ES2 == 3:
             action [Hide("displayTextScreen"),Jump("NE_ES2_lab4")]
-        hovered Show("displayTextScreen", displayText = __("Corridor"))
+        hovered Show("displayTextScreen", displayText = "Corridor")
         unhovered Hide("displayTextScreen")
 
     if Ne_ES2 == 2:
@@ -40,5 +40,5 @@ screen Ne_Living_E_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("NE_ES2_lab3")]
 
-            hovered Show("displayTextScreen", displayText = __("Closet"))
+            hovered Show("displayTextScreen", displayText = "Closet")
             unhovered Hide("displayTextScreen")

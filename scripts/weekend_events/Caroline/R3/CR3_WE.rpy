@@ -75,6 +75,7 @@ image CR3_WE_p64 = "images/Weekend_Events/Caroline/R3/64.jpg"
 image CR3_WE_p65 = "images/Weekend_Events/Caroline/R3/65.jpg"
 image CR3_WE_p66 = "images/Weekend_Events/Caroline/R3/66.jpg"
 
+
 image CR3_WE_UseHer_p1 = "images/Weekend_Events/Caroline/R3/UseHer/1.jpg"
 image CR3_WE_UseHer_p2 = "images/Weekend_Events/Caroline/R3/UseHer/2.jpg"
 image CR3_WE_UseHer_p3 = "images/Weekend_Events/Caroline/R3/UseHer/3.jpg"
@@ -105,7 +106,6 @@ image CR3_WE_UseHer_p25 = "images/Weekend_Events/Caroline/R3/UseHer/25.jpg"
 image CR3_WE_UseHer_p26 = "images/Weekend_Events/Caroline/R3/UseHer/26.jpg"
 image CR3_WE_UseHer_p26a = "images/Weekend_Events/Caroline/R3/UseHer/26a.jpg"
 image CR3_WE_UseHer_p27 = "images/Weekend_Events/Caroline/R3/UseHer/27.jpg"
-
 label CR3_WE_label:
     hide screen mc_room_day_notclickable
     hide screen mc_room_evening_notclickable
@@ -142,7 +142,7 @@ label CR3_WE_label:
     scene CR3_WE_p4
 
     MC "(I’m stressing too much, over this, right?)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I mean, we’re not even going on a date - it’s just a brother and sister, going out clubbing.)"
     else:
         MC "(I mean, we’re not even going on a date - it’s just friends, going out clubbing.)"
@@ -163,7 +163,9 @@ label CR3_WE_label:
     show screen map_button
     call screen WE_map
 
+
 label CR3_WE_label_con1:
+
 
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -172,6 +174,7 @@ label CR3_WE_label_con1:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
+
 
     scene CR3_WE_p5 at pandown3
 
@@ -217,6 +220,7 @@ label CR3_WE_label_con1:
 
     scene CR3_WE_p12
 
+
     Caroline "Relax! I’ve got plenty to spend, right now. We’ve done all - the hard work - establishing my business. Now it’s time to enjoy - the fruits of our labour!"
     MC "Cheers to that! Thanks, Caroline!"
     Caroline "Ahh! Here comes the waiter now!"
@@ -244,7 +248,7 @@ label CR3_WE_label_con1_menu:
             MC "N-No, not really... It just seems like... an unhealthy amount of liquor."
 
             scene CR3_WE_p15
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "This is how you CELEBRATE, [player_name]! Now c’mon - let’s clink glasses, and get this party started!"
             else:
                 Caroline "This is how you CELEBRATE, [player_name]! Now c’mon - let’s clink glasses, and get this party started!"
@@ -330,7 +334,10 @@ label CR3_WE_label_con1_menu:
                 jump CR3_WE_label_con1_menu
         "Skip questions.":
 
+
+
             jump CR3_WE_label_con2
+
 
 label CR3_WE_label_con2:
     scene CR3_WE_p21
@@ -362,7 +369,6 @@ label CR3_WE_label_con2:
             jump CR3_WE_label_con3
         "Honestly? I’d love to meet someone like you.":
 
-
             scene CR3_WE_p21
 
             MC "Honestly? I’d love to meet someone like you."
@@ -378,6 +384,7 @@ label CR3_WE_label_con2:
             MC "What I need to do, is meet a girl, just like you!"
             Caroline "*Glug*"
             MC "Someone who is, bubbly, fun, outgoing! Y’know what I mean?"
+
 
             scene CR3_WE_p23
 
@@ -411,7 +418,7 @@ label CR3_WE_label_con3:
     scene CR3_WE_p26
 
     Charles "And this must be your pathetic - new excuse for a boyfriend."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "Hey! That’s my brother! Leave him out of this!"
         MC "Uh, yeah, I’m her brother. My name’s [player_name]."
     else:
@@ -419,7 +426,7 @@ label CR3_WE_label_con3:
         MC "Uh, yeah, I’m her friend. My name’s [player_name]."
 
     scene CR3_WE_p27
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Charles "Ooh, so you’re her brother. Hmm... that must mean she’s still single, then."
         Charles "You better keep an eye on your sister, [player_name] - because if I get my hands on her, I’m gonna fuck her silly."
     else:
@@ -511,7 +518,6 @@ label CR3_WE_label_con3:
         "(I guess, looking for other women, is probably for the best, right now. My fling with Caroline is over.)":
 
 
-
             MC "(I guess looking for other women, is probably for the best, right now. My fling with Caroline is over.)"
             MC "Alright - I’ll go and scout the local talent. Do you want me to keep an eye out for a - potential boyfriend - for you?"
             Caroline "Oh! *hic* Yes please!"
@@ -524,6 +530,8 @@ label CR3_WE_label_con3:
             $ can_hide_windows = False
 
             jump night_club_we_label
+
+
 
 label CR3_WE_label_con4:
     $ can_hide_windows = True
@@ -587,6 +595,7 @@ label CR3_WE_label_con4:
             Charles "(Not today!)"
             Charles "Hyaaaah!"
 
+
             scene CR3_WE_p42f
 
             Caroline "[player_name]!!!"
@@ -594,7 +603,6 @@ label CR3_WE_label_con4:
 
             jump CR3_WE_label_con5
         "Punch him in the face.":
-
 
             scene CR3_WE_p43a
 
@@ -646,6 +654,7 @@ label CR3_WE_label_con5:
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
 
     scene CR3_WE_p44 with dissolve
+
 
     MC "Ugh... Where am I?"
     MC "(God, everything’s all blurry...)"
@@ -743,7 +752,7 @@ label CR3_WE_label_con5:
 
     MC "Maybe not tomorrow night, but we will do it again, together."
     Caroline "*Hic* We’re home!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Please try to keep your voice down! Mom and Dad are probably asleep!"
     else:
         MC "Please try to keep your voice down! Linda and Bob are probably asleep!"
@@ -809,7 +818,7 @@ label CR3_WE_label_con5:
             scene CR3_WE_UseHer_p5
 
             MC "Hehe..."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to my sister tonight?)"
             else:
                 MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to Caroline tonight?)"
@@ -831,6 +840,7 @@ label CR3_WE_label_con5:
             MC "(Damn! That pink pussy of hers, looks fucking perfect!)"
             MC "(She hasn’t woken up, so far - perhaps I can get away with, fingering her too?)"
             MC "(Let’s finger, both her holes, while she’s still unconscious!)"
+
 
             scene CR3_WE_UseHer_p9
 
@@ -950,6 +960,7 @@ label CR3_WE_label_con5:
             $ renpy.pause(0.7, hard = True)
             scene CR3_WE_UseHer_p26a with dissolve
 
+
             MC "Ugh! Aahhhhh!"
             MC "(Wow... I never knew I could cum this much!)"
             MC "(Right - I better get out of here before she sobers up. I’ll throw the sheets over her and dash away!)"
@@ -960,9 +971,9 @@ label CR3_WE_label_con5:
             Caroline "Zzz..."
             MC "(See you tomorrow, Caroline.)"
 
+
             jump CR3_WE_label_mor
         "No, I really shouldn’t.":
-
 
             MC "(No, I really shouldn’t do anything to her, while she’s drunk. I’ll let her sleep this hangover off.)"
             scene CR3_WE_p65

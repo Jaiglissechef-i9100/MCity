@@ -1,8 +1,10 @@
+
+default intercom_after_vibrator = False
 label school_entrance_morning1:
 
 
     if day_time == 1:
-        if celia_school_morning_scene1bv1 == 1 and can_school_intercom == True and Celia_points ==1:
+        if celia_school_morning_scene1bv1 == 1 and can_school_intercom == True and Celia_points ==1 and intercom_after_vibrator == True:
             jump school_entrance_intercom_label
         else:
             jump school_entrance_morning2

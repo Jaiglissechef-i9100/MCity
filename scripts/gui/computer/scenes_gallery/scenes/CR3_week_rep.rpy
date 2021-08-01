@@ -1,3 +1,6 @@
+
+
+
 label CR3_week_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -33,7 +36,7 @@ label CR3_week_rep:
     scene CR3_WE_UseHer_p5
 
     MC "Hehe..."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to my sister tonight?)"
     else:
         MC "(Just look at that pussy! It’s good enough to eat! Now, what should I do to Caroline tonight?)"
@@ -174,6 +177,7 @@ label CR3_week_rep:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_WE_UseHer_p26a with dissolve
+
 
     MC "Ugh! Aahhhhh!"
     MC "(Wow... I never knew I could cum this much!)"

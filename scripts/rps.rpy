@@ -188,7 +188,6 @@ label rps_money_select_label:
     hide rps_win
     hide rps_lose
     hide rps_draw
-    hide screen screen_rps_wonmoney
     scene rps_bet_background
     call screen rps_money_select_screen
 
@@ -198,7 +197,7 @@ screen rps_money_select_screen:
     vbox xalign 0.5 yalign 0.9:
         frame:
             style "frame_gui1"
-            text __("W:{color=#00ff00}[rps_w]{/color} D:{color=#ff9900}[rps_d]{/color} L:{color=#f00}[rps_l]{/color}")
+            text "W:{color=#00ff00}[rps_w]{/color} D:{color=#ff9900}[rps_d]{/color} L:{color=#f00}[rps_l]{/color}"
     vbox xalign 0 yalign 0 spacing 20:
         frame:
             style "frame_gui1"
@@ -270,35 +269,13 @@ label rps_bet3_label:
         hide screen rps_money_select_screen
         jump rps_money_select_label
 
+
+
+
 label rps_pick_menu_label:
-    menu:
-        "Play":
-            scene rps_pick_background
-            call screen rps_pick_menu_screen
-        "{image=cheat_code}":
-            $ rps_w += 1
-            $ renpy.block_rollback()
-            show rps_win
-            show screen screen_rps_wonmoney
-            $ renpy.pause(1)
-            if rps_bet1 == True:
-                $ inventory.earn(10)
-                $ rps_bet1 = False
-                $ rps_bet2 = False
-                $ rps_bet3 = False
-                jump rps_money_select_label
-            if rps_bet2 == True:
-                $ inventory.earn(20)
-                $ rps_bet1 = False
-                $ rps_bet2 = False
-                $ rps_bet3 = False
-                jump rps_money_select_label
-            if rps_bet3 == True:
-                $ inventory.earn(50)
-                $ rps_bet1 = False
-                $ rps_bet2 = False
-                $ rps_bet3 = False
-                jump rps_money_select_label
+
+    scene rps_pick_background
+    call screen rps_pick_menu_screen
 
 screen rps_pick_menu_screen:
     key "hide_windows" action NullAction()
@@ -424,7 +401,6 @@ screen screen_rps_drawmoney:
         text "{size=+25}{color=#00ff00}+10{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
     if rps_bet3 == True:
         text "{size=+25}{color=#00ff00}+25{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
-
 label tie:
     $ rps_d += 1
     show screen screen_rps_drawmoney

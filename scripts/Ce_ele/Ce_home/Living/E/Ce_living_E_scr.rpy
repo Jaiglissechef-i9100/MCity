@@ -8,7 +8,7 @@ screen Ce_living_E_scr:
         if clickable == True:
             action Show("Ce_living_E_painting")
 
-        hovered Show("displayTextScreen", displayText = __("Painting"))
+        hovered Show("displayTextScreen", displayText = "Painting")
         unhovered Hide("displayTextScreen")
 
     if clickable == True:

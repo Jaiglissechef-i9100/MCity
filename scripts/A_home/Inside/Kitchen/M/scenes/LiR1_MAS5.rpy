@@ -26,12 +26,6 @@ label LiR1_MAS5_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Mom_name = "Linda"
-        $ Liza2_name = "Liza"
 
     scene LiR1_MAS5_p1 with dissolve
 
@@ -43,7 +37,7 @@ label LiR1_MAS5_label:
 
     Yazmin "Oooh, are you - all worried - because I’m dressed like this?"
     Yazmin "That’s really cute. I never took you to be the shy type."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "(Whispered) Especially after I caught you perving on your auntie, the other day."
     else:
         Yazmin "(Whispered) Especially after I caught you perving on Liza, the other day."
@@ -58,7 +52,7 @@ label LiR1_MAS5_label:
 
     scene LiR1_MAS5_p4
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza "And speaking of water - my nephew has come over to tidy up our pool again, for us."
     else:
         Liza "And speaking of water - [player_name] has come over to tidy up our pool again, for us."
@@ -83,7 +77,8 @@ label LiR1_MAS5_label:
 
     scene LiR1_MAS5_p7
 
-    if persistent.incest_patch == True:
+
+    if renpy.loadable("patch.rpy"):
         Yazmin "Hmm... of course. But, if your mother picked a place for you to eat - and you didn’t like it - would you be the type to MOAN about it?"
     else:
         Yazmin "Hmm... of course. But, if Linda picked a place for you to eat - and you didn’t like it - would you be the type to MOAN about it?"
@@ -106,7 +101,7 @@ label LiR1_MAS5_label:
     scene LiR1_MAS5_p10
 
     Yazmin "I find, a great way to get rid of - the stiffness - is to just... massage it out."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "Your auntie is exceptional at massaging - you should feel how soft her hands are."
     else:
         Yazmin "Liza is exceptional at massaging - you should feel how soft her hands are."
@@ -126,7 +121,7 @@ label LiR1_MAS5_label:
     scene LiR1_MAS5_p12
 
     Yazmin "(Whispered) I’ve got a present here, for you, [player_name]."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Whispered) N-No... my aunt is sitting LITERALLY over there!"
     else:
         MC "(Whispered) N-No... Liza is sitting LITERALLY over there!"
@@ -143,7 +138,7 @@ label LiR1_MAS5_label:
     scene LiR1_MAS5_p13
 
     MC "Ohh..."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "(Whispered) Perfect... After I caught you - the other day - I got to wondering - could it be possible that my - pervy little nephew - wants to fuck an older woman?"
     else:
         Yazmin "(Whispered) Perfect... After I caught you - the other day - I got to wondering - could it be possible that you want to fuck an older woman?"

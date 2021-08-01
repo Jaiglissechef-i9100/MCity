@@ -61,7 +61,6 @@ image CR3_WE_mor_p55 = "images/Weekend_Events/Caroline/R3/Morning/55.jpg"
 image CR3_WE_mor_p55a = "images/Weekend_Events/Caroline/R3/Morning/55a.jpg"
 image CR3_WE_mor_p56 = "images/Weekend_Events/Caroline/R3/Morning/56.jpg"
 image CR3_WE_mor_p57 = "images/Weekend_Events/Caroline/R3/Morning/57.jpg"
-
 label CR3_WE_label_mor:
     $ renpy.music.stop(channel="music1", fadeout=1)
     scene black
@@ -75,6 +74,7 @@ label CR3_WE_label_mor:
 
     MC "Ugh... Bloody birds..."
     MC "*YAWN* It’s about time I get up, anyway."
+
 
     scene CR3_WE_mor_p2
 
@@ -124,6 +124,7 @@ label CR3_WE_label_mor:
         "Well, you told me you loved me. Does that count?":
             MC "Well, you told me that you love me. Does that count?"
 
+
             scene CR3_WE_mor_p10
             Caroline "I what?!"
             Caroline "(FUCK! I knew that drinking with him, was going to be a bad idea! Why did I decide to do it?!)"
@@ -139,7 +140,6 @@ label CR3_WE_label_mor:
             jump CR3_WE_label_mor_con1
         "Nope. Nothing unusual!":
 
-
             scene CR3_WE_mor_p10
 
             MC "Nope! Nothing unusual! Just drunken nonsense."
@@ -153,7 +153,7 @@ label CR3_WE_label_mor:
             scene CR3_WE_mor_p11c
 
             Caroline "Y-Yeah - all’s good!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "(Okay. In future, I REALLY need to take more care, about how much I drink, when I’m around my brother.)"
             else:
                 Caroline "(Okay. In future, I REALLY need to take more care, about how much I drink, when I’m around him.)"
@@ -250,6 +250,7 @@ label CR3_WE_label_mor_con1:
     MC "You’ve seen me naked LOADS of times. It seems fair to me, that I should get to see you in the nude today."
     Caroline "Gah, you’re persistent. You know that?!"
 
+
     scene CR3_WE_mor_p26
 
     MC "C’mon, Caroline - off with the towel!"
@@ -307,6 +308,7 @@ label CR3_WE_label_mor_con1:
     Caroline "Ah! No no no!"
     MC "Aww, c’mon! You’ll really enjoy it! I promise!"
     Caroline "Haha! No way! Nice try, though!"
+
 
     scene CR3_WE_mor_p36
 
@@ -435,6 +437,7 @@ label CR3_WE_label_mor_con1:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene CR3_WE_mor_p55a with dissolve
+
 
     MC "Ohh... Fuck me..."
     Caroline "Oh wow... That’s A LOT of cum! Somebody must have been REALLY horny!"

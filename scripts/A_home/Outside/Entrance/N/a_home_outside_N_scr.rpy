@@ -1,30 +1,18 @@
+
 default LiR1_climbing = False
 screen a_home_outside_N_scr:
     key "hide_windows" action NullAction()
 
     if not "img35_sec_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 835
-                ypos 258
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B35b.png"
-                hover "images/secret_gallery/Bonus/B35b_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img35_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 835
-                ypos 258
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28b.png"
-                hover "images/secret_gallery/Bonus/B28b_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img35_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
+        imagebutton:
+            xpos 835
+            ypos 258
+            focus_mask True
+            idle "images/secret_gallery/Bonus/B35b.png"
+            hover "images/secret_gallery/Bonus/B35b_hover.png"
+            if clickable == True:
+                action [Hide("displayTextScreen"),addgimage("img35_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 452
         ypos 193
@@ -37,7 +25,7 @@ screen a_home_outside_N_scr:
                 action [Hide("displayTextScreen"),Jump("a_living_M1_locked")]
             else:
                 action [Play ("sound", "sfx/door_locked.mp3"),Hide("displayTextScreen"),Jump("a_living_M1_locked")]
-            hovered Show("displayTextScreen", displayText = __("Enter House"))
+            hovered Show("displayTextScreen", displayText = "Enter House")
         unhovered Hide("displayTextScreen")
     if LiR1_NS5 == True:
         imagebutton:
@@ -48,7 +36,7 @@ screen a_home_outside_N_scr:
             hover "/images/a_home/outside/Entrance/N/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("LiR1_NS5_label")]
-            hovered Show("displayTextScreen", displayText = __("Enter House"))
+            hovered Show("displayTextScreen", displayText = "Enter House")
             unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 1077
@@ -61,7 +49,7 @@ screen a_home_outside_N_scr:
             idle "/images/a_home/outside/Entrance/N/B2a.png"
             hover "/images/a_home/outside/Entrance/N/B2a_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Pool"))
+            hovered Show("displayTextScreen", displayText = "Pool")
             action [Hide("displayTextScreen"),Jump("a_pool_M1")]
             unhovered Hide("displayTextScreen")
 
@@ -96,5 +84,5 @@ screen a_home_outside_N_scr:
             if clickable == True:
 
                 action [Hide("displayTextScreen"),Jump("Climbing_start0")]
-            hovered Show("displayTextScreen", displayText = __("Climb"))
+            hovered Show("displayTextScreen", displayText = "Climb")
             unhovered Hide("displayTextScreen")

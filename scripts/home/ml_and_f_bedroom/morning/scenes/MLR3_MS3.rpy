@@ -6,6 +6,7 @@ image MLR3_MS3_p5 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS3/5.jpg
 image MLR3_MS3_p6 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS3/6.jpg"
 image MLR3_MS3_p7 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS3/7.jpg"
 
+
 label MLR3_MS3:
     hide screen displayTextScreen
     hide screen map_button
@@ -53,7 +54,7 @@ label MLR3_MS3:
     MC "(Should I tell [Dad_name] about this? Is she going to talk to him before she goes? Or will she just disappear one day?)"
 
     scene MLR3_MS3_p7
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Oh, and before you think of asking your sisters or father about this… don’t."
     else:
         Mom "Oh, and before you think of asking your roommates or Bob about this… don’t."
@@ -64,6 +65,7 @@ label MLR3_MS3:
     MC "Fine, I promise. I won’t tell anyone."
     Mom "Good… You won’t have to keep this secret for long, I promise."
     MC "(She clearly doesn't want to talk about it at home. Maybe tomorrow I should visit her at her workplace?)"
+
 
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music1", loop=True, fadein = 2)

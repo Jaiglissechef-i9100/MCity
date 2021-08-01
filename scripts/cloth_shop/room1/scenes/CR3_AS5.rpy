@@ -8,7 +8,9 @@ image CR3_AS5_p7 = "images/cloth_shop/room1/day/scenes/CR3_AS5/7.jpg"
 image CR3_AS5_p8 = "images/cloth_shop/room1/day/scenes/CR3_AS5/8.jpg"
 image CR3_AS5_p9 = "images/cloth_shop/room1/day/scenes/CR3_AS5/9.jpg"
 
+
 label CR3_AS5_label:
+
 
     hide screen map_button
 
@@ -37,6 +39,8 @@ label CR3_AS5_label:
     hide screen day_time_viewer
     if CR3_AS5_can == 2:
 
+
+
         scene CR3_AS5_p1 with dissolve
 
         Caroline "Thanks for coming to see me, [player_name]. I wanted to talk with you."
@@ -63,6 +67,7 @@ label CR3_AS5_label:
         $ can_hide_windows = False
         jump cloth_shop_open_label
 
+
     if CR3_AS5_can >= 6:
         scene CR3_AS5_p2 with dissolve
 
@@ -83,7 +88,7 @@ label CR3_AS5_label:
         Caroline "Seriously - that’s twice now, you’ve helped save and grow my business. I owe you - big time - for that."
 
         scene CR3_AS5_p5
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Caroline "I couldn’t have asked for a better brother. I know I used to be, quite hard on you, when you were younger and growing up, but I wanted to let you know, that I really do care about you."
         else:
             Caroline "I couldn’t have asked for a better friend. I know I used to be, quite hard on you, when you were younger and growing up, but I wanted to let you know, that I really do care about you."

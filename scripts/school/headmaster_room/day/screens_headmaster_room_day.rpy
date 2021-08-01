@@ -1,54 +1,28 @@
 screen headmaster_room_day:
     key "hide_windows" action NullAction()
 
+
+
     if not "img20_sec_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 1905
-                ypos 510
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B20.png"
-                hover "images/secret_gallery/Bonus/B20_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img20_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 1905
-                ypos 510
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
-                hover "images/secret_gallery/Bonus/B28a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img20_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-
+        imagebutton:
+            xpos 1905
+            ypos 510
+            focus_mask True
+            idle "images/secret_gallery/Bonus/B20.png"
+            hover "images/secret_gallery/Bonus/B20_hover.png"
+            if clickable == True:
+                action [Hide("displayTextScreen"),addgimage("img20_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
     if not "img40_sec_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 860
-                ypos 462
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B40a.png"
-                hover "images/secret_gallery/Bonus/B40a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img40_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 860
-                ypos 462
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
-                hover "images/secret_gallery/Bonus/B28a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img40_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
-
+        imagebutton:
+            xpos 860
+            ypos 462
+            focus_mask True
+            idle "images/secret_gallery/Bonus/B40a.png"
+            hover "images/secret_gallery/Bonus/B40a_hover.png"
+            if clickable == True:
+                action [Hide("displayTextScreen"),addgimage("img40_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+            unhovered Hide("displayTextScreen")
     if headmaster_door_locked == False:
         imagebutton:
             xpos 860
@@ -56,6 +30,10 @@ screen headmaster_room_day:
             focus_mask True
             idle "images/school/headmaster_room/morning/headmaster_S1/B1.png"
             hover "images/school/headmaster_room/morning/headmaster_S1/B1_hover.png"
+
+
+
+
 
     if clickable == True:
         imagebutton:

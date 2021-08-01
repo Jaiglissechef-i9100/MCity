@@ -9,6 +9,7 @@ image CR2_MS1_p5b = "/images/home/caroline_room/morning/scenes/CR2_MS1/5b.jpg"
 image CR2_MS1_p5c = "/images/home/caroline_room/morning/scenes/CR2_MS1/5c.jpg"
 image CR2_MS1_p5d = "/images/home/caroline_room/morning/scenes/CR2_MS1/5d.jpg"
 
+
 label CR2_MS1_label:
     if can_CR2_MS1 == False:
         hide screen map_button
@@ -43,6 +44,7 @@ label CR2_MS1_label:
         MC "What’s the book?"
         Caroline "It’s a romance novel. A girl comes to work in a factory in Detroit, but soon finds herself seduced by the muscular supervisor."
         MC "It sounds like a real piece of literature..."
+
 
         scene CR2_MS1_p4a
 
@@ -81,7 +83,7 @@ label CR2_MS1_label:
                 MC "Remember the deal?"
 
                 scene CR2_MS1_p5c
-                if persistent.incest_patch == True:
+                if renpy.loadable("patch.rpy"):
                     Caroline "Yeah, but what if Mom walks in right now."
                     Caroline "Or, heaven forbid, Sara! What would she think if she saw her brother GROPING her sister’s ass?"
                 else:
@@ -92,7 +94,7 @@ label CR2_MS1_label:
                 scene CR2_MS1_p5d
 
                 Caroline "We can fool around in my work, but anything at home is far too risky."
-                if persistent.incest_patch == True:
+                if renpy.loadable("patch.rpy"):
                     Caroline "I’m not welching on our deal - we’ve got a good thing going. Let’s not risk blowing it, by Mom or Dad finding out. Okay?"
                 else:
                     Caroline "I’m not welching on our deal - we’ve got a good thing going. Let’s not risk blowing it, by Linda or Bob finding out. Okay?"
@@ -109,7 +111,7 @@ label CR2_MS1_label:
                 scene CR2_MS1_p5a
 
                 MC "(It isn’t worth the risk, grabbing her ass right now.)"
-                if persistent.incest_patch == True:
+                if renpy.loadable("patch.rpy"):
                     MC "(It might piss her off - plus Mom or Dad or Sara could walk in!)"
                     MC "(ANY of them would freak out if they saw me groping Caroline’s bum. We should probably keep our schmoozing to her workplace, where we have some privacy.)"
                 else:

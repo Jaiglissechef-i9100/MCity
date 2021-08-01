@@ -10,7 +10,7 @@ screen a_office_D_scr:
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Jump("a_living_M1")]
 
-    if LiR1_MAS3 == True and Li_points == 1 and Y_points == 1:
+    if LiR1_MAS3 == True and Li_points == 1:
         add "/images/a_home/Inside/Office/M/B3.png" xpos 1210 ypos 338
         imagebutton:
             xpos 969
@@ -23,28 +23,15 @@ screen a_office_D_scr:
             hovered Show("displayTextScreen", displayText = "Yazmin")
             unhovered Hide("displayTextScreen")
     if not "img32_sec_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 1185
-                ypos 416
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B32a.png"
-                hover "images/secret_gallery/Bonus/B32a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img32_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 1185
-                ypos 416
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
-                hover "images/secret_gallery/Bonus/B28a_hover.png"
-                if clickable == True:
-                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                    action [Hide("displayTextScreen"),addgimage("img32_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                    unhovered Hide("displayTextScreen")
+        imagebutton:
+            xpos 1185
+            ypos 416
+            focus_mask True
+            idle "images/secret_gallery/Bonus/B32a.png"
+            hover "images/secret_gallery/Bonus/B32a_hover.png"
+            if clickable == True:
+                action [Hide("displayTextScreen"),addgimage("img32_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
 
     if not Li_key1 in inventory.items and LiR1_keyMAS7 == True:
         imagebutton:
@@ -55,8 +42,8 @@ screen a_office_D_scr:
             hover "/images/a_home/Inside/Office/M/Li_key_B2_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Li_key_label")]
-            if persistent.incest_patch == True:
-                hovered Show("displayTextScreen", displayText = __("Auntie's Key"))
+            if renpy.loadable("patch.rpy"):
+                hovered Show("displayTextScreen", displayText = "Auntie's Key")
             else:
-                hovered Show("displayTextScreen", displayText = __("Liza's Key"))
+                hovered Show("displayTextScreen", displayText = "Liza's Key")
             unhovered Hide("displayTextScreen")

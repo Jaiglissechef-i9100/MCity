@@ -9,7 +9,7 @@ image CeR2_moni_p8 = "images/CeR2/Monitoring/Talking/8.jpg"
 image CeR2_moni_p8a = "images/CeR2/Monitoring/Talking/8a.jpg"
 
 default CeR2_moni = 1
-default B_J_name = __("Big Jake")
+default B_J_name = "Big Jake"
 define B_J = Character("[B_J_name]", color="#6600FF")
 
 label CeR2_moni_lab:
@@ -60,7 +60,7 @@ label CeR2_moni_lab:
         B_J "Whatcha want, kid?"
         MC "I was just looking around. The name’s [player_name]."
         B_J "Uh huh… I’m Big Jake."
-        $ B_J_name = __("Big Jake")
+        $ B_J_name = "Big Jake"
 
         scene CeR2_moni_p6
         MC "Nice to meet-"

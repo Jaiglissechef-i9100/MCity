@@ -76,7 +76,7 @@ label CR3_AS3_O1:
         MC "(Whispered) I said I’m sorry. I know this - deal thing - didn’t work out for you. I kept asking about it and pushing it. I should have just let it go."
 
         scene CR3_AS3_O1_p9
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Whispered) You’re my sister, and I would never want to hurt you or drive you away. I’m gonna miss what we had - every single day - for the rest of my life, but that would - pale in comparison - to the pain of losing you as a sister."
         else:
             MC "(Whispered) You’re my friend, and I would never want to hurt you or drive you away. I’m gonna miss what we had - every single day - for the rest of my life, but that would - pale in comparison - to the pain of losing you as a friend."

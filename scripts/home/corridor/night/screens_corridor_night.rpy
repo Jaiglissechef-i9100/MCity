@@ -7,7 +7,7 @@ screen corridor_night:
         idle "images/home/corridor/night/painting_B1.png"
         hover "images/home/corridor/night/painting_B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Painting"))
+            hovered Show("displayTextScreen", displayText = "Painting")
             action [Hide("displayTextScreen"),Jump("painting_corridor_label")]
             unhovered Hide("displayTextScreen")
     if caroline_door_open == True:
@@ -18,10 +18,9 @@ screen corridor_night:
             idle "images/home/corridor/night/door1_night_idle.png"
             hover "images/home/corridor/night/door1_night_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
                 action [Play ("sound", "sfx/door_open.mp3"),Jump("caroline_room_night1")]
                 unhovered Hide("displayTextScreen")
-
     if caroline_door_open == False:
         imagebutton:
             xpos 178
@@ -30,10 +29,9 @@ screen corridor_night:
             idle "images/home/corridor/night/door1_night_idle.png"
             hover "images/home/corridor/night/door1_night_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
                 action [Hide("displayTextScreen"),Play ("sound", "sfx/door_locked.mp3"),Jump("caroline_room_locked_label")]
                 unhovered Hide("displayTextScreen")
-
     if caroline_spare_key.selected and caroline_door_open == False:
         imagebutton:
             xpos 178
@@ -42,7 +40,7 @@ screen corridor_night:
             idle "images/home/corridor/night/door1_night_idle.png"
             hover "images/home/corridor/night/door1_night_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
                 action [SetVariable ("caroline_door_open", True),Play ("sound", "sfx/door_open.mp3"),Jump("caroline_room_night1")]
                 unhovered Hide("displayTextScreen")
     imagebutton:
@@ -52,10 +50,9 @@ screen corridor_night:
         idle "images/home/corridor/night/door2_night_idle.png"
         hover "images/home/corridor/night/door2_night_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("My Bedroom"))
+            hovered Show("displayTextScreen", displayText = "My Bedroom")
             action [Play ("sound", "sfx/door_open.mp3"),Jump("mc_room_night1")]
             unhovered Hide("displayTextScreen")
-
     if sara_door_open == True:
         imagebutton:
             xpos 1279
@@ -64,10 +61,9 @@ screen corridor_night:
             idle "images/home/corridor/night/door3_night_idle.png"
             hover "images/home/corridor/night/door3_night_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Sara's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Sara's Bedroom")
                 action [Play ("sound", "sfx/door_open.mp3"),Jump("sister_nerdy_night1")]
                 unhovered Hide("displayTextScreen")
-
     if sara_door_open == False:
         imagebutton:
             xpos 1279
@@ -76,10 +72,9 @@ screen corridor_night:
             idle "images/home/corridor/night/door3_night_idle.png"
             hover "images/home/corridor/night/door3_night_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = __("Sara's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Sara's Bedroom")
                 action [Play ("sound", "sfx/door_locked.mp3"),Hide("displayTextScreen"),Jump("sis_nerdy_door_locked")]
                 unhovered Hide("displayTextScreen")
-
     if CR3_NS2 == True and Caroline_points == 3:
         imagebutton:
             xpos 178
@@ -89,7 +84,7 @@ screen corridor_night:
             hover "images/home/corridor/night/door1_night_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("CR3_NS2_label")]
-                hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
                 unhovered Hide("displayTextScreen")
 
     if CR3_NS3 == True and Caroline_points == 3:
@@ -101,7 +96,7 @@ screen corridor_night:
             hover "images/home/corridor/night/door1_night_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("CR3_NS3_label")]
-                hovered Show("displayTextScreen", displayText = __("Caroline's Bedroom"))
+                hovered Show("displayTextScreen", displayText = "Caroline's Bedroom")
                 unhovered Hide("displayTextScreen")
     if Caroline_points == 4 and CR4_NS3 > 0 and CR4_NS3 < 3:
         imagebutton:
@@ -122,7 +117,7 @@ screen corridor_night:
         idle "images/home/corridor/night/door4_night_idle.png"
         hover "images/home/corridor/night/door4_night_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = __("Living Room"))
+            hovered Show("displayTextScreen", displayText = "Living Room")
             action [Jump("salon_night1")]
             unhovered Hide("displayTextScreen")
 

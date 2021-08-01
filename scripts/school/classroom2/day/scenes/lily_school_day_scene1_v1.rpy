@@ -18,6 +18,7 @@ label lily_school_day_scene1_v1_label:
     $ lily_school_day_scene1_v1q1a3 = True
     jump questions_lily_school_day_scene1_v1
 
+
 label questions_lily_school_day_scene1_v1:
 
     scene lily_school_day_scene1_v1_p1
@@ -37,7 +38,7 @@ label questions_lily_school_day_scene1_v1:
             else:
                 jump questions_lily_school_day_scene1_v1
 
-        "Have you seen my sister?" if lily_school_day_scene1_v1q1a2 == True and persistent.incest_patch == True:
+        "Have you seen my sister?" if lily_school_day_scene1_v1q1a2 == True and renpy.loadable("patch.rpy"):
 
             scene lily_school_day_scene1_v1_p2
             MC "Have you seen my sister?"
@@ -50,7 +51,7 @@ label questions_lily_school_day_scene1_v1:
             else:
                 jump questions_lily_school_day_scene1_v1
 
-        "Have you seen Sara?" if lily_school_day_scene1_v1q1a2 == True and not persistent.incest_patch == True:
+        "Have you seen Sara?" if lily_school_day_scene1_v1q1a2 == True and not renpy.loadable("patch.rpy"):
 
             scene lily_school_day_scene1_v1_p2
             MC "Have you seen Sara?"

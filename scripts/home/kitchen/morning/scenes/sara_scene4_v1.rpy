@@ -3,11 +3,11 @@ image scene4_v1p2 = "images/home/kitchen/morning/scenes/sara_scene4_v1/2.jpg"
 image scene4_v1p3 = "images/home/kitchen/morning/scenes/sara_scene4_v1/3.jpg"
 image scene4_v1p3a = "images/home/kitchen/morning/scenes/sara_scene4_v1/3a.jpg"
 image scene4_v1p4 = "images/home/kitchen/morning/scenes/sara_scene4_v1/4.jpg"
-
 default first_visit_sister_nerdy_scene4_v1 = 1
 default second_visit_sister_nerdy_scene4_v1 = 0
 default third_visit_sister_nerdy_scene4_v1 = 0
 default fourth_visit_sister_nerdy_scene4_v1 = 0
+
 
 label sister_nerdy_scene4_v11:
 
@@ -69,9 +69,9 @@ label sister_nerdy_scene4_v11:
         $ can_hide_windows = True
         MC "(Perfect timing! It looks like she’s just about to take a shower!)"
         MC "(I can almost see her pussy from this angle!)"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Please, if there’s a God up there, I’m begging you! Let my sister bend over right now!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(Please, if there’s a God up there, I’m begging you! Let my friend bend over right now!)"
 
         scene scene4_v1p3a
@@ -96,9 +96,9 @@ label sister_nerdy_scene4_v11:
         MC "(Just in time! Looks like she is masturbating!)"
         MC "(I wonder what she’s looking at on her phone. Could it be that picture of my cock?)"
         Sara "Ohh… [player_name]! Yes…!"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(She’ll need to be quieter than that, if she doesn’t want Mom to hear her!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(She’ll need to be quieter than that, if she doesn’t want Linda to hear her!)"
         $ next_day_sister_nerdy_scene4_v1 = False
         $ fourth_visit_sister_nerdy_scene4_v1 = 1
@@ -108,6 +108,8 @@ label sister_nerdy_scene4_v11:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music1", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump kitchen_morning1
+
+
 
 label sister_nerdy_scene4_v1_l_door_locked:
     hide screen week_day_viewer

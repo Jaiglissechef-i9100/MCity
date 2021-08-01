@@ -1,3 +1,6 @@
+
+
+
 label MLR2_weekend_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     hide screen mc_room_day_notclickable
@@ -17,12 +20,6 @@ label MLR2_weekend_rep:
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR2_weekend_p1 with dissolve
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Dad_name = __("Dad")
-    else:
-        $ Mom_name = "Linda"
-        $ Dad_name = "Bob"
     Mom "Good evening, Dear. Nice to see you finally made it."
     MC "You started drinking without me?"
     Mom "Just a little bit. Hehe...! I was too excited, to contain myself any longer."
@@ -36,7 +33,7 @@ label MLR2_weekend_rep:
     Mom "God... it feels so liberating to have you this close..."
     Mom "...to know that no one is going to interrupt us or take you away from me tonight."
     Mom "I love you, [player_name]."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "I love you too, Mom."
     else:
         MC "I love you too, Linda."
@@ -45,7 +42,7 @@ label MLR2_weekend_rep:
 
     Mom "Whoops! Haha! Looks like I fell back on the bed."
     Mom "Now, what's that hard thing in your pants? It wouldn't be your cock, would it?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Do you have any idea how BAD it would be for a boy's cock to rub against his own mother's pussy?"
     else:
         Mom "Do you have any idea how BAD it would be for a boy's cock to rub against mine pussy?"
@@ -77,14 +74,14 @@ label MLR2_weekend_rep:
     scene MLR2_weekend_p8
 
     Mom "Are you ready for tonight?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Definitely, Mom. I can't wait."
     else:
         MC "Definitely, Linda. I can't wait."
     Mom "Promise? I dont' want to push you into something you're not absolutely comfortable with."
 
     scene MLR2_weekend_p9
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Relax, Mom. I'm with the most stunning woman I've ever met. There is nothing you could say or do right now, that would make me change my mind about tonight."
         MC "(Mom picked out some really hot lingerie for tonight!)"
     else:
@@ -165,7 +162,7 @@ label MLR2_weekend_rep:
     scene MLR2_weekend_p22
     Mom "Ahem... That's enough of that. I don't want to get you off, TOO quickly."
     Mom "Besides - it’s your turn now. Pick three places on my body."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Okay, Mom. Just lie back for me."
     else:
         MC "Okay, Linda. Just lie back for me."
@@ -184,6 +181,7 @@ label MLR2_weekend_rep:
     $ MLR2_wine_counter = 0
     $ can_hide_windows = False
     call screen MLR2_weekend_scr_rep
+
 
 screen MLR2_weekend_scr_rep:
     key "hide_windows" action NullAction()
@@ -242,6 +240,7 @@ screen MLR2_weekend_scr_rep:
         idle "images/Weekend_Events/ML/R2/BodySpot/wine.png"
 
     text "{size=+20}{color=#00ff00}[MLR2_wine_counter]/3{/color}{/size}" xpos 1680 ypos 1000
+
 
 label MLR2_weekend_feet_label_rep:
     hide screen MLR2_weekend_scr_rep
@@ -303,7 +302,7 @@ label MLR2_weekend_pussy_label_rep:
 
     MC "(Lick Lick)"
     Mom "Mmmm… Yes, Baby... Right there!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Mom’s so wet; I can barely taste the wine!)"
     else:
         MC "(Linda’s so wet; I can barely taste the wine!)"
@@ -348,7 +347,7 @@ label MLR2_weekend_breasts_label_rep:
     hide screen MLR2_weekend_scr_rep
     scene MLR2_weekend_p24e
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Okay, let’s try pouring some wine on Mom’s breasts. They’re erogenous zones, right?)"
     else:
         MC "(Okay, let’s try pouring some wine on Linda’s breasts. They’re erogenous zones, right?)"
@@ -377,7 +376,7 @@ label MLR2_weekend_mouth_label_rep:
     hide screen MLR2_weekend_scr_rep
     $ can_hide_windows = True
     scene MLR2_weekend_p24f
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(It’s not the first place I thought of - but pouring some wine in Mom’s mouth and kissing her could work!)"
     else:
         MC "(It’s not the first place I thought of - but pouring some wine in Linda’s mouth and kissing her could work!)"
@@ -387,7 +386,7 @@ label MLR2_weekend_mouth_label_rep:
 
     MC "Mmm…"
     Mom "Hmm?! Mmmm…"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(Wow! Having my son kiss me, with the taste of my favourite red wine in my mouth, is incredible.)"
     else:
         Mom "(Wow! Having [player_name] kiss me, with the taste of my favourite red wine in my mouth, is incredible.)"
@@ -431,7 +430,7 @@ label MLR2_weekend_end_label_rep:
     MC "Mmm!"
     Mom "(Shlurrrrp)"
     Mom "(I’m gonna suck him dry. [player_name] is about to have his cock sucked like he has NEVER had before!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Mmm... She’s started. This is gonna be fun! I don’t know how long I’ll be able to last, with the scent of Mom’s pussy in my face.)"
     else:
         MC "(Mmm... She’s started. This is gonna be fun! I don’t know how long I’ll be able to last, with the scent of Linda’s pussy in my face.)"
@@ -461,12 +460,12 @@ label MLR2_weekend_end_label_rep:
     MC "(I’ve got to tell her to stop, or I’ll end up cumming before we have sex!)"
 
     scene MLR2_weekend_p34
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Mom! Stop! I’m gonna- ahhhh - cum!"
     else:
         MC "Linda! Stop! I’m gonna- ahhhh - cum!"
     Mom "(Suck suck!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Mom! Ahhh! We’re supposed to have sex- hnnnng - remember?!"
     else:
         MC "Linda! Ahhh! We’re supposed to have sex- hnnnng - remember?!"
@@ -475,7 +474,7 @@ label MLR2_weekend_end_label_rep:
 
     Mom "(Shit… I have to control myself.)"
     Mom "(This happens every time I’m around him - I just can’t restrain myself.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Mom!"
     else:
         MC "Linda!"
@@ -491,7 +490,7 @@ label MLR2_weekend_end_label_rep:
 
     MC "(I was right on the edge of cumming there. Just a couple more licks, and I would have been jizzing, deep down her throat!)"
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Thanks, Mom. That was… really close. Shall we get started on something else.. then?"
     else:
         MC "Thanks, Linda. That was… really close. Shall we get started on something else.. then?"
@@ -530,7 +529,7 @@ label MLR2_weekend_end_label_rep:
     scene MLR2_weekend_p40
 
     Mom "(Gasp) Wow… You REALLY came hard there, didn’t you, [player_name]?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Pant) Y-Yeah, Mom…"
     else:
         MC "(Pant) Y-Yeah, Linda…"
@@ -538,7 +537,7 @@ label MLR2_weekend_end_label_rep:
     Mom "Hehe... I know, Sweetie. Come lie on the bed, beside me. We can cuddle until you’re ready."
 
     scene MLR2_weekend_p41
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "So, your father usually takes a full day before he gets hard again."
     else:
         Mom "So, Bob usually takes a full day before he gets hard again."
@@ -550,14 +549,14 @@ label MLR2_weekend_end_label_rep:
     scene MLR2_weekend_p42
 
     Mom "Perhaps I could help speed this process along?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Haha! You’re hot, Mom - but I don’t think you’ll be able to beat biology."
     else:
         MC "Haha! You’re hot, Linda - but I don’t think you’ll be able to beat biology."
     Mom "That’s a shame. I was soooo looking forward to having this big boy, deep inside, my tight wet pussy."
 
     scene MLR2_weekend_p43
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Nice try, Mom. I don’t think dirty talk is gonna cut it though."
     else:
         MC "Nice try, Linda. I don’t think dirty talk is gonna cut it though."
@@ -639,7 +638,9 @@ label MLR2_weekend_end_label_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.pause(4, hard = True)
 
+
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
+
 
     scene MLR2_weekend_p53
 
@@ -650,19 +651,19 @@ label MLR2_weekend_end_label_rep:
     scene MLR2_weekend_p54
 
     Mom "Come on, [player_name]. If I can drag myself out of bed, after ALL that wine I had last night, then so can you."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Haha… Morning, Mom."
     else:
         MC "Haha… Morning Linda."
     MC "(Yawn!)"
 
     scene MLR2_weekend_p55
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "I’m sorry about your father, last night. Just… try to put it out of your head."
     else:
         Mom "I’m sorry about Bob last night. Just… try to put it out of your head."
     Mom "He’d promised me- GUARANTEED ME - he would be gone. I don’t know why he came all the way back, rather than just enjoying a night away in a hotel somewhere."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Hey, it’s okay, Mom. I was shitting myself at the time, but I’ve calmed down now. We didn’t get caught."
     else:
         MC "Hey, it’s okay, Linda. I was shitting myself at the time, but I’ve calmed down now. We didn’t get caught."
@@ -671,13 +672,13 @@ label MLR2_weekend_end_label_rep:
 
     Mom "I’ll handle this, don’t worry. We’ll have our night together."
     MC "Really?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Really. As soon as I can get rid of your father for a while, we’ll actually have sex."
     else:
         Mom "Really. As soon as I can get rid of Bob for a while, we’ll actually have sex."
 
     scene MLR2_weekend_p56
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "I love you, Mom."
     else:
         MC "I love you, Linda."

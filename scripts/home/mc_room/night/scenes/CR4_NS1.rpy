@@ -626,12 +626,6 @@ label CR4_NS1_label_wait:
     jump lake2_label
 
 label CR4_NS1_lake:
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Dad_name = __("Dad")
-    else:
-        $ Mom_name = "Linda"
-        $ Dad_name = "Bob"
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music1", loop=True, fadein = 2)
@@ -719,7 +713,7 @@ label CR4_NS1_lake:
 
     Caroline "...and then the city’s power came back on and all I could see was a crescent moon and a handful of the strongest stars."
     MC "That sounds heavenly. I’d like to see that with you someday."
-    Caroline "We’d probably have to borrow [Mom_name]’s car and drive outside the city limits though. Unless you want to wait for the miniscule chance of us seeing another blackout."
+    Caroline "We’d probably have to borrow [Linda_name]’s car and drive outside the city limits though. Unless you want to wait for the miniscule chance of us seeing another blackout."
     MC "Maybe that’s something we could do? Do you mind if I slip your top down?"
     Caroline "Haha, of course not, [player_name]. You can do whatever you want to me."
 
@@ -1036,7 +1030,7 @@ label CR4_NS1_lake:
 
     scene CR4_NS1_lake_p63
     Caroline "Harder! Fuck me harder! Ohhhhh!!!"
-    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Mom_name] or [Dad_name] to hear us doing this!)"
+    MC "(Thankfully we’re far away from the house! Caroline is really loud right now! I’d hate [Linda_name] or [Bob_name] to hear us doing this!)"
     MC "(Okay, it’s time to wreck her pussy, like I promised!)"
 
     scene CR4_NS1_lake_p64
@@ -1140,10 +1134,10 @@ label CR4_NS1_lake_con2:
     jump CR4_MS2_label
 
 label CR4_MS2_label:
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Dad_name = __("Dad")
-    else:
+    if renpy.loadable("patch.rpy"):
+        $ Mom_name = "Mom"
+        $ Dad_name = "Dad"
+    if not renpy.loadable("patch.rpy"):
         $ Mom_name = "Linda"
         $ Dad_name = "Bob"
     $ renpy.music.stop(channel="music1", fadeout=1)

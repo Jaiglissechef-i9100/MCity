@@ -14,6 +14,7 @@ screen ml_evening_bathroom_scene_v1_screen:
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("ml_evening_bathroom_scene_v1_screen"),Jump("kitchen_evening1")]
 
+
 label ml_evening_bathroom_scene_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -30,17 +31,17 @@ label ml_evening_bathroom_scene_v1_label:
     if ml_evening_bathroom_vist_scene_v1 == 1 and ml_can_evening_bathroom_scene_v1 == True:
         scene ml_evening_bathroom_scene_v1_p1 with dissolve
         $ can_hide_windows = True
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Just in time! It looks like Mom’s about to take a bath!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(Just in time! It looks like Linda’s about to take a bath!)"
         MC "(Damn… She’s got the best pair of thighs I’ve ever seen on a woman.)"
         MC "(No girl in my school even comes close to that!)"
 
         scene ml_evening_bathroom_scene_v1_p2
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(I can’t help but feel this is wrong… She’s my mother and I shouldn’t be thinking these things about her.)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(I can’t help but feel this is wrong… She’s my friend and I shouldn’t be thinking these things about her.)"
         MC "(On the other hand, just look at that ass. It’s fucking perfect!)"
         MC "(I can almost see her vulva, with that tight g-string she’s wearing!)"
@@ -53,9 +54,9 @@ label ml_evening_bathroom_scene_v1_label:
     if ml_evening_bathroom_vist_scene_v1 == 2 and ml_can_evening_bathroom_scene_v1 == True:
         scene black
         $ can_hide_windows = True
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(I’m a little late tonight - I hope I haven’t missed Mom getting washed!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(I’m a little late tonight - I hope I haven’t missed Linda getting washed!)"
 
         scene ml_evening_bathroom_scene2_v1_p1 with dissolve
@@ -64,9 +65,9 @@ label ml_evening_bathroom_scene_v1_label:
         MC "(I wonder how often she works out, to get a body THAT fit.)"
 
         scene ml_evening_bathroom_scene2_v1_p2
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(I’d give my right arm, for the girls at my school to have tits like Mom does! Those puppies are amazing!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(I’d give my right arm, for the girls at my school to have tits like Linda does! Those puppies are amazing!)"
         MC "(I’d be so distracted in class that I’d never learn anything though. Haha!)"
         MC "(Right, I better head on out of here before I get caught…)"

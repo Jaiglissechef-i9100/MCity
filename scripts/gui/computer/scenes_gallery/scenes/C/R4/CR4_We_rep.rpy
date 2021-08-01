@@ -737,10 +737,7 @@ label CR4_love_hotel_rep4:
 
     scene CR4_love_bed_p7
     MC "Do you not want me going down on you, for a change? Or-"
-    if persistent.incest_patch == True:
-        Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Mom or Sara walking in!"
-    else:
-        Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
+    Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
     MC "Well, if you’re sure."
 
     scene CR4_love_bed_p8

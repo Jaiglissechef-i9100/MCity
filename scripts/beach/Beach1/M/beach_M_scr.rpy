@@ -1,3 +1,4 @@
+
 screen beach_M_scr:
 
     add "images/Beach/Beach1/M/map.jpg"
@@ -35,9 +36,9 @@ screen beach_M_scr:
             hover "images/Beach/MLR3_beach_event/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_event3")]
-            if persistent.incest_patch == True:
-                hovered Show("displayTextScreen", displayText = __("Mom"))
-            else:
+            if renpy.loadable("patch.rpy"):
+                hovered Show("displayTextScreen", displayText = "Mom")
+            if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
     if MLR3_beach_done < 2 and MLR3_beach_event == True:
@@ -53,6 +54,6 @@ screen beach_M_scr:
             hover "images/Beach/MLR3_beach_event/B3_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_money")]
-            if persistent.incest_patch == True:
-                hovered Show("displayTextScreen", displayText = __("Bag"))
+            if renpy.loadable("patch.rpy"):
+                hovered Show("displayTextScreen", displayText = "Bag")
             unhovered Hide("displayTextScreen")

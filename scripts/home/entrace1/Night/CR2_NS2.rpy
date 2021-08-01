@@ -62,6 +62,7 @@ image CR2_NS2_back_p9anim = Movie(play="videos/02 Caroline-NS2-5.webm", loop = T
 image CR2_NS2_back_p10 = "images/home/entrace1/night/scenes/CR2_NS2/Back/10.jpg"
 image CR2_NS2_back_p11 = "images/home/entrace1/night/scenes/CR2_NS2/Back/11.jpg"
 
+
 image CR2_NS2_front_p1 = "images/home/entrace1/night/scenes/CR2_NS2/Front/1.jpg"
 image CR2_NS2_front_p2 = "images/home/entrace1/night/scenes/CR2_NS2/Front/2.jpg"
 image CR2_NS2_front_p3 = "images/home/entrace1/night/scenes/CR2_NS2/Front/3.jpg"
@@ -75,7 +76,6 @@ image CR2_NS2_front_p8 = "images/home/entrace1/night/scenes/CR2_NS2/Front/8.jpg"
 image CR2_NS2_front_p9 = "images/home/entrace1/night/scenes/CR2_NS2/Front/9.jpg"
 image CR2_NS2_front_p10 = "images/home/entrace1/night/scenes/CR2_NS2/Front/10.jpg"
 image CR2_NS2_front_p11 = "images/home/entrace1/night/scenes/CR2_NS2/Front/11.jpg"
-
 label CR2_NS2_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     hide screen week_day_viewer
@@ -86,7 +86,7 @@ label CR2_NS2_label:
     scene CR2_NS2_p1 with dissolve
     $ can_hide_windows = True
     MC "Hey, Caroline."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "Shush... Try to keep your voice down. We may be outside, but the rest of the family are sleeping."
     else:
         Caroline "Shush... Try to keep your voice down. We may be outside, but Linda and Bob and Sara are sleeping."
@@ -112,6 +112,7 @@ label CR2_NS2_label:
     Caroline "Don’t look so worried. Nothing seriously bad has happened."
     MC "Oh, thank God."
     MC "You had me scared there!"
+
 
     scene CR2_NS2_p5
 
@@ -163,7 +164,7 @@ label CR2_NS2_label:
 
     Caroline "Don’t keep saying it’s nothing, you idiot!"
     Caroline "You’re the only person in my life right now, who’s actually supported me!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "Not Mom. Not Dad. Not even my friends. All the help I ever got, came from YOU, [player_name]. Do you understand that?"
     else:
         Caroline "Not Linda. Not Bob. Not even my friends. All the help I ever got, came from YOU, [player_name]. Do you understand that?"
@@ -179,7 +180,7 @@ label CR2_NS2_label:
     scene CR2_NS2_p14
 
     Caroline "(This is so wrong... It must be the romantic atmosphere of the night air and the full moon.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(I can’t actually be feeling something for [player_name]. He’s my brother, for Christ’s sake!)"
     else:
         Caroline "(I can’t actually be feeling something for [player_name]. He’s my closest friend, for Christ’s sake!)"
@@ -214,7 +215,7 @@ label CR2_NS2_label:
 
             Caroline "Thank you for telling me."
             Caroline "I... "
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "I don’t feel the same way. I mean, I do love you - but just as a brother."
             else:
                 Caroline "I don’t feel the same way. I mean, I do love you - but just as a friend."
@@ -229,10 +230,10 @@ label CR2_NS2_label:
             Caroline "Okay."
             jump CR2_NS2_continue1
 
-        "I’m doing them because you're my sister. Anything else is a bonus." if persistent.incest_patch == True:
+        "I’m doing them because you're my sister. Anything else is a bonus." if renpy.loadable("patch.rpy"):
             jump CR2_NS2_q1
 
-        "I’m doing them because you're my friend. Anything else is a bonus." if persistent.incest_patch == False:
+        "I’m doing them because you're my friend. Anything else is a bonus." if not renpy.loadable("patch.rpy"):
             jump CR2_NS2_q1
         "I’m not gonna lie to you - I’ve been doing them as part of our deal.":
             scene CR2_NS2_p8
@@ -252,14 +253,14 @@ label CR2_NS2_label:
 label CR2_NS2_q1:
     scene CR2_NS2_p17
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "I’m doing these things because you’re my sister. Anything else is a bonus."
     else:
         MC "I’m doing these things because you’re my closest friend. Anything else is a bonus."
     MC "And that includes the deal."
     Caroline "Really?"
     MC "Really."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "I’m kinda relieved to hear that. Honestly, I only love you as a brother, and if things started to get romantic I’d be feeling a little weird."
     else:
         Caroline "I’m kinda relieved to hear that. Honestly, I only love you as a friend, and if things started to get romantic I’d be feeling a little weird."
@@ -274,7 +275,7 @@ label CR2_NS2_continue1:
     Caroline "Back to my bedroom for some fun."
 
     scene CR2_NS2_p19
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "But you said Mom and Dad were asleep!"
     else:
         MC "But you said Linda and Bob were asleep!"
@@ -305,7 +306,7 @@ label CR2_NS2_continue1:
     scene CR2_NS2_p22
 
     MC "I figured you would have brought boys over before."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "With a nosy brother like you, and an even nosier sister like Sara? It wasn’t worth the risk!"
     else:
         Caroline "With a nosy person like you, and an even nosier person like Sara? It wasn’t worth the risk!"
@@ -395,6 +396,7 @@ label CR2_NS2_continue1:
             scene CR2_NS2_back_p9anim
             MC "MMM! Oh…"
 
+
             scene CR2_NS2_back_p8
 
             MC "I’m good, Caroline. Your ass feels amazing!"
@@ -445,6 +447,7 @@ label CR2_NS2_continue1:
             scene CR2_NS2_front_p3anim
             Caroline "(I love the sensation of his cock, grinding against my panties.)"
             Caroline "(It’s brushing, perfectly against my clitoris!)"
+
 
             scene CR2_NS2_front_p4
 
@@ -501,7 +504,7 @@ label CR2_NS2_continue2:
 
     Caroline "Whoa!"
     MC "You gotta stay quiet, Caroline. Remember?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Don’t want to wake Mom and Dad up!"
     else:
         MC "Don’t want to wake Linda and Bob up!"
@@ -573,7 +576,7 @@ label CR2_NS2_continue2:
     Caroline "Unless…"
 
     scene CR2_NS2_p39
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(I had to hide it under my bed, in case Mom decided to inspect my room.)"
     else:
         Caroline "(I had to hide it under my bed, in case Linda decided to inspect my room.)"
@@ -581,6 +584,7 @@ label CR2_NS2_continue2:
     Caroline "(Oh, come on… Where have you gone?)"
 
     scene CR2_NS2_p40
+
 
     Caroline "Aha! There you are!"
     Caroline "(How on Earth did you get THAT far under the bed?)"
@@ -615,6 +619,7 @@ label CR2_NS2_continue2:
     Caroline "(Am I seriously getting off, to the thought of [player_name] fucking me?)"
     Caroline "(That’s sick and wrong… isn’t it?)"
     Caroline "(What’s wrong with me!?)"
+
 
     scene CR2_NS2_p45
 
@@ -716,6 +721,8 @@ label CR2_NS2_continue2:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
+
+
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -770,6 +777,7 @@ label CR2_NS2_continue2:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
         $ CR3_MS2 = True
@@ -782,6 +790,7 @@ label CR2_NS2_continue2:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False

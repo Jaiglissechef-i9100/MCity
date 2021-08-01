@@ -8,7 +8,7 @@ label bob_receptiondiagram:
     hide screen map_button
     if company_profit == 0:
         scene Protif0
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Eh… Profits aren’t looking too bad for Dad.)"
         else:
             MC "(Eh… Profits aren’t looking too bad for Bob.)"
@@ -17,14 +17,15 @@ label bob_receptiondiagram:
 
     if company_profit ==1:
         scene Protif1
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Uh oh… Looks like me giving out sensitive company information to Zuri has led to Dad’s profit margins falling!)"
         else:
             MC "(Uh oh… Looks like me giving out sensitive company information to Zuri has led to Bob’s profit margins falling!)"
 
+
     if company_profit == 2:
         scene Protif2
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Huh? Lying to Zuri has ensured that Dad’s company returns to a profitable position. That’s good to see!)"
             MC "(The projections are looking even stronger than before the crash. Dad’ll be pleased with this!)"
         else:

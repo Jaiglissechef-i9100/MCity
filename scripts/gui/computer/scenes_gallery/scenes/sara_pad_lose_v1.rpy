@@ -1,3 +1,4 @@
+
 label sara_pad_lose_v1:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
@@ -60,9 +61,9 @@ label sara_pad_lose_v1:
 
     scene sara_room_evening_scene2_v1_p9
     Sara "Hehe! Are you sure you want to go for one more round? You’ve only got your boxers left!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "It isn’t over yet! I was just going easy on you because you’re my sister."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "It isn’t over yet! I was just going easy on you because you’re my friend."
     Sara "Suuuuure!"
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -101,9 +102,9 @@ label sara_pad_lose_v1:
 
     scene sara_room_evening_scene2_v1_p14
     MC "So… uhh… I’m gonna go and get dressed now."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Last thing I want is, Mom or Dad, walking in on us right now!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Last thing I want is, Linda or Landlord, walking in on us right now!"
     $ renpy.sound.play('/sfx/photo_take.wav', loop=False)
     "(Click)(A flash of light fills the room)"
@@ -122,9 +123,9 @@ label sara_pad_lose_v1:
     Sara "You’re gonna have to catch me first! Hehe!"
     MC "Come back here!"
     MC "Seriously, Sara! Give me your phone!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "I-If you don’t stop chasing me, I’ll call Mom!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "I-If you don’t stop chasing me, I’ll call Linda!"
     scene sara_room_evening_scene2_v1_p17
     MC "Gotcha!"

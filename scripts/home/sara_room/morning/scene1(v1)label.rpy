@@ -4,6 +4,7 @@ image scene1_v1p3 = "images/home/sara_room/morning/Scene1_v1/3.jpg"
 image scene1_v1p4 = "images/home/sara_room/morning/Scene1_v1/4.jpg"
 image after_sis_nerdy_scene1_v1p1 = "images/home/sara_room/morning/Scene1_v1/after_sara_scene1.png"
 
+
 label scene1_v1:
     $ renpy.music.stop(channel="music2", fadeout=2)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
@@ -33,9 +34,9 @@ label scene1_v1:
     MC "I can CLEARLY see, you’ve only just started the round!"
 
     scene scene1_v1p4
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Aww, c’mon [player_name]! You’re not my dad! Hehe!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "Aww, c’mon [player_name]! You’re not Bob! Hehe!"
     Sara "Why do you care if I’m a little bit late to school? I’m almost top of the class, anyway."
     MC "Almost top? Weren’t you THE top, two years ago? You’re slipping, Sara."
@@ -101,7 +102,6 @@ label next_day_after_sis_nerdy_scene1_v1:
     $ scene1_v1q1a2 = True
     $ scene1_v1q1a3 = True
     jump scene1_v1q1
-
 label scene1_v1q1:
     scene scene1_v1p4
     menu:

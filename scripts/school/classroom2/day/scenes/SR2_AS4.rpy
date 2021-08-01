@@ -35,6 +35,7 @@ label SR2_AS4_label:
         Sara "I’d never felt, more at peace, in my life."
         MC "Aww, that’s so sweet. I loved cuddling you at night too."
 
+
         $ menu_q1 = True
         $ menu_q2 = True
         $ menu_q3 = True
@@ -42,6 +43,7 @@ label SR2_AS4_label:
         $ menu_q5 = True
         $ menu_ask = 0
         jump SR2_AS4_menu
+
 
 label SR2_AS4_menu:
     scene SR2_AS4_p5
@@ -155,12 +157,13 @@ label SR2_AS4_menu:
         "Skip questions." if menu_ask >= 2:
             jump SR2_AS4_continue
 
+
 label SR2_AS4_continue:
     scene SR2_AS4_p5
 
     MC "Okay, I better head on now. It was good seeing you today, Sara."
     Sara "Wait - before you go… Do you think we could chat on webcam this evening?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "I’m confined to my room, but Mom hasn’t taken away my laptop - so we could chat on that."
     else:
         Sara "I’m confined to my room, but I still have my laptop - so we could chat on that."

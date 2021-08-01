@@ -63,6 +63,7 @@ image SR2_NS3_p53 = "images/home/entrance2/night/scenes/SR2_NS3/53.jpg"
 image SR2_NS3_p54 = "images/home/entrance2/night/scenes/SR2_NS3/54.jpg"
 image SR2_NS3_p55 = "images/home/entrance2/night/scenes/SR2_NS3/55.jpg"
 
+
 label SR2_NS3_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -81,7 +82,7 @@ label SR2_NS3_label:
 
     MC "Pfft! That’s nothing! I’ll be able to help you up, there."
     Sara "Aww, you’re sweet. Let’s get a move on! We’re missing the stars!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Just be careful not to be too loud - we don’t want to wake Mom and Dad."
     else:
         MC "Just be careful not to be too loud - we don’t want to wake Linda and Bob."
@@ -104,7 +105,7 @@ label SR2_NS3_label:
 
     Sara "I’d REALLY like that."
     Sara "Every time you kiss me it feels like there are butterflies in my stomach. It’s like all the weight of life’s problems just float away."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "I love you, [player_name]. Much more than any sis really should..."
     else:
         Sara "I love you, [player_name]. Much more than a friend really should..."
@@ -136,7 +137,7 @@ label SR2_NS3_label:
 
     Sara "I love you so much, [player_name]. Hurry up and kiss me."
     MC "(Sara needed a date like this. It offers her some respite from being grounded.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I hope that Mom finally changes her mind and lets up on her soon.)"
     else:
         MC "(I hope that Linda finally changes her mind and lets up on her soon.)"
@@ -146,10 +147,11 @@ label SR2_NS3_label:
     MC "Mmmm…."
     Sara "Mwah!"
     scene SR2_NS3_p10anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I hope none of the family wake up and look out their windows right now… It’d give Dad a heart attack!)"
     else:
         MC "(I hope none of my roommates wake up and look out their windows right now… It’d give Bob a heart attack!)"
+
 
     scene SR2_NS3_p11
 
@@ -168,6 +170,7 @@ label SR2_NS3_label:
     MC "Hmm?"
     Sara "That’s EXACTLY how I want to be kissed when we meet. It’s just perfect."
     MC "I’ll try and remember to do that more often for you, then."
+
 
     scene SR2_NS3_p14
 
@@ -217,6 +220,7 @@ label SR2_NS3_label:
     MC "(Phew!)"
     MC "I finally made it, Sara!"
     MC "Sara?"
+
 
     scene SR2_NS3_p22
 
@@ -312,7 +316,7 @@ label SR2_NS3_label:
 
     Sara "*Gulp* If you say so."
     MC "It’ll be fine. As long as we’re quiet we shouldn’t get caught."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Plus, the rest of our family should have been asleep for A LONG time by now."
     else:
         MC "Plus, the rest of our roommates should have been asleep for A LONG time by now."
@@ -336,6 +340,7 @@ label SR2_NS3_label:
     Sara "This is gonna hurt, isn’t it?"
     MC "I… don’t know, Sara. Sorry, I’ve never had a dick in my ass before."
     Sara "Just… go slow, okay?"
+
 
     scene SR2_NS3_p39
 
@@ -453,6 +458,7 @@ label SR2_NS3_label:
             MC "It’s okay, Sara. I wasn’t going to have any fun if you were in pain."
             jump SR2_NS3_continue
 
+
 label SR2_NS3_continue:
     scene SR2_NS3_p51
 
@@ -487,7 +493,7 @@ label SR2_NS3_continue:
     Sara "Can we just agree to forget that the last bit on the roof happened?"
     MC "Haha, sure... Staring at the stars was my favourite part anyway."
     Sara "Hehe, mine too."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "C’mon, we better sneak back inside before Mom or Dad notice us missing. I’ll help you down from the roof."
     else:
         MC "C’mon, we better sneak back inside before Linda or Bob notice us missing. I’ll help you down from the roof."

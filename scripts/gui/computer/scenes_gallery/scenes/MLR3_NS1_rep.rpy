@@ -1,3 +1,5 @@
+
+
 label MLR3_NS1_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -26,6 +28,7 @@ label MLR3_NS1_rep:
     Mom "(And every single time I close my eyes, I think back to that night in the beach house.)"
     Mom "(His raw hard cock, felt so good, deep inside me. It’s like a damn addiction, I need to feel it again. I NEED to be fucked by [player_name] again.)"
     Mom "*Heavy Breathing*"
+
 
     MC "([Mom_name]’s breathing really loudly. I wonder if she’s alright.)"
 

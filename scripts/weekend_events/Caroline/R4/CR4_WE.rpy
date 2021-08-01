@@ -365,7 +365,7 @@ screen CR4_WE_dinner_scr:
         hover "images/Weekend_Events/Caroline/R4/Dinner/B1_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("CR4_WE_dinner_lab")]
-            hovered Show("displayTextScreen", displayText = __("Table"))
+            hovered Show("displayTextScreen", displayText = "Table")
             unhovered Hide("displayTextScreen")
 
 label CR4_WE_dinner_lab:
@@ -552,7 +552,7 @@ label CR4_WE_dinner_lab:
 
     scene CR4_dinner_p36
     Caroline " Seriously, [player_name], you’re amazing."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track Gran’s necklace down."
     else:
         Caroline "I can’t even begin to imagine what kind of detective work you had to do to track my gran’s necklace down."
@@ -762,7 +762,7 @@ screen CR4_love_hotel_map1_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B1_hover.png"
             if clickable == True and CR4_we_dbag == 1:
                 action [Hide("displayTextScreen"),Jump("CR4_love_hotel_handbag")]
-                hovered Show("displayTextScreen", displayText = __("Bag"))
+                hovered Show("displayTextScreen", displayText = "Bag")
                 unhovered Hide("displayTextScreen")
 
     if CR4_we <= 2:
@@ -797,7 +797,7 @@ screen CR4_love_hotel_map1_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B6_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),SetVariable("CR4_we", 6), Jump("CR4_love_hotel_lab5")]
-                hovered Show("displayTextScreen", displayText = __("Bed"))
+                hovered Show("displayTextScreen", displayText = "Bed")
                 unhovered Hide("displayTextScreen")
 
     if clickable == True:
@@ -831,7 +831,7 @@ screen CR4_love_hotel_map2_scr:
             hover "images/Weekend_Events/Caroline/R4/LoveHotel/B4_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),SetVariable("CR4_we", 4), Jump("CR4_love_hotel_lab4")]
-                hovered Show("displayTextScreen", displayText = __("Bath"))
+                hovered Show("displayTextScreen", displayText = "Bath")
                 unhovered Hide("displayTextScreen")
     if CR4_we > 3:
         add "images/Weekend_Events/Caroline/R4/LoveHotel/B5.png" xpos 938 ypos 423
@@ -1596,11 +1596,8 @@ label CR4_love_hotel_lab5:
         MC "Wow, it really is my lucky night, isn’t it?"
 
         scene CR4_love_bed_p7
-        MC "Do you not want me going down on you for a change? Or-"
-        if persistent.incest_patch == True:
-            Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Mom or Sara walking in!"
-        else:
-            Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
+        MC "Do you not want me going down on you, for a change? Or-"
+        Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
         MC "Well, if you’re sure."
 
         scene CR4_love_bed_p8

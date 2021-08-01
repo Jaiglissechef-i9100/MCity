@@ -32,6 +32,7 @@ init python:
     gallery_page = 0
     closeup_page = 0
 
+
     class GalleryItem:
         def __init__(self, name, images, thumb, thumb_hover, locked="lockedthumb"):
             self.name = name
@@ -69,6 +70,8 @@ init python:
         def __call__(self):
             gallery_photos.storage.append(self.img)
             renpy.restart_interaction()
+
+
 
     gallery_photos = Gallery_photos()
     gallery_items = []
@@ -156,3 +159,8 @@ init python:
     gallery_items.append(GalleryItem("79", ["img79_sec_card"], "thumb79_sec_card", "thumb79_hover_sec_card" ))
     gallery_items.append(GalleryItem("80", ["img80_sec_card"], "thumb80_sec_card", "thumb80_hover_sec_card" ))
     gallery_items.append(GalleryItem("81", ["img81_sec_card"], "thumb81_sec_card", "thumb81_hover_sec_card" ))
+    gallery_items.append(GalleryItem("82", ["img82_sec_card"], "thumb82_sec_card", "thumb82_hover_sec_card" ))
+    gallery_items.append(GalleryItem("83", ["img83_sec_card"], "thumb83_sec_card", "thumb83_hover_sec_card" ))
+    gallery_items.append(GalleryItem("84", ["img84_sec_card"], "thumb84_sec_card", "thumb84_hover_sec_card" ))
+    gallery_items.append(GalleryItem("85", ["img85_sec_card"], "thumb85_sec_card", "thumb85_hover_sec_card" ))
+    gallery_items.append(GalleryItem("86", ["img86_sec_card"], "thumb86_sec_card", "thumb86_hover_sec_card" ))

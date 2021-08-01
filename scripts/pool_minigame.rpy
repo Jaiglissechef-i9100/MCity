@@ -1,7 +1,16 @@
 
+
+
+
+
+
+
+
 transform rotation1:
     around (.5, .5) alignaround (.5, .5) xalign .5 yalign .5
     rotate 12
+
+
 
 image pool_minigame_bg = "images/pool_minigame/clean1/bg.jpg"
 image pool_minigame_bg2 = "images/pool_minigame/clean2/bg.jpg"
@@ -86,36 +95,30 @@ label pool_minigame_start0:
         jump pool_minigame_start
 
 label pool_minigame_start:
-    menu:
-        "Play":
-            $ renpy.block_rollback()
-            $ last_pressed = "a"
-            $ clean_loop += 1
-            $ clean_count = 0
-            $ pool_B1 = True
-            $ pool_B2 = True
-            $ pool_B3 = True
-            $ pool_B4 = True
-            $ pool_B5 = True
-            if clean_loop == 1:
-                scene pool_minigame_bg
-                call screen pool_minigame_scr
-            if clean_loop == 2:
-                scene pool_minigame_bg2
-                call screen pool_minigame_scr2
-            if clean_loop == 3:
-                scene pool_minigame_bg3
-                call screen pool_minigame_scr3
-        "{image=cheat_code}":
-            $ LiR1_poll_minigame_can = False
-            $ Li_clean_stuff.selected = False
-            $ inventory.earn(45)
-            $ day_time += 1
-            $ clean_loop = 3
-            $ LiR1_poll_minigame = False
-            $ LiR1_poll_event_end = True
-            MC "I've finally finished cleaning it. I should go and tell them. {color=#00ff00}(+45$){/color}"
-            jump a_pool_M1
+    $ renpy.block_rollback()
+    $ last_pressed = "a"
+    $ clean_loop += 1
+    $ clean_count = 0
+    $ pool_B1 = True
+    $ pool_B2 = True
+    $ pool_B3 = True
+    $ pool_B4 = True
+    $ pool_B5 = True
+    if persistent.skip_mg == True:
+        scene black
+
+        jump pool_minigame_end
+    else:
+        if clean_loop == 1:
+            scene pool_minigame_bg
+            call screen pool_minigame_scr
+        if clean_loop == 2:
+            scene pool_minigame_bg2
+            call screen pool_minigame_scr2
+        if clean_loop == 3:
+            scene pool_minigame_bg3
+            call screen pool_minigame_scr3
+
 
 label pool_minigame_loop:
     $ clickable = True
@@ -156,6 +159,8 @@ screen pool_minigame_scr:
     key "game_menu" action NullAction()
     if clickable == True:
         key "mouseup_3" action NullAction()
+
+
 
     if clean_bar_value >=0.01:
         timer 0.15 action SetVariable("clean_bar_value", clean_bar_value - 0.10) repeat True
@@ -256,6 +261,8 @@ screen pool_minigame_B1:
         add "images/pool_minigame/HUD/Ba.png" xpos 1720 ypos 920
         text "{b}d{/b}" xpos 1810 ypos 954
 
+
+
     if clean_bar_value > 1.5 and pool_B1_chosen == True:
         timer 0.15 action [SetVariable("pool_B1", False),Hide("pool_minigame_B1"),Jump("pool_minigame_loop")]
 
@@ -263,6 +270,9 @@ screen pool_minigame_B1:
         add "images/pool_minigame/player/B1.png" xpos 1095 ypos 240
     if pool_B1_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/B2.png" xpos 1095 ypos 240
+
+
+
 
     if clean_bar_value > 1.5 and pool_B2_chosen == True:
         timer 0.15 action [SetVariable("pool_B2", False),Hide("pool_minigame_B1"),Jump("pool_minigame_loop")]
@@ -272,6 +282,9 @@ screen pool_minigame_B1:
     if pool_B2_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 1395 ypos 540
 
+
+
+
     if clean_bar_value > 1.5 and pool_B3_chosen == True:
         timer 0.15 action [SetVariable("pool_B3", False),Hide("pool_minigame_B1"),Jump("pool_minigame_loop")]
 
@@ -279,6 +292,9 @@ screen pool_minigame_B1:
         add "images/pool_minigame/player/A1.png" xpos 785 ypos 600
     if pool_B3_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/A2.png" xpos 785 ypos 600
+
+
+
 
     if clean_bar_value > 1.5 and pool_B4_chosen == True:
         timer 0.15 action [SetVariable("pool_B4", False),Hide("pool_minigame_B1"),Jump("pool_minigame_loop")]
@@ -288,6 +304,9 @@ screen pool_minigame_B1:
     if pool_B4_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 350 ypos 500
 
+
+
+
     if clean_bar_value > 1.5 and pool_B5_chosen == True:
         timer 0.15 action [SetVariable("pool_B5", False),Hide("pool_minigame_B1"),Jump("pool_minigame_loop")]
 
@@ -296,10 +315,14 @@ screen pool_minigame_B1:
     if pool_B5_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/D2.png" xpos 550 ypos 200
 
+
+
 screen pool_minigame_scr2:
     key "game_menu" action NullAction()
     if clickable == True:
         key "mouseup_3" action NullAction()
+
+
 
     if clean_bar_value >=0.01:
         timer 0.15 action SetVariable("clean_bar_value", clean_bar_value - 0.10) repeat True
@@ -324,6 +347,7 @@ screen pool_minigame_scr2:
             hover "images/pool_minigame/HUD/completed_hover.png"
             if clickable == True:
                 action [Jump("pool_minigame_end")]
+
 
     if pool_B1 == True:
         imagebutton:
@@ -395,6 +419,8 @@ screen pool_minigame_B2:
         add "images/pool_minigame/HUD/Ba.png" xpos 1720 ypos 920
         text "{b}d{/b}" xpos 1810 ypos 954
 
+
+
     if clean_bar_value > 1.5 and pool_B1_chosen == True:
         timer 0.15 action [SetVariable("pool_B1", False),Hide("pool_minigame_B2"),Jump("pool_minigame_loop")]
 
@@ -402,6 +428,8 @@ screen pool_minigame_B2:
         add "images/pool_minigame/player/B1.png" xpos 1095 ypos 260
     if pool_B1_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/B2.png" xpos 1095 ypos 260
+
+
 
     if clean_bar_value > 1.5 and pool_B2_chosen == True:
         timer 0.15 action [SetVariable("pool_B2", False),Hide("pool_minigame_B2"),Jump("pool_minigame_loop")]
@@ -411,6 +439,8 @@ screen pool_minigame_B2:
     if pool_B2_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/B2.png" xpos 1395 ypos 390
 
+
+
     if clean_bar_value > 1.5 and pool_B3_chosen == True:
         timer 0.15 action [SetVariable("pool_B3", False),Hide("pool_minigame_B2"),Jump("pool_minigame_loop")]
 
@@ -418,6 +448,8 @@ screen pool_minigame_B2:
         add "images/pool_minigame/player/C1.png" xpos 955 ypos 510
     if pool_B3_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 955 ypos 510
+
+
 
     if clean_bar_value > 1.5 and pool_B4_chosen == True:
         timer 0.15 action [SetVariable("pool_B4", False),Hide("pool_minigame_B2"),Jump("pool_minigame_loop")]
@@ -427,6 +459,8 @@ screen pool_minigame_B2:
     if pool_B4_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 755 ypos 350
 
+
+
     if clean_bar_value > 1.5 and pool_B5_chosen == True:
         timer 0.15 action [SetVariable("pool_B5", False),Hide("pool_minigame_B2"),Jump("pool_minigame_loop")]
 
@@ -435,10 +469,14 @@ screen pool_minigame_B2:
     if pool_B5_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 395 ypos 600
 
+
+
 screen pool_minigame_scr3:
     key "game_menu" action NullAction()
     if clickable == True:
         key "mouseup_3" action NullAction()
+
+
 
     if clean_bar_value >=0.01:
         timer 0.15 action SetVariable("clean_bar_value", clean_bar_value - 0.10) repeat True
@@ -463,6 +501,7 @@ screen pool_minigame_scr3:
             hover "images/pool_minigame/HUD/completed_hover.png"
             if clickable == True:
                 action [Jump("pool_minigame_end")]
+
 
     if pool_B1 == True:
         imagebutton:
@@ -534,6 +573,8 @@ screen pool_minigame_B3:
         add "images/pool_minigame/HUD/Ba.png" xpos 1720 ypos 920
         text "{b}d{/b}" xpos 1810 ypos 954
 
+
+
     if clean_bar_value > 1.5 and pool_B1_chosen == True:
         timer 0.15 action [SetVariable("pool_B1", False),Hide("pool_minigame_B3"),Jump("pool_minigame_loop")]
 
@@ -541,6 +582,8 @@ screen pool_minigame_B3:
         add "images/pool_minigame/player/B1.png" xpos 1395 ypos 360
     if pool_B1_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/B2.png" xpos 1395 ypos 360
+
+
 
     if clean_bar_value > 1.5 and pool_B2_chosen == True:
         timer 0.15 action [SetVariable("pool_B2", False),Hide("pool_minigame_B3"),Jump("pool_minigame_loop")]
@@ -550,6 +593,8 @@ screen pool_minigame_B3:
     if pool_B2_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/B2.png" xpos 1295 ypos 320
 
+
+
     if clean_bar_value > 1.5 and pool_B3_chosen == True:
         timer 0.15 action [SetVariable("pool_B3", False),Hide("pool_minigame_B3"),Jump("pool_minigame_loop")]
 
@@ -558,6 +603,8 @@ screen pool_minigame_B3:
     if pool_B3_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/C2.png" xpos 1095 ypos 520
 
+
+
     if clean_bar_value > 1.5 and pool_B4_chosen == True:
         timer 0.15 action [SetVariable("pool_B4", False),Hide("pool_minigame_B3"),Jump("pool_minigame_loop")]
 
@@ -565,6 +612,8 @@ screen pool_minigame_B3:
         add "images/pool_minigame/player/A1.png" xpos 495 ypos 320
     if pool_B4_chosen == True and last_pressed == "a":
         add "images/pool_minigame/player/A2.png" xpos 495 ypos 320
+
+
 
     if clean_bar_value > 1.5 and pool_B5_chosen == True:
         timer 0.15 action [SetVariable("pool_B5", False),Hide("pool_minigame_B3"),Jump("pool_minigame_loop")]

@@ -3,6 +3,8 @@ image sara_night_sleeping1_v1_p2 = "images/home/sara_room/night/scenes/sleeping1
 image sara_night_sleeping1_v1_p3 = "images/home/sara_room/night/scenes/sleeping1/3.jpg"
 image sara_night_sleeping1_v1_p4 = "images/home/sara_room/night/scenes/sleeping1/4.jpg"
 
+
+
 label sis_nerdy_night_sleeping1_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button

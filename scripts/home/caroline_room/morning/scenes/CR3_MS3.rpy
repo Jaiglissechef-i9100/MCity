@@ -7,6 +7,7 @@ image CR3_MS3_p6 = "/images/home/caroline_room/morning/scenes/CR3_MS3/6.jpg"
 image CR3_MS3_p7 = "/images/home/caroline_room/morning/scenes/CR3_MS3/7.jpg"
 image CR3_MS3_p8 = "/images/home/caroline_room/morning/scenes/CR3_MS3/8.jpg"
 
+
 label CR3_MS3_label:
     if CR3_MS3_can == False:
         hide screen map_button

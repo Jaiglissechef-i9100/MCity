@@ -11,6 +11,7 @@ image CR3_NS1_p10 = "images/home/caroline_room/night/scenes/CR3_NS1/10.jpg"
 image CR3_NS1_p11 = "images/home/caroline_room/night/scenes/CR3_NS1/11.jpg"
 image CR3_NS1_p12 = "images/home/caroline_room/night/scenes/CR3_NS1/12.jpg"
 
+
 label CR3_NS1_label:
     $ can_hide_windows = True
     hide screen week_day_viewer
@@ -88,7 +89,7 @@ label CR3_NS1_label:
         MC "B-But-"
         Caroline "No buts! Please don’t make this, any harder for yourself. You need to move on."
         MC "Don’t you want - one last-"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Caroline "No, I don’t. You’re my brother, [player_name]. Anything that we did together, was completely wrong. Go back to bed."
         else:
             Caroline "No, I don’t. You’re my very close friend, [player_name]. Anything that we did together, was - completely wrong. Go back to bed!"

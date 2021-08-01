@@ -1,3 +1,4 @@
+
 label caroline_room_locked_label:
     show screen corridor_night_notclickable
     hide screen week_day_viewer

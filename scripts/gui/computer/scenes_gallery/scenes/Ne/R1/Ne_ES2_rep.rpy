@@ -15,7 +15,7 @@ label Ne_ES2_rep:
     MC "(Shit, I can’t get it fully closed!)"
     scene Ne_ES2_p25
     Sidra "Ah, there you are!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "Hi, Mum."
     else:
         Isla "Hi Sidra."
@@ -49,9 +49,9 @@ label Ne_ES2_rep:
     scene Ne_ES2_p32
     Isla "I am! I swear I am! You don’t need to spank me!"
     Isla "You can lick my pussy all you want!"
-
     scene Ne_ES2_p33
-    if persistent.incest_patch == True:
+
+    if renpy.loadable("patch.rpy"):
         MC "(Yikes. Her mother is a grade-A narcissist!)"
     else:
         MC "(Yikes. Sidra is a grade-A narcissist!)"
@@ -62,7 +62,7 @@ label Ne_ES2_rep:
     Isla "*Gulp* N-No…"
     scene Ne_ES2_p35
     Sidra "Why do you look so nervous today, darling?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "I’m n-not nervous, Mum."
     else:
         Isla "I’m n-not nervous, Sidra."
@@ -94,7 +94,7 @@ label Ne_ES2_rep:
     Isla "(Even if he can’t see me, he’ll DEFINITELY hear us once we get going!)"
     scene Ne_ES2_p43
     Sidra "Mmm…"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "(If my mum finds out that [player_name] knows then she’ll make us move again!)"
     else:
         Isla "(If Sidra finds out that [player_name] knows then she’ll make us move again!)"
@@ -131,7 +131,7 @@ label Ne_ES2_rep:
     Sidra "Ahh… Just like that, darling."
     scene Ne_ES2_p52
     Isla "*Shluuurrrrp*"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sidra "Mmm! Yes, darling! Mmm! Suck your mum’s nipples!"
     else:
         Sidra "Mmm! Yes, darling! Mmm! Suck my nipples!"
@@ -223,7 +223,7 @@ label Ne_ES2_rep:
 
     scene Ne_ES2_p73
     Sidra "Off you go. I’ll meet you in your room later on, Darling."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "Yes, Mum."
     else:
         Isla "Yes, Sidra."

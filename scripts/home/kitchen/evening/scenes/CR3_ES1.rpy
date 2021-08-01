@@ -15,6 +15,7 @@ image CR3_ES1_p14 = "images/home/kitchen/evening/scenes/CR3_ES1/14.jpg"
 image CR3_ES1_p15 = "images/home/kitchen/evening/scenes/CR3_ES1/15.jpg"
 image CR3_ES1_p16 = "images/home/kitchen/evening/scenes/CR3_ES1/16.jpg"
 
+
 label CR3_ES1_label:
     if CR3_ES1_q1 == False and CR3_ES1_q2 == False and CR3_ES1_q3 == False and CR3_ES1_q4 == False and CR3_ES1_q5 == False:
         hide screen map_button
@@ -40,6 +41,7 @@ label CR3_ES1_label:
 
         scene CR3_ES1_p1 with dissolve
 
+
         MC "(What the heck is Caroline doing? I’ve never seen her sit and drink beer, by herself.)"
         MC "(She really rocks that outfit though! I love those super-tight denim shorts, she’s wearing!)"
 
@@ -62,6 +64,7 @@ label CR3_ES1_label:
         MC "Something on your mind?"
         Caroline " A lotta shit - But you don’t need to concern yourself with it. "
         MC "Are you gonna drink both of those, or can I have one?"
+
 
         scene CR3_ES1_p5
 

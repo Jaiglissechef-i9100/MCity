@@ -12,17 +12,18 @@ label ml_bedroom_book_scene_v1_label:
     $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_bedroom_book_scene_v1_p1 with dissolve
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Ahh, this looks like the book Mom was reading when she was fucking Dad the other night!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Ahh, this looks like the book Linda was reading when she was fucking Bob the other night!)"
     MC "(I wonder what could possibly be more interesting than having sex?)"
     MC "(Let’s turn this over…)"
 
-    if persistent.incest_patch == True:
+
+    if renpy.loadable("patch.rpy"):
         scene ml_bedroom_book_scene_v1_p2
         MC "Dating your… son?"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Dating your… much younger friend?"
     MC "How to tell if he… is SEXUALLY ATTRACTED to you?!"
 
@@ -31,18 +32,18 @@ label ml_bedroom_book_scene_v1_label:
     MC "(Is she just reading this for fun?)"
     MC "(No… she must be serious.)"
     MC "(The way she kissed me, so intensely that morning, and the weird way she’s been acting around me.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Is she thinking about fucking me when she’s with Dad?)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Is she thinking about fucking me when she’s with Bob?)"
     scene ml_bedroom_book_scene_v1_p4
     MC "Fuck… It all makes sense now."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(My own mother wants to fuck me!)"
         MC "(How the heck am I even supposed to respond to this?!)"
         MC "(God… I’ll never be able to look her straight, in the eyes again!)"
         MC "(Mom’s lucky that Dad isn’t paying attention to the books she reads! If he caught her with this, he’d be furious!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Linda wants to fuck me!)"
         MC "(How the heck am I even supposed to respond to this?!)"
         MC "(God… I’ll never be able to look her straight, in the eyes again!)"

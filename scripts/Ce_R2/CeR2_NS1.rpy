@@ -373,7 +373,7 @@ label CeR2_NS1_lab:
         $ renpy.sound.play('/sfx/door_open.mp3', channel="sound")
         $ can_hide_windows = False
         $ CeR2_MS1 = True
-        $ can_celia_morning_school_work_in_pr =2
+        $ CeliaR2_lock_work = True
         jump map_label
 
     if CeR2_NS1 == 3:

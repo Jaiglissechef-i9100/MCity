@@ -6,7 +6,7 @@ screen toilets_day:
         focus_mask True
         idle "images/school/toilets/morning/door1_morning_idle.png"
         hover "images/school/toilets/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Toilet's Cabin"))
+        hovered Show("displayTextScreen", displayText = "Toilet's Cabin")
         action [Play ("sound", "sfx/toilet cabin.mp3"),Jump("toilet_cabin_day1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -17,6 +17,7 @@ screen toilets_day:
         hover "images/game_gui/goback_button_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_day1")]
 
+
     if unlock_celia_toilet_cabin_day_scene3_v1 == 1 and can_unlock_celia_toilet_cabin_day_scene3_v1 == 1:
         imagebutton:
             xpos 0
@@ -24,7 +25,7 @@ screen toilets_day:
             focus_mask True
             idle "images/school/toilets/morning/door1_morning_idle.png"
             hover "images/school/toilets/morning/door1_morning_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Toilet's Cabin"))
+            hovered Show("displayTextScreen", displayText = "Toilet's Cabin")
             action [Hide("displayTextScreen"),Play ("sound", "sfx/toilet cabin.mp3"),Jump("celia_toilet_cabin_day_scene3_v1_label")]
             unhovered Hide("displayTextScreen")
 
@@ -35,7 +36,7 @@ screen toilets_day:
             focus_mask True
             idle "images/school/toilets/morning/door1_morning_idle.png"
             hover "images/school/toilets/morning/door1_morning_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Toilet's Cabin"))
+            hovered Show("displayTextScreen", displayText = "Toilet's Cabin")
             action [Hide("displayTextScreen"),Play ("sound", "sfx/toilet cabin.mp3"),Jump("celia_toilet_cabin_day_scene4_v1_label")]
             unhovered Hide("displayTextScreen")
 

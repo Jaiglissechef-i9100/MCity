@@ -62,12 +62,13 @@ label CR3_MS2_label:
     Caroline "Let me remind you, We - almost NEVER - hung out. Then, once this deal came into place, we were seeing each other all the time."
 
     scene CR3_MS2_p8
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "We can work out a healthy balance, but as of now, I’m your sister, NOT your girlfriend."
     else:
         Caroline "We can work out a healthy balance, but as of now, I’m your close friend, NOT your girlfriend."
     MC "...You were never my girlfriend. It was just a-"
     Caroline "-I know exactly what it was. There’s no need to rehash it. Can’t we just bury this, and move on?"
+
 
     scene CR3_MS2_p9
 

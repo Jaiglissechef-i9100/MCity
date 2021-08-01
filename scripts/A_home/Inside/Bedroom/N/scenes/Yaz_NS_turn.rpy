@@ -1,3 +1,5 @@
+
+
 image LiR1_NS3_turn_bush_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Bush/1.jpg"
 image LiR1_NS3_turn_bush_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Bush/2.jpg"
 image LiR1_NS3_turn_bush_p3 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Bush/3.jpg"
@@ -10,6 +12,7 @@ image LiR1_NS3_turn_bush_p9 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Ya
 image LiR1_NS3_turn_bush_p9anim = Movie(play="videos/04 Liza-NSV-B1.webm", loop = True )
 image LiR1_NS3_turn_bush_p10 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Bush/10.jpg"
 image LiR1_NS3_turn_bush_p11 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Bush/11.jpg"
+
 
 image LiR1_NS3_turn_tits_p1 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Tits/1.jpg"
 image LiR1_NS3_turn_tits_p2 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Tits/2.jpg"
@@ -26,10 +29,6 @@ image LiR1_NS3_turn_tits_p11 = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Y
 image LiR1_NS3_turn_tits_p11a = "images/a_home/Inside/Bedroom/N/Scenes/LiR1_NS3/Yazmin/Turn_Her/Tits/11a.jpg"
 
 label Yaz_NS_turn_label:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
     $ renpy.block_rollback()
     scene LiR1_NS3_turn_p1 with dissolve
     MC "(Okay - I have to be extremely careful, right now... This is probably, one of the riskiest things, I’ll ever do in my life...)"
@@ -108,6 +107,7 @@ label Yaz_NS_B_turn_bush:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS3_turn_bush_p10 with dissolve
+
 
     MC "Phew... Wow..."
     MC "(Damn, that felt good... But I better get out of here, before she wakes up!)"
@@ -195,6 +195,7 @@ label Yaz_NS_B_turn_tits:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS3_turn_tits_p11a with dissolve
+
 
     MC "(Damn... That was an intense orgasm...)"
     MC "(I should probably clean up this cum... but if I stay any longer, I’ll risk, [Liza2_name] waking up and catching me.)"

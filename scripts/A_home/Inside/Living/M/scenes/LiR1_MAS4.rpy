@@ -28,17 +28,11 @@ label LiR1_MAS4_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Mom_name = "Linda"
-        $ Liza2_name = "Liza"
     scene black
     $ renpy.pause (1, hard = True)
     scene LiR1_MAS4_p1 with dissolve
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Hello? Auntie Liza? Yazmin?"
     else:
         MC "Hello? Liza? Yazmin?"
@@ -104,7 +98,7 @@ label LiR1_MAS4_label:
     scene black
     $ renpy.pause(3,hard= True)
     scene LiR1_MAS4_p11
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "So... What am I to do with - the little pervert - spying on his auntie?"
     else:
         Yazmin "So... What am I to do with - the little pervert - spying on my wife?"
@@ -162,7 +156,7 @@ label LiR1_MAS4_label:
 
     Yazmin "All done. You can go now!"
     MC "Wait - just like that? What about - you catching me-"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "I said you can go now. Your aunt will be coming upstairs soon - and I HIGHLY doubt, you want to be standing in front of me with no pants on, when she comes in."
     else:
         Yazmin "I said you can go now. Liza will be coming upstairs soon - and I HIGHLY doubt, you want to be standing in front of me with no pants on, when she comes in."
@@ -174,6 +168,7 @@ label LiR1_MAS4_label:
     Yazmin "Eh... For now. I might need to borrow you again, in the future. But for the meantime, I have everything I need."
     MC "Okay. See you later, then... I guess."
     MC "(What does she mean, with that - waiting for tonight, though...?)"
+
 
     $ LiR1_NS1 = True
     $ LiR1_climbing = True

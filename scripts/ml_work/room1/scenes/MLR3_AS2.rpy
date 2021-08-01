@@ -21,7 +21,6 @@ label MLR3_AS2:
         hide screen ml_work_room1_day
         $ clickable = True
         jump ml_work_room1_day1
-
     if MLR3_AS2_event == 1:
         hide screen week_day_viewer
         hide screen time_skip_button
@@ -44,7 +43,6 @@ label MLR3_AS2:
         $ can_hide_windows = False
 
         jump ML_workR3
-
     if MLR3_AS2_event == 2:
         $ can_hide_windows = True
         $ renpy.music.stop(channel="music2", fadeout=1)
@@ -66,14 +64,14 @@ label MLR3_AS2:
 
         Mom "Okay, I’m gonna be proposing an idea - and I want you to hear me out."
         MC "Alright… Shoot."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "You know the way that your father is always around the house and we can never get any time alone together?"
         else:
             Mom "You know the way that Bob is always around the house and we can never get any time alone together?"
         MC "Wait - you aren’t gonna kick him out, are you?!"
 
         scene MLR3_AS2_p4
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "Relax! I’m not going to kick your father out! Let me finish, and you’ll understand where I’m coming from."
             MC "(Thank God… if I was responsible for having Dad kicked out of the house, I’d feel so damn guilty right now.)"
             Mom "Your father and me both work long hours. We’re not home till the evenings, and the only private time you and I get together, is when he goes on one of his increasingly rare business trips."
@@ -85,13 +83,13 @@ label MLR3_AS2:
 
         Mom "I want more than rushed quickies, always panicking that he’ll come home from work early."
         Mom "I want to actually be able to snuggle up next to you after sex, to fall asleep with you in my arms, to have a proper romantic relationship."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "I can’t do ANY of those things with your father around… but I can’t kick him out either."
         else:
             Mom "I can’t do ANY of those things with Bob around… but I can’t kick him out either."
 
         scene MLR3_AS2_p6
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "I might not… feel the same way I have always felt about him, but you three still need a father."
             Mom "Caroline’s strong. She’ll get by fine if he leaves and you might even be okay. But Sara… I don’t know how she’d react if he left. She loves her dad."
             Mom "So, no. I’m not kicking your father out. He’s staying with us, at least until all three of you are ready to move out to your own places."
@@ -100,7 +98,7 @@ label MLR3_AS2:
             Mom "Caroline’s strong. She’ll get by fine if he leaves and you might even be okay. But Sara… I don’t know how she’d react if he left. She loves him"
             Mom "So, no. I’m not kicking Bob out. He’s staying with us, at least until all three of you are ready to move out to your own places."
 
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "That’s… actually kinda relieving to hear, [Mom_name]. I know you probably don’t love him much anymore - but he’s still a good dad."
         else:
             MC "That’s… actually kinda relieving to hear, [Mom_name]. I know you probably don’t love him much anymore - but he’s still a good guy."
@@ -113,7 +111,7 @@ label MLR3_AS2:
         MC "Really?! How?"
 
         scene MLR3_AS2_p8
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "I’m gonna tell your dad that I’ve got a work trip coming up. I’ll have to be away for a full day."
             Mom "He won’t mind - I’m sure that your dad will love having the house to himself, for a change. He can sit back and smoke his goddamn cigars, without me nagging him!"
         else:
@@ -124,7 +122,7 @@ label MLR3_AS2:
         scene MLR3_AS2_p9
 
         MC "Okay, but what about my school?"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "I’ll tell your dad that you have a school trip coming up. Something like a team building and leadership course."
             Mom "That will erase any suspicion that your dad has, about us disappearing on the same day. (Although, to be honest, I think that dolt is too dense for suspicion.)"
         else:
@@ -153,7 +151,7 @@ label MLR3_AS2:
         MC "Hmm... An exemption?"
         Mom "I don’t care what nonsense you have to tell her. Call it a family emergency, or a medical appointment."
         Mom "Just say whatever you need to in order to get that day off. I’ll back you up."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "See if you can get it in writing too - and then give it to your dad. It’ll help keep him off our trail."
         else:
             Mom "See if you can get it in writing too - and then give it to Bob. It’ll help keep him off our trail."

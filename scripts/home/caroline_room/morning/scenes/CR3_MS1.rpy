@@ -60,6 +60,7 @@ label CR3_MS1_label:
 
     jump CR3_MS1_menu
 
+
 label CR3_MS1_menu:
 
     scene CR3_MS1_p2
@@ -87,7 +88,7 @@ label CR3_MS1_menu:
             scene CR3_MS1_p8
 
             Caroline "Just think about it – I’m independent, to run my own business and - do as I please. There’s no boss above me, dictating what I can and cannot do."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Now that I’ve got a steady stream of income. I’m not even worried about having to borrow money, from Mom and Dad."
             else:
                 Caroline "Now that I’ve got a steady stream of income. I’m not even worried about having to borrow money, from Linda and Bob."

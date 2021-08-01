@@ -1,8 +1,11 @@
-default ML_NS_mouth = nsb(__("I want you to use your mouth tonight."),image_idle = "images/NS_B/Mouth.png", image_hover = "images/NS_B/Mouth_hover.png", l_jump = "ML_NS_1", number = 1 )
-default ML_NS_feet = nsb(__("I want you to use your feet tonight."),image_idle = "images/NS_B/Footjob.png", image_hover = "images/NS_B/Footjob_hover.png", l_jump = "ML_NS_6", number = 6  )
-default ML_NS_tits = nsb(__("I want you to use your tits tonight."),image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "ML_NS_2", number = 2  )
 
-default ML_NS_locked = nsb(__("Required: 2 relation points."),image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "ML_NS_2", played = True, locked = True, number = 2  )
+
+default ML_NS_mouth = nsb("I want you to use your mouth tonight.",image_idle = "images/NS_B/Mouth.png", image_hover = "images/NS_B/Mouth_hover.png", l_jump = "ML_NS_1", number = 1 )
+default ML_NS_feet = nsb("I want you to use your feet tonight.",image_idle = "images/NS_B/Footjob.png", image_hover = "images/NS_B/Footjob_hover.png", l_jump = "ML_NS_6", number = 6  )
+default ML_NS_tits = nsb("I want you to use your tits tonight.",image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "ML_NS_2", number = 2  )
+
+default ML_NS_locked = nsb("Required: 2 relation points.",image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "ML_NS_2", played = True, locked = True, number = 2  )
+
 
 screen ML_NS_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
@@ -43,6 +46,7 @@ screen ML_NS_scr:
                 add "images/NS_B/Locked_slot.png" xpos x ypos y
         $ i += 1
     if len(nsb_box.ml_nsb_s)>9:
+
 
         imagebutton:
             xpos 55

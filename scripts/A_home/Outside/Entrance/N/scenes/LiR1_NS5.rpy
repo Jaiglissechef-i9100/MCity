@@ -87,10 +87,6 @@ image LiR1_NS5_p75 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/75.jpg"
 image LiR1_NS5_p76 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS5/76.jpg"
 
 label LiR1_NS5_label:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -161,8 +157,9 @@ label LiR1_NS5_label:
     Yazmin "Okay - let’s get you ready for the show."
     MC "Do you want me to strip off now?"
 
+
     scene LiR1_NS5_p11
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "Hold on, a second. I just want to give my favourite nephew a hug, before we do this."
     else:
         Yazmin "Hold on, a second. I just want to give you a hug, before we do this."
@@ -239,7 +236,7 @@ label LiR1_NS5_label:
     Yazmin "-The trick is to - time your finger - so that it enters - just - as she climaxes. It’s amazing! She - screams her head off - in pleasure."
 
     scene LiR1_NS5_p23
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "I can’t believe you! Do you have no shame - telling your nephew about these things?!"
     else:
         Liza2 "I can’t believe you! Do you have no shame - telling [player_name] about these things..?!"
@@ -371,6 +368,7 @@ label LiR1_NS5_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS5_p41a with dissolve
+
 
     MC "Hnnnngggg.... Ugh... Ah..."
     MC "*Pant* Wow..."
@@ -555,6 +553,7 @@ label LiR1_NS5_label:
     Yazmin "It’s a shame you’re only into women. You’re wasting a REAL talent here!"
     MC "Ah... Ohh..."
 
+
     scene LiR1_NS5_p71
 
     Liza2 "*SHLURP*"
@@ -580,6 +579,7 @@ label LiR1_NS5_label:
     Liza2 "*SUCK SUCK*"
     Liza2 "*GASP!*"
 
+
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS5_p74 with dissolve
@@ -595,7 +595,7 @@ label LiR1_NS5_label:
 
     scene LiR1_NS5_p76
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Yazmin "You can head on home, [player_name]. I have to clean your auntie up, now."
     else:
         Yazmin "You can head on home, [player_name]. I have to clean Liza up, now."
@@ -611,7 +611,6 @@ label LiR1_NS5_label:
 
     $ LiR1_NS5 = False
     $ Li_points += 1
-    $ Y_points += 1
     $ LiR1_climbing = True
 
     $ renpy.music.stop(channel="music1", fadeout=1)

@@ -200,7 +200,7 @@ screen CR4_warehouse_scr3:
         focus_mask True
         idle "images/Nightclub/Warehouse/Minigame/4a.png"
         hover "images/Nightclub/Warehouse/Minigame/4a_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Boxes"))
+        hovered Show("displayTextScreen", displayText = "Boxes")
 
         action [Hide("displayTextScreen"),Hide("CR4_warehouse_scr"),Jump("Boxes_w_minigame")]
         unhovered Hide("displayTextScreen")
@@ -211,7 +211,7 @@ screen CR4_warehouse_scr3:
         focus_mask True
         idle "images/Nightclub/Warehouse/Minigame/4b.png"
         hover "images/Nightclub/Warehouse/Minigame/4b_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Barrels"))
+        hovered Show("displayTextScreen", displayText = "Barrels")
         action [Hide("displayTextScreen"),Hide("CR4_warehouse_scr"),Jump("start_w_minigame")]
         unhovered Hide("displayTextScreen")
 
@@ -265,7 +265,7 @@ screen w_minigame_scr3:
         focus_mask True
         idle "images/Nightclub/Warehouse/Minigame/9a.png"
         hover "images/Nightclub/Warehouse/Minigame/9a_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Barrels"))
+        hovered Show("displayTextScreen", displayText = "Barrels")
         action [Hide("displayTextScreen"),Hide("CR4_warehouse_scr"),Jump("Boxes_w_minigame")]
         unhovered Hide("displayTextScreen")
 
@@ -277,7 +277,7 @@ screen w_minigame_scr3:
         focus_mask True
         idle "images/Nightclub/Warehouse/Minigame/9j.png"
         hover "images/Nightclub/Warehouse/Minigame/9j_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Boxes"))
+        hovered Show("displayTextScreen", displayText = "Boxes")
         if w_bar >= 802 and w_bar <=1089 and guard_pos != 1,4,5:
             action [Hide("displayTextScreen"),SetVariable("w_minigame_r", w_minigame_r +1),Jump("w_minigame_r_next")]
         else:
@@ -292,7 +292,7 @@ screen w_minigame_scr4:
         focus_mask True
         idle "images/Nightclub/Warehouse/Minigame/13a.png"
         hover "images/Nightclub/Warehouse/Minigame/13a_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Doors"))
+        hovered Show("displayTextScreen", displayText = "Doors")
 
         action [Hide("displayTextScreen"),Hide("w_minigame_scr4"),Jump("CR4_warehouse_con")]
         unhovered Hide("displayTextScreen")

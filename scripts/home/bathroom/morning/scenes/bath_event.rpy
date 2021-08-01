@@ -13,7 +13,6 @@ image bath_event_pZuri = "images/home/bathroom/morning/scenes/bath_event/Zuri.jp
 image white = "#FFFFFF"
 
 default zuri_bath_event_unlock = False
-
 transform pandown2:
     crop (0, 0, 1920, 2160)
     linear 4 crop (0, 1080, 1920, 1080)
@@ -90,7 +89,7 @@ label bath_event_menu3:
     $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music1", loop=True, fadein = 2)
     $ renpy.block_rollback()
     menu:
-        "Mom" if persistent.incest_patch == True:
+        "Mom" if renpy.loadable("patch.rpy"):
             scene bath_event_pLinda at pandown3
             $ renpy.pause(5)
             scene bath_event_pLinda at pandown2
@@ -108,7 +107,7 @@ label bath_event_menu3:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump bathroom_morning1
-        "Linda" if persistent.incest_patch == False:
+        "Linda" if not renpy.loadable("patch.rpy"):
             scene bath_event_pLinda at pandown3
             $ renpy.pause(5)
             scene bath_event_pLinda at pandown2
@@ -198,7 +197,7 @@ label bath_event_menu3:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump bathroom_morning1
-        "Aunt" if au_bath_event_unlock == True and persistent.incest_patch == True:
+        "Aunt" if au_bath_event_unlock == True and renpy.loadable("patch.rpy"):
             scene bath_event_pAu at pandown3
             $ renpy.pause(5)
             scene bath_event_pAu at pandown2
@@ -216,7 +215,7 @@ label bath_event_menu3:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump bathroom_morning1
-        "Linda's friend" if au_bath_event_unlock == True and not persistent.incest_patch == True:
+        "Linda's friend" if au_bath_event_unlock == True and not renpy.loadable("patch.rpy"):
             scene bath_event_pAu at pandown3
             $ renpy.pause(5)
             scene bath_event_pAu at pandown2

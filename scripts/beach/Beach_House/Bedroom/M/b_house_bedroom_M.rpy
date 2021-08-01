@@ -1,3 +1,5 @@
+
+
 label b_house_bedroom_M1:
 
     $ in_map = False

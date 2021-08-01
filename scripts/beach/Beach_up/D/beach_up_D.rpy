@@ -1,3 +1,6 @@
+
+
+
 label beach_up_D1:
     hide screen displayTextScreen
     hide screen map

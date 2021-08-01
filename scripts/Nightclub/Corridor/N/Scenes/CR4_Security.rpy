@@ -47,6 +47,10 @@ image CR4_sceurity_p3 = "images/Nightclub/Corridor/N/Scenes/Security/3.jpg"
 
 default CR4_Cindy_S1 = False
 default NC_Boss = False
+default Bodyguard1_name = "Bodyguard1"
+default Bodyguard2_name = "Bodyguard2"
+define Bodyguard1 = Character("[Bodyguard1_name]", color="#993333")
+define Bodyguard2 = Character("[Bodyguard2_name]", color="#993333")
 
 label CR4_sceurity_lab:
     if CR4_guard == 2:
@@ -74,8 +78,6 @@ label CR4_sceurity_lab:
         MC "Hey, I’d like to speak with the manager."
 
         scene CR4_sceurity_p2
-        $ Bodyguard1_name = __("Bodyguard1")
-        $ Bodyguard2_name = __("Bodyguard2")
         Bodyguard1 "Password?"
         MC "Excuse me?"
         Bodyguard1 "Password."

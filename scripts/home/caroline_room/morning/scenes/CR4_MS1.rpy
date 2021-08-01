@@ -45,7 +45,7 @@ label CR4_MS1_label:
         hide screen map_button
         show screen caroline_room_morning
         $ clickable = False
-        Caroline "Not now, [player_name]."
+        MC "Not now, [player_name]."
         $ clickable = True
         hide screen caroline_room_morning
         jump caroline_room_morning1
@@ -268,6 +268,7 @@ label CR4_MS1_blow:
 
             jump CR4_MS1_blow_con1
         "...":
+
 
             Caroline "MPPLFFFF!!!"
             MC "Ugh! Fuck! Ahh!"

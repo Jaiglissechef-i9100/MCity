@@ -18,7 +18,6 @@ image CNS_wake_kissing_p15 = "images/home/caroline_room/night/scenes/CR2_NS/Kiss
 image CNS_wake_kissing_p16 = "images/home/caroline_room/night/scenes/CR2_NS/Kissing/16.jpg"
 
 label CNS_wake_kissing_label:
-    $ Linda_name = Mom_name
     scene CNS_wake_kissing_p1
 
     MC "Do you fancy making out tonight?"
@@ -46,10 +45,11 @@ label CNS_wake_kissing_label:
 
     Caroline "(A couple of months ago the very thought of this happening with him would have been a nightmare.)"
     Caroline "(Now it’s a wet dream come true…)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(I know he’s my brother and that it’s wrong, but there’s just something different when I kiss him. It’s not like any of the other guys I’ve been with before.)"
     else:
         Caroline "(I know he’s my close friend and that it’s wrong, but there’s just something different when I kiss him. It’s not like any of the other guys I’ve been with before.)"
+
 
     scene CNS_wake_kissing_p6
 
@@ -63,6 +63,7 @@ label CNS_wake_kissing_label:
     MC "Mmm!"
     Caroline "(But those butterflies never came back after the first kiss, and the sex was emotionless.)"
     Caroline "(There’s something different about the time I spend with, [player_name].)"
+
 
     scene CNS_wake_kissing_p8
 
@@ -104,7 +105,7 @@ label CNS_wake_kissing_label:
 
     Caroline "(It’s perfect - except for the fact he’s one guy in my age range that I’m not allowed to date.)"
     Caroline "(If anyone ever found out how I truly felt about him I would be shunned and despised.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(Why does the best relationship I’ve ever had have to be a clandestine affair with my own brother?)"
     else:
         Caroline "(Why does the best relationship I’ve ever had have to be a clandestine affair with my friend?)"

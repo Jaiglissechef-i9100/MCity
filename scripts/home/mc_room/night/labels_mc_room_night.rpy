@@ -25,7 +25,9 @@ label mc_room_night1:
         $ renpy.hide("window_take_nap", layer="screens")
         $ take_nap = False
 
+
         jump mc_room_night1
+
 
     hide screen displayTextScreen
     hide screen corridor_night

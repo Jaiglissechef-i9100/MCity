@@ -40,6 +40,7 @@ label caroline_visit_bjfjhj_v1:
     Caroline "You have to respect these rules and not try to push me, to do something I’m uncomfortable with. Does that sound fair to you?"
     MC "Sure, I guess so."
 
+
     scene caroline_mc_room_morning_scene5_p7
     Caroline "I’m happy to help you get-off, by using my hands or my butt again. But this comes with two conditions."
     Caroline "The first is, that you start working for free now, when I need photo sessions done."
@@ -77,9 +78,9 @@ label caroline_visit_bjfjhj_v1:
     Caroline "You are a pervert. You know that, right?"
     scene caroline_mc_room_morning_scene5_hand_footp4anim
     $ renpy.pause()
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "Getting, all hard and horny, because of your older sister."
-    else:
+    if not renpy.loadable("patch.rpy"):
         Caroline "Getting, all hard and horny, because of your older friend."
 
     scene caroline_mc_room_morning_scene5_hand_footp5
@@ -107,9 +108,9 @@ label caroline_visit_bjfjhj_v1:
 
 
             scene caroline_mc_room_morning_scene5_hand_footp9
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Cum for me! Cum for your big sister!"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Caroline "Cum for me! Cum for your big friend!"
             MC "Hnnng! Ahhh! Ugh! Yes!"
             MC "(She’s amazing with her hands!)"
@@ -121,6 +122,8 @@ label caroline_visit_bjfjhj_v1:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             jump pc_icon_label
         "Could you maybe use your feet instead?":
+
+
 
             scene caroline_mc_room_morning_scene5_hand_footp7
             MC "Could you try using your feet instead?"
@@ -163,9 +166,9 @@ label caroline_visit_bjfjhj_v1:
 
             scene caroline_mc_room_morning_scene5_hand_footp16a
             Caroline "Oh wow… That’s A LOT of cum right there!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "(I think [player_name] really enjoyed this!)"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Caroline "(I think [player_name] really enjoyed this!)"
             MC "Phew... That was incredible, Caroline! Thank you so much... (Yaaawwwn!)"
             Caroline "I hope you aren’t tired! It’s time to get up!"

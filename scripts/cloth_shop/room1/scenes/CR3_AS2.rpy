@@ -15,6 +15,7 @@ label CR3_AS2_label:
     if CR3_AS2_first_talk == True:
         scene CR3_AS2_p1 with dissolve
 
+
         Violet "So then, I said to him, I know this trick. You deliberately forget the condom, and then you ask for - just the tip to go in. I mean, how naive does he think I am?"
         Caroline "What did you do?"
         Violet "Ugh..! He ended up saying, he’d just put the tip in, for a second. Then I got too horny, to tell him to take it out. Thank God, I was on my birth control."
@@ -28,6 +29,9 @@ label CR3_AS2_label:
     MC "Great! Let’s get changed."
 
     scene CR3_AS2_p3
+
+
+
 
     if CR3_deal_aff == True:
         scene CR3_AS2_p3
@@ -54,6 +58,7 @@ label CR3_AS2_label:
 
         Caroline "Glad you could make it! Are you ready for the photoshoot?"
         MC "(She looks a little happier, this time - Even eager, maybe! Perhaps this is because the deal is back on, between us.)"
+
 
         menu:
             "I’m ready to start.":

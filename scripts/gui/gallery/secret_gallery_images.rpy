@@ -1,3 +1,6 @@
+
+
+
 image img1_garage_card = MaxScale("images/secret_gallery/Bonus/10.jpg")
 image img2_garage_entrance_card = MaxScale("images/secret_gallery/Bonus/11.jpg")
 image img3_home_entrance_card = MaxScale("images/secret_gallery/Bonus/3.jpg")
@@ -24,7 +27,6 @@ image img22_sec_card = MaxScale("images/secret_gallery/Bonus/22.jpg")
 image img23_sec_card = MaxScale("images/secret_gallery/Bonus/23.jpg")
 image img24_sec_card = MaxScale("images/secret_gallery/Bonus/24.jpg")
 image img25_sec_card = MaxScale("images/secret_gallery/Bonus/25.jpg")
-
 image img26_sec_card = MaxScale("images/secret_gallery/Bonus/26.jpg")
 image img27_sec_card = MaxScale("images/secret_gallery/Bonus/27.jpg")
 image img28_sec_card = MaxScale("images/secret_gallery/Bonus/34.jpg")
@@ -35,7 +37,6 @@ image img32_sec_card = MaxScale("images/secret_gallery/Bonus/32.jpg")
 image img33_sec_card = MaxScale("images/secret_gallery/Bonus/33.jpg")
 image img34_sec_card = MaxScale("images/secret_gallery/Bonus/28.jpg")
 image img35_sec_card = MaxScale("images/secret_gallery/Bonus/35.jpg")
-
 image img36_sec_card = MaxScale("images/secret_gallery/Bonus/36.jpg")
 image img37_sec_card = MaxScale("images/secret_gallery/Bonus/37.jpg")
 image img38_sec_card = MaxScale("images/secret_gallery/Bonus/38.jpg")
@@ -82,6 +83,11 @@ image img78_sec_card = MaxScale("images/secret_gallery/Bonus/78.jpg")
 image img79_sec_card = MaxScale("images/secret_gallery/Bonus/79.jpg")
 image img80_sec_card = MaxScale("images/secret_gallery/Bonus/80.jpg")
 image img81_sec_card = MaxScale("images/secret_gallery/Bonus/81.jpg")
+image img82_sec_card = MaxScale("images/v71/gui/82.jpg")
+image img83_sec_card = MaxScale("images/v71/gui/83.jpg")
+image img84_sec_card = MaxScale("images/v71/gui/84.jpg")
+image img85_sec_card = MaxScale("images/v71/gui/85.jpg")
+image img86_sec_card = MaxScale("images/v71/gui/86.jpg")
 
 image secret_gallery_background = "images/secret_gallery/Bonus/Black.jpg"
 
@@ -112,7 +118,6 @@ image thumb22_sec_card = MaxScale("images/secret_gallery/Bonus/22a.png", maxthum
 image thumb23_sec_card = MaxScale("images/secret_gallery/Bonus/23a.png", maxthumbx, maxthumby)
 image thumb24_sec_card = MaxScale("images/secret_gallery/Bonus/24a.png", maxthumbx, maxthumby)
 image thumb25_sec_card = MaxScale("images/secret_gallery/Bonus/25a.png", maxthumbx, maxthumby)
-
 image thumb26_sec_card = MaxScale("images/secret_gallery/Bonus/26a.png", maxthumbx, maxthumby)
 image thumb27_sec_card = MaxScale("images/secret_gallery/Bonus/27a.png", maxthumbx, maxthumby)
 image thumb28_sec_card = MaxScale("images/secret_gallery/Bonus/34a.png", maxthumbx, maxthumby)
@@ -123,7 +128,6 @@ image thumb32_sec_card = MaxScale("images/secret_gallery/Bonus/32a.png", maxthum
 image thumb33_sec_card = MaxScale("images/secret_gallery/Bonus/33a.png", maxthumbx, maxthumby)
 image thumb34_sec_card = MaxScale("images/secret_gallery/Bonus/28a.png", maxthumbx, maxthumby)
 image thumb35_sec_card = MaxScale("images/secret_gallery/Bonus/35a.png", maxthumbx, maxthumby)
-
 image thumb36_sec_card = MaxScale("images/secret_gallery/Bonus/36a.png", maxthumbx, maxthumby)
 image thumb37_sec_card = MaxScale("images/secret_gallery/Bonus/37a.png", maxthumbx, maxthumby)
 image thumb38_sec_card = MaxScale("images/secret_gallery/Bonus/38a.png", maxthumbx, maxthumby)
@@ -170,6 +174,11 @@ image thumb78_sec_card = MaxScale("images/secret_gallery/Bonus/78a.png", maxthum
 image thumb79_sec_card = MaxScale("images/secret_gallery/Bonus/79a.png", maxthumbx, maxthumby)
 image thumb80_sec_card = MaxScale("images/secret_gallery/Bonus/80a.png", maxthumbx, maxthumby)
 image thumb81_sec_card = MaxScale("images/secret_gallery/Bonus/81a.png", maxthumbx, maxthumby)
+image thumb82_sec_card = MaxScale("images/v71/gui/82a.png", maxthumbx, maxthumby)
+image thumb83_sec_card = MaxScale("images/v71/gui/83a.png", maxthumbx, maxthumby)
+image thumb84_sec_card = MaxScale("images/v71/gui/84a.png", maxthumbx, maxthumby)
+image thumb85_sec_card = MaxScale("images/v71/gui/85a.png", maxthumbx, maxthumby)
+image thumb86_sec_card = MaxScale("images/v71/gui/86a.png", maxthumbx, maxthumby)
 
 image thumb1_hover_garage_card = MinScale("images/secret_gallery/Bonus/10ahover.png", maxthumbx, maxthumby)
 image thumb2_hover_garage_entrance_card = MinScale("images/secret_gallery/Bonus/11ahover.png", maxthumbx, maxthumby)
@@ -196,7 +205,6 @@ image thumb22_hover_sec_card = MaxScale("images/secret_gallery/Bonus/22hover.png
 image thumb23_hover_sec_card = MaxScale("images/secret_gallery/Bonus/23hover.png", maxthumbx, maxthumby)
 image thumb24_hover_sec_card = MaxScale("images/secret_gallery/Bonus/24hover.png", maxthumbx, maxthumby)
 image thumb25_hover_sec_card = MaxScale("images/secret_gallery/Bonus/25hover.png", maxthumbx, maxthumby)
-
 image thumb26_hover_sec_card = MaxScale("images/secret_gallery/Bonus/26b.png", maxthumbx, maxthumby)
 image thumb27_hover_sec_card = MaxScale("images/secret_gallery/Bonus/27b.png", maxthumbx, maxthumby)
 image thumb28_hover_sec_card = MaxScale("images/secret_gallery/Bonus/34b.png", maxthumbx, maxthumby)
@@ -207,7 +215,6 @@ image thumb32_hover_sec_card = MaxScale("images/secret_gallery/Bonus/32b.png", m
 image thumb33_hover_sec_card = MaxScale("images/secret_gallery/Bonus/33b.png", maxthumbx, maxthumby)
 image thumb34_hover_sec_card = MaxScale("images/secret_gallery/Bonus/28b.png", maxthumbx, maxthumby)
 image thumb35_hover_sec_card = MaxScale("images/secret_gallery/Bonus/35b.png", maxthumbx, maxthumby)
-
 image thumb36_hover_sec_card = MaxScale("images/secret_gallery/Bonus/36b.png", maxthumbx, maxthumby)
 image thumb37_hover_sec_card = MaxScale("images/secret_gallery/Bonus/37b.png", maxthumbx, maxthumby)
 image thumb38_hover_sec_card = MaxScale("images/secret_gallery/Bonus/38b.png", maxthumbx, maxthumby)
@@ -254,3 +261,8 @@ image thumb78_hover_sec_card = MaxScale("images/secret_gallery/Bonus/78b.png", m
 image thumb79_hover_sec_card = MaxScale("images/secret_gallery/Bonus/79b.png", maxthumbx, maxthumby)
 image thumb80_hover_sec_card = MaxScale("images/secret_gallery/Bonus/80b.png", maxthumbx, maxthumby)
 image thumb81_hover_sec_card = MaxScale("images/secret_gallery/Bonus/81b.png", maxthumbx, maxthumby)
+image thumb82_hover_sec_card = MaxScale("images/v71/gui/82b.png", maxthumbx, maxthumby)
+image thumb83_hover_sec_card = MaxScale("images/v71/gui/83b.png", maxthumbx, maxthumby)
+image thumb84_hover_sec_card = MaxScale("images/v71/gui/84b.png", maxthumbx, maxthumby)
+image thumb85_hover_sec_card = MaxScale("images/v71/gui/85b.png", maxthumbx, maxthumby)
+image thumb86_hover_sec_card = MaxScale("images/v71/gui/86b.png", maxthumbx, maxthumby)

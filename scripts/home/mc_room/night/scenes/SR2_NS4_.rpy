@@ -62,6 +62,8 @@ image SR2_NS4_p53 = "images/home/mc_room/night/scenes/SR2_NS4/53.jpg"
 image SR2_NS4_p54a = "images/home/mc_room/night/scenes/SR2_NS4/54a.jpg"
 image SR2_NS4_p54b = "images/home/mc_room/night/scenes/SR2_NS4/54b.jpg"
 
+
+
 label SR2_NS4_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -139,6 +141,7 @@ label SR2_NS4_label:
     Sara "(I’m so close to just giving… everything to him right now.)"
     Sara "(Does he even know how good he makes me feel?)"
 
+
     scene SR2_NS4_p9
 
     Sara "Wow… That was amazing!"
@@ -152,6 +155,7 @@ label SR2_NS4_label:
     Sara "(Damn… My nerves are starting to kick off again. I shouldn’t be so scared about this.)"
     Sara "(I mean, I’ve already done it before! And this time it should be easier - we have the lube, after all.)"
     MC "(I get so hard every time I see her perky tits. They’re unbelievable!)"
+
 
     scene SR2_NS4_p12
 
@@ -366,7 +370,7 @@ label SR2_NS4_label:
 
     Sara "MMMM! OHHH!!!"
     scene SR2_NS4_p43anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Shush, you don’t want to wake up Mom."
     else:
         MC "Shush, you don’t want to wake up Linda."
@@ -421,11 +425,12 @@ label SR2_NS4_label:
     MC "*Pant* Th-That was fucking amazing, Sara."
     Sara "You enjoyed that?"
     MC "Oh yeah… How about you?"
-    Sara "I’m not gonna lie - it’s growing on me. I actually kind of found it... pleasurable that time."
+    Sara "I’m not gonna lie, it’s growing on me. I actually kind of found it... pleasurable that time."
     MC "C’mon, let’s cuddle for a while before you go back to your room."
     $ renpy.music.stop(channel="music2", fadeout=1)
     window hide
     scene black
+
 
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music1", loop=True, fadein = 2)
 
@@ -446,7 +451,7 @@ label SR2_NS4_label:
     MC "What’s wrong, Sara?"
     Sara "I just realised… you’re my boyfriend, but I can’t hang out with you like normal girlfriends do."
     MC "What do you mean?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Everybody in this town knows us. And Mom and Dad would DEFINITELY not approve."
     else:
         Sara "Everybody in this town knows us. And Linda and Bob would DEFINITELY not approve."
@@ -454,8 +459,8 @@ label SR2_NS4_label:
     scene SR2_NS4_p54a
 
     MC "Oh c’mon! You’re thinking too much about this."
-    MC "We can do LOTS of things together - sure we’ll have to be a little more careful than most couples, but we can still have fun!"
-    if persistent.incest_patch == True:
+    MC "We can do LOTS of things together, sure we’ll have to be a little more careful than most couples, but we can still have fun!"
+    if renpy.loadable("patch.rpy"):
         MC "And don’t worry about Mom and Dad - we haven’t been caught yet."
     else:
         MC "And don’t worry about Linda and Bob - we haven’t been caught yet."
@@ -463,7 +468,7 @@ label SR2_NS4_label:
     scene SR2_NS4_p54b
 
     Sara "Yeah, I guess you’re right. I just wish things were simpler."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "It sounds bad… but I kinda wish you weren’t my brother. Maybe just a hot guy at school."
     else:
         Sara "It sounds bad… but I kinda wish you weren’t my best friend. Maybe just a hot guy at school."
@@ -477,15 +482,16 @@ label SR2_NS4_label:
     $ SR2_AS6 = False
     $ SR2_NS4 = False
     $ inventory.drop(lube)
-    $ SR2_grounded = False
+
     show relationship_plus
     $ renpy.pause(3.0, hard=True)
     hide relationship_plus
-    show workinprogress2
-    "This is the end of current content in this version for this character."
-    hide workinprogress2
-    $ renpy.pause(3.0, hard=True)
+
+
+
+
     $ S_end_content = True
+
 
     $ Sara_points += 1
     $ renpy.music.stop(channel="music1", fadeout=1)

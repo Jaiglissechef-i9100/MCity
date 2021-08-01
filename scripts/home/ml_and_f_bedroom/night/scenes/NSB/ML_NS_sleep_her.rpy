@@ -1,5 +1,7 @@
+
+
+
 label ML_NS_sleep_her_label:
-    $ Linda_name = Mom_name
     scene ML_NS_wake_p7
 
     Mom "(Whispered) Stay there. I’m going to strip out of this lingerie."
@@ -28,7 +30,7 @@ label ML_NS_sleep_her_label:
 
     Mom "(Whispered) Yeah, I do. Just try to keep your voice down. That includes, any moaning you do. You’re a - noisy one - when you’re having fun."
     MC "(Whispered) I am not!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(Whispered) Haha! I should record you some time! “Oh! Ah! Yes! Faster, Mommy!”"
     else:
         Mom "(Whispered) Haha! I should record you some time! “Oh! Ah! Yes! Faster, Linda!”"
@@ -55,7 +57,7 @@ label ML_NS_sleep_her_label:
     scene ML_NS_wake_p15 with dissolve
 
     MC "Ohh..."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I wonder why she wanted to do it in front of Dad. I can think of two possible reasons?)"
     else:
         MC "(I wonder why she wanted to do it in front of Bob. I can think of two possible reasons?)"
@@ -64,7 +66,7 @@ label ML_NS_sleep_her_label:
     scene ML_NS_wake_p16
 
     MC "(There was that time when we were on a date in the restaurant, and she insisted on playing with me, under the table. We could have been noticed by, any waiter or customer who walked by.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(But that’s only - one - of the possibilities. The second is that, she actually despises Dad. I’m not sure why she would? He doesn't seem like a bad guy, at all.)"
     else:
         MC "(But that’s only - one - of the possibilities. The second is that, she actually despises Bob. I’m not sure why she would? He doesn't seem like a bad guy, at all.)"
@@ -94,7 +96,7 @@ label ML_NS_sleep_her_label:
 
     Mom "(Damn, I’m so fucking wet, right now. If I had any panties on, they would be drenched.)"
     scene ML_NS_wake_p20anim with dissolve
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(If that fat oaf wasn’t in the bed tonight, I could just pin my son down, and fuck him for hours!)"
     else:
         Mom "(If that fat oaf wasn’t in the bed tonight, I could just pin [player_name] down, and fuck him for hours!)"
@@ -104,7 +106,7 @@ label ML_NS_sleep_her_label:
     scene ML_NS_wake_p21
 
     Dad "*Snore*"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(Ohh... The thought of my boy’s thick cock - penetrating me - and filling me up, is heavenly.)"
     else:
         Mom "(Ohh... The thought of this boy’s thick cock - penetrating me - and filling me up, is heavenly.)"
@@ -152,6 +154,8 @@ label ML_NS_sleep_her_label:
     $ renpy.pause(0.7, hard = True)
     scene ML_NS_wake_p27 with dissolve
 
+
+
     Mom "*Gasp*"
     Mom "(Whispered) Mmm... delicious..."
     MC "(Whispered) Sorry. Was I too rough, there?"
@@ -165,7 +169,7 @@ label ML_NS_sleep_her_label:
 
     scene ML_NS_wake_p29
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(Whispered) I hate to say it, but you better head back into your room now - in case your father wakes up."
     else:
         Mom "(Whispered) I hate to say it, but you better head back into your room now - in case my husband wakes up."

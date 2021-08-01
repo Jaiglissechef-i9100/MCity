@@ -1,13 +1,10 @@
 image room2_R2_scene = "images/Work_Minigame/Room2R2/Room.jpg"
 
 label work_minigame_R2room2_label:
-    menu:
-        "Play":
-            scene room2_R2_scene
-            hide screen map_button
-            call screen work_minigame_R2room2_items1
-        "{image=cheat_code}":
-            jump after_ml_workR2_AS2_label
+    scene room2_R2_scene
+    hide screen map_button
+    call screen work_minigame_R2room2_items1
+
 
 screen work_minigame_R2room2_items1:
     key "hide_windows" action NullAction()
@@ -47,6 +44,7 @@ screen work_minigame_R2room2_items1:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
+
     if rubbish1_colleted == False:
         imagebutton:
             xpos 1720
@@ -139,6 +137,7 @@ label rubbish6_colletedR2_items1_room2_label:
     $ rubbish_colleted_counter += 1
     jump work_minigame_R2room2_label
 
+
 label work_minigame_room2R2_items2_label:
     scene black
     $ renpy.pause(3, hard = True)
@@ -193,6 +192,7 @@ screen work_minigame_room2R2_items2:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
+
     if rubbish1_colleted == False:
         imagebutton:
             xpos 1261
@@ -241,7 +241,6 @@ screen work_minigame_room2R2_items2:
             idle "images/Work_Minigame/room2R2/Items2/Item6.png"
             hover "images/Work_Minigame/room2R2/Items2/Item6_hover.png"
             action [Hide("displayTextScreen"), Jump("rubbish6_colletedR2_items2_room2_label"),]
-
     if rubbish_colleted_counter == 6:
         imagebutton:
             xpos 1687
@@ -285,6 +284,7 @@ label rubbish6_colletedR2_items2_room2_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room2R2_items2_label1
+
 
 label work_minigame_room2R2_items3_label:
     scene black
@@ -340,6 +340,7 @@ screen work_minigame_room2R2_items3:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R5.png"
+
     if rubbish1_colleted == False:
         imagebutton:
             xpos 525
@@ -388,7 +389,6 @@ screen work_minigame_room2R2_items3:
             idle "images/Work_Minigame/room2R2/Items3/Item6.png"
             hover "images/Work_Minigame/room2R2/Items3/Item6_hover.png"
             action [Hide("displayTextScreen"), Jump("rubbish6_colletedR2_items3_room2_label"),]
-
     if rubbish_colleted_counter == 6:
         imagebutton:
             xpos 1687
@@ -402,7 +402,6 @@ screen work_minigame_room2R2_items3:
             ypos 915
             focus_mask True
             idle "images/Work_Minigame/R6.png"
-
 label rubbish1_colletedR2_items3_room2_label:
     $ rubbish1_colleted = True
     $ rubbish_colleted_counter += 1
@@ -432,6 +431,7 @@ label rubbish6_colletedR2_items3_room2_label:
     $ rubbish6_colleted = True
     $ rubbish_colleted_counter += 1
     jump work_minigame_room2R2_items3_label1
+
 
 label work_minigame_room2R2_done_label:
     $ rubbish_colleted_counter = 0

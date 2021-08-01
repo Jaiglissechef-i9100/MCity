@@ -36,7 +36,7 @@ label CR3_WE_Ex_label:
 
     Charles "Listen, kid - I really don’t remember you."
     MC "(He’s either being obtuse, or simply cares so little about me, that he has genuinely forgotten who I am.)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "I’m Caroline's brother!"
     else:
         MC "I’m Caroline's friend!"
@@ -54,7 +54,7 @@ label CR3_WE_Ex_label:
     MC "What?"
     Charles "I gotta bail, kid. Catch you around! Woohoo!"
     MC "..."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(My sister has dreadful taste in men.)"
     else:
         MC "(Caroline has dreadful taste in men.)"

@@ -89,9 +89,9 @@ label ml_mc_room_night_scene3_v1_label:
         Mom "Hello there, [player_name]."
         MC "Jesus! You scared the crap out of me!"
         Mom "Aww, sorry, I just had to see you again."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "Wh-What if Dad catches you?"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "Wh-What if Bob catches you?"
 
         scene ml_mc_room_night_scene3_v1_p2
@@ -123,9 +123,9 @@ label ml_mc_room_night_scene3_v1_label:
         scene ml_mc_room_night_scene3_v1_p7
         Mom "Just breathe slowly and relax."
         Mom "This is all for you."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Oh, my God! I’m gonna see Mom’s pussy!)"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "(Oh, my God! I’m gonna see Linda’s pussy!)"
 
         scene ml_mc_room_night_scene3_v1_p8
@@ -135,26 +135,26 @@ label ml_mc_room_night_scene3_v1_label:
 
         scene ml_mc_room_night_scene3_v1_p9
         Mom "Well? What do you think?"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "You’re beautiful, Mom."
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "You’re beautiful, Linda."
         Mom "Aww... Thank you, Sweetie. I want to see YOUR body, now though."
 
         scene ml_mc_room_night_scene3_v1_p10
         Mom "Ever since I wanked you off, I haven’t been able to get your cock out of my head."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Mom "Any time I’m with your father, I’m imagining that it’s you - but even that’s not good enough."
-        else:
+        if not renpy.loadable("patch.rpy"):
             Mom "Any time I’m with Bob, I’m imagining that it’s you - but even that’s not good enough."
         Mom "I need the real thing."
 
         scene ml_mc_room_night_scene3_v1_p11
         Mom "Wow…"
         Mom "Mmm… I could suck on that for hours."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "M-Mom!"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "L-Linda!"
         Mom "Oh, don’t be so shy."
 
@@ -168,9 +168,9 @@ label ml_mc_room_night_scene3_v1_label:
     if ml_mc_room_night_scene3_visit == 2:
         scene ml_mc_room_night_scene3_v1_p1 with dissolve
         Mom "Hello again, Sweetie."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "Hey, Mom. I was half-expecting to see you in here tonight."
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "Hey, Linda. I was half-expecting to see you in here tonight."
         Mom "I certainly hope, the novelty hasn’t worn off."
         MC "I don’t think that’ll happen for a long time."
@@ -180,9 +180,9 @@ label ml_mc_room_night_scene3_v1_label:
 
         scene ml_mc_room_night_scene3_v1_p6
         Mom "I must say, I’m looking forward to these, nightly sessions, becoming a regular thing."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "Me too, Mom. I really enjoyed last time."
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "Me too, Linda. I really enjoyed last time."
 
         scene ml_mc_room_night_scene3_v1_p7
@@ -212,6 +212,9 @@ label ml_mc_room_night_scene3_v1__menu:
     $ renpy.block_rollback()
     call screen ML_NS_scr
 
+
+
+
 label ML_NS_back:
     $ renpy.music.stop(channel="music1", fadeout=1)
     scene black with dissolve
@@ -219,7 +222,6 @@ label ML_NS_back:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump mc_room_morning1
-
 label ML_NS_1:
 
     scene ml_mc_room_night_scene3_blowjob_v1_p0
@@ -232,9 +234,9 @@ label ML_NS_1:
     Mom "Although, I highly doubt, you’ll last very long."
 
     scene ml_mc_room_night_scene3_blowjob_v1_p2
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "You seem a bit overconfident, Mom!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "You seem a bit overconfident, Linda!"
     MC "I highly doubt, that you’re THAT good."
     scene ml_mc_room_night_scene3_blowjob_v1_p2anim
@@ -248,7 +250,7 @@ label ML_NS_1:
     Mom "(But since he doesn’t believe I could make him cum THAT quickly, I’m just going to have to go all-out.)"
 
     scene ml_mc_room_night_scene3_blowjob_v1_p4
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(There’ll be other opportunities to go slowly. Tonight, I’m gonna blow my boy’s mind.)"
     else:
         Mom "(There’ll be other opportunities to go slowly. Tonight, I’m gonna blow this boy’s mind.)"
@@ -322,9 +324,9 @@ label ML_NS_1:
             scene ml_mc_room_night_scene3_blowjob_v1_p13a with dissolve
             Mom "Aaahhh…"
             Mom "(Wow! He came so much! I had to swallow a little bit.)"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "That was amazing, Mom... "
-            else:
+            if not renpy.loadable("patch.rpy"):
                 MC "That was amazing, Linda... "
 
             scene ml_mc_room_night_scene3_blowjob_v1_p13b
@@ -333,23 +335,24 @@ label ML_NS_1:
             MC "(Wow! She just swallowed it all!)"
 
             scene ml_mc_room_night_scene3_blowjob_v1_p13c
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "That was incredible, Mom! Thank you!"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 MC "That was incredible, Linda! Thank you!"
             Mom "I did warn you that you wouldn’t last long, against one of my blowjobs."
             MC "Haha! I should have listened."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Mom "Okay, I better get back to bed, before your father finds me missing."
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Mom "Okay, I better get back to bed, before Bob finds me missing."
             Mom "See you tomorrow."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "See you tomorrow, Mom."
-            else:
+            if not renpy.loadable("patch.rpy"):
                 MC "See you tomorrow, Linda."
             jump ml_mc_room_night_scene3_v1__menu_end
         "Pull out and cum on her face.":
+
 
             scene ml_mc_room_night_scene3_blowjob_v1_p11
             MC "I’m gonna cum! Ahh!"
@@ -357,7 +360,7 @@ label ML_NS_1:
             $ renpy.pause()
             scene ml_mc_room_night_scene3_blowjob_v1_p11
             MC "Can I do it on your face?"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Mom "(I would have preferred him, to cum in my mouth - but whatever makes my boy happier.)"
             else:
                 Mom "(I would have preferred him, to cum in my mouth - but whatever makes this boy happier.)"
@@ -375,32 +378,33 @@ label ML_NS_1:
             MC "Y-Yeah... That was amazing…"
             Mom "I did warn you that you wouldn’t last long, against one of my blowjobs."
             MC "Haha! I should have listened."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Mom "Okay, I better get back to bed, before your father finds me missing."
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Mom "Okay, I better get back to bed, before Bob finds me missing."
             Mom "See you tomorrow."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "See you tomorrow, Mom."
-            else:
+            if not renpy.loadable("patch.rpy"):
                 MC "See you tomorrow, Linda."
             jump ml_mc_room_night_scene3_v1__menu_end
 
 label ML_NS_6:
 
     scene ml_mc_room_night_scene3_footjob_v1_p1
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "C-Could you use your feet tonight, Mom?"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "C-Could you use your feet tonight, Linda?"
     Mom "Feet? I didn’t expect t-tha..."
     Mom "...Of course, Sweetie. Just sit back, against me and relax."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Let mommy take care of the rest."
-    else:
+    if not renpy.loadable("patch.rpy"):
         Mom "Let me take care of the rest."
 
     scene ml_mc_room_night_scene3_footjob_v1_p2
+
 
     Mom "Are you comfortable?"
     MC "Y-Yeah, I am."
@@ -411,17 +415,17 @@ label ML_NS_6:
     scene ml_mc_room_night_scene3_footjob_v1_p3anim
     $ renpy.pause()
     Mom "You really like my feet, don’t you, [player_name]?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Y-Yeah, Mom."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Y-Yeah, Linda."
     Mom "Haha! I guessed that."
 
     scene ml_mc_room_night_scene3_footjob_v1_p4
     Mom "Would you like me to go faster?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Just, whatever you think is best, Mom."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Just, whatever you think is best, Linda."
 
     scene ml_mc_room_night_scene3_footjob_v1_p5
@@ -431,9 +435,9 @@ label ML_NS_6:
 
     scene ml_mc_room_night_scene3_footjob_v1_p6
     MC "Ahh!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I can feel Mom’s hot breath in my ear. She has such a seductive voice when she whispers.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(I can feel Linda’s hot breath in my ear. She has such a seductive voice when she whispers.)"
     Mom "(Alright, I’ve been doing this for a few minutes now. Time to up my game.)"
 
@@ -443,22 +447,22 @@ label ML_NS_6:
     Mom "(Mmm... he shivered! I think he’s rather sensitive there.)"
 
     scene ml_mc_room_night_scene3_footjob_v1_p8
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Oh! Oh, Mom!"
         Mom "Are you enjoying, my feet, massaging your cock, Sweetie?"
         MC "Y-Yes, Mom! Ahh…"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Oh! Oh, Linda!"
         Mom "Are you enjoying, my feet, massaging your cock, Sweetie?"
         MC "Y-Yes, Linda! Ahh…"
 
     scene ml_mc_room_night_scene3_footjob_v1_p9
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "I want you to be a good boy, and cum for Mommy."
         scene ml_mc_room_night_scene3_footjob_v1_p8anim
         Mom "Will you do that for me?"
         MC "Y-Yes, Mom!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Mom "I want you to be a good boy, and cum for me."
         scene ml_mc_room_night_scene3_footjob_v1_p8anim
         Mom "Will you do that for me?"
@@ -472,9 +476,9 @@ label ML_NS_6:
     scene ml_mc_room_night_scene3_footjob_v1_p11
     MC "Fuck! I’m cumming! Ahh! Uggghhh!"
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "That’s it! Cum for Mommy!"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Mom "That’s it! Cum for me!"
     scene ml_mc_room_night_scene3_footjob_v1_p12
     Mom "(It feels so good, making him cum. Hopefully he’ll want to repay the favour some day.)"
@@ -490,12 +494,12 @@ label ML_NS_6:
     Mom "Aww... are you out of breath. Let’s lie down together, for a while."
 
     scene ml_mc_room_night_scene3_footjob_v1_p13
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Th-Thank you, Mom…"
         Mom "Shush... Just relax and catch your breath."
         Mom "I’ll cuddle you for a while, then head back into my own room."
         MC "(Pant) You’re incredible, Mom..."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Th-Thank you, Linda…"
         Mom "Shush... Just relax and catch your breath."
         Mom "I’ll cuddle you for a while, then head back into my own room."
@@ -529,7 +533,7 @@ label ML_NS_2:
 
     MC "Mmm! That’s so good!"
     scene ml_mc_room_night_scene3_tits_v1_p4anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Your breasts are amazing, Mom!"
     else:
         MC "Your breasts are amazing, Linda!"
@@ -539,7 +543,7 @@ label ML_NS_2:
 
     MC "Ah… Ah…"
     MC "(I can feel her soft breasts, massaging every single inch of my cock! This is awesome!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(It looks like my boy is REALLY enjoying this!)"
     else:
         Mom "(It looks like the [player_name] is really is really enjoying thi!)"
@@ -553,7 +557,7 @@ label ML_NS_2:
     scene ml_mc_room_night_scene3_tits_v1_p7
 
     Mom "So, how are you enjoying being on top?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Mmm! It’s great, Mom!"
     else:
         MC "Mmm! it’s great, Linda!"
@@ -586,7 +590,7 @@ label ML_NS_2:
 
     scene ml_mc_room_night_scene3_tits_v1_p11
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Shit! Mom, I’m cumming!"
     else:
         MC "Shit! Linda, I’m cumming!"
@@ -609,7 +613,7 @@ label ML_NS_2:
     scene ml_mc_room_night_scene3_tits_v1_p14
 
     Mom "Only yours, Dear."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "There’s something intensely erotic about swallowing your son’s cum."
         MC "I love you, Mom."
     else:
@@ -723,6 +727,8 @@ label ml_mc_room_night_scene3_v1_sleep:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
+
+
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -777,6 +783,7 @@ label ml_mc_room_night_scene3_v1_sleep:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
+
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -790,6 +797,7 @@ label ml_mc_room_night_scene3_v1_sleep:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
+
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False

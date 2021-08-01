@@ -1,9 +1,7 @@
-label LiR1_MS6_rep:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
+
+
+label LiR1_MS6_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -11,6 +9,7 @@ label LiR1_MS6_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = True
+
 
     scene LiR1_MAS7_p1 with dissolve
     Yazmin "...and then he told me, “Well, if you want to earn the big bucks, you’ve gotta lose that bra!”"
@@ -30,7 +29,9 @@ label LiR1_MS6_rep:
     Yazmin "Relax - and drink with me. Some champagne, will help take your mind off things."
     MC "(It sounds like [Liza2_name] is having a - pretty intense discussion - about her wife’s line of work...)"
 
+
     scene LiR1_MAS7_p4
+
 
     Liza "You’d tell me... right?"
     Yazmin "Tell you what, Honey?"
@@ -67,6 +68,7 @@ label LiR1_MS6_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
 
+
     MC "Hey guys! Hope I’m not bothering you!"
     Liza "Oh! Hi there, [player_name]! Were you... uh... standing there long?"
     MC "No, I just arrived."
@@ -82,7 +84,7 @@ label LiR1_MS6_rep:
 
     MC "Thanks for the beer, Yazmin."
     Yazmin "No problem! We’ve got plenty in the fridge - so if you want another one-"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "Umm... maybe not... And PLEASE don’t tell your mother about this, [player_name]."
         Liza2 "I don’t want her to think - we’re getting her son drunk!"
     else:
@@ -108,7 +110,7 @@ label LiR1_MS6_rep:
     Yazmin "(This little pervert, probably enjoys working for us, because he gets to see us, in our bikinis so much.)"
 
     scene LiR1_MAS7_p14
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "Your mother doesn’t mind you coming over here, all the time, does she?"
     else:
         Liza2 "Linda doesn’t mind you coming over here, all the time, does she?"
@@ -150,11 +152,12 @@ label LiR1_MS6_rep:
     scene LiR1_MAS7_p19
 
     MC "That’s quite a fancy ring you’re wearing!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "Oh! Yeah, I got the one on my right hand, when your aunt and I took a holiday to Switzerland."
     else:
         Liza2 "Oh! Yeah, I got the one on my right hand, when Liza and I took a holiday to Switzerland."
     MC "You two went to Switzerland?!"
+
 
     scene LiR1_MAS7_p20
 
@@ -163,7 +166,7 @@ label LiR1_MS6_rep:
     Liza2 "Oops! Sorry, Dear! Hehe..."
 
     scene LiR1_MAS7_p21
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "It was a skiing holiday, mostly. I was pretty good at it - your Auntie Yazmin was atrocious through - She couldn’t keep herself, up straight, on the slopes."
     else:
         Liza2 "It was a skiing holiday, mostly. I was pretty good at it - Yazmin was atrocious through - She couldn’t keep herself, up straight, on the slopes."
@@ -227,6 +230,7 @@ label LiR1_MS6_rep:
 
     scene LiR1_MAS7_p30
 
+
     MC "Hnnngg.... N-Neither can I..."
     MC "(Fuck! She’s taking my cock - so deep - into her mouth!)"
     Yazmin "*Shllllurrrrp*"
@@ -275,7 +279,7 @@ label LiR1_MS6_rep:
     MC "([Liza2_name] can’t - seriously - be making these puns on purpose, can she?!)"
     MC "Hnng.... D-Definitely."
     Liza2 "Anyway, I’m off now. Have fun!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "S-See you later, Ahhuntie!"
     else:
         MC "S-See you later, Liiiza!"
@@ -301,6 +305,7 @@ label LiR1_MS6_rep:
     $ renpy.pause(0.7, hard = True)
     scene LiR1_MAS7_p40 with dissolve
 
+
     Yazmin "(Finally made him cum! He lasted much longer than - most guys - I’ve met!)"
     Yazmin "(I better swallow it, or [player_name] will have to clean the whole pool, again.)"
     Yazmin "*Gulp Gulp*"
@@ -308,10 +313,11 @@ label LiR1_MS6_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
 
+
     scene LiR1_MAS7_p41
 
     Yazmin "Haha! I think you enjoyed that!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Y-You... Right in front of my auntie!"
     else:
         MC "Y-You... Right in front of Liza!"
@@ -330,7 +336,7 @@ label LiR1_MS6_rep:
             scene LiR1_MAS7_p42b
             MC "How could you do that!? If she’d caught us, we would BOTH be dead right now!"
             Yazmin "Huh? Did you not enjoy it?"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "It doesn’t matter! She’s my auntie, and she’s YOUR wife! You’re cheating on her, right now. You know that?! AND you’re making ME complicit in it!"
             else:
                 MC "It doesn’t matter! She’s YOUR wife! You’re cheating on her, right now. You know that?! AND you’re making ME complicit in it!"

@@ -59,6 +59,7 @@ label outfit_R3_start:
     $ outfit_chosen = []
     jump outfit_R3_loop
 
+
 label outfit_R3_loop:
 
     $ outfit_list_rolled = renpy.random.choice(outfit_list)
@@ -70,9 +71,7 @@ label outfit_R3_loop:
         $ cosplay_pic_count = 0
         call screen cosplay_R3_score_screen
     call screen outfit1_R3_scr1
-
 label outfit_R3_loop1:
-
     $ outfit_list_roll.remove(outfit_list_rolled)
     $ outfit_chosen.remove(outfit_chosen1)
     $ outfit_list_rolled = renpy.random.choice(outfit_list)
@@ -84,12 +83,13 @@ label outfit_R3_loop1:
         $ cosplay_pic_count = 0
         call screen cosplay_R3_score_screen
     call screen outfit1_R3_scr1
-
 screen outfit1_R3_scr1:
 
     add outfit_pos_normal
     add "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/P_Frame.png" xpos 89 ypos 72
     add outfit_list_rolled xpos 100 ypos 84 at outfit_R3_transform
+
+
 
     imagebutton:
         xpos 1679
@@ -132,6 +132,7 @@ screen outfit1_R3_scr1:
         idle "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/Rotate.png"
         hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/RotateHover.png"
         action [Jump("outfit_R3_rotate"),]
+
 
 label outfit1_R3_down:
 
@@ -258,6 +259,7 @@ label outfit1_R3_confirm:
 
 label outfit_R3_rotate:
 
+
     if outfit_start == 1:
 
         if outfit_pos_normal == "O1_R3_p1":
@@ -293,6 +295,7 @@ label outfit_R3_rotate:
     Caroline "Sure."
     call screen outfit1_R3_scr1 with dissolve
 
+
 screen outfit1_R3_confirm_scr:
 
     add outfit_chosen1
@@ -304,6 +307,7 @@ screen outfit1_R3_confirm_scr:
             idle "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/accept.png"
             hover "images/cosplay_minigame/HUD_Cosplay/CosplayMinigame/accept_hover.png"
             action [Jump("outfit1_R3_confirm")]
+
 
         imagebutton:
             xpos 1680
@@ -326,7 +330,7 @@ screen cosplay_R3_score_screen:
         text "{size=+25}{color=#00ff00}[cosplay_score]${/size}" xpos 1000 ypos 510
     else:
         text "{size=+25}{color=#00ff00}0${/size}" xpos 1000 ypos 510
-        text __("{color=#00ff00}(Deal with Caroline is active.)") xpos 780 ypos 600
+        text "{color=#00ff00}(Deal with Caroline is active.)" xpos 780 ypos 600
     imagebutton:
         xpos 1679
         ypos 0

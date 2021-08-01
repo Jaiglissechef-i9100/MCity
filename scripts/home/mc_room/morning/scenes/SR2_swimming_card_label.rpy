@@ -53,9 +53,9 @@ label SR2_swimming_card_label:
     Sara "Err… There was that time we were on that school trip in Spain!"
     MC "That’s because a cockroach crawled into your bed, and woke you up at five in the morning!"
     Sara "I still woke up before you, so it still counts! And… uhh… today is number two! I win!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Sigh) What do you want me for, then? Did Mom tell you to get me out of bed?"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Sigh) What do you want me for, then? Did Linda tell you to get me out of bed?"
     scene SR2_swimming_card_p2
 
@@ -96,7 +96,7 @@ label SR2_swimming_card_label:
     MC "These must have cost you a fortune, Sara! Where did you get this kind of money?!"
 
     scene SR2_swimming_card_p4
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "I’ve been saving up my allowance, that Dad gave me."
     else:
         Sara "I’ve been saving up my money."

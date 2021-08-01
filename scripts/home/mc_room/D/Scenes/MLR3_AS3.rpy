@@ -87,7 +87,7 @@ label MLR3_AS3:
 
     Mom "Listen, [player_name]… You know that I really care about you. Don’t you?"
     MC "Yeah, of course I know that, [Mom_name]."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "I know we’ve done a lot of stuff together. Especially late at night, when your father is asleep."
     else:
         Mom "I know we’ve done a lot of stuff together. Especially late at night, when Bob is asleep."
@@ -97,7 +97,7 @@ label MLR3_AS3:
     Mom "I just wanted to say… sorry."
     MC "Sorry? What for, [Mom_name]? You’ve done nothing wrong."
     Mom "You probably feel like I’m just using you for sex."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "We don’t get to go on dates that often, and the only time we get to spend together is wasted on quickies, with the threat of your father walking in on us."
     else:
         Mom "We don’t get to go on dates that often, and the only time we get to spend together is wasted on quickies, with the threat of Bob walking in on us."
@@ -206,10 +206,9 @@ label MLR3_AS3:
             Mom "My my… someone is horny!"
             MC "Sorry, [Mom_name]. I couldn’t hold myself back. Your tits are awesome!"
             jump MLR3_AS3_con2
-
 label MLR3_AS3_con2:
     scene MLR3_AS3_p20
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Well, if you’re horny, that’s a problem - and Mommy is going to have to do something about that!"
     else:
         Mom "Well, if you’re horny, that’s a problem - I have to do something about that!"
@@ -219,12 +218,12 @@ label MLR3_AS3_con2:
     scene MLR3_AS3_p21
 
     MC "Mmm, I like the sound of that!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "I think your father is out right now, so we have a little bit of privacy."
     else:
         Mom "I think Bob is out right now, so we have a little bit of privacy."
     MC "That’s a relief."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Go ahead and pull your pants down. Just lie back and relax. Let Mommy take care of all the work."
     else:
         Mom "Go ahead and pull your pants down. Just lie back and relax. Let me take care of all the work."
@@ -247,6 +246,7 @@ label MLR3_AS3_con2:
     scene MLR3_AS3_p24anim
     MC "Ugh… fuck, this is good."
     Mom "*SUCK SUCK*"
+
 
     scene MLR3_AS3_p27 with dissolve
 
@@ -353,6 +353,7 @@ label MLR3_AS3_con2:
     MC "Mmm! Ahh…"
     MC "(She’s sped up now! I’m not gonna last long, if she keeps up this pace!)"
 
+
     scene MLR3_AS3_p44
 
     Mom "*GAG* *SHLUUURRRRP*"
@@ -375,6 +376,7 @@ label MLR3_AS3_con2:
 
     scene MLR3_AS3_p46
 
+
     Mom "Ahh…"
     MC "Fuck...That was amazing. Thanks, [Mom_name]."
     Mom "*Gulp*"
@@ -386,7 +388,7 @@ label MLR3_AS3_con2:
 
     "*Creeeaak*"
     MC "Footsteps?!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Shit! Your dad isn’t supposed to be home yet - pull your pants up!"
     else:
         Mom "Shit! Bob isn’t supposed to be home yet - pull your pants up!"

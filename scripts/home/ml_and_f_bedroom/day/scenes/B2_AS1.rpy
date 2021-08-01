@@ -11,7 +11,6 @@ default B2_AS1_q1 = True
 default B2_AS1_q2 = True
 default can_B2_AS1_day = True
 default bob_payment_money = 0
-
 label B2_AS1_label:
     if B2_AS1_day == 4:
         if money_from_bob > 0:
@@ -34,6 +33,7 @@ label B2_AS1_label:
             show screen parents_bedroom_day_notclickable
             Dad "Not now, [player_name]."
             jump parents_bedroom_morning1
+
 
     if can_B2_AS1_day == False:
         if money_from_bob > 0:
@@ -64,7 +64,7 @@ label B2_AS1_label:
 
     scene B2_AS1_p1 with dissolve
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Hey, Dad!"
     else:
         MC "Hey, Bob!"
@@ -131,7 +131,7 @@ label B2_AS1_menu_label:
             scene B2_AS1_p2
 
             MC "Have you heard about Caroline’s shop?"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Dad "Oh yeah! Your mom mentioned that a while back. How’s it going?"
             else:
                 Dad "Oh yeah! Linda mentioned that a while back. How’s it going?"
@@ -151,7 +151,7 @@ label B2_AS1_menu_label:
             Dad "You can control work and be responsible for it - but staff are human beings, and VERY unpredictable at times."
 
             scene B2_AS1_p5
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "Thanks, Dad. I’ll remember that!"
             else:
                 MC "Thanks, Bob. I’ll remember that!"
@@ -165,6 +165,7 @@ label B2_AS1_menu_label:
                 jump B2_AS1_menu_label
             else:
                 jump B2_AS1_menu_label
+
 
         "You look very relaxed!" if B2_AS1_day == 2 and B2_AS1_q1 == True and can_B2_AS1_day == True:
 
@@ -197,7 +198,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Doesn’t Mom get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and persistent.incest_patch == True:
+        "Doesn’t Mom get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and renpy.loadable("patch.rpy"):
             scene B2_AS1_p1
 
             MC "Doesn’t Mom get angry when you smoke cigars in the bedroom?"
@@ -221,7 +222,7 @@ label B2_AS1_menu_label:
                 jump B2_AS1_menu_label
             else:
                 jump B2_AS1_menu_label
-        "Doesn’t Linda get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and not persistent.incest_patch == True:
+        "Doesn’t Linda get angry with you smoking cigars in the bedroom?" if B2_AS1_day == 2 and B2_AS1_q2 == True and can_B2_AS1_day == True and not renpy.loadable("patch.rpy"):
             scene B2_AS1_p1
 
             MC "Doesn’t Linda get angry when you smoke cigars in the bedroom?"
@@ -246,7 +247,10 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Is everything okay between you and Mom? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and persistent.incest_patch == True:
+
+
+
+        "Is everything okay between you and Mom? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and renpy.loadable("patch.rpy"):
             scene B2_AS1_p1
 
             MC "Is everything okay between you and Mom?"
@@ -257,6 +261,7 @@ label B2_AS1_menu_label:
             MC "I’m just curious. The two of you just seem a little more… distant than usual."
             Dad "When you’ve been in a marriage as long as we have, you’ll learn that there are peaks and troughs."
             Dad "Your mother is a complex woman - one of the many reasons I fell in love with her."
+
 
             scene B2_AS1_p3
 
@@ -271,7 +276,7 @@ label B2_AS1_menu_label:
             else:
                 jump B2_AS1_menu_label
 
-        "Is everything okay between you and Linda? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and not persistent.incest_patch == True:
+        "Is everything okay between you and Linda? " if B2_AS1_day == 3 and B2_AS1_q1 == True and can_B2_AS1_day == True and not renpy.loadable("patch.rpy"):
             scene B2_AS1_p1
 
             MC "Is everything okay between you and Linda?"
@@ -282,6 +287,7 @@ label B2_AS1_menu_label:
             MC "I’m just curious. The two of you just seem a little more… distant than usual."
             Dad "When you’ve been in a relationship as long as we have, you’ll learn that there are peaks and troughs."
             Dad "Linda is a complex woman - one of the many reasons I fell in love with her."
+
 
             scene B2_AS1_p3
 
@@ -298,7 +304,7 @@ label B2_AS1_menu_label:
 
         "Have you got any advice for finding a girlfriend?" if B2_AS1_day == 3 and B2_AS1_q2 == True and can_B2_AS1_day == True:
             scene B2_AS1_p1
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "Have you got any advice for finding a girlfriend, Dad?"
             else:
                 MC "Have you got any advice for finding a girlfriend, Bob?"
@@ -312,7 +318,7 @@ label B2_AS1_menu_label:
 
             Dad "Be open and honest about your interests. If you’re a videogamer, then state that you are."
             Dad "If you’re into sports or movies, then be upfront about it."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "But what if they don’t like the same things as me, Dad."
             else:
                 MC "But what if they don’t like the same things as me, Bob."
@@ -353,6 +359,7 @@ label B2_AS1_menu_label:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump parents_bedroom_morning1
+
 
 label B2_AS1_payment:
     if money_from_bob > 0:

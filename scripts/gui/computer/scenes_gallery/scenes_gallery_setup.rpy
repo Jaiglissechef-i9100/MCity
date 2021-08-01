@@ -32,6 +32,7 @@ init python:
     gallery_page2 = 0
     closeup_page2 = 0
 
+
     class Scenes_GalleryItem:
         def __init__(self, name, images, thumb, thumb_hover, locked2="lockedthumb"):
             self.name = name
@@ -69,6 +70,8 @@ init python:
         def __call__(self):
             scenes_gallery_photos.storage.append(self.img)
             renpy.restart_interaction()
+
+
 
     scenes_gallery_photos = Scenes_Gallery_photos()
     scenes_gallery_items = []
@@ -116,6 +119,7 @@ init python:
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_AS3_rep", ["img42_MLR3_AS3_rep"], "thumb42_idle_MLR3_AS3_rep","thumb42_hover_MLR3_AS3_rep" ))
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_NS1_rep", ["img43_MLR3_NS1_rep"], "thumb43_idle_MLR3_NS1_rep","thumb43_hover_MLR3_NS1_rep" ))
     scenes_gallery_items.append(Scenes_GalleryItem("MLR3_NS2_rep", ["img44_MLR3_NS2_rep"], "thumb44_idle_MLR3_NS2_rep","thumb44_hover_MLR3_NS2_rep" ))
+
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS1_rep", ["img45_CeR2_AS1_rep"], "thumb45_idle_CeR2_AS1_rep","thumb45_hover_CeR2_AS1_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS2_rep", ["img46_CeR2_AS2_rep"], "thumb46_idle_CeR2_AS2_rep","thumb46_hover_CeR2_AS2_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("CeR2_AS3_rep", ["img47_CeR2_AS3_rep"], "thumb47_idle_CeR2_AS3_rep","thumb47_hover_CeR2_AS3_rep " ))
@@ -134,3 +138,8 @@ init python:
     scenes_gallery_items.append(Scenes_GalleryItem("CR4_NS3a_rep", ["img60_CR4_NS3a_rep"], "thumb60_idle_CR4_NS3a_rep","thumb60_hover_CR4_NS3a_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("CR4_We_rep", ["img61_CR4_We_rep"], "thumb61_idle_CR4_We_rep","thumb61_hover_CR4_We_rep " ))
     scenes_gallery_items.append(Scenes_GalleryItem("Ci_S1_rep", ["img62_Ci_S1_rep"], "thumb62_idle_Ci_S1_rep","thumb62_hover_Ci_S1_rep " ))
+
+    scenes_gallery_items.append(Scenes_GalleryItem("SR3_we_bath_rep", ["img63_SR3_we_bath_rep"], "thumb63_SR3_we_bath_rep","thumb63_hover_SR3_we_bath_rep" ))
+    scenes_gallery_items.append(Scenes_GalleryItem("SR3_we_home_end_bed_rep", ["img64_SR3_we_home_end_bed_rep"], "thumb64_SR3_we_home_end_bed_rep","thumb64_hoverSR3_we_home_end_bed_rep" ))
+    scenes_gallery_items.append(Scenes_GalleryItem("SR3_we_home_end_couch_rep", ["img65_SR3_we_home_end_couch_rep"], "thumb65_SR3_we_home_end_couch_rep","thumb65_hoverSR3_we_home_end_couch_rep" ))
+    scenes_gallery_items.append(Scenes_GalleryItem("SR3_home_end_penetrate_rep", ["img66_SR3_home_end_penetrate_rep"], "thumb66_SR3_home_end_penetrate_rep","thumb66_hoverSR3_home_end_penetrate_rep" ))

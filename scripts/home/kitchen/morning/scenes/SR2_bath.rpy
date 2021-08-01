@@ -1,7 +1,6 @@
 image SR2_bath_p1 = "images/home/kitchen/morning/scenes/SR2_bath/1.jpg"
 image SR2_bath_p2 = "images/home/kitchen/morning/scenes/SR2_bath/2.jpg"
 image SR2_bath_p3 = "images/home/kitchen/morning/scenes/SR2_bath/3.jpg"
-
 label SR2_bath_label:
 
     hide screen week_day_viewer
@@ -28,7 +27,7 @@ label SR2_bath_label:
             scene SR2_bath_p3
             MC "Seriously!? Is she planning on taking a nap in the bathroom?"
             MC "..."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "I hope Mom doesn't notice her."
             else:
                 MC "I hope Linda doesn't notice her."

@@ -17,6 +17,7 @@ label beach_M1:
         $ can_map = False
     $ in_map = False
 
+
     if day_time == 1:
         jump beach_M2
 
@@ -32,6 +33,8 @@ label beach_M1:
 label beach_M2:
     hide screen displayTextScreen
     hide screen map
+
+
 
     show screen week_day_viewer
     show screen time_skip_button

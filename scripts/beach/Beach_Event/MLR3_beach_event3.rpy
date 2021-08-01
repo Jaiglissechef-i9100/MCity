@@ -92,6 +92,7 @@ label MLR3_beach_event3:
             $ can_hide_windows = False
             jump beach_M1
 
+
 label MLR3_beach_ice:
 
     hide screen week_day_viewer
@@ -154,7 +155,7 @@ label MLR3_beach_ice:
     MC "It was… um… Did you start coming here to get away from [Dad_name]? I know you two haven’t been getting on, for some time."
 
     scene MLR3_beach_ice_p9
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "*Sigh* Let’s not spoil today with talk of your father. Okay?"
     else:
         Mom "*Sigh* Let’s not spoil today with talk of Bob. Okay?"
@@ -217,7 +218,6 @@ label MLR3_beach_sun:
     MC "(I love the way her skin glistens in the sunlight.)"
     MC "(Now, where should I start applying the suncream?)"
     jump MLR3_beach_sun_menu
-
 label MLR3_beach_sun_menu:
     scene MLR3_beach_sun_p5
     menu:
@@ -289,7 +289,7 @@ label MLR3_beach_sun_menu:
             scene MLR3_beach_sun_p7g
 
             MC "Nah, nobody is close enough."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Mom "As long as you’re sure. Keep an eye out. I don’t want to get caught having my son rub my ass. Or WORSE: get banned from my favourite beach for public indecency!"
                 MC "(I would have thought that getting caught in an incestuous relationship was more embarrassing than getting banned from a beach - I guess we have different priorities!)"
             else:

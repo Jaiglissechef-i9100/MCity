@@ -1,3 +1,6 @@
+
+
+
 image img1_sara_evening_pad_lose = MaxScale2("images/secret_gallery/Scenes/1.png")
 image img2_sara_evening_pad_win = MaxScale2("images/secret_gallery/Scenes/2.png")
 image img3_sara_night_visit_v1 = MaxScale2("images/secret_gallery/Scenes/3.png")
@@ -60,9 +63,16 @@ image img59_CR4_NS3_rep = MaxScale2("images/secret_gallery/Scenes/59.png")
 image img60_CR4_NS3a_rep = MaxScale2("images/secret_gallery/Scenes/60.png")
 image img61_CR4_We_rep = MaxScale2("images/secret_gallery/Scenes/61.png")
 image img62_Ci_S1_rep = MaxScale2("images/secret_gallery/Scenes/62.png")
+image img63_SR3_we_bath_rep = MaxScale2("images/v71/gui/rep_scenes/63.png")
+image img64_SR3_we_home_end_bed_rep = MaxScale2("images/v71/gui/rep_scenes/64.png")
+image img65_SR3_we_home_end_couch_rep = MaxScale2("images/v71/gui/rep_scenes/65.png")
+image img66_SR3_home_end_penetrate_rep = MaxScale2("images/v71/gui/rep_scenes/66.png")
 
 image secret_gallery_background = "images/secret_gallery/Bonus/Black.jpg"
 image lockedthumb = MinScale2("images/secret_gallery/Bonus/locked.png", maxthumbx2, maxthumby2)
+
+
+
 
 image thumb1_idle_sara_evening_pad_lose = MinScale2("images/secret_gallery/Scenes/1.png", maxthumbx2, maxthumby2)
 image thumb2_idle_sara_evening_pad_win = MinScale2("images/secret_gallery/Scenes/2.png", maxthumbx2, maxthumby2)
@@ -126,6 +136,10 @@ image thumb59_idle_CR4_NS3_rep = MaxScale2("images/secret_gallery/Scenes/59.png"
 image thumb60_idle_CR4_NS3a_rep = MaxScale2("images/secret_gallery/Scenes/60.png", maxthumbx2, maxthumby2)
 image thumb61_idle_CR4_We_rep = MaxScale2("images/secret_gallery/Scenes/61.png", maxthumbx2, maxthumby2)
 image thumb62_idle_Ci_S1_rep = MaxScale2("images/secret_gallery/Scenes/62.png", maxthumbx2, maxthumby2)
+image thumb63_SR3_we_bath_rep = MaxScale2("images/v71/gui/rep_scenes/63.png", maxthumbx2, maxthumby2)
+image thumb64_SR3_we_home_end_bed_rep = MaxScale2("images/v71/gui/rep_scenes/64.png", maxthumbx2, maxthumby2)
+image thumb65_SR3_we_home_end_couch_rep = MaxScale2("images/v71/gui/rep_scenes/65.png", maxthumbx2, maxthumby2)
+image thumb66_SR3_home_end_penetrate_rep = MaxScale2("images/v71/gui/rep_scenes/66.png", maxthumbx2, maxthumby2)
 
 
 image thumb1_hover_sara_evening_pad_lose = MinScale2("images/secret_gallery/Scenes/1a.png", maxthumbx2, maxthumby2)
@@ -190,3 +204,7 @@ image thumb59_hover_CR4_NS3_rep = MaxScale2("images/secret_gallery/Scenes/59a.pn
 image thumb60_hover_CR4_NS3a_rep = MaxScale2("images/secret_gallery/Scenes/60a.png", maxthumbx2, maxthumby2)
 image thumb61_hover_CR4_We_rep = MaxScale2("images/secret_gallery/Scenes/61a.png", maxthumbx2, maxthumby2)
 image thumb62_hover_Ci_S1_rep = MaxScale2("images/secret_gallery/Scenes/62a.png", maxthumbx2, maxthumby2)
+image thumb63_hover_SR3_we_bath_rep = MaxScale2("images/v71/gui/rep_scenes/63a.png", maxthumbx2, maxthumby2)
+image thumb64_hoverSR3_we_home_end_bed_rep = MaxScale2("images/v71/gui/rep_scenes/64a.png", maxthumbx2, maxthumby2)
+image thumb65_hoverSR3_we_home_end_couch_rep = MaxScale2("images/v71/gui/rep_scenes/65a.png", maxthumbx2, maxthumby2)
+image thumb66_hoverSR3_home_end_penetrate_rep = MaxScale2("images/v71/gui/rep_scenes/66a.png", maxthumbx2, maxthumby2)

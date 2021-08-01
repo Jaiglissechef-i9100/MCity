@@ -1,3 +1,5 @@
+
+
 label CR2_minigame_label:
     hide screen week_day_viewer
     hide screen time_skip_button

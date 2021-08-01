@@ -12,10 +12,6 @@ label SR2_AS3_vibrator_label:
     hide screen map_button
 
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
-        $ S = __("Saleswoman")
-    else:
-        $ S = __("Saleswoman")
 
     if SR2_AS3_v_loop == True:
         if inventory.money >= 80:
@@ -44,7 +40,7 @@ label SR2_AS3_vibrator_label:
         scene SR2_AS3_vibrator_p2
 
         S "Ooh, a guy buying a vibrator... Kinky."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "No! It’s not for me! It’s for my sister!"
             S "Your sister?!"
         else:
@@ -54,7 +50,7 @@ label SR2_AS3_vibrator_label:
         MC "S-Sorry! I mean, my… uh… my girlfriend. I’m sorry, I’m just really nervous right now."
 
         scene SR2_AS3_vibrator_p1
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             S "Hehe... It’s okay. So, has your sister- I mean, “girlfriend”, used a vibrator before?"
         else:
             S "Hehe... It’s okay. So, has your friend- I mean, “girlfriend”, used a vibrator before?"
@@ -80,6 +76,7 @@ label SR2_AS3_vibrator_label:
         MC "(Jesus Christ… That thing’s massive!)"
         MC "I… uh…"
         S "Here, hold it!"
+
 
         scene SR2_AS3_vibrator_p5
 

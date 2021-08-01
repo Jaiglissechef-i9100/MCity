@@ -1,3 +1,5 @@
+
+
 label bob_work_outside_evening1:
     hide screen displayTextScreen
     hide screen map

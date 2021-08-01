@@ -1,3 +1,5 @@
+
+
 label Z_ES2_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -24,6 +26,7 @@ label Z_ES2_rep:
 
     Suri "You can do whatever you want with my tits, [player_name]."
     MC "(This is gonna be awesome!)"
+
 
     scene Z_ES2_p3
 
@@ -73,7 +76,7 @@ label Zv2_ES2_menu_rep:
             scene Z_ES2_p8aa
 
             Suri "Oooh! That’s good…."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Zuri "My sister LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."
             else:
                 Zuri "Suri LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."

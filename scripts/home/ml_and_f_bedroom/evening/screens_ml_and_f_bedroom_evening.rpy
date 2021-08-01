@@ -16,7 +16,7 @@ screen parents_bedroom_evening:
             idle "images/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_book_scene_v1/Book_b1.png"
             hover "images/home/ml_and_f_bedroom/morning/scenes/ml_bedroom_book_scene_v1/Book_b1_hover.png"
             action [Hide("displayTextScreen"),Jump("ml_bedroom_book_scene_v1_label")]
-            hovered Show("displayTextScreen", displayText = __("Book"))
+            hovered Show("displayTextScreen", displayText = "Book")
             unhovered Hide("displayTextScreen")
 
     if moeny_parents_room == True:
@@ -27,8 +27,9 @@ screen parents_bedroom_evening:
             idle "/images/home/ml_and_f_bedroom/evening/money_b1.png"
             hover "/images/home/ml_and_f_bedroom/evening/money_b1_hover.png"
             action [Hide("displayTextScreen"),Jump("ml_bedroom_morning_money_label")]
-            hovered Show("displayTextScreen", displayText = __("Money"))
+            hovered Show("displayTextScreen", displayText = "Money")
             unhovered Hide("displayTextScreen")
+
 
 screen parents_bedroom_evening_notclickable:
     key "hide_windows" action NullAction()

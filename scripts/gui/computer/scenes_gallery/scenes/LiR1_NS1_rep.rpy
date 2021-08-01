@@ -1,9 +1,7 @@
-label LiR1_NS1_rep:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
+
+
+label LiR1_NS1_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -11,6 +9,7 @@ label LiR1_NS1_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = True
+
 
     scene LiR1_NS1_p1 with dissolve
 
@@ -47,6 +46,7 @@ label LiR1_NS1_rep:
     Yazmin "There’s more to sex, than the physical pleasure. Simply watching you, suck on this strap-on, is intensely erotic."
     Liza2 "Alright - let’s get this over with."
     Yazmin "Can you - at least - pretend to enjoy it?"
+
 
     scene LiR1_NS1_p7
 

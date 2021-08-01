@@ -1,6 +1,7 @@
+
+
 default Zv2_MS1_ask_boob_office = True
 default Zv2_MS1_ask_boob_office1 = 1
-
 label Zv2_MS1_daymeet_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -16,7 +17,7 @@ label Zv2_MS1_daymeet_label:
         $ Zuri_name = "Zuri"
 
         scene Zv2_MS1_p2
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "(Wow! That must be Dad’s secretary! She’s REALLY hot!)"
             MC "Hi, Zuri. My name is [player_name]. I was coming to visit my dad."
             Zuri "And who is your dad?"
@@ -32,7 +33,7 @@ label Zv2_MS1_daymeet_label:
         Zuri "Let me guess - you’re with one of those online prank videos, aren’t you?"
         MC "Huh?"
         Zuri "You’ve got a secret camera and you’re going to humiliate the boss and put it online?"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "No- What?! I AM actually his son."
         else:
             MC "No- What?! I AM actually his tennant."
@@ -49,7 +50,6 @@ label Zv2_MS1_daymeet_label:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump bob_reception_morning1
-
     if Zv2_MS1_ask_boob_office == False:
         scene Zv2_MS1_p1 with dissolve
         Zuri "Hello, and welcome to Bayside Business Consultants."

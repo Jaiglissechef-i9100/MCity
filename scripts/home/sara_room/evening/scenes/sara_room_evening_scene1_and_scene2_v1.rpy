@@ -21,7 +21,6 @@ image sara_room_evening_scene2_v1_p17 = "images/home/sara_room/evening/scene2_v1
 image sara_room_evening_scene2_v1_p18 = "images/home/sara_room/evening/scene2_v1/18.jpg"
 image sara_room_evening_scene2_v1_p19 = "images/home/sara_room/evening/scene2_v1/19.jpg"
 image sara_room_evening_scene2_v1_p20 = "images/home/sara_room/evening/scene2_v1/20.jpg"
-
 define Console = Character("Console")
 
 label sis_nerdy_evening_scene1_v1_l:
@@ -41,16 +40,15 @@ label sis_nerdy_evening_scene1_v1_l:
         $ can_sis_nerdy_evening_scene1_v1 = False
         $ can_hide_windows = False
         jump sister_nerdy_evening1
-
     if can_sis_nerdy_evening_scene1_v1 == False:
         show sara_room_evening_scene1_v1_after
         $ can_hide_windows = False
         MC "I've already talked to her."
         jump sister_nerdy_evening1
-
     if sis_nerdy_evening_scene2_v1 == 1:
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
+
 
         scene sara_room_evening_scene2_v1_p1 with dissolve
         MC "Hey Sara, you still busy with your league game?"
@@ -108,9 +106,9 @@ label sis_nerdy_evening_scene1_v1_l:
 
         scene sara_room_evening_scene2_v1_p9
         Sara "Hehe! Are you sure you want to go for one more round? You’ve only got your boxers left!"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "It isn’t over yet! I was just going easy on you because you’re my sister."
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "It isn’t over yet! I was just going easy on you because you’re my friend."
         Sara "Suuuuure!"
         $ renpy.music.stop(channel="music2", fadeout=1)
@@ -149,9 +147,9 @@ label sis_nerdy_evening_scene1_v1_l:
 
         scene sara_room_evening_scene2_v1_p14
         MC "So… uhh… I’m gonna go and get dressed now."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "last thing we want is, Mom or Dad, walking in on us right now!"
-        else:
+        if not renpy.loadable("patch.rpy"):
             MC "Last thing we want is, Linda or Bob, walking in on us right now!"
         $ renpy.sound.play('/sfx/photo_take.wav', loop=False)
         "(Click)(A flash of light fills the room)"
@@ -165,13 +163,14 @@ label sis_nerdy_evening_scene1_v1_l:
         Sara "N-No?"
         MC "Yes you did! I can see you taking a photo right now! Delete it!"
 
+
         scene sara_room_evening_scene2_v1_p16
         Sara "You’re gonna have to catch me first! Hehe!"
         MC "Come back here!"
         MC "Seriously, Sara! Give me your phone!"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Sara "I-If you don’t stop chasing me, I’ll call Mom!"
-        else:
+        if not renpy.loadable("patch.rpy"):
             Sara "I-If you don’t stop chasing me, I’ll call Linda!"
         scene sara_room_evening_scene2_v1_p17
         MC "Gotcha!"

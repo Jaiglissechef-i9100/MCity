@@ -84,6 +84,7 @@ label sis_nerdy_scene3_1_v1:
             jump after_scene3_v1_ch1
         "Lie and state that you found them lying on the floor.":
 
+
             scene scene3_v1p4
             MC "(I just have to tell her that I came into her room and found her panties lying on the floor.)"
             MC "(You can do this, [player_name]. Practice in your head, then turn around, and confidently explain what happened.)"
@@ -112,6 +113,7 @@ label sis_nerdy_scene3_1_v1:
             Sara "(I gotta admit though - the thought of him using my panties and cumming in them is really hot.)"
             Sara "(Just the thought alone is getting me all wet.)"
             jump after_scene3_v1_ch1
+
 
 label after_scene3_v1_ch1:
     $ renpy.music.stop(channel="music2", fadeout=1)

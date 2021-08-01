@@ -357,7 +357,7 @@ label CR4_NS3_menu:
                             scene CR4_NS3_doggy_p38
                             Caroline "*Pant* Oh W-wow… That was… fucking amazing. *Gasp*"
                             MC "Sorry, Caroline. I hope I didn’t go too hard there; with the slapping and hair pulling."
-                            if persistent.incest_patch == True:
+                            if renpy.loadable("patch.rpy"):
                                 Caroline "N-No… it was *pant* perfect… You’re the best brother I could ever ask for..."
                             else:
                                 Caroline "N-No… it was *pant* perfect… You’re the best, [player_name]."

@@ -82,6 +82,7 @@ image LiR1_NS4_p73a = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/73a.jpg"
 image LiR1_NS4_p74 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/74.jpg"
 image LiR1_NS4_p75 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS4/75.jpg"
 
+
 label LiR1_NS4_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -90,10 +91,6 @@ label LiR1_NS4_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
     scene LiR1_NS4_p1 with dissolve
 
@@ -102,6 +99,7 @@ label LiR1_NS4_label:
     Yazmin "Oh yeah! Right there, baby!"
 
     scene LiR1_NS4_p2
+
 
     MC "(Damn! Yazmin’s holding [Liza2_name]’s face, right against her pussy!)"
 
@@ -212,6 +210,7 @@ label LiR1_NS4_label:
     MC "(Didn’t Yazmin say that there would be three different items that would go in [Liza2_name]’s mouth? I can only see the ice lolly and the dildo on that tray.)"
     MC "(I wonder what else she has in mind.)"
 
+
     scene LiR1_NS4_p19
 
     Liza2 "*Suck Suck*"
@@ -224,7 +223,9 @@ label LiR1_NS4_label:
     Yazmin "I’m pulling the object out now. I’m gonna need your guess."
     Liza2 "(This is a tricky one!)"
 
+
     scene LiR1_NS4_p21
+
 
     Yazmin "Well?"
     Liza2 "Err... I’m not completely sure. I tasted a LOT of different flavours going on. Is it perhaps, one of those multi-coloured lollies?"
@@ -237,7 +238,6 @@ label LiR1_NS4_label:
     Yazmin "(Whispered) Come on in, [player_name]. Be very quiet..."
     scene ClimbingSuccess_p4
     call screen climb_open_win
-
 screen climb_open_win:
     if climb_lvl < 11:
         imagebutton:
@@ -256,7 +256,6 @@ screen climb_open_win:
             idle "images/ClimbingMinigame/A_Up.png"
             hover "images/ClimbingMinigame/A_Up_hover.png"
             action [Hide("climb_open_win"), Jump("LiR1_NS4_label_open_win_done")]
-
 label LiR1_NS4_label_open_win_done:
     MC "Huh? (What does she want with me?)"
     scene ClimbingSuccess_p5
@@ -383,6 +382,7 @@ label LiR1_NS4_label_open_win_done:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/RetroFuture Clean.mp3', channel="music2", loop=True, fadein = 2)
 
+
     Yazmin "Nooooo!"
     MC "Hnnngg! AHHHHHHH!!!!"
     MC "Ugh! Ahhhh! (Dammit! I came so hard!)"
@@ -394,6 +394,7 @@ label LiR1_NS4_label_open_win_done:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS4_p41 with dissolve
+
 
     Liza2 "Ahh... Uh..."
     Liza2 "(What’s this salty taste in my mouth? It’s like... a sticky fluid?)"
@@ -418,6 +419,7 @@ label LiR1_NS4_label_open_win_done:
     MC "Shit! I better go!"
     Yazmin "You’re not going anywhere, right now! You helped cause this mess!"
 
+
     scene LiR1_NS4_p45
 
     Liza2 "Wh-Wh-Wh-Wh..."
@@ -429,7 +431,7 @@ label LiR1_NS4_label_open_win_done:
 
     Liza2 "You TRICKED me into sucking your disgusting cock, you FILTHY PERVERT!"
     MC "W-Wait, this wasn’t my-"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "Just wait until I tell your MOTHER about this! I will report you to the police and-"
     else:
         Liza2 "Just wait until I tell LINDA about this! I will report you to the police and-"
@@ -477,7 +479,7 @@ label LiR1_NS4_label_open_win_done:
     MC "It’s okay, I-"
     Liza2 "Promise me one thing."
     MC "Anything."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "Don’t say A WORD to my sister, okay?"
     else:
         Liza2 "Don’t say A WORD to Linda, okay?"
@@ -495,9 +497,10 @@ label LiR1_NS4_label_open_win_done:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music2", loop=True, fadein = 2)
 
+
     Yazmin "The best way to start, is the cowgirl position. It gives you control over, how deep, you want to - take the dick inside you. And it also gives you a GREAT workout!"
     Liza2 "Uh huh..."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride my nephew?! Why am I not jealous?)"
     else:
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride [player_name]?! Why am I not jealous?)"
@@ -584,7 +587,7 @@ label LiR1_NS4_label_open_win_done:
     MC "(She’s bouncing - up and down on my cock - faster now! I don’t know if I’ll be able to last much longer!)"
 
     scene LiR1_NS4_p69
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Hnnnnnng! Auntie Yazmin, I’m gonna cum!"
     else:
         MC "Hnnnnnng! Yazmin, I’m gonna cum!"
@@ -612,6 +615,7 @@ label LiR1_NS4_label_open_win_done:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene LiR1_NS4_p71a with dissolve
+
 
             MC "HNNNNGGG! UGH! Aaaahhhhh...."
             Yazmin "Yeeessss... Ohh... *Pant Pant*"
@@ -642,8 +646,9 @@ label LiR1_NS4_label_open_win_done:
             $ renpy.pause(0.7, hard = True)
             scene LiR1_NS4_p73a with dissolve
 
+
             MC "Aahhhhhh! Fuck! Ugh!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Yazmin "Wow! So much cum! I thought you emptied your balls when your Auntie Liza sucked you off!"
             else:
                 Yazmin "Wow! So much cum! I thought you emptied your balls when Liza sucked you off!"
@@ -661,7 +666,7 @@ label LiR1_NS4_continue:
 
     Liza2 "[player_name]! Language!"
     Liza2 "And as for YOU, Yazmin..! We need to have a serious talk."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "[player_name], let yourself out of the house. Your Aunt Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."
     else:
         Liza2 "[player_name], let yourself out of the house. My wife Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."

@@ -14,9 +14,6 @@ label Ch_last_scene:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
 
-    $ Bodyguard1_name = __("Bodyguard1")
-    $ Bodyguard2_name = __("Bodyguard2")
-
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer

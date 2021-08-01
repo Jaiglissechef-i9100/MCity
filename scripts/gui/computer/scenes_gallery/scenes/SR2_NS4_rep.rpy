@@ -1,3 +1,5 @@
+
+
 label SR2_NS4_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -75,6 +77,7 @@ label SR2_NS4_rep:
     Sara "(I’m so close to just giving… everything to him right now.)"
     Sara "(Does he even know how good he makes me feel?)"
 
+
     scene SR2_NS4_p9
 
     Sara "Wow… That was amazing!"
@@ -88,6 +91,7 @@ label SR2_NS4_rep:
     Sara "(Damn… My nerves are starting to kick off again. I shouldn’t be so scared about this.)"
     Sara "(I mean, I’ve already done it before! And this time it should be easier - we have the lube, after all.)"
     MC "(I get so hard every time I see her perky tits. They’re unbelievable!)"
+
 
     scene SR2_NS4_p12
 
@@ -243,6 +247,7 @@ label SR2_NS4_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
 
+
     MC "Just like this?"
     Sara "Yeah, that feels a little better already."
     MC "(I can’t wait til I get to fuck her pussy someday. It’s so gorgeous.)"
@@ -301,7 +306,7 @@ label SR2_NS4_rep:
 
     Sara "MMMM! OHHH!!!"
     scene SR2_NS4_p43anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Shush, you don’t want to wake up Mom."
     else:
         MC "Shush, you don’t want to wake up Linda."
@@ -362,6 +367,7 @@ label SR2_NS4_rep:
     window hide
     scene black
 
+
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music1", loop=True, fadein = 2)
 
     scene SR2_NS4_p51
@@ -381,7 +387,7 @@ label SR2_NS4_rep:
     MC "What’s wrong, Sara?"
     Sara "I just realised… you’re my boyfriend, but I can’t hang out with you like normal girlfriends do."
     MC "What do you mean?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Everybody in this town knows us. And Mom and Dad would DEFINITELY not approve."
     else:
         Sara "Everybody in this town knows us. And Linda and Bob would DEFINITELY not approve."
@@ -390,7 +396,7 @@ label SR2_NS4_rep:
 
     MC "Oh c’mon! You’re thinking too much about this."
     MC "We can do LOTS of things together - sure we’ll have to be a little more careful than most couples, but we can still have fun!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "And don’t worry about Mom and Dad - we haven’t been caught yet."
     else:
         MC "And don’t worry about Linda and Bob - we haven’t been caught yet."
@@ -398,7 +404,7 @@ label SR2_NS4_rep:
     scene SR2_NS4_p54b
 
     Sara "Yeah, I guess you’re right. I just wish things were simpler."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "It sounds bad… but I kinda wish you weren’t my brother. Maybe just a hot guy at school."
     else:
         Sara "It sounds bad… but I kinda wish you weren’t my close friend. Maybe just a hot guy at school."

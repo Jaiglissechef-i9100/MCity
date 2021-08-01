@@ -54,12 +54,12 @@ label sara_night_visit_v1:
     scene mc_sara_night_scene1_v1_p9
     Sara "I… wanted another…"
     Sara "Please forgive me. I’m sooo sorry! *Sob*"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "I’ll- I’ll do anything! Just don’t tell Dad!"
 
         scene mc_sara_night_scene1_v1_p10
         MC "Hey - relax. I won’t tell Dad."
-    else:
+    if not renpy.loadable("patch.rpy"):
         Sara "I’ll- I’ll do anything! Just don’t tell Landlord!"
 
         scene mc_sara_night_scene1_v1_p10
@@ -109,9 +109,9 @@ label sara_night_visit_v1:
             scene mc_sara_night_scene1_v1_p18
             Sara "I- I- I can’t believe I just asked you that. G-Go back to sleep."
             Sara "Forget what I just said!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your brother!)"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! )"
             MC "(Huh?! Women are strange…)"
             scene black
@@ -121,9 +121,9 @@ label sara_night_visit_v1:
 
 
             scene mc_sara_night_scene1_v1_p17
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Sara "Because I think I like you… more than a brother..."
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Sara "Because I think I like you… more than a friend..."
             MC "…"
             Sara "(Please say yes…)"
@@ -134,9 +134,9 @@ label sara_night_visit_v1:
             $ renpy.music.play('/sfx/Fork_and_Spoon.mp3', channel="music2", loop=True, fadein = 2)
             scene mc_sara_night_scene1_v1_p18
             Sara "N-Nevermind! I- Forget I asked you about it!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your brother!)"
-            else:
+            if not renpy.loadable("patch.rpy"):
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your friend!)"
             Sara "(You shouldn’t have put him in that position! You could ruin your relationship with him!)"
             MC "Are you okay, Sara?"

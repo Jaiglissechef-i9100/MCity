@@ -1,3 +1,6 @@
+
+
+
 label b_house_bath_N1:
     hide screen displayTextScreen
     hide screen map

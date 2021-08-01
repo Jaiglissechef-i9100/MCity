@@ -1,5 +1,8 @@
+
+
+
 label CR3_AS9_rep:
-    $ Linda_name = Mom_name
+
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -10,15 +13,18 @@ label CR3_AS9_rep:
 
     scene CR3_AS9_O4_p22 with dissolve
 
+
     Violet "Well, that went better than I thought it would! That ugly pink dressing gown ain’t have as bad when it’s got violet lying on top of it!"
     Violet "Anyway, I gotta dash guys - everyone is waiting for me at the party."
     Violet "See ya later!"
+
 
     scene CR3_AS9_O4_p23
 
     MC "Well… That’s her gone now. Finally, there’s some privacy for just you and me."
     Caroline "Mmm, there definitely is."
     MC "And didn’t you mention something about us fooling around after she left?"
+
 
     scene CR3_AS9_O4_p24
 
@@ -118,6 +124,7 @@ label CR3_AS9_rep:
             Caroline "(I mean, how much bigger can his cock swell?)"
             Caroline "Mmm..."
 
+
             scene CR3_AS9_O4_hand_p6
 
             Caroline "You’re really enjoying this, aren’t you?"
@@ -127,14 +134,14 @@ label CR3_AS9_rep:
             scene CR3_AS9_O4_hand_p7
 
             MC "Ah… It’s so good..."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Oh yeah, just look at you, getting SOOOO hard because your sister is touching your dick."
             else:
                 Caroline "Oh yeah - just look at you, getting SOOOO hard because your best friend is touching your dick."
             MC "(God, I love it when she talks dirty.)"
 
             scene CR3_AS9_O4_hand_p8
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Would you get this hard for any other girl? Or is it the thrill of knowing how BAD it is that your older sister is the one wanking you off?"
             else:
                 Caroline "Would you get this hard for any other girl? Or is it the thrill of knowing how BAD it is that your old babysitter is the one wanking you off?"
@@ -143,13 +150,15 @@ label CR3_AS9_rep:
 
             scene CR3_AS9_O4_hand_p9
 
+
             Caroline "What would [Linda_name] say if I told her you were getting wanked off by me?"
             Caroline "Hmm? She’d probably be furious."
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of your older sister rubbing your cock."
             else:
                 Caroline "Or maybe just shocked that you are perverted enough to get off to the thought of an older woman rubbing your cock."
             scene CR3_AS9_O4_hand_p10
+
 
             Caroline "(Damn… I’ve turned myself on with all that dirty talk… That wasn’t part of the plan!)"
             Caroline "(Goddamnit… I’ve SOAKED these panties!)"
@@ -211,7 +220,7 @@ label CR3_AS9_rep:
             Caroline "Ahh! AHHH! Mmm…"
 
             scene CR3_AS9_O4_hand_p20
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Cum for me! Cum for your big sister!"
             else:
                 Caroline "Cum for me! Cum for your Caroline!"
@@ -224,6 +233,7 @@ label CR3_AS9_rep:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene CR3_AS9_O4_hand_p20a with dissolve
+
 
             MC "*Pant Pant*"
             Caroline "(Wow… So much cum! He must have been saving that up for days!)"
@@ -311,16 +321,18 @@ label CR3_AS9_rep:
             MC "Ah..."
             Caroline "Let’s see if I can make you cum using only my feet."
             scene CR3_AS9_O4_foot_p12anim
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Do you always get this hard thinking about women’s feet? Or is there a special allure to knowing that they belong to your big sister?"
             else:
                 Caroline "Do you always get this hard thinking about women’s feet? Or is there a special allure to knowing that they belong to me?"
 
             scene CR3_AS9_O4_foot_p13
 
+
             MC "Ah… (I don’t think she wants me to reply. She’s probably just enjoying monologuing while she teases me!)"
             Caroline "Whenever you’re about to cum, you’re gonna have to tell me."
             Caroline "I know you REALLY want to shoot your cum all over my feet - but this outfit is expensive and I don’t want white stains on it the first time I’m wearing it!)"
+
 
             scene CR3_AS9_O4_foot_p14
 
@@ -350,7 +362,7 @@ label CR3_AS9_rep:
 
             Caroline "You’re getting very loud there, [player_name]. You’re about to cum, aren’t you?"
             MC "Y-Yeah! I’m gonna cum!"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Caroline "Cum for me. Cum for your big sister, [player_name]."
             else:
                 Caroline "Cum for me, [player_name]."
@@ -373,6 +385,7 @@ label CR3_AS9_rep:
             Caroline "Hehe. You enjoyed that, didn’t you? You’re such a little slut for feet."
             Caroline "I’ll keep that in mind if I ever need to get you off quickly."
             jump CR3_AS9_O4_con3_rep
+
 
 label CR3_AS9_O4_con3_rep:
     scene CR3_AS9_O4_p35
@@ -461,6 +474,7 @@ label CR3_AS9_O4_con3_rep:
     Caroline "(How does he know where to touch?!)"
     Caroline "(His tongue is so hot and flexible… God… It’s like my dildo on steroids!)"
 
+
     scene CR3_AS9_O4_p50
 
     MC "*Lick Shlurp*"
@@ -495,6 +509,7 @@ label CR3_AS9_O4_con3_rep:
     Caroline "*Pant* Wow…"
     MC "Heh, I’m glad you enjoyed that. I’ll let you get changed now."
     Caroline "Huh? What makes you think we’re finished?"
+
 
     scene CR3_AS9_O4_p56
 
@@ -552,7 +567,7 @@ label CR3_AS9_O4_con3_rep:
     scene CR3_AS9_O4_p66
 
     Caroline "AHH! AHHH! AHHHHH!!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(Thank God we’re not at home - I couldn’t scream like this in the house without Mom or Sara hearing me!)"
         Caroline "(Actually, come to think of it, it’s probbaly a good thing that I DIDN’T include this in the deal! There’s no way I’d be able to resist him doing this, and I’d probably just end up accidentally ruining it by attracting my family’s attention to our little deal.)"
     else:
@@ -576,6 +591,7 @@ label CR3_AS9_O4_con3_rep:
     MC "Hehe, so - what was that you were saying about me not being able to make you cum?"
     Caroline "*Ahem*"
     MC "I think I counted… twice?"
+
 
     scene CR3_AS9_O4_p70
 

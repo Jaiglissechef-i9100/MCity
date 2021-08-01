@@ -2,6 +2,7 @@ screen beach3_M_scr:
 
     add "images/Beach/Beach3/M/map.jpg"
 
+
     imagebutton:
         at map_arrow_anim
         xpos 1720
@@ -22,7 +23,7 @@ screen beach3_M_scr:
         hover "images/Beach/Beach3/M/B_house_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("beach_shop_M1")]
-            hovered Show("displayTextScreen", displayText = __("Beach Shop"))
+            hovered Show("displayTextScreen", displayText = "Beach Shop")
             unhovered Hide("displayTextScreen")
     if MLR3_beach_event == False:
         imagebutton:
@@ -34,5 +35,5 @@ screen beach3_M_scr:
             hover Transform("images/game_gui/map_arrow_hover.png", rotate = 20)
             if clickable == True:
                 action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("b_house_living_M1")]
-                hovered Show("displayTextScreen", displayText = __("Beach House"))
+                hovered Show("displayTextScreen", displayText = "Beach House")
                 unhovered Hide("displayTextScreen")

@@ -1,3 +1,6 @@
+
+
+
 label CR2_MS3a_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
@@ -39,7 +42,7 @@ label CR2_MS3a_label:
             scene CR2_MS3_p4
 
             Caroline "Are you sure I can just have this?"
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "Absolutely! I said it last time, and I’ll say it again - you’re my sister. We have to take care of each other."
             else:
                 MC "Absolutely! I said it last time, and I’ll say it again - you’re my friend. We need to look out for each other."

@@ -56,6 +56,7 @@ label CR2_AS3_label:
     MC "(Huh?! Is she crying?)"
     MC "Caroline? Are you okay?"
 
+
     scene CR2_AS3_p2
 
     MC "(Jesus Christ! She’s crying her eyes out!)"
@@ -150,15 +151,16 @@ label CR2_AS3a_label:
 
         scene CR2_AS3a_p4
 
+
         MC "It’s okay, Caroline. I’ll be with you, every step of the way."
         Caroline "You don’t need to do this. I know this is a job for you, but I… I’m not even paying you in cash."
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             MC "Your're my sister. I’ve told you this before - No matter what happens, I’ll be there to help you."
         else:
             MC "No matter what happens, I’ll be there to help you."
 
         scene CR2_AS3a_p5
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Caroline "*Sniff* Thank you so much! You’re the best brother I could ever ask for."
         else:
             Caroline "*Sniff* Thank you so much! You’re the best friend I could ever ask for."

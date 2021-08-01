@@ -1,6 +1,6 @@
 image map_day1 = "images/game_gui/map/Map_Day.jpg"
 image map_night1 = "images/game_gui/map/Map_Night.jpg"
-#-------------------------------------------------------------------------------
+
 default Ce_unread_alert = True
 
 screen map_button:
@@ -10,6 +10,7 @@ screen map_button:
     key "focus_up" action NullAction()
     key "focus_down" action NullAction()
     zorder 101
+
 
     if ML_end_content == True and ml_points == 4:
         on "show" action Show("ML_end_content_scr")
@@ -60,7 +61,7 @@ screen map_button:
         idle Transform("images/game_gui/icons/BackPack_Icon_Idle.png", zoom=.8)
         hover Transform("images/game_gui/icons/BackPack_Icon_Hover.png", zoom=.8)
         action [SetVariable("inv_page", 0),Show("inventory_screen"), Play ("sound", "sfx/zipper.mp3") ]
-        hovered Show("displayTextScreen", displayText = __("Inventory"))
+        hovered Show("displayTextScreen", displayText = "Inventory")
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -81,10 +82,11 @@ screen map_button:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
     elif Zuri_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
-    elif Ce_unread_alert == False:
+    elif Celia_unread_alert == False:
+        add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
+    elif Lily_unread_alert == False:
         add "images/game_gui/phone/sms/Alert1.png" xpos 1550 ypos 5
 
-#---------------------------------------------------------------------------------------------------------
 
 label map_label:
     $ can_hide_windows = False
@@ -316,7 +318,16 @@ screen map:
             if clickable == True:
                 action [SetVariable("in_map", False), Hide("displayTextScreen"), Jump("Charles_outside2_M1")]
 
-#-------------------------------------------------------------------------------
+    imagebutton:
+        xpos 945
+        ypos 256
+        focus_mask True
+        idle "images/v71/gui/SC_idle.png"
+        hover "images/v71/gui/SC_hover.png"
+        if clickable == True:
+            action [SetVariable("in_map", False),Jump("SC_label_M1")]
+
+
 
 screen day_time_viewer:
 
@@ -333,7 +344,7 @@ screen day_time_viewer:
     if day_time==4:
         add Transform("images/game_gui/icons/Hud4-Night.png", zoom=.8)
 
-#-------------------------------------------------------------------------------
+
 
 screen week_day_viewer:
 
@@ -365,7 +376,8 @@ screen week_day_viewer:
 
         add Transform("images/game_gui/icons/7Sunday.png", zoom=.8)
 
-#-------------------------------------------------------------------------------
+
+
 
 screen time_skip_button:
 
@@ -378,7 +390,7 @@ screen time_skip_button:
             idle Transform("images/game_gui/icons/Skip_Icon_Idle.png", zoom=.4)
             hover Transform("images/game_gui/icons/Skip_Icon_Hover.png", zoom=.4)
             action [Hide("displayTextScreen"), SetVariable("day_time", day_time + 1, ), Show("time_skip_button"), Jump("map_label")]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     if day_time==4:
         imagebutton:
@@ -388,7 +400,7 @@ screen time_skip_button:
             idle Transform("images/game_gui/icons/No_Skip_Icon_Hover.png", zoom=.4)
             hover Transform("images/game_gui/icons/No_Skip_Icon_Idle.png", zoom=.4)
             action [SetVariable("day_time",  4), Show("time_skip_button"), Jump("map_label")]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     if in_map==False:
         imagebutton:
@@ -398,7 +410,7 @@ screen time_skip_button:
             idle Transform("images/game_gui/icons/No_Skip_Icon_Hover.png", zoom=.4)
             hover Transform("images/game_gui/icons/No_Skip_Icon_Idle.png", zoom=.4)
             action [Show("time_skip_button"),]
-            hovered Show("displayTextScreen", displayText = __("Skip Time"))
+            hovered Show("displayTextScreen", displayText = "Skip Time")
             unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 400
@@ -407,26 +419,11 @@ screen time_skip_button:
         idle Transform("images/game_gui/icons/Help.png", zoom=.4)
         hover Transform("images/game_gui/icons/HelpHover.png", zoom=.4)
         action [Hide("displayTextScreen"), Show ("Info_screen") ]
-        hovered Show("displayTextScreen", displayText = __("Help"))
+        hovered Show("displayTextScreen", displayText = "Help")
         unhovered Hide("displayTextScreen")
-    imagebutton:
-        xpos 460
-        ypos 60
-        focus_mask True
-        idle Transform("images/game_gui/icons/Walk.png", zoom=.4)
-        hover Transform("images/game_gui/icons/WalkHover.png", zoom=.4)
-        action [Hide("displayTextScreen"), Show ("modmenu") ]
-        hovered Show("displayTextScreen", displayText = __("Lain's Walkthrough Mod"))
-        unhovered Hide("displayTextScreen")
-
-    if jack_frost == False:
-        imagebutton idle Transform("images/game_gui/icons/jack_frost.png", zoom=.4) xpos 460 ypos 0 focus_mask True action [Hide("displayTextScreen"), SetVariable('jack_frost', True) ] hovered ShowTransient("displayTextScreen", displayText = __("Secret Card Cheated")) unhovered Hide("displayTextScreen")
-    else:
-        imagebutton idle Transform("images/game_gui/icons/jack_frost_hover.png", zoom=.4) xpos 460 ypos 0 focus_mask True action [Hide("displayTextScreen"), SetVariable('jack_frost', False) ] hovered ShowTransient("displayTextScreen", displayText = __("Secret Card Not Cheated")) unhovered Hide("displayTextScreen")
-
-#-----------------------------------------------------------------------------------------
 
 screen screen_work_in_progress:
+
     zorder 104
     imagebutton:
         xpos 0
@@ -434,8 +431,8 @@ screen screen_work_in_progress:
         idle "/images/game_gui/icons/workinprogress.png"
         hover "/images/game_gui/icons/workinprogress.png"
         action Hide("screen_work_in_progress")
-
 screen Info_screen:
+
     modal True
     zorder 105
     imagebutton:

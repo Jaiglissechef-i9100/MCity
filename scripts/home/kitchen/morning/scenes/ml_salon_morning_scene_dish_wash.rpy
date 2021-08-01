@@ -18,9 +18,9 @@ label ml_salon_morning_scene_dish_wash_label:
     MC "(They must have been left-over from last night’s dinner.)"
 
     scene ml_morning_salon_scene2_v1_p3
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I wonder why Mom didn’t just stick them in the dishwasher.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(I wonder why Linda didn’t just stick them in the dishwasher.)"
     MC "(Anyway, this is the last one.)"
     MC "(It’s a good thing too - any more and I would have been late for school!)"
@@ -28,24 +28,24 @@ label ml_salon_morning_scene_dish_wash_label:
     scene ml_morning_salon_scene2_v1_p4
     Mom "Thank you so much for doing those for me!"
     Mom "You have no idea how much, you helping around the house, means to me."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "Yeah, it’s no problem. Happy to help, Mom."
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "Yeah, it’s no problem. Happy to help, Linda."
 
     scene ml_morning_salon_scene2_v1_p5
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Your father is terrible when it comes to chores."
-    else:
+    if not renpy.loadable("patch.rpy"):
         Mom "Bob is terrible when it comes to chores."
     Mom "Never puts his clothes in the wash. Never scrapes his plate clean after meals."
     Mom "You’re a real man."
 
     scene ml_morning_salon_scene2_v1_p6
     MC "(A real man?!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Mom’s acting very… intimate again.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Linda’s acting very… intimate again.)"
     MC "(Maybe it’s got something to do with her hormones or something?)"
     MC "(Girls are weird…)"
@@ -55,6 +55,7 @@ label ml_salon_morning_scene_dish_wash_label:
     Mom "(Mmm… God… he smells so good.)"
     Mom "(I’d love to just, lie naked beside him and cuddle him all night-)"
     Mom "(Shit! I’m getting far too involved in these fantasies again.)"
+
 
     scene black
     Mom "You better go to school! Hurry up! Get a move on!"

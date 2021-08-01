@@ -107,6 +107,7 @@ label caroline_room_night_scene1_label:
         MC "(But where to begin…)"
         jump caroline_room_night_scene1_menu
 
+
 label caroline_room_night_scene1_menu:
     $ inv_page = 0
     $ Caroline_stats_visited +=1
@@ -125,6 +126,7 @@ label caroline_room_night_scene1_menu:
         $ nsb_box.add_c_wake(C_NS_wake_titsjob_loc)
         $ nsb_box.add_c_wake(C_NS_wake_licking_loc)
 
+
     if C_NS_wake_butt_loc in nsb_box.c_nsb_wake and  CR3_weekend_event == 3:
         $ nsb_box.drop_c_wake(C_NS_wake_butt_loc)
         $ nsb_box.drop_c_wake(C_NS_wake_kissing_loc)
@@ -141,6 +143,11 @@ label caroline_room_night_scene1_menu:
         $ can_add_C_NS_wake_licking_loc = False
     $ renpy.block_rollback()
     call screen C_NS_scr
+
+
+
+
+
 
 label CR2_NS_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -199,7 +206,11 @@ label CR2_NS_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
 
+
     call screen C_NS_wake_scr
+
+
+
 
 label CNS_back:
     $ renpy.music.stop(channel="music1", fadeout=1)
@@ -219,7 +230,6 @@ label CNS_back_wake:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump corridor_morning1
-
 label CNS_1:
     scene caroline_room_night_scene1_mounth_p1
     MC "(Okay, let’s try putting my cock in her mouth while she sleeps.)"
@@ -333,9 +343,9 @@ label CNS_3:
 
     scene caroline_room_night_scene1_ass_p2
     MC "(Her whole body is perfect. She won the jackpot on the genetic lottery!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(I can see how she’s my Mom’s daughter. They both have brilliant bodies!)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(I can see how she’s Linda’s friend. They both have brilliant bodies!)"
 
     scene caroline_room_night_scene1_ass_p3
@@ -366,9 +376,9 @@ label CNS_3:
 
     scene caroline_room_night_scene1_ass_p8
     MC "(Time for me to abandon ship!)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "(I’d a really weird dream there… Something about my brother fucking my ass.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Caroline "(I’d a really weird dream there… Something about my friend fucking my ass.)"
     Caroline "(I need to stop eating cheese so late at night. It gives me bizarre dreams!)"
     scene black
@@ -415,6 +425,15 @@ label CNS_4:
     $ can_hide_windows = False
     jump corridor_morning1
 
+
+
+
+
+
+
+
+
+
 label CNS_wake_1:
     scene CR2_NS_p7
 
@@ -431,7 +450,7 @@ label CNS_wake_1:
 
     Caroline "Well, aren’t you just a little charmer?"
     Caroline "I know you tend to moan pretty loudly when you cum, but you’re gonna have to keep your voice down tonight."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "If you wake up Mom, Dad, or Sara then our deal is off. Okay?"
     else:
         Caroline "If you wake up Linda, Bob, or Sara then our deal is off. Okay?"
@@ -440,7 +459,7 @@ label CNS_wake_1:
 
     MC "Y-Yeah, I understand."
     scene CR2_NS_hand_p3anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "I’m serious, [player_name]. If I get caught, wanking off my brother, I’ll probably get kicked out of the house!"
         Caroline "God forbid, I have to explain to Sara or Mom about our incest! They'd never understand!"
     else:
@@ -473,7 +492,7 @@ label CNS_wake_1:
     Caroline "Even if I go REALLY fast, like this?"
     MC "Wait- Ugh! Mmmm!"
     scene CR2_NS_hand_p7anim
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Dammit! This feels so good! I can’t risk waking the family though!)"
     else:
         MC "(Dammit! This feels so good! I can’t risk waking our roommates though!)"
@@ -540,13 +559,14 @@ label CNS_wake_2:
     scene CR2_NS_foot_p2
 
     Caroline "Now remember - even though I’m using my feet to get you off - you’re going to have to be quiet."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "No waking Mom or Dad or Sara. Okay?"
     else:
         Caroline "No waking Linda or Bob or Sara. Okay?"
     scene CR2_NS_foot_p2anim
     Caroline "If you do that, our deal is over."
     Caroline "(And I’d probably have to move out of the damned house!)"
+
 
     scene CR2_NS_foot_p3
 

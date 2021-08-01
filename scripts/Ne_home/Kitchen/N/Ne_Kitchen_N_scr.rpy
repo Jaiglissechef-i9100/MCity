@@ -11,5 +11,5 @@ screen Ne_Kitchen_N_scr:
         if clickable == True:
             action [Hide("displayTextScreen"), Play ("sound", "sfx/door_open.mp3"), Jump("Ne_Corridor_M1")]
 
-        hovered Show("displayTextScreen", displayText = __("Corridor"))
+        hovered Show("displayTextScreen", displayText = "Corridor")
         unhovered Hide("displayTextScreen")

@@ -6,7 +6,7 @@ screen mc_room_day:
         focus_mask True
         idle "images/home/mc_room/morning/door1_morning_idle1.png"
         hover "images/home/mc_room/morning/door1_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = __("Corridor"))
+        hovered Show("displayTextScreen", displayText = "Corridor")
         action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_day1")]
         unhovered Hide("displayTextScreen")
     imagebutton:
@@ -15,7 +15,7 @@ screen mc_room_day:
         focus_mask True
         idle "images/home/mc_room/morning/bed_morning_idle1.png"
         hover "images/home/mc_room/morning/bed_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = __("Bed"))
+        hovered Show("displayTextScreen", displayText = "Bed")
         clicked Jump("day_time_changer")
         unhovered Hide("displayTextScreen")
 
@@ -25,31 +25,20 @@ screen mc_room_day:
         focus_mask True
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Computer"))
+        hovered Show("displayTextScreen", displayText = "Computer")
         action [Play ("sound", "sfx/mouse_click.mp3"),Hide("displayTextScreen"),Jump("computer_menu")]
         unhovered Hide("displayTextScreen")
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 23
-                ypos 906
-                focus_mask True
-                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-                hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
-                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                unhovered Hide("displayTextScreen")
-        else:
-            imagebutton:
-                xpos 23
-                ypos 906
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
-                hover "images/secret_gallery/Bonus/B28a_hover.png"
-                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
-                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
-                unhovered Hide("displayTextScreen")
+        imagebutton:
+            xpos 23
+            ypos 906
+            focus_mask True
+            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
+            action [Hide("displayTextScreen"), addgimage("img4_mc_room_card") ,Jump("mc_room_card")]
+            hovered Show("displayTextScreen", displayText = "Secret Card")
+            unhovered Hide("displayTextScreen")
 
     imagebutton:
         xpos 1493
@@ -57,7 +46,7 @@ screen mc_room_day:
         focus_mask True
         idle "images/home/mc_room/morning/s_gallery.png"
         hover "images/home/mc_room/morning/s_gallery_hover.png"
-        hovered Show("displayTextScreen", displayText = __("Secret Gallery"))
+        hovered Show("displayTextScreen", displayText = "Secret Gallery")
         action [Hide("displayTextScreen"), Show("secret_gallery"),]
         unhovered Hide("displayTextScreen")
 
@@ -68,7 +57,7 @@ screen mc_room_day:
             focus_mask True
             idle "images/home/mc_room/morning/window_morning.png"
             hover "images/home/mc_room/morning/window_morning_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Window"))
+            hovered Show("displayTextScreen", displayText = "Window")
             action [Hide("displayTextScreen"), Jump("neighboor_spy_v1_label"),]
             unhovered Hide("displayTextScreen")
 
@@ -79,10 +68,9 @@ screen mc_room_day:
             focus_mask True
             idle "images/home/mc_room/morning/b1.png"
             hover "images/home/mc_room/morning/b1_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Money"))
+            hovered Show("displayTextScreen", displayText = "Money")
             action [Hide("displayTextScreen"), Jump("money_less10"),]
             unhovered Hide("displayTextScreen")
-
     if MLR3_AS3  == 3 and ml_points == 3:
         imagebutton:
             xpos 396
@@ -92,9 +80,9 @@ screen mc_room_day:
             hover "images/home/mc_room/day/scenes/MLR3_AS3/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_AS3")]
-            if persistent.incest_patch == True:
-                hovered Show("displayTextScreen", displayText = __("Mom"))
-            else:
+            if renpy.loadable("patch.rpy"):
+                hovered Show("displayTextScreen", displayText = "Mom")
+            if not renpy.loadable("patch.rpy"):
                 hovered Show("displayTextScreen", displayText = "Linda")
             unhovered Hide("displayTextScreen")
 
@@ -108,7 +96,6 @@ screen mc_room_day:
 
             action [Hide("displayTextScreen"), Show("max_r_points_menu_scr"),]
             unhovered Hide("displayTextScreen")
-
 screen bed_images:
     if MLR3_AS3  == 3 and ml_points == 3:
         imagebutton:
@@ -116,7 +103,6 @@ screen bed_images:
             ypos 299
             focus_mask True
             idle "images/home/mc_room/day/scenes/MLR3_AS3/B1.png"
-
 screen mc_room_day_notclickable:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -133,6 +119,7 @@ screen mc_room_day_notclickable:
         idle "images/home/mc_room/morning/bed_morning_idle.png"
         hover "images/home/mc_room/morning/bed_morning_hover.png"
 
+
     imagebutton:
         xpos 1453
         ypos 412
@@ -140,19 +127,15 @@ screen mc_room_day_notclickable:
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
 
+
     if not "img4_mc_room_card" in gallery_photos.storage:
-        if jack_frost == False:
-            imagebutton:
-                xpos 23
-                ypos 906
-                focus_mask True
-                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-        else:
-            imagebutton:
-                xpos 23
-                ypos 906
-                focus_mask True
-                idle "images/secret_gallery/Bonus/B28a.png"
+        imagebutton:
+            xpos 23
+            ypos 906
+            focus_mask True
+            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
+
 
     imagebutton:
         xpos 1493
@@ -160,6 +143,7 @@ screen mc_room_day_notclickable:
         focus_mask True
         idle "images/home/mc_room/morning/s_gallery.png"
         hover "images/home/mc_room/morning/s_gallery_hover.png"
+
 
     if Neighboor_spy_mc_room == True:
         imagebutton:
@@ -175,14 +159,12 @@ screen mc_room_day_notclickable:
             ypos 670
             focus_mask True
             idle "images/home/mc_room/morning/b1.png"
-
     if MLR3_AS3  == 3 and ml_points == 3:
         imagebutton:
             xpos 396
             ypos 299
             focus_mask True
             idle "images/home/mc_room/day/scenes/MLR3_AS3/B1.png"
-
     if max_r_points == True:
         imagebutton:
             xpos 1860

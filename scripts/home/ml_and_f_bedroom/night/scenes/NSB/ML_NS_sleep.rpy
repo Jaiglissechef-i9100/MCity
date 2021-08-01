@@ -1,6 +1,6 @@
 image ML_NS_sleep_p1 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/1.jpg"
-
 default ML_NSB_sleep_can = True
+
 
 label ML_NS_sleep_label:
     $ Linda_name = Mom_name
@@ -29,6 +29,7 @@ label ML_NS_sleep_label:
     $ Ml_stats_visited += 1
     $ inv_page = 0
     call screen ML_NS_sleep_scr
+
 
 label ML_NS_sleep_back:
     $ ML_NSB_sleep_can = False

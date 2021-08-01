@@ -12,12 +12,12 @@ image CR4_AS1_p11 = "images/cloth_shop/room1/day/scenes/CR4_AS1/11.jpg"
 default CR4_AS1 = False
 default CR4_NS1 = False
 label CR4_AS1_label:
-    if persistent.incest_patch == True:
-        $ Mom_name = __("Mom")
-        $ Dad_name = __("Dad")
+    if renpy.loadable("patch.rpy"):
+        $ Bob_name = "Dad"
+        $ Linda_name = "Mom"
     else:
-        $ Mom_name = "Linda"
-        $ Dad_name = "Bob"
+        $ Bob_name = "Bob"
+        $ Linda_name = "Linda"
     if CR4_AS1 == 2:
         hide screen map_button
         show screen cloth_shop_room2_robbery_screen
@@ -88,7 +88,7 @@ label CR4_AS1_label:
         scene CR4_AS1_p8
 
         MC "It sounds like a lovely idea. What time do you want to meet?"
-        Caroline "Let’s meet at night. After [Mom_name], [Dad_name], and [Sara_name] have all gone to bed. It means we won’t be disturbed."
+        Caroline "Let’s meet at night. After [Linda_name], [Bob_name], and [Sara_name] have all gone to bed. It means we won’t be disturbed."
         MC "Great, it’s a date!"
 
         scene CR4_AS1_p9

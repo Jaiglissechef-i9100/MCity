@@ -8,11 +8,6 @@ image LiR1_MAS8_p7 = "/images/a_home/Outside/Pool/M/scenes/LiR1_MAS8/7.jpg"
 
 default LiR1_MAS8_talked = False
 label LiR1_MAS8_label:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
-
     if LiR1_MAS8_talked == True:
         if day_time == 1:
             show screen a_pool_M_scr
@@ -32,6 +27,7 @@ label LiR1_MAS8_label:
         hide screen map_button
 
         scene LiR1_MAS8_p1 with dissolve
+
 
         Yazmin "(Ohh... here comes the star of the show!)"
         MC "(Yazmin’s looking pretty intently at me! I wonder what’s on her mind, after the - last fiasco - when I fucked her, in front of [Liza2_name].)"
@@ -58,11 +54,12 @@ label LiR1_MAS8_label:
         scene LiR1_MAS8_p5
 
         Yazmin "Heeeey! This isn’t ALL my fault! You participated in this too! - Don’t make ME out to be - the bad guy - here!"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Your Aunt Liza has calmed down."
         else:
             Yazmin "(Sigh) Anyway - I’m not here to get into an argument with you. Liza has calmed down."
         MC "Really? She’s not angry at me?"
+
 
         scene LiR1_MAS8_p6
 
@@ -74,7 +71,7 @@ label LiR1_MAS8_label:
 
         Yazmin "Anyway, half my degree was in public relations. I’m EXTREMELY good, at swaying people’s opinions."
         MC "What are you getting at?"
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Yazmin "Your aunt is now waiting for you in the bathroom - for round two."
         else:
             Yazmin "Liza is now waiting for you in the bathroom - for round two."

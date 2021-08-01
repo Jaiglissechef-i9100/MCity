@@ -4,6 +4,7 @@ label b_house_bath_M1:
 
     $ in_map = False
 
+
     if day_time == 1:
         jump b_house_bath_M2
 

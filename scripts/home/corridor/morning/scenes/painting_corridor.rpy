@@ -2,6 +2,7 @@ image corridor_painting_p1 = "/images/home/corridor/morning/scenes/corridor_pain
 image corridor_painting_p2 = "/images/home/corridor/morning/scenes/corridor_painting/b1_evening.jpg"
 image corridor_painting_p3 = "/images/home/corridor/morning/scenes/corridor_painting/b1_night.jpg"
 
+
 label painting_corridor_label:
     hide screen week_day_viewer
     hide screen time_skip_button

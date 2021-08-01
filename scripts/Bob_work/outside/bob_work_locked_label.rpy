@@ -1,3 +1,6 @@
+
+
+
 label bob_work_locked_label:
     hide screen map_button
     $ clickable = False

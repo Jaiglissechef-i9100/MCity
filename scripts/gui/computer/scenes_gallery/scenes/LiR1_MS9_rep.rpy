@@ -1,9 +1,7 @@
-label LiR1_MS9_rep:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
+
+
+label LiR1_MS9_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -18,6 +16,7 @@ label LiR1_MS9_rep:
     MC "(Jesus Christ! [Liza2_name] is having a bath! Did Yazmin send me in here as a joke?!)"
     MC "(I better back off before she sees me!)"
 
+
     scene LiR1_MAS9_p2
 
     Liza2 "[player_name]..."
@@ -25,7 +24,7 @@ label LiR1_MS9_rep:
     Liza2 "Please, come over here. Now..."
 
     scene LiR1_MAS9_p3
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "A-Auntie... I... I didn’t mean to- Yazmin told me to-"
     else:
         MC "L-Liza... I... I didn’t mean to- Yazmin told me to-"
@@ -46,6 +45,7 @@ label LiR1_MS9_rep:
     Liza2 "I’m almost entirely homosexual, but I want to see if it can elicit the same response in me."
     MC "D-Do you want me to-"
     Liza2 "Yes. Take your cock out, [player_name]."
+
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Niles_Blues.mp3', channel="music2", loop=True, fadein = 2)
@@ -148,6 +148,7 @@ label LiR1_MS9_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
 
+
     Liza2 "Yuck! Ugh!"
     MC "Are you alright?!"
     Liza2 "Sorry, I can’t do this! *Shudder*"
@@ -164,7 +165,7 @@ label LiR1_MS9_rep:
     Liza2 "Yazmin wants to see you back, to join us again, another night. I'll leave the door open."
     MC "Really!? Are you okay with that?"
     Liza2 "I agreed to it because it will make her happy - and I love her. It doesn’t mean that I fully accept what is happening."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Liza2 "My sister would murder me if she found out what I was doing with her son. I mean, this whole situation is positively ridiculous!"
     else:
         Liza2 "Linda would murder me if she found out what I was doing with her tennant. I mean, this whole situation is positively ridiculous!"

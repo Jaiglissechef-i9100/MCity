@@ -4,6 +4,7 @@ screen WE_map:
     add "images/game_gui/map/Map_Night.jpg"
     zorder 102
 
+
     imagebutton:
         xpos 377
         ypos 174
@@ -12,6 +13,11 @@ screen WE_map:
         hover "images/game_gui/map/Nightclub Hover.png"
         if clickable == True:
             action Jump("night_club_we_label")
+
+
+
+
+
 
 label night_club_we_label:
     if CR3_WE ==5:

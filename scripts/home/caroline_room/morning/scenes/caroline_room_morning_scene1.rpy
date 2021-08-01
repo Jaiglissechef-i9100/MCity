@@ -18,9 +18,9 @@ label caroline_room_morning_scene1_label:
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene caroline_room_morning_scene1_p1 with dissolve
     $ can_hide_windows = True
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Caroline’s always been a caring sister.)"
-    else:
+    if not renpy.loadable("patch.rpy"):
         MC "(Caroline’s always been a caring friend.)"
     MC "(In fact, one of my earliest memories was when I was getting bullied in school. I must have been six or seven years old.)"
     MC "(A duo of pricks named Tom and Samson had decided to steal my lunch money - just a couple of dollars; but I refused to give it up.)"
@@ -45,9 +45,9 @@ label caroline_room_morning_scene1_label:
 
     scene caroline_room_morning_scene1_p4
     Caroline "Oh! Before I forget - what happened in school the other day?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Caroline "I’ve only picked up fragments of the story from Sara and Mom?"
-    else:
+    if not renpy.loadable("patch.rpy"):
         Caroline "I’ve only picked up fragments of the story from Sara and Linda?"
     menu:
         "Tell her the full truth.":

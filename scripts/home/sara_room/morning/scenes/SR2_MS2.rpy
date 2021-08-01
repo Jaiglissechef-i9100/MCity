@@ -18,7 +18,7 @@ label SR2_MS2_label:
 
     Mom "It’s no use lying to me, Sara. Your report came through the post today."
     Sara "Wh-What?!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Huh? It sounds like Mom and Sara are having an argument. I should check it out and see what’s going on.)"
     else:
         MC "(Huh? It sounds like Linda and Sara are having an argument. I should check it out and see what’s going on.)"
@@ -28,7 +28,7 @@ label SR2_MS2_label:
     scene SR2_MS2_p1 with dissolve
     Mom "You’ve always been a straight A student. So, imagine my surprise when I open up your report card, to reveal a plethora of D’s, E’s and EVEN an F!"
     Mom "I mean, seriously - how on Earth did you get an F in History?!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Mom, I-"
     else:
         Sara "Linda, I-"
@@ -37,7 +37,7 @@ label SR2_MS2_label:
 
     Mom "This is completely unacceptable. Do you know what happens to students who fail in school? They don’t get to go to good colleges."
     Mom "You want to go to a good college, don’t you?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "Y-Yes, Mom."
     else:
         Sara "Y-Yes, Linda."
@@ -55,7 +55,7 @@ label SR2_MS2_label:
     Mom "I know what this is - you’ve been spending all your time playing that STUPID online game."
     Mom "Well, no more! As of moment, you this are GROUNDED."
     Sara "Wh-What?!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "No computer games, no going out with friends, and no hanging out with your brother."
     else:
         Mom "No computer games, no going out with friends, and no hanging out with [player_name]."
@@ -73,7 +73,7 @@ label SR2_MS2_label:
     Mom "Is that clear?"
     Sara "…"
     Mom "I said, is that clear?!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sara "(Sniff) Y-Yes, Mom."
     else:
         Sara "(Sniff) Y-Yes, Linda."
@@ -91,7 +91,7 @@ label SR2_MS2_label:
     Mom "Until she gets, every subject back with at LEAST a B, then she will be grounded to her room."
     MC "Can I go and talk with her, at least?"
     Mom "No, give her some space. You two can always chat at school."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Gee… Mom’s being REALLY harsh on Sara, right now.)"
     else:
         MC "(Gee… Linda’s being REALLY harsh on Sara, right now.)"
@@ -106,6 +106,8 @@ label SR2_MS2_label:
     $ day_time = 1
     jump corridor_morning1
 
+
+
 label SR2_grounded_label:
     $ clickable = False
 
@@ -117,9 +119,9 @@ label SR2_grounded_label:
     if day_time == 3:
         show screen corridor_evening
 
-    if persistent.incest_patch == True:
-        MC "I can't go in. Mom asked me to not do it."
+    if renpy.loadable("patch.rpy"):
+        MC "I can't go in. Mom asked me not to do it."
     else:
-        MC "I can't go in. Linda asked me to not do it."
+        MC "I can't go in. Linda asked me not to do it."
     $ clickable = True
     jump corridor_morning1

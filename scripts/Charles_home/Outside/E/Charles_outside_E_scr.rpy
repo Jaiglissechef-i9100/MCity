@@ -26,7 +26,7 @@ screen Charles_outside_E_scr:
             focus_mask True
             idle "/images/charles_home/outside/E/B2.png"
             hover "/images/charles_home/outside/E/B2_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Doors"))
+            hovered Show("displayTextScreen", displayText = "Doors")
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Ch_doors_lab")]
                 unhovered Hide("displayTextScreen")
@@ -37,7 +37,7 @@ screen Charles_outside_E_scr:
             focus_mask True
             idle "/images/charles_home/outside/E/B3.png"
             hover "/images/charles_home/outside/E/B3_hover.png"
-            hovered Show("displayTextScreen", displayText = __("Window"))
+            hovered Show("displayTextScreen", displayText = "Window")
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Ch_window_lab")]
                 unhovered Hide("displayTextScreen")

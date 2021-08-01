@@ -17,13 +17,6 @@ label celia_school_morning_scene2v1_label:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    if persistent.incest_patch == True:
-        $ Blonde_Girl = __("Blonde Girl")
-        $ Ginger_Guy = __("Ginger Guy")
-
-    else:
-        $ Blonde_Girl = __("Blonde Girl")
-        $ Ginger_Guy = __("Ginger Guy")
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
 
@@ -137,6 +130,7 @@ label celia_school_morning_scene2v1_label:
     $ can_celia_morning_school_work_in_pr = True
     $ celia_school_morning_scene1v1 = 1
     $ celia_school_morning_scene2v1 = 0
+    $ intercom_after_vibrator = True
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False

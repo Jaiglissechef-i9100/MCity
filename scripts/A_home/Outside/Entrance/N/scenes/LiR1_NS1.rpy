@@ -27,12 +27,9 @@ image LiR1_NS1_p24 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/24.jpg"
 image LiR1_NS1_p25 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/25.jpg"
 image LiR1_NS1_p26 = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/26.jpg"
 
+
 image LiR1_NS1_sleeping = "images/a_home/Outside/Entrance/N/Scenes/LiR1_NS1/27.jpg"
 label LiR1_NS1_label:
-    if persistent.incest_patch == True:
-        $ Liza2_name = __("Auntie")
-    else:
-        $ Liza2_name = "Liza"
 
     if LiR1_NS4 == True:
         jump LiR1_NS4_label
@@ -54,6 +51,8 @@ label LiR1_NS1_label:
         MC "*Whistle*"
         MC "(Looks like it’s my lucky day! I’ve caught the two of them, just before they were about to start!)"
         MC "(Yazmin is certainly - dressed for the occasion. She might have smaller breasts than [Liza2_name], but she’s certainly making up for it - downstairs - tonight!)"
+
+
 
         scene LiR1_NS1_p2
 
@@ -84,6 +83,7 @@ label LiR1_NS1_label:
         Yazmin "There’s more to sex, than the physical pleasure. Simply watching you, suck on this strap-on, is intensely erotic."
         Liza2 "Alright - let’s get this over with."
         Yazmin "Can you - at least - pretend to enjoy it?"
+
 
         scene LiR1_NS1_p7
 

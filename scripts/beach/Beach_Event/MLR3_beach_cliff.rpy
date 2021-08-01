@@ -164,7 +164,7 @@ label MLR3_beach_cliff:
 
     scene MLR3_beach_cliff_p23
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "(Could they see the resemblance between [player_name] and I?)"
         Mom "(Could any of them work out that I’m actually his mother? Or would they just think I’m a cougar dating a teenager?)"
     else:

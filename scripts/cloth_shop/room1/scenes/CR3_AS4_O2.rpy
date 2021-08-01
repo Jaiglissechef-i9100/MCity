@@ -79,7 +79,7 @@ label CR3_AS4_O2:
         Caroline "(On the other hand, it doesn't exactly feel... bad? I mean, I could just endure it, for a few more minutes.)"
 
         scene CR3_AS4_O2_p9
-        if persistent.incest_patch == True:
+        if renpy.loadable("patch.rpy"):
             Caroline "(What the hell am I thinking?! OF COURSE it is bad! He’s my little brother!)"
         else:
             Caroline "(What the hell am I thinking?! OF COURSE it is bad!)"

@@ -28,13 +28,14 @@ image ML_NS_sleep_foot_p24 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/Fo
 image ML_NS_sleep_foot_p24anim = Movie(play="videos/05 Linda NV-4.webm", loop = True )
 image ML_NS_sleep_foot_p24a = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/Footjob/24a.jpg"
 
+
 label ML_NS_sleep_foot_job_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
     scene ML_NS_sleep_foot_p1 with dissolve
 
     MC "Can we try something a little different tonight, [Mom_name]?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Sure. As long as it isn’t something that’s gonna make me squeal and moan. I don’t want to wake your father up."
     else:
         Mom "Sure. As long as it isn’t something that’s gonna make me squeal and moan. I don’t want to wake Bob up."
@@ -92,7 +93,7 @@ label ML_NS_sleep_foot_job_label:
 
     Mom "Now, when I start rubbing my feet all over your cock, it’s going to get very sensitive very quickly. I need you to promise me that you’re not just going to blow your load straight away."
     MC "Pfft! When have I EVER done that?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Fair enough - but I’m also gonna need you to keep your voice down, so we don’t wake your father up."
     else:
         Mom "Fair enough - but I’m also gonna need you to keep your voice down, so we don’t wake Bob up."
@@ -113,6 +114,7 @@ label ML_NS_sleep_foot_job_label:
     Mom "We’ll speed things up in a bit, but just you enjoy it for now."
     MC "Ah…"
     Mom "Does that feel good for you?"
+
 
     scene ML_NS_sleep_foot_p14
 
@@ -148,7 +150,7 @@ label ML_NS_sleep_foot_job_label:
     Mom "Remember to keep your voice down, sweetie. If we get caught then this is all over."
 
     scene ML_NS_sleep_foot_p19
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "Unless you can very quickly think of a very good reason why Mommy is massaging her son’s cock with her feet, in the middle of the night?"
     else:
         Mom "Unless you can very quickly think of a very good reason why I am massaging your cock with my feet, in the middle of the night?"
@@ -172,7 +174,7 @@ label ML_NS_sleep_foot_job_label:
 
     Mom "(If I wanted to, I could speed things up and make him ejaculate. Or I could even just pause or stop.)"
     MC "Oh [Mom_name]… I’m getting close. Fuck… I’m so close right now…"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Mom "That’s it… Just relax and enjoy Mommy rubbing her feet over your cock."
     else:
         Mom "That’s it… Just relax and enjoy me rubbing my feet over your cock."
@@ -192,6 +194,7 @@ label ML_NS_sleep_foot_job_label:
     scene white with dissolve
     $ renpy.pause(0.7, hard = True)
     scene ML_NS_sleep_foot_p24a with dissolve
+
 
     MC "*Pant Pant*"
     MC "Wow… that was… *pant* ...amazing."

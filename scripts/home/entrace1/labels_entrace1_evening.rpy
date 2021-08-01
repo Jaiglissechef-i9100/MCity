@@ -5,6 +5,8 @@ label entrace1_evening1:
     hide screen map
     scene entrace1_evening
     $ can_map = True
+    if SR3_home_end == True:
+        $ can_map = False
     show screen week_day_viewer
     show screen time_skip_button
     show screen day_time_viewer

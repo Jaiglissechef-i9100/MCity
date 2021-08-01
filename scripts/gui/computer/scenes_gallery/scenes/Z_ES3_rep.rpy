@@ -1,3 +1,6 @@
+
+
+
 label Z_ES3_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -50,7 +53,7 @@ label Z_ES3_rep:
 
                     Zuri "It’s pretty big, Suri, isn’t it!"
                     Suri "The kid surprised me!"
-                    if persistent.incest_patch == True:
+                    if renpy.loadable("patch.rpy"):
                         MC "(God, why am I just letting them do this? They’re seducing me into ruining Dad’s company!)"
                     else:
                         MC "(God, why am I just letting them do this? They’re seducing me into ruining Bob’s company!)"
@@ -67,7 +70,7 @@ label Z_ES3_rep:
                     Zuri "(Lick Lick)"
 
                     scene Zv2_ES3lick_p6
-                    if persistent.incest_patch == True:
+                    if renpy.loadable("patch.rpy"):
                         MC "(On the other hand, maybe Dad’s company isn’t worth a blowjob THIS good!)"
                     else:
                         MC "(On the other hand, maybe Bob’s company isn’t worth a blowjob THIS good!)"
@@ -135,6 +138,7 @@ label Z_ES3_rep:
                     jump pc_icon_label
                 "Could you give me a footjob?":
 
+
                     MC "I’ll go for the footjob."
                     Zuri "Mmm... Good choice. Go ahead and take your trousers off, then lie back on the bed."
 
@@ -144,12 +148,14 @@ label Z_ES3_rep:
                     Zuri "It REALLY is! I hope he’s going to enjoy us rubbing our feet ALL over it."
                     MC "(Twins rubbing their feet over my cock? It’s my lucky day!)"
 
+
                     scene Zv2_ES3foot_p2
 
                     Suri "And here we go. Hehe! I can feel it twitching beneath my toes!"
                     scene Zv2_ES3foot_p2anim
                     Suri "I think he’s enjoying this!"
                     MC "Mmm! Oh yeah..."
+
 
                     scene Zv2_ES3foot_p3
 
@@ -180,7 +186,7 @@ label Z_ES3_rep:
                     scene Zv2_ES3foot_p7
 
                     MC "Ooh! God… That’s amazing…"
-                    if persistent.incest_patch == True:
+                    if renpy.loadable("patch.rpy"):
                         MC "(I shouldn’t be doing this to Dad’s company… but they’re so fucking sexy…)"
                     else:
                         MC "(I shouldn’t be doing this to Bob’s company… but they’re so fucking sexy…)"
@@ -242,6 +248,8 @@ label Z_ES3_rep:
             MC "I get another reward now, right?"
             Suri "Hehe... You do. I believe we promised you a blowjob."
 
+
+
             scene Zv2_ES3lick_p1
             Suri "Mmm, I can’t wait to suck on his cock. It looked sooo delicious, last time we did it!"
             Zuri "Well? What are we waiting for? Let’s get these pants off him."
@@ -295,7 +303,7 @@ label Z_ES3_rep:
 
             Zuri "Suck Suck"
             scene Zv2_ES3a_p9anim
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 MC "(Damn, Zuri is just as good at sucking cock, as her twin sister is!)"
             else:
                 MC "(Damn, Zuri is just as good at sucking cock as Suri is!)"
@@ -320,7 +328,7 @@ label Z_ES3_rep:
             MC "Ahhh! Huh?"
 
             scene Zv2_ES3a_p13
-            if persistent.incest_patch == True:
+            if renpy.loadable("patch.rpy"):
                 Zuri "Sorry, it looks like my sister’s head has... accidentally fallen on your cock."
             else:
                 Zuri "Sorry, it looks like Suri's head has... accidentally fallen on your cock."

@@ -162,7 +162,7 @@ label NE_ES2_lab2:
     MC "It’s pretty good actually. Have you got a favourite book?"
     Isla "Horror, science fiction, erotica, pretty much anything."
     MC "(Wait, did she just say she reads erotica?)"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "Here, take a seat. You’re gonna get tired standing up. Besides, we should probably get started before my mum gets home."
     else:
         Isla "Here, take a seat. You’re gonna get tired standing up. Besides, we should probably get started before Sidra gets home."
@@ -204,7 +204,7 @@ label NE_ES2_lab2:
 
     "*Click*"
     Isla "Fuck…"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "(Whispered) That’s the front door! My mum must be home! You have to hide!"
     else:
         Isla "(Whispered) That’s the front door! Sidra must be home! You have to hide!"
@@ -240,7 +240,7 @@ label NE_ES2_lab3:
     MC "(Shit, I can’t get it fully closed!)"
     scene Ne_ES2_p25
     Sidra "Ah, there you are!"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "Hi, Mum."
     else:
         Isla "Hi Sidra."
@@ -276,7 +276,7 @@ label NE_ES2_lab3:
     Isla "You can lick my pussy all you want!"
     scene Ne_ES2_p33
 
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         MC "(Yikes. Her mother is a grade-A narcissist!)"
     else:
         MC "(Yikes. Sidra is a grade-A narcissist!)"
@@ -287,7 +287,7 @@ label NE_ES2_lab3:
     Isla "*Gulp* N-No…"
     scene Ne_ES2_p35
     Sidra "Why do you look so nervous today, darling?"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "I’m n-not nervous, Mum."
     else:
         Isla "I’m n-not nervous, Sidra."
@@ -319,7 +319,7 @@ label NE_ES2_lab3:
     Isla "(Even if he can’t see me, he’ll DEFINITELY hear us once we get going!)"
     scene Ne_ES2_p43
     Sidra "Mmm…"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "(If my mum finds out that [player_name] knows then she’ll make us move again!)"
     else:
         Isla "(If Sidra finds out that [player_name] knows then she’ll make us move again!)"
@@ -356,7 +356,7 @@ label NE_ES2_lab3:
     Sidra "Ahh… Just like that, darling."
     scene Ne_ES2_p52
     Isla "*Shluuurrrrp*"
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Sidra "Mmm! Yes, darling! Mmm! Suck your mum’s nipples!"
     else:
         Sidra "Mmm! Yes, darling! Mmm! Suck my nipples!"
@@ -448,7 +448,7 @@ label NE_ES2_lab3:
 
     scene Ne_ES2_p73
     Sidra "Off you go. I’ll meet you in your room later on, Darling."
-    if persistent.incest_patch == True:
+    if renpy.loadable("patch.rpy"):
         Isla "Yes, Mum."
     else:
         Isla "Yes, Sidra."

@@ -65,6 +65,7 @@ screen ML_end_content_scr:
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [SetVariable("ML_end_content",False), Hide ("ML_end_content_scr")]
 
+
 screen Li_end_content_scr:
     key "game_menu" action NullAction()
     modal True
