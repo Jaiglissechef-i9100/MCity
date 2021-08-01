@@ -41,13 +41,13 @@ label put_envelopev1_morning_label:
     $ day_time += 2
     $ envolpe_event = False
     jump map_label
+
 label empty_envelopev1_morning_label:
     $ lockerv1_open_morning_screen_notclickable = True
     show screen lockerv1_open_morning_screen
     MC "Why should I put an empty envelope inside?"
     MC "I need a pen. I have probably a few in my locker in the school corridor."
     jump lockerv1_open_morning_label
-
 
 label put_dildov1_morning_label:
     scene locker_b1v1_p1
@@ -82,7 +82,7 @@ screen locker_b1v1_morning_screen:
         idle "images/school/teacher_room2/day/locker/locker_door.png"
         hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
         action [Play ("sound", "sfx/metal_drawer_open.mp3"),Hide("displayTextScreen"),Jump("lockerv1_open_morning_label")]
-        hovered Show("displayTextScreen", displayText = "Open")
+        hovered Show("displayTextScreen", displayText = __("Open"))
         unhovered Hide("displayTextScreen")
     if celia_webcam_menuv1 == True:
         imagebutton:
@@ -92,7 +92,7 @@ screen locker_b1v1_morning_screen:
             idle "images/school/teacher_room2/day/locker/locker_door.png"
             hover "images/school/teacher_room2/day/locker/locker_door_hover.png"
             action [Hide("displayTextScreen"),Hide("locker_b1v1_morning_screen"),Show("C_locker_menu_scr")]
-            hovered Show("displayTextScreen", displayText = "Open")
+            hovered Show("displayTextScreen", displayText = __("Open"))
             unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 0
@@ -101,7 +101,6 @@ screen locker_b1v1_morning_screen:
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
         action [Jump("teacher_room2_morning1")]
-
 
 screen lockerv1_open_morning_screen:
     key "hide_windows" action NullAction()
@@ -114,7 +113,7 @@ screen lockerv1_open_morning_screen:
             hover "images/school/teacher_room2/day/locker/Money20$_hover.png"
             if lockerv1_open_morning_screen_notclickable == False:
                 action [Hide("displayTextScreen"),Jump("money_from_lockerv1_morning_label")]
-                hovered Show("displayTextScreen", displayText = "Money(20$)")
+                hovered Show("displayTextScreen", displayText = __("Money(20$)"))
                 unhovered Hide("displayTextScreen")
     if celia_note not in inventory.items and can_take_celianote == True:
         imagebutton:
@@ -125,7 +124,7 @@ screen lockerv1_open_morning_screen:
             if lockerv1_open_morning_screen_notclickable == False:
                 hover "images/school/teacher_room2/day/locker/celia_note_b1_hover.png"
                 action [Hide("displayTextScreen"),Jump("celianote_from_lockerv1_morning_label")]
-                hovered Show("displayTextScreen", displayText = "Celia’s Note")
+                hovered Show("displayTextScreen", displayText = __("Celia’s Note"))
                 unhovered Hide("displayTextScreen")
 
     if envelope in inventory.items and envelope.selected and put_envelopev1 == False and lockerv1_open_morning_screen_notclickable == False:
@@ -136,7 +135,7 @@ screen lockerv1_open_morning_screen:
             idle "images/school/teacher_room2/day/locker/envelope_b3.png"
             hover "images/school/teacher_room2/day/locker/envelope_b3.png"
             action [Hide("displayTextScreen"),SetVariable("put_envelopev1", True),Jump("put_envelopev1_morning_label")]
-            hovered Show("displayTextScreen", displayText = "Put Envelope")
+            hovered Show("displayTextScreen", displayText = __("Put Envelope"))
             unhovered Hide("displayTextScreen")
     if empty_envelope in inventory.items and empty_envelope.selected and put_envelopev1 == False and lockerv1_open_morning_screen_notclickable == False:
         imagebutton:
@@ -146,7 +145,7 @@ screen lockerv1_open_morning_screen:
             idle "images/school/teacher_room2/day/locker/envelope_b3.png"
             hover "images/school/teacher_room2/day/locker/envelope_b3.png"
             action [Hide("displayTextScreen"),Jump("empty_envelopev1_morning_label")]
-            hovered Show("displayTextScreen", displayText = "Put Envelope")
+            hovered Show("displayTextScreen", displayText = __("Put Envelope"))
             unhovered Hide("displayTextScreen")
 
     if put_envelopev1 == True and  envolpe_event == True:
@@ -164,7 +163,6 @@ screen lockerv1_open_morning_screen:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/metal_drawer_close.mp3"),Jump("locker_v1_morning_label")]
-
 
 screen C_locker_menu_scr:
     modal True
@@ -215,9 +213,6 @@ screen C_locker_item_menu_scr:
 
             $ pich = item.hover_i
 
-
-
-
             imagebutton idle pic hover pich xpos x ypos y action [Show("display_Item_Name", my_tt_ypos=y, my_tt_xpos=x, displayText1 = [item.name]),  SetVariable("item", item), selectItem(item)] hovered [ Play ("sound", "sfx/click.wav"), Show("display_Item_Name",  my_tt_ypos=y, my_tt_xpos=x, displayText1 = [item.name]),] unhovered [Hide("display_Item_Name")] at inv_eff
             if item.selected:
                 add Transform("gui/selected.png", zoom=.7) xpos x ypos y anchor (.5,.4)
@@ -230,7 +225,6 @@ screen C_locker_item_menu_scr:
         add "images/school/teacher_room2/day/locker/Put1.png" xpos 743 ypos 785
     elif vibrator.selected and vibrator in inventory.items and celia_webcam_menuv1 == True:
         add "images/school/teacher_room2/day/locker/Put1.png" xpos 743 ypos 785
-
 
     imagebutton:
         xpos 750
@@ -246,3 +240,4 @@ screen C_locker_item_menu_scr:
             action Jump("put_vibrator_morning_label")
         else:
             action NullAction()
+

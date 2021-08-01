@@ -25,6 +25,7 @@ default Zv2_ES1 = False
 default Zv2_lie_counter = 0
 default Zv2_true_counter = 0
 default Zv2_Truth = False
+
 label Zv2_MS2_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -54,40 +55,34 @@ label Zv2_MS2_label:
 
         jump Zv2_MS2_menu
 
-
 label Zv2_MS2_menu:
     scene Zv2_MS2_p1
     window hide
     menu:
-        "How long have you worked for Dad for?" if Zv2_MS2_q1 == True and renpy.loadable("patch.rpy"):
+        "How long have you worked for Dad for?" if Zv2_MS2_q1 == True and persistent.incest_patch == True:
             jump Zv2_MS2_q1_label
-        "How long have you worked for Bob for?" if Zv2_MS2_q1 == True and not renpy.loadable("patch.rpy"):
+        "How long have you worked for Bob for?" if Zv2_MS2_q1 == True and not persistent.incest_patch == True:
             jump Zv2_MS2_q1_label
 
-
-        "Where did you meet Dad?" if Zv2_MS2_q2 == True and renpy.loadable("patch.rpy"):
+        "Where did you meet Dad?" if Zv2_MS2_q2 == True and persistent.incest_patch == True:
             jump Zv2_MS2_q2_label
-        "Where did you meet Bob?" if Zv2_MS2_q2 == True and not renpy.loadable("patch.rpy"):
+        "Where did you meet Bob?" if Zv2_MS2_q2 == True and not persistent.incest_patch == True:
             jump Zv2_MS2_q2_label
 
-
-        "What’s it like working for Dad? " if Zv2_MS2_q3 == True and renpy.loadable("patch.rpy"):
+        "What’s it like working for Dad? " if Zv2_MS2_q3 == True and persistent.incest_patch == True:
             jump Zv2_MS2_q3_label
-        "What’s it like working for Bob? " if Zv2_MS2_q3 == True and not renpy.loadable("patch.rpy"):
+        "What’s it like working for Bob? " if Zv2_MS2_q3 == True and not persistent.incest_patch == True:
             jump Zv2_MS2_q3_label
 
-
-        "{color=#00ff00}Ask her for magnet card for Dad's office doors.{/color}" if Zv2_MS2_q4 == True and renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask her for magnet card for Dad's office doors.{/color}" if Zv2_MS2_q4 == True and persistent.incest_patch == True:
             jump Zv2_MS2_magnetcard_label
-        "{color=#00ff00}Ask her for magnet card for Bob's office doors.{/color}" if Zv2_MS2_q4 == True and not renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask her for magnet card for Bob's office doors.{/color}" if Zv2_MS2_q4 == True and not persistent.incest_patch == True:
             jump Zv2_MS2_magnetcard_label
 
-
-        "{color=#00ff00}Ask her when Dad has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask her when Dad has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and persistent.incest_patch == True:
             jump Zv2_MS2_bobtrip_label
-        "{color=#00ff00}Ask her when Bob has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and not renpy.loadable("patch.rpy"):
+        "{color=#00ff00}Ask her when Bob has a business trip, or something.{/color}" if Zv2_MS2_q5 == True and not persistent.incest_patch == True:
             jump Zv2_MS2_bobtrip_label
-
 
         "Zuri is an unusual name. Where are you from?" if Zv2_MS2_q6 == True:
             jump Zv2_MS2_zuriname_label
@@ -106,7 +101,7 @@ label Zv2_MS2_menu:
 
 label Zv2_MS2_q1_label:
     scene Zv2_MS2_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "How long have you worked for Dad, Zuri?"
     else:
         MC "How long have you worked for Bob, Zuri?"
@@ -122,7 +117,7 @@ label Zv2_MS2_q1_label:
 
 label Zv2_MS2_q2_label:
     scene Zv2_MS2_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Where did you meet Dad, then?"
     else:
         MC "Where did you meet Bob. then?"
@@ -143,14 +138,14 @@ label Zv2_MS2_q2_label:
 
 label Zv2_MS2_q3_label:
     scene Zv2_MS2_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "So, what’s it like working for Dad?"
     else:
         MC "So, what’s it like working for Bob?"
 
     scene Zv2_MS2_p5
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "I really enjoy working for your father. There are some bosses who pile work on their employees."
         Zuri "Your father isn’t like that - he takes a LOT of work on, himself."
     else:
@@ -161,7 +156,7 @@ label Zv2_MS2_q3_label:
     jump Zv2_MS2_menu
 
 label Zv2_MS2_magnetcard_label:
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hi, Zuri. I just spoke with Dad there. He said I could grab your magnetic card."
     else:
         MC "Hi, Zuri. I just spoke with Bob there. He said I could grab your magnetic card."
@@ -175,7 +170,7 @@ label Zv2_MS2_magnetcard_label:
     MC "Thanks, Zuri!"
 
     scene Zv2_MS2_p7
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "Did your father say anything about getting me a new card?"
     else:
         Zuri "Did Bob say anything about getting me a new card?"
@@ -187,14 +182,14 @@ label Zv2_MS2_magnetcard_label:
 
 label Zv2_MS2_bobtrip_label:
     scene Zv2_MS2_p1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Zuri, I was wondering… Does Dad have any business trips coming up soon?"
     else:
         MC "Zuri, I was wondering… Does Bob have any business trips coming up soon?"
     scene Zv2_MS2_p3
 
     Zuri "Probably? Why do you want to know?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I uh… We’re planning to do a family dinner some night, and we want to make sure he’s at home for it."
     else:
         MC "I uh… We’re planning to do a dinner some night, and we want to make sure he’s at home for it."
@@ -208,7 +203,7 @@ label Zv2_MS2_bobtrip_label:
 
     Zuri "Okay… It looks like he is away THIS weekend. I can’t see any other business trips."
     MC "That’s perfect, Zuri! That’s all I need to know."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "Happy I could help. Enjoy your family dinner!"
         MC "(Great! I just have to let Mom know that Dad is away this weekend now!)"
     else:
@@ -230,7 +225,6 @@ label Zv2_MS2_zuriname_label:
     Zuri "Unusual? What do you mean?"
     MC "I don’t mean in a bad way! It’s really cute actually!"
 
-
     scene Zv2_MS2_p9
 
     Zuri "Aww... you’re sweet. It’s French actually. I was born, just outside Marseille."
@@ -246,7 +240,7 @@ label Zv2_MS2_pay_label:
     scene Zv2_MS2_p3
 
     Zuri "Haha! What makes you think I’d talk about my pay with you?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I’m just curious if my dad pays his staff well."
     else:
         MC "I’m just curious if Bob pays his staff well."
@@ -254,6 +248,7 @@ label Zv2_MS2_pay_label:
     Zuri "Let me promise you something - no staff in this company are paid badly. There’s a reason why so few people here leave for other jobs."
     $ Zv2_MS2_q7 = False
     jump Zv2_MS2_menu
+
 label Zv2_MS2_zuriproposition_label:
     scene Zv2_MS2_p1
 
@@ -270,7 +265,7 @@ label Zv2_MS2_zuriproposition_label:
             MC "Yes, I’ll help you get the company name."
             Zuri "Brilliant! Thank you so much!"
             Zuri "I will make sure you are handsomely rewarded for your help."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "Your dad is always out of the office in the afternoon. Go inside and then you can search for the company name."
             else:
                 Zuri "Bob is out of the office always in the afternoon. Go inside and then you can search for the company name."
@@ -283,13 +278,13 @@ label Zv2_MS2_zuriproposition_label:
             jump Zv2_MS2_menu
         "No, I’m not gonna help with this.":
 
+
             scene Zv2_MS2_p4
 
             MC "I’ve thought about it… and I’d rather not get involved in this."
             Zuri "I’m sorry to hear that. If you change your mind, please come back and speak to me."
             Zuri "I could REALLY make it worth your while."
             jump Zv2_MS2_menu
-
 
 label Zv2_MS2_companyname1_label:
     if Zv2_MS2_companyname == 1:
@@ -323,6 +318,7 @@ label Zv2_MS2_companyname1_label:
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
 
+
                         MC "The company is called Beerhouse Investments."
                         Zuri "Amazing! Please come over to my house again this evening and I’ll make sure you get your reward."
                         $ Zv2_MS2_companyname = 2
@@ -331,6 +327,7 @@ label Zv2_MS2_companyname1_label:
                         $ Zv2_MS2_q10 = False
                         $ Zv2_lie_counter += 1
                         jump Zv2_MS2_menu
+
     if Zv2_MS2_companyname == 2:
         scene Zv2_MS2_p2
 
@@ -362,6 +359,7 @@ label Zv2_MS2_companyname1_label:
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
 
+
                         MC "The company name is… Indian Railway and Infrastructure Investments."
                         Zuri "Brilliant! As before, come over to my place and I’ll make sure you’re properly rewarded."
                         $ Zv2_MS2_companyname = 3
@@ -383,7 +381,7 @@ label Zv2_MS2_companyname1_label:
         scene Zv2_MS2_p2
 
         Zuri "The third and final company name is going to be more difficult to get."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Zuri "It’s a complete secret - the only person who knows is your father. And he’s not writing it down anywhere."
         else:
             Zuri "It’s a complete secret - the only person who knows is Bob. And he’s not writing it down anywhere."
@@ -395,7 +393,7 @@ label Zv2_MS2_companyname1_label:
 
     if Zv2_MS2_companyname == 4:
         scene Zv2_MS2_p5
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Zuri "Well? Did you get the final name from your father?"
         else:
             Zuri "Well? Did you get the final name from Bob?"
@@ -425,7 +423,6 @@ label Zv2_MS2_companyname1_label:
                         jump Zv2_MS2_menu
                     "{color=#f00}Lie about the name.{/color}":
 
-
                         MC "The final company is… Manchester Aviation and Aeronautics Engineering."
                         Zuri "You’re absolutely amazing! God! I could kiss you right now! Please come over to my house, this evening, and I’ll give you another reward."
                         $ Zv2_MS2_companyname = False
@@ -434,8 +431,6 @@ label Zv2_MS2_companyname1_label:
                         $ Zv2_MS2_q10 = False
                         $ Zv2_lie_counter += 1
                         jump Zv2_MS2_menu
-
-
 
 label Zv2_MS2_cancel_label:
     if Zv2_MS2_q8 == True:
@@ -470,3 +465,4 @@ label Zv2_MS2_cancel_label:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump bob_reception_morning1
+

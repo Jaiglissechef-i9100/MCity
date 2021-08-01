@@ -81,7 +81,7 @@ label Ne_ES1_lab:
     Isla "I’m sorry, I’ll try harder next time!"
     Sidra "Uh huh, that is what you tell me every time, darling. It grows tiresome hearing it."
     scene Ne_ES1_p12
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sidra "Now, get over here and give your mother a kiss."
     else:
         Sidra "Now, get over here and give me a kiss."
@@ -105,7 +105,7 @@ label Ne_ES1_lab:
     MC "(And she looks so slutty in those rainbow stockings.)"
     scene Ne_ES1_p17
     MC "(I’m having a hard time deciding which of the two I like better now…)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(The MILF’s ass is rounder, but the teen has a REALLY nice pussy on her)"
     else:
         MC "(Sindra’s ass is rounder, but Isla's has a REALLY nice pussy on her)"
@@ -129,7 +129,7 @@ label Ne_ES1_lab:
     scene Ne_ES1_p22
     Sidra "*Shlurp* *Lick*"
     Isla "Ahh! Ahhhh! AHHHH!!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Isla "O-OH GOD!!! M-Mom! It’s too s-sensitive when you ah... use your tongue like that ohhhhhn my clitoris! *GASP*"
     else:
         Isla "O-OH GOD!!! S-Sindra! It’s too s-sensitive when you ahh... use your tongue like that ohhhhhn my clitoris! *GASP*"
@@ -255,3 +255,4 @@ label Ne_ES1_door2:
     MC "Damn!"
     MC "(I’m going to need to find another entrance.)"
     jump Ne_outside_M1
+

@@ -1,7 +1,3 @@
-
-
-
-
 label bob_reception_day1:
     hide screen displayTextScreen
     scene bob_reception_morning
@@ -12,3 +8,4 @@ label bob_reception_day1:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_reception_D_scr
+

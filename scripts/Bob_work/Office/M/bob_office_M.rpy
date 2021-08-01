@@ -9,7 +9,6 @@ label bob_office_M1:
     if day_time == 2:
         jump bob_office_D1
 
-
 label bob_office_M2:
     hide screen displayTextScreen
     scene bob_office_bg
@@ -22,8 +21,6 @@ label bob_office_M2:
     show screen new_message_incoming1
     call screen bob_office_M_scr
 
-
-
 label office_leave:
     if day_time == 1:
         show screen bob_office_M_scr
@@ -31,7 +28,7 @@ label office_leave:
         show screen bob_office_D_scr
     if bob_office_locked == True:
         $ clickable = False
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "I can't leave now. I should talk with Dad."
         else:
             MC "I can't leave now. I should talk with Bob."
@@ -58,3 +55,4 @@ label bob_officelocked:
     MC "I need a magnet card to get in office."
     $ clickable = True
     jump bob_reception_morning1
+

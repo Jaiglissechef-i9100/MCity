@@ -1,4 +1,3 @@
-
 label SR2_NSwake_label:
     MC "(I don’t know what I’m so worried about! I’ve already caught Sara, trying to take pictures of my cock while I’m asleep.)"
     MC "(What’s the worst that could happen?)"
@@ -31,14 +30,12 @@ label SR2_NSwake_label:
     $ renpy.block_rollback()
     call screen S_NS_wake_scr
 
-
-
 label SNS_wake_5:
     scene sara_room_night_sleeping2_WakeUp2
 
     Sara "Sure, why not."
     MC "Awesome! Could you bend over?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Make sure to keep your voice down, by the way. I don’t want to wake up Mom and Dad."
     else:
         MC "Make sure to keep your voice down, by the way. I don’t want to wake up Linda and Bob."
@@ -106,7 +103,7 @@ label SNS_wake_5:
 
     Sara "Ahh! It’s okay! Ugh! Ohhh! C-Cum wherever you want!"
     scene sara_room_night_sleeping2_WakeUp11anim
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(She’s getting pretty loud. I hope Mom and Dad don’t hear this!)"
     else:
         MC "(She’s getting pretty loud. I hope Linda and Bob don’t hear this!)"
@@ -162,3 +159,4 @@ label SNS_wake_5:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_sis_nerdy_night_sleeping1_v1 = False
             jump corridor_morning1
+

@@ -1,5 +1,3 @@
-
-
 label celia_toilet_fuck_v1:
     hide screen scenes_gallery
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -107,6 +105,7 @@ label celia_toilet_fuck_v1:
                     jump celia_toilet_cabin_day_scene4__blowjob_v1_label1
         "I want to fuck your ass, Mrs. Celia.":
 
+
             scene celia_toilet_cabin_day_scene4_anal_v1_p4
             Celia "Hmm... I’d a feeling you’d choose that one."
             Celia "Come on over to the door. You have to promise to be quiet though - I think there’s some other students around right now."
@@ -193,3 +192,4 @@ label celia_toilet_cabin_day_scene4__blowjob_v1_label1:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

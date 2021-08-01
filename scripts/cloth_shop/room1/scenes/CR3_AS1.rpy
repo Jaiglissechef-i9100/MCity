@@ -53,7 +53,6 @@ label CR3_AS1_label:
 
         scene CR3_AS1_p1 with dissolve
 
-
         MC "Hey, Caroline. I was walking past, so I thought I’d drop in, to check how you’re doing."
         Caroline "Hi, [player_name]. Sorry, I’m - up to my eyeballs - with work, at the minute."
         MC "You look stressed, what’s wrong?"
@@ -64,7 +63,6 @@ label CR3_AS1_label:
         MC "I could help! I don’t mind!"
         Caroline "Listen - I really appreciate the offer. You need to understand that the deal is NOT coming back. I’ll find another way to pay you for your time - but things can’t go back to the way they were."
         MC "Fine... I understand. If I volunteer to help, model the clothes, are we good to start work, then?"
-
 
         scene CR3_AS1_p3
 
@@ -93,3 +91,4 @@ label CR3_AS1_label:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump cloth_shop_open_label
+

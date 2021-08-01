@@ -1,4 +1,3 @@
-
 label a_pool_D1:
     hide screen displayTextScreen
     if a_pool_empty == True:
@@ -12,3 +11,4 @@ label a_pool_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen a_pool_D_scr
+

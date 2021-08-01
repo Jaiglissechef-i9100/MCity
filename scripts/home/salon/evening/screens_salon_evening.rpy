@@ -5,7 +5,7 @@ screen salon_evening:
         focus_mask True
         idle "images/home/salon/evening/door1_evening_idle.png"
         hover "images/home/salon/evening/door1_evening_hover.png"
-        hovered Show("displayTextScreen", displayText = "Corridor")
+        hovered Show("displayTextScreen", displayText = __("Corridor"))
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_evening1")]
         unhovered Hide("displayTextScreen")
@@ -15,7 +15,7 @@ screen salon_evening:
         focus_mask True
         idle "images/home/salon/evening/door2_evening_idle.png"
         hover "images/home/salon/evening/door2_evening_hover.png"
-        hovered Show("displayTextScreen", displayText = "Kitchen")
+        hovered Show("displayTextScreen", displayText = __("Kitchen"))
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("kitchen_evening1")]
         unhovered Hide("displayTextScreen")
@@ -25,10 +25,10 @@ screen salon_evening:
         focus_mask True
         idle "images/home/salon/evening/door3_evening_idle.png"
         hover "images/home/salon/evening/door3_evening_hover.png"
-        if renpy.loadable("patch.rpy"):
-            hovered Show("displayTextScreen", displayText = "Parent's Bedroom")
-        if not renpy.loadable("patch.rpy"):
-            hovered Show("displayTextScreen", displayText = "Main Bedroom")
+        if persistent.incest_patch == True:
+            hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
+        else:
+            hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
         if clickable == True:
             if SR3_home_end_bath > 0 and SR3_home_end == True:
                 action [Jump("SR3_home_end_living_dialogue")]
@@ -46,6 +46,7 @@ screen salon_evening:
             hovered Show("displayTextScreen", displayText = "Caroline")
             action [Hide("displayTextScreen"),Jump("caroline_salon_evening_scene1_label")]
             unhovered Hide("displayTextScreen")
+
     if slon_money == True:
         imagebutton:
             xpos 1402
@@ -53,7 +54,7 @@ screen salon_evening:
             focus_mask True
             idle "images/home/salon/evening/Money Salon Evening.png"
             hover "images/home/salon/evening/Money Salon Evening_hover.png"
-            hovered Show("displayTextScreen", displayText = "Money")
+            hovered Show("displayTextScreen", displayText = __("Money"))
             action [Hide("displayTextScreen"),Jump("salon_money_label")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -62,9 +63,10 @@ screen salon_evening:
         focus_mask True
         idle "images/home/salon/morning/paint_b1.png"
         hover "images/home/salon/morning/paint_b1_hover.png"
-        hovered Show("displayTextScreen", displayText = "Painting")
+        hovered Show("displayTextScreen", displayText = __("Painting"))
         action [Hide("displayTextScreen"),Jump("salon_paint_label")]
         unhovered Hide("displayTextScreen")
+
     if CR2_ES1 == True and Caroline_points == 2 and SR3_home_end == False:
         imagebutton:
             xpos 325
@@ -94,12 +96,13 @@ screen salon_evening:
             focus_mask True
             idle "images/home/salon/evening/door3_evening_idle.png"
             hover "images/home/salon/evening/door3_evening_hover.png"
-            if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Parent's Bedroom")
-            if not renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Main Bedroom")
+            if persistent.incest_patch == True:
+                hovered Show("displayTextScreen", displayText = __("Parent's Bedroom"))
+            else:
+                hovered Show("displayTextScreen", displayText = __("Main Bedroom"))
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("MLR2_ES2_label")]
             unhovered Hide("displayTextScreen")
+
 screen salon_evening_notclickable:
     imagebutton:
         xpos 529
@@ -160,3 +163,4 @@ screen salon_evening_notclickable:
             ypos 0
             focus_mask True
             idle "images/home/salon/evening/door3_evening_idle.png"
+

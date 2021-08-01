@@ -22,9 +22,9 @@ label lily_school_day_scene2_v1_label:
 
     scene lily_school_day_scene2_v1_p2
     MC "Haha! I guess I’ll take that as a compliment."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "How’s your sister? Has she recovered from her freakout, the other day?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Lily "How’s Sara? Has she recovered from her freakout, the other day?"
     MC "Freakout?"
     Lily "Yeah - when she threw the bottle across the room."
@@ -59,7 +59,6 @@ label lily_school_day_scene2_v1_label:
             jump after_lily_school_day_scene2_v1_choice
         "Refuse to pick up the pen.":
 
-
             scene lily_school_day_scene2_v1_p3a
             MC "Oh look! It rolled under your side of the table. I think it’ll be easier for you to pick it up."
             Lily "Huh?"
@@ -80,3 +79,4 @@ label after_lily_school_day_scene2_v1_choice:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump classroom2_day1
+

@@ -1,7 +1,9 @@
-
-
-
 label LiR1_NS4_rep:
+    if persistent.incest_patch == True:
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
+
     hide screen week_day_viewer
     hide screen time_skip_button
     hide screen day_time_viewer
@@ -17,7 +19,6 @@ label LiR1_NS4_rep:
     Yazmin "Oh yeah! Right there, baby!"
 
     scene LiR1_NS4_p2
-
 
     MC "(Damn! Yazmin’s holding [Liza2_name]’s face, right against her pussy!)"
 
@@ -128,7 +129,6 @@ label LiR1_NS4_rep:
     MC "(Didn’t Yazmin say that there would be three different items that would go in [Liza2_name]’s mouth? I can only see the ice lolly and the dildo on that tray.)"
     MC "(I wonder what else she has in mind.)"
 
-
     scene LiR1_NS4_p19
 
     Liza2 "*Suck Suck*"
@@ -141,9 +141,7 @@ label LiR1_NS4_rep:
     Yazmin "I’m pulling the object out now. I’m gonna need your guess."
     Liza2 "(This is a tricky one!)"
 
-
     scene LiR1_NS4_p21
-
 
     Yazmin "Well?"
     Liza2 "Err... I’m not completely sure. I tasted a LOT of different flavours going on. Is it perhaps, one of those multi-coloured lollies?"
@@ -156,6 +154,7 @@ label LiR1_NS4_rep:
     Yazmin "(Whispered) Come on in, [player_name]. Be very quiet..."
     scene ClimbingSuccess_p4
     call screen climb_open_win_rep
+
 screen climb_open_win_rep:
     if climb_lvl < 11:
         imagebutton:
@@ -174,6 +173,7 @@ screen climb_open_win_rep:
             idle "images/ClimbingMinigame/A_Up.png"
             hover "images/ClimbingMinigame/A_Up_hover.png"
             action [Hide("climb_open_win"), Jump("LiR1_NS4_label_open_win_done_rep")]
+
 label LiR1_NS4_label_open_win_done_rep:
     MC "Huh? (What does she want with me?)"
     scene ClimbingSuccess_p5
@@ -182,7 +182,6 @@ label LiR1_NS4_label_open_win_done_rep:
     $ renpy.pause(0.2, hard = True)
 
     scene LiR1_NS4_p23
-
 
     MC "(Whispered) What’s going on, Yazmin? [Liza2_name] might see me."
 
@@ -313,7 +312,6 @@ label LiR1_NS4_label_open_win_done_rep:
     $ renpy.pause(0.7, hard = True)
     scene LiR1_NS4_p41 with dissolve
 
-
     Liza2 "Ahh... Uh..."
     Liza2 "(What’s this salty taste in my mouth? It’s like... a sticky fluid?)"
     Liza2 "Wh-What’s going on, Liza?"
@@ -337,7 +335,6 @@ label LiR1_NS4_label_open_win_done_rep:
     MC "Shit! I better go!"
     Yazmin "You’re not going anywhere, right now! You helped cause this mess!"
 
-
     scene LiR1_NS4_p45
 
     Liza2 "Wh-Wh-Wh-Wh..."
@@ -349,7 +346,7 @@ label LiR1_NS4_label_open_win_done_rep:
 
     Liza2 "You TRICKED me into sucking your disgusting cock, you FILTHY PERVERT!"
     MC "W-Wait, this wasn’t my-"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Just wait until I tell your MOTHER about this! I will report you to the police and-"
     else:
         Liza2 "Just wait until I tell LINDA about this! I will report you to the police and-"
@@ -376,7 +373,6 @@ label LiR1_NS4_label_open_win_done_rep:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
 
-
     Yazmin "I’m sorry... I couldn’t think of another way to bring a man into this relationship, without scaring you off."
     Yazmin "And this way, it’s at least a man that you know and trust. Can you see where I was coming from?"
     Yazmin "He wasn’t supposed to cum in your mouth, by the way - That was an accident."
@@ -397,7 +393,7 @@ label LiR1_NS4_label_open_win_done_rep:
     MC "It’s okay, I-"
     Liza2 "Promise me one thing."
     MC "Anything."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "Don’t say A WORD to my sister, okay?"
     else:
         Liza2 "Don’t say A WORD to Linda, okay?"
@@ -418,7 +414,7 @@ label LiR1_NS4_label_open_win_done_rep:
 
     Yazmin "The best way to start, is the cowgirl position. It gives you control over, how deep, you want to - take the dick inside you. And it also gives you a GREAT workout!"
     Liza2 "Uh huh..."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride my nephew?! Why am I not jealous?)"
     else:
         Liza2 "(What the hell is going on...? Why am I suddenly watching my wife ride [player_name]?! Why am I not jealous?)"
@@ -505,7 +501,7 @@ label LiR1_NS4_label_open_win_done_rep:
     MC "(She’s bouncing - up and down on my cock - faster now! I don’t know if I’ll be able to last much longer!)"
 
     scene LiR1_NS4_p69
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hnnnnnng! Auntie Yazmin, I’m gonna cum!"
     else:
         MC "Hnnnnnng! Yazmin, I’m gonna cum!"
@@ -566,7 +562,7 @@ label LiR1_NS4_label_open_win_done_rep:
 
 
             MC "Aahhhhhh! Fuck! Ugh!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Yazmin "Wow! So much cum! I thought you emptied your balls when your Auntie Liza sucked you off!"
             else:
                 Yazmin "Wow! So much cum! I thought you emptied your balls when Liza sucked you off!"
@@ -584,7 +580,7 @@ label LiR1_NS4_continue_rep:
 
     Liza2 "[player_name]! Language!"
     Liza2 "And as for YOU, Yazmin..! We need to have a serious talk."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Liza2 "[player_name], let yourself out of the house. Your Aunt Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."
     else:
         Liza2 "[player_name], let yourself out of the house. My wife Yazmin and I, have A LOT to discuss. Including, what constitutes - HEALTHY boundaries in a relationship."
@@ -593,3 +589,4 @@ label LiR1_NS4_continue_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

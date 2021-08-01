@@ -105,3 +105,4 @@ label SR3_we_SC_bus_label:
     scene black
     $ renpy.pause(3, hard= True)
     jump SR3_we_IC_shop
+

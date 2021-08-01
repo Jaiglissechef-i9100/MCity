@@ -29,3 +29,4 @@ label bathroom_morning2:
     hide screen bathroom_night_notclickable
     $ can_hide_windows = False
     call screen bathroom_morning
+

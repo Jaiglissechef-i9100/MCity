@@ -129,14 +129,14 @@ label Ne_MS2_lab:
         scene Ne_MS2a_p6
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music2", loop=True, fadein = 2)
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Isla "You caught my mum punishing me. She… God, I wish you’d never seen that… She makes me cum for each bad mark I get in mathematics."
         else:
             Isla "You caught Sindra punishing me. She… God, I wish you’d never seen that… She makes me cum for each bad mark I get in mathematics."
         MC "Wait, what?!"
         MC "(I CAN’T have heard that correctly!)"
         scene Ne_MS2a_p7
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Your mum goes down on your pussy each time you get a bad mark in maths?!"
         else:
             MC "Sidra goes down on your pussy each time you get a bad mark in maths?!"
@@ -162,7 +162,7 @@ label Ne_MS2_lab:
         scene Ne_MS2a_p13
         Isla "This is perfect! When can we start?"
         MC "When suits you?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Isla "Come over in the evening. My mum will be out!"
         else:
             Isla "Come over in the evening. Sidra will be out!"
@@ -202,7 +202,7 @@ label Ne_MS2_lab:
         scene Ne_MS2aa_p4
         MC "Whoa, hold on. This isn’t your fault!"
         Isla "Wh-What do you mean?!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "I heard your mom on the phone with Celia after you left."
         else:
             MC "I heard Sidra on the phone with Celia after you left."
@@ -214,7 +214,7 @@ label Ne_MS2_lab:
         $ renpy.music.play('/sfx/RetroFuture Clean.mp3', channel="music2", loop=True, fadein = 2)
 
         scene Ne_MS2aa_p5
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Your mom has been bribing Celia to deliberately lose you marks."
             Isla "WHAT?!"
             MC "Your maths skills probably aren’t that bad at all. Your mom is just using it as an excuse to dish out one of those weird punishments!"
@@ -255,3 +255,4 @@ label Ne_MS2_lab:
         $ can_hide_windows = False
 
         jump changing_room_morning1
+

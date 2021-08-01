@@ -21,3 +21,4 @@ label parents_bedroom_morning2:
     show screen new_message_incoming1
     hide screen parents_bedroom_morning_notclickable
     call screen parents_bedroom_morning
+

@@ -6,9 +6,10 @@ screen pool_morning:
         focus_mask True
         idle "images/school/pool/morning/door1_morning_idle.png"
         hover "images/school/pool/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "School Corridor")
+        hovered Show("displayTextScreen", displayText = __("School Corridor"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_morning1")]
         unhovered Hide("displayTextScreen")
+
     if delilah_scene1 == True:
         imagebutton:
             xpos 597
@@ -38,3 +39,4 @@ screen pool_morning_notclickable:
             focus_mask True
             idle "images/school/pool/morning/scenes/delilah_scene1/delilah_b1.png"
             hover "images/school/pool/morning/scenes/delilah_scene1/delilah_b1_hover.png"
+

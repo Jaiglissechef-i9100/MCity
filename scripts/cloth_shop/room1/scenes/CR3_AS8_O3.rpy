@@ -376,4 +376,6 @@ label CR3_AS8_O3_con2:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
+
     jump map_label
+

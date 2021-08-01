@@ -79,7 +79,7 @@ label CR3_AS4_O2:
         Caroline "(On the other hand, it doesn't exactly feel... bad? I mean, I could just endure it, for a few more minutes.)"
 
         scene CR3_AS4_O2_p9
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Caroline "(What the hell am I thinking?! OF COURSE it is bad! He’s my little brother!)"
         else:
             Caroline "(What the hell am I thinking?! OF COURSE it is bad!)"
@@ -102,4 +102,6 @@ label CR3_AS4_O2:
         $ renpy.music.stop(channel="music2", fadeout=1)
         $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
         $ can_hide_windows = False
+
         jump outfit_R3_start
+

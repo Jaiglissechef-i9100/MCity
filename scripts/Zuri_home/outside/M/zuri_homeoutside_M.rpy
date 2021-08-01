@@ -1,10 +1,6 @@
-
-
 image zuri_home_Mbg1 = "/images/zuri_home/outside/M/1.jpg"
 image zuri_home_Mbg2 = "/images/zuri_home/outside/M/2.jpg"
 image zuri_home_Mbg3 = "/images/zuri_home/outside/M/3.jpg"
-
-
 
 label zuri_homeoutside_M1:
     $ can_hide_windows = False
@@ -21,8 +17,6 @@ label zuri_homeoutside_M1:
     if day_time == 3:
         jump zuri_homeoutside_E1
 
-
-
 label zuri_homeoutside_M2:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -35,8 +29,6 @@ label zuri_homeoutside_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen zuri_homeoutside_M_scr
-
-
 
 label Z_home_door_M_label:
     hide screen displayTextScreen
@@ -53,7 +45,6 @@ label Z_home_door_M_label:
     else:
         call screen Z_home_door_M_scr
 
-
 label Z_home_doorlocked_M_label:
     scene zuri_home_Mbg3
     hide screen map_button
@@ -68,3 +59,4 @@ label Z_home_doorlocked_M_label:
     $ renpy.music.stop(channel="sound", fadeout=1)
     $ clickable = True
     jump Z_home_door_M_label
+

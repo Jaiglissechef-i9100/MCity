@@ -36,7 +36,6 @@ image Zv2_ES3lick_p13 = "images/Zuri_home/home/E/scenes/Zv2_ES3/Licking/13.jpg"
 
 default Zv2_ES3 = False
 
-
 label Zv2_ES3_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
@@ -85,7 +84,7 @@ label Zv2_ES3_label:
 
             Zuri "It’s pretty big, Suri, isn’t it!"
             Suri "The kid surprised me!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(God, why am I just letting them do this? They’re seducing me into ruining Dad’s company!)"
             else:
                 MC "(God, why am I just letting them do this? They’re seducing me into ruining Bob’s company!)"
@@ -102,7 +101,7 @@ label Zv2_ES3_label:
             Zuri "(Lick Lick)"
 
             scene Zv2_ES3lick_p6
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(On the other hand, maybe Dad’s company isn’t worth a blowjob THIS good!)"
             else:
                 MC "(On the other hand, maybe Bob’s company isn’t worth a blowjob THIS good!)"
@@ -174,7 +173,6 @@ label Zv2_ES3_label:
             jump map_label
         "Could you give me a footjob?":
 
-
             MC "I’ll go for the footjob."
             Zuri "Mmm... Good choice. Go ahead and take your trousers off, then lie back on the bed."
 
@@ -184,14 +182,12 @@ label Zv2_ES3_label:
             Zuri "It REALLY is! I hope he’s going to enjoy us rubbing our feet ALL over it."
             MC "(Twins rubbing their feet over my cock? It’s my lucky day!)"
 
-
             scene Zv2_ES3foot_p2
 
             Suri "And here we go. Hehe! I can feel it twitching beneath my toes!"
             scene Zv2_ES3foot_p2anim
             Suri "I think he’s enjoying this!"
             MC "Mmm! Oh yeah..."
-
 
             scene Zv2_ES3foot_p3
 
@@ -222,7 +218,7 @@ label Zv2_ES3_label:
             scene Zv2_ES3foot_p7
 
             MC "Ooh! God… That’s amazing…"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(I shouldn’t be doing this to Dad’s company… but they’re so fucking sexy…)"
             else:
                 MC "(I shouldn’t be doing this to Bob’s company… but they’re so fucking sexy…)"
@@ -270,3 +266,4 @@ label Zv2_ES3_label:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump map_label
+

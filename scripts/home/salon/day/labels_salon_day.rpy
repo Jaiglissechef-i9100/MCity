@@ -10,3 +10,4 @@ label salon_day1:
     show screen new_message_incoming1
     hide screen salon_day_notclickable
     call screen salon_day
+

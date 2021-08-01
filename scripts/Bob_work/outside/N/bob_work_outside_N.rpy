@@ -1,5 +1,3 @@
-
-
 label bob_work_outside_night1:
     hide screen displayTextScreen
     hide screen map
@@ -11,3 +9,4 @@ label bob_work_outside_night1:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_work_outside_N_scr
+

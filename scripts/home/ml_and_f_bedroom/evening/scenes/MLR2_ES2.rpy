@@ -22,7 +22,7 @@ label MLR2_ES2_label:
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     Mom "Boo!"
     MC "Ahh!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Jesus, you scared me there, Mom!"
     else:
         MC "Jesus, you scared me there, Linda!"
@@ -34,7 +34,7 @@ label MLR2_ES2_label:
     Mom "You must already be missing me."
 
     scene MLR2_ES2_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Haha! Of course I do, Mom. I love spending time with you."
     else:
         MC "Haha! of course I do, Linda. I love spending time with you."
@@ -54,7 +54,7 @@ label MLR2_ES2_label:
     scene MLR2_ES2_p5
 
     Mom "Actually… can you leave? It’s a work call. I’m sorry."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Sure, Mom. No problem."
     else:
         MC "Sure, Linda. No problem."
@@ -65,7 +65,6 @@ label MLR2_ES2_label:
     Mom "Hello, Judy. What’s up?"
     "…"
     Mom "Uh huh. Now’s not a great time."
-
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/March of the Spoons.mp3', channel="music2", loop=True, fadein = 2)
@@ -98,3 +97,4 @@ label MLR2_ES2_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump salon_morning1
+

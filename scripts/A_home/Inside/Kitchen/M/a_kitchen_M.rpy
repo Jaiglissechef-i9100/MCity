@@ -1,7 +1,5 @@
 image a_kitchen_bg_M = "/images/a_home/Inside/Kitchen/M/1.jpg"
 
-
-
 label a_kitchen_M1:
     if LiR1_MAS5 == True and day_time <3:
         jump LiR1_MAS5_label
@@ -27,3 +25,4 @@ label a_kitchen_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen a_kitchen_M_scr
+

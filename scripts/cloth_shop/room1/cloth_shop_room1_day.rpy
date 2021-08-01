@@ -50,3 +50,4 @@ label cloth_shop_open_label:
         show screen new_message_incoming1
         hide screen cloth_shop_open_screen_notclickable
         call screen cloth_shop_open_screen
+

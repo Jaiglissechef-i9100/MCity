@@ -7,7 +7,7 @@ screen school_corridor3_morning:
         idle "images/school/school_corridor3/morning/door1_morning_idle.png"
         hover "images/school/school_corridor3/morning/door1_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Therapist's Room")
+            hovered Show("displayTextScreen", displayText = __("Therapist's Room"))
             action [Play ("sound", "sfx/door_open.mp3"),Jump("therapist_room_morning1")]
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -17,7 +17,7 @@ screen school_corridor3_morning:
         idle "images/school/school_corridor3/morning/door2_morning_idle.png"
         hover "images/school/school_corridor3/morning/door2_morning_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "School Corridor")
+            hovered Show("displayTextScreen", displayText = __("School Corridor"))
             clicked Jump("school_corridor1_morning1")
             unhovered Hide("displayTextScreen")
     imagebutton:
@@ -36,5 +36,6 @@ screen school_corridor3_morning:
         if clickable == True and headmaster_S1 == True and headmaster_door_locked == False:
             action [Hide("displayTextScreen"),Jump ("headmaster_S1")]
 
-        hovered Show("displayTextScreen", displayText = "Headmaster's Room")
+        hovered Show("displayTextScreen", displayText = __("Headmaster's Room"))
         unhovered Hide("displayTextScreen")
+

@@ -1,5 +1,3 @@
-
-
 label SR2_NS2_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -49,7 +47,6 @@ label SR2_NS2_rep:
     MC "(Fuck, she’s onto me!)"
     MC "Y-Yeah! I thought it would be… um… sexier this way!"
 
-
     scene SR2_NS2_p7
 
     Sara "Aww, that’s sweet. Hehe…"
@@ -67,12 +64,10 @@ label SR2_NS2_rep:
             MC "You give REALLY good blowjobs. Could I maybe get you to give me another one?"
             Sara "Sure, [player_name]! Lie back on the bed!"
 
-
             scene SR2_NS2_blow_p1
             Sara "I’m gonna try even harder this time!"
             MC "(This is gonna be great!)"
             Sara "I hope you’re ready!"
-
 
             scene SR2_NS2_blow_p2
 
@@ -521,12 +516,12 @@ label SR2_NS2_continue_rep:
     scene SR2_NS2_p30
 
     MC "Of course, Sara. You keep it and we’ll take just take baby steps."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Thank you so much, [player_name]. I’m so lucky to have you as a brother."
     else:
         Sara "Thank you so much, [player_name]. I’m so lucky to have you as a friend."
     MC "Goodnight, Sara."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I love you, [player_name]. I better sneak back to my room before I fall asleep, and Mom catches me in the morning!"
     else:
         Sara "I love you, [player_name]. I better sneak back to my room before I fall asleep, and Linda catches me in the morning!"
@@ -535,3 +530,4 @@ label SR2_NS2_continue_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

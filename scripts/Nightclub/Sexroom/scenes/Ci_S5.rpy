@@ -253,3 +253,4 @@ label Ci_S5_lab:
             $ CR4_Cindy_S1 = 6
             $ inventory.drop_money(1000)
             jump nc_sexroom_N
+

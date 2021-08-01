@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 label bob_entrance_D1:
     hide screen displayTextScreen
     scene bob_entrance_bg
@@ -16,3 +8,4 @@ label bob_entrance_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_entrance_D_scr
+

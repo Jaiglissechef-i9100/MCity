@@ -60,7 +60,7 @@ label SR3_ES1_label:
         "*Click*"
         $ renpy.sound.play("sfx/door_open.mp3")
         scene SR3_ES1_p4
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Hey, little sis. How’ve you been?"
         else:
             MC "Hey, little Sara. How’ve you been?"
@@ -73,7 +73,7 @@ label SR3_ES1_label:
         Sara "Hehe… Hahaha! YOUR FACE! Gotcha!"
         MC "*Sigh* I legitimately thought you were pissed off at me there."
         Sara "Ahahaha! Sorry, I couldn’t resist. I missed you, [player_name]."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "I missed you too, Sara. So, Mom says you’re not grounded anymore?"
         else:
             MC "I missed you too, Sara. So, Linda says you’re not grounded anymore?"
@@ -101,7 +101,7 @@ label SR3_ES1_label:
         MC "Did [Dad_name] say anything?"
         scene SR3_ES1_p11
         Sara "When has [Dad_name] EVER tried to discipline us? He just rides along with whatever [Mom_name] decides. She’s the one who wears the pants in this house."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "You aren’t wrong there. I’ve always had a soft spot for Dad."
         else:
             MC "You aren’t wrong there. I’ve always had a soft spot for our old man."
@@ -117,7 +117,7 @@ label SR3_ES1_label:
         scene SR3_ES1_p13
         MC "What are you reading on your phone, there?"
         Sara "N-Nothing!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Uh huh, I remember using that excuse when Mom almost caught me watching porn."
         else:
             MC "Uh huh, I remember using that excuse when Linda almost caught me watching porn."
@@ -185,7 +185,7 @@ label SR3_ES1_label:
                 MC "I… uh… Listen, Sara. Hmm… God… this is difficult."
                 Sara "*Gulp*"
                 MC "I’ll go out with you to the mall, but I don’t think we should publicly date each other. We can keep seeing each other as fuck buddies - we’ve got a great thing going on here."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Just… Just try to see this from an outsider’s perspective. Imagine someone from our school sees us kissing in public? What would they say, knowing that you’re my sister?"
                 else:
                     MC "Just… Just try to see this from an outsider’s perspective. Imagine someone from our school sees us kissing in public? What would they say, knowing that you’re my girlfriend?"
@@ -214,3 +214,4 @@ label SR3_ES1_end:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump sister_nerdy_morning1
+

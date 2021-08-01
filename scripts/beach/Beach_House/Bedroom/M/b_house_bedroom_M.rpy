@@ -1,5 +1,3 @@
-
-
 label b_house_bedroom_M1:
 
     $ in_map = False
@@ -22,3 +20,4 @@ label b_house_bedroom_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen b_house_bedroom_M_scr
+

@@ -37,6 +37,7 @@ image MLR3_b_house_shower_p31 = "images/Beach/MLR3_beach_event/House/Shower/31.j
 image MLR3_b_house_shower_p32 = "images/Beach/MLR3_beach_event/House/Shower/32.jpg"
 image MLR3_b_house_shower_p33 = "images/Beach/MLR3_beach_event/House/Shower/33.jpg"
 image MLR3_b_house_shower_p34 = "images/Beach/MLR3_beach_event/House/Shower/34.jpg"
+
 label MLR3_b_house_shower_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -156,7 +157,7 @@ label MLR3_b_house_shower_label:
 
     Mom "Mmm… yes! Right there! Ah…"
     MC "([Mom_name] is really loving this! I wonder why she finds my cock so appealing?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Is it the size or the shape? Or is it because I’m her son, and she finds it extra hot, because it’s ‘taboo?’"
     else:
         MC "(Is it the size or the shape? Or is it because I’m younger, and she finds it extra hot, because it’s ‘taboo?’"
@@ -261,3 +262,4 @@ label MLR3_b_house_shower_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     jump b_house_bath_M1
+

@@ -27,3 +27,4 @@ screen shop_closed_screen:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("shop_closed_screen"),Jump("map_label")]
+

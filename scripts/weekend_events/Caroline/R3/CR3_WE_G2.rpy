@@ -4,8 +4,6 @@ image CR3_WE_G2_p3 = "images/Weekend_Events/Caroline/R3/Girl2/3.jpg"
 image CR3_WE_G2_p4 = "images/Weekend_Events/Caroline/R3/Girl2/4.jpg"
 image CR3_WE_G2_p5 = "images/Weekend_Events/Caroline/R3/Girl2/5.jpg"
 
-
-
 label CR3_WE_G2_label:
     $ can_hide_windows = True
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -55,3 +53,4 @@ label CR3_WE_G2_label:
     $ can_hide_windows = False
 
     jump night_club_we_label
+

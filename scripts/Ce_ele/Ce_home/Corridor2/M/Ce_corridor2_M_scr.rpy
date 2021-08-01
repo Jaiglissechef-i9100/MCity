@@ -10,7 +10,7 @@ screen Ce_corridor2_M_scr:
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"), Jump("Ce_gym_M1")]
 
-        hovered Show("displayTextScreen", displayText = "Gym")
+        hovered Show("displayTextScreen", displayText = __("Gym"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -22,7 +22,7 @@ screen Ce_corridor2_M_scr:
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"), Jump("Ce_living_M1")]
 
-        hovered Show("displayTextScreen", displayText = "Living Room")
+        hovered Show("displayTextScreen", displayText = __("Living Room"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -35,7 +35,7 @@ screen Ce_corridor2_M_scr:
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"), Jump("Ce_bedroom_M1")]
 
-        hovered Show("displayTextScreen", displayText = "Bedroom")
+        hovered Show("displayTextScreen", displayText = __("Bedroom"))
         unhovered Hide("displayTextScreen")
 
     if clickable == True:
@@ -46,3 +46,4 @@ screen Ce_corridor2_M_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Hide("displayTextScreen"),Jump("Ce_corridor_M1")]
+

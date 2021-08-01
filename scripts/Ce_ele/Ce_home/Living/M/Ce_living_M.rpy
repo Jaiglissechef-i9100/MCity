@@ -30,3 +30,4 @@ label Ce_living_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen Ce_living_M_scr
+

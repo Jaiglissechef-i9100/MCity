@@ -53,9 +53,9 @@ label SR2_swimming_card_label:
     Sara "Err… There was that time we were on that school trip in Spain!"
     MC "That’s because a cockroach crawled into your bed, and woke you up at five in the morning!"
     Sara "I still woke up before you, so it still counts! And… uhh… today is number two! I win!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Sigh) What do you want me for, then? Did Mom tell you to get me out of bed?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Sigh) What do you want me for, then? Did Linda tell you to get me out of bed?"
     scene SR2_swimming_card_p2
 
@@ -96,7 +96,7 @@ label SR2_swimming_card_label:
     MC "These must have cost you a fortune, Sara! Where did you get this kind of money?!"
 
     scene SR2_swimming_card_p4
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I’ve been saving up my allowance, that Dad gave me."
     else:
         Sara "I’ve been saving up my money."
@@ -124,3 +124,4 @@ label SR2_swimming_card_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump mc_room_morning1
+

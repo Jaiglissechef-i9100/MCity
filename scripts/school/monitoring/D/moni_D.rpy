@@ -9,3 +9,4 @@ label moni_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen moni_D_scr
+

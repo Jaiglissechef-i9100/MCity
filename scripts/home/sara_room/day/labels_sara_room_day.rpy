@@ -12,3 +12,4 @@ label sister_nerdy_day1:
     hide screen sister_nerdy_night_notclikcable
     hide screen sister_nerdy_day_notclickable
     call screen sister_nerdy_day
+

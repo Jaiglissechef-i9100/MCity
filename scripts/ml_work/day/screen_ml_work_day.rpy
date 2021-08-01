@@ -8,10 +8,10 @@ screen ml_work_day:
         hover "/images/ml_work/day/ml_work_door1_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("ml_work_room1_day1")]
         if clickable == True:
-            if renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Mom's Office")
-            if not renpy.loadable("patch.rpy"):
-                hovered Show("displayTextScreen", displayText = "Linda's Office")
+            if persistent.incest_patch == True:
+                hovered Show("displayTextScreen", displayText = __("Mom's Office"))
+            else:
+                hovered Show("displayTextScreen", displayText = __("Linda's Office"))
             unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -23,3 +23,4 @@ screen ml_work_day:
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"), Hide("ml_work_day"), Hide("map_button"), Jump("map_label")]
             unhovered Hide("displayTextScreen")
+

@@ -1,10 +1,10 @@
+default ML_NS_sleep_her = nsb(__("Her Choice."),image_idle = "images/NS_B/Choice.png", image_hover = "images/NS_B/Choice_hover.png", l_jump = "ML_NS_sleep_her_label", number = 1  )
+default ML_NS_sleep_her_loc = nsb(__("Required: 3 relation points."),image_idle = "images/NS_B/Choice.png", image_hover = "images/NS_B/Choice_hover.png", l_jump = "ML_NS_sleep_her_label", number = 1, played = True, locked = True,  )
+default ML_NS_sleep_foot_job = nsb(__("Foot Job."),image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "ML_NS_sleep_foot_job_label", number = 1  )
+default ML_NS_sleep_foot_job_lock = nsb(__("Foot Job."),image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "ML_NS_sleep_foot_job_label", number = 1, played = True, locked = True,  )
+default ML_NS_sleep_hand = nsb(__("Hand Job."),image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "ML_NS_sleep_hand_label", number = 1  )
+default ML_NS_sleep_hand_lock = nsb(__("Hand Job."),image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "ML_NS_sleep_hand_label", number = 1, played = True, locked = True,  )
 
-default ML_NS_sleep_her = nsb("Her Choice.",image_idle = "images/NS_B/Choice.png", image_hover = "images/NS_B/Choice_hover.png", l_jump = "ML_NS_sleep_her_label", number = 1  )
-default ML_NS_sleep_her_loc = nsb("Required: 3 relation points.",image_idle = "images/NS_B/Choice.png", image_hover = "images/NS_B/Choice_hover.png", l_jump = "ML_NS_sleep_her_label", number = 1, played = True, locked = True,  )
-default ML_NS_sleep_foot_job = nsb("Foot Job.",image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "ML_NS_sleep_foot_job_label", number = 1  )
-default ML_NS_sleep_foot_job_lock = nsb("Foot Job.",image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "ML_NS_sleep_foot_job_label", number = 1, played = True, locked = True,  )
-default ML_NS_sleep_hand = nsb("Hand Job.",image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "ML_NS_sleep_hand_label", number = 1  )
-default ML_NS_sleep_hand_lock = nsb("Hand Job.",image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "ML_NS_sleep_hand_label", number = 1, played = True, locked = True,  )
 screen ML_NS_sleep_scr:
 
     add "images/NS_B/Wake.png" xpos 1705 ypos 25
@@ -14,8 +14,6 @@ screen ML_NS_sleep_scr:
     $ x = 44
     $ y = 350
     $ i = 0
-
-
 
     imagebutton:
         xpos 1738
@@ -27,9 +25,6 @@ screen ML_NS_sleep_scr:
         action [SetVariable("inv_page", 0),Hide("ML_NS_sleep_scr"), Jump("ML_NS_wake_label")]
         hovered Play ("sound", "sfx/click2.wav")
 
-
-
-
     for nsb in nsb_box.ml_nsb_wake:
         if nsb.played == False:
             $ new_nsb_in_wake = True
@@ -37,7 +32,6 @@ screen ML_NS_sleep_scr:
             $ new_nsb_in_wake = False
     if new_nsb_in_wake == True:
         add "images/NS_B/New.png" xpos 1732 ypos 98
-
 
 screen ML_NS_wake_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
@@ -79,7 +73,6 @@ screen ML_NS_wake_scr:
         $ i += 1
     if len(nsb_box.ml_nsb_wake)>9:
 
-
         imagebutton:
             xpos 55
             ypos 902
@@ -105,3 +98,4 @@ screen ML_NS_wake_scr:
         hover "images/NS_B/Cancel_hover.png"
         action [SetVariable("inv_page", 0),Hide("C_NS_wake_scr"), Jump("ML_NS_sleep_back")]
         hovered Play ("sound", "sfx/click2.wav")
+

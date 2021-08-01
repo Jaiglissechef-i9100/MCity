@@ -24,3 +24,4 @@ label cloth_shop_stealing_key_label:
     $ inventory.add(caroline_spare_key)
     $ can_hide_windows = False
     jump map_label
+

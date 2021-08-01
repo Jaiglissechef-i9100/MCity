@@ -14,7 +14,6 @@ label bob_car_locked_label:
     $ clickable = True
     jump bob_car_label
 
-
 screen bob_car_scr:
     key "hide_windows" action NullAction()
     imagebutton:
@@ -24,17 +23,16 @@ screen bob_car_scr:
         idle "images/Bob_work/outside/M/CarInside/B1.png"
         hover "images/Bob_work/outside/M/CarInside/B1_hover.png"
         if bob_carkeys.selected:
-            hovered Show("displayTextScreen", displayText = "Open Car")
+            hovered Show("displayTextScreen", displayText = __("Open Car"))
             if clickable == True:
                 activate_sound "sfx/car_open.wav"
                 action [Hide("displayTextScreen"),Jump("bob_car_label2")]
                 unhovered Hide("displayTextScreen")
         else:
-            hovered Show("displayTextScreen", displayText = "Car Door")
+            hovered Show("displayTextScreen", displayText = __("Car Door"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("bob_car_locked_label")]
                 unhovered Hide("displayTextScreen")
-
 
     if clickable == True:
         imagebutton:
@@ -50,7 +48,6 @@ label bob_car_label2:
     scene bob_car_bg2
     call screen bob_car_scr2
 
-
 screen bob_car_scr2:
     key "hide_windows" action NullAction()
     if bob_carbook_s == 1:
@@ -61,9 +58,10 @@ screen bob_car_scr2:
             idle "images/Bob_work/outside/M/CarInside/B2.png"
             hover "images/Bob_work/outside/M/CarInside/B2_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Book")
+                hovered Show("displayTextScreen", displayText = __("Book"))
                 action [Hide("displayTextScreen"),Jump("bob_carbook")]
                 unhovered Hide("displayTextScreen")
+
     if bob_carmoney == True:
         imagebutton:
             xpos 630
@@ -72,20 +70,33 @@ screen bob_car_scr2:
             idle "images/Bob_work/outside/M/CarInside/B3.png"
             hover "images/Bob_work/outside/M/CarInside/B3_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Money")
+                hovered Show("displayTextScreen", displayText = __("Money"))
                 action [Hide("displayTextScreen"),Jump("bob_carmoney")]
                 unhovered Hide("displayTextScreen")
 
     if not "img12_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1891
-            ypos 478
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B12.png"
-            hover "images/secret_gallery/Bonus/B12_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img12_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1891
+                ypos 478
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B12.png"
+                hover "images/secret_gallery/Bonus/B12_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img12_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1891
+                ypos 478
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img12_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if clickable == True:
         imagebutton:
@@ -97,11 +108,10 @@ screen bob_car_scr2:
             activate_sound "sfx/car_close.wav"
             action [Hide("bob_car_scr2"), Jump("bob_work_outside_morning1")]
 
-
 label bob_carbook:
     show screen bob_car_scr2
     $ clickable = False
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "What’s that book doing in here? It looks like it’s from Dad’s office. Maybe Dad might need it. I should return it to his office."
     else:
         MC "What’s that book doing in here? It looks like it’s from Bob’s office. Maybe Bob might need it. I should return it to his office."
@@ -119,3 +129,4 @@ label bob_carmoney:
     $ clickable = True
     $ bob_carmoney = False
     jump bob_car_label2
+

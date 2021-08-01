@@ -183,3 +183,4 @@ label CeR2_AS1_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

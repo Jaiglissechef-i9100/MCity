@@ -104,7 +104,7 @@ label SR2_jacuzzi_scene_label:
     MC "What’s wrong?"
     Sara "Our date today... I mean.. Is it even a date? …We haven’t really done anything."
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "It kinda feels like we’ve reverted back to brother and sister, when we’re out."
 
     MC "Well, to be honest - it would be very risky to act like we’re dating."
@@ -161,6 +161,7 @@ label SR2_jacuzzi_scene_label:
             jump after_menu_SR2_jacuzzi_scene_label
         "Wait for her move.":
 
+
             scene SR2_weekend_jacuzzi_p4
 
             Sara "[player_name], I want you to… It’s embarrassing... Nevermind."
@@ -188,7 +189,6 @@ label SR2_jacuzzi_scene_label:
             MC "See, smaller breasts like yours are MUCH more sensitive."
             Sara "Mmm… I’m glad they’re smaller now."
             jump after_menu_SR2_jacuzzi_scene_label
-
 
 label after_menu_SR2_jacuzzi_scene_label:
     scene SR2_weekend_jacuzzi_p9
@@ -295,7 +295,7 @@ label after_menu_SR2_jacuzzi_scene_label:
 
     window hide
     menu:
-        "Blow your hot load deep inside your younger sister’s mouth." if renpy.loadable("patch.rpy"):
+        "Blow your hot load deep inside your younger sister’s mouth." if persistent.incest_patch == True:
             scene SR2_weekend_jacuzzi_p24a
 
             MC "Open wide, Sara!"
@@ -322,7 +322,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             MC "Thanks, Sara. You’re amazing at that!"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Blow your hot load deep inside Sara’s mouth." if not renpy.loadable("patch.rpy"):
+        "Blow your hot load deep inside Sara’s mouth." if persistent.incest_patch == False:
             scene SR2_weekend_jacuzzi_p24a
 
             MC "Open wide, Sara!"
@@ -349,7 +349,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             MC "Thanks, Sara. You’re amazing at that!"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Spray your seed over your younger sister’s pretty face." if renpy.loadable("patch.rpy"):
+        "Spray your seed over your younger sister’s pretty face." if persistent.incest_patch == True:
             scene SR2_weekend_jacuzzi_p25a
 
             Sara "You don’t want me to keep sucking?"
@@ -369,7 +369,7 @@ label after_menu_SR2_jacuzzi_scene_label:
             Sara "Yuck! (I almost got it in my eye!)"
             jump after_menu2_SR2_jacuzzi_scene_label
 
-        "Spray your seed over Sara’s pretty face." if not renpy.loadable("patch.rpy"):
+        "Spray your seed over Sara’s pretty face." if persistent.incest_patch == False:
             scene SR2_weekend_jacuzzi_p25a
 
             Sara "You don’t want me to keep sucking?"
@@ -388,7 +388,6 @@ label after_menu_SR2_jacuzzi_scene_label:
             MC "Fuck! That’s good!"
             Sara "Yuck! (I almost got it in my eye!)"
             jump after_menu2_SR2_jacuzzi_scene_label
-
 
 label after_menu2_SR2_jacuzzi_scene_label:
     scene SR2_weekend_jacuzzi_p9
@@ -505,8 +504,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
     $ can_SR2_MS2 = True
     $ SR2_bath = False
 
-
-
     $ LiR1_poll_minigame_can = True
     $ can_LiR1_NS = True
     $ can_LiR1_NS3 = True
@@ -561,7 +558,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
-
     $ CR3_MS2_can3 = True
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
@@ -575,7 +571,6 @@ label after_menu2_SR2_jacuzzi_scene_label:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
-
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -617,6 +612,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 2:
         $ week_day += 1
         $ day_time = 1
@@ -632,6 +628,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 3:
         $ week_day += 1
         $ day_time = 1
@@ -647,6 +644,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 4:
         $ week_day += 1
         $ day_time = 1
@@ -662,6 +660,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 5:
         $ week_day = 1
         $ day_time = 1
@@ -677,6 +676,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 6:
         $ week_day = 1
         $ day_time = 1
@@ -692,6 +692,7 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+
     if week_day == 7:
         $ week_day = 1
         $ day_time = 1
@@ -707,3 +708,4 @@ label after_menu2_SR2_jacuzzi_scene_label:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+

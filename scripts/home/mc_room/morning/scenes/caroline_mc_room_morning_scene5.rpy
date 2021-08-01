@@ -26,9 +26,11 @@ image caroline_mc_room_morning_scene5_hand_footp15 = "images/home/mc_room/mornin
 image caroline_mc_room_morning_scene5_hand_footp16 = "images/home/mc_room/morning/scenes/caroline_mc_room_morning_scene5/HandFootJob/16.jpg"
 image caroline_mc_room_morning_scene5_hand_footp16a = "images/home/mc_room/morning/scenes/caroline_mc_room_morning_scene5/HandFootJob/16a.jpg"
 image caroline_mc_room_morning_scene5_hand_footp17 = "images/home/mc_room/morning/scenes/caroline_mc_room_morning_scene5/HandFootJob/17.jpg"
+
 image caroline_mc_room_morning_scene5_hand_footp11anim = Movie(play="videos/Caroline-MorningS5-Footjob1.webm", loop = True )
 image caroline_mc_room_morning_scene5_hand_footp4anim = Movie(play="videos/Caroline-MorningS5-Handjob1.webm", loop = True )
 image caroline_mc_room_morning_scene5_hand_footp6anim = Movie(play="videos/Caroline-MorningS5-Handjob2.webm", loop = True )
+
 label caroline_mc_room_morning_scene5_label:
     hide screen mc_room_day_notclickable
     hide screen mc_room_evening_notclickable
@@ -85,7 +87,6 @@ label caroline_mc_room_morning_scene5_label:
     Caroline "You have to respect these rules and not try to push me, to do something I’m uncomfortable with. Does that sound fair to you?"
     MC "Sure, I guess so."
 
-
     scene caroline_mc_room_morning_scene5_p7
     Caroline "I’m happy to help you get-off, by using my hands or my butt again. But this comes with two conditions."
     Caroline "The first is, that you start working for free now, when I need photo sessions done."
@@ -123,9 +124,9 @@ label caroline_mc_room_morning_scene5_label:
     Caroline "You are a pervert. You know that, right?"
     scene caroline_mc_room_morning_scene5_hand_footp4anim
     $ renpy.pause()
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Getting, all hard and horny, because of your older sister."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "Getting, all hard and horny, because of your good friend."
 
     scene caroline_mc_room_morning_scene5_hand_footp5
@@ -153,9 +154,9 @@ label caroline_mc_room_morning_scene5_label:
 
 
             scene caroline_mc_room_morning_scene5_hand_footp9
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "Cum for me! Cum for your big sister!"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Caroline "Cum for me! Cum for Caroline!"
             MC "Hnnng! Ahhh! Ugh! Yes!"
             MC "(She’s amazing with her hands!)"
@@ -167,7 +168,6 @@ label caroline_mc_room_morning_scene5_label:
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene caroline_mc_room_morning_scene5_hand_footp9a with dissolve
-
 
             Caroline "Remember, it only lasts until you get a girlfriend - and you’re working for free, with me now!"
             Caroline "Come back to my shop, when you get a chance. I’m ordering in some new stock."
@@ -181,14 +181,11 @@ label caroline_mc_room_morning_scene5_label:
             $ caroline_mc_room_moenig_scene5 = False
             $ Caroline_points += 1
 
-
             $ renpy.music.stop(channel="music1", fadeout=1)
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump mc_room_morning1
         "Could you maybe use your feet instead?":
-
-
 
             scene caroline_mc_room_morning_scene5_hand_footp7
             MC "Could you try using your feet instead?"
@@ -237,11 +234,10 @@ label caroline_mc_room_morning_scene5_label:
             $ renpy.pause(0.7, hard = True)
             scene caroline_mc_room_morning_scene5_hand_footp16a with dissolve
 
-
             Caroline "Oh wow… That’s A LOT of cum right there!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "(I think [player_name] really enjoyed this!)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Caroline "(I think [player_name] really enjoyed this!)"
             MC "Phew... That was incredible, Caroline! Thank you so much... (Yaaawwwn!)"
             Caroline "I hope you aren’t tired! It’s time to get up!"
@@ -263,3 +259,4 @@ label caroline_mc_room_morning_scene5_label:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump mc_room_morning1
+

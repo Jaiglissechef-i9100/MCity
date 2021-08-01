@@ -10,3 +10,4 @@ label cloth_shop_room3_label:
     show screen new_message_incoming1
     $ can_hide_windows = False
     call screen cloth_shop_room3_screen
+

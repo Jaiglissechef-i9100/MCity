@@ -9,3 +9,4 @@ label parents_bedroom_night1:
     show screen map_button
     show screen new_message_incoming1
     call screen parents_bedroom_night
+

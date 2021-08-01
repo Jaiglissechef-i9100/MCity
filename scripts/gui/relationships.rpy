@@ -1,5 +1,3 @@
-
-
 screen relations:
     key "hide_windows" action NullAction()
     key "rollforward" action NullAction()
@@ -63,3 +61,12 @@ screen relations:
                 imagebutton xpos 100 ypos -270 focus_mask True idle Transform("images/v71/gui/alert1.png", zoom=.40) hover Transform("images/v71/gui/alert2.png", zoom=.40) action NullAction()
             else:
                 imagebutton xpos 100 ypos -270 focus_mask True idle Transform("images/v71/gui/alert3.png", zoom=.40)
+
+            imagebutton xpos 0 ypos -200 focus_mask True idle Transform("images/game_gui/Phone/Relations/Yazmin.png", zoom=0.58)
+            text "{size=-5}[Y_points]/[Y_max]{/size} " xpos 155 ypos -280
+            bar range Y_max value Y_points xmaximum 160 ysize 20 ypos -278 xpos 100
+            if Y_points == 2:
+                imagebutton xpos 100 ypos -270 focus_mask True idle Transform("images/v71/gui/alert1.png", zoom=.40) hover Transform("images/v71/gui/alert2.png", zoom=.40) action NullAction()
+            else:
+                imagebutton xpos 100 ypos -270 focus_mask True idle Transform("images/v71/gui/alert3.png", zoom=.40)
+

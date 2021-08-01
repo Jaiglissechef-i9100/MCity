@@ -1,5 +1,3 @@
-
-
 screen a_living_M_scr:
     key "hide_windows" action NullAction()
 
@@ -12,7 +10,7 @@ screen a_living_M_scr:
         if clickable == True:
 
             action [Hide("displayTextScreen"),Jump("a_kitchen_M1")]
-        hovered Show("displayTextScreen", displayText = "Kitchen")
+        hovered Show("displayTextScreen", displayText = __("Kitchen"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -24,7 +22,7 @@ screen a_living_M_scr:
         if clickable == True:
 
             action [Hide("displayTextScreen"),Jump("a_bathroom_M1")]
-        hovered Show("displayTextScreen", displayText = "Bathroom")
+        hovered Show("displayTextScreen", displayText = __("Bathroom"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -36,7 +34,7 @@ screen a_living_M_scr:
         if clickable == True:
 
             action [Hide("displayTextScreen"),Jump("a_bedroom_M1")]
-        hovered Show("displayTextScreen", displayText = "Stairs")
+        hovered Show("displayTextScreen", displayText = __("Stairs"))
         unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -48,10 +46,10 @@ screen a_living_M_scr:
         if clickable == True:
 
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("a_office_M1")]
-        hovered Show("displayTextScreen", displayText = "Office")
+        hovered Show("displayTextScreen", displayText = __("Office"))
         unhovered Hide("displayTextScreen")
 
-    if LiR1_MAS2 == True and Li_points == 1:
+    if LiR1_MAS2 == True and Li_points == 1 and Y_points == 1:
         imagebutton:
             xpos 932
             ypos 278
@@ -72,3 +70,4 @@ screen a_living_M_scr:
             idle "images/game_gui/LeaveNormal.png"
             hover "images/game_gui/LeaveHover.png"
             action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("a_home_outside_M1")]
+

@@ -11,3 +11,4 @@ label celia_work_in_progress_v1_label:
     $ renpy.hide("workinprogress2", layer="screens",)
     $ clickable = True
     jump teacher_room1_morning2
+

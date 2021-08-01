@@ -238,3 +238,4 @@ label CeR2_MS1_lab:
         $ clickable = True
         hide screen school_entrance_morning
         jump school_entrance_morning1
+

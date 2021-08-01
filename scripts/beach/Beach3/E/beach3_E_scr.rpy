@@ -2,7 +2,6 @@ screen beach3_E_scr:
 
     add "images/Beach/Beach3/E/map.jpg"
 
-
     imagebutton:
         at map_arrow_anim
         xpos 1720
@@ -23,5 +22,6 @@ screen beach3_E_scr:
         hover "images/Beach/Beach3/E/B_house_hover.png"
         if clickable == True:
             action [Hide("displayTextScreen"),Jump("beach_shop_M1")]
-            hovered Show("displayTextScreen", displayText = "Beach Shop")
+            hovered Show("displayTextScreen", displayText = __("Beach Shop"))
             unhovered Hide("displayTextScreen")
+

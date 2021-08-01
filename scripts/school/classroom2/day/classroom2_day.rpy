@@ -9,3 +9,4 @@ label classroom2_day1:
     show screen new_message_incoming1
     hide screen classroom2_day_notclickable
     call screen classroom2_day
+

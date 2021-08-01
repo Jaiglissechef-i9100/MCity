@@ -22,3 +22,4 @@ screen nightclub_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CR4_Cindy_S2_lab")]
                 unhovered Hide("displayTextScreen")
+

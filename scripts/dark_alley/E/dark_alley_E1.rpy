@@ -1,6 +1,3 @@
-
-
-
 label dark_alley_E1:
     hide screen displayTextScreen
     scene dark_alley_Ebg
@@ -12,3 +9,4 @@ label dark_alley_E1:
     show screen new_message_incoming1
     $ can_hide_windows = False
     call screen dark_alley_E_scr
+

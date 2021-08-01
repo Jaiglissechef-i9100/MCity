@@ -16,7 +16,6 @@ label CR2_AS4_label:
     MC "Huh?"
     MC "(What’s this thing? A bottle of perfume maybe?)"
 
-
     scene CR2_AS4_p2
 
     MC "(It’s made of glass, and there’s a thick black liquid inside.)"
@@ -38,3 +37,4 @@ label CR2_AS4_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump cloth_shop_label
+

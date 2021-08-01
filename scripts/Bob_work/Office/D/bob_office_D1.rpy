@@ -1,6 +1,3 @@
-
-
-
 label bob_office_D1:
     hide screen displayTextScreen
     scene bob_office_bg
@@ -12,3 +9,4 @@ label bob_office_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_office_D_scr
+

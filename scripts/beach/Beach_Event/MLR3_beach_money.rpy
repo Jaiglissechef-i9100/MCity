@@ -15,3 +15,4 @@ label MLR3_beach_money:
     $ can_hide_windows = False
     $ beach_money = False
     jump beach_M1
+

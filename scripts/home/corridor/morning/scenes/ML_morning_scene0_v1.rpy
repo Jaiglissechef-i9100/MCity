@@ -13,9 +13,9 @@ label ML_morning_scene0_v1_label:
     hide screen map_button
     scene ML_morning_scene0_v1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Huh, that’s unusual. That’s Mom’s office suit.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Huh, that’s unusual. That’s Linda’s office suit.)"
     MC "(She’s doesn’t normally dress and leave, for AT LEAST another hour.)"
     scene ML_morning_scene0_v1_p2 at pandown3
@@ -42,9 +42,9 @@ label ML_morning_scene0_v1_label:
     Mom "Sorry - you were just so sad there, back then. And I wanted to try and make my boy happy."
     Mom "I guess I got a little too emotional, and caught up in the moment."
     Mom "Can you forgive me?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Y-Yeah, Mom. It’s alright."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Y-Yeah, Linda. It’s alright."
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
@@ -54,3 +54,4 @@ label ML_morning_scene0_v1_label:
     $ ml_can_salon_morning_scene2 = False
     $ can_hide_windows = False
     jump salon_morning1
+

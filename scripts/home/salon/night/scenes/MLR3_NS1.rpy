@@ -116,3 +116,4 @@ label MLR3_NS1:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     jump salon_morning1
+

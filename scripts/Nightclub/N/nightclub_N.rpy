@@ -62,3 +62,4 @@ label nightclub_N1:
 
 
     call screen nightclub_scr
+

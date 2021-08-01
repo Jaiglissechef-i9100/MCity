@@ -10,12 +10,13 @@ image MLR3_beach_drink_p8 = "images/Beach/MLR3_beach_event/drinks/8.jpg"
 image MLR3_beach_drink_p9 = "images/Beach/MLR3_beach_event/drinks/9.jpg"
 image MLR3_beach_drink_p10 = "images/Beach/MLR3_beach_event/drinks/10.jpg"
 image MLR3_beach_drink_p11 = "images/Beach/MLR3_beach_event/drinks/11.jpg"
+
 default beach_buy_B2_talk = False
+
 label MLR3_beach_drink:
     hide screen map_button
     scene shop_M_map
     if not drink in inventory.items and beach_buy_B2_talk == False:
-
 
         show screen beach_shop_M_scr
         $ clickable = False
@@ -52,6 +53,7 @@ label MLR3_beach_drink:
         jump beach_shop_M1
     if drink in inventory.items:
         jump MLR3_beach_drink2
+
 label MLR3_beach_drink2:
     scene shop_M_map
     hide screen week_day_viewer
@@ -85,7 +87,7 @@ label MLR3_beach_drink2:
     Mom "But MORE importantly, it gives YOU a chance to see me wear it. Am I right?"
     MC "Haha! You got me there!"
     Mom "Of course I did. Although… if it was in our back garden, I guess I could sunbathe topless."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "How could I possibly know that you’d be peeping down at me from your bedroom window? There’s no way your sisters or Bob would suspect anything."
     else:
         Mom "How could I possibly know that you’d be peeping down at me from your bedroom window? There’s no way your roommates or Bob would suspect anything."
@@ -131,3 +133,4 @@ label MLR3_beach_drink2:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     jump beach_shop_M1
+

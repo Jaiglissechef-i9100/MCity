@@ -2,7 +2,6 @@ image CR3_AS7a_p1 = "/images/home/caroline_room/day/scenes/CR3_AS7a/1.jpg"
 image CR3_AS7a_p2 = "/images/home/caroline_room/day/scenes/CR3_AS7a/2.jpg"
 image CR3_AS7a_p3 = "/images/home/caroline_room/day/scenes/CR3_AS7a/3.jpg"
 
-
 label CR3_AS7a_label:
 
     $ can_hide_windows = True
@@ -13,7 +12,6 @@ label CR3_AS7a_label:
     hide screen day_time_viewer
     hide screen map_button
     scene CR3_AS7a_p1 with dissolve
-
 
     MC "(Caroline seems to rely VERY heavily on that dildo, to keep her lust in check.)"
     MC "(If I can find and steal it, I’ll hopefully leave her feeling extra horny, when she can’t - get herself off.)"
@@ -44,3 +42,4 @@ label CR3_AS7a_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump mc_room_morning1
+

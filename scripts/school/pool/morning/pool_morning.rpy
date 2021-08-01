@@ -16,3 +16,4 @@ label pool_morning2:
     show screen new_message_incoming1
     hide screen pool_morning_notclickable
     call screen pool_morning
+

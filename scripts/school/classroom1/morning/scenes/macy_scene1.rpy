@@ -69,3 +69,4 @@ label macy_scene1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump classroom1_morning1
+

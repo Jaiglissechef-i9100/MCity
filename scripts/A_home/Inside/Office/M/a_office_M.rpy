@@ -1,7 +1,5 @@
 image a_office_bg_M = "/images/a_home/Inside/Office/M/1.jpg"
 
-
-
 label a_office_M1:
 
     if day_time == 1:
@@ -26,3 +24,4 @@ label a_office_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen a_office_M_scr
+

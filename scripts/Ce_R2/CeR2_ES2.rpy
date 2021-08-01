@@ -527,3 +527,4 @@ label CeR2_ES2_lab:
 
     $ can_hide_windows = False
     jump mc_room_morning1
+

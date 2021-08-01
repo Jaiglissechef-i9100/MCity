@@ -44,7 +44,6 @@ label SR2_swimming_label:
         MC "Uh oh! Mayday! Mayday! We’re going down!"
         Sara "STOP THAT, [player_name]!"
 
-
         scene SR2_weekend_swimming_p3
 
         Sara "AAAHHHH!"
@@ -77,7 +76,7 @@ label SR2_swimming_label:
         MC "Hehe. Gotcha!"
 
         scene SR2_weekend_swimming_p7
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Sara "Bro…"
             MC "Maybe don’t call me ‘Bro’ too loudly. We are in a public place, after all."
         else:
@@ -101,3 +100,4 @@ label SR2_swimming_label:
         $ SR2_after_swimming = True
         $ can_hide_windows = False
         jump swimming_poll_label
+

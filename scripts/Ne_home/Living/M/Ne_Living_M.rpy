@@ -30,3 +30,4 @@ label Ne_Living_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen Ne_Living_M_scr
+

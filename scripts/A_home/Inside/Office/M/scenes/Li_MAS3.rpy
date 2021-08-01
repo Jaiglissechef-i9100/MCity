@@ -27,6 +27,10 @@ label Li_MAS3_label:
     jump Li_MAS3_menu
 
 label Li_MAS3_menu:
+    if persistent.incest_patch == True:
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
     scene LiR1_MAS3_p1
     menu:
         "What’s it like, working as a supermodel?" if Li_MAS3_q1 == True:
@@ -49,7 +53,6 @@ label Li_MAS3_menu:
         "Have you always been a model?" if Li_MAS3_q2 == True:
             scene LiR1_MAS3_p3
             MC "Have you always been a fashion model?"
-
 
             scene LiR1_MAS3_p5
 
@@ -139,17 +142,15 @@ label Li_MAS3_menu:
             $ Li_MAS3_q5 = False
             jump Li_MAS3_menu
 
-        "I don’t see you and Auntie Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and renpy.loadable("patch.rpy"):
+        "I don’t see you and Auntie Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "I don’t see you and Auntie Liza coming up to visit us, very often. Why is that?"
-
 
             scene LiR1_MAS3_p7
 
             Yazmin "Ooh, that’s a touchy subject. Honestly, I’m not comfortable talking about this. It’s something you’d need to take up with your auntie."
             Yazmin "Let’s just say... your mother isn’t my biggest fan."
-
 
             MC "(Yikes... It sounds like I’ve touched a nerve here!)"
 
@@ -160,7 +161,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q6 = False
             jump Li_MAS3_menu
 
-        "I don’t see you and Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and not renpy.loadable("patch.rpy"):
+        "I don’t see you and Liza coming to visit, very often. Why is that?" if Li_MAS3_q6 == True and not persistent.incest_patch == True:
 
             scene LiR1_MAS3_p3
 
@@ -190,13 +191,11 @@ label Li_MAS3_menu:
             Yazmin "Ahahaha! It SHOULD! But there are some crazy stories I could tell you!"
             MC "Go on! Tell me some!"
 
-
             scene LiR1_MAS3_p4
 
             Yazmin "There are a lot of designers and companies out there, who try to get girls like me, to model for free."
             Yazmin "“How would you like to be the new face of our exclusive line of dresses? We can’t pay you right now, but think of the exposure you’ll get, for your portfolio!”"
             MC "Really?!"
-
 
             scene LiR1_MAS3_p2
 
@@ -219,7 +218,7 @@ label Li_MAS3_menu:
             Yazmin "You mean, though IVF or a sperm donor?"
             MC "Yeah. Either way."
             Yazmin "Maybe? I haven’t put a lot of thought into it. I obviously need to find a really good guy, who would want to donate to us."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Yazmin "And then there’s the issue about which of us would carry the baby. I don’t know if your auntie would be too fond of it - And I certainly can’t, or my modelling career would be put on hold, for several months!"
             else:
                 Yazmin "And then there’s the issue about which of us would carry the baby. I don’t know if Liza would be too fond of it - and I certainly can’t, or my modelling career would be put on hold, for several months!"
@@ -231,7 +230,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q8 = False
             jump Li_MAS3_menu
 
-        "Why doesn’t my mother like you?" if Li_MAS3_q9 == True and renpy.loadable("patch.rpy"):
+        "Why doesn’t my mother like you?" if Li_MAS3_q9 == True and persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "Why doesn’t my mother like you?"
@@ -262,7 +261,7 @@ label Li_MAS3_menu:
             $ Li_MAS3_q9 = False
             jump Li_MAS3_menu
 
-        "Why doesn’t Linda like you?" if Li_MAS3_q9 == True and not renpy.loadable("patch.rpy"):
+        "Why doesn’t Linda like you?" if Li_MAS3_q9 == True and not persistent.incest_patch == True:
             scene LiR1_MAS3_p3
 
             MC "Why doesn’t my Linda like you?"
@@ -313,3 +312,4 @@ label Li_MAS3_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump a_office_M1
+

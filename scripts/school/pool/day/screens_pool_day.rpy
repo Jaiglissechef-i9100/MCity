@@ -6,6 +6,7 @@ screen pool_day:
         focus_mask True
         idle "images/school/pool/morning/door1_morning_idle.png"
         hover "images/school/pool/morning/door1_morning_hover.png"
-        hovered Show("displayTextScreen", displayText = "School Corridor")
+        hovered Show("displayTextScreen", displayText = __("School Corridor"))
         action [Play ("sound", "sfx/door_open.mp3"),Jump("school_corridor1_day1")]
         unhovered Hide("displayTextScreen")
+

@@ -2,7 +2,6 @@ screen beach_up_E_scr:
 
     add "images/Beach/Beach_Up/E/map.jpg"
 
-
     imagebutton:
         at map_arrow_anim
         xpos 960
@@ -24,3 +23,4 @@ screen beach_up_E_scr:
         if clickable == True:
             action Jump("beach_M1")
             unhovered Hide("displayTextScreen")
+

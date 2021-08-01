@@ -11,7 +11,6 @@ image CR2_ES1_p10 = "images/home/salon/evening/scenes/CR2_ES1/10.jpg"
 image CR2_ES1_p11 = "images/home/salon/evening/scenes/CR2_ES1/11.jpg"
 image CR2_ES1_p12 = "images/home/salon/evening/scenes/CR2_ES1/12.jpg"
 
-
 default CR2_ES1_day = 1
 default CR2_ES1_q1 = True
 default CR2_ES1_q2 = True
@@ -27,6 +26,7 @@ default can_CR2_ES1_day3 = False
 default CR2_ES1_day2_firsttime = True
 default CR2_ES1_day3_firsttime = True
 default CR2_ES1_q1Sara = False
+
 label CR2_ES1_label:
     if can_CR2_ES1 == False:
         show screen salon_evening_notclickable
@@ -42,7 +42,6 @@ label CR2_ES1_label:
         $ can_hide_windows = True
         if CR2_ES1_day == 1:
             scene CR2_ES1_p1 with dissolve
-
 
             MC "(There’s Caroline! It looks like she’s spending the day relaxing in front of the TV.)"
             MC "(Let’s see how she’s doing.)"
@@ -86,7 +85,6 @@ label CR2_ES1_label:
             MC "Here again?"
             Caroline "Haha! Just putting my feet up, after work."
 
-
             scene CR2_ES1_p3
 
             Caroline "So, what brings you here?"
@@ -127,7 +125,6 @@ label CR2_ES1_menu:
 
             Caroline "Seriously - I order in a bunch of clothes - and before I can even display them, they’ve been purchased online!"
             MC "That’s amazing, Caroline! Congratulations!"
-
 
             scene CR2_ES1_p8
 
@@ -193,11 +190,10 @@ label CR2_ES1_menu:
             $ CR2_ES1_q6 = False
             jump CR2_ES1_menu
 
-        "Are Mom and Dad fighting?" if CR2_ES1_q7 == True and renpy.loadable("patch.rpy"):
+        "Are Mom and Dad fighting?" if CR2_ES1_q7 == True and persistent.incest_patch == True:
             jump CR2_ES1_menu_bobfight
-        "Are Linda and Bob fighting?" if CR2_ES1_q7 == True and not renpy.loadable("patch.rpy"):
+        "Are Linda and Bob fighting?" if CR2_ES1_q7 == True and not persistent.incest_patch == True:
             jump CR2_ES1_menu_bobfight
-
 
         "Have you any advice for finding a girlfriend?" if CR2_ES1_q8 == True:
             scene CR2_ES1_p4
@@ -234,7 +230,6 @@ label CR2_ES1_menu:
             jump CR2_ES1_menu
         "Bye.":
 
-
             if CR2_ES1_q1Sara == True:
                 scene CR2_ES1_p10
 
@@ -259,7 +254,7 @@ label CR2_ES1_menu:
                         $ CR2_ES1_q1Sara = False
                         jump CR2_ES1_menu_cancel
 
-                    "Sara and I are having an incestuous relationship." if Sara_points >= 2 and renpy.loadable("patch.rpy"):
+                    "Sara and I are having an incestuous relationship." if Sara_points >= 2 and persistent.incest_patch == True:
                         scene CR2_ES1_p10
 
                         MC "Yeah, Sara and I have been having an incestuous relationship."
@@ -272,7 +267,7 @@ label CR2_ES1_menu:
                         $ CR2_ES1_q1Sara = False
                         jump CR2_ES1_menu_cancel
 
-                    "Sara and I have been having a friends with benefits relationship." if Sara_points >= 2 and not renpy.loadable("patch.rpy"):
+                    "Sara and I have been having a friends with benefits relationship." if Sara_points >= 2 and not persistent.incest_patch == True:
                         scene CR2_ES1_p10
 
                         MC "Yeah, Sara and I have been having a friends with benefits relationship."
@@ -286,8 +281,6 @@ label CR2_ES1_menu:
                         jump CR2_ES1_menu_cancel
             else:
                 jump CR2_ES1_menu_cancel
-
-
 
 label CR2_ES1_menu_cancel:
     if CR2_ES1_day == 2:
@@ -326,7 +319,7 @@ label CR2_ES1_menu_cancel:
 
 label CR2_ES1_menu_bobfight:
     scene CR2_ES1_p9
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Are Mom and Dad fighting at the minute?"
     else:
         MC "Are Linda and Bob fighting at the minute?"
@@ -342,3 +335,4 @@ label CR2_ES1_menu_bobfight:
     $ CR2_ES1_q7 = False
     $ can_hide_windows = False
     jump CR2_ES1_menu
+

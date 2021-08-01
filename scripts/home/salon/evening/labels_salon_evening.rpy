@@ -10,3 +10,4 @@ label salon_evening1:
     show screen new_message_incoming1
     hide screen salon_evening_notclickable
     call screen salon_evening
+

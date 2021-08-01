@@ -19,6 +19,7 @@ image headmaster_S2_p18 = "images/school/headmaster_room/morning/S2/18.jpg"
 image headmaster_S2_p19 = "images/school/headmaster_room/morning/S2/19.jpg"
 image headmaster_S2_p20 = "images/school/headmaster_room/morning/S2/20.jpg"
 image headmaster_S2_p21 = "images/school/headmaster_room/morning/S2/21.jpg"
+
 label headmaster_S2:
     if headmaster_door_locked == True:
         hide screen map_button
@@ -31,6 +32,10 @@ label headmaster_S2:
         $ clickable = True
         hide screen school_corridor3_morning
         hide screen school_corridor3_day
+        if persistent.incest_patch == True:
+            $ Headmaster_name = __("Headmaster")
+        else:
+            $ Headmaster_name = __("Headmaster")
         jump school_corridor3_morning1
     else:
         $ can_hide_windows = True
@@ -82,7 +87,7 @@ label headmaster_S2:
         MC "It’s… uh…"
 
         scene headmaster_S2_p3
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "(Shit, I can’t tell him that I’m going away for the day to fuck my Mom’s brains out.)"
         else:
             MC "(Shit, I can’t tell him that I’m going away for the day to fuck Linda’s brains out.)"
@@ -246,3 +251,4 @@ label headmaster_S2:
                 $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
 
                 jump school_corridor3_morning1
+

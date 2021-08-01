@@ -7,7 +7,6 @@ screen scenes_gallery:
     $ start2 = gallery_page2 * maxperpage2
     $ end2 = min(start2 + maxperpage2 - 1, len(scenes_gallery_items) - 1)
 
-
     grid maxnumx2 maxnumy2:
         xfill True
         yfill True
@@ -29,7 +28,6 @@ screen scenes_gallery:
         for i in range(end2 - start2 + 1, maxperpage2):
             null
 
-
     grid maxnumx2 maxnumy2:
         xfill True
         yfill True
@@ -42,12 +40,8 @@ screen scenes_gallery:
                 $ total2 = scenes_gallery_items[i].num_images2()
                 $ partial2 = scenes_gallery_items[i].num_unlocked2
 
-
-
         for i in range(end2 - start2 + 1, maxperpage2):
             null
-
-
 
     if gallery_page2 > 0:
         textbutton "Previous":
@@ -60,7 +54,6 @@ screen scenes_gallery:
             xalign 0.9
             yalign 0.99999
 
-
     textbutton "Return":
         action [Hide("scenes_gallery"), Jump("pc_icon_label")]
         xalign 0.5
@@ -68,3 +61,4 @@ screen scenes_gallery:
     text "{size=+6}Scenes Gallery{/size}":
         xalign 0.5
         yalign 0.0
+

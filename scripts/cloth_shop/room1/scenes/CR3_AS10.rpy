@@ -1,6 +1,3 @@
-
-
-
 label CR3_AS10_label:
     if CR3_AS10_can == False:
         hide screen map_button
@@ -53,3 +50,4 @@ label CR3_AS10_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump cloth_shop_open_label
+

@@ -82,3 +82,4 @@ label MLR3_b_house_wait:
         $ can_hide_windows = False
         $ can_b_living_room = True
         jump b_house_bath_M1
+

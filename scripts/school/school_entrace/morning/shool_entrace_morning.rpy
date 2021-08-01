@@ -23,3 +23,4 @@ label school_entrance_morning2:
     show screen new_message_incoming1
     hide screen school_entrance_day_notclickable
     call screen school_entrance_morning
+

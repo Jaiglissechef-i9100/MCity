@@ -15,3 +15,4 @@ label caroline_room_night1:
         $ active_item = None
     $ can_hide_windows = False
     call screen caroline_room_night
+

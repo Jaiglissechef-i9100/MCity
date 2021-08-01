@@ -14,11 +14,11 @@ default Sidra_visited = 0
 default Isla_visited = 0
 
 
-default Sidra_NS_tits = nsb1("Tits",image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "Sidra_NV_tits_lab", number = "2")
+default Sidra_NS_tits = nsb1(__("Tits"),image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "Sidra_NV_tits_lab", number = "2")
 
-default Isla_NS_tits = nsb1("Tits",image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "Isla_NV_tits_lab", number = "2")
-default Isla_NS_kissing = nsb1("Kissing",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Isla_NV_kiss_lab", number = "1a ")
-default Isla_NS_pussy = nsb1("Pussy",image_idle = "images/NS_B/Pussy.png", image_hover = "images/NS_B/Pussy_hover.png", l_jump = "Isla_NV_pussy_lab", number = "4" )
+default Isla_NS_tits = nsb1(__("Tits"),image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "Isla_NV_tits_lab", number = "2")
+default Isla_NS_kissing = nsb1(__("Kissing"),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Isla_NV_kiss_lab", number = "1a ")
+default Isla_NS_pussy = nsb1(__("Pussy"),image_idle = "images/NS_B/Pussy.png", image_hover = "images/NS_B/Pussy_hover.png", l_jump = "Isla_NV_pussy_lab", number = "4" )
 
 label Ne_NV_lab:
     if Ne_NV == False:
@@ -270,3 +270,4 @@ screen Ne_NV_Sidra_scr:
             $ new_nsb_in_wake = False
         if nsb1.played == False:
             $ new_nsb_in_wake = True
+

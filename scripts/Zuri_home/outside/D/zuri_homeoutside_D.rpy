@@ -1,5 +1,3 @@
-
-
 label zuri_homeoutside_D1:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -12,3 +10,4 @@ label zuri_homeoutside_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen zuri_homeoutside_D_scr
+

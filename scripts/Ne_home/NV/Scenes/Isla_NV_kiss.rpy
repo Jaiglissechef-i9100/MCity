@@ -40,3 +40,4 @@ label Isla_NV_kiss_lab:
     MC "(Uh oh, I think that’s my queue to leave!)"
     Isla "*Yawn* What… time is it…?"
     jump Ne_NV_back
+

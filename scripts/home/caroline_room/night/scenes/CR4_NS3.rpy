@@ -357,7 +357,7 @@ label CR4_NS3_menu:
                             scene CR4_NS3_doggy_p38
                             Caroline "*Pant* Oh W-wow… That was… fucking amazing. *Gasp*"
                             MC "Sorry, Caroline. I hope I didn’t go too hard there; with the slapping and hair pulling."
-                            if renpy.loadable("patch.rpy"):
+                            if persistent.incest_patch == True:
                                 Caroline "N-No… it was *pant* perfect… You’re the best brother I could ever ask for..."
                             else:
                                 Caroline "N-No… it was *pant* perfect… You’re the best, [player_name]."
@@ -890,3 +890,4 @@ label CR4_NS3_menu:
                             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
                             $ can_hide_windows = False
                             jump corridor_morning1
+

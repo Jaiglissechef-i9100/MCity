@@ -139,3 +139,4 @@ label after_choice_sis_nerdy_evening_scene31r:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

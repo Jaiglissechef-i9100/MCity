@@ -4,8 +4,6 @@ image delilah_scene1_p3 = "images/school/pool/morning/scenes/delilah_scene1/3.jp
 image delilah_scene1_p4 = "images/school/pool/morning/scenes/delilah_scene1/4.jpg"
 image delilah_scene1_p5 = "images/school/pool/morning/scenes/delilah_scene1/5.jpg"
 
-
-
 label delilah_scene1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -55,3 +53,4 @@ label delilah_scene1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pool_morning1
+

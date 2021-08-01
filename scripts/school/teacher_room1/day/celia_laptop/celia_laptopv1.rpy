@@ -54,3 +54,4 @@ label celia_password_correct_v1:
     $ Judy_scene1_v1 = 1
     $ can_hide_windows = False
     jump teacher_room1_day1
+

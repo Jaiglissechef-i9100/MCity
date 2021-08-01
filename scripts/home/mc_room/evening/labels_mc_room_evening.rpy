@@ -26,3 +26,4 @@ label mc_room_evening1:
     hide screen mc_room_day_notclickable
     hide screen mc_room_morning_notclickable
     call screen mc_room_evening
+

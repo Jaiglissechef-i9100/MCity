@@ -1,7 +1,5 @@
 image a_bathroom_bg_M = "/images/a_home/Inside/Bathroom/M/1.jpg"
 
-
-
 label a_bathroom_M1:
 
     if LiR1_MAS8 == True and LiR1_MAS8_talked == False and day_time <=2:
@@ -13,7 +11,6 @@ label a_bathroom_M1:
 
     if LiR1_MAS9 == True:
         jump LiR1_MAS9_label
-
 
     if day_time == 1:
         jump a_bathroom_M2
@@ -37,3 +34,4 @@ label a_bathroom_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen a_bathroom_M_scr
+

@@ -107,7 +107,7 @@ label CR3_ES2_label:
 
         MC "Wait..."
         MC "Huh?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Jesus Christ! Who the hell is that, Sis?"
         else:
             MC "Jesus Christ! Who the hell is that, Caroline?"
@@ -149,3 +149,4 @@ label CR3_ES2_label:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump caroline_room_morning1
+

@@ -108,7 +108,7 @@ label SR3_we_home_end_label:
         scene SR3_we_home_end_p6
         MC "I’m serious, Sara. You’re so much cuter than she is. I love your breasts the way they are, I love your freckles, I loved your dress today."
         Sara "Then why do we have to pretend we aren’t a couple? I hate that..."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Sara… It’s complicated. A lot of people wouldn’t approve of a brother and sister dating. For your safety and mine, it’s best to keep ourselves out of the spotlight."
         else:
             MC "Sara… It’s complicated. A lot of people wouldn’t approve of our dating. For your safety and mine, it’s best to keep ourselves out of the spotlight."
@@ -164,3 +164,4 @@ label SR3_we_home_end_label:
     $ renpy.music.play('/sfx/Life of Riley.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump sister_nerdy_evening1
+

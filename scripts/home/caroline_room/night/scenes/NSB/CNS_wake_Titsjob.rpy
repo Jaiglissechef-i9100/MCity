@@ -13,7 +13,6 @@ image CR2_NS_Titsjob_p10 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjo
 image CR2_NS_Titsjob_p11 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjob/11.jpg"
 image CR2_NS_Titsjob_p12 = "images/home/caroline_room/night/scenes/CR2_NS/Titsjob/12.jpg"
 
-
 label CNS_wake_Titsjob_label:
     scene CR2_NS_Titsjob_p1
 
@@ -88,7 +87,7 @@ label CNS_wake_Titsjob_label:
 
     Caroline "I want you to imagine yourself having the semen sucked from your cock as you are forced to cum in my mouth."
     MC "Hnnnnggg!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "You’d quiver and moan and shake. You’d cry that it’s too sensitive. But I’m a good sister and I just wouldn’t stop sucking until I was certain that I’d drained every last droplet of cum from your body."
     else:
         Caroline "You’d quiver and moan and shake. You’d cry that it’s too sensitive. But I’m a good friend and I just wouldn’t stop sucking until I was certain that I’d drained every last droplet of cum from your body."
@@ -107,7 +106,6 @@ label CNS_wake_Titsjob_label:
     $ renpy.pause(0.7, hard = True)
     scene CR2_NS_Titsjob_p12 with dissolve
 
-
     MC "Wow…"
     Caroline "Well? Best titjob you’ve ever had?"
     MC "Hell yeah, there’s no competition…"
@@ -120,3 +118,4 @@ label CNS_wake_Titsjob_label:
     $ caroline_room_can_night_scene1 = False
     $ can_hide_windows = False
     jump corridor_morning1
+

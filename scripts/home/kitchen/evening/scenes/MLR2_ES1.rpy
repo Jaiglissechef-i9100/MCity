@@ -13,7 +13,6 @@ image MLR2_ES1_p7 = "images/home/kitchen/evening/scenes/MLR2_ES1/7.jpg"
 image MLR2_ES1_p8 = "images/home/kitchen/evening/scenes/MLR2_ES1/8.jpg"
 image MLR2_ES1_p9 = "images/home/kitchen/evening/scenes/MLR2_ES1/9.jpg"
 
-
 label MLR2_ES1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Fork_and_Spoon.mp3', channel="music1", loop=True, fadein = 2)
@@ -23,7 +22,7 @@ label MLR2_ES1_label:
     hide screen map_button
     scene MLR2_ES1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Looks like Mom’s doing some cleaning. She probably hasn’t noticed I’m in the kitchen yet.)"
     else:
         MC "(Looks like Linda’s doing some cleaning. She probably hasn’t noticed I’m in the kitchen yet.)"
@@ -33,17 +32,16 @@ label MLR2_ES1_label:
 
     window hide
     menu:
-        "Grab Mom’s ass." if renpy.loadable("patch.rpy"):
+        "Grab Mom’s ass." if persistent.incest_patch == True:
             jump MLR2_ES1_grab_ass
 
-        "Grab Linda’s ass." if not renpy.loadable("patch.rpy"):
+        "Grab Linda’s ass." if persistent.incest_patch == False:
             jump MLR2_ES1_grab_ass
 
-        "Wrap your hands around Mom’s waist." if renpy.loadable("patch.rpy"):
+        "Wrap your hands around Mom’s waist." if persistent.incest_patch == True:
             jump MLR2_ES1_waist
-        "Wrap your hands around Linda’s waist." if not renpy.loadable("patch.rpy"):
+        "Wrap your hands around Linda’s waist." if persistent.incest_patch == False:
             jump MLR2_ES1_waist
-
 
 label MLR2_ES1_grab_ass:
     scene MLR2_ES1_p2a
@@ -62,7 +60,7 @@ label MLR2_ES1_grab_ass:
     scene MLR2_ES1_p2aaa
 
     Mom "Huh?! Oh shit!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Sorry, I thought that was your father!"
         MC "Sorry, Mom. I-"
     else:
@@ -71,7 +69,6 @@ label MLR2_ES1_grab_ass:
     Mom "No, don’t apologise! You didn’t do anything wrong!"
     Mom "Sorry. That bastard is just, ALWAYS looking for sex when he hasn’t even finished the housework I gave him to do!"
     jump after_menu_MLR2_ES1_label
-
 
 label MLR2_ES1_waist:
     scene MLR2_ES1_p2b
@@ -89,7 +86,7 @@ label MLR2_ES1_waist:
     scene MLR2_ES1_p2bbb
 
     Mom "Huh?! Oh shit!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Sorry, I thought that was your father!"
         MC "Sorry, Mom. I-"
     else:
@@ -98,8 +95,6 @@ label MLR2_ES1_waist:
     Mom "No, don’t apologise! You didn’t do anything wrong!"
     Mom "Sorry, that bastard is just ALWAYS looking for sex when he hasn’t even finished the housework I gave him to do!"
     jump after_menu_MLR2_ES1_label
-
-
 
 label after_menu_MLR2_ES1_label:
     scene MLR2_ES1_p3
@@ -112,7 +107,7 @@ label after_menu_MLR2_ES1_label:
 
     Mom "Now, if I remember, I was bent over like, this here."
     Mom "Go ahead and play with my ass. You’re allowed to."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Thanks, Mom!"
     else:
         MC "Thanks, Linda!"
@@ -156,3 +151,4 @@ label after_menu_MLR2_ES1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump kitchen_morning1
+

@@ -17,10 +17,11 @@ default Ce_R2_rep = True
 default Ne_rep = True
 default CR4_rep = True
 default Ci_S1_rep = True
+
 label gallery_label:
-    if renpy.loadable("patch.rpy"):
-        $ Linda_name = "Mom"
-        $ Liza2_name = "Auntie"
+    if persistent.incest_patch == True:
+        $ Mom_name = __("Mom")
+        $ Liza2_name = __("Auntie")
     else:
         $ Mom_name = "Linda"
         $ Liza2_name = "Liza"
@@ -30,16 +31,19 @@ label gallery_label:
         $ scenes_gallery_photos.add1("img3_sara_night_visit_v1")
         $ scenes_gallery_photos.add1("img4_sara_botlle_game_v1")
         $ can_gallery_scenes_sara_unlocked = False
+
     if can_gallery_scenes_celia_unlocked == True and Celia_points >= 2:
         $ scenes_gallery_photos.add1("img5_celia_toilet_kiss_v1")
         $ scenes_gallery_photos.add1("img6_celia_toilet_fuck_v1")
         $ scenes_gallery_photos.add1("img7_celia_vibrator_classroom_v1")
         $ can_gallery_scenes_celia_unlocked = False
+
     if can_gallery_scenes_caroline_unlocked == True and Caroline_points >= 2:
         $ scenes_gallery_photos.add1("img8_caroline_ass_cosplay_v1")
         $ scenes_gallery_photos.add1("img9_violet_blowjob_v1")
         $ scenes_gallery_photos.add1("img10_caroline_visit_bjfjhj_v1")
         $ can_gallery_scenes_caroline_unlocked = False
+
     if can_gallery_scenes_ml_unlocked == True and ml_points >= 2:
         $ scenes_gallery_photos.add1("img11_mom_car_v1")
         $ scenes_gallery_photos.add1("img12_mom_work_hj_v1")
@@ -57,6 +61,7 @@ label gallery_label:
         $ scenes_gallery_photos.add1("img15_MLR2_NS2_rep")
         $ scenes_gallery_photos.add1("img16_MLR2_weekend_rep")
         $ MLR2_rep = False
+
     if Z_rep == True and Z_points >= 2:
         $ scenes_gallery_photos.add1("img20_Z_ES2_rep")
         $ scenes_gallery_photos.add1("img21_Z_ES3_rep")
@@ -80,7 +85,7 @@ label gallery_label:
         $ scenes_gallery_photos.add1("img33_CR3_NS5_rep")
         $ CR3_rep = False
 
-    if Li_points >=2 and LiR1_rep == True:
+    if Li_points >=2 and Y_points >=2 and LiR1_rep == True:
         $ scenes_gallery_photos.add1("img34_LiR1_NS1_rep")
         $ scenes_gallery_photos.add1("img35_LiR1_NS2_rep")
         $ scenes_gallery_photos.add1("img36_LiR1_MS6_rep")
@@ -88,6 +93,7 @@ label gallery_label:
         $ scenes_gallery_photos.add1("img38_LiR1_MS9_rep")
         $ scenes_gallery_photos.add1("img39_LiR1_NS5_rep")
         $ LiR1_rep = False
+
     if ml_points >=4 and MLR3_rep == True:
         $ scenes_gallery_photos.add1("img40_MLR3_B_event_rep")
         $ scenes_gallery_photos.add1("img41_MLR3_b_house_shower_rep")
@@ -135,3 +141,4 @@ label gallery_label:
 
     scene main_deskop
     call screen scenes_gallery
+

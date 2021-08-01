@@ -1,5 +1,3 @@
-
-
 image Zv2_ES4_lie_p1 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/1.jpg"
 image Zv2_ES4_lie_p2 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/2.jpg"
 image Zv2_ES4_lie_p3 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Lie/3.jpg"
@@ -48,6 +46,7 @@ image Zv2_ES4_truth_p28 = "images/Zuri_home/home/E/scenes/Zv2_ES4/Truth/28.jpg"
 image Zv2_ES4_truth_p28a = "images/Zuri_home/home/E/scenes/Zv2_ES4/Truth/28a.jpg"
 
 default Z_points = 1
+
 label Zv2_ES4_label:
     if Zv2_true_counter > 1:
         jump Zv2_ES4_truth_label
@@ -153,7 +152,7 @@ label Zv2_ES4_truth_label:
     Suri "I think he’d- ahh- like that, Zuri! Oooh!"
 
     scene Zv2_ES4_truth_p15
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "Well, [player_name] - would you like to fuck twins at the same time?"
     else:
         Zuri "Well, [player_name] - would you like to fuck me and Suri at the same time?"
@@ -177,13 +176,12 @@ label Zv2_ES4_truth_label:
     scene Zv2_ES4_truth_p18
 
     Suri "Why do I always have to be on the bottom though?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Zuri "It’s tradition at this point, I guess. Plus, since I’m the older twin..."
     else:
         Zuri "It’s tradition at this point, I guess. Plus, since I’m the older than you."
     Suri "Oh c’mon! You came out thirty minutes before me!"
     Zuri "Still technically older!"
-
 
     scene Zv2_ES4_truth_p19
 
@@ -210,7 +208,7 @@ label Zv2_ES4_truth_label:
 
     Zuri "AH! AHHH! OOOHHH! FUCK! FUCK!"
     Suri "You should have heard her, back in university, kid. Last time we did this position, she had a cock in her ass, and two guys sucking her tits."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Suri "They drove my sister INSANE with pleasure, that night!"
     else:
         Suri "They drove Zuri INSANE with pleasure, that night!"
@@ -219,7 +217,7 @@ label Zv2_ES4_truth_label:
 
     Zuri "Yes! Yes! Yes! Mmm! Oh God!"
     Zuri "I’m cumming! I’m cumming!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mmm! Hnnng! (Damn, her pussy is as good as her sister's! But then again, that’s to be expected!)"
     else:
         MC "Mmm! Hnnng! (Damn, her pussy is as good as Suri is! But then again, that’s to be expected!)"
@@ -284,7 +282,7 @@ label Zv2_ES4_truth_aftermenu:
     $ renpy.pause(3,hard = True)
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene Zv2_ES4_truth_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Suri "Well, kid? Did you enjoy fucking twins?"
     else:
         Suri "Well, kid? Did you enjoy fucking us?"
@@ -292,7 +290,6 @@ label Zv2_ES4_truth_aftermenu:
     Zuri "I knew it would be."
     Zuri "Thank you again, for everything. You’ve made us both a shit-ton of money."
     Suri "We’ll be sure to come to you again if we can use your help."
-
 
     "This is the end of content for this character. (Unless Patrons decide otherwise.)"
 
@@ -305,7 +302,6 @@ label Zv2_ES4_truth_aftermenu:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
-
 
 label Zv2_ES4_lie_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -367,7 +363,6 @@ label Zv2_ES4_lie_label:
     Zuri "OOOOHHHH!"
     MC "Jesus Christ!"
 
-
     scene Zv2_ES4_lie_p9
 
     MC "Oh fuck… Oh fuck… She’s dead…"
@@ -379,11 +374,11 @@ label Zv2_ES4_lie_label:
     Suri "You better get the heck out of here though. She’s gonna murder you if she sees you again."
     MC "W-Why don’t you want to kill me too?"
     Suri "I do. But you’ve already ruined us financially. There’s no sense in either of us going to prison over you."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Suri "Zuri and I will rebuild. We’ll find some other rich CEO’s son and screw him for personal details."
     else:
         Suri "Zuri and I will rebuild. We’ll find some other corporate mole and screw him for personal details."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Suri "Now, get the hell out of here, kid - and let me take care of my sister."
     else:
         Suri "Now, get the hell out of here, kid - and let me take care of Zuri."
@@ -399,9 +394,7 @@ label Zv2_ES4_lie_label:
     MC "…"
     MC "(Why do I feel like an asshole…)"
 
-
     "This is the end of content for this character. (Unless Patrons decide otherwise.)"
-
 
     $ Zv2_ES4 = False
     $ day_time = 4
@@ -412,3 +405,4 @@ label Zv2_ES4_lie_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
+

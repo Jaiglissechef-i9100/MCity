@@ -13,3 +13,4 @@ label bathroom_day1:
     show screen new_message_incoming1
     $ can_hide_windows = False
     call screen bathroom_day
+

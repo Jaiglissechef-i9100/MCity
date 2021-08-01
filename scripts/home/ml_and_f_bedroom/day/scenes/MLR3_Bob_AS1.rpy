@@ -27,7 +27,6 @@ image MLR3_Bob_Trip_AS1_p7 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_
 image MLR3_Bob_Trip_AS1_p8 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_AS1/Trip/8.jpg"
 image MLR3_Bob_Trip_AS1_p9 = "/images/home/ml_and_f_bedroom/day/scenes/MLR3_Bob_AS1/Trip/9.jpg"
 
-
 label MLR3_Bob_AS1:
     hide screen displayTextScreen
     hide screen map_button
@@ -58,7 +57,7 @@ label MLR3_Bob_AS1:
             MC "I just wanted to chat with you about a few things."
 
             scene MLR3_Bob_AS1_p3
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "Ahh, some father-son time."
             else:
                 Dad "Some quality time with your father-figure."
@@ -157,14 +156,14 @@ label MLR3_Bob_AS1:
                     scene MLR3_Bob_AS1_p17
 
                     MC "Honestly, the bigger the better!"
-                    if renpy.loadable("patch.rpy"):
+                    if persistent.incest_patch == True:
                         Dad "Nice! Good man! That’s just another reason I fell in love with your mother: her tits are amazing!"
                     else:
                         Dad "Nice! Good man! That’s just another reason I fell in love with Linda: her tits are amazing!"
                     MC "I know!"
 
                     scene MLR3_Bob_AS1_p16
-                    if renpy.loadable("patch.rpy"):
+                    if persistent.incest_patch == True:
                         Dad "… Did you just say, you know that your own mother’s tits are amazing?"
                         MC "Uh… (FUCK!) N-No! I meant… I know that… you are… in love with Mom for many reasons!"
                     else:
@@ -192,6 +191,7 @@ label MLR3_Bob_AS1:
                     jump MLR3_Bob_AS1_menu3
         if MLR3_Bob_AS1 > 4:
             jump MLR3_Bob_AS1_menu
+
 label MLR3_Bob_AS1_menu3:
     scene MLR3_Bob_AS1_p15
 
@@ -229,6 +229,7 @@ label MLR3_Bob_AS1_menu3:
 
             $ MLR3_Bob_AS1_answer += 1
             jump MLR3_Bob_AS1_menu
+
 label MLR3_Bob_AS1_menu2:
     scene MLR3_Bob_AS1_p18
     Dad "So, what kinda hair colour do you go for in women?"
@@ -262,11 +263,12 @@ label MLR3_Bob_AS1_menu2:
         "Black Hair":
 
             MC "I like really dark hair, almost black."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "Ahh, same as me. That’s one of the many reasons I fell for your mother!"
             else:
                 Dad "Ahh, same as me. That’s one of the many reasons I fell for Linda!"
             jump MLR3_Bob_AS1_menu
+
 label MLR3_Bob_AS1_menu:
     if MLR3_Bob_AS1_q1 == False and MLR3_Bob_AS1_q2 == False and MLR3_Bob_AS1_q3 == False and MLR3_Bob_AS1_q4 == False and MLR3_Bob_AS1_q5 == False and MLR3_Bob_AS1_q6 == False:
         $ MLR3_Bob_AS1_answer += 1
@@ -324,7 +326,7 @@ label MLR3_Bob_AS1_menu:
             Bob "Go and get yourself laid, [player_name]."
 
             MC "What about you? Do you not need it?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Bob " Relax, I’ve got plenty. Plus, your mother is also away on some business trip. Ironically, it's the same time as yours, so I’ve got no use for it at all."
             else:
                 Bob " Relax, I’ve got plenty. Plus, Linda is also away on some business trip. Ironically, it's the same time as yours, so I’ve got no use for it at all."
@@ -347,7 +349,7 @@ label MLR3_Bob_AS1_menu:
 
             MC "Why were you yelling at [Mom_name]? You two aren’t planning to get divorced, are you?"
             Dad "I uh… well…"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "There’s a lot of complex issues going on between your mother and me right now."
             else:
                 Dad "There’s a lot of complex issues going on between Linda and me right now. "
@@ -362,7 +364,7 @@ label MLR3_Bob_AS1_menu:
             Dad "We’re both mature adults and we’re going to work through this. "
 
             scene MLR3_Bob_AS1_p16
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "At least… we will when your mother finally agrees to go to mediation and therapy with me."
             else:
                 Dad "At least… we will when Linda finally agrees to go to mediation and therapy with me."
@@ -429,7 +431,7 @@ label MLR3_Bob_AS1_menu:
 
             MC "What did you think of Caroline opening up her own shop?"
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "I’m a capitalist, at heart. And nothing makes my heart beat prouder, than seeing my own daughter, launch her own business."
             else:
                 Dad "I’m a capitalist, at heart. And nothing makes my heart beat prouder, than seeing someone I saw growing up, launch her own business."
@@ -437,7 +439,7 @@ label MLR3_Bob_AS1_menu:
                 scene MLR3_Bob_AS1_p17
 
                 Dad "Oh, I heard through the grapevine that YOU’VE been helping her."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Dad "Nice work, champ! Doing your old man proud. You always gotta stick by your siblings. They’ll be with you longer than your mother or I will."
                 else:
                     Dad "Nice work, [player_name]! Doing me proud. You always gotta stick by your siblings. They’ll be with you longer than Linda or I will."
@@ -458,7 +460,7 @@ label MLR3_Bob_AS1_menu:
             Dad "How did we meet? God… We met at a young business leaders conference in Vienna."
 
             scene MLR3_Bob_AS1_p15
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "It was an international event for young entrepreneurs under twenty five. Your mom and I hit it off on the first night of the conference."
             else:
                 Dad "It was an international event for young entrepreneurs under twenty five. Linda and I hit it off on the first night of the conference."
@@ -488,7 +490,7 @@ label MLR3_Bob_AS1_menu:
             scene MLR3_Bob_AS1_p15
 
             MC "What did you do to win [Mom_name] over?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Dad "Your mother was a tough cookie, at first. I’m not gonna lie: she turned me down when I asked her out for drinks, at first."
             else:
                 Dad "Linda was a tough cookie, at first. I’m not gonna lie: she turned me down when I asked her out for drinks, at first."
@@ -508,7 +510,6 @@ label MLR3_Bob_AS1_menu:
             jump MLR3_Bob_AS1_menu
         "Bye.":
 
-
             if MLR3_Bob_AS1_answer > 0:
                 $ MLR3_Bob_AS1 += 1
             $ renpy.music.stop(channel="music1", fadeout=1)
@@ -517,3 +518,4 @@ label MLR3_Bob_AS1_menu:
             $ MLR3_Bob_AS1_answer = 0
             $ MLR3_Bob_AS1_can = False
             jump parents_bedroom_morning1
+

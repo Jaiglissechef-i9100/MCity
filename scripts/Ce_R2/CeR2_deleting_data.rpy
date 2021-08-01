@@ -87,3 +87,4 @@ label CeR2_del_data:
     $ CeR2_MS1_talk = False
     $ CeR2_MS1 = True
     jump school_corridor2_morning1
+

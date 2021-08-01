@@ -10,3 +10,4 @@ label a_bedroom_E1:
     show screen map_button
     show screen new_message_incoming1
     call screen a_bedroom_E_scr
+

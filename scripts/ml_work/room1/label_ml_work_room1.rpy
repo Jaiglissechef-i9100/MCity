@@ -8,3 +8,4 @@ label ml_work_room1_day1:
     show screen map_button
     show screen new_message_incoming1
     call screen ml_work_room1_day
+

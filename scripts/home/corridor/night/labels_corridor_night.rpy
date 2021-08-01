@@ -15,3 +15,4 @@ label corridor_night1:
     show screen new_message_incoming1
     hide screen corridor_night_notclickable
     call screen corridor_night
+

@@ -7,3 +7,4 @@ screen Ce_gym_M_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Hide("displayTextScreen"),Jump("Ce_corridor2_M1")]
+

@@ -445,7 +445,7 @@ label SR3_we_bath_rep:
         Sara "Just in the main foyer will be fine."
         MC "Great. I’ll see you there, Sara. I’m really looking forward to our day out."
         Sara "Me too, [player_name]. I’m so excited!!!"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Just remember, don’t run up and kiss me or anything. We don’t want to look too romantic when we go out, okay? We’re supposed to be keeping this on the down low. You don’t want your whole class bullying you for dating your brother, do you?"
         else:
             MC "Just remember, don’t run up and kiss me or anything. We don’t want to look too romantic when we go out, okay? We’re supposed to be keeping this on the down low. You don’t want your whole class bullying you for dating with me, do you?"
@@ -455,3 +455,4 @@ label SR3_we_bath_rep:
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump pc_icon_label
+

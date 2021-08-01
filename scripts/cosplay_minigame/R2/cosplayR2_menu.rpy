@@ -55,3 +55,4 @@ screen cosplayR2_menu_screen:
         idle "images/cosplay_minigame/R3/Outfit_Close.png"
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [Hide ("cosplayR2_menu_screen"),Jump("cosplay_CR3_close")]
+

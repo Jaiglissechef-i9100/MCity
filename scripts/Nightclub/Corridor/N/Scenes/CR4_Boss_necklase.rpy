@@ -117,3 +117,4 @@ label CR4_Boss_next_day:
     $ clickable = True
     hide screen boss_office_N_scr
     jump boss_office_N
+

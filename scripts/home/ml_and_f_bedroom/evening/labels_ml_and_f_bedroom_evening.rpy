@@ -10,3 +10,4 @@ label parents_bedroom_evening1:
     show screen new_message_incoming1
     hide screen parents_bedroom_evening_notclickable
     call screen parents_bedroom_evening
+

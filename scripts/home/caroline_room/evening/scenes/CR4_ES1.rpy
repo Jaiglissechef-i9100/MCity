@@ -72,7 +72,7 @@ label CR4_ES1_label:
         scene CR4_ES1_p3
         MC "Nothing much, I just dropped by to say hi."
         Caroline "Well, ‘hi’ then. Hehe!"
-        if Li_points >= 2 and CR4_ES1_q4 == False:
+        if Li_points >= 2 and Y_points >= 2 and CR4_ES1_q4 == False:
             $ CR4_ES1_q4 = True
         if SR2_grounded == True and  CR4_ES1_q2 == False:
             $ CR4_ES1_q2 = True
@@ -192,7 +192,7 @@ label CR4_ES1_menu:
             MC "Yeah."
 
             scene CR4_ES1_p13
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Caroline "I uh… I wasn’t in a great place after Grandma passed away."
             else:
                 Caroline "I uh… I wasn’t in a great place after my grandma passed away."
@@ -316,7 +316,7 @@ label CR4_ES1_menu:
             scene CR4_ES1_kiss_p12
             Caroline "How about I go even lower now?"
             Caroline "Would you like me to wrap my lips around your hard cock?"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all our family home!)"
             else:
                 MC "Mmm… (Damn, she’s so hard to resist. But this is a TERRIBLE idea with all of our roommates home!)"
@@ -370,3 +370,4 @@ label CR4_ES1_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump caroline_room_morning1
+

@@ -51,3 +51,4 @@ label Ce_closed:
     MC "It's locked. I need a key."
     $ clickable = True
     jump Ce_ele_corridor_M1
+

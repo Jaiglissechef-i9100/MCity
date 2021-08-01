@@ -8,3 +8,4 @@ label teacher_room2_day1:
     show screen map_button
     show screen new_message_incoming1
     call screen teacher_room2_day
+

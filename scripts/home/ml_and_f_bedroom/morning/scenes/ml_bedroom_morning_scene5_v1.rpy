@@ -28,6 +28,7 @@ image ml_bedroom_morning_scene5_v1_p27 = "/images/home/ml_and_f_bedroom/morning/
 
 image ml_bedroom_morning_scene5_v1_p20anim = Movie(play="videos/Linda-MorningS5-1.webm", loop = True )
 image ml_bedroom_morning_scene5_v1_p21anim = Movie(play="videos/Linda-MorningS5-2.webm", loop = True )
+
 label ml_bedroom_morning_scene5_v1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
@@ -37,9 +38,9 @@ label ml_bedroom_morning_scene5_v1_label:
     hide screen map_button
     scene black
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I think Mom’s changing now. If I’m quick I might be able to sneak a peek!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(I think Linda’s changing now. If I’m quick I might be able to sneak a peek!)"
     scene ml_bedroom_morning_scene5_v1_p1 with dissolve
     MC "(Perfect timing!)"
@@ -77,19 +78,19 @@ label ml_bedroom_morning_scene5_v1_label2:
 
     scene ml_bedroom_morning_scene5_v1_p6
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Actually - instead of leaving, I could take this chance to talk with Mom about getting a job.)"
         MC "Hey, Mom!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Actually - instead of leaving, I could take this chance to talk with Linda about getting a job.)"
         MC "Hey, Linda!"
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
     scene ml_bedroom_morning_scene5_v1_p7
     Mom "Hi, Sweetie. I didn’t see you there. What’s up?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I had been talking with Dad, and he thought it would be a good idea for me to start earning money now."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "I had been talking with Bob and he thought it would be a good idea for me to start earning money now."
     MC "He said you might have some work for me?"
 
@@ -97,9 +98,9 @@ label ml_bedroom_morning_scene5_v1_label2:
     Mom "Hmm… I’m not sure. I can’t think of any work I need done right now."
     MC "How about in your office building?"
     Mom "I’m not sure."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Please, Mom! I really need the money. I can’t just keep begging Dad for spare change!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Please, Linda! I really need the money. I can’t just keep begging Bob for spare change!"
 
     scene ml_bedroom_morning_scene5_v1_p9
@@ -116,9 +117,9 @@ label ml_bedroom_morning_scene5_v1_label2:
     $ renpy.pause(2, hard = True)
 
     scene ml_bedroom_morning_scene5_v1_p11
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Where are we going, Mom?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Where are we going, Linda?"
     Mom "Just one more turn and then we’ll be there. "
     Mom "This is one of the car parks, near where I work."
@@ -135,9 +136,9 @@ label ml_bedroom_morning_scene5_v1_label2:
     Mom "(Okay, you can do this. You’ve rehearsed it in your mind a hundred times!)"
 
     scene ml_bedroom_morning_scene5_v1_p14
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Is everything okay, Mom? You’re looking a little nervous."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Is everything okay, Linda? You’re looking a little nervous."
     Mom "I’m fine. Okay, here’s what’s going to happen."
 
@@ -182,9 +183,9 @@ label ml_bedroom_morning_scene5_v1_label2_menu:
             MC "What if I have questions after the minute is up?"
             scene ml_bedroom_morning_scene5_v1_p15
             Mom "You’ll just have to contain your curiosity - because if you ask me ANY questions about what happens, you won’t be getting that job."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "(Gee… Mom’s pretty serious about this.)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 MC "(Gee… Linda’s pretty serious about this.)"
 
             $ ml_bedroom_morning_scene5_v1_label2_menu_q3 = False
@@ -192,6 +193,7 @@ label ml_bedroom_morning_scene5_v1_label2_menu:
                 jump ml_bedroom_morning_scene5_v1_label2_menu_after
             else:
                 jump ml_bedroom_morning_scene5_v1_label2_menu
+
 label ml_bedroom_morning_scene5_v1_label2_menu_after:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/OctoBlues.mp3', channel="music1", loop=True, fadein = 2)
@@ -207,9 +209,9 @@ label ml_bedroom_morning_scene5_v1_label2_menu_after:
     scene ml_bedroom_morning_scene5_v1_p18
     Mom "(God… He’s so handsome.)"
     Mom "(I have to kiss him. This could be my only chance.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(I hope he doesn’t say anything to his father about this.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "(I hope he doesn’t say anything to Bob about this.)"
 
     scene ml_bedroom_morning_scene5_v1_p19
@@ -220,9 +222,9 @@ label ml_bedroom_morning_scene5_v1_label2_menu_after:
     scene ml_bedroom_morning_scene5_v1_p20
     MC "(OH MY GOD!)"
     scene ml_bedroom_morning_scene5_v1_p20anim with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Mom’s full-on making out with me!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Linda’s full-on making out with me!)"
     MC "(I can feel her tongue in my mouth, and everything!)"
 
@@ -233,9 +235,9 @@ label ml_bedroom_morning_scene5_v1_label2_menu_after:
     Mom "(I wish this moment would last forever. It’s like a dream come true, right now.)"
 
     scene ml_bedroom_morning_scene5_v1_p22
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(If I think about this when his father fucks tonight, I might even climax, for a change.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "(If I think about this when Bob fucks me tonight, I might even climax, for a change.)"
     Mom "(I have to contain myself… but right now, I could just rip [player_name]’s clothes off and ride him in the car seat.)"
 
@@ -258,22 +260,22 @@ label ml_bedroom_morning_scene5_v1_label2_menu_after:
 
     scene ml_bedroom_morning_scene5_v1_p26
     MC "Oh… O-Okay…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Why would she do that? I don’t understand it… She’s my mother.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Why would she do that? I don’t understand it…)"
     MC "(I mean, unless she has a crush on me, or something? But that doesn't make sense.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(If Mrs. Celia didn’t want to date me, how could my own mom be interested?)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(If Mrs. Celia didn’t want to date me, how could she be interested?)"
 
     scene ml_bedroom_morning_scene5_v1_p27
     Mom "Ahem... I work in the building, just round the front of this carpark."
     Mom "If you drop by tomorrow afternoon, I’ll set you up with a job."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Th-Thanks, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Th-Thanks, Linda."
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
@@ -284,3 +286,4 @@ label ml_bedroom_morning_scene5_v1_label2_menu_after:
     $ can_ml_work_day_scene1 = False
     $ can_hide_windows = False
     jump mc_room_morning1
+

@@ -34,9 +34,7 @@ label CR2_NS3_label:
         $ can_hide_windows = False
         jump caroline_room_morning1
 
-
-
-screen say22(who=player_name1, what="Drunk Caroline!? She's a mess after that robbery! She's probably in her bedroom. Maybe I should check on her?"):
+screen say22(who=player_name1, what=__("Drunk Caroline!? She's a mess after that robbery! She's probably in her bedroom. Maybe I should check on her?")):
     key "hide_windows" action NullAction()
     modal True
     zorder 104
@@ -59,3 +57,4 @@ screen say22(who=player_name1, what="Drunk Caroline!? She's a mess after that ro
                 text who id "who" style "say_label"
 
         text what id "what" style "say_dialogue"
+

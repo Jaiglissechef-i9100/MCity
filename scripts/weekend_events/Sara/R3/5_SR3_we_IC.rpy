@@ -125,7 +125,7 @@ screen SR3_we_IC_shop_scr:
             focus_mask True
             idle "images/v71/2_WE/4_Ice_Cream/B1.png"
             hover "images/v71/2_WE/4_Ice_Cream/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Salesman")
+            hovered Show("displayTextScreen", displayText = __("Salesman"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("SR3_we_IC_label")]
             unhovered Hide("displayTextScreen")
@@ -253,7 +253,7 @@ label SR3_we_IC_shop_table_romantic_menu:
                 Sara "I guess not. It’s just… I never imagined myself sitting in this place alone. It’s kinda… depressing, in a way. Especially when I had so many happy memories with her here."
                 MC "Make sure to speak to her. I’m sure she has just as many fond memories of here as you do."
                 scene SR3_we_IC_p14
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Sara "You’re probably right, [player_name]. I’ll see if I can arrange a sisterly reunion."
                 else:
                     Sara "You’re probably right, [player_name]. I’ll see if I can arrange a friends reunion."
@@ -289,13 +289,13 @@ label SR3_we_IC_shop_table_not_romantic_menu:
                 MC "Ahaha! She actually said, “doing the cybersex”."
                 scene SR3_we_IC_p14
                 Sara "Yup! That made me cringe WAAAY harder than getting caught, to be honest. Haha!"
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Sara "Anyway, things have started to settle down now. She’s started bringing me cups of coffee up to my room and doing some mother-daughter chats."
                 else:
                     Sara "Anyway, things have started to settle down now. She’s started bringing me cups of coffee up to my room and doing some adult chats."
                 MC "I think [Mom_name] was hurt by your grades dropping like that."
                 scene SR3_we_IC_p13
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Sara "You’re right, [player_name]. [Mom_name]’s an accomplished businesswoman. I don’t think she wants to see one of her daughters end up wasting away as a jobless loser playing video games."
                 else:
                     Sara "You’re right, [player_name]. [Mom_name]’s an accomplished businesswoman. I don’t think she wants to see you end up wasting away as a jobless loser playing video games."
@@ -310,7 +310,7 @@ label SR3_we_IC_shop_table_not_romantic_menu:
                 MC "(Whispered) ...do you understand why we can just make this a normal date?"
                 scene SR3_we_IC_p13
                 Sara "*Sigh* I do… Social pressure, societal norms, yada yada."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Sara "Just tell me one thing, [player_name]. If I wasn’t your sister, would you be proud to call me your girlfriend in public?"
                 else:
                     Sara "Just tell me one thing, [player_name]. If I wasn’t your best friend, would you be proud to call me your girlfriend in public?"
@@ -367,7 +367,7 @@ label SR3_we_IC_shop_table_romantic_con:
     MC "How could I possibly say no to dating you?"
     Sara "Aww, but you aren’t worried about us being seen together in public?"
     scene SR3_we_IC_p21
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Maybe a little bit. I mean, you are my sister, and people from school are DEFINITELY gonna talk."
     else:
         MC "Maybe a little bit. I mean, you are my close friend, and people from school are DEFINITELY gonna talk."
@@ -537,14 +537,14 @@ label SR3_we_IC_shop_table_romantic_con:
     Sara "Yes."
     Lily "Like, dating dating?"
     MC "Yes."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "But isn’t he, like, your… brother?"
     else:
         Lily "But isn’t he, like, your… very close friend?"
     Sara "Yes, Lily! Will you just fucking drop it?!"
     scene SR3_we_IC_p66
     Lily "Woo… I really shoulda seen this coming. The dick pics, the spin-the-bottle in your bedroom."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "So… you’re brother and sister… but you’re also going on dates. In public."
     else:
         Lily "So… you’re very close friends that live together… but you’re also going on dates. In public."
@@ -554,7 +554,7 @@ label SR3_we_IC_shop_table_romantic_con:
     Sara "Kill me now…"
     scene SR3_we_IC_p64
     Lily " I’m just sayin’, people are gonna talk. This is, like, prime gossip right here."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "BREAKING NEWS! Sara from class 8E has fucked her own brother from class 12F!"
     else:
         Lily "BREAKING NEWS! Sara from class 8E has fucked her own friend from class 12F!"
@@ -608,10 +608,14 @@ label SR3_MC_give_phone_choice:
     menu:
         "Give Lily your phone number.":
             scene SR3_we_IC_p77
-            MC "Uh, sure. It’s 421-6870-419."
-            Lily "Seriously? That’s like just one digit away from being awesome at every single instance."
-            MC "I know, don’t remind me."
-            Lily "I mean, you could have had 420-6969-420. That would have been the fucking bomb!"
+            if preferences.language == "french":
+                MC "Euh, ouai bien sûr. C'est le 06 07 08 09 10. Tu te rappeleras ?"
+                Lily "Serieux ? C'est pas par-se que j'ai des mêches blondes que sa y est..."
+            else:
+                MC "Uh, sure. It’s 421-6870-419."
+                Lily "Seriously? That’s like just one digit away from being awesome at every single instance."
+                MC "I know, don’t remind me."
+                Lily "I mean, you could have had 420-6969-420. That would have been the fucking bomb!"
             Lily "Ahaha, anyway! Enjoy your day with Sara. If you ever fancy a girl with bigger… assets, then don’t wait to get in touch."
             $ SR3_MC_give_phone_number = True
             jump SR3_we_IC_shop_table_end
@@ -644,7 +648,7 @@ label SR3_we_IC_shop_table_not_romantic_con:
     Salesman "And here’s your order. We have: one juicy orange, one mint supreme, and one fruity deluxe with watermelon and strawberry."
     Salesman "Enjoy your meal, and may I add, you two make an adorable couple."
     Sara "Aww, thank you! Did you hear that, [player_name]?! Eeeek!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I, uh... we’re not a couple! She’s my sister."
     else:
         MC "I, uh... we’re not a couple! She’s my friend."
@@ -655,7 +659,7 @@ label SR3_we_IC_shop_table_not_romantic_con:
     Sara "I’m so excited!!"
     scene SR3_we_IC_p20
     Sara "Thanks again for coming to the mall with me today, [player_name]. I know you’re worried about people finding out about us, so I appreciate you taking a bit of a risk - even if it’s just a secret date today."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Listen, even if this wasn’t a date, Sara, I’d still be coming out here with you. You’re my sister, after all, and I love spending time with you."
     else:
         MC "Listen, even if this wasn’t a date, Sara, I’d still be coming out here with you. You’re my girlfriend, after all, and I love spending time with you."
@@ -673,7 +677,7 @@ label SR3_we_IC_shop_table_not_romantic_con:
     MC "Haha! Sorry, Sara.."
     scene SR3_we_IC_p23
     MC "(Whispered) I love you, Sara, but I’ve already destroyed my reputation at school, after the incident with Ms. Celia."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Whispered) Can you imagine what would happen if they also discovered I was dating my sister? My reputation would never recover."
     else:
         MC "(Whispered) Can you imagine what would happen if they also discovered I was dating my close friend? My reputation would never recover."
@@ -843,13 +847,13 @@ label SR3_we_IC_shop_table_not_romantic_con:
     Lily "Wooo... Awkward turtle! Haha…"
     Lily "(Whispered) Yikes…"
     Sara "[player_name] and me are dating, Lily. So, just for your information, he is taken."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "But isn’t he, like, your… brother?"
     else:
         Lily "But isn’t he, like, your… very friend?"
     Sara "Yes, Lily! Will you just fucking drop it?!"
     Lily "Woo… I really shoulda seen this coming. The dick pics, the spin-the-bottle in your bedroom."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "So… you’re brother and sister… but you’re also going on dates. In public."
     else:
         Lily "So… you’re very close friends that live together… but you’re also going on dates. In public."
@@ -862,7 +866,7 @@ label SR3_we_IC_shop_table_not_romantic_con:
     Sara "Kill me now…"
     scene SR3_we_IC_p64
     Lily "I’m just sayin’, people are gonna talk. This is, like, prime gossip right here."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Lily "BREAKING NEWS! Sara from class 8E has fucked her own brother from class 12F!"
     else:
         Lily "BREAKING NEWS! Sara from class 8E has fucked her school friend from class 12F!"
@@ -1006,3 +1010,4 @@ screen SR3_we_map_scr:
         hover "images/game_gui/map/Home_Hover.png"
         if clickable == True:
             action [SetVariable("in_map", False), Jump("entrace1_morning1"),]
+

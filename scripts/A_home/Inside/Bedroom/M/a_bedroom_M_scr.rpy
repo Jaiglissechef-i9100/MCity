@@ -9,3 +9,4 @@ screen a_bedroom_M_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("a_living_M1")]
+

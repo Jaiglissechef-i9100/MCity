@@ -9,7 +9,7 @@ screen bob_reception_D_scr:
         idle "images/Bob_work/reception/M/B1.png"
         hover "images/Bob_work/reception/M/B1_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Office")
+            hovered Show("displayTextScreen", displayText = __("Office"))
             if zuri_magentcard in inventory.items:
                 action [Hide("displayTextScreen"),Play ("sound", "sfx/door_open.mp3"),Jump("bob_office_M1")]
             else:
@@ -30,6 +30,7 @@ screen bob_reception_D_scr:
                 hovered Show("displayTextScreen", displayText = "Zuri")
                 action [Hide("displayTextScreen"),Jump("Zv2_MS1_daymeet_label")]
             unhovered Hide("displayTextScreen")
+
     if Zv2_MS2 == True:
         imagebutton:
             xpos 169
@@ -49,7 +50,7 @@ screen bob_reception_D_scr:
         idle "images/Bob_work/reception/M/B2.png"
         hover "images/Bob_work/reception/M/B2_hover.png"
         if clickable == True:
-            hovered Show("displayTextScreen", displayText = "Painting")
+            hovered Show("displayTextScreen", displayText = __("Painting"))
             action [Hide("displayTextScreen"),Jump("bob_paintingreception_label")]
             unhovered Hide("displayTextScreen")
 
@@ -61,3 +62,4 @@ screen bob_reception_D_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Jump("bob_entrance_M1")]
+

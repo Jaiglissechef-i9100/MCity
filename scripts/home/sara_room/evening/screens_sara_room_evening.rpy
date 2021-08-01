@@ -3,7 +3,6 @@ screen sister_nerdy_evening:
 
 
 
-
     if sis_nerdy_evening_scene1_v1 == 1 and Sara_points == 1 and MLR3_ES1 == False:
         imagebutton:
             xpos 940
@@ -60,7 +59,7 @@ screen sister_nerdy_evening:
             idle "images/v71/2_WE/6_Home_End/B3.png"
             hover "images/v71/2_WE/6_Home_End/B3_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Bed")
+                hovered Show("displayTextScreen", displayText = __("Bed"))
                 action [Hide("displayTextScreen"),Jump("SR3_we_home_end_bed")]
                 unhovered Hide("displayTextScreen")
     if SR3_home_end_couch == True:
@@ -71,7 +70,7 @@ screen sister_nerdy_evening:
             idle "images/v71/2_WE/6_Home_End/B4.png"
             hover "images/v71/2_WE/6_Home_End/B4_hover.png"
             if clickable == True:
-                hovered Show("displayTextScreen", displayText = "Couch")
+                hovered Show("displayTextScreen", displayText = __("Couch"))
                 action [Hide("displayTextScreen"),Jump("SR3_we_home_end_couch")]
                 unhovered Hide("displayTextScreen")
     if sis_nerdy_evening_gamepad_change_scene3_v1 == 0 and Sara_points == 1 and can_gamepad_sara == True and  can_sis_nerdy_gamepad_change == 1 and MLR3_ES1 == False:
@@ -83,7 +82,7 @@ screen sister_nerdy_evening:
             hover "images/home/sara_room/evening/scene3_v1/sara_gamepad_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("sis_nerdy_evening_gamepad_change_scene3_v1_label")]
-                hovered Show("displayTextScreen", displayText = "Sara's Gamepad")
+                hovered Show("displayTextScreen", displayText = __("Sara's Gamepad"))
                 unhovered Hide("displayTextScreen")
 
     if clickable == True and SR3_home_end_both == False:
@@ -94,3 +93,4 @@ screen sister_nerdy_evening:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_evening1")]
+

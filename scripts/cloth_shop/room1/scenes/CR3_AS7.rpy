@@ -67,3 +67,4 @@ label CR3_AS7_outfit4_lock:
     $ clickable = True
     hide screen cloth_shop_robber_screen
     jump cloth_shop_open_label
+

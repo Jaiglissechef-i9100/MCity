@@ -6,8 +6,6 @@ image SR2_AS5_p5 = "images/school/classroom2/day/scenes/SR2_AS5/5.jpg"
 image SR2_AS5_p6 = "images/school/classroom2/day/scenes/SR2_AS5/6.jpg"
 image SR2_AS5_p7 = "images/school/classroom2/day/scenes/SR2_AS5/7.jpg"
 
-
-
 label SR2_AS5_label:
     if can_SR2_AS5 == False:
         $ clickable = False
@@ -60,7 +58,7 @@ label SR2_AS5_label:
 
         Sara "It doesn’t matter. It isn’t happening anymore."
         MC "Huh? Why?"
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Sara "Mom grounded me, remember? I’m not allowed to leave the house."
         else:
             Sara "Linda grounded me, remember? I’m not allowed to leave the house."
@@ -99,7 +97,7 @@ label SR2_AS5_continue:
 
     Sara "This is going to be amazing, [player_name]! I can’t wait! I’m so excited!"
     MC "Where do you want to meet?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I’ll sneak out of my bedroom after Mom goes to sleep. Then we’ll meet up at the garage?"
     else:
         Sara "I’ll sneak out of my bedroom after Linda goes to sleep. Then we’ll meet up at the garage?"
@@ -112,3 +110,4 @@ label SR2_AS5_continue:
     $ SR2_NS3 = True
     $ S_N_inbed = False
     jump classroom2_morning1
+

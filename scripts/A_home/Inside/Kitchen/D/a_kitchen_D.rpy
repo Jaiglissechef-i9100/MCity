@@ -8,3 +8,4 @@ label a_kitchen_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen a_kitchen_D_scr
+

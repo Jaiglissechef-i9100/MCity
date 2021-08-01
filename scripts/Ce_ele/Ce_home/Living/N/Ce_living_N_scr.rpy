@@ -10,7 +10,7 @@ screen Ce_living_N_scr:
             if clickable == True:
                 action [Show("Ce_living_E_painting")]
 
-            hovered Show("displayTextScreen", displayText = "Painting")
+            hovered Show("displayTextScreen", displayText = __("Painting"))
             unhovered Hide("displayTextScreen")
     else:
         imagebutton:
@@ -22,7 +22,7 @@ screen Ce_living_N_scr:
             if clickable == True:
                 action [Show("Ce_living_N_painting")]
 
-            hovered Show("displayTextScreen", displayText = "Painting")
+            hovered Show("displayTextScreen", displayText = __("Painting"))
             unhovered Hide("displayTextScreen")
 
 
@@ -36,7 +36,7 @@ screen Ce_living_N_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CeR2_NS2_talking_lab")]
 
-            hovered Show("displayTextScreen", displayText = "Sofa")
+            hovered Show("displayTextScreen", displayText = __("Sofa"))
             unhovered Hide("displayTextScreen")
     if clickable == True:
         imagebutton:
@@ -58,3 +58,4 @@ screen Ce_living_N_painting:
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
         action [Hide("Ce_living_N_painting")]
+

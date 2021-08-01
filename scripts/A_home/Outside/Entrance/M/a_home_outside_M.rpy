@@ -1,7 +1,6 @@
 image a_home_outside_bg_M = "/images/a_home/outside/Entrance/M/1.jpg"
 image a_home_outside_bg2_M = "/images/a_home/outside/Entrance/M/2.jpg"
 
-
 label a_home_outside_M1:
     $ Linda_name = Mom_name
     $ in_map = False
@@ -27,7 +26,6 @@ label a_home_outside_M2:
     else:
         scene a_home_outside_bg2_M
 
-
     $ can_map = True
 
     if LiR1_MAS1a == True:
@@ -45,3 +43,4 @@ label a_home_outside_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen a_home_outside_M_scr
+

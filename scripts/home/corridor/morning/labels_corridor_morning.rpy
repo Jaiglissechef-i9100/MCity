@@ -8,6 +8,7 @@ label corridor_morning1:
         jump corridor_evening1
     if day_time == 4:
         jump corridor_night1
+
 label corridor_morning2:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -20,3 +21,4 @@ label corridor_morning2:
     show screen map_button
     show screen new_message_incoming1
     call screen corridor_morning
+

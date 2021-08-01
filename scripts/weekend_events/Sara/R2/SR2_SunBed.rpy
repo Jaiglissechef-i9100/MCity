@@ -72,3 +72,4 @@ label SR2_SunBed_label:
         $ SR2_after_sunbed = True
         $ can_hide_windows = False
         jump swimming_poll_label
+

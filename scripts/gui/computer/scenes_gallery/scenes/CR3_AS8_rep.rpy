@@ -1,6 +1,3 @@
-
-
-
 label CR3_AS8_rep:
 
     hide screen week_day_viewer
@@ -217,7 +214,6 @@ label CR3_AS8_rep:
     $ renpy.pause(0.7, hard = True)
     scene CR3_AS8_O3_p42a with dissolve
 
-
     MC "*Pant Pant* Wow..."
     MC "Fuck... That was amazing, Caroline..."
     Caroline "(Huh?! He stopped?! I was SOOO close to cumming! Dammit! I want him inside me...)"
@@ -238,3 +234,4 @@ label CR3_AS8_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

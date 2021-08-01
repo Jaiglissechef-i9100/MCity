@@ -32,7 +32,7 @@ label SR2_NS1_label:
     Sara "Actually… it’s a little… difficult to talk about."
     MC "Is something wrong?"
     Sara "No! At least… I don’t think so. I hope not."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "Can you climb under the sheets with me? I REALLY don’t want Mom or Dad to overhear us."
     else:
         Sara "Can you climb under the sheets with me? I REALLY don’t want Linda or Bob to overhear us."
@@ -56,7 +56,6 @@ label SR2_NS1_label:
     Sara "And then you told me that you loved me…"
     Sara "I need to know… Am I your girlfriend now?"
     MC "(It sounds like she wants me to commit myself to her. If I’m fooling around with any other women - this could POTENTIALLY make things awkward…)"
-
 
     menu:
         "You’ll become my girlfriend after we have sex.":
@@ -152,7 +151,6 @@ label SR2_NS1_label:
             MC "*Mwah*"
             jump SR2_NS1_continue
 
-
 label SR2_NS1_continue:
     scene SR2_NS1_p4
 
@@ -182,3 +180,4 @@ label SR2_NS1_continue:
     $ SR2_AS3 = True
     $ S_N_inbed = True
     jump sleeping_after_scene
+

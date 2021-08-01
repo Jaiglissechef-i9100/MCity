@@ -1,4 +1,3 @@
-
 label beach2_M1:
     $ can_map = True
     if MLR3_beach_event == True:
@@ -29,3 +28,4 @@ label beach2_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen beach2_M_scr
+

@@ -160,3 +160,4 @@ label CeR2_sex_shop_lab:
 
             $ can_hide_windows = False
             jump sex_shop_evening_label
+

@@ -10,3 +10,4 @@ label caroline_room_day1:
     show screen map_button
     show screen new_message_incoming1
     call screen caroline_room_day
+

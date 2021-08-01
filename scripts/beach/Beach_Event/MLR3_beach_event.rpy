@@ -117,7 +117,7 @@ label MLR3_beach_event:
     "*Brummm*"
 
     Mom "This is the first time you’ve been on holiday this year, isn't it?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Yeah, the last time I think I went was… Hmm… Where did we all go last year, as a family?"
     else:
         MC "Yeah, the last time I think I went was… Hmm… Where did we all go last year, as a group?"
@@ -125,14 +125,14 @@ label MLR3_beach_event:
 
     Mom "It was Peurto Rico. Remember we all went camping in the El Yunque national forest?"
     MC "Oh yeah! Was that a year ago? It seems so much longer."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "It was a year. I went hiking with the girls while you hung out with your father. What did you two end up doing?"
     else:
         Mom "It was a year. I went hiking with the girls while you hung out with Bob. What did you two end up doing?"
     scene MLR3_beach_event_p11
 
     MC "[Dad_name] snuck his rod with him, so we ended up illegally fishing. He kept throwing them back in after he caught them."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Haha! That’s so your father: Nothing can get between him and his fishing."
     else:
         Mom "Haha! That’s so Bob: Nothing can get between him and his fishing."
@@ -146,7 +146,6 @@ label MLR3_beach_event:
     show screen car_move_beach_notclickable
     call screen car_move_beach
 
-
 screen car_move_beach_notclickable:
     key "hide_windows" action NullAction()
     zorder 103
@@ -157,16 +156,13 @@ screen car_move_beach_notclickable:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
     timer 9 action [Jump("MLR3_beach_event2")]
+
 screen car_move_beach:
     modal True
-
 
     button action NullAction()
 
     add "images/Beach/MLR3_beach_event/car_map.png" at carbeach
-
-
-
 
 transform carbeach:
 
@@ -232,7 +228,7 @@ label MLR3_beach_event2:
     Mom "Alright… *Deep breath*"
 
     scene MLR3_beach_event_p18
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I had a few plans. My original goal was to get you SO turned on that you needed to fool around with a girl, even if it meant your own mother."
     else:
         Mom "I had a few plans. My original goal was to get you SO turned on that you needed to fool around with a girl, even if it would be me."
@@ -252,7 +248,7 @@ label MLR3_beach_event2:
     MC "You’re still scared I’ll run away?"
 
     scene MLR3_beach_event_p21
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I guess so… Not very often - just sometimes. It’s not normal for a mother to be dating her son like this. I’m scared peer pressure might get to you, and you’ll just freak out and leave me someday."
     else:
         Mom "I guess so… Not very often - just sometimes. It’s not normal for me to be dating someone as young as you like this. I’m scared peer pressure might get to you, and you’ll just freak out and leave me someday."
@@ -331,7 +327,7 @@ label MLR3_beach_event2:
     Mom "She’d get you all turned on, then blindfold you. Once that was all done I’d pay her the money and take over myself."
 
     scene MLR3_beach_event_p33
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I’d be able to suck and fuck you all I wanted and you’d never know that you were fooling around with your own mother."
     else:
         Mom "I’d be able to suck and fuck you all I wanted and you’d never know that you were fooling around with me."
@@ -370,3 +366,4 @@ label MLR3_beach_event2:
     $ MLR3_beach_ice = True
     $ MLR3_beach_sun = True
     jump beach_M1
+

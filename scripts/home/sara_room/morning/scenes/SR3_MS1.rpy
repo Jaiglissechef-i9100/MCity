@@ -55,7 +55,7 @@ label SR3_MS1:
         Sara "I should have KNOWN that you had your eyes on someone else, [player_name]."
         Sara "You were the one who wanted our date to be a big secret!"
         scene SR3_MS1_p6
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Sara, I was ONLY worried about people noticing us as brother and sister!"
         else:
             MC "Sara, I was ONLY worried about people noticing us dating!"
@@ -82,7 +82,9 @@ label SR3_MS1:
     $ SR3_MS1 = False
     $ SR3_v71_end = True
     $ SR3_rep_v71 = True
+    $ S_end_content = True
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump corridor_day1
+

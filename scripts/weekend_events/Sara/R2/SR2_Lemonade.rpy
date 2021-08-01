@@ -188,3 +188,4 @@ label after_lemonade_menu:
     $ SR2_after_lemonade = True
     $ can_hide_windows = False
     jump swimming_poll_label
+

@@ -170,3 +170,4 @@ label CeR2_MS2_lab:
     $ renpy.sound.play('/sfx/door_open.mp3', channel="sound")
     $ can_hide_windows = False
     jump school_corridor2_morning1
+

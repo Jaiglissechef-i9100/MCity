@@ -73,9 +73,7 @@ label MLR3_Linda_MS1_menu:
             $ MLR3_Linda_MS1_day = 2
             $ MLR3_Linda_MS1_can = False
 
-
             jump MLR3_Linda_MS1_menu
-
 
         "{color=#00ff00}It’s good to see [Dad_name] helping more around the house.{/color}" if MLR3_Linda_MS1_can == False:
             MC "It’s good to see [Dad_name] helping more around the house. It gives you a chance to relax and do other things around the house, for a change."
@@ -140,3 +138,4 @@ label MLR3_Linda_MS1_menu:
             $ MLR3_Linda_MS1_q1 = False
 
             jump MLR3_Linda_MS1_menu
+

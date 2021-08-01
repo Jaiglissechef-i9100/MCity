@@ -5,7 +5,6 @@ label b_house_living_M1:
         jump MLR3_b_house_Bed
     $ in_map = False
 
-
     if day_time == 1:
         jump b_house_living_M2
 
@@ -24,3 +23,4 @@ label b_house_living_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen b_house_living_M_scr
+

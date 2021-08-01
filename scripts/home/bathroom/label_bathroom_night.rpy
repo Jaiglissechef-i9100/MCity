@@ -12,3 +12,4 @@ label bathroom_night1:
     hide screen bathroom_night_notclickable
     $ can_hide_windows = False
     call screen bathroom_night
+

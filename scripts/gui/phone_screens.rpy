@@ -2,7 +2,6 @@ style phone_frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame1.png", 25, 25)
 
-
 screen phone_main_screen:
     key "hide_windows" action NullAction()
     zorder 102
@@ -45,7 +44,7 @@ screen phone_main_screen:
         focus_mask True
         idle Transform("images/game_gui/phone/Camera_Icon_Idle.png", zoom=.7)
         hover Transform("images/game_gui/phone/Camera_Icon_Hover.png", zoom=.7)
-        hovered [Play ("sound", "sfx/phone_click.mp3"), Show("displayTextScreen", displayText = "Camera")]
+        hovered [Play ("sound", "sfx/phone_click.mp3"), Show("displayTextScreen", displayText = __("Camera"))]
         unhovered Hide("displayTextScreen")
         action NullAction()
 
@@ -65,12 +64,9 @@ screen phone_main_screen:
         focus_mask True
         idle Transform("images/game_gui/phone/Patreon_Icon_Idle2.png", zoom=.52)
         hover Transform("images/game_gui/phone/Patreon_Icon_Hover2.png", zoom=.52)
-        hovered [Play ("sound", "sfx/phone_click.mp3"), Show("displayTextScreen", displayText = "Patreon Site")]
+        hovered [Play ("sound", "sfx/phone_click.mp3"), Show("displayTextScreen", displayText = __("Patreon Site"))]
         unhovered Hide("displayTextScreen")
         action [Play ("sound", "sfx/phone_click2.mp3"), OpenURL("https://www.patreon.com/icstor")]
-
-
-
 
 screen m_from_Celia:
     key "hide_windows" action NullAction()
@@ -112,3 +108,4 @@ screen m_from_Celia:
                         style "frame_gui1"
                         xfill True
                         text ("{size=-5}[sms.mtext]{/size}")
+

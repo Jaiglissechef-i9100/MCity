@@ -1,4 +1,3 @@
-
 label Ne_entrance_D1:
     hide screen displayTextScreen
     hide screen map
@@ -13,3 +12,4 @@ label Ne_entrance_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen Ne_entrance_D_scr  
+

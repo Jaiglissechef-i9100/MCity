@@ -1,11 +1,6 @@
-
-
-
 label beach_up_M1:
 
-
     $ in_map = False
-
 
     if day_time == 1:
         jump beach_up_M2
@@ -31,3 +26,4 @@ label beach_up_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen beach_up_M_scr
+

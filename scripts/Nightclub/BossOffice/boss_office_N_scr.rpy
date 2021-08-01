@@ -16,7 +16,8 @@ screen boss_office_N_scr:
             focus_mask True
             idle "images/Nightclub/BossOffice/B1.png"
             hover "images/Nightclub/BossOffice/B1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Headmaster")
+            hovered Show("displayTextScreen", displayText = __("Headmaster"))
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("CR4_Boss_next_day")]
             unhovered Hide("displayTextScreen")
+

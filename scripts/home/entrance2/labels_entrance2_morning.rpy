@@ -8,6 +8,7 @@ label entrance2_morning1:
         jump entrance2_evening1
     if day_time == 4:
         jump entrance2_night1
+
 label entrance2_morning2:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -21,3 +22,4 @@ label entrance2_morning2:
     show screen map_button
     show screen new_message_incoming1
     call screen entrance2_morning
+

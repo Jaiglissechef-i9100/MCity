@@ -254,3 +254,4 @@ screen Ce_NV_scr:
             $ new_nsb_in_wake = False
         if nsb1.played == False:
             $ new_nsb_in_wake = True
+

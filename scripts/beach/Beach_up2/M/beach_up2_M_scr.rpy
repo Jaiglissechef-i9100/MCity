@@ -2,7 +2,6 @@ screen beach_up2_M_scr:
 
     add "images/Beach/Beach_Up2/M/map.jpg"
 
-
     imagebutton:
         at map_arrow_anim
         xpos 980
@@ -23,5 +22,6 @@ screen beach_up2_M_scr:
             hover "images/game_gui/C_jump_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_beach_cliff")]
-                hovered Show("displayTextScreen", displayText = "Jump From The Cliff")
+                hovered Show("displayTextScreen", displayText = __("Jump From The Cliff"))
                 unhovered Hide("displayTextScreen")
+

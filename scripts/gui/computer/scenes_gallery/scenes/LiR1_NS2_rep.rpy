@@ -1,7 +1,8 @@
-
-
-
 label LiR1_NS2_rep:
+    if persistent.incest_patch == True:
+        $ Liza2_name = __("Auntie")
+    else:
+        $ Liza2_name = "Liza"
 
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -135,7 +136,7 @@ label LiR1_NS2_rep:
     MC "*Gulp* (She hasn’t said or done anything yet. Maybe I’m in the clear?)"
 
     scene LiR1_NS2_p19
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Yazmin "(Yup - just as I thought - it’s Liza’s nephew. The little pervert must have been spying on us. I wonder how many night’s he’s been doing this - without me knowing!)"
     else:
         Yazmin "(Yup - just as I thought - it’s Liza’s friend. The little pervert must have been spying on us. I wonder how many night’s he’s been doing this - without me knowing!)"
@@ -145,7 +146,7 @@ label LiR1_NS2_rep:
 
     scene LiR1_NS2_p20
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Fuck! She just pointed at me! She’s DEFINITELY seen me! I better dash away from here before Auntie sees me!)"
         MC "(How would Mom react if Auntie told her that I’d been spying on her? She’d probably kill me... Or them..!)"
     else:
@@ -161,3 +162,4 @@ label LiR1_NS2_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

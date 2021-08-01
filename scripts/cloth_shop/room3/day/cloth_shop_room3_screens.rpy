@@ -7,3 +7,4 @@ screen cloth_shop_room3_screen:
         idle "images/game_gui/goback_button_idle.png"
         hover "images/game_gui/goback_button_hover.png"
         action [Play ("sound", "sfx/door_open.mp3"),Jump("cloth_shop_room2_label")]
+

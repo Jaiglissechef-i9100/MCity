@@ -17,6 +17,7 @@ image Z_ES2_p11 = "images/Zuri_home/home/E/scenes/Zv2_ES2/11.jpg"
 image Z_ES2_p12 = "images/Zuri_home/home/E/scenes/Zv2_ES2/12.jpg"
 image Z_ES2_p13 = "images/Zuri_home/home/E/scenes/Zv2_ES2/13.jpg"
 image Z_ES2_p14 = "images/Zuri_home/home/E/scenes/Zv2_ES2/14.jpg"
+
 default Zv2_ES2 = False
 
 label Zv2_ES2_label:
@@ -45,7 +46,6 @@ label Zv2_ES2_label:
 
     Suri "You can do whatever you want with my tits, [player_name]."
     MC "(This is gonna be awesome!)"
-
 
     scene Z_ES2_p3
 
@@ -95,7 +95,7 @@ label Zv2_ES2_menu:
             scene Z_ES2_p8aa
 
             Suri "Oooh! That’s good…."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Zuri "My sister LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."
             else:
                 Zuri "Suri LOVES having her nipples played with. She can turn into a real slut if a guy turns her on enough."
@@ -192,3 +192,4 @@ label Zv2_ES2_continue:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
+

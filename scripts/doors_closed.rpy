@@ -7,3 +7,4 @@ label sis_nerdy_door_locked:
     hide screen map_button
     MC "It’s locked."
     jump corridor_morning1
+

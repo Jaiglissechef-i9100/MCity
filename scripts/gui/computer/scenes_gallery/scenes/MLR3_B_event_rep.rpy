@@ -1,5 +1,3 @@
-
-
 label MLR3_B_event_rep:
 
     hide screen week_day_viewer
@@ -28,7 +26,6 @@ label MLR3_B_event_rep:
     scene MLR3_b_house_Bed_p3
 
     MC "And those stockings and panties are gorgeous too!"
-
 
     $ renpy.movie_cutscene("videos/05 Linda Beach 1.webm")
     scene MLR3_b_house_Bed_p3aa
@@ -62,7 +59,6 @@ label MLR3_B_event_rep:
     MC "Of course not!"
 
     scene MLR3_b_house_Bed_p8
-
 
     Mom "Hehe, sorry. I just can’t resist teasing you."
     Mom "I can’t wait to feel your cock, buried deep inside me."
@@ -103,7 +99,7 @@ label MLR3_B_event_rep:
 
     "*Click*"
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "No Bob, no sisters, no goddamn phones."
     else:
         Mom "No Bob, no Sara and Caroline, no goddamn phones."
@@ -114,7 +110,7 @@ label MLR3_B_event_rep:
     MC "(I’ve never seen her this horny before!)"
 
     scene MLR3_b_house_Bed_p17
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I guess there’s a lot of pent up sexual tension, when you get cockblocked every single time you try to screw your son.)"
     else:
         MC "(I guess there’s a lot of pent up sexual tension, when you get cockblocked every single time you try to screw me.)"
@@ -153,7 +149,6 @@ label MLR3_B_event_rep:
     menu:
         "Let’s begin with a blowjob.":
             scene MLR3_b_house_Blow_p1
-
 
             MC "Can we start with a blowjob?"
             Mom "Of course, Sweetie."
@@ -222,7 +217,7 @@ label MLR3_B_event_rep:
 
             MC "Hnng… Oh… fuck yeah..."
             scene MLR3_b_house_Foot_p4anim
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Mom "It must feel SO good having mommy’s feet rub all over your shaft like this."
             else:
                 Mom "It must feel SO good having my feet rub all over your shaft like this."
@@ -333,7 +328,6 @@ label MLR3_b_house_Bed2_rep:
 
     MC "Mmm! (Oh fuck! I can feel her vulva wrapping around the tip of my cock.)"
 
-
     $ renpy.movie_cutscene("videos/05 Linda Beach 18.webm")
     scene MLR3_b_house_Bed_p29a
     Mom "Ah… Yes… God… yes!"
@@ -349,7 +343,7 @@ label MLR3_b_house_Bed2_rep:
     scene MLR3_b_house_Bed_p31
 
     Mom "Oh! Oh God! Mmm! Fuck…"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "(It feels so wrong doing this to my son… but it only makes this so much hotter!)"
     else:
         Mom "(It feels so wrong doing this to [player_name]… but it only makes this so much hotter!)"
@@ -403,7 +397,7 @@ label MLR3_b_house_Bed2_rep:
     Mom "Mmm! Uh huh! Do it!"
 
     scene MLR3_b_house_Bed_p33f
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Oohhh! Grope them, [player_name]! Grope your mommy’s big breasts!"
     else:
         Mom "Oohhh! Grope them, [player_name]! Grope my big breasts!"
@@ -462,7 +456,7 @@ label MLR3_b_house_Bed2_rep:
     Mom "Ohh! Yes! Yes!"
 
     scene MLR3_b_house_Bed_p43
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "That’s it, baby! That’s it! Cum for Mommy!"
         Mom "Let it all go! Shoot your hot jizz into Mommy’s tight pussy! Mmm…"
     else:
@@ -479,7 +473,7 @@ label MLR3_b_house_Bed2_rep:
     scene MLR3_b_house_Bed_p45
 
     Mom "Yes! Thrust inside me, [player_name]!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "Fuck your mommy’s wet pussy!"
     else:
         Mom "Fuck my wet pussy!"
@@ -745,7 +739,7 @@ label MLR3_b_house_Bed2_rep:
     $ renpy.pause()
     scene MLR3_b_house_Bed_p84
 
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "AYAAAHHH! Cum inside me! I want to feel my boy’s cum inside me!"
     else:
         Mom "AYAAAHHH! Cum inside me! I want to feel your cum inside me!"
@@ -773,7 +767,6 @@ label MLR3_b_house_Bed2_rep:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music1", loop=True, fadein = 2)
     scene MLR3_b_house_Bed_p87
-
 
     MC "Oh wow… I’m exhausted."
     Mom "You did good to keep up with me, for a full two rounds."
@@ -863,3 +856,4 @@ label MLR3_b_house_Bed2_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

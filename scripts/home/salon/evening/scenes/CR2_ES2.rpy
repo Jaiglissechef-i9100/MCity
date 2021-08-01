@@ -13,7 +13,6 @@ image CR2_ES2_p12 = "images/home/salon/evening/scenes/CR2_ES2/12.jpg"
 image CR2_ES2_p13 = "images/home/salon/evening/scenes/CR2_ES2/13.jpg"
 image CR2_ES2_p14 = "images/home/salon/evening/scenes/CR2_ES2/14.jpg"
 
-
 default can1_CR2_MS2 = False
 default CR2_ES2_day = 1
 default CR2_ES2_q1 = True
@@ -142,12 +141,11 @@ label CR2_ES2_menu:
             $ can1_CR2_MS2 = True
             jump CR2_ES2_menu
 
-
         "I didn’t know you liked coffee." if CR2_ES2_q1 == True:
             scene CR2_ES2_p5
 
             MC "I didn’t know you liked coffee, Caroline."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Whenever we went out as a family, you always used to order something cold, like pineapple juice."
             else:
                 MC "Whenever we went out together, you always used to order something , like pineapple juice."
@@ -269,12 +267,11 @@ label CR2_ES2_menu:
             $ can_CR2_ES2_day3 = True
             jump CR2_ES2_menu
 
-        "Have you spoken to Mom or Dad about this robbery yet?" if CR2_ES2_q6 == True and renpy.loadable("patch.rpy"):
+        "Have you spoken to Mom or Dad about this robbery yet?" if CR2_ES2_q6 == True and persistent.incest_patch == True:
             jump CR2_ES2_bobtalk
 
-        "Have you spoken to Linda or Bob about this robbery yet?" if CR2_ES2_q6 == True and not renpy.loadable("patch.rpy"):
+        "Have you spoken to Linda or Bob about this robbery yet?" if CR2_ES2_q6 == True and not persistent.incest_patch == True:
             jump CR2_ES2_bobtalk
-
 
         "Are you feeling any better today?" if CR2_ES2_q7 == True:
             scene CR2_ES2_p12
@@ -297,9 +294,7 @@ label CR2_ES2_menu:
             jump CR2_ES2_menu
         "Bye.":
 
-
             jump CR2_ES2_bye
-
 
 label CR2_ES2_bye:
     if CR2_ES2_day == 1:
@@ -342,10 +337,9 @@ label CR2_ES2_bye:
         $ can_hide_windows = False
         jump salon_morning1
 
-
 label CR2_ES2_bobtalk:
     scene CR2_ES2_p12
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Have you told Mom or Dad about the robbery yet?"
     else:
         MC "Have you told Linda or Bob about the robbery yet?"
@@ -353,16 +347,16 @@ label CR2_ES2_bobtalk:
     MC "Why?"
 
     scene CR2_ES2_p10
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I’m supposed to be the independent successful daugther."
     else:
         Caroline "I’m supposed to be the independent successful woman."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "I was the first born, and they both have high hopes for me."
     MC "Have they not asked why you’re, not at work right now?"
 
     scene CR2_ES2_p11
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Mom asked me, this morning…"
     else:
         Caroline "Linda asked me, this morning…"
@@ -376,3 +370,4 @@ label CR2_ES2_bobtalk:
     $ CR2_ES2_q6 = False
     $ can_CR2_ES2_day3 = True
     jump CR2_ES2_menu
+

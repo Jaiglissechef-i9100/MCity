@@ -817,3 +817,4 @@ label CeR2_NS2_talking_con1:
 
     $ can_hide_windows = False
     jump map_label
+

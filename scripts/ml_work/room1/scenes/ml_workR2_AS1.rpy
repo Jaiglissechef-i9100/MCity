@@ -8,7 +8,6 @@ image ml_workR2_AS1_p7 = "/images/ml_work/room1/scenes/ml_workR2_AS1/7.jpg"
 image ml_workR2_AS1_p8 = "/images/ml_work/room1/scenes/ml_workR2_AS1/8.jpg"
 image ml_workR2_AS1_p9 = "/images/ml_work/room1/scenes/ml_workR2_AS1/9.jpg"
 
-
 label ml_workR2_AS1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -18,7 +17,7 @@ label ml_workR2_AS1_label:
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hi, Mom!"
     else:
         MC "Hi, Linda!"
@@ -31,12 +30,9 @@ label ml_workR2_AS1_label:
     MC "Sure. I’ll get started on that now."
     Mom "Thanks, Sweetie! Come back and let me know when you’re done."
     $ renpy.music.stop(channel="music1", fadeout=1)
-    if persistent.skip_mg == True:
-        jump after_ml_workR2_AS1_label
     $ renpy.music.play('/sfx/Malt Shop Bop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump work_minigame_R2_room1_label
-
 
 label after_ml_workR2_AS1_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
@@ -44,7 +40,6 @@ label after_ml_workR2_AS1_label:
     $ can_hide_windows = True
     $ inventory.earn(25)
     $ renpy.pause(3, hard = True)
-
 
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene ml_workR2_AS1_p3 with dissolve
@@ -83,7 +78,7 @@ label after_ml_workR2_AS1_label:
 
     Mom "Anyway, I better let you go, before I get distracted."
     Mom "I’ll see you later on. Love you, Sweetie."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "See you later, Mom. Love you too!"
     else:
         MC "See you later, Linda. Love you too!"
@@ -95,3 +90,4 @@ label after_ml_workR2_AS1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
+

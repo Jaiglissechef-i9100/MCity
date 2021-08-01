@@ -12,3 +12,4 @@ label Ne_Bedroom_N1:
     show screen map_button
     show screen new_message_incoming1
     call screen Ne_Bedroom_N_scr
+

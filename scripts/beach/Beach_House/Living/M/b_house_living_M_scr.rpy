@@ -10,7 +10,7 @@ screen b_house_living_M_scr:
         hover "images/Beach/Beach_House/Living/M/B1_hover.png"
         if clickable == True:
             action [Play("sound", "sfx/door_open.mp3"),Jump("b_house_bedroom_M1")]
-        hovered Show("displayTextScreen", displayText = "Bedroom")
+        hovered Show("displayTextScreen", displayText = __("Bedroom"))
         unhovered Hide("displayTextScreen")
 
     if clickable == True and MLR3_beach_event == False:
@@ -24,15 +24,28 @@ screen b_house_living_M_scr:
 
 
     if not "img36_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 913
-            ypos 424
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B36a.png"
-            hover "images/secret_gallery/Bonus/B36a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
-            unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 913
+                ypos 424
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B36a.png"
+                hover "images/secret_gallery/Bonus/B36a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 913
+                ypos 424
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img36_sec_card"),SetVariable("clickable", False), Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if MLR3_b_house_wait == 4 and MLR3_beach_event == True:
         imagebutton:
@@ -43,9 +56,9 @@ screen b_house_living_M_scr:
             hover "images/Beach/MLR3_beach_event/House/MorningCoffie/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_coffe"),]
-                if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Mom")
-                if not renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
+                    hovered Show("displayTextScreen", displayText = __("Mom"))
+                else:
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")
 
@@ -58,8 +71,9 @@ screen b_house_living_M_scr:
             hover "images/Beach/MLR3_beach_event/House/Leaving/B1_hover.png"
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("MLR3_b_house_leaving"),]
-                if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Mom")
-                if not renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
+                    hovered Show("displayTextScreen", displayText = __("Mom"))
+                else:
                     hovered Show("displayTextScreen", displayText = "Linda")
                 unhovered Hide("displayTextScreen")
+

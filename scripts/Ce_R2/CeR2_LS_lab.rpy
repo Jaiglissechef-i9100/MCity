@@ -746,3 +746,4 @@ label CeR2_LS_con:
     $ can_hide_windows = False
     $ week_day = 1
     jump map_label
+

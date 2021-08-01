@@ -7,7 +7,6 @@ image CR2_MS3_p6 = "images/home/mc_room/morning/scenes/CR2_MS3/6.jpg"
 image CR2_MS3_p7 = "images/home/mc_room/morning/scenes/CR2_MS3/7.jpg"
 image CR2_MS3_p8 = "images/home/mc_room/morning/scenes/CR2_MS3/8.jpg"
 
-
 label CR2_MS3_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sneaky Snitch.mp3', channel="music1", loop=True, fadein = 2)
@@ -26,7 +25,7 @@ label CR2_MS3_label:
 
     Caroline "No, I… Do you remember that offer you made me? To give me money for my business."
     MC "Yeah."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "Does that offer still… stand? I really need two hundred, to pay rent to Mom."
     else:
         Caroline "Does that offer still… stand? I really need two hundred, to pay rent to Linda."
@@ -39,7 +38,7 @@ label CR2_MS3_label:
         "{color=#00ff00}Of course! I have two hundred here.{/color}" if inventory.money >= 200:
             scene CR2_MS3_p3
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Of course, Caroline! I have two hundred here. And don’t worry, I won’t say a word to Mom about this."
             else:
                 MC "Of course, Caroline! I have two hundred here. And don’t worry, I won’t say a word to Linda about this."
@@ -70,7 +69,6 @@ label CR2_MS3_label:
             jump mc_room_morning1
         "Sorry, Caroline. I’m really short on money too right now.":
 
-
             scene CR2_MS3_p2
 
             MC "I’m so sorry, Caroline. I don’t have two hundred on me right now."
@@ -82,3 +80,4 @@ label CR2_MS3_label:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump mc_room_morning1
+

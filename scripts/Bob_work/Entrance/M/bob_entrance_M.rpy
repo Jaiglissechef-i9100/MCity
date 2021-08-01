@@ -1,7 +1,5 @@
 image bob_entrance_bg = "/images/Bob_work/entrance/M/entrance.jpg"
 
-
-
 label bob_entrance_M1:
     if day_time == 1:
         jump bob_entrance_M2
@@ -21,8 +19,6 @@ label bob_entrance_M1:
         $ can_map = True
         jump bob_work_outside_morning1
 
-
-
 label bob_entrance_M2:
     hide screen displayTextScreen
     scene bob_entrance_bg
@@ -33,3 +29,4 @@ label bob_entrance_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_entrance_M_scr
+

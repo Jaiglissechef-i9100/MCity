@@ -13,6 +13,14 @@ label celia_school_morning_scene1v1_label:
     hide screen day_time_viewer
     hide screen map_button
     $ can_hide_windows = True
+    if persistent.incest_patch == True:
+        $ Classmates = __("Classmates")
+        $ Blonde_Boy = __("Blonde Boy")
+        $ Brunette_Girl= __("Brunette Girl")
+    else:
+        $ Classmates = __("Classmates")
+        $ Blonde_Boy = __("Blonde Boy")
+        $ Brunette_Girl= __("Brunette Girl")
     if can_celia_school_morning_scene1v1 == True and talking_celia_school_morning_scene1v1 == 1:
 
         $ renpy.music.stop(channel="music2", fadeout=1)
@@ -67,7 +75,6 @@ label celia_school_morning_scene1v1_label:
         $ can_hide_windows = False
         jump classroom2_morning2
 
-
     if can_celia_school_morning_scene1v1 == True and talking_celia_school_morning_scene1v1 == 3:
 
         $ renpy.music.stop(channel="music2", fadeout=1)
@@ -90,7 +97,6 @@ label celia_school_morning_scene1v1_label:
         $ can_hide_windows = False
         jump classroom2_morning2
 
-
     if can_celia_school_morning_scene1v1 == False:
 
         show celia_school_morning_scene1v1_celia
@@ -99,3 +105,4 @@ label celia_school_morning_scene1v1_label:
         MC "I don’t want to talk to that... bitch."
         $ can_hide_windows = False
         jump classroom2_morning2
+

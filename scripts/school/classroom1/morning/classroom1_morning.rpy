@@ -16,3 +16,4 @@ label classroom1_morning2:
     show screen new_message_incoming1
     hide screen classroom1_morning_notclickable
     call screen classroom1_morning
+

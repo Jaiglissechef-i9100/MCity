@@ -297,3 +297,4 @@ label CeR2_AS2_lab:
     $ Ce_sms2 = True
     $ can_hide_windows = False
     jump school_corridor1_morning1
+

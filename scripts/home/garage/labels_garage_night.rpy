@@ -11,3 +11,4 @@ label garage_night1:
     show screen new_message_incoming1
     show screen garage_night
     call screen map_button
+

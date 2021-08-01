@@ -1,6 +1,3 @@
-
-
-
 label b_house_bath_N1:
     hide screen displayTextScreen
     hide screen map
@@ -13,3 +10,4 @@ label b_house_bath_N1:
     show screen map_button
     show screen new_message_incoming1
     call screen b_house_bath_N_scr
+

@@ -22,3 +22,4 @@ label sexroom_locked:
     $ clickable = True
     hide screen nightclub_corridor_scr
     jump nc_corridor_N
+

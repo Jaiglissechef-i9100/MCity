@@ -1,5 +1,3 @@
-
-
 label MLR3_b_house_shower_rep:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -10,7 +8,6 @@ label MLR3_b_house_shower_rep:
     $ can_hide_windows = True
     scene black
     $ renpy.pause(2,hard= True)
-
 
     scene MLR3_b_house_shower_p1 with dissolve
 
@@ -123,7 +120,7 @@ label MLR3_b_house_shower_rep:
 
     Mom "Mmm… yes! Right there! Ah…"
     MC "([Mom_name] is really loving this! I wonder why she finds my cock so appealing?)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Is it the size or the shape? Or is it because I’m her son, and she finds it extra hot, because it’s ‘taboo?’"
     else:
         MC "(Is it the size or the shape? Or is it because I’m younger, and she finds it extra hot, because it’s ‘taboo?’"
@@ -207,7 +204,6 @@ label MLR3_b_house_shower_rep:
     $ renpy.pause(0.7, hard = True)
     scene MLR3_b_house_shower_p32 with dissolve
 
-
     MC "*Pant Pant*"
     Mom "*Gasp*"
     Mom "W-Wow… That was… good…"
@@ -228,3 +224,4 @@ label MLR3_b_house_shower_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

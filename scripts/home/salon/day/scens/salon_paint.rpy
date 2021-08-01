@@ -19,3 +19,4 @@ label salon_paint_label:
         scene salon_paint_p3
         $ renpy.pause()
         jump salon_morning1
+

@@ -1,6 +1,3 @@
-
-
-
 label salon_money_label:
     if day_time == 1:
         show screen salon_morning_notclickable
@@ -15,3 +12,4 @@ label salon_money_label:
     MC "Nice! +[money]$"
     $ slon_money = False
     jump salon_morning1
+

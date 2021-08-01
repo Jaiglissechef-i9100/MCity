@@ -2,11 +2,10 @@ image Li_key_p1 = "/images/a_home/Inside/Office/M/2.jpg"
 default LiR1_key = False
 default can_LiR1_key = False
 label Li_key_label:
-    if Li_points >1:
+    if Li_points >1 and Y_points > 1:
         hide screen map_button
         scene Li_key_p1 with dissolve
         MC "Oh.. Nice! This should be the key to the front door. Let's try it at night."
-
 
         $ inventory.add(Li_key1)
 
@@ -15,7 +14,6 @@ label Li_key_label:
         hide screen map_button
         scene Li_key_p1 with dissolve
         MC "Oh.. Nice! This should be the key to the front door. Let's try it at night."
-
 
         $ inventory.add(Li_key1)
 
@@ -29,3 +27,4 @@ label Li_key_label:
         MC "I can't take that key, when someone is here."
         $ clickable = True
         jump a_office_M1
+

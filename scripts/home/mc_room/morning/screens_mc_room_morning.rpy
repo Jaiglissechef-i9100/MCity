@@ -8,17 +8,18 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/door1_morning_idle1.png"
         hover "images/home/mc_room/morning/door1_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = "Corridor")
+        hovered Show("displayTextScreen", displayText = __("Corridor"))
         if clickable == True:
             action [Play ("sound", "sfx/door_open.mp3"),Jump("corridor_morning1")]
             unhovered Hide("displayTextScreen")
+
     imagebutton:
         xpos 26
         ypos 529
         focus_mask True
         idle "images/home/mc_room/morning/bed_morning_idle1.png"
         hover "images/home/mc_room/morning/bed_morning_hover1.png"
-        hovered Show("displayTextScreen", displayText = "Bed")
+        hovered Show("displayTextScreen", displayText = __("Bed"))
         if clickable == True:
             if SR3_we_bath == True:
                 action Jump("SR3_bath_time")
@@ -32,7 +33,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
-        hovered Show("displayTextScreen", displayText = "Computer")
+        hovered Show("displayTextScreen", displayText = __("Computer"))
         if clickable == True:
             if SR3_we_bath == True:
                 action Jump("SR3_bath_time")
@@ -41,15 +42,25 @@ screen mc_room_morning:
             unhovered Hide("displayTextScreen")
 
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-            hovered Show("displayTextScreen", displayText = "Secret Card")
-            if clickable == True:
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+                hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
                 action [Hide("displayTextScreen"), addgimage("img4_mc_room_card"),Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                action [Hide("displayTextScreen"), addgimage("img4_mc_room_card"),Jump("mc_room_card")]
+                hovered Show("displayTextScreen", displayText = __("Secret Photo"))
                 unhovered Hide("displayTextScreen")
 
     imagebutton:
@@ -58,7 +69,7 @@ screen mc_room_morning:
         focus_mask True
         idle "images/home/mc_room/morning/s_gallery.png"
         hover "images/home/mc_room/morning/s_gallery_hover.png"
-        hovered Show("displayTextScreen", displayText = "Secret Gallery")
+        hovered Show("displayTextScreen", displayText = __("Secret Gallery"))
         if clickable == True:
             action [Hide("displayTextScreen"), Show("secret_gallery"),]
             unhovered Hide("displayTextScreen")
@@ -70,7 +81,7 @@ screen mc_room_morning:
             focus_mask True
             idle "images/home/mc_room/morning/window_morning.png"
             hover "images/home/mc_room/morning/window_morning_hover.png"
-            hovered Show("displayTextScreen", displayText = "Window")
+            hovered Show("displayTextScreen", displayText = __("Window"))
             if clickable == True:
                 if SR3_we_bath == True:
                     action Jump("SR3_bath_time")
@@ -108,7 +119,7 @@ screen mc_room_morning:
             focus_mask True
             idle "images/home/mc_room/morning/b1.png"
             hover "images/home/mc_room/morning/b1_hover.png"
-            hovered Show("displayTextScreen", displayText = "Money")
+            hovered Show("displayTextScreen", displayText = __("Money"))
             if clickable == True:
                 action [Hide("displayTextScreen"), Jump("money_less10"),]
                 unhovered Hide("displayTextScreen")
@@ -163,15 +174,19 @@ screen mc_room_morning_notclickable:
         idle "images/home/mc_room/morning/pc_idle.png"
         hover "images/home/mc_room/morning/pc_hover.png"
 
-
     if not "img4_mc_room_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 23
-            ypos 906
-            focus_mask True
-            idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
-            hover "images/secret_gallery/Bonus/MCBedroom SecretCard_hover.png"
-
+        if jack_frost == False:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/MCBedroom SecretCard.png"
+        else:
+            imagebutton:
+                xpos 23
+                ypos 906
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
 
     imagebutton:
         xpos 1493
@@ -218,9 +233,11 @@ screen mc_room_morning_notclickable:
             ypos 232
             focus_mask True
             idle "images/home/mc_room/morning/C_R3_b1.png"
+
     if max_r_points == True:
         imagebutton:
             xpos 1860
             ypos 120
             focus_mask True
             idle Transform("images/game_gui/Max_R_Points/7.png", zoom=.4)
+

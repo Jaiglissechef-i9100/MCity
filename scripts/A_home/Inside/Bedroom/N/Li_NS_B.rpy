@@ -1,12 +1,9 @@
-
-default Li_NS_feet = nsb("Play with Liza’s feet while she’s asleep.",image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "Li_NS_B_feet", number = 6  )
-default Li_NS_mouth = nsb("Play with Liza’s mouth - make her give you a blowjob while she’s sleeping.",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Li_NS_B_mouth", number = 1 )
-default Li_NS_pussy = nsb("Pull down Liza’s panties and eat out her pussy.",image_idle = "images/NS_B/Thighs.png", image_hover = "images/NS_B/Thighs_hover.png", l_jump = "Li_NS_B_pussy", number = 4  )
+default Li_NS_feet = nsb(__("Play with Liza’s feet while she’s asleep."),image_idle = "images/NS_B/Feet2.png", image_hover = "images/NS_B/Feet2_hover.png", l_jump = "Li_NS_B_feet", number = 6  )
+default Li_NS_mouth = nsb(__("Play with Liza’s mouth - make her give you a blowjob while she’s sleeping."),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "Li_NS_B_mouth", number = 1 )
+default Li_NS_pussy = nsb(__("Pull down Liza’s panties and eat out her pussy."),image_idle = "images/NS_B/Thighs.png", image_hover = "images/NS_B/Thighs_hover.png", l_jump = "Li_NS_B_pussy", number = 4  )
 
 screen Li_NS_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
-
-
 
     $ new_nsb_in_wake = False
     $ x = 44
@@ -45,7 +42,6 @@ screen Li_NS_scr:
         $ i += 1
     if len(nsb_box.li_nsb_s)>9:
 
-
         imagebutton:
             xpos 55
             ypos 902
@@ -70,3 +66,4 @@ screen Li_NS_scr:
         hover "images/NS_B/Cancel_hover.png"
         action [SetVariable("inv_page", 0),Hide("Li_NS_scr"), Jump("LiR1_NS3_menu")]
         hovered Play ("sound", "sfx/click2.wav")
+

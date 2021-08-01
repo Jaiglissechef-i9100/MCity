@@ -13,3 +13,4 @@ label Ce_gym_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen Ce_gym_D_scr
+

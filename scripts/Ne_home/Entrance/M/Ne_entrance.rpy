@@ -1,5 +1,3 @@
-
-
 label Ne_entrance_M1:
     $ in_map = False
     $ can_map = True
@@ -32,3 +30,4 @@ label Ne_entrance_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen Ne_entrance_M_scr
+

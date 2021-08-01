@@ -56,12 +56,12 @@ label SR2_AS3_label:
         scene SR2_AS3_p5
 
         Sara "(Gulp) O-Okay, I’ll be in your bedroom."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "It’s probably best if you wait until Mom goes to sleep."
         else:
             MC "It’s probably best if you wait until Linda goes to sleep."
         Sara "Yeah, I’ll see you then."
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "You should probably look for a good place to hide it too. I don’t want Mom finding it when she cleans your room."
         else:
             MC "You should probably look for a good place to hide it too. I don’t want Linda finding it when she cleans your room."
@@ -73,3 +73,4 @@ label SR2_AS3_label:
         $ SR2_NS2 = True
         $ S_N_inbed = False
         jump classroom2_morning1
+

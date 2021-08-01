@@ -19,3 +19,4 @@ screen nc_sexroom_N_scr:
             if clickable == True:
                 action [Hide("displayTextScreen"),Jump("Ci_S5_lab")]
                 unhovered Hide("displayTextScreen")
+

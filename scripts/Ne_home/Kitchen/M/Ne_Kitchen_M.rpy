@@ -30,3 +30,4 @@ label Ne_Kitchen_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen Ne_Kitchen_M_scr
+

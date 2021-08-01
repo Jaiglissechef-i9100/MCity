@@ -16,3 +16,4 @@ label Ce_entrance_E1:
     show screen map_button
     show screen new_message_incoming1
     call screen Ce_entrance_E_scr
+

@@ -100,3 +100,4 @@ label MLR3_b_house_coffe:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump b_house_living_M1
+

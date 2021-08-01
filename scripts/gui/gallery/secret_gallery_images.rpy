@@ -1,6 +1,3 @@
-
-
-
 image img1_garage_card = MaxScale("images/secret_gallery/Bonus/10.jpg")
 image img2_garage_entrance_card = MaxScale("images/secret_gallery/Bonus/11.jpg")
 image img3_home_entrance_card = MaxScale("images/secret_gallery/Bonus/3.jpg")
@@ -266,3 +263,4 @@ image thumb83_hover_sec_card = MaxScale("images/v71/gui/83b.png", maxthumbx, max
 image thumb84_hover_sec_card = MaxScale("images/v71/gui/84b.png", maxthumbx, maxthumby)
 image thumb85_hover_sec_card = MaxScale("images/v71/gui/85b.png", maxthumbx, maxthumby)
 image thumb86_hover_sec_card = MaxScale("images/v71/gui/86b.png", maxthumbx, maxthumby)
+

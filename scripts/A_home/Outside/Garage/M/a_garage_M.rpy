@@ -1,7 +1,5 @@
 image a_garage_bg_M = "/images/a_home/outside/Garage/M/1.jpg"
 
-
-
 label a_garage_M1:
     $ in_map = False
 
@@ -27,3 +25,4 @@ label a_garage_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen a_garage_M_scr
+

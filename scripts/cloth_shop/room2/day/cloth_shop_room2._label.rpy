@@ -27,3 +27,4 @@ label cloth_shop_room2_label:
         hide screen cloth_shop_room2_screen_notclickable
         $ can_hide_windows = False
         call screen cloth_shop_room2_screen
+

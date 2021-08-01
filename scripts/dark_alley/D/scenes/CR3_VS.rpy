@@ -1,4 +1,3 @@
-
 image CR3_VS_p1 = "/images/dark_alley/D/scenes/CR3_VS/1.jpg"
 image CR3_VS_p2 = "/images/dark_alley/D/scenes/CR3_VS/2.jpg"
 image CR3_VS_p3 = "/images/dark_alley/D/scenes/CR3_VS/3.jpg"
@@ -18,7 +17,7 @@ label CR3_VS_label:
     hide screen map_button
 
     scene CR3_VS_p1 with dissolve
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Violet! My sister said I could probably, find you hanging out around here."
     else:
         MC "Hey, Violet! Caroline said I could probably, find you hanging out around here."
@@ -134,3 +133,4 @@ label CR3_VS_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump dark_alley_label
+

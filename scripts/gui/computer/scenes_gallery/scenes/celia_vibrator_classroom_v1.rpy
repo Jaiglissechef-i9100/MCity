@@ -2,6 +2,13 @@ label celia_vibrator_classroom_v1:
     hide screen scenes_gallery
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Chill Wave.mp3', channel="music1", loop=True, fadein = 2)
+    if persistent.incest_patch == True:
+        $ Blonde_Girl = __("Blonde Girl")
+        $ Ginger_Guy = __("Ginger Guy")
+
+    else:
+        $ Blonde_Girl = __("Blonde Girl")
+        $ Ginger_Guy = __("Ginger Guy")
 
     scene celia_school_morning_scene2v1_p1 with dissolve
     $ can_hide_windows = True
@@ -111,3 +118,4 @@ label celia_vibrator_classroom_v1:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

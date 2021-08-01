@@ -11,3 +11,4 @@ label caroline_room_evening1:
     hide screen caroline_room_evening_not_clickable
     $ can_hide_windows = False
     call screen caroline_room_evening
+

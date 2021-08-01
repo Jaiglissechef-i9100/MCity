@@ -12,8 +12,6 @@ label dark_alley_label:
     if day_time == 4:
         jump dark_alley_N1
 
-
-
 label dark_alley_M2:
     hide screen displayTextScreen
     scene dark_alley_Mbg
@@ -25,3 +23,4 @@ label dark_alley_M2:
     show screen new_message_incoming1
     $ can_hide_windows = False
     call screen dark_alley_M_scr
+

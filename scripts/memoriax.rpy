@@ -23,8 +23,6 @@ init:
             renpy.random.shuffle(x)
             return x
 
-
-
     image C1 = "memoriax/card1.png"
     image C2 = "memoriax/card2.png"
     image C3 = "memoriax/card3.png"
@@ -58,7 +56,7 @@ screen memoraix_bet:
         frame:
             xmaximum 200
             style "frame_gui1"
-            text "W:{color=#00ff00}[memo_w]{/color} L:{color=#f00}[memo_l]{/color}"
+            text __("W:{color=#00ff00}[memo_w]{/color} L:{color=#f00}[memo_l]{/color}")
     vbox xalign 0.95 yalign 0.01 spacing 20:
         frame:
             style "frame_gui1"
@@ -114,7 +112,6 @@ screen memoriax_scr:
     key "hide_windows" action NullAction()
     add "images/memoriax/BackGround2.jpg"
 
-
     if memo_timer >0.1:
         timer 0.1 action If (memo_timer > 0.1, SetVariable("memo_timer", memo_timer - 0.1), Jump("memoriax_game_lose") ) repeat True
 
@@ -124,7 +121,6 @@ screen memoriax_scr:
         timer 1.9 action [Play ("memoriax_m", "sfx/lose1.wav")]
         text str("{size=+20}{color=#f00}[memo_timer]{/color}{/size}") xalign 0.54 yalign 0.014 at timer_anim
 
-
     elif memo_timer <0.1:
         timer 0.1 action Jump("memoriax_game_lose")
         text str("{size=+20}{color=#f00}0{/color}{/size}") xalign 0.54 yalign 0.014
@@ -132,10 +128,7 @@ screen memoriax_scr:
     vbox xalign 0.95 yalign 0.01 spacing 20:
         frame:
             style "frame_gui1"
-            text str("{size=+18} Turns Left:{color=#00ff00}[turns_left] {/color}{/size}")
-
-
-
+            text str(__("{size=+18} Turns Left:{color=#00ff00}[turns_left] {/color}{/size}"))
 
     $ a = cards_gird
     $ b = cards_gird2
@@ -148,7 +141,6 @@ screen memoriax_scr:
         for card in cards_list:
             imagebutton:
 
-
                 if card["c_chosen"]:
 
                     idle (card["c_value"])
@@ -160,12 +152,6 @@ screen memoriax_scr:
                 if memo_timer >0.1:
                     action If ( (card["c_chosen"] or not can_click), None, [Play ("sound", "sfx/card_flip.wav"),SetDict(cards_list[card["c_number"]], "c_chosen", True), Return(card["c_number"]) ] )
 
-
-
-
-
-
-
 label memoriax_label:
     $ can_hide_windows = False
     $ renpy.music.stop(channel="music1", fadeout=1)
@@ -174,14 +160,24 @@ label memoriax_label:
     scene memoriax_bg1
     call screen memoraix_bet
 
-
 label memoraix_bet10_label:
     $ renpy.block_rollback()
     if inventory.money >= 10:
         $ inventory.drop_money(10)
         $ memoriax_bet10 = True
-        hide screen memoraix_bet
-        jump memoriax_game_roll
+        menu:
+            "Play":
+                hide screen memoraix_bet
+                jump memoriax_game_roll
+            "{image=cheat_code}":
+                hide screen memoraix_bet
+                $ renpy.music.stop(channel='memoriax_m', fadeout=None)
+                $ renpy.sound.play("sfx/win_sound.wav")
+                $ renpy.block_rollback()
+                $ memo_w += 1
+                if memoriax_bet10 == True:
+                    $ inventory.earn(20)
+                call screen memoriax_wonmoney_fuckminigames_won20
     else:
         hide screen memoraix_bet
         jump memoriax_label
@@ -190,8 +186,19 @@ label memoraix_bet25_label:
     if inventory.money >= 25:
         $ inventory.drop_money(25)
         $ memoriax_bet25 = True
-        hide screen memoraix_bet
-        jump memoriax_game_roll
+        menu:
+            "Play":
+                hide screen memoraix_bet
+                jump memoriax_game_roll
+            "{image=cheat_code}":
+                hide screen memoraix_bet
+                $ renpy.music.stop(channel='memoriax_m', fadeout=None)
+                $ renpy.sound.play("sfx/win_sound.wav")
+                $ renpy.block_rollback()
+                $ memo_w += 1
+                if memoriax_bet25 == True:
+                    $ inventory.earn(50)
+                call screen memoriax_wonmoney_fuckminigames_won50
     else:
         hide screen memoraix_bet
         jump memoriax_label
@@ -200,12 +207,22 @@ label memoraix_bet50_label:
     if inventory.money >= 50:
         $ inventory.drop_money(50)
         $ memoriax_bet50 = True
-        hide screen memoraix_bet
-        jump memoriax_game_roll
+        menu:
+            "Play":
+                hide screen memoraix_bet
+                jump memoriax_game_roll
+            "{image=cheat_code}":
+                hide screen memoraix_bet
+                $ renpy.music.stop(channel='memoriax_m', fadeout=None)
+                $ renpy.sound.play("sfx/win_sound.wav")
+                $ renpy.block_rollback()
+                $ memo_w += 1
+                if memoriax_bet50 == True:
+                    $ inventory.earn(100)
+                call screen memoriax_wonmoney_fuckminigames_won100
     else:
         hide screen memoraix_bet
         jump memoriax_label
-
 
 label memoriax_game_roll:
     $ values_list_roll = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19"]
@@ -243,8 +260,6 @@ label memoriax_game_roll:
             $ cards_number = 8
         jump memoriax_cards_roll
 
-
-
         label memoriax_cards_roll:
             if cards_number > 0:
                 $ card_roll = renpy.random.choice(values_list_roll)
@@ -268,39 +283,26 @@ label memoriax_game_roll:
             else:
                 jump memoriax_game
 
-
-
 label memoriax_game:
-
     $ renpy.block_rollback()
     window hide
 
-
-
     $ values_list = values_list_rolled
-
 
     $ values_list = cards_shuffle(values_list)
     $ cards_list = []
-
 
     python:
         for i in range (0, len(values_list) ):
             cards_list.append ( {"c_number":i, "c_value": values_list[i], "c_chosen":False} )
 
-
-
-
-
     $ renpy.sound.play("sfx/card_slide.wav")
     show screen memoriax_scr
-
 
     label memoriax_game_loop:
         $ can_click = True
         $ turned_cards_numbers = []
         $ turned_cards_values = []
-
 
         if turns_left_roll == 2:
             $ turns_left = 2
@@ -318,7 +320,6 @@ label memoriax_game:
                 $ turns_left -= 1
                 jump turns_loop
 
-
         $ can_click = False
 
         if turned_cards_values.count(turned_cards_values[0]) != len(turned_cards_values):
@@ -330,26 +331,20 @@ label memoriax_game:
                     cards_list[turned_cards_numbers[i]]["c_chosen"] = False
         else:
 
-
             $ renpy.sound.play("sfx/correct2.wav")
             $ renpy.pause (1.0, hard = True)
             $ renpy.sound.play("sfx/card_flip.wav")
             python:
 
-
                 for i in range (0, len(turned_cards_numbers) ):
                     cards_list[turned_cards_numbers[i]]["c_value"] = Null()
-
 
                 for j in cards_list:
                     if j["c_chosen"] == False:
                         renpy.jump ("memoriax_game_loop")
                 renpy.jump ("memoriax_game_win")
 
-
-
         jump memoriax_game_loop
-
 
 screen screen_memoriax_losemoney:
     modal True
@@ -375,12 +370,36 @@ screen screen_memoriax_wonmoney:
     if memoriax_bet50 == True:
         text "{size=+25}{color=#00ff00}+100{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
     timer 3.0 action [Jump("memoriax_again_label")]
+
+screen memoriax_wonmoney_fuckminigames_won20:
+    modal True
+    key "hide_windows" action NullAction()
+    add "images/RPS_minigame/E-Won.png"
+    if memoriax_bet10 == True:
+        text "{size=+25}{color=#00ff00}+20{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
+    timer 0.5 action [Jump("memoriax_label")]
+
+screen memoriax_wonmoney_fuckminigames_won50:
+    modal True
+    key "hide_windows" action NullAction()
+    add "images/RPS_minigame/E-Won.png"
+    if memoriax_bet25 == True:
+        text "{size=+25}{color=#00ff00}+50{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
+    timer 0.5 action [Jump("memoriax_label")]
+
+screen memoriax_wonmoney_fuckminigames_won100:
+    modal True
+    key "hide_windows" action NullAction()
+    add "images/RPS_minigame/E-Won.png"
+    if memoriax_bet50 == True:
+        text "{size=+25}{color=#00ff00}+100{/color}{color=#00ff00}${/color}{/size}" xalign 0.502 yalign 0.53
+    timer 0.5 action [Jump("memoriax_label")]
+
 label memoriax_game_lose:
 
     $ renpy.block_rollback()
     $ memo_l += 1
     call screen screen_memoriax_losemoney
-
 
 label memoriax_game_win:
     $ renpy.music.stop(channel='memoriax_m', fadeout=None)
@@ -396,7 +415,6 @@ label memoriax_game_win:
     if memoriax_bet50 == True:
         $ inventory.earn(100)
     call screen screen_memoriax_wonmoney
-
 
 label memoriax_again_label:
     $ renpy.block_rollback()
@@ -425,3 +443,4 @@ screen memoriax_again_screen:
         hover Transform("images/RPS_minigame/PlayExitHover.png")
         action [Hide("displayTextScreen"), Hide("memoriax_again_screen"),Hide("memoriax_scr"),Hide("screen_memoriax_losemoney"),Hide("screen_memoriax_wonmoney"), Jump("pc_icon_label"),]
         unhovered Hide("displayTextScreen")
+

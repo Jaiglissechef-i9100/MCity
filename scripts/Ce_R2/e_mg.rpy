@@ -9,29 +9,47 @@ label e_mg_start:
     $ renpy.block_rollback()
     $ e_mg_button = True
     if e_mg == 1:
-        $ e_mg_bar = 673
-        $ e_mg_arr_ypos = 480
-        $ e_mg_timer = 1.7
-        $ e_mg_bar_max = 493
-        $ e_mg_bar_reset = 673
+        menu:
+            "Play":
+                $ e_mg_bar = 673
+                $ e_mg_arr_ypos = 480
+                $ e_mg_timer = 1.7
+                $ e_mg_bar_max = 493
+                $ e_mg_bar_reset = 673
+            "{image=cheat_code}":
+                $ e_mg_bar == e_mg_bar_max
+                if e_mg_bar == e_mg_bar_max:
+                    jump e_mg_scr_fuckminigame
 
     if e_mg == 2:
-        $ e_mg_bar = 493
-        $ e_mg_arr_ypos = 330
-        $ e_mg_timer = 1.3
-        $ e_mg_bar_max = 349
-        $ e_mg_bar_reset = 493
-    if e_mg == 3:
-        $ e_mg_bar = 349
-        $ e_mg_arr_ypos = 250
-        $ e_mg_timer = 1
-        $ e_mg_bar_max = 259
-        $ e_mg_bar_reset = 349
+        menu:
+            "Play":
+                $ e_mg_bar = 493
+                $ e_mg_arr_ypos = 330
+                $ e_mg_timer = 1.3
+                $ e_mg_bar_max = 349
+                $ e_mg_bar_reset = 493
+            "{image=cheat_code}":
+                $ e_mg_bar == e_mg_bar_max
+                if e_mg_bar == e_mg_bar_max:
+                    jump e_mg_scr_fuckminigame
 
-    if persistent.skip_mg == True:
-        $ e_mg_bar = e_mg_bar_max
+    if e_mg == 3:
+        menu:
+            "Play":
+                $ e_mg_bar = 349
+                $ e_mg_arr_ypos = 250
+                $ e_mg_timer = 1
+                $ e_mg_bar_max = 259
+                $ e_mg_bar_reset = 349
+            "{image=cheat_code}":
+                $ e_mg_bar == e_mg_bar_max
+                if e_mg_bar == e_mg_bar_max:
+                    jump e_mg_scr_fuckminigame
+
     call screen e_mg_scr
 
+label e_mg_scr_fuckminigame:
 screen e_mg_scr:
     if e_mg == 1:
         add "images/CeR2/LS/68.jpg"
@@ -85,3 +103,4 @@ label e_mg_end:
     if e_mg == 3:
         $ e_mg = 4
         jump after_e_mg3
+

@@ -45,3 +45,4 @@ label caroline_room_morning_scene2_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump caroline_room_morning1
+

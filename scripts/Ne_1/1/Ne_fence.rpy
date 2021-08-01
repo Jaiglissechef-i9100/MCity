@@ -45,14 +45,21 @@ label Ne_fence_lab:
                 MC "Ugh… Arggh…"
                 scene Ne_ES1_p2
                 MC "C’mon… uh! Just a bit more…"
-
-            call screen Ne_fence_climb
+            menu:
+                "Play":
+                    call screen Ne_fence_climb
+                "{image=cheat_code}":
+                    jump Ne_fence_lab2
         if day_time == 4:
             scene Ne_ES1_p1a with dissolve
             MC "Ugh… Arggh…"
             scene Ne_ES1_p2a
             MC "C’mon… uh! Just a bit more…"
-            call screen Ne_fence_climb
+            menu:
+                "Play":
+                    call screen Ne_fence_climb
+                "{image=cheat_code}":
+                    jump Ne_fence_lab2
         else:
 
             hide screen map_button
@@ -133,3 +140,4 @@ label Ne_fence_lab2:
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         jump Ne_outside_M1
+

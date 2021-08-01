@@ -15,8 +15,6 @@ label zuri_homeoutside_E1:
     show screen new_message_incoming1
     call screen zuri_homeoutside_E_scr
 
-
-
 label Z_home_door_E_label:
     $ can_hide_windows = False
     hide screen displayTextScreen
@@ -29,7 +27,6 @@ label Z_home_door_E_label:
     show screen map_button
     show screen new_message_incoming1
     call screen Z_home_door_E_scr
-
 
 label Z_home_doorknock_E_label:
     $ can_hide_windows = False
@@ -51,3 +48,4 @@ label Z_home_doorknock_E_label:
         $ clickable = True
         hide screen Z_home_door_E_scr
         jump Z_home_door_E_label
+

@@ -737,7 +737,10 @@ label CR4_love_hotel_rep4:
 
     scene CR4_love_bed_p7
     MC "Do you not want me going down on you, for a change? Or-"
-    Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
+    if persistent.incest_patch == True:
+        Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Mom or Sara walking in!"
+    else:
+        Caroline "Relax, I LOVE sucking your cock. And now I have a place I can do it without worrying about Linda or Sara walking in!"
     MC "Well, if you’re sure."
 
     scene CR4_love_bed_p8
@@ -1360,3 +1363,4 @@ label CR4_love_hotel_lab7_rep:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

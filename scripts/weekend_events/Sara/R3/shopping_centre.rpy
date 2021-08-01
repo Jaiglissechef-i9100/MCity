@@ -44,7 +44,7 @@ screen SC_scr:
         focus_mask True
         idle "images/v71/Maps/Stairs.png"
         hover "images/v71/Maps/Stairs_hover.png"
-        hovered Show("displayTextScreen", displayText = "Stairs")
+        hovered Show("displayTextScreen", displayText = __("Stairs"))
         if clickable == True:
             if SR3_we_SC_wait == True:
                 action [Hide("displayTextScreen"),Jump("SR3_SC_floor2_wait_locked")]
@@ -65,36 +65,69 @@ screen SC_scr:
                 unhovered Hide("displayTextScreen")
 
     if not "img82_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1060
-            ypos 504
-            focus_mask True
-            idle "images/v71/gui/B82a.png"
-            hover "images/v71/gui/B82a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img82_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1060
+                ypos 504
+                focus_mask True
+                idle "images/v71/gui/B82a.png"
+                hover "images/v71/gui/B82a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img82_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1060
+                ypos 504
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img82_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     if not "img83_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1586
-            ypos 445
-            focus_mask True
-            idle "images/v71/gui/B83a.png"
-            hover "images/v71/gui/B83a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img83_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1586
+                ypos 445
+                focus_mask True
+                idle "images/v71/gui/B83a.png"
+                hover "images/v71/gui/B83a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img83_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1586
+                ypos 445
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img83_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if not "img84_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 51
-            ypos 700
-            focus_mask True
-            idle "images/v71/gui/B84a.png"
-            hover "images/v71/gui/B84a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img84_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 51
+                ypos 700
+                focus_mask True
+                idle "images/v71/gui/B84a.png"
+                hover "images/v71/gui/B84a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img84_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 51
+                ypos 700
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img84_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
 
 screen SC_floor2_scr:
@@ -127,23 +160,46 @@ screen SC_floor2_scr:
 
 
     if not "img85_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 1774
-            ypos 984
-            focus_mask True
-            idle "images/v71/gui/B85a.png"
-            hover "images/v71/gui/B85a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img85_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 1774
+                ypos 984
+                focus_mask True
+                idle "images/v71/gui/B85a.png"
+                hover "images/v71/gui/B85a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img85_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 1774
+                ypos 984
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img85_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
 
     if not "img86_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 995
-            ypos 262
-            focus_mask True
-            idle "images/v71/gui/B86a.png"
-            hover "images/v71/gui/B86a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img86_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 995
+                ypos 262
+                focus_mask True
+                idle "images/v71/gui/B86a.png"
+                hover "images/v71/gui/B86a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img86_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 995
+                ypos 262
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    action [Hide("displayTextScreen"),addgimage("img86_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+

@@ -1,4 +1,3 @@
-
 init python:
 
     class nsb(store.object):
@@ -14,7 +13,6 @@ init python:
 
     class Nsb_box(store.object):
         def __init__(self):
-            
             
             self.c_nsb_s = []
             self.c_nsb_wake = []
@@ -93,34 +91,29 @@ init python:
                 setattr(self.object, "t_played", new_value3)
             setattr(self.object, "played", new_value2)
 
-
-
-
-
 default nsb_box = Nsb_box()
-default C_NS_cock = nsb("Slide your cock into her mouth.",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_1", number = 1  )
-default C_NS_tits = nsb("Pull down her bra and play with her tits.",image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "CNS_2", number = 2  )
-default C_NS_ass = nsb("Play with her ass.",image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_3", number = 4  )
-default C_NS_feet = nsb("Rub your cock on her feet.",image_idle = "images/NS_B/Feet.png", image_hover = "images/NS_B/Feet_hover.png", l_jump = "CNS_4", number = 6 )
+default C_NS_cock = nsb(__("Slide your cock into her mouth."),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_1", number = 1  )
+default C_NS_tits = nsb(__("Pull down her bra and play with her tits."),image_idle = "images/NS_B/Titsjob.png", image_hover = "images/NS_B/Titsjob_hover.png", l_jump = "CNS_2", number = 2  )
+default C_NS_ass = nsb(__("Play with her ass."),image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_3", number = 4  )
+default C_NS_feet = nsb(__("Rub your cock on her feet."),image_idle = "images/NS_B/Feet.png", image_hover = "images/NS_B/Feet_hover.png", l_jump = "CNS_4", number = 6 )
 
-default C_NS_wake_hand = nsb("Could you give me a handjob, please?",image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "CNS_wake_1", number = 3 )
-default C_NS_wake_feet = nsb("Could you use your feet?",image_idle = "images/NS_B/Footjob.png", image_hover = "images/NS_B/Footjob_hover.png", l_jump = "CNS_wake_2", number = 6)
+default C_NS_wake_hand = nsb(__("Could you give me a handjob, please?"),image_idle = "images/NS_B/Hand3.png", image_hover = "images/NS_B/Hand3_hover.png", l_jump = "CNS_wake_1", number = 3 )
+default C_NS_wake_feet = nsb(__("Could you use your feet?"),image_idle = "images/NS_B/Footjob.png", image_hover = "images/NS_B/Footjob_hover.png", l_jump = "CNS_wake_2", number = 6)
 
-default C_NS_wake_butt = nsb("Buttjob.",image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_wake_butt_label", number = "4" )
-default C_NS_wake_kissing = nsb("Kissing.",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_wake_kissing_label", number = "1" )
-default C_NS_wake_licking = nsb("Licking.",image_idle = "images/NS_B/Licking.png", image_hover = "images/NS_B/Licking_hover.png", l_jump = "CNS_wake_licking_label", number = "4a" )
-default C_NS_wake_titsjob = nsb("Titsjob.",image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "CNS_wake_Titsjob_label", number = "2" )
+default C_NS_wake_butt = nsb(__("Buttjob."),image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_wake_butt_label", number = "4" )
+default C_NS_wake_kissing = nsb(__("Kissing."),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_wake_kissing_label", number = "1" )
+default C_NS_wake_licking = nsb(__("Licking."),image_idle = "images/NS_B/Licking.png", image_hover = "images/NS_B/Licking_hover.png", l_jump = "CNS_wake_licking_label", number = "4a" )
+default C_NS_wake_titsjob = nsb(__("Titsjob."),image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "CNS_wake_Titsjob_label", number = "2" )
 
-default C_NS_wake_butt_loc = nsb("Required: Weekend event with her.",image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_wake_butt_label", played = True, locked = True,  number = "4" )
-default C_NS_wake_kissing_loc = nsb("Required: Weekend event with her.",image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_wake_kissing_label", played = True, locked = True,  number = "1" )
-default C_NS_wake_licking_loc = nsb("Required: Story progress with her.",image_idle = "images/NS_B/Licking.png", image_hover = "images/NS_B/Licking_hover.png", l_jump = "CNS_wake_licking_label", played = True, locked = True,  number = "4a" )
-default C_NS_wake_titsjob_loc = nsb("Required: Weekend event with her.",image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "CNS_wake_Titsjob_label", played = True, locked = True,  number = "2" )
+default C_NS_wake_butt_loc = nsb(__("Required: Weekend event with her."),image_idle = "images/NS_B/Ass.png", image_hover = "images/NS_B/Ass_hover.png", l_jump = "CNS_wake_butt_label", played = True, locked = True,  number = "4" )
+default C_NS_wake_kissing_loc = nsb(__("Required: Weekend event with her."),image_idle = "images/NS_B/Blowjob.png", image_hover = "images/NS_B/Blowjob_hover.png", l_jump = "CNS_wake_kissing_label", played = True, locked = True,  number = "1" )
+default C_NS_wake_licking_loc = nsb(__("Required: Story progress with her."),image_idle = "images/NS_B/Licking.png", image_hover = "images/NS_B/Licking_hover.png", l_jump = "CNS_wake_licking_label", played = True, locked = True,  number = "4a" )
+default C_NS_wake_titsjob_loc = nsb(__("Required: Weekend event with her."),image_idle = "images/NS_B/Tits.png", image_hover = "images/NS_B/Tits_hover.png", l_jump = "CNS_wake_Titsjob_label", played = True, locked = True,  number = "2" )
 
 default new_nsb_in_wake = False
 screen C_NS_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
     add "images/NS_B/Wake.png" xpos 1705 ypos 25
-
 
     $ new_nsb_in_wake = False
     $ x = 44
@@ -159,7 +152,6 @@ screen C_NS_scr:
         $ i += 1
     if len(nsb_box.c_nsb_s)>9:
 
-
         imagebutton:
             xpos 55
             ypos 902
@@ -185,7 +177,6 @@ screen C_NS_scr:
         action [SetVariable("inv_page", 0),Hide("C_NS_scr"), Jump("CNS_back")]
         hovered Play ("sound", "sfx/click2.wav")
 
-
     imagebutton:
         xpos 1738
         ypos 110
@@ -197,7 +188,7 @@ screen C_NS_scr:
             hovered Play ("sound", "sfx/click2.wav")
         else:
             action NullAction()
-            hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=110, tt_xpos=1171, displayText2 = "Required 2 relation points.",)]
+            hovered [Play ("sound", "sfx/click2.wav"),Show("displayTextNS_B",tt_ypos=110, tt_xpos=1171, displayText2 = __("Required 2 relation points."),)]
             unhovered Hide("displayTextNS_B")
 
     if Caroline_points <2:
@@ -212,8 +203,6 @@ screen C_NS_scr:
 
     if new_nsb_in_wake == True:
         add "images/NS_B/New.png" xpos 1732 ypos 98
-
-
 
 screen C_NS_wake_scr:
     add "images/NS_B/Ground.png" xpos 25 ypos 377
@@ -255,7 +244,6 @@ screen C_NS_wake_scr:
         $ i += 1
     if len(nsb_box.c_nsb_wake)>9:
 
-
         imagebutton:
             xpos 55
             ypos 902
@@ -282,8 +270,6 @@ screen C_NS_wake_scr:
         action [SetVariable("inv_page", 0),Hide("C_NS_wake_scr"), Jump("CNS_back_wake")]
         hovered Play ("sound", "sfx/click2.wav")
 
-
-
 screen displayTextNS_B:
 
     default displayText2 = ""
@@ -303,3 +289,4 @@ style frame_gui2:
     padding gui.frame_borders.padding
     background Frame("gui/frame2.png", 25, 25)
     xmaximum 520
+

@@ -12,3 +12,4 @@ label Ce_corridor2_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen Ce_corridor2_D_scr
+

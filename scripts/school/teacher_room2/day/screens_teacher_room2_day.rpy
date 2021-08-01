@@ -18,5 +18,6 @@ screen teacher_room2_day:
         hover "images/school/teacher_room2/day/locker/locker_b1v1_hover.png"
         if clickable == True:
             action [Jump("locker_v1_morning_label")]
-            hovered Show("displayTextScreen", displayText = "Locker")
+            hovered Show("displayTextScreen", displayText = __("Locker"))
             unhovered Hide("displayTextScreen")
+

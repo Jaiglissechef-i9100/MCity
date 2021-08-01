@@ -1,6 +1,6 @@
 image ML_NS_sleep_p1 = "images/home/ml_and_f_bedroom/night/ML_NSB_sleep/1.jpg"
-default ML_NSB_sleep_can = True
 
+default ML_NSB_sleep_can = True
 
 label ML_NS_sleep_label:
     $ Linda_name = Mom_name
@@ -30,7 +30,6 @@ label ML_NS_sleep_label:
     $ inv_page = 0
     call screen ML_NS_sleep_scr
 
-
 label ML_NS_sleep_back:
     $ ML_NSB_sleep_can = False
     $ renpy.music.stop(channel="music1", fadeout=1)
@@ -40,3 +39,4 @@ label ML_NS_sleep_back:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump salon_morning1
+

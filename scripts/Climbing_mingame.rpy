@@ -63,8 +63,6 @@ label Climbing_start0:
 
         call screen ClimbingMenu_scr
 
-
-
 label Climbing_start:
 
     $ climb_lvl = 0
@@ -73,74 +71,75 @@ label Climbing_start:
     call screen ClimbingStart_scr
 
 label Climbing_loop:
-    $ renpy.block_rollback()
-    if persistent.skip_mg == True and climb_lvl < 8:
-        $ climb_lvl = 8
+    menu:
+        "Play":
+            $ renpy.block_rollback()
+            $ climb_spot_value = renpy.random.choice([0,0.1,0.2,0.3,0.4,0.5,0.6,])
+            $ can_climb_bar_loop = True
+            if climb_spot_value == 0:
+                $ climb_spot_value2 = 0.4
+                $ climb_spot_yNormal = 516
 
-    $ climb_spot_value = renpy.random.choice([0,0.1,0.2,0.3,0.4,0.5,0.6,])
-    $ can_climb_bar_loop = True
-    if climb_spot_value == 0:
-        $ climb_spot_value2 = 0.4
-        $ climb_spot_yNormal = 516
+            if climb_spot_value == 0.1:
+                $ climb_spot_value2 = 0.5
+                $ climb_spot_yNormal = 493
 
-    if climb_spot_value == 0.1:
-        $ climb_spot_value2 = 0.5
-        $ climb_spot_yNormal = 493
+            if climb_spot_value == 0.2:
+                $ climb_spot_value2 = 0.6
+                $ climb_spot_yNormal = 470
 
-    if climb_spot_value == 0.2:
-        $ climb_spot_value2 = 0.6
-        $ climb_spot_yNormal = 470
+            if climb_spot_value == 0.3:
+                $ climb_spot_value2 = 0.7
+                $ climb_spot_yNormal = 447
 
-    if climb_spot_value == 0.3:
-        $ climb_spot_value2 = 0.7
-        $ climb_spot_yNormal = 447
+            if climb_spot_value == 0.4:
+                $ climb_spot_value2 = 0.8
+                $ climb_spot_yNormal = 424
 
-    if climb_spot_value == 0.4:
-        $ climb_spot_value2 = 0.8
-        $ climb_spot_yNormal = 424
+            if climb_spot_value == 0.5:
+                $ climb_spot_value2 = 0.9
+                $ climb_spot_yNormal = 401
 
-    if climb_spot_value == 0.5:
-        $ climb_spot_value2 = 0.9
-        $ climb_spot_yNormal = 401
+            if climb_spot_value == 0.6:
+                $ climb_spot_value2 = 1.0
+                $ climb_spot_yNormal = 378
 
-    if climb_spot_value == 0.6:
-        $ climb_spot_value2 = 1.0
-        $ climb_spot_yNormal = 378
+            if climb_lvl == 0:
+                scene Climbing2
+            if climb_lvl == 1:
+                scene Climbing3
+            if climb_lvl == 2:
+                scene Climbing4
+            if climb_lvl == 3:
+                scene Climbing5
+            if climb_lvl == 4:
+                scene Climbing6
+            if climb_lvl == 5:
+                scene Climbing7
+            if climb_lvl == 6:
+                scene Climbing7
+                call screen ClimbingSuccess_scr
+            if climb_lvl == 7:
+                scene ClimbingSuccess_p1
+                $ renpy.pause()
+                scene ClimbingSuccess_p2
+                call screen ClimbingSuccess_scr
+            if climb_lvl == 8:
+                scene ClimbingSuccess_p3
+                call screen ClimbingSuccess_scr
+            if climb_lvl == 9:
+                scene ClimbingSuccess_p4
+                call screen ClimbingSuccess_scr
+            if climb_lvl == 10:
+                $ climb_w +=1
 
-
-    if climb_lvl == 0:
-        scene Climbing2
-    if climb_lvl == 1:
-        scene Climbing3
-    if climb_lvl == 2:
-        scene Climbing4
-    if climb_lvl == 3:
-        scene Climbing5
-    if climb_lvl == 4:
-        scene Climbing6
-    if climb_lvl == 5:
-        scene Climbing7
-    if climb_lvl == 6:
-        scene Climbing7
-        call screen ClimbingSuccess_scr
-    if climb_lvl == 7:
-        scene ClimbingSuccess_p1
-        $ renpy.pause()
-        scene ClimbingSuccess_p2
-        call screen ClimbingSuccess_scr
-    if climb_lvl == 8:
-        scene ClimbingSuccess_p3
-        call screen ClimbingSuccess_scr
-    if climb_lvl == 9:
-        scene ClimbingSuccess_p4
-        call screen ClimbingSuccess_scr
-    if climb_lvl == 10:
-        $ climb_w +=1
-
-        $ renpy.pause(0.30, hard = True)
-        scene black
-        jump LiR1_NS1_label
-    call screen ClimbingStart_scr
+                $ renpy.pause(0.30, hard = True)
+                scene black
+                jump LiR1_NS1_label
+            call screen ClimbingStart_scr
+        "{image=cheat_code}":
+            $ climb_w += 1
+            jump LiR1_NS1_label
 
 label climbing_fall:
     scene ClimbingFall1
@@ -180,7 +179,6 @@ screen ClimbingMenu_scr:
         hover "images/ClimbingMinigame/PlayExitHover1.png"
         action [Hide("ClimbingMenu_scr"), Jump("a_home_outside_M1") ]
         unhovered Hide("displayTextScreen")
-
 
 screen ClimbingStart_scr:
     modal True
@@ -262,8 +260,6 @@ screen ClimbingSuccess_scr:
         if climb_bar_minus == False and can_climb_bar_loop == True:
             timer 0.03 action If (climb_bar_value < 1, SetVariable("climb_bar_value", climb_bar_value + 0.04), SetVariable("climb_bar_minus", True) ) repeat True
 
-
-
     if climb_lvl == 8:
         imagebutton:
             xpos 1120
@@ -281,3 +277,4 @@ screen ClimbingSuccess_scr:
             idle "images/ClimbingMinigame/A_Up.png"
             hover "images/ClimbingMinigame/A_Up_hover.png"
             action [SetVariable("climb_lvl", climb_lvl + 1), Jump("Climbing_loop")]
+

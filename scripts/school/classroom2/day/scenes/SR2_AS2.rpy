@@ -5,7 +5,6 @@ image SR2_AS2_p4 = "images/school/classroom2/day/scenes/SR2_AS2/4.jpg"
 image SR2_AS2_p5 = "images/school/classroom2/day/scenes/SR2_AS2/5.jpg"
 image SR2_AS2_p6 = "images/school/classroom2/day/scenes/SR2_AS2/6.jpg"
 
-
 label SR2_AS2_label:
     if can_SR2_AS2 == False:
         $ clickable = False
@@ -27,7 +26,7 @@ label SR2_AS2_label:
         Sara "Hi, [player_name]! Not too great, to be honest."
 
         scene SR2_AS2_p2
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             Sara "Mom has me up, at the crack of dawn, for school. And then, as soon as I get home, she’s making me work ALL evening!"
         else:
             Sara "Linda has me up, at the crack of dawn, for school. And then, as soon as I get home, she’s making me work ALL evening!"
@@ -47,7 +46,7 @@ label SR2_AS2_menu:
             scene SR2_AS2_p3
 
             Sara "Uuuggghhh…. Not you too!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Sara "That’s EXACTLY what Mom said."
             else:
                 Sara "That’s EXACTLY what Linda said."
@@ -72,7 +71,7 @@ label SR2_AS2_menu:
             else:
                 jump SR2_AS2_menu
 
-        "Have you tried speaking to Mom about giving you some freedom again?" if menu_q2 == True and renpy.loadable("patch.rpy"):
+        "Have you tried speaking to Mom about giving you some freedom again?" if menu_q2 == True and persistent.incest_patch == True:
             scene SR2_AS2_p1
 
             MC "Have you tried speaking to Mom about getting some freedoms back?"
@@ -90,8 +89,7 @@ label SR2_AS2_menu:
             else:
                 jump SR2_AS2_menu
 
-
-        "Have you tried speaking to Linda about giving you some freedom again?" if menu_q2 == True and not renpy.loadable("patch.rpy"):
+        "Have you tried speaking to Linda about giving you some freedom again?" if menu_q2 == True and not persistent.incest_patch == True:
             scene SR2_AS2_p1
 
             MC "Have you tried speaking to Linda about getting some freedoms back?"
@@ -125,7 +123,7 @@ label SR2_AS2_menu:
 
             Sara "That’s… not relevant."
             MC "(I’m pretty sure it’s VERY relevant. No point in arguing with her, right now though. She’s learning a painful lesson.)"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Fine. Just try and make the most of it, to get your grades back to the high A’s again. Okay? If not for Mom, then do it for me."
             else:
                 MC "Fine. Just try and make the most of it, to get your grades back to the high A’s again. Okay? If not for Linda, then do it for me."
@@ -140,13 +138,12 @@ label SR2_AS2_menu:
             else:
                 jump SR2_AS2_menu
 
-
 label SR2_AS2_cantinue:
     scene SR2_AS2_p5
 
     MC "I guess I’ll catch you later, then."
     Sara "Wait - before you go… Can I sneak over to your room tonight?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Will Mom allow that? I thought you were grounded."
     else:
         MC "Will Linda allow that? I thought you were grounded."
@@ -156,7 +153,7 @@ label SR2_AS2_cantinue:
     Sara "I am. That’s why I said SNEAK!"
     MC "Ahh…"
     Sara "I wanted to talk with you about… some things that I can't... say out loud in class."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "No problem. Come over whenever you’re free. Just make sure that Mom doesn’t see you!"
     else:
         MC "No problem. Come over whenever you’re free. Just make sure that Linda doesn’t see you!"
@@ -169,3 +166,4 @@ label SR2_AS2_cantinue:
     $ SR2_NS1 = True
     $ S_N_inbed = False
     jump classroom2_morning1
+

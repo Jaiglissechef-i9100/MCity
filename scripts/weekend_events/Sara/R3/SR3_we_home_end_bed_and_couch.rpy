@@ -338,3 +338,4 @@ label SR3_we_home_end_couch:
         $ renpy.music.play('/sfx/Life of Riley.mp3', channel="music2", loop=True, fadein = 2)
         $ can_hide_windows = False
         jump sister_nerdy_evening1
+

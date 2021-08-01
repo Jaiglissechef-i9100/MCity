@@ -3,7 +3,6 @@ image sis_nerdy_school_scene2_v1_p2 = "images/school/school_entrance/day/scenes/
 image sis_nerdy_school_scene2_v1_p3 = "images/school/school_entrance/day/scenes/sara_scene2_v1/3.jpg"
 image sis_nerdy_school_scene2_v1_p4 = "images/school/school_entrance/day/scenes/sara_scene2_v1/4.jpg"
 
-
 label sis_nerdy_school_scene2_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -21,9 +20,9 @@ label sis_nerdy_school_scene2_v1_label:
     Lily "Oh, my God! Is this Dan from Chemistry?"
 
     scene sis_nerdy_school_scene2_v1_p2
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "No! It’s… my brother…"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Sara "No! It’s… [player_name]"
     Lily "No way! Show me again!"
     Sara "Not in school… I’ll text you later."
@@ -53,3 +52,4 @@ label sis_nerdy_school_scene2_v1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump school_entrance_day1
+

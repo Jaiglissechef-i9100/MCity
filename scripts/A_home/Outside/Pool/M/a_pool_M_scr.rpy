@@ -1,16 +1,28 @@
-
 screen a_pool_M_scr:
     key "hide_windows" action NullAction()
     if not "img33_sec_card" in gallery_photos.storage:
-        imagebutton:
-            xpos 0
-            ypos 918
-            focus_mask True
-            idle "images/secret_gallery/Bonus/B33a.png"
-            hover "images/secret_gallery/Bonus/B33a_hover.png"
-            if clickable == True:
-                action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
-                unhovered Hide("displayTextScreen")
+        if jack_frost == False:
+            imagebutton:
+                xpos 0
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B33a.png"
+                hover "images/secret_gallery/Bonus/B33a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
+        else:
+            imagebutton:
+                xpos 10
+                ypos 918
+                focus_mask True
+                idle "images/secret_gallery/Bonus/B28a.png"
+                hover "images/secret_gallery/Bonus/B28a_hover.png"
+                if clickable == True:
+                    hovered Show("displayTextScreen", displayText = __("Secret Photo"))
+                    action [Hide("displayTextScreen"),addgimage("img33_sec_card"), SetVariable("clickable", False),Show("card_found_alert")]
+                    unhovered Hide("displayTextScreen")
     imagebutton:
         xpos 1632
         ypos 240
@@ -35,7 +47,7 @@ screen a_pool_M_scr:
             if clickable == True and Li_clean_stuff.selected == False:
                 action [Hide("displayTextScreen"),Jump("pool_minigame_not_selected")]
 
-                hovered Show("displayTextScreen", displayText = "Start Pool Cleaning")
+                hovered Show("displayTextScreen", displayText = __("Start Pool Cleaning"))
                 unhovered Hide("displayTextScreen")
 
     if LiR1_MAS6 == True:
@@ -46,8 +58,8 @@ screen a_pool_M_scr:
             idle "/images/a_home/outside/Pool/M/B2.png"
             hover "/images/a_home/outside/Pool/M/B2_hover.png"
             if clickable == True:
-                if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Auntie")
+                if persistent.incest_patch == True:
+                    hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS6_label")]
@@ -61,8 +73,8 @@ screen a_pool_M_scr:
             idle "/images/a_home/outside/Pool/M/B3.png"
             hover "/images/a_home/outside/Pool/M/B3_hover.png"
             if clickable == True:
-                if renpy.loadable("patch.rpy"):
-                    hovered Show("displayTextScreen", displayText = "Auntie")
+                if persistent.incest_patch == True:
+                    hovered Show("displayTextScreen", displayText = __("Auntie"))
                 else:
                     hovered Show("displayTextScreen", displayText = "Liza")
                 action [Hide("displayTextScreen"),Jump("LiR1_MAS7_label")]
@@ -88,3 +100,4 @@ screen a_pool_M_scr:
             idle "images/game_gui/goback_button_idle.png"
             hover "images/game_gui/goback_button_hover.png"
             action [Jump("a_home_outside_M1")]
+

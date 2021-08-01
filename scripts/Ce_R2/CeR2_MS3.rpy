@@ -171,3 +171,4 @@ label CeR2_MS3_lab:
 
                 $ can_hide_windows = False
                 jump school_corridor2_morning1
+

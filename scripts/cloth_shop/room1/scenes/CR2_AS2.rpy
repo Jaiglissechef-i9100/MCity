@@ -49,20 +49,17 @@ label CR2_AS2_label:
     MC "I’m thinking that you could use that amazing ass of yours, to get me off."
     MC "What do you say?"
 
-
     scene CR2_AS2_p3
 
     MC "(Holy shit, those nipple pasties are awesome!)"
     MC "(I’d love her to titfuck me with those on - but I’m feeling like using her ass right now.)"
     Caroline "You don’t mean… inside, do you?"
 
-
     scene CR2_AS2_p4
 
     MC "No! Of course not. Just in between your cheeks."
     Caroline "I… uh… I guess that’s okay."
     MC "Awesome!"
-
 
     scene CR2_AS2_p5
 
@@ -201,3 +198,4 @@ label CR2_AS2_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump map_label
+

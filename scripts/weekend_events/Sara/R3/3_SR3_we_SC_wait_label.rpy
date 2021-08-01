@@ -109,3 +109,4 @@ label SR3_we_SC_wait_end:
     $ renpy.music.play('/sfx/Life of Riley.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump SC_label
+

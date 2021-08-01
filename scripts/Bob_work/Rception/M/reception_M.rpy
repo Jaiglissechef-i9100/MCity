@@ -1,6 +1,5 @@
 image bob_reception_morning = "/images/Bob_work/reception/M/reception_M.jpg"
 
-
 label bob_reception_morning1:
     if day_time == 1:
         jump bob_reception_morning2
@@ -17,3 +16,4 @@ label bob_reception_morning2:
     show screen map_button
     show screen new_message_incoming1
     call screen bob_reception_M_scr
+

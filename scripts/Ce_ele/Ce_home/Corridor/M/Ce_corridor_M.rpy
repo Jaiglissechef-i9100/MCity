@@ -30,3 +30,4 @@ label Ce_corridor_M2:
     show screen map_button
     show screen new_message_incoming1
     call screen Ce_corridor_M_scr
+

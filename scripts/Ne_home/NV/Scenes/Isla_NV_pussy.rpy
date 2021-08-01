@@ -64,3 +64,4 @@ label Isla_NV_pussy_lab:
     Isla "(Ugh, I was having a really weird dream about [player_name]. I wish Sidra would let me try being with a guy, even just once!)"
 
     jump Ne_NV_back
+

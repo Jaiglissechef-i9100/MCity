@@ -21,3 +21,4 @@ label salon_morning2:
     show screen new_message_incoming1
     hide screen salon_morning_notclickable
     call screen salon_morning
+

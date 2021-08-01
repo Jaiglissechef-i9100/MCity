@@ -12,3 +12,4 @@ label Ne_outside_M1:
 
     if day_time == 4:
         jump Ne_outside_N1
+

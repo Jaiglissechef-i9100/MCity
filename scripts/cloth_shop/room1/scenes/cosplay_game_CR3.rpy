@@ -10,7 +10,6 @@ init python:
             self.locked = locked
             self.t_played = t_played
 
-
     class Outfit_box(store.object):
         def __init__(self):
             
@@ -20,7 +19,6 @@ init python:
             self.outfit_store.append(outfit)
         def drop_outfit(self, outfit):
             self.outfit_store.remove(outfit)
-
 
 default outfit_box = Outfit_box()
 default C_R3_outfit1 = outfit(image_idle = "images/cosplay_minigame/R3/1.png", image_hover = "images/cosplay_minigame/R3/1a.png", l_jump = "CR3_AS3_O1", number = "1")
@@ -40,8 +38,6 @@ label cosplay_CR3_label:
         $ outfit_box.add_outfit(C_R3_outfit4_loc)
     call screen cosplay_CR3_scr
 
-
-
 screen cosplay_CR3_scr:
     modal True
     add "images/cosplay_minigame/R2/CosplaySelect/Outfits.png"
@@ -51,7 +47,6 @@ screen cosplay_CR3_scr:
         idle "images/cosplay_minigame/R3/Outfit_Close.png"
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [Hide ("cosplay_CR3_scr"),Jump("cosplay_CR3_close")]
-
 
     $ new_nsb_in_wake = False
     $ x = 699
@@ -91,12 +86,10 @@ screen cosplay_CR3_scr:
                 add "images/cosplay_minigame/R3/Loc.png" xpos x ypos y
         $ i += 1
 
-
-
-
 label cosplay_CR3_close:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump cloth_shop_open_label
+

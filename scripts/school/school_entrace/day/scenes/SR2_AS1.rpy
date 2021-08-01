@@ -67,3 +67,4 @@ label SR2_AS1_label:
         $ can_hide_windows = False
         $ can_SR2_AS1 = False
         jump school_entrance_morning1
+

@@ -15,6 +15,7 @@ screen d_ml_and_f_bedroom_mornig_scene_v1_screen:
         idle "images/game_gui/pc/cd/empty.png"
         hover "images/game_gui/pc/cd/empty.png"
         action [Hide("d_ml_and_f_bedroom_mornig_scene_v1_screen"), Hide("parents_bedroom_day_notclickable"), Jump("parents_bedroom_morning1")]
+
 label d_ml_and_f_bedroom_mornig_scene_v1_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -24,7 +25,9 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
     if d_ml_and_f_bedroom_mornig_scene_visit == 4 and d__can_ml_and_f_bedroom_mornig_scene == True:
         show screen parents_bedroom_day_notclickable
         show screen d_ml_and_f_bedroom_mornig_scene_v1_screen
-        if not renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
+            $ Dad_name = __("Dad")
+        else:
             $ Dad_name = "Bob"
         Dad "Not now, [player_name]."
         jump parents_bedroom_morning1
@@ -37,12 +40,14 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
     $ renpy.music.play('/sfx/Aces High.mp3', channel="music1", loop=True, fadein = 2)
     $ can_hide_windows = True
     if d_ml_and_f_bedroom_mornig_scene_visit == 1 and d__can_ml_and_f_bedroom_mornig_scene == True:
-        if not renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
+            $ Dad_name = __("Dad")
+        else:
             $ Dad_name = "Bob"
         scene d_ml_and_f_bedroom_mornig_scene_v1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Uhh… Hey Dad, you busy right now?"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Uhh… Hey Bob, you busy right now?"
         Dad "Hmm?"
 
@@ -58,19 +63,18 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
         menu:
             "{color=#00ff00}Can you give me some money?{/color}":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "I’m actually a bit short on cash, Dad. Could you maybe lend me some?"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "I’m actually a bit short on cash, Bob. Could you maybe lend me some?"
                 Dad "Haha! You’ve spent all your money chasing girls, haven’t you?"
                 Dad "Let me take a look in my wallet…"
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p4
                 Dad "Alright, here you go. Don’t spend it all in one place, now!"
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Thanks, Dad!"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Thanks, Bob!"
                 "+15$"
                 $ inventory.earn(15)
@@ -81,7 +85,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 $ can_hide_windows = False
                 jump parents_bedroom_morning1
             "How are things at work?":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
                 MC "How are things at work?"
@@ -98,12 +101,11 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 jump parents_bedroom_morning1
             "Have you got anything fun planned?":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
                 MC "Have you got anything fun planned for today, then?"
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Dad "Nothing much today. I’ll probably help your mom vacuum, later on."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     Dad "Nothing much today. I’ll probably help Linda vacuum, later on."
                 Dad "Tomorrow though, I’m gonna go to a lecture on fly fishing at the local library."
                 MC "Err… Wow! Sounds… exciting."
@@ -117,9 +119,9 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
 
     if d_ml_and_f_bedroom_mornig_scene_visit == 2 and d__can_ml_and_f_bedroom_mornig_scene == True:
         scene d_ml_and_f_bedroom_mornig_scene_v1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Hey, Dad!"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Hey, Bob!"
         scene d_ml_and_f_bedroom_mornig_scene_v1_p2
         Dad "Hey there, champ. What’s up?"
@@ -140,20 +142,19 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 jump parents_bedroom_morning1
             "{color=#00ff00}Can I borrow some more money?{/color}":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p3
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Could I borrow some more money, Dad?"
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Could I borrow some more money, Bob?"
                 Dad "What happened to the money I just lent you?"
                 MC "Err… I had to spend it on… essential school stuff."
                 Dad "Damn, schools are getting expensive nowadays!"
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p4
                 Dad "I haven’t had a chance to go to an ATM - so this is all I have on me right now."
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     MC "Thanks, Dad."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     MC "Thanks, Bob."
                 Dad "No problem, champ."
                 "+15$"
@@ -165,7 +166,6 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 $ can_hide_windows = False
                 jump parents_bedroom_morning1
             "How was that fly fishing lecture?":
-
 
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p3
                 MC "So, how was the fly fishing lecture?"
@@ -186,9 +186,9 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
 
     if d_ml_and_f_bedroom_mornig_scene_visit == 3 and d__can_ml_and_f_bedroom_mornig_scene == True:
         scene d_ml_and_f_bedroom_mornig_scene_v1_p1 with dissolve
-        if renpy.loadable("patch.rpy"):
+        if persistent.incest_patch == True:
             MC "Hi, Dad!"
-        if not renpy.loadable("patch.rpy"):
+        else:
             MC "Hi, Bob!"
         Dad "Hey, champ!"
         scene d_ml_and_f_bedroom_mornig_scene_v1_p2
@@ -196,16 +196,15 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
         menu:
             "{color=#00ff00}Could I borrow some more money?{/color}":
 
-
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p2
                 MC "Could I borrow some more money?"
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p3
                 Dad "Huh? Again?"
                 Dad "You should try finding a way to earn an honest living. It’s not good to just beg and beg."
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p6
-                if renpy.loadable("patch.rpy"):
+                if persistent.incest_patch == True:
                     Dad "I think your mother is always looking extra help, here and there. I’m sure she’d be happy to pay you for your time."
-                if not renpy.loadable("patch.rpy"):
+                else:
                     Dad "I think Linda is always looking extra help, here and there. I’m sure she’d be happy to pay you for your time."
                 MC "Aww, okay. Thanks anyway."
                 scene d_ml_and_f_bedroom_mornig_scene_v1_p5
@@ -217,3 +216,4 @@ label d_ml_and_f_bedroom_mornig_scene_v1_label:
                 $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
                 $ can_hide_windows = False
                 jump parents_bedroom_morning1
+

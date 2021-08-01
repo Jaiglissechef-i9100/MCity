@@ -1,6 +1,3 @@
-
-
-
 label beach_up_D1:
     hide screen displayTextScreen
     hide screen map
@@ -13,3 +10,4 @@ label beach_up_D1:
     show screen map_button
     show screen new_message_incoming1
     call screen beach_up_D_scr
+

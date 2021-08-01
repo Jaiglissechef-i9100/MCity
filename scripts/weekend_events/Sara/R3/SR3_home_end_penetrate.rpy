@@ -562,3 +562,4 @@ label SR3_we_home_end_penetrate_con2:
 screen message_alert:
     add Transform("images/game_gui/phone/NewMessage.png", zoom=.7) xpos 1600 ypos 400 at phone_pickup
     timer 1.5 action Hide("message_alert")
+

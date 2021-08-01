@@ -11,3 +11,4 @@ label kitchen_evening1:
     show screen new_message_incoming1
     hide screen kitchen_morning_notclickable
     call screen kitchen_evening
+

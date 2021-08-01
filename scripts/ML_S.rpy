@@ -5,13 +5,11 @@ default MLR3_AS1 = False
 
 default MLR2_MS1_active = True
 
-
 default MLR3_Linda_MS1 = False
 default MLR3_Linda_MS1_day = 1
 default MLR3_Linda_MS1_can = True
 default MLR3_Linda_MS1_q1 = True
 default MLR3_Linda_MS1_q2 = True
-
 
 default MLR3_Bob_MS1 = False
 default MLR3_Bob_MS1_q1 = True
@@ -65,3 +63,4 @@ default MLR3_AS2_event_can = False
 default headmaster_S1 = True
 default beach_money = True
 default can_violet_CR3 = True
+

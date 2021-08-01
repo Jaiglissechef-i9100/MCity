@@ -7,6 +7,10 @@ image MLR3_Bob_MS1_p6 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/B
 image MLR3_Bob_MS1_p7 = "/images/home/ml_and_f_bedroom/morning/scenes/MLR3_MS1/Bob/7.jpg"
 
 label MLR3_Bob_MS1:
+    if persistent.incest_patch == True:
+        $ Dad_name = __("Dad")
+    else:
+        $ Dad_name = "Bob"
     hide screen displayTextScreen
     hide screen map_button
     if MLR3_Bob_MS1_can == False:
@@ -55,7 +59,7 @@ label MLR3_Bob_MS1:
             Bob "Hello again, champ. Looking to chat with your old man?"
             MC "Yeah, you busy?"
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Bob "I can always spare some time for my favourite son."
             else:
                 Bob "I can always spare some time for you, [player_name]."
@@ -63,7 +67,12 @@ label MLR3_Bob_MS1:
 
             Bob "So, what’s up?"
             jump MLR3_Bob_MS1_menu
+
 label MLR3_Bob_MS1_menu:
+    if persistent.incest_patch == True:
+        $ Dad_name = __("Dad")
+    else:
+        $ Dad_name = "Bob"
     scene MLR3_Bob_MS1_p3
     menu:
         "{color=#00ff00}(Whisper) Is everything okay between you and [Mom_name]?{/color}" if MLR3_Bob_MS1_q2 == True:
@@ -105,8 +114,6 @@ label MLR3_Bob_MS1_menu:
             $ MLR3_Bob_MS1_q1 = False
             jump MLR3_Bob_MS1_menu
 
-
-
         "Any tips on dealing with stress, [Dad_name]?" if MLR3_Bob_MS1_q3 == True:
             scene MLR3_Bob_MS1_p7
 
@@ -136,7 +143,7 @@ label MLR3_Bob_MS1_menu:
             Bob "Ah… haha! Yes, that’s a very good question."
 
             scene MLR3_Bob_MS1_p5
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Bob "I was told to- I… volunteered to help out more around the house. Your mother was getting tired of having to do the cooking and the cleaning AND hold down a full time job."
             else:
                 Bob "I was told to- I… volunteered to help out more around the house. My wife was getting tired of having to do the cooking and the cleaning AND hold down a full time job."
@@ -158,3 +165,4 @@ label MLR3_Bob_MS1_menu:
             $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music1", loop=True, fadein = 2)
             $ can_hide_windows = False
             jump parents_bedroom_morning1
+

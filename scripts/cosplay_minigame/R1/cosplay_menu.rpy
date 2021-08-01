@@ -1,4 +1,5 @@
 image cosplay_menu_p1 = "images/cosplay_minigame/1/1.jpg"
+
 default cosplay_unlock_switch = 0
 default cosplay_score = 0
 default cosplay_pic_count = 0
@@ -11,6 +12,7 @@ default cosplay_outfit2_first_time = True
 default cosplay_outfit3_first_time = True
 default cosplay_outfit4_first_time = True
 default cosplay_outfit5_first_time = True
+
 label cosplay_menu_label:
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/MenuMusic.mp3', channel="music1", loop=True, fadein = 2)
@@ -88,9 +90,6 @@ screen cosplay_menu_screen:
         hover "images/cosplay_minigame/R3/Outfit_Close_hover.png"
         action [Hide ("cosplay_menu_screen"),Jump("cosplay_CR3_close")]
 
-
-
-
 screen cosplay_menu_score_screen:
     modal True
     imagebutton:
@@ -103,7 +102,7 @@ screen cosplay_menu_score_screen:
         text "{size=+25}{color=#00ff00}[cosplay_score]${/size}" xpos 1000 ypos 510
     if Caroline_points == 2:
         text "{size=+25}{color=#00ff00}0${/size}" xpos 1000 ypos 510
-        text "{color=#00ff00}(Deal with Caroline is active.)" xpos 780 ypos 600
+        text __("{color=#00ff00}(Deal with Caroline is active.)") xpos 780 ypos 600
     imagebutton:
         xpos 1679
         ypos 0
@@ -145,3 +144,4 @@ label cosplay_end_label:
         $ renpy.music.stop(channel="music1", fadeout=1)
         $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
         jump map_label
+

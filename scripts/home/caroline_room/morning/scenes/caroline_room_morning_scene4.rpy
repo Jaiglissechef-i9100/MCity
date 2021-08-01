@@ -16,9 +16,9 @@ label caroline_room_morning_scene4_label:
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music1", loop=True, fadein = 2)
     scene caroline_room_morning_scene4_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Caroline’s on her phone, but it looks like she’s just texting.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Caroline’s on her phone, but it looks like she’s just texting.)"
     MC "(Hopefully she’s in a better mood, now that I’ve helped out a bit!)"
     MC "Hey, Caroline!"
@@ -32,9 +32,9 @@ label caroline_room_morning_scene4_label:
 
     scene caroline_room_morning_scene4_p3
     Caroline "Thank you so much for everything you’ve done!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "You’re the best little brother in the whole world!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "You’re my best friend in the whole world.!"
     MC "Awww... Thanks, Caroline!"
 
@@ -49,3 +49,4 @@ label caroline_room_morning_scene4_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump caroline_room_morning1
+

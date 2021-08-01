@@ -8,3 +8,4 @@ label turn_off_label:
         jump mc_room_evening1
     if day_time == 4:
         jump mc_room_night1
+

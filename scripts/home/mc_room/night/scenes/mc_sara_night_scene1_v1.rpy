@@ -85,12 +85,12 @@ label mc_sara_night_scene1_v1_label:
     scene mc_sara_night_scene1_v1_p9
     Sara "I… wanted another…"
     Sara "Please forgive me. I’m sooo sorry! *Sob*"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Sara "I’ll- I’ll do anything! Just don’t tell Dad!"
 
         scene mc_sara_night_scene1_v1_p10
         MC "Hey - relax. I won’t tell Dad."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Sara "I’ll- I’ll do anything! Just don’t tell Bob!"
 
         scene mc_sara_night_scene1_v1_p10
@@ -140,9 +140,9 @@ label mc_sara_night_scene1_v1_label:
             scene mc_sara_night_scene1_v1_p18
             Sara "I- I- I can’t believe I just asked you that. G-Go back to sleep."
             Sara "Forget what I just said!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your brother!)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! )"
             MC "(Huh?! Women are strange…)"
             scene black
@@ -150,11 +150,10 @@ label mc_sara_night_scene1_v1_label:
             jump after_mc_sara_night_scene1_v1_choice
         "Stay silent.":
 
-
             scene mc_sara_night_scene1_v1_p17
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Sara "Because I think I like you… more than a brother..."
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Sara "Because I think I like you… more than a friend..."
             MC "…"
             Sara "(Please say yes…)"
@@ -165,9 +164,9 @@ label mc_sara_night_scene1_v1_label:
             $ renpy.music.play('/sfx/Fork_and_Spoon.mp3', channel="music2", loop=True, fadein = 2)
             scene mc_sara_night_scene1_v1_p18
             Sara "N-Nevermind! I- Forget I asked you about it!"
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your brother!)"
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Sara "(Stupid, Sara! How could he ever love a nerdy virgin like you?! And he’s your friend!)"
             Sara "(You shouldn’t have put him in that position! You could ruin your relationship with him!)"
             MC "Are you okay, Sara?"
@@ -191,7 +190,6 @@ label after_mc_sara_night_scene1_v1_choice:
     $ can2_sis_nerdy_school_scene3_v1 = True
     $ sis_nerdy_school_scene3_v1 = 1
     $ can_lily_scene = False
-
 
     $ can_ml_work_day_scene1 = True
     $ can_school_intercom = True
@@ -331,7 +329,6 @@ label after_mc_sara_night_scene1_v1_choice:
         $ LiR1_MAS8 = True
     $ can2_LiR1_NS = True
 
-
     if CR3_MS2_can == True and CR3_deal_aff == True:
         $ CR3_MS1 = False
         $ CR3_MS2 = True
@@ -344,7 +341,6 @@ label after_mc_sara_night_scene1_v1_choice:
         $ CR3_MS1_q5 = True
         $ CR3_MS1_q6 = True
         $ CR3_MS1_can = False
-
 
     if celia_school_morning_scene2v1 == 1 and can1_celia_school_morning_scene2v1 == True:
         $ can1_celia_school_morning_scene2v1 = False
@@ -525,3 +521,4 @@ label after_mc_sara_night_scene1_v1_choice:
             jump SR2_swimming_card_label
         else:
             jump mc_room_morning1
+

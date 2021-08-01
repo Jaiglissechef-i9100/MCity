@@ -5,9 +5,9 @@ label ml_room_fj_v1:
 
     scene ml_bedroom_morning_scene6_v1_p1 with dissolve
     $ can_hide_windows = True
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Hey, Mom. I’m here to talk to you about… the thing from yesterday."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Hey, Linda. I’m here to talk to you about… the thing from yesterday."
     Mom "(Gulp) Y-Yes?"
     MC "Is now a good time for you? Or do you want me to come back later?"
@@ -16,10 +16,10 @@ label ml_room_fj_v1:
     scene ml_bedroom_morning_scene6_v1_p2
     menu:
         "I love you too.":
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Mom, I… I love you too."
                 MC "And not just in the way a son normally loves his Mom. I mean, I really love you."
-            if not renpy.loadable("patch.rpy"):
+            else:
                 MC "Linda, I… I love you too."
                 MC "And not just in the way a friend normally loves his friend. I mean, I really love you."
             jump ml_bedroom_morning_scene6_v1_label_after_ch1r
@@ -31,19 +31,20 @@ label ml_room_fj_v1:
             jump ml_bedroom_morning_scene6_v1_label_after_ch1r
         "You should have told me sooner.":
 
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 MC "Mom… You really should have told me sooner."
-            if not renpy.loadable("patch.rpy"):
+            else:
                 MC "Linda… You really should have told me sooner."
             MC "You said that you’ve always felt this way. If I’d known, then I would have been able to understand, why you were acting the way you were."
             MC "Everything would have made sense."
             jump ml_bedroom_morning_scene6_v1_label_after_ch1r
+
 label ml_bedroom_morning_scene6_v1_label_after_ch1r:
 
     scene ml_bedroom_morning_scene6_v1_p3
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Anyway, I should go now. But… I really do love you, Mom. "
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Anyway, I should go now. But… I really do love you, Linda. "
     MC "And I might be interested in… doing some of the… um…. stuff… that..."
     MC "Sorry, I’m getting all nervous and stumbling over my words. I should just go."
@@ -52,9 +53,9 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
     Mom "Don’t go! Please!"
     MC "Wow!"
     Mom "S-Sorry, I didn’t mean to frighten you."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "I was… just, so sure that you were going to tell me, that you only loved me like a mother."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "I was… just, so sure that you were going to tell me, that you only loved me like a friend."
     Mom "I was scared that I might have pushed you away, with those silly games I made you play."
     Mom "I know everything’s moving quite fast… but if you want, we could be intimate together, in our underwear. How does that sound?"
@@ -71,9 +72,9 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
     scene ml_bedroom_morning_scene6_v1_p6
     Mom "Well? What do you think?"
     Mom "(I hope he likes my body… I know I’m not THAT young anymore…)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Wow… You’re stunning, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Wow… You’re stunning, Linda."
 
     scene ml_bedroom_morning_scene6_v1_p7
@@ -116,9 +117,9 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
     Mom "(I’d love to take his cock in my mouth right now, and suck on it until he came.)"
 
     scene ml_bedroom_morning_scene6_v1_p14
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Ahh… M-Mom..."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Ahh… L-Linda..."
     MC "(She’s being so gentle with her tongue…)"
 
@@ -128,16 +129,16 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
     Mom "(He’s clearly enjoying me flicking my tongue over them.)"
 
     scene ml_bedroom_morning_scene6_v1_p16
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(I’m so hard right now… I can’t believe, Mom was this attracted to me for so long.)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(I’m so hard right now… I can’t believe, Linda was this attracted to me for so long.)"
     MC "(I wonder if this was one of the fantasies she had, about me and her?)"
 
     scene ml_bedroom_morning_scene6_v1_p16a
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Ooh... Oh, Mom!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Ooh... Oh, Linda!"
     Mom "Do you like it when I kiss your neck like this?"
     MC "Yes…"
@@ -149,7 +150,7 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
 
     scene ml_bedroom_morning_scene6_v1_p18
     menu:
-        "Give Mom a foot massage to begin." if renpy.loadable("patch.rpy"):
+        "Give Mom a foot massage to begin." if persistent.incest_patch == True:
 
             scene ml_bedroom_morning_scene6_v1_p19a
             MC "You’ve got beautiful feet."
@@ -166,7 +167,7 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
             Mom "God… your fingers are amazing."
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
 
-        "Give Linda a foot massage to begin." if not renpy.loadable("patch.rpy"):
+        "Give Linda a foot massage to begin." if persistent.incest_patch == False:
 
             scene ml_bedroom_morning_scene6_v1_p19a
             MC "You’ve got beautiful feet."
@@ -183,15 +184,16 @@ label ml_bedroom_morning_scene6_v1_label_after_ch1r:
             Mom "God… your fingers are amazing."
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
 
-        "Start with Mom’s hips, and work up her body" if renpy.loadable("patch.rpy"):
+        "Start with Mom’s hips, and work up her body" if persistent.incest_patch == True:
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
-        "Start with Linda’s Hips, and work up her body" if not renpy.loadable("patch.rpy"):
+        "Start with Linda’s Hips, and work up her body" if persistent.incest_patch == False:
             jump ml_bedroom_morning_scene6_v1_label_after_ch21r
+
 label ml_bedroom_morning_scene6_v1_label_after_ch21r:
     scene ml_bedroom_morning_scene6_v1_p20
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Can you spread your legs a little more, Mom?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Can you spread your legs a little more, Linda?"
     Mom "Of course. Like this?"
     MC "Perfect."
@@ -224,12 +226,13 @@ label ml_bedroom_morning_scene6_v1_label_after_ch21r:
     Mom "I can already feel your hard cock, pressing against my black panties."
     Mom "Sadly, I have to go. If I spend, another minute in bed, I’ll be late for work."
     Mom "I’ll see you tonight, Sweetie."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I love you, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "I love you, Linda."
     Mom "I love you too."
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump pc_icon_label
+

@@ -1,4 +1,3 @@
-
 label caroline_room_locked_label:
     show screen corridor_night_notclickable
     hide screen week_day_viewer
@@ -16,3 +15,4 @@ label caroline_room_locked_label:
     if caroline_can_door_locked == True and caroline_door_locked_visit == 2:
         MC "It’s locked just as before! As far as I remember, she should have her spare key in the shop!"
         jump corridor_night1
+

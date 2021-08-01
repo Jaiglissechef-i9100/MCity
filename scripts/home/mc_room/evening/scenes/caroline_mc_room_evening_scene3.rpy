@@ -31,6 +31,7 @@ image caroline_mc_room_evening_scene3_p28 = "images/home/mc_room/evening/scenes/
 image caroline_mc_room_evening_scene3_p14anim = Movie(play="videos/Caroline-EveningS3-Violet2.webm", loop = True )
 image caroline_mc_room_evening_scene3_p21anim = Movie(play="videos/Caroline-EveninS3-3.webm", loop = True )
 image caroline_mc_room_evening_scene3_p24anim = Movie(play="videos/Caroline-EveninS3-2.webm", loop = True )
+
 label caroline_mc_room_evening_scene3_label:
     hide screen week_day_viewer
     hide screen time_skip_button
@@ -80,9 +81,9 @@ label caroline_mc_room_evening_scene3_label:
     scene caroline_mc_room_evening_scene3_p8
     Violet "Well? Are you ready? I have places to be."
     MC "S-Sure!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "What deal did you make with my sister, by the way?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "What deal did you make with Caroline, by the way?"
     Violet "She owes me one. I’ll probably end up making her suck off one of my male friends, just to even the score."
 
@@ -193,18 +194,18 @@ label caroline_mc_room_evening_scene3_label:
     Violet "Just one more question - do you prefer me or Caroline?"
 
     scene caroline_mc_room_evening_scene3_p27
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Come on - I can’t answer that. She’s my sister."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Come on - I can’t answer that. She’s my friend."
     Violet "Sure you can!"
     MC "(Sigh…) You’re hot, but… Caroline’s more of my type. She’s really gorgeous."
 
     scene caroline_mc_room_evening_scene3_p28
     Caroline "(Gasp!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Caroline "([player_name] is actually… attracted to me. It’s not just the costume I was wearing!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Caroline "(My friend is actually… attracted to me. It’s not just the costume I was wearing!)"
     Caroline "(What the Hell am I supposed to do now? Is it even fair of me, to let him keep taking pictures of me? Or is that just torturing him?)"
     $ caroline_mc_room_evening_scene3 = False
@@ -214,3 +215,4 @@ label caroline_mc_room_evening_scene3_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump mc_room_morning1
+

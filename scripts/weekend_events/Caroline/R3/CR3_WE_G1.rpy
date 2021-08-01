@@ -29,7 +29,7 @@ label CR3_WE_G1_label:
     Juliett "Hi, I’m Juliett. What brings you out tonight?"
 
     $ Juliett_name = "Juliett"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I’m out, celebrating with my sister."
     else:
         MC "I’m out, celebrating with my roomate."
@@ -68,3 +68,4 @@ label CR3_WE_G1_label:
     $ renpy.music.play('/sfx/Disco_Medusae.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump night_club_we_label
+

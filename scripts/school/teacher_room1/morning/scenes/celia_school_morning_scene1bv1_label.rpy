@@ -54,3 +54,4 @@ label celia_school_morning_scene1bv1_label:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump teacher_room1_morning2
+

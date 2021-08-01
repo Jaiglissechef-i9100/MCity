@@ -59,6 +59,7 @@ image before_intro3a = "/images/intro/before/3a.jpg"
 image before_intro3b = "/images/intro/before/3b.jpg"
 image before_intro4 = "/images/intro/before/4.jpg"
 define flash = Fade(.25, 0.0, .75, color="#fff")
+
 define Judy = Character("[Judy_name]", color="#993333")
 define MC = Character("[player_name]", color="#3366FF")
 define Sara = Character("[Sara_name]", color="#00FFCC")
@@ -133,9 +134,9 @@ label intro:
     $ player_name = player_name.strip()
     if player_name == "":
         $ player_name="MC"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "And the person living with, is… Linda?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "And your mother is… Linda?"
     MC "Yes, that’s her."
 
@@ -170,9 +171,9 @@ label intro:
     Judy "But running away from this won’t fix anything. Please, help me to help you. Take a seat. Let’s talk things through."
     Judy "You can trust me."
     MC "(Sigh)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Fine... Don’t send that letter to the headmaster though - my mom will kill me."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Fine... Don’t send that letter to the headmaster though - Linda will kill me."
     Judy "(I know she would. Linda would be raging if you will be kicked out of school.)"
     Judy "I’m glad you changed your mind. Take a seat. Let’s start at the beginning."
@@ -276,9 +277,9 @@ label q2_intro:
                 jump q2_intro
         "Tell her about Sara’s school life." if a2 ==True:
             MC "She’s top of her class in Maths, Biology and Chemistry. I think she actually wants to become a Computer Scientist someday."
-            if renpy.loadable("patch.rpy"):
+            if persistent.incest_patch == True:
                 Judy "She sounds very intelligent. You must be very proud to have her as a sister."
-            if not renpy.loadable("patch.rpy"):
+            else:
                 Judy "She sounds very intelligent. You must be very proud to have her."
             MC "I guess so. I’ve never really thought about it. "
             $ a2 = False
@@ -300,24 +301,24 @@ label after_q2_intro:
     scene intro17
     Judy "Thank you for answering my question. My next one might… be a little awkward, but we are going to have to delve into some Freudian psychoanalysis techniques."
     MC "Psycho-what?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Freudian Psychoanalysis. Tell me, [player_name], do you find your sister, Sara, sexually attractive?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Freudian Psychoanalysis. Tell me, [player_name], do you find Sara, sexually attractive?"
     scene intro16
     MC "Wh-What?!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Do you think your sister is sexy?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Do you think Sara is sexy?"
     MC "I- How- This isn’t an appropriate question!"
 
     scene intro17
     Judy "I assure you, it absolutely is. Freudian Psychology delves into the nature of human sexuality. "
     Judy "Given the nature of this incident, which brought you to me, a sexualisised element of psychology is most definitely relevant."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "But… She’s my sister…"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "But… She’s my very close friend…"
     Judy "How often do you fantasise about having sex with Sara?"
 
@@ -329,9 +330,9 @@ label after_q2_intro:
     scene intro18
     Judy "Understandable. You are still in the early stages of your treatment. It may take you some time to fully open up. "
     Judy "It is essential that you are honest with me, if you want to completely heal."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Sigh) Fine. I guess I’ve… maybe… fantasised about my sisters, a couple of times."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Sigh) Fine. I guess I’ve… maybe… fantasised about Sara, a couple of times."
     Judy "Interesting..."
     Judy "We can return to this subject-matter another time. For now, please tell me what happened next, on the day of the incident."
@@ -346,14 +347,16 @@ label after_q2_intro:
     MC "(I think she’s already started walking, ten minutes ago. I shouldn’t have spent so long in the shower!)"
 
     scene intro20
-    if not renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
+        $ Mom_name = __("Mom")
+    else:
         $ Mom_name = "Linda"
     Mom "Where are you rushing off to?"
     MC "I’m gonna be late for school!"
     Mom "Have you not forgotten to say good morning to someone?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Morning, Mom! I’ll see you late-"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Morning, Linda! I’ll see you late-"
     scene intro21
     Mom "Oh, come on. You’ve got time to greet me properly."
@@ -366,7 +369,7 @@ label after_q2_intro:
     Mom "Then come over and give me a kiss, at the very least."
     MC "Fine, no problem."
     Mom "On the lips."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Seriously, Mom? NOBODY my age kisses their mom on the lips anymore! If anyone found out, they would laugh me out of the school!"
     else:
         MC "Seriously, Linda NOBODY my age kisses a lot older woman on the lips! If anyone found out, they would laugh me out of the school!?"
@@ -376,7 +379,7 @@ label choice1_intro:
     $ kiss_mom_cheek=False
     $ kiss_mom_lips=False
     menu:
-        "Kiss Mom on the cheek." if renpy.loadable("patch.rpy"):
+        "Kiss Mom on the cheek." if persistent.incest_patch == True:
 
             $ kiss_mom_cheek=True
             scene intro23
@@ -387,7 +390,7 @@ label choice1_intro:
             Mom "Hmmpf!"
             Mom "(Why won’t he kiss me?! It’s not like any of his classmates are around to see him do it…)"
             jump after_choice1_intro
-        "Kiss Mom on the lips." if renpy.loadable("patch.rpy"):
+        "Kiss Mom on the lips." if persistent.incest_patch == True:
 
             $ kiss_mom_lips=True
             scene intro24
@@ -403,7 +406,7 @@ label choice1_intro:
             Mom "Mmm…"
             Mom "(God… I wish I could just pin him down to the bed and make out with him.)"
             jump after_choice1_intro
-        "Kiss Linda on the cheek." if not renpy.loadable("patch.rpy"):
+        "Kiss Linda on the cheek." if persistent.incest_patch == False:
 
             $ kiss_mom_cheek=True
             scene intro23
@@ -414,7 +417,7 @@ label choice1_intro:
             Mom "Hmmpf!"
             Mom "(Why won’t he kiss me?! It’s not like any of his classmates are around to see him do it…)"
             jump after_choice1_intro
-        "Kiss Linda on the lips." if not renpy.loadable("patch.rpy"):
+        "Kiss Linda on the lips." if persistent.incest_patch == False:
 
             $ kiss_mom_lips=True
             scene intro24
@@ -434,9 +437,9 @@ label choice1_intro:
 label after_choice1_intro:
 
     scene intro22
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "I’ll see you later, Mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "I’ll see you later, Linda."
     Mom "See you tonight, Sweetpea!"
     Mom "(Ooh… I’m starting to get wet, just thinking about making out with him.)"
@@ -447,9 +450,9 @@ label after_choice1_intro:
 
     scene intro27 with dissolve
     $ renpy.music.play('/sfx/Deadly_Roulette.mp3', channel="music2", loop=True, fadein = 2)
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Your mother sounds like a very interesting person. She clearly cares about you, an awful lot."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Linda sounds like a very interesting person. She clearly cares about you, an awful lot."
     MC "Yeah, I guess she does."
     Judy "We’ll come back to talk about HER later. For now though, please tell me about the incident."
@@ -482,6 +485,7 @@ label after_choice1_intro:
     Celia "Hehehehe!"
 
     show intro31 with hpunch
+    $ Students_name = __("Students")
     Students "Did he just ask her out?!"
     Students "Oh, my God! He did!"
     Students "I’d be mortified if that happened to me!"
@@ -510,14 +514,14 @@ label after_choice1_intro:
 
     scene intro33
     Judy "Thank you for being honest. Let’s talk more about Mrs. Celia later. For now, could you tell me what happened after?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Let me think… I… I went and stole my sister’s whiskey from her room."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Let me think… I… I went and stole my friend’s whiskey from her room."
     Judy "Sara has whiskey in her bedroom? (This sounds like something I should report to the headmaster.)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "No, this was my older sister, Caroline."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "No, this was my older friend, Caroline."
     Judy "(Oh, thank God)"
     $ renpy.music.stop(channel="music2", fadeout=2)
@@ -569,9 +573,9 @@ label after_choice1_intro:
     MC "Yeah…"
     Judy "A lot of patients have said similar things."
     Judy "Tell me - what happened to bring you out of this slump?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "My mom. She came into my room, that evening - I hadn’t shown up for family dinner."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Linda. She came into my room, that evening - I hadn’t shown up for dinner."
 
     $ renpy.music.stop(channel="music2", fadeout=2)
@@ -588,9 +592,9 @@ label after_choice1_intro:
     scene intro40
     "(Knock Knock)"
     Mom "Hey there, Sweetpea. What’s wrong? You’re looking glum."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "It’s nothing, Mom. I’m fine."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "It’s nothing, Linda. I’m fine."
     Mom "You don’t look fine. And it stinks of alcohol in here. Have you been drinking?"
     MC "Just a bit…"
@@ -598,13 +602,13 @@ label after_choice1_intro:
 
     scene intro41
     Mom "Caroline told me, everything that happened in school today. She was worried about you and went to speak to Sara. "
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "It seems, everybody in this family knows what happened, before me. I was hoping you’d open-up to me."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "It seems, everybody here knows what happened, before me. I was hoping you’d open-up to me."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "Mom?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "Linda?"
     Mom "Yes, Sweetpea?"
     MC "Am… Am I ugly?"
@@ -613,39 +617,39 @@ label after_choice1_intro:
     Mom "What?! Who told you that?"
     MC "Nobody... But I feel like I am."
     Mom "You’re a very handsome young man."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(Sigh) You have to say that - You’re my mom."
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(Sigh) You have to say that."
     Mom "Look at me, [player_name]."
 
     scene intro43
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Mom "You’re not ugly. And I’m not saying that, just because I’m your mom. If anything, it means - even more - when it comes from me. I think you are incredibly handsome."
         MC "...thanks, Mom. I still don’t believe it’s true though."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Mom "You’re not ugly. I think you are incredibly handsome."
         MC "...thanks, Linda. I still don’t believe it’s true though."
     scene intro44
     MC "Mmpff!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(What the heck, Mom?!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(What the heck, Linda?!)"
     Mom "Mmm!"
 
     scene intro45
     Mom "(Holy shit! I can’t believe I just did that!)"
     Mom "(I completely lost control, and let my lust take over!)"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "(What’s Mom doing?!)"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "(What’s Linda doing?!)"
     scene intro46
     MC "Wh-What was THAT for?!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "M-Mom! You just kissed me!?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "L-Linda! You just kissed me!?"
     if kiss_mom_cheek == True:
         Mom "Well, you owed me a proper kiss, since you only pecked me on the cheek this morning."
@@ -685,68 +689,68 @@ label after_conditional_mom_kiss_cheek_lips_intro:
     Judy "Trust me though - with regular therapy sessions, we will get you through this."
     Judy "You are clearly - (ahem) - WERE clearly attracted to Mrs. Celia. I was wondering - does this attraction apply to other women, of a similar age?"
     MC "Uhh… like who?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Oh, I don’t know... How about… your mother?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Oh, I don’t know... How about… Linda?"
     scene intro51
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "What?! Are you asking me if I’m attracted to my mother?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "What?! Are you asking me if I’m attracted to Linda?"
     Judy "You did just tell me you were, kissing her while lying down on your bed."
     MC "She was the one who kissed me!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Ahh, so you pushed your mom away when she tried to kiss you?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Ahh, so you pushed her away when she tried to kiss you?"
     MC "N-Not exactly- but-"
 
     scene intro1
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "So, let me ask you the question again. Do you have sexual fantasies about your mother?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "So, let me ask you the question again. Do you have sexual fantasies about Linda?"
     MC "No!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Why not? You stated you were attracted to your sister, Sara."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Why not? You stated you were attracted to Sara."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "It doesn’t matter - even if I did like her, I wouldn’t do anything! She’s my mother! It’s just… weird. Y’know?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "It doesn’t matter - even if I did like her, I wouldn’t do anything! She’s my friend! It’s just… weird. Y’know?"
     scene intro15
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "You seem like a good-natured boy. Obviously, you want what’s best for your family, right? You want them to be happy?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "You seem like a good-natured boy. Obviously, you want what’s best for your friends, right? You want them to be happy?"
     MC "Of course?"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "What if that meant, accepting your mother as a romantic partner? What if that is, what was required, to really make your mother happy?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "What if that meant, accepting Linda as a romantic partner? What if that is, what was required, to really make her happy?"
     MC "What kind of questions are these?!"
     Judy "I already told you, it’s Freudian Psychology. Feel free to read about it in the school library, if you don’t believe me."
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "So, let me rephrase. If you had the opportunity to fuck your mother, would you take it? "
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "So, let me rephrase. If you had the opportunity to fuck Linda, would you take it? "
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "We’ve already established that you want to make your mom happy. And it’s pretty obvious, you want to get laid. Is this not a win-win situation?"
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "We’ve already established that you want to make Linda happy. And it’s pretty obvious, you want to get laid. Is this not a win-win situation?"
     scene intro16
     MC "I… No! I’ve never thought about her like that!"
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         MC "She’s my mother! I’ve already said that I wouldn’t do anything with her!"
-    if not renpy.loadable("patch.rpy"):
+    else:
         MC "She’s my friend! I’ve already said that I wouldn’t do anything with her!"
 
     scene intro52
-    if renpy.loadable("patch.rpy"):
+    if persistent.incest_patch == True:
         Judy "Interesting... I think that will do for today’s session. I’m going to ask you to visit me again, if anything noteworthy happens between you and your mother. Or even, perhaps, your sisters."
-    if not renpy.loadable("patch.rpy"):
+    else:
         Judy "Interesting... I think that will do for today’s session. I’m going to ask you to visit me again, if anything noteworthy happens between you and Linda. Or even, perhaps, your friends."
     MC "Noteworthy? Like what?"
     Judy "I’m sure you’ll recognise, something noteworthy, when it happens."
@@ -774,3 +778,4 @@ label after_conditional_mom_kiss_cheek_lips_intro:
     show screen time_skip_button
     show screen day_time_viewer
     jump mc_room_morning1
+

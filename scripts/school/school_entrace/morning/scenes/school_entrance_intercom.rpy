@@ -1,5 +1,6 @@
 image school_intercom_p1 = "images/school/school_entrance/morning/scenes/intercom/1.jpg"
 image school_intercom_p2 = "images/school/school_entrance/morning/scenes/intercom/2.jpg"
+
 default can_school_intercom = True
 
 label school_entrance_intercom_label:
@@ -19,3 +20,4 @@ label school_entrance_intercom_label:
     $ can_school_intercom = False
     $ can_hide_windows = False
     jump school_entrance_morning2
+

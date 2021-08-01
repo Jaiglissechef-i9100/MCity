@@ -1,7 +1,6 @@
 image a_living_bg_M = "/images/a_home/Inside/Living/M/1.jpg"
 default Li_key_first_time = True
 
-
 label a_living_M1:
 
     if Li_door_locked == True:
@@ -57,7 +56,6 @@ label a_living_M2:
     show screen new_message_incoming1
     call screen a_living_M_scr
 
-
 label a_living_M1_locked:
     hide screen map_button
     if LiR1_NS3 == True and Li_key1 in inventory.items:
@@ -72,9 +70,6 @@ label a_living_M1_locked:
         "*Creeeaaak*"
         $ renpy.pause(0.14, hard = True)
 
-
-
-
         MC "(Perfect!)"
         MC "(The hinges are a little loud - but at least I’m in now.)"
         $ clickable = True
@@ -86,3 +81,4 @@ label a_living_M1_locked:
         MC "It's locked. I need a key to go inside."
         $ clickable = True
         jump a_home_outside_M1
+

@@ -15,3 +15,4 @@ label Table_morning_Classroom_v1_label:
         hide screen classroom2_morning
         $ clickable = True
         jump classroom2_morning2
+

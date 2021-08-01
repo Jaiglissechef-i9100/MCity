@@ -13,6 +13,10 @@ label headmaster_S1:
     hide screen map_button
     $ renpy.music.stop(channel="music2", fadeout=1)
     $ renpy.music.play('/sfx/Doobly Doo.mp3', channel="music1", loop=True, fadein = 2)
+    if persistent.incest_patch == True:
+        $ Headmaster_name = __("Headmaster")
+    else:
+        $ Headmaster_name = __("Headmaster")
 
     $ clickable = False
     if day_time == 1:
@@ -84,3 +88,4 @@ label headmaster_S1:
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
     $ can_hide_windows = False
     jump school_corridor3_morning1
+

@@ -1,10 +1,7 @@
-
-
 label beach_shop_E1:
 
     hide screen displayTextScreen
     hide screen map
-
 
     show screen week_day_viewer
     show screen time_skip_button
@@ -12,3 +9,4 @@ label beach_shop_E1:
     show screen map_button
     show screen new_message_incoming1
     call screen beach_shop_E_scr
+
